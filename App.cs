@@ -248,15 +248,15 @@ public class BingWallpaperApp
             }
 
             // 设置收集天数
-            if (int.TryParse(collectDays, out var days) && days >= 1 && days <= MaxHistoryDays)
+            if (int.TryParse(collectDays, out var autoDays) && autoDays >= 1 && autoDays <= MaxHistoryDays)
             {
-                config.DaysToCollect = days;
+                config.DaysToCollect = autoDays;
             }
 
             // 设置并发请求数
-            if (int.TryParse(concurrentRequests, out var concurrent) && concurrent >= 1 && concurrent <= 5)
+            if (int.TryParse(concurrentRequests, out var autoConcurrent) && autoConcurrent >= 1 && autoConcurrent <= 5)
             {
-                config.MaxConcurrentRequests = concurrent;
+                config.MaxConcurrentRequests = autoConcurrent;
             }
 
             // 设置JSON格式
