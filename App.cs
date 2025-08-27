@@ -392,7 +392,16 @@ public class BingWallpaperApp
         }
 
         await Task.WhenAll(collectTasks);
-        _logger.LogInformation("{Country} 的壁纸信息收集完成", marketCode.ToString());
+        
+        // 检查收集结果统计
+        var countryDir = Path.Combine(_dataDirectory, marketCode.ToString());
+        var fileCount = 0;
+        if (Directory.Exists(countryDir))
+        {
+            fileCount = Directory.GetFiles(countryDir, "*.json", SearchOption.AllDirectories).Length;
+        }
+        
+        _logger.LogInformation("✅ {Country} 的壁纸信息收集完成 - 共有 {FileCount} 个文件", marketCode.ToString(), fileCount);
     }
 
     /// <summary>
@@ -532,7 +541,7 @@ public class BingWallpaperApp
             // 检查文件是否已存在
             if (File.Exists(filePath))
             {
-                _logger.LogDebug("JSON文件已存在，跳过保存: {FilePath}", filePath);
+                _logger.LogInformation("📋 JSON文件已存在，跳过保存: {Country} - {Date}", marketCode.ToString(), dateStr);
                 return;
             }
 

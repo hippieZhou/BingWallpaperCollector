@@ -1,0 +1,177 @@
+name: 强制收集所有国家今日壁纸
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_overwrite:
+        description: '强制覆盖已存在的文件'
+        required: false
+        default: false
+        type: boolean
+      collect_days:
+        description: '收集天数 (1-8)'
+        required: false
+        default: '1'
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  force-collect-all:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        country: [
+          China, UnitedStates, UnitedKingdom, Japan, 
+          Germany, France, Spain, Italy, Russia, 
+          SouthKorea, Brazil, Australia, Canada, India
+        ]
+      fail-fast: false  # 不因单个国家失败而停止其他国家
+
+    steps:
+    - name: 检出代码库
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 设置 .NET 9.0
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: "9.0.x"
+
+    - name: 恢复依赖包和构建
+      run: |
+        echo "=== 构建项目 ==="
+        dotnet restore
+        dotnet build --configuration Release --no-restore
+        echo "✅ 构建完成"
+
+    - name: 检查 ${{ matrix.country }} 现有数据
+      run: |
+        echo "=== ${{ matrix.country }} 现有数据检查 ==="
+        if [ -d "BingWallpaperData/${{ matrix.country }}" ]; then
+          echo "✅ ${{ matrix.country }} 目录存在"
+          echo "现有文件:"
+          find BingWallpaperData/${{ matrix.country }} -name "*.json" | head -10
+          echo ""
+          echo "文件总数: $(find BingWallpaperData/${{ matrix.country }} -name "*.json" | wc -l)"
+        else
+          echo "📁 ${{ matrix.country }} 目录不存在，将创建新目录"
+        fi
+
+    - name: 删除今日数据（如果强制覆盖）
+      if: github.event.inputs.force_overwrite == 'true'
+      run: |
+        TODAY=$(date +'%Y-%m-%d')
+        echo "=== 强制覆盖模式：删除 ${{ matrix.country }} 今日 ($TODAY) 数据 ==="
+        if [ -d "BingWallpaperData/${{ matrix.country }}/$TODAY" ]; then
+          rm -rf "BingWallpaperData/${{ matrix.country }}/$TODAY"
+          echo "✅ 已删除 ${{ matrix.country }}/$TODAY 目录"
+        else
+          echo "📂 ${{ matrix.country }}/$TODAY 目录不存在，无需删除"
+        fi
+
+    - name: 收集 ${{ matrix.country }} 壁纸信息
+      run: |
+        echo "=== 开始收集 ${{ matrix.country }} 壁纸信息 ==="
+        dotnet run --configuration Release
+        echo "=== ${{ matrix.country }} 程序执行完成 ==="
+      env:
+        AUTO_MODE: "true"
+        COLLECT_ALL_COUNTRIES: "false"
+        TARGET_COUNTRY: "${{ matrix.country }}"
+        COLLECT_DAYS: "${{ github.event.inputs.collect_days }}"
+        CONCURRENT_REQUESTS: "1"
+        JSON_FORMAT: "pretty"
+
+    - name: 详细检查 ${{ matrix.country }} 收集结果
+      run: |
+        echo "=== ${{ matrix.country }} 收集结果详细检查 ==="
+        
+        if [ -d "BingWallpaperData/${{ matrix.country }}" ]; then
+          echo "✅ ${{ matrix.country }} 目录存在"
+          
+          # 显示所有JSON文件
+          echo "所有JSON文件:"
+          find BingWallpaperData/${{ matrix.country }} -name "*.json" | sort
+          
+          # 检查今日文件
+          TODAY=$(date +'%Y-%m-%d')
+          if [ -f "BingWallpaperData/${{ matrix.country }}/$TODAY/wallpaper_info.json" ]; then
+            echo ""
+            echo "✅ ${{ matrix.country }} 今日 ($TODAY) 数据存在"
+            echo "文件大小: $(wc -c < "BingWallpaperData/${{ matrix.country }}/$TODAY/wallpaper_info.json") 字节"
+            echo "标题预览:"
+            grep -o '"Title"[^,]*' "BingWallpaperData/${{ matrix.country }}/$TODAY/wallpaper_info.json" || echo "无法获取标题"
+          else
+            echo ""
+            echo "❌ ${{ matrix.country }} 今日 ($TODAY) 数据不存在"
+            echo "可能原因: 1) API无数据 2) 网络问题 3) 文件已存在被跳过"
+          fi
+          
+          echo ""
+          echo "总文件数: $(find BingWallpaperData/${{ matrix.country }} -name "*.json" | wc -l)"
+        else
+          echo "❌ ${{ matrix.country }} 目录不存在 - 收集失败"
+        fi
+
+    - name: 提交 ${{ matrix.country }} 数据（如有变更）
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        echo "=== 检查 ${{ matrix.country }} Git 状态 ==="
+        
+        # 只检查当前国家的变更
+        CHANGES=$(git status --porcelain "BingWallpaperData/${{ matrix.country }}" 2>/dev/null || echo "")
+        
+        if [ -n "$CHANGES" ]; then
+          echo "✅ ${{ matrix.country }} 发现以下文件变更:"
+          echo "$CHANGES"
+          
+          # 只添加当前国家的文件
+          git add "BingWallpaperData/${{ matrix.country }}/"
+          echo "已添加 ${{ matrix.country }} 文件到暂存区"
+          
+          # 统计文件数量
+          FILE_COUNT=$(echo "$CHANGES" | wc -l)
+          
+          git commit -m "🌍 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')" \
+                     -m "📊 更新了 ${FILE_COUNT} 个 ${{ matrix.country }} 文件" \
+                     -m "🤖 强制收集模式执行"
+          echo "已创建 ${{ matrix.country }} 提交"
+          
+          git push
+          echo "✅ ${{ matrix.country }} 数据已推送到远程仓库"
+        else
+          echo "ℹ️ ${{ matrix.country }} 没有发现文件变更"
+          echo "原因: 数据已存在或收集失败"
+        fi
+
+    - name: 生成 ${{ matrix.country }} 收集报告
+      if: always()
+      run: |
+        echo "## 📊 ${{ matrix.country }} 收集报告" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**执行时间:** $(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "**收集天数:** ${{ github.event.inputs.collect_days }}" >> $GITHUB_STEP_SUMMARY
+        echo "**强制覆盖:** ${{ github.event.inputs.force_overwrite }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ -d "BingWallpaperData/${{ matrix.country }}" ]; then
+          FILE_COUNT=$(find BingWallpaperData/${{ matrix.country }} -name "*.json" | wc -l)
+          echo "✅ **状态:** 成功 ($FILE_COUNT 个文件)" >> $GITHUB_STEP_SUMMARY
+          
+          # 检查今日数据
+          TODAY=$(date +'%Y-%m-%d')
+          if [ -f "BingWallpaperData/${{ matrix.country }}/$TODAY/wallpaper_info.json" ]; then
+            echo "🆕 **今日数据:** 存在" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⏭️ **今日数据:** 不存在（可能已有或API无数据）" >> $GITHUB_STEP_SUMMARY
+          fi
+        else
+          echo "❌ **状态:** 失败 - 未创建任何文件" >> $GITHUB_STEP_SUMMARY
+        fi
