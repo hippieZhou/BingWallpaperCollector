@@ -2,7 +2,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.Logging;
 
-namespace BingWallpaperDownloader;
+namespace BingWallpaperCollector;
 
 /// <summary>
 /// 必应壁纸信息类（原始API数据）

@@ -5,9 +5,9 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyTitle>Bing Wallpaper Downloader</AssemblyTitle>
-    <AssemblyDescription>A C# application to download Bing daily wallpapers</AssemblyDescription>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <AssemblyTitle>Bing Wallpaper Information Collector</AssemblyTitle>
+    <AssemblyDescription>A C# application to collect Bing daily wallpaper information from multiple countries</AssemblyDescription>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

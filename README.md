@@ -44,7 +44,7 @@
 
 ```bash
 git clone <repository-url>
-cd BingWallpaperDownloader
+cd BingWallpaperCollector
 ```
 
 ### 2. 恢复依赖包
@@ -72,8 +72,8 @@ dotnet publish -c Release
 ## 项目结构
 
 ```
-BingWallpaperDownloader/
-├── BingWallpaperDownloader.csproj  # 项目文件
+BingWallpaperCollector/
+├── BingWallpaperCollector.csproj   # 项目文件
 ├── Program.cs                      # 程序入口点
 ├── App.cs                         # 核心业务逻辑
 ├── README.md                      # 说明文档

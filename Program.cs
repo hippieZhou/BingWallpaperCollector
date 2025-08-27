@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using BingWallpaperDownloader;
+using BingWallpaperCollector;
 
 // 创建服务容器
 var services = new ServiceCollection();
