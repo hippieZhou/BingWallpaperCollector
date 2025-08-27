@@ -392,7 +392,7 @@ public class BingWallpaperApp
         }
 
         await Task.WhenAll(collectTasks);
-        
+
         // 检查收集结果统计
         var countryDir = Path.Combine(_dataDirectory, marketCode.ToString());
         var fileCount = 0;
@@ -400,7 +400,7 @@ public class BingWallpaperApp
         {
             fileCount = Directory.GetFiles(countryDir, "*.json", SearchOption.AllDirectories).Length;
         }
-        
+
         _logger.LogInformation("✅ {Country} 的壁纸信息收集完成 - 共有 {FileCount} 个文件", marketCode.ToString(), fileCount);
     }
 
@@ -590,86 +590,51 @@ public class BingWallpaperApp
     private List<ImageResolution> GenerateImageResolutions(string urlBase, MarketCode marketCode)
     {
         var resolutions = new List<ImageResolution>();
-        var marketCodeStr = marketCode.GetDescription();
 
-        // 从URL中提取基础信息并重构正确的URL
-        var baseUrl = ExtractCorrectImageUrl(urlBase, marketCodeStr);
+        // 直接使用API返回的真实urlBase
+        // API返回的urlBase格式: /th?id=OHR.ImageName_MARKET-CODE123456789
+        if (string.IsNullOrEmpty(urlBase))
+        {
+            _logger.LogWarning("urlBase为空，无法生成图片URL");
+            return resolutions;
+        }
 
-        // UHD (Ultra High Definition) - 通常是4K
+        // UHD - 最高分辨率（Bing的4K等效格式）
         resolutions.Add(new ImageResolution
         {
             Resolution = "UHD",
-            Url = $"{BingBaseUrl}{baseUrl}_UHD.jpg",
-            Size = "3840x2160"
+            Url = $"{BingBaseUrl}{urlBase}_UHD.jpg",
+            Size = "Ultra High Definition (~4K)"
         });
 
-        // 4K分辨率
-        resolutions.Add(new ImageResolution
-        {
-            Resolution = "4K",
-            Url = $"{BingBaseUrl}{baseUrl}_3840x2160.jpg",
-            Size = "3840x2160"
-        });
-
-        // 1080p分辨率
-        resolutions.Add(new ImageResolution
-        {
-            Resolution = "1080p",
-            Url = $"{BingBaseUrl}{baseUrl}_1920x1080.jpg",
-            Size = "1920x1080"
-        });
-
-        // 标准分辨率（作为备用）
+        // HD分辨率 (1920x1200)
         resolutions.Add(new ImageResolution
         {
             Resolution = "HD",
-            Url = $"{BingBaseUrl}{baseUrl}_1920x1200.jpg",
+            Url = $"{BingBaseUrl}{urlBase}_1920x1200.jpg",
             Size = "1920x1200"
+        });
+
+        // Full HD分辨率 (1920x1080)
+        resolutions.Add(new ImageResolution
+        {
+            Resolution = "Full HD",
+            Url = $"{BingBaseUrl}{urlBase}_1920x1080.jpg",
+            Size = "1920x1080"
+        });
+
+        // 标准分辨率 (1366x768)
+        resolutions.Add(new ImageResolution
+        {
+            Resolution = "Standard",
+            Url = $"{BingBaseUrl}{urlBase}_1366x768.jpg",
+            Size = "1366x768"
         });
 
         return resolutions;
     }
 
-    /// <summary>
-    /// 提取并修正图片URL以匹配正确的市场代码
-    /// </summary>
-    private string ExtractCorrectImageUrl(string urlBase, string marketCode)
-    {
-        // URL格式通常是：/th?id=OHR.ImageName_ZH-CN1234567890
-        // 我们需要将其转换为对应市场的格式
 
-        if (string.IsNullOrEmpty(urlBase))
-            return urlBase;
-
-        // 尝试提取图片名称和ID
-        var parts = urlBase.Split('_');
-        if (parts.Length >= 2)
-        {
-            // 移除最后一部分的市场代码和数字
-            var imageName = parts[0]; // 例如：/th?id=OHR.ImageName
-
-            // 为每个市场代码生成一个随机ID（模拟真实的Bing URL模式）
-            var randomId = GenerateRandomId(marketCode);
-
-            // 构建新的URL，使用正确的市场代码
-            var upperMarketCode = marketCode.ToUpper().Replace('-', '-');
-            return $"{imageName}_{upperMarketCode}{randomId}";
-        }
-
-        // 如果无法解析，返回原始URL但尝试替换市场代码
-        return urlBase.Replace("ZH-CN", marketCode.ToUpper().Replace('-', '-'));
-    }
-
-    /// <summary>
-    /// 为指定市场生成一个基于哈希的一致ID
-    /// </summary>
-    private string GenerateRandomId(string marketCode)
-    {
-        // 使用市场代码生成一致的ID，确保同一个市场总是得到相同的ID
-        var hash = marketCode.GetHashCode();
-        var positiveHash = Math.Abs(hash);
-        return positiveHash.ToString().PadLeft(10, '0');
-    }
 
     /// <summary>
     /// 获取今日壁纸信息（保持向后兼容）
