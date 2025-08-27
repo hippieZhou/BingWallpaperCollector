@@ -28,6 +28,7 @@ jobs:
     if: github.event.schedule == '0 22 * * *' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         country: [China, Japan, SouthKorea, India]
 
@@ -96,8 +97,45 @@ jobs:
             git commit -m "🏮 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
             echo "已创建提交"
             
-            git push
-            echo "✅ 已推送到远程仓库"
+            # 重试推送机制，最多重试3次
+            RETRY_COUNT=0
+            MAX_RETRIES=3
+            
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              echo "尝试推送... (第 $((RETRY_COUNT + 1)) 次)"
+              
+              if git push; then
+                echo "✅ 推送成功！"
+                break
+              else
+                echo "❌ 推送失败，可能存在并发冲突"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "🔄 准备重试..."
+                  
+                  # 随机延迟 3-15 秒
+                  DELAY=$((3 + RANDOM % 13))
+                  echo "等待 ${DELAY} 秒..."
+                  sleep $DELAY
+                  
+                  # 拉取最新变更并rebase
+                  echo "📥 拉取最新变更..."
+                  git pull --rebase origin main
+                  
+                  # 检查rebase是否成功
+                  if [ $? -eq 0 ]; then
+                    echo "✅ Rebase 成功"
+                  else
+                    echo "❌ Rebase 失败，跳过本次推送"
+                    break
+                  fi
+                else
+                  echo "❌ 达到最大重试次数，推送失败"
+                  exit 1
+                fi
+              fi
+            done
           else
             echo "ℹ️ 没有发现文件变更，跳过提交"
             echo "可能原因：1) 程序执行失败 2) 数据已存在 3) 网络问题"
@@ -107,6 +145,7 @@ jobs:
     if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         country: [UnitedKingdom, Germany, France, Spain, Italy, Russia]
 
@@ -159,8 +198,46 @@ jobs:
             echo "✅ 发现文件变更，准备提交"
             git add BingWallpaperData/
             git commit -m "🇪🇺 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
-            git push
-            echo "✅ 已推送到远程仓库"
+            
+            # 重试推送机制，最多重试3次
+            RETRY_COUNT=0
+            MAX_RETRIES=3
+            
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              echo "尝试推送... (第 $((RETRY_COUNT + 1)) 次)"
+              
+              if git push; then
+                echo "✅ 推送成功！"
+                break
+              else
+                echo "❌ 推送失败，可能存在并发冲突"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "🔄 准备重试..."
+                  
+                  # 随机延迟 3-15 秒
+                  DELAY=$((3 + RANDOM % 13))
+                  echo "等待 ${DELAY} 秒..."
+                  sleep $DELAY
+                  
+                  # 拉取最新变更并rebase
+                  echo "📥 拉取最新变更..."
+                  git pull --rebase origin main
+                  
+                  # 检查rebase是否成功
+                  if [ $? -eq 0 ]; then
+                    echo "✅ Rebase 成功"
+                  else
+                    echo "❌ Rebase 失败，跳过本次推送"
+                    break
+                  fi
+                else
+                  echo "❌ 达到最大重试次数，推送失败"
+                  exit 1
+                fi
+              fi
+            done
           else
             echo "ℹ️ 没有发现文件变更，跳过提交"
           fi
@@ -169,6 +246,7 @@ jobs:
     if: github.event.schedule == '0 14 * * *' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         country: [UnitedStates, Canada, Brazil, Australia]
 
@@ -221,8 +299,46 @@ jobs:
             echo "✅ 发现文件变更，准备提交"
             git add BingWallpaperData/
             git commit -m "🌎 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
-            git push
-            echo "✅ 已推送到远程仓库"
+            
+            # 重试推送机制，最多重试3次
+            RETRY_COUNT=0
+            MAX_RETRIES=3
+            
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              echo "尝试推送... (第 $((RETRY_COUNT + 1)) 次)"
+              
+              if git push; then
+                echo "✅ 推送成功！"
+                break
+              else
+                echo "❌ 推送失败，可能存在并发冲突"
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "🔄 准备重试..."
+                  
+                  # 随机延迟 3-15 秒
+                  DELAY=$((3 + RANDOM % 13))
+                  echo "等待 ${DELAY} 秒..."
+                  sleep $DELAY
+                  
+                  # 拉取最新变更并rebase
+                  echo "📥 拉取最新变更..."
+                  git pull --rebase origin main
+                  
+                  # 检查rebase是否成功
+                  if [ $? -eq 0 ]; then
+                    echo "✅ Rebase 成功"
+                  else
+                    echo "❌ Rebase 失败，跳过本次推送"
+                    break
+                  fi
+                else
+                  echo "❌ 达到最大重试次数，推送失败"
+                  exit 1
+                fi
+              fi
+            done
           else
             echo "ℹ️ 没有发现文件变更，跳过提交"
           fi
