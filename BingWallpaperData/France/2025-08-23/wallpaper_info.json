@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-23",
+  "Country": "France",
+  "MarketCode": "fr-FR",
+  "Title": "Une cathédrale en hommage aux mineurs",
+  "Copyright": "Cathédrale Sainte-Barbe, Kutná Hora, Tchéquie (© Castka/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Cath%C3%A9drale+Sainte-Barbe&form=hpcapt&filters=HpDate%3a%2220250822_2200%22",
+  "Description": "Cathédrale Sainte-Barbe, Kutná Hora, Tchéquie",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250822_SaintBarbaras%22&FORM=HPQUIZ",
+  "Hash": "2c4e9c76205febbd9123dfde9522833a",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_FR-FR1002197334_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_FR-FR1002197334_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_FR-FR1002197334_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_FR-FR1002197334_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:49.4354335+00:00",
+  "OriginalUrlBase": "/th?id=OHR.SaintBarbaras_FR-FR4490815569"
+}

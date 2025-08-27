@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-20",
+  "Country": "Brazil",
+  "MarketCode": "pt-BR",
+  "Title": "Construída para durar",
+  "Copyright": "Cidadela de Bonifácio no sul da Córsega, França (© Marc Dozier/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Bonifacio+em+C%C3%B3rsega+Fran%C3%A7a&form=hpcapt&mkt=pt-br",
+  "Description": "Cidadela de Bonifácio no sul da Córsega, França",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250820_CitadelBonifacio%22&FORM=HPQUIZ",
+  "Hash": "354bcd2ab45b94ae02f8d958272bc996",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_PT-BR1722913941_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_PT-BR1722913941_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_PT-BR1722913941_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_PT-BR1722913941_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:41:10.2289891+00:00",
+  "OriginalUrlBase": "/th?id=OHR.CitadelBonifacio_PT-BR4689124587"
+}

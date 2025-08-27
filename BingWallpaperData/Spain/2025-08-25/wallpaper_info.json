@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-25",
+  "Country": "Spain",
+  "MarketCode": "es-ES",
+  "Title": "De rutas volcánicas y fluviales",
+  "Copyright": "Mirador de Calcite Springs y río Yellowstone, Parque Nacional de Yellowstone, Wyoming, EE. UU. (© Rebecca L. Latson/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Parque+Nacional+de+Yellowstone&form=hpcapt&filters=HpDate%3a%2220250824_2200%22",
+  "Description": "Mirador de Calcite Springs y río Yellowstone, Parque Nacional de Yellowstone, Wyoming, EE. UU.",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250824_YellowstoneRiver%22&FORM=HPQUIZ",
+  "Hash": "5850e8e4250bf87b513e777aab302cc0",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_ES-ES0413481307_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_ES-ES0413481307_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_ES-ES0413481307_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_ES-ES0413481307_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:53.5867493+00:00",
+  "OriginalUrlBase": "/th?id=OHR.YellowstoneRiver_ES-ES8502138865"
+}

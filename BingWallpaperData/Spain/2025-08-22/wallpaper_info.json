@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-22",
+  "Country": "Spain",
+  "MarketCode": "es-ES",
+  "Title": "Edredón verde de la naturaleza",
+  "Copyright": "Colinas onduladas de Palouse, Washington, EE. UU. (© svetlana57/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Palouse+Washington&form=hpcapt&filters=HpDate%3a%2220250821_2200%22",
+  "Description": "Colinas onduladas de Palouse, Washington, EE. UU.",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250821_PalouseWA%22&FORM=HPQUIZ",
+  "Hash": "02a7b33cf7d89f2132c69a465ec40e43",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.PalouseWA_ES-ES0413481307_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.PalouseWA_ES-ES0413481307_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.PalouseWA_ES-ES0413481307_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.PalouseWA_ES-ES0413481307_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:53.6357594+00:00",
+  "OriginalUrlBase": "/th?id=OHR.PalouseWA_ES-ES8103118141"
+}

@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-24",
+  "Country": "France",
+  "MarketCode": "fr-FR",
+  "Title": "Silence, on broute !",
+  "Copyright": "Daim européen, Angleterre (© Enrique Aguirre Aves/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=daim+animal&form=hpcapt&filters=HpDate%3a%2220250823_2200%22",
+  "Description": "Daim européen, Angleterre",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250823_CervusDama%22&FORM=HPQUIZ",
+  "Hash": "6d561ed45a3a43177ed50003432805b0",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_FR-FR1002197334_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_FR-FR1002197334_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_FR-FR1002197334_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_FR-FR1002197334_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:49.438143+00:00",
+  "OriginalUrlBase": "/th?id=OHR.CervusDama_FR-FR7245916785"
+}

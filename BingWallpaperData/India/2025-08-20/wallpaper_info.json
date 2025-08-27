@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-20",
+  "Country": "India",
+  "MarketCode": "en-IN",
+  "Title": "Built to last",
+  "Copyright": "The citadel in Bonifacio, Southern Corsica, France (© Marc Dozier/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Bonifacio&form=hpcapt&filters=HpDate%3a%2220250819_1830%22",
+  "Description": "The citadel in Bonifacio, Southern Corsica, France",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250819_CitadelBonifacio%22&FORM=HPQUIZ",
+  "Hash": "c75b9133b820021c22009ee499dac46a",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_EN-IN1779306822_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_EN-IN1779306822_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_EN-IN1779306822_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.CitadelBonifacio_EN-IN1779306822_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:41:22.403378+00:00",
+  "OriginalUrlBase": "/th?id=OHR.CitadelBonifacio_EN-IN3918402322"
+}

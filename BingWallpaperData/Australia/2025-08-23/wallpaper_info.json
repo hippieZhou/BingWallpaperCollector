@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-23",
+  "Country": "Australia",
+  "MarketCode": "en-AU",
+  "Title": "Info",
+  "Copyright": "Greater flamingos, Saintes-Maries-de-la-Mer, Camargue Regional Nature Park, France (© Raimund Linke/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Greater+flamingo&form=hpcapt&filters=HpDate%3a%2220250823_0700%22",
+  "Description": "Greater flamingos, Saintes-Maries-de-la-Mer, Camargue Regional Nature Park, France",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250823_Flamingos%22&FORM=HPQUIZ",
+  "Hash": "7265a9e14989fa3817601efb335c05be",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.Flamingos_EN-AU1712016005_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.Flamingos_EN-AU1712016005_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.Flamingos_EN-AU1712016005_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.Flamingos_EN-AU1712016005_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:41:14.2507223+00:00",
+  "OriginalUrlBase": "/th?id=OHR.Flamingos_ROW6320249671"
+}

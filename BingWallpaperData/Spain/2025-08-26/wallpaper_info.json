@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-26",
+  "Country": "Spain",
+  "MarketCode": "es-ES",
+  "Title": "Una construcción icónica",
+  "Copyright": "Los trulli de Alberobello, Apulia, Italia (© Feng Wei Photography/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Alberobello&form=hpcapt&filters=HpDate%3a%2220250825_2200%22",
+  "Description": "Los trulli de Alberobello, Apulia, Italia",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250825_TrulliHouses%22&FORM=HPQUIZ",
+  "Hash": "5c5c01e5235b1ce0afcf3b7d1f3f6370",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.TrulliHouses_ES-ES0413481307_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.TrulliHouses_ES-ES0413481307_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.TrulliHouses_ES-ES0413481307_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.TrulliHouses_ES-ES0413481307_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:53.5802304+00:00",
+  "OriginalUrlBase": "/th?id=OHR.TrulliHouses_ES-ES8633260965"
+}

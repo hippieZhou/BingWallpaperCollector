@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-26",
+  "Country": "India",
+  "MarketCode": "en-IN",
+  "Title": "A lake above the ocean",
+  "Copyright": "Sørvágsvatn lake, island of Vágar, Faroe Islands (© Anton Petrus/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Sorvagsvatn+lake&form=hpcapt&filters=HpDate%3a%2220250825_1830%22",
+  "Description": "Sørvágsvatn lake, island of Vágar, Faroe Islands",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250825_FaroeLake%22&FORM=HPQUIZ",
+  "Hash": "c9229c627eb3dcb24f32715fe0d9f856",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-IN1779306822_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-IN1779306822_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-IN1779306822_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-IN1779306822_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:41:22.2964255+00:00",
+  "OriginalUrlBase": "/th?id=OHR.FaroeLake_EN-IN3134235766"
+}

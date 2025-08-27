@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-24",
+  "Country": "Germany",
+  "MarketCode": "de-DE",
+  "Title": "Natur mit Noblesse",
+  "Copyright": "Europäischer Damhirsch, England (© Enrique Aguirre Aves/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Europ%C3%A4ischer+Damhirsch&form=hpcapt&filters=HpDate%3a%2220250823_2200%22",
+  "Description": "Europäischer Damhirsch, England",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250823_CervusDama%22&FORM=HPQUIZ",
+  "Hash": "558a09e7f49a7103c4e428ff34f1664e",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_DE-DE1069272595_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_DE-DE1069272595_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_DE-DE1069272595_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_DE-DE1069272595_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:45.3239601+00:00",
+  "OriginalUrlBase": "/th?id=OHR.CervusDama_DE-DE7228900180"
+}

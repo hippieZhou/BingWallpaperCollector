@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-27",
+  "Country": "Spain",
+  "MarketCode": "es-ES",
+  "Title": "Un lago sobre el océano",
+  "Copyright": "Lago Sørvágsvatn, Isla de Vágar, Islas Feroe, Reino de Dinamarca (© Anton Petrus/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=S%C3%B8rv%C3%A1gsvatn&form=hpcapt&filters=HpDate%3a%2220250826_2200%22",
+  "Description": "Lago Sørvágsvatn, Isla de Vágar, Islas Feroe, Reino de Dinamarca",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
+  "Hash": "64c45cd3f93e6a67ec02cd6769222b60",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES0413481307_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES0413481307_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES0413481307_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES0413481307_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:53.5802421+00:00",
+  "OriginalUrlBase": "/th?id=OHR.FaroeLake_ES-ES8719950614"
+}

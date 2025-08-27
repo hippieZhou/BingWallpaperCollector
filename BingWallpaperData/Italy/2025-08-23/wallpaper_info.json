@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-23",
+  "Country": "Italy",
+  "MarketCode": "it-IT",
+  "Title": "Cuspidi e Mistica",
+  "Copyright": "Cattedrale di Santa Barbara, Kutná Hora, Repubblica Ceca (© Castka/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=Cattedrale+di+Santa+Barbara+Kutn%C3%A1+Hora+Cechia&form=hpcapt",
+  "Description": "Cattedrale di Santa Barbara, Kutná Hora, Repubblica Ceca",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250822_SaintBarbaras%22&FORM=HPQUIZ",
+  "Hash": "df587f947a1ddf7988d0482be4ccc80d",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_IT-IT0301236695_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_IT-IT0301236695_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_IT-IT0301236695_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_IT-IT0301236695_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:57.7104429+00:00",
+  "OriginalUrlBase": "/th?id=OHR.SaintBarbaras_IT-IT0267106236"
+}

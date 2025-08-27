@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-23",
+  "Country": "UnitedStates",
+  "MarketCode": "en-US",
+  "Title": "Gothic majesty",
+  "Copyright": "St. Barbara's Cathedral, Kutná Hora, Czechia (© Castka/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=St+Barbaras+Cathedral&form=hpcapt&filters=HpDate%3a%2220250823_0700%22",
+  "Description": "St. Barbara's Cathedral, Kutná Hora, Czechia",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250823_SaintBarbaras%22&FORM=HPQUIZ",
+  "Hash": "f5e422fbf70af69e1107ce56a3708d87",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-US0495119661_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-US0495119661_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-US0495119661_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-US0495119661_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:38.7614421+00:00",
+  "OriginalUrlBase": "/th?id=OHR.SaintBarbaras_EN-US3076115197"
+}

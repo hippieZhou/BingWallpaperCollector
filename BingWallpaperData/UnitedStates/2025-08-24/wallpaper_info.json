@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-24",
+  "Country": "UnitedStates",
+  "MarketCode": "en-US",
+  "Title": "'Fallow' us",
+  "Copyright": "European fallow deer, England (© Enrique Aguirre Aves/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=European+fallow+deer&form=hpcapt&filters=HpDate%3a%2220250824_0700%22",
+  "Description": "European fallow deer, England",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250824_CervusDama%22&FORM=HPQUIZ",
+  "Hash": "a2dc6a97130c6d49fa55c98d37e2b96c",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_EN-US0495119661_UHD.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "4K",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_EN-US0495119661_3840x2160.jpg",
+      "Size": "3840x2160"
+    },
+    {
+      "Resolution": "1080p",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_EN-US0495119661_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.CervusDama_EN-US0495119661_1920x1200.jpg",
+      "Size": "1920x1200"
+    }
+  ],
+  "CreatedAt": "2025-08-27T14:40:38.6937476+00:00",
+  "OriginalUrlBase": "/th?id=OHR.CervusDama_EN-US3217647015"
+}
