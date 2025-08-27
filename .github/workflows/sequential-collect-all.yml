@@ -1,0 +1,316 @@
+name: 顺序收集所有国家壁纸（避免冲突）
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_overwrite:
+        description: '强制覆盖已存在的文件'
+        required: false
+        default: false
+        type: boolean
+      collect_days:
+        description: '收集天数 (1-8)'
+        required: false
+        default: '1'
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  sequential-collect:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出代码库
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 设置 .NET 9.0
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: "9.0.x"
+
+    - name: 恢复依赖包和构建
+      run: |
+        echo "=== 构建项目 ==="
+        dotnet restore
+        dotnet build --configuration Release --no-restore
+        echo "✅ 构建完成"
+
+    - name: 初始化收集统计
+      run: |
+        echo "=== 开始顺序收集所有国家壁纸信息 ==="
+        echo "执行时间: $(date +'%Y-%m-%d %H:%M UTC')"
+        echo "强制覆盖: ${{ github.event.inputs.force_overwrite }}"
+        echo "收集天数: ${{ github.event.inputs.collect_days }}"
+        echo ""
+        
+        # 创建统计文件
+        echo "0" > /tmp/success_count
+        echo "0" > /tmp/skip_count
+        echo "0" > /tmp/fail_count
+        echo "" > /tmp/collect_summary
+
+    - name: 收集 China 壁纸
+      run: |
+        COUNTRY="China"
+        echo "=== 收集 $COUNTRY 壁纸信息 ==="
+        
+        # 删除今日数据（如果强制覆盖）
+        if [ "${{ github.event.inputs.force_overwrite }}" == "true" ]; then
+          TODAY=$(date +'%Y-%m-%d')
+          if [ -d "BingWallpaperData/$COUNTRY/$TODAY" ]; then
+            rm -rf "BingWallpaperData/$COUNTRY/$TODAY"
+            echo "🔄 已删除 $COUNTRY 今日数据"
+          fi
+        fi
+        
+        # 执行收集
+        dotnet run --configuration Release
+        
+        # 检查结果并更新统计
+        if [ -d "BingWallpaperData/$COUNTRY" ]; then
+          FILE_COUNT=$(find "BingWallpaperData/$COUNTRY" -name "*.json" | wc -l)
+          echo "✅ $COUNTRY: $FILE_COUNT 个文件" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/success_count) + 1)) > /tmp/success_count
+        else
+          echo "❌ $COUNTRY: 收集失败" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/fail_count) + 1)) > /tmp/fail_count
+        fi
+        echo ""
+      env:
+        AUTO_MODE: "true"
+        COLLECT_ALL_COUNTRIES: "false"
+        TARGET_COUNTRY: "China"
+        COLLECT_DAYS: "${{ github.event.inputs.collect_days }}"
+        CONCURRENT_REQUESTS: "1"
+        JSON_FORMAT: "pretty"
+
+    - name: 收集 UnitedStates 壁纸
+      run: |
+        COUNTRY="UnitedStates"
+        echo "=== 收集 $COUNTRY 壁纸信息 ==="
+        
+        if [ "${{ github.event.inputs.force_overwrite }}" == "true" ]; then
+          TODAY=$(date +'%Y-%m-%d')
+          if [ -d "BingWallpaperData/$COUNTRY/$TODAY" ]; then
+            rm -rf "BingWallpaperData/$COUNTRY/$TODAY"
+            echo "🔄 已删除 $COUNTRY 今日数据"
+          fi
+        fi
+        
+        dotnet run --configuration Release
+        
+        if [ -d "BingWallpaperData/$COUNTRY" ]; then
+          FILE_COUNT=$(find "BingWallpaperData/$COUNTRY" -name "*.json" | wc -l)
+          echo "✅ $COUNTRY: $FILE_COUNT 个文件" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/success_count) + 1)) > /tmp/success_count
+        else
+          echo "❌ $COUNTRY: 收集失败" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/fail_count) + 1)) > /tmp/fail_count
+        fi
+        echo ""
+      env:
+        AUTO_MODE: "true"
+        COLLECT_ALL_COUNTRIES: "false"
+        TARGET_COUNTRY: "UnitedStates"
+        COLLECT_DAYS: "${{ github.event.inputs.collect_days }}"
+        CONCURRENT_REQUESTS: "1"
+        JSON_FORMAT: "pretty"
+
+    - name: 收集 UnitedKingdom 壁纸
+      run: |
+        COUNTRY="UnitedKingdom"
+        echo "=== 收集 $COUNTRY 壁纸信息 ==="
+        
+        if [ "${{ github.event.inputs.force_overwrite }}" == "true" ]; then
+          TODAY=$(date +'%Y-%m-%d')
+          if [ -d "BingWallpaperData/$COUNTRY/$TODAY" ]; then
+            rm -rf "BingWallpaperData/$COUNTRY/$TODAY"
+            echo "🔄 已删除 $COUNTRY 今日数据"
+          fi
+        fi
+        
+        dotnet run --configuration Release
+        
+        if [ -d "BingWallpaperData/$COUNTRY" ]; then
+          FILE_COUNT=$(find "BingWallpaperData/$COUNTRY" -name "*.json" | wc -l)
+          echo "✅ $COUNTRY: $FILE_COUNT 个文件" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/success_count) + 1)) > /tmp/success_count
+        else
+          echo "❌ $COUNTRY: 收集失败" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/fail_count) + 1)) > /tmp/fail_count
+        fi
+        echo ""
+      env:
+        AUTO_MODE: "true"
+        COLLECT_ALL_COUNTRIES: "false"
+        TARGET_COUNTRY: "UnitedKingdom"
+        COLLECT_DAYS: "${{ github.event.inputs.collect_days }}"
+        CONCURRENT_REQUESTS: "1"
+        JSON_FORMAT: "pretty"
+
+    - name: 收集 Japan 壁纸
+      run: |
+        COUNTRY="Japan"
+        echo "=== 收集 $COUNTRY 壁纸信息 ==="
+        
+        if [ "${{ github.event.inputs.force_overwrite }}" == "true" ]; then
+          TODAY=$(date +'%Y-%m-%d')
+          if [ -d "BingWallpaperData/$COUNTRY/$TODAY" ]; then
+            rm -rf "BingWallpaperData/$COUNTRY/$TODAY"
+            echo "🔄 已删除 $COUNTRY 今日数据"
+          fi
+        fi
+        
+        dotnet run --configuration Release
+        
+        if [ -d "BingWallpaperData/$COUNTRY" ]; then
+          FILE_COUNT=$(find "BingWallpaperData/$COUNTRY" -name "*.json" | wc -l)
+          echo "✅ $COUNTRY: $FILE_COUNT 个文件" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/success_count) + 1)) > /tmp/success_count
+        else
+          echo "❌ $COUNTRY: 收集失败" | tee -a /tmp/collect_summary
+          echo $(($(cat /tmp/fail_count) + 1)) > /tmp/fail_count
+        fi
+        echo ""
+      env:
+        AUTO_MODE: "true"
+        COLLECT_ALL_COUNTRIES: "false"
+        TARGET_COUNTRY: "Japan"
+        COLLECT_DAYS: "${{ github.event.inputs.collect_days }}"
+        CONCURRENT_REQUESTS: "1"
+        JSON_FORMAT: "pretty"
+
+    - name: 收集其余国家壁纸
+      run: |
+        COUNTRIES=("Germany" "France" "Spain" "Italy" "Russia" "SouthKorea" "Brazil" "Australia" "Canada" "India")
+        
+        for COUNTRY in "${COUNTRIES[@]}"; do
+          echo "=== 收集 $COUNTRY 壁纸信息 ==="
+          
+          if [ "${{ github.event.inputs.force_overwrite }}" == "true" ]; then
+            TODAY=$(date +'%Y-%m-%d')
+            if [ -d "BingWallpaperData/$COUNTRY/$TODAY" ]; then
+              rm -rf "BingWallpaperData/$COUNTRY/$TODAY"
+              echo "🔄 已删除 $COUNTRY 今日数据"
+            fi
+          fi
+          
+          # 设置环境变量并执行收集
+          export AUTO_MODE="true"
+          export COLLECT_ALL_COUNTRIES="false"
+          export TARGET_COUNTRY="$COUNTRY"
+          export COLLECT_DAYS="${{ github.event.inputs.collect_days }}"
+          export CONCURRENT_REQUESTS="1"
+          export JSON_FORMAT="pretty"
+          
+          dotnet run --configuration Release
+          
+          # 检查收集结果
+          if [ -d "BingWallpaperData/$COUNTRY" ]; then
+            FILE_COUNT=$(find "BingWallpaperData/$COUNTRY" -name "*.json" | wc -l)
+            echo "✅ $COUNTRY: $FILE_COUNT 个文件" | tee -a /tmp/collect_summary
+            echo $(($(cat /tmp/success_count) + 1)) > /tmp/success_count
+          else
+            echo "❌ $COUNTRY: 收集失败" | tee -a /tmp/collect_summary
+            echo $(($(cat /tmp/fail_count) + 1)) > /tmp/fail_count
+          fi
+          echo ""
+          
+          # 添加短暂延迟，避免API请求过于频繁
+          sleep 2
+        done
+
+    - name: 统一提交所有收集结果
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        echo "=== 检查收集结果并准备提交 ==="
+        
+        # 读取统计信息
+        SUCCESS_COUNT=$(cat /tmp/success_count)
+        FAIL_COUNT=$(cat /tmp/fail_count)
+        TOTAL_COUNT=$((SUCCESS_COUNT + FAIL_COUNT))
+        
+        echo "收集统计："
+        echo "- 成功: $SUCCESS_COUNT 个国家"
+        echo "- 失败: $FAIL_COUNT 个国家"
+        echo "- 总计: $TOTAL_COUNT 个国家"
+        echo ""
+        echo "详细结果："
+        cat /tmp/collect_summary
+        
+        # 检查是否有变更
+        CHANGES=$(git status --porcelain BingWallpaperData/ 2>/dev/null || echo "")
+        
+        if [ -n "$CHANGES" ]; then
+          echo ""
+          echo "✅ 发现以下文件变更:"
+          echo "$CHANGES"
+          echo ""
+          
+          # 统计变更文件数量
+          FILE_CHANGE_COUNT=$(echo "$CHANGES" | wc -l)
+          
+          # 添加所有变更
+          git add BingWallpaperData/
+          echo "已添加所有变更文件到暂存区"
+          
+          # 创建详细的提交信息
+          git commit -m "🌍 批量收集多国壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')" \
+                     -m "📊 统计结果:" \
+                     -m "  - 成功收集: $SUCCESS_COUNT 个国家" \
+                     -m "  - 文件变更: $FILE_CHANGE_COUNT 个" \
+                     -m "  - 强制覆盖: ${{ github.event.inputs.force_overwrite }}" \
+                     -m "  - 收集天数: ${{ github.event.inputs.collect_days }}" \
+                     -m "" \
+                     -m "🤖 顺序收集模式执行"
+          
+          echo "已创建提交"
+          
+          # 推送到远程仓库
+          git push origin main
+          echo "✅ 所有数据已推送到远程仓库"
+        else
+          echo "ℹ️ 没有发现文件变更"
+          echo "所有国家的数据可能都已存在，或者收集都失败了"
+        fi
+
+    - name: 生成完整收集报告
+      if: always()
+      run: |
+        SUCCESS_COUNT=$(cat /tmp/success_count)
+        FAIL_COUNT=$(cat /tmp/fail_count)
+        TOTAL_COUNT=$((SUCCESS_COUNT + FAIL_COUNT))
+        
+        echo "## 🌍 批量收集完整报告" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**执行时间:** $(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "**执行模式:** 顺序收集（避免并发冲突）" >> $GITHUB_STEP_SUMMARY
+        echo "**强制覆盖:** ${{ github.event.inputs.force_overwrite }}" >> $GITHUB_STEP_SUMMARY
+        echo "**收集天数:** ${{ github.event.inputs.collect_days }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📊 统计结果" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ **成功:** $SUCCESS_COUNT 个国家" >> $GITHUB_STEP_SUMMARY
+        echo "- ❌ **失败:** $FAIL_COUNT 个国家" >> $GITHUB_STEP_SUMMARY
+        echo "- 📈 **总计:** $TOTAL_COUNT 个国家" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📋 详细结果" >> $GITHUB_STEP_SUMMARY
+        echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+        cat /tmp/collect_summary >> $GITHUB_STEP_SUMMARY
+        echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+        
+        # 显示目录结构
+        if [ -d "BingWallpaperData" ]; then
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📁 收集到的数据文件" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          find BingWallpaperData -name "*.json" | sort >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+        fi
