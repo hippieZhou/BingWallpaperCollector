@@ -1,0 +1,159 @@
+name: 区域化壁纸收集
+
+on:
+  schedule:
+    # 针对亚洲地区 - UTC 22:00 (北京时间次日06:00)
+    - cron: "0 22 * * *"
+    # 针对欧洲地区 - UTC 06:00 (中欧时间07:00/08:00)
+    - cron: "0 6 * * *"
+    # 针对美洲地区 - UTC 14:00 (美东时间09:00/10:00)
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+    inputs:
+      target_countries:
+        description: "目标国家（用逗号分隔，如: China,Japan,UnitedStates）"
+        required: false
+        default: "China,Japan,UnitedStates,UnitedKingdom,Germany,France"
+      collect_days:
+        description: "收集天数 (1-8)"
+        required: false
+        default: "1"
+
+permissions:
+  contents: write
+
+jobs:
+  collect-asian-wallpapers:
+    if: github.event.schedule == '0 22 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        country: [China, Japan, SouthKorea, India]
+
+    steps:
+      - name: 检出代码库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 .NET 9.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: 恢复依赖包和构建
+        run: |
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+
+      - name: 收集 ${{ matrix.country }} 壁纸信息
+        run: dotnet run --configuration Release
+        env:
+          AUTO_MODE: "true"
+          COLLECT_ALL_COUNTRIES: "false"
+          TARGET_COUNTRY: "${{ matrix.country }}"
+          COLLECT_DAYS: "${{ github.event.inputs.collect_days || '1' }}"
+          CONCURRENT_REQUESTS: "2"
+          JSON_FORMAT: "pretty"
+
+      - name: 提交 ${{ matrix.country }} 数据
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add BingWallpaperData/
+            git commit -m "🏮 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+  collect-european-wallpapers:
+    if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        country: [UnitedKingdom, Germany, France, Spain, Italy, Russia]
+
+    steps:
+      - name: 检出代码库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 .NET 9.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: 恢复依赖包和构建
+        run: |
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+
+      - name: 收集 ${{ matrix.country }} 壁纸信息
+        run: dotnet run --configuration Release
+        env:
+          AUTO_MODE: "true"
+          COLLECT_ALL_COUNTRIES: "false"
+          TARGET_COUNTRY: "${{ matrix.country }}"
+          COLLECT_DAYS: "${{ github.event.inputs.collect_days || '1' }}"
+          CONCURRENT_REQUESTS: "2"
+          JSON_FORMAT: "pretty"
+
+      - name: 提交 ${{ matrix.country }} 数据
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add BingWallpaperData/
+            git commit -m "🇪🇺 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+  collect-american-wallpapers:
+    if: github.event.schedule == '0 14 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        country: [UnitedStates, Canada, Brazil, Australia]
+
+    steps:
+      - name: 检出代码库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 .NET 9.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: 恢复依赖包和构建
+        run: |
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+
+      - name: 收集 ${{ matrix.country }} 壁纸信息
+        run: dotnet run --configuration Release
+        env:
+          AUTO_MODE: "true"
+          COLLECT_ALL_COUNTRIES: "false"
+          TARGET_COUNTRY: "${{ matrix.country }}"
+          COLLECT_DAYS: "${{ github.event.inputs.collect_days || '1' }}"
+          CONCURRENT_REQUESTS: "2"
+          JSON_FORMAT: "pretty"
+
+      - name: 提交 ${{ matrix.country }} 数据
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add BingWallpaperData/
+            git commit -m "🌎 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,9 +1,16 @@
 # 必应壁纸信息收集器 (Bing Wallpaper Information Collector)
 
+![GitHub Actions](https://github.com/your-username/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml/badge.svg)
+![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 基于 C# 和 .NET 9.0 开发的多语言必应壁纸信息收集工具，支持 14 个国家/地区的本地化壁纸信息收集。
+
+> **🤖 全自动收集**: 项目已集成 GitHub Actions，每天自动收集全球 Bing 壁纸信息，无需人工干预！
 
 ## 功能特性
 
+- 🤖 **GitHub Actions 自动化** - 每天自动收集，多时区优化，自动提交数据
 - 🌍 **多语言支持** - 支持 14 个国家/地区的本地化内容
 - 📊 **JSON 数据存储** - 保存完整的壁纸信息而非下载图片
 - 🖼️ **多分辨率 URL** - 提供 UHD、4K、1080p、HD 四种分辨率链接
@@ -12,6 +19,7 @@
 - ⚡ **并发处理** - 支持多线程并发收集，提高效率
 - 🔄 **重复检测** - 避免重复收集相同的数据
 - 📋 **详细日志** - 完整的操作日志记录
+- 🎛️ **双模式运行** - 支持交互式和自动化无人值守运行
 
 ## 支持的国家/地区
 
@@ -43,7 +51,7 @@
 ### 1. 克隆或下载项目
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:hippieZhou/BingWallpaperCollector.git
 cd BingWallpaperCollector
 ```
 
@@ -260,7 +268,24 @@ A: 可以在 `MarketCode` 枚举中添加更多国家代码，但需要确保必
 
 ### Q: 如何实现自动化收集？
 
-A: 可以配合系统的计划任务（Windows）或 cron（Linux/macOS）来实现定时运行。
+A: 项目已集成 GitHub Actions 自动化收集功能！详情请查看 [GitHub Actions 文档](.github/README.md)。
+
+**自动化特性:**
+
+- 🤖 每天自动运行，无需手动干预
+- 🌍 支持全球多时区优化收集
+- 📊 自动生成详细的收集报告
+- 🔄 自动提交新数据到仓库
+
+**本地自动化:**
+你也可以配合系统的计划任务（Windows）或 cron（Linux/macOS）来实现定时运行：
+
+```bash
+# 设置环境变量实现非交互模式
+export AUTO_MODE=true
+export COLLECT_ALL_COUNTRIES=true
+dotnet run
+```
 
 ### Q: JSON 文件可以用于什么用途？
 

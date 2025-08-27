@@ -1,0 +1,151 @@
+name: 测试壁纸收集
+
+on:
+  workflow_dispatch:
+    inputs:
+      collection_mode:
+        description: "收集模式"
+        required: true
+        default: "single_country"
+        type: choice
+        options:
+          - "single_country"
+          - "all_countries"
+      target_country:
+        description: "目标国家（单国家模式时使用）"
+        required: false
+        default: "China"
+        type: choice
+        options:
+          - "China"
+          - "UnitedStates"
+          - "UnitedKingdom"
+          - "Japan"
+          - "Germany"
+          - "France"
+          - "Spain"
+          - "Italy"
+          - "Russia"
+          - "SouthKorea"
+          - "Brazil"
+          - "Australia"
+          - "Canada"
+          - "India"
+      collect_days:
+        description: "收集天数 (1-8)"
+        required: false
+        default: "1"
+        type: string
+      json_format:
+        description: "JSON 格式"
+        required: false
+        default: "pretty"
+        type: choice
+        options:
+          - "pretty"
+          - "compressed"
+
+permissions:
+  contents: write
+
+jobs:
+  test-collection:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 .NET 9.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: 恢复依赖包
+        run: dotnet restore
+
+      - name: 构建项目
+        run: dotnet build --configuration Release --no-restore
+
+      - name: 执行测试收集
+        run: dotnet run --configuration Release
+        env:
+          AUTO_MODE: "true"
+          COLLECT_ALL_COUNTRIES: ${{ github.event.inputs.collection_mode == 'all_countries' }}
+          TARGET_COUNTRY: ${{ github.event.inputs.target_country }}
+          COLLECT_DAYS: ${{ github.event.inputs.collect_days }}
+          CONCURRENT_REQUESTS: "3"
+          JSON_FORMAT: ${{ github.event.inputs.json_format }}
+
+      - name: 检查收集结果
+        id: check_results
+        run: |
+          echo "=== 收集结果统计 ===" 
+
+          TOTAL_FILES=0
+          echo "## 📊 收集结果" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**执行时间:** $(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "**收集模式:** ${{ github.event.inputs.collection_mode }}" >> $GITHUB_STEP_SUMMARY
+          echo "**目标国家:** ${{ github.event.inputs.target_country }}" >> $GITHUB_STEP_SUMMARY
+          echo "**收集天数:** ${{ github.event.inputs.collect_days }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| 国家 | 新增文件 | 总文件数 |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|---------|---------|" >> $GITHUB_STEP_SUMMARY
+
+          for country_dir in BingWallpaperData/*/; do
+            if [ -d "$country_dir" ]; then
+              country=$(basename "$country_dir")
+              total_files=$(find "$country_dir" -name "wallpaper_info.json" | wc -l)
+              new_files=$(git status --porcelain "$country_dir" | wc -l)
+              TOTAL_FILES=$((TOTAL_FILES + total_files))
+              
+              if [ $new_files -gt 0 ]; then
+                echo "| $country | ✅ $new_files | $total_files |" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "| $country | - | $total_files |" >> $GITHUB_STEP_SUMMARY
+              fi
+            fi
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**总计:** $TOTAL_FILES 个壁纸信息文件" >> $GITHUB_STEP_SUMMARY
+
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "✅ **状态:** 发现新的壁纸信息" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "ℹ️ **状态:** 没有发现新的壁纸信息" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: 提交测试结果（可选）
+        if: steps.check_results.outputs.has_changes == 'true'
+        run: |
+          echo "发现新数据，询问是否提交..."
+          echo "要提交这些更改，请重新运行此 workflow 并确认。"
+          echo ""
+          echo "新文件列表："
+          git status --porcelain
+
+          # 暂时不自动提交测试结果，让用户决定
+          echo "::warning::发现新的壁纸数据，但测试模式不会自动提交。如需保存请手动处理。"
+
+      - name: 显示详细日志
+        if: always()
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## 🔍 详细信息" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 目录结构" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          find BingWallpaperData -name "*.json" | head -20 >> $GITHUB_STEP_SUMMARY
+          if [ $(find BingWallpaperData -name "*.json" | wc -l) -gt 20 ]; then
+            echo "... (还有更多文件)" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY

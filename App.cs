@@ -222,6 +222,54 @@ public class BingWallpaperApp
     {
         var config = new CollectionConfig();
 
+        // 检查是否启用了自动模式（用于GitHub Actions等自动化场景）
+        var autoMode = Environment.GetEnvironmentVariable("AUTO_MODE") == "true";
+
+        if (autoMode)
+        {
+            _logger.LogInformation("检测到自动模式，使用环境变量配置");
+
+            // 从环境变量读取配置
+            var collectAllCountries = Environment.GetEnvironmentVariable("COLLECT_ALL_COUNTRIES") == "true";
+            var collectDays = Environment.GetEnvironmentVariable("COLLECT_DAYS");
+            var concurrentRequests = Environment.GetEnvironmentVariable("CONCURRENT_REQUESTS");
+            var jsonFormat = Environment.GetEnvironmentVariable("JSON_FORMAT");
+            var targetCountry = Environment.GetEnvironmentVariable("TARGET_COUNTRY");
+
+            config.CollectAllCountries = collectAllCountries;
+
+            // 如果不是收集所有国家，尝试设置目标国家
+            if (!collectAllCountries && !string.IsNullOrEmpty(targetCountry))
+            {
+                if (Enum.TryParse<MarketCode>(targetCountry, true, out var marketCode))
+                {
+                    config.MarketCode = marketCode;
+                }
+            }
+
+            // 设置收集天数
+            if (int.TryParse(collectDays, out var days) && days >= 1 && days <= MaxHistoryDays)
+            {
+                config.DaysToCollect = days;
+            }
+
+            // 设置并发请求数
+            if (int.TryParse(concurrentRequests, out var concurrent) && concurrent >= 1 && concurrent <= 5)
+            {
+                config.MaxConcurrentRequests = concurrent;
+            }
+
+            // 设置JSON格式
+            config.PrettyJsonFormat = jsonFormat != "compressed";
+
+            _logger.LogInformation("自动模式配置: 所有国家={AllCountries}, 天数={Days}, 并发={Concurrent}, JSON格式={JsonFormat}",
+                config.CollectAllCountries, config.DaysToCollect, config.MaxConcurrentRequests,
+                config.PrettyJsonFormat ? "美化" : "压缩");
+
+            return config;
+        }
+
+        // 交互模式 - 原有的用户交互逻辑
         Console.WriteLine("\n=== 必应壁纸信息收集器配置 ===");
 
         // 选择国家
