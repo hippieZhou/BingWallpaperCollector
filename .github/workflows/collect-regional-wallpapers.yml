@@ -21,6 +21,8 @@ on:
 
 permissions:
   contents: write
+  actions: read
+  metadata: read
 
 jobs:
   collect-asian-wallpapers:
@@ -57,15 +59,49 @@ jobs:
           CONCURRENT_REQUESTS: "2"
           JSON_FORMAT: "pretty"
 
+      - name: 检查收集结果
+        run: |
+          echo "=== 检查收集结果 ==="
+          echo "当前目录内容:"
+          ls -la
+          
+          if [ -d "BingWallpaperData" ]; then
+            echo "BingWallpaperData 目录存在"
+            echo "目录结构:"
+            find BingWallpaperData -type f -name "*.json" | head -10
+          else
+            echo "❌ BingWallpaperData 目录不存在"
+          fi
+          
+          echo ""
+          echo "Git 状态:"
+          git status --porcelain || true
+          git status
+
       - name: 提交 ${{ matrix.country }} 数据
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          if [ -n "$(git status --porcelain)" ]; then
+          echo "=== 准备提交数据 ==="
+          
+          # 检查是否有变更
+          CHANGES=$(git status --porcelain)
+          if [ -n "$CHANGES" ]; then
+            echo "✅ 发现以下文件变更:"
+            echo "$CHANGES"
+            
             git add BingWallpaperData/
+            echo "已添加文件到暂存区"
+            
             git commit -m "🏮 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
+            echo "已创建提交"
+            
             git push
+            echo "✅ 已推送到远程仓库"
+          else
+            echo "ℹ️ 没有发现文件变更，跳过提交"
+            echo "可能原因：1) 程序执行失败 2) 数据已存在 3) 网络问题"
           fi
 
   collect-european-wallpapers:
@@ -102,15 +138,32 @@ jobs:
           CONCURRENT_REQUESTS: "2"
           JSON_FORMAT: "pretty"
 
+      - name: 检查收集结果
+        run: |
+          echo "=== 检查收集结果 ==="
+          if [ -d "BingWallpaperData" ]; then
+            echo "✅ BingWallpaperData 目录存在"
+            find BingWallpaperData -type f -name "*.json" | head -10
+          else
+            echo "❌ BingWallpaperData 目录不存在"
+          fi
+          echo "Git 状态:"
+          git status --porcelain || true
+
       - name: 提交 ${{ matrix.country }} 数据
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          if [ -n "$(git status --porcelain)" ]; then
+          CHANGES=$(git status --porcelain)
+          if [ -n "$CHANGES" ]; then
+            echo "✅ 发现文件变更，准备提交"
             git add BingWallpaperData/
             git commit -m "🇪🇺 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
             git push
+            echo "✅ 已推送到远程仓库"
+          else
+            echo "ℹ️ 没有发现文件变更，跳过提交"
           fi
 
   collect-american-wallpapers:
@@ -147,13 +200,30 @@ jobs:
           CONCURRENT_REQUESTS: "2"
           JSON_FORMAT: "pretty"
 
+      - name: 检查收集结果
+        run: |
+          echo "=== 检查收集结果 ==="
+          if [ -d "BingWallpaperData" ]; then
+            echo "✅ BingWallpaperData 目录存在"
+            find BingWallpaperData -type f -name "*.json" | head -10
+          else
+            echo "❌ BingWallpaperData 目录不存在"
+          fi
+          echo "Git 状态:"
+          git status --porcelain || true
+
       - name: 提交 ${{ matrix.country }} 数据
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          if [ -n "$(git status --porcelain)" ]; then
+          CHANGES=$(git status --porcelain)
+          if [ -n "$CHANGES" ]; then
+            echo "✅ 发现文件变更，准备提交"
             git add BingWallpaperData/
             git commit -m "🌎 收集 ${{ matrix.country }} 壁纸信息 - $(date +'%Y-%m-%d %H:%M UTC')"
             git push
+            echo "✅ 已推送到远程仓库"
+          else
+            echo "ℹ️ 没有发现文件变更，跳过提交"
           fi
