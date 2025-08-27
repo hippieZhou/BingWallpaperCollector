@@ -110,7 +110,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Application data directories
-BingWallpaperData/
+# BingWallpaperData/ - 注释掉，因为我们需要追踪收集到的壁纸信息
 BingWallpapers/
 
 # OS generated files

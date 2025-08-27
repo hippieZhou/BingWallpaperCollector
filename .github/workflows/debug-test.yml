@@ -20,110 +20,110 @@ permissions:
 jobs:
   debug-collection:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: 检出代码库
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 检出代码库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: 设置 .NET 9.0
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: "9.0.x"
+      - name: 设置 .NET 9.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
 
-    - name: 恢复依赖包和构建
-      run: |
-        echo "=== 构建项目 ==="
-        dotnet restore
-        dotnet build --configuration Release --no-restore
-        echo "✅ 构建完成"
+      - name: 恢复依赖包和构建
+        run: |
+          echo "=== 构建项目 ==="
+          dotnet restore
+          dotnet build --configuration Release --no-restore
+          echo "✅ 构建完成"
 
-    - name: 检查初始状态
-      run: |
-        echo "=== 初始状态检查 ==="
-        echo "当前工作目录: $(pwd)"
-        echo "目录内容:"
-        ls -la
-        echo ""
-        echo "是否存在 BingWallpaperData:"
-        if [ -d "BingWallpaperData" ]; then
-          echo "✅ BingWallpaperData 目录已存在"
-          find BingWallpaperData -name "*.json" | head -5
-        else
-          echo "❌ BingWallpaperData 目录不存在"
-        fi
-
-    - name: 运行收集程序
-      run: |
-        echo "=== 开始收集 ${{ github.event.inputs.target_country }} 壁纸信息 ==="
-        dotnet run --configuration Release
-        echo "=== 程序执行完成 ==="
-      env:
-        AUTO_MODE: "true"
-        COLLECT_ALL_COUNTRIES: "false"
-        TARGET_COUNTRY: "${{ github.event.inputs.target_country }}"
-        COLLECT_DAYS: "1"
-        CONCURRENT_REQUESTS: "1"
-        JSON_FORMAT: "pretty"
-
-    - name: 详细检查结果
-      run: |
-        echo "=== 详细结果检查 ==="
-        echo "执行后的目录内容:"
-        ls -la
-        echo ""
-        
-        if [ -d "BingWallpaperData" ]; then
-          echo "✅ BingWallpaperData 目录存在"
-          echo "完整目录结构:"
-          find BingWallpaperData -type f
+      - name: 检查初始状态
+        run: |
+          echo "=== 初始状态检查 ==="
+          echo "当前工作目录: $(pwd)"
+          echo "目录内容:"
+          ls -la
           echo ""
-          echo "JSON文件内容检查:"
-          find BingWallpaperData -name "*.json" -exec echo "文件: {}" \; -exec head -5 {} \; -exec echo "" \;
-        else
-          echo "❌ BingWallpaperData 目录仍然不存在"
-          echo "这说明程序没有创建任何文件"
-        fi
-        
-        echo ""
-        echo "Git 状态:"
-        git status --porcelain
-        git status
+          echo "是否存在 BingWallpaperData:"
+          if [ -d "BingWallpaperData" ]; then
+            echo "✅ BingWallpaperData 目录已存在"
+            find BingWallpaperData -name "*.json" | head -5
+          else
+            echo "❌ BingWallpaperData 目录不存在"
+          fi
 
-    - name: 尝试手动创建测试文件
-      run: |
-        echo "=== 手动创建测试 ==="
-        mkdir -p BingWallpaperData/TestCountry/2025-01-15
-        echo '{"test": "manual test file", "date": "2025-01-15"}' > BingWallpaperData/TestCountry/2025-01-15/test.json
-        echo "手动创建的测试文件:"
-        cat BingWallpaperData/TestCountry/2025-01-15/test.json
-        echo ""
-        echo "手动创建后的 Git 状态:"
-        git status --porcelain
+      - name: 运行收集程序
+        run: |
+          echo "=== 开始收集 ${{ github.event.inputs.target_country }} 壁纸信息 ==="
+          dotnet run --configuration Release
+          echo "=== 程序执行完成 ==="
+        env:
+          AUTO_MODE: "true"
+          COLLECT_ALL_COUNTRIES: "false"
+          TARGET_COUNTRY: "${{ github.event.inputs.target_country }}"
+          COLLECT_DAYS: "1"
+          CONCURRENT_REQUESTS: "1"
+          JSON_FORMAT: "pretty"
 
-    - name: 尝试提交测试
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action Debug"
-        
-        echo "=== 尝试提交测试 ==="
-        CHANGES=$(git status --porcelain)
-        if [ -n "$CHANGES" ]; then
-          echo "✅ 发现变更，尝试提交:"
-          echo "$CHANGES"
-          
-          git add BingWallpaperData/
-          echo "已添加到暂存区"
-          
-          git commit -m "🧪 调试测试 - ${{ github.event.inputs.target_country }} - $(date +'%Y-%m-%d %H:%M UTC')"
-          echo "已创建提交"
-          
-          echo "准备推送..."
-          git push
-          echo "✅ 推送成功！"
-        else
-          echo "❌ 没有发现任何变更"
-          echo "这说明文件创建或Git检测存在问题"
-        fi
+      - name: 详细检查结果
+        run: |
+          echo "=== 详细结果检查 ==="
+          echo "执行后的目录内容:"
+          ls -la
+          echo ""
+
+          if [ -d "BingWallpaperData" ]; then
+            echo "✅ BingWallpaperData 目录存在"
+            echo "完整目录结构:"
+            find BingWallpaperData -type f
+            echo ""
+            echo "JSON文件内容检查:"
+            find BingWallpaperData -name "*.json" -exec echo "文件: {}" \; -exec head -5 {} \; -exec echo "" \;
+          else
+            echo "❌ BingWallpaperData 目录仍然不存在"
+            echo "这说明程序没有创建任何文件"
+          fi
+
+          echo ""
+          echo "Git 状态:"
+          git status --porcelain
+          git status
+
+      - name: 尝试手动创建测试文件
+        run: |
+          echo "=== 手动创建测试 ==="
+          mkdir -p BingWallpaperData/TestCountry/2025-01-15
+          echo '{"test": "manual test file", "date": "2025-01-15"}' > BingWallpaperData/TestCountry/2025-01-15/test.json
+          echo "手动创建的测试文件:"
+          cat BingWallpaperData/TestCountry/2025-01-15/test.json
+          echo ""
+          echo "手动创建后的 Git 状态:"
+          git status --porcelain
+
+      - name: 尝试提交测试
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Debug"
+
+          echo "=== 尝试提交测试 ==="
+          CHANGES=$(git status --porcelain)
+          if [ -n "$CHANGES" ]; then
+            echo "✅ 发现变更，尝试提交:"
+            echo "$CHANGES"
+            
+            git add BingWallpaperData/
+            echo "已添加到暂存区"
+            
+            git commit -m "🧪 调试测试 - ${{ github.event.inputs.target_country }} - $(date +'%Y-%m-%d %H:%M UTC')"
+            echo "已创建提交"
+            
+            echo "准备推送..."
+            git push
+            echo "✅ 推送成功！"
+          else
+            echo "❌ 没有发现任何变更"
+            echo "这说明文件创建或Git检测存在问题"
+          fi
