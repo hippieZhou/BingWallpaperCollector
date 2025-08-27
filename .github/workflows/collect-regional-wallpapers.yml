@@ -63,7 +63,7 @@ jobs:
           echo "=== 检查收集结果 ==="
           echo "当前目录内容:"
           ls -la
-          
+
           if [ -d "BingWallpaperData" ]; then
             echo "BingWallpaperData 目录存在"
             echo "目录结构:"
@@ -71,7 +71,7 @@ jobs:
           else
             echo "❌ BingWallpaperData 目录不存在"
           fi
-          
+
           echo ""
           echo "Git 状态:"
           git status --porcelain || true
@@ -83,7 +83,7 @@ jobs:
           git config --local user.name "GitHub Action"
 
           echo "=== 准备提交数据 ==="
-          
+
           # 检查是否有变更
           CHANGES=$(git status --porcelain)
           if [ -n "$CHANGES" ]; then
