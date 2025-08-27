@@ -1,0 +1,35 @@
+{
+  "Date": "2025-08-27",
+  "Country": "Brazil",
+  "MarketCode": "pt-BR",
+  "Title": "Arte em estado líquido",
+  "Copyright": "Lago Sørvágsvatn, ilha de Vágar, Ilhas Faroe, Dinamarca (© Anton Petrus/Getty Images)",
+  "CopyrightLink": "https://www.bing.com/search?q=o+que+%C3%A9+um+lago&form=hpcapt&mkt=pt-br",
+  "Description": "Lago Sørvágsvatn, ilha de Vágar, Ilhas Faroe, Dinamarca",
+  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_FaroeLake%22&FORM=HPQUIZ",
+  "Hash": "3f67bdb203a0a88636d1ee5f6f741dcd",
+  "ImageResolutions": [
+    {
+      "Resolution": "UHD",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_UHD.jpg",
+      "Size": "Ultra High Definition (~4K)"
+    },
+    {
+      "Resolution": "HD",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_1920x1200.jpg",
+      "Size": "1920x1200"
+    },
+    {
+      "Resolution": "Full HD",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_1920x1080.jpg",
+      "Size": "1920x1080"
+    },
+    {
+      "Resolution": "Standard",
+      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_1366x768.jpg",
+      "Size": "1366x768"
+    }
+  ],
+  "CreatedAt": "2025-08-27T15:08:16.5356014+00:00",
+  "OriginalUrlBase": "/th?id=OHR.FaroeLake_PT-BR9196671345"
+}
