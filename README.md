@@ -1,6 +1,7 @@
 # 必应壁纸信息收集器 (Bing Wallpaper Information Collector)
 
-![GitHub Actions](https://github.com/your-username/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml/badge.svg)
+[![每日收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml)
+[![区域化收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml)
 ![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -271,13 +272,15 @@ A: 可以在 `MarketCode` 枚举中添加更多国家代码，但需要确保必
 A: 项目已集成 GitHub Actions 自动化收集功能！详情请查看 [GitHub Actions 文档](.github/README.md)。
 
 **✅ 系统运行状态：完全自动化中！**
-- 🌍 已成功收集 **14个国家** 的壁纸信息
+
+- 🌍 已成功收集 **14 个国家** 的壁纸信息
 - 📅 覆盖 **2025-08-20 至 2025-08-27** 多个日期
-- 📊 110+ JSON文件自动生成和提交
-- 🔗 所有图片URL经过验证可用
+- 📊 110+ JSON 文件自动生成和提交
+- 🔗 所有图片 URL 经过验证可用
 
 **自动化特性:**
-- 🤖 每天自动运行，无需手动干预（2个核心workflow）
+
+- 🤖 每天自动运行，无需手动干预（2 个核心 workflow）
 - 🌍 支持全球多时区优化收集
 - 📊 智能重试机制，避免并发冲突
 - 🔄 自动提交新数据到仓库
@@ -329,6 +332,16 @@ curl -I "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_UHD.jpg"
 ## 许可证
 
 本项目采用 MIT 许可证，详情请参阅 LICENSE 文件。
+
+## 作者
+
+**主要开发者:**
+
+- [@hippieZhou](https://github.com/hippieZhou) - 项目创建者和维护者
+
+**Co-Author:**
+
+- [Cursor](https://cursor.sh/) - AI 编程助手，协助项目开发和优化
 
 ## 贡献
 
