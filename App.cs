@@ -158,7 +158,7 @@ public class CollectionConfig
 /// <summary>
 /// 必应壁纸信息收集器主应用类
 /// </summary>
-public class BingWallpaperApp
+public class BingWallpaperApp : IDisposable
 {
     private readonly HttpClient _httpClient;
     private readonly ILogger<BingWallpaperApp> _logger;
@@ -168,6 +168,9 @@ public class BingWallpaperApp
     private const string BingApiUrlTemplate = "https://www.bing.com/HPImageArchive.aspx?format=js&idx={0}&n={1}&mkt={2}";
     private const string BingBaseUrl = "https://www.bing.com";
     private const int MaxHistoryDays = 8; // Bing API支持的最大历史天数
+
+    // 图片下载并发控制信号量
+    private static readonly SemaphoreSlim _downloadSemaphore = new(5, 5); // 最多同时下载5张图片
 
     public BingWallpaperApp(HttpClient httpClient, ILogger<BingWallpaperApp> logger)
     {
@@ -650,4 +653,510 @@ public class BingWallpaperApp
     /// 获取数据存储目录路径
     /// </summary>
     public string GetDataDirectory() => _dataDirectory;
+
+    /// <summary>
+    /// 下载图片到指定目录
+    /// </summary>
+    /// <param name="imageUrl">图片URL地址</param>
+    /// <param name="country">国家代码（用于创建目录结构）</param>
+    /// <param name="date">日期（用于创建目录结构）</param>
+    /// <param name="resolution">分辨率标识（如UHD、HD等）</param>
+    /// <param name="progress">进度汇报回调（可选）</param>
+    /// <returns>下载成功后的文件完整路径，失败返回null</returns>
+    public async Task<string?> DownloadImageAsync(string imageUrl, string country, string date, string resolution,
+        IProgress<FileDownloadProgress>? progress = null)
+    {
+        if (string.IsNullOrWhiteSpace(imageUrl))
+        {
+            _logger.LogWarning("图片URL为空，跳过下载");
+            return null;
+        }
+
+        // 解析文件扩展名
+        var uri = new Uri(imageUrl);
+        var fileName = Path.GetFileName(uri.LocalPath);
+        if (string.IsNullOrWhiteSpace(fileName) || !Path.HasExtension(fileName))
+        {
+            // 如果无法从URL获取文件名，使用默认命名
+            var extension = imageUrl.ToLower().Contains(".jpg") ? ".jpg" :
+                           imageUrl.ToLower().Contains(".png") ? ".png" : ".jpg";
+            fileName = $"{resolution}_wallpaper{extension}";
+        }
+
+        // 创建进度对象
+        var downloadProgress = new FileDownloadProgress
+        {
+            FileName = fileName,
+            Resolution = resolution,
+            Status = DownloadStatus.Starting
+        };
+
+        // 汇报初始状态
+        progress?.Report(downloadProgress);
+
+        await _downloadSemaphore.WaitAsync();
+        try
+        {
+            // 创建目录结构：Country/Date/Images/
+            var countryDir = Path.Combine(_dataDirectory, country);
+            var dateDir = Path.Combine(countryDir, date);
+            var imagesDir = Path.Combine(dateDir, "Images");
+            Directory.CreateDirectory(imagesDir);
+
+            // 生成完整的文件路径
+            var filePath = Path.Combine(imagesDir, fileName);
+
+            // 检查文件是否已存在
+            if (File.Exists(filePath))
+            {
+                var fileInfo = new FileInfo(filePath);
+                if (fileInfo.Length > 0)
+                {
+                    _logger.LogDebug("📁 图片文件已存在，跳过下载: {FilePath}", filePath);
+
+                    // 汇报跳过状态
+                    downloadProgress.Status = DownloadStatus.Skipped;
+                    downloadProgress.PercentageComplete = 100.0;
+                    downloadProgress.BytesDownloaded = fileInfo.Length;
+                    downloadProgress.TotalBytes = fileInfo.Length;
+                    progress?.Report(downloadProgress);
+
+                    return filePath;
+                }
+                else
+                {
+                    // 如果文件存在但大小为0，删除并重新下载
+                    File.Delete(filePath);
+                    _logger.LogWarning("🗑️ 删除损坏的图片文件: {FilePath}", filePath);
+                }
+            }
+
+            _logger.LogInformation("📥 开始下载图片: {Resolution} - {FileName}", resolution, fileName);
+
+            // 更新进度状态为下载中
+            downloadProgress.Status = DownloadStatus.Downloading;
+            progress?.Report(downloadProgress);
+
+            // 创建HTTP请求
+            using var request = new HttpRequestMessage(HttpMethod.Get, imageUrl);
+            request.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36");
+            request.Headers.Add("Accept", "image/webp,image/apng,image/*,*/*;q=0.8");
+            request.Headers.Add("Accept-Encoding", "gzip, deflate, br");
+            request.Headers.Add("Cache-Control", "no-cache");
+
+            // 发送请求并下载
+            using var response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorMsg = $"HTTP状态码: {response.StatusCode}";
+                _logger.LogError("❌ 下载图片失败，HTTP状态码: {StatusCode}, URL: {ImageUrl}",
+                    response.StatusCode, imageUrl);
+
+                // 汇报失败状态
+                downloadProgress.Status = DownloadStatus.Failed;
+                downloadProgress.ErrorMessage = errorMsg;
+                progress?.Report(downloadProgress);
+
+                return null;
+            }
+
+            // 检查内容类型
+            var contentType = response.Content.Headers.ContentType?.MediaType;
+            if (contentType != null && !contentType.StartsWith("image/"))
+            {
+                _logger.LogWarning("⚠️ 响应内容类型不是图片: {ContentType}, URL: {ImageUrl}",
+                    contentType, imageUrl);
+                // 但仍然尝试下载，因为有些服务器可能返回错误的Content-Type
+            }
+
+            // 获取文件大小
+            var contentLength = response.Content.Headers.ContentLength;
+            downloadProgress.TotalBytes = contentLength;
+            var fileSizeText = contentLength.HasValue ?
+                $"{contentLength.Value / 1024.0 / 1024.0:F2} MB" : "未知大小";
+
+            _logger.LogInformation("📊 图片信息: 大小 {FileSize}", fileSizeText);
+
+            // 下载并保存文件（带进度汇报）
+            using var contentStream = await response.Content.ReadAsStreamAsync();
+            using var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.None);
+
+            await CopyStreamWithProgressAsync(contentStream, fileStream, downloadProgress, progress);
+            await fileStream.FlushAsync();
+
+            // 验证下载的文件
+            var downloadedFileInfo = new FileInfo(filePath);
+            if (downloadedFileInfo.Length == 0)
+            {
+                File.Delete(filePath);
+                _logger.LogError("❌ 下载的文件大小为0，删除文件: {FilePath}", filePath);
+
+                // 汇报失败状态
+                downloadProgress.Status = DownloadStatus.Failed;
+                downloadProgress.ErrorMessage = "下载的文件大小为0";
+                progress?.Report(downloadProgress);
+
+                return null;
+            }
+
+            _logger.LogInformation("✅ 图片下载成功: {FilePath} ({FileSize})",
+                filePath, $"{downloadedFileInfo.Length / 1024.0 / 1024.0:F2} MB");
+
+            // 汇报完成状态
+            downloadProgress.Status = DownloadStatus.Completed;
+            downloadProgress.PercentageComplete = 100.0;
+            downloadProgress.BytesDownloaded = downloadedFileInfo.Length;
+            downloadProgress.TotalBytes = downloadedFileInfo.Length;
+            progress?.Report(downloadProgress);
+
+            return filePath;
+        }
+        catch (HttpRequestException ex)
+        {
+            _logger.LogError(ex, "🌐 网络请求失败: {Message}, URL: {ImageUrl}", ex.Message, imageUrl);
+
+            // 汇报失败状态
+            downloadProgress.Status = DownloadStatus.Failed;
+            downloadProgress.ErrorMessage = $"网络请求失败: {ex.Message}";
+            progress?.Report(downloadProgress);
+
+            return null;
+        }
+        catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
+        {
+            _logger.LogError(ex, "⏱️ 下载超时: {Message}, URL: {ImageUrl}", ex.Message, imageUrl);
+
+            // 汇报失败状态
+            downloadProgress.Status = DownloadStatus.Failed;
+            downloadProgress.ErrorMessage = $"下载超时: {ex.Message}";
+            progress?.Report(downloadProgress);
+
+            return null;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "💥 下载图片时发生未知错误: {Message}, URL: {ImageUrl}", ex.Message, imageUrl);
+
+            // 汇报失败状态
+            downloadProgress.Status = DownloadStatus.Failed;
+            downloadProgress.ErrorMessage = $"未知错误: {ex.Message}";
+            progress?.Report(downloadProgress);
+
+            return null;
+        }
+        finally
+        {
+            _downloadSemaphore.Release();
+        }
+    }
+
+    /// <summary>
+    /// 带进度汇报的流复制方法
+    /// </summary>
+    private async Task CopyStreamWithProgressAsync(Stream source, Stream destination,
+        FileDownloadProgress progress, IProgress<FileDownloadProgress>? progressReporter)
+    {
+        var buffer = new byte[81920]; // 80KB 缓冲区
+        var totalBytesRead = 0L;
+        var startTime = DateTime.UtcNow;
+        var lastReportTime = startTime;
+
+        int bytesRead;
+        while ((bytesRead = await source.ReadAsync(buffer, 0, buffer.Length)) > 0)
+        {
+            await destination.WriteAsync(buffer, 0, bytesRead);
+            totalBytesRead += bytesRead;
+
+            var currentTime = DateTime.UtcNow;
+
+            // 更新进度（每100ms汇报一次，避免过于频繁）
+            if (currentTime - lastReportTime >= TimeSpan.FromMilliseconds(100))
+            {
+                progress.BytesDownloaded = totalBytesRead;
+
+                // 计算进度百分比
+                if (progress.TotalBytes.HasValue && progress.TotalBytes > 0)
+                {
+                    progress.PercentageComplete = (double)totalBytesRead / progress.TotalBytes.Value * 100.0;
+                }
+
+                // 计算下载速度
+                var elapsedTime = currentTime - startTime;
+                if (elapsedTime.TotalSeconds > 0)
+                {
+                    progress.BytesPerSecond = totalBytesRead / elapsedTime.TotalSeconds;
+
+                    // 估算剩余时间
+                    if (progress.TotalBytes.HasValue && progress.BytesPerSecond > 0)
+                    {
+                        var remainingBytes = progress.TotalBytes.Value - totalBytesRead;
+                        progress.EstimatedTimeRemaining = TimeSpan.FromSeconds(remainingBytes / progress.BytesPerSecond);
+                    }
+                }
+
+                progressReporter?.Report(progress);
+                lastReportTime = currentTime;
+            }
+        }
+
+        // 最终状态更新
+        progress.BytesDownloaded = totalBytesRead;
+        if (progress.TotalBytes.HasValue && progress.TotalBytes > 0)
+        {
+            progress.PercentageComplete = (double)totalBytesRead / progress.TotalBytes.Value * 100.0;
+        }
+
+        var finalElapsedTime = DateTime.UtcNow - startTime;
+        if (finalElapsedTime.TotalSeconds > 0)
+        {
+            progress.BytesPerSecond = totalBytesRead / finalElapsedTime.TotalSeconds;
+        }
+
+        progress.EstimatedTimeRemaining = TimeSpan.Zero;
+        progressReporter?.Report(progress);
+    }
+
+    /// <summary>
+    /// 批量下载图片（支持并发）
+    /// </summary>
+    /// <param name="imageRequests">图片下载请求列表</param>
+    /// <param name="batchProgress">批量下载进度汇报（可选）</param>
+    /// <returns>下载结果列表（成功下载的文件路径）</returns>
+    public async Task<List<string>> DownloadImagesAsync(List<ImageDownloadRequest> imageRequests,
+        IProgress<BatchDownloadProgress>? batchProgress = null)
+    {
+        if (imageRequests == null || !imageRequests.Any())
+        {
+            _logger.LogWarning("图片下载请求列表为空");
+            return new List<string>();
+        }
+
+        _logger.LogInformation("🚀 开始批量下载 {Count} 张图片", imageRequests.Count);
+
+        // 创建批量进度对象
+        var batchProgressData = new BatchDownloadProgress
+        {
+            TotalFiles = imageRequests.Count,
+            StartTime = DateTime.UtcNow
+        };
+
+        batchProgress?.Report(batchProgressData);
+
+        var results = new List<string>();
+        var completedCount = 0;
+        var failedCount = 0;
+
+        // 创建信号量控制并发数
+        var semaphore = new SemaphoreSlim(Math.Min(imageRequests.Count, 5), Math.Min(imageRequests.Count, 5));
+        var tasks = new List<Task>();
+
+        foreach (var request in imageRequests)
+        {
+            tasks.Add(Task.Run(async () =>
+            {
+                await semaphore.WaitAsync();
+                try
+                {
+                    // 为每个文件创建进度汇报
+                    var fileProgressReporter = batchProgress != null ? new Progress<FileDownloadProgress>(fileProgress =>
+                    {
+                        batchProgressData.CurrentFileProgress = fileProgress;
+                        batchProgressData.ElapsedTime = DateTime.UtcNow - batchProgressData.StartTime;
+                        batchProgress.Report(batchProgressData);
+                    }) : null;
+
+                    var filePath = await DownloadImageAsync(request.ImageUrl, request.Country, request.Date,
+                        request.Resolution, fileProgressReporter);
+
+                    lock (results)
+                    {
+                        if (!string.IsNullOrEmpty(filePath))
+                        {
+                            results.Add(filePath);
+                            completedCount++;
+                        }
+                        else
+                        {
+                            failedCount++;
+                        }
+
+                        // 更新批量进度
+                        batchProgressData.CompletedFiles = completedCount;
+                        batchProgressData.FailedFiles = failedCount;
+                        batchProgressData.OverallPercentage = (double)(completedCount + failedCount) / imageRequests.Count * 100.0;
+                        batchProgressData.ElapsedTime = DateTime.UtcNow - batchProgressData.StartTime;
+
+                        batchProgress?.Report(batchProgressData);
+                    }
+                }
+                finally
+                {
+                    semaphore.Release();
+                }
+            }));
+        }
+
+        await Task.WhenAll(tasks);
+
+        // 最终状态汇报
+        batchProgressData.CompletedFiles = completedCount;
+        batchProgressData.FailedFiles = failedCount;
+        batchProgressData.OverallPercentage = 100.0;
+        batchProgressData.ElapsedTime = DateTime.UtcNow - batchProgressData.StartTime;
+        batchProgressData.CurrentFileProgress = null; // 清除当前文件进度
+        batchProgress?.Report(batchProgressData);
+
+        _logger.LogInformation("📊 批量下载完成: 成功 {SuccessCount} 张，失败 {FailedCount} 张，用时 {ElapsedTime}",
+            completedCount, failedCount, batchProgressData.ElapsedTime);
+
+        return results;
+    }
+
+    /// <summary>
+    /// 释放资源
+    /// </summary>
+    public void Dispose()
+    {
+        _downloadSemaphore?.Dispose();
+    }
+}
+
+/// <summary>
+/// 图片下载请求信息
+/// </summary>
+public class ImageDownloadRequest
+{
+    public string ImageUrl { get; set; } = string.Empty;
+    public string Country { get; set; } = string.Empty;
+    public string Date { get; set; } = string.Empty;
+    public string Resolution { get; set; } = string.Empty;
+}
+
+/// <summary>
+/// 单个文件下载进度信息
+/// </summary>
+public class FileDownloadProgress
+{
+    /// <summary>
+    /// 文件名
+    /// </summary>
+    public string FileName { get; set; } = string.Empty;
+
+    /// <summary>
+    /// 分辨率标识
+    /// </summary>
+    public string Resolution { get; set; } = string.Empty;
+
+    /// <summary>
+    /// 下载进度百分比 (0-100)
+    /// </summary>
+    public double PercentageComplete { get; set; }
+
+    /// <summary>
+    /// 已下载字节数
+    /// </summary>
+    public long BytesDownloaded { get; set; }
+
+    /// <summary>
+    /// 文件总大小（如果已知）
+    /// </summary>
+    public long? TotalBytes { get; set; }
+
+    /// <summary>
+    /// 下载速度 (字节/秒)
+    /// </summary>
+    public double BytesPerSecond { get; set; }
+
+    /// <summary>
+    /// 剩余时间估算
+    /// </summary>
+    public TimeSpan? EstimatedTimeRemaining { get; set; }
+
+    /// <summary>
+    /// 下载状态
+    /// </summary>
+    public DownloadStatus Status { get; set; } = DownloadStatus.Starting;
+
+    /// <summary>
+    /// 错误信息（如果有）
+    /// </summary>
+    public string? ErrorMessage { get; set; }
+}
+
+/// <summary>
+/// 批量下载进度信息
+/// </summary>
+public class BatchDownloadProgress
+{
+    /// <summary>
+    /// 总文件数
+    /// </summary>
+    public int TotalFiles { get; set; }
+
+    /// <summary>
+    /// 已完成的文件数
+    /// </summary>
+    public int CompletedFiles { get; set; }
+
+    /// <summary>
+    /// 失败的文件数
+    /// </summary>
+    public int FailedFiles { get; set; }
+
+    /// <summary>
+    /// 整体进度百分比 (0-100)
+    /// </summary>
+    public double OverallPercentage { get; set; }
+
+    /// <summary>
+    /// 当前正在下载的文件进度
+    /// </summary>
+    public FileDownloadProgress? CurrentFileProgress { get; set; }
+
+    /// <summary>
+    /// 总下载速度 (字节/秒)
+    /// </summary>
+    public double TotalBytesPerSecond { get; set; }
+
+    /// <summary>
+    /// 开始时间
+    /// </summary>
+    public DateTime StartTime { get; set; }
+
+    /// <summary>
+    /// 已用时间
+    /// </summary>
+    public TimeSpan ElapsedTime { get; set; }
+}
+
+/// <summary>
+/// 下载状态枚举
+/// </summary>
+public enum DownloadStatus
+{
+    /// <summary>
+    /// 准备开始
+    /// </summary>
+    Starting,
+
+    /// <summary>
+    /// 正在下载
+    /// </summary>
+    Downloading,
+
+    /// <summary>
+    /// 下载完成
+    /// </summary>
+    Completed,
+
+    /// <summary>
+    /// 下载失败
+    /// </summary>
+    Failed,
+
+    /// <summary>
+    /// 已跳过（文件已存在）
+    /// </summary>
+    Skipped
 }
