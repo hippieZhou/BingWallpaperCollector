@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>必应壁纸收集器 - 宣传图片</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .promo-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
+      padding: 3rem;
+      max-width: 800px;
+      width: 100%;
+      box-shadow:
+        0 25px 50px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(255, 255, 255, 0.3);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .promo-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background:
+        radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .title {
+      font-size: 3rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+      color: #6b7280;
+      margin-bottom: 2.5rem;
+      font-weight: 300;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+
+    .feature {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+      border-radius: 16px;
+      padding: 2rem;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .feature-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-desc {
+      font-size: 0.95rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      margin: 3rem 0;
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+      border-radius: 16px;
+      padding: 2rem;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #667eea;
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 0.5rem;
+    }
+
+    .tech-stack {
+      margin: 2.5rem 0;
+    }
+
+    .tech-title {
+      font-size: 1.1rem;
+      color: #374151;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+
+    .tech-tag {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+
+    .cta {
+      margin-top: 3rem;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 25px rgba(102, 126, 234, 0.5);
+    }
+
+    .github-link {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 0.75rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: transform 0.3s ease;
+    }
+
+    .github-link:hover {
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+      .promo-card {
+        padding: 2rem;
+        margin: 1rem;
+      }
+
+      .title {
+        font-size: 2.2rem;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .stats {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+
+      .github-link {
+        top: 1rem;
+        right: 1rem;
+      }
+    }
+
+    .watermark {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.8rem;
+      color: rgba(0, 0, 0, 0.4);
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="promo-card">
+    <a href="https://github.com/hippieZhou/BingWallpaperCollector" class="github-link" target="_blank">
+      ⭐ GitHub
+    </a>
+
+    <div class="content">
+      <h1 class="title">必应壁纸收集器</h1>
+      <p class="subtitle">自动收集全球14个国家/地区的必应每日壁纸</p>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-number">14</span>
+          <span class="stat-label">国家/地区</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">28+</span>
+          <span class="stat-label">精美壁纸</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">自动更新</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">4K</span>
+          <span class="stat-label">超高清画质</span>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <span class="feature-icon">🌍</span>
+          <div class="feature-title">全球覆盖</div>
+          <div class="feature-desc">支持中国、美国、日本、德国等14个国家和地区的壁纸收集</div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">🤖</span>
+          <div class="feature-title">智能自动化</div>
+          <div class="feature-desc">GitHub Actions自动执行，每天定时收集最新壁纸资源</div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">🎨</span>
+          <div class="feature-title">精美展示</div>
+          <div class="feature-desc">现代化Web界面，支持筛选、搜索、预览和高清下载</div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">📱</span>
+          <div class="feature-title">响应式设计</div>
+          <div class="feature-desc">完美适配桌面端和移动端，随时随地欣赏美丽壁纸</div>
+        </div>
+      </div>
+
+      <div class="tech-stack">
+        <div class="tech-title">🛠️ 技术栈</div>
+        <div class="tech-tags">
+          <span class="tech-tag">.NET 9.0</span>
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">GitHub Actions</span>
+          <span class="tech-tag">GitHub Pages</span>
+          <span class="tech-tag">HTML5 & CSS3</span>
+          <span class="tech-tag">JavaScript ES6+</span>
+          <span class="tech-tag">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="cta">
+        <a href="https://hippiezhou.github.io/BingWallpaperCollector/" class="cta-button">
+          🌐 立即体验在线版本
+        </a>
+      </div>
+    </div>
+
+    <div class="watermark">
+      hippieZhou/BingWallpaperCollector • GitHub Pages
+    </div>
+  </div>
+
+  <script>
+    // 添加一些交互动效
+    document.addEventListener('DOMContentLoaded', function () {
+      const features = document.querySelectorAll('.feature');
+      features.forEach((feature, index) => {
+        feature.style.animationDelay = `${index * 0.1}s`;
+        feature.style.animation = 'fadeInUp 0.6s ease forwards';
+      });
+
+      // 添加鼠标移动视差效果
+      document.addEventListener('mousemove', function (e) {
+        const card = document.querySelector('.promo-card');
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const rotateX = (y - centerY) / centerY * 2;
+        const rotateY = (centerX - x) / centerX * 2;
+
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      });
+
+      document.addEventListener('mouseleave', function () {
+        const card = document.querySelector('.promo-card');
+        card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+      });
+    });
+  </script>
+
+  <style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</body>
+
+</html>
