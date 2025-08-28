@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages 测试页面</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        .test-item {
+            background: #f8f9fa;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .success { border-left-color: #28a745; }
+        .error { border-left-color: #dc3545; }
+        .warning { border-left-color: #ffc107; }
+        pre {
+            background: #f1f3f4;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub Pages 功能测试</h1>
+    
+    <div class="test-item">
+        <h3>基础信息</h3>
+        <p><strong>当前页面URL:</strong> <span id="current-url"></span></p>
+        <p><strong>用户代理:</strong> <span id="user-agent"></span></p>
+        <p><strong>测试时间:</strong> <span id="test-time"></span></p>
+    </div>
+
+    <div class="test-item" id="data-test">
+        <h3>数据文件访问测试</h3>
+        <p>正在测试数据文件访问...</p>
+        <div id="data-results"></div>
+    </div>
+
+    <div class="test-item" id="fetch-test">
+        <h3>Fetch API 测试</h3>
+        <p>正在测试网络请求...</p>
+        <div id="fetch-results"></div>
+    </div>
+
+    <div class="test-item">
+        <h3>控制台日志</h3>
+        <pre id="console-log"></pre>
+    </div>
+
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="index.html" style="background: #007bff; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px;">返回主页</a>
+    </div>
+
+    <script>
+        // 基础信息显示
+        document.getElementById('current-url').textContent = window.location.href;
+        document.getElementById('user-agent').textContent = navigator.userAgent;
+        document.getElementById('test-time').textContent = new Date().toLocaleString('zh-CN');
+
+        // 控制台日志捕获
+        const originalConsoleLog = console.log;
+        const originalConsoleError = console.error;
+        let consoleOutput = [];
+
+        console.log = function(...args) {
+            consoleOutput.push(['LOG', ...args]);
+            originalConsoleLog.apply(console, args);
+            updateConsoleDisplay();
+        };
+
+        console.error = function(...args) {
+            consoleOutput.push(['ERROR', ...args]);
+            originalConsoleError.apply(console, args);
+            updateConsoleDisplay();
+        };
+
+        function updateConsoleDisplay() {
+            const consoleElement = document.getElementById('console-log');
+            consoleElement.textContent = consoleOutput
+                .map(entry => `[${entry[0]}] ${entry.slice(1).join(' ')}`)
+                .join('\n');
+        }
+
+        // 数据文件访问测试
+        async function testDataAccess() {
+            const dataTest = document.getElementById('data-test');
+            const dataResults = document.getElementById('data-results');
+            
+            try {
+                // 测试几个常见的数据文件路径
+                const testUrls = [
+                    './BingWallpaperData/China/2025-08-28/wallpaper_info.json',
+                    './BingWallpaperData/UnitedStates/2025-08-28/wallpaper_info.json',
+                    './BingWallpaperData/Japan/2025-08-28/wallpaper_info.json'
+                ];
+
+                let results = [];
+                
+                for (const url of testUrls) {
+                    try {
+                        console.log(`测试数据文件: ${url}`);
+                        const response = await fetch(url);
+                        const status = response.ok ? '✅ 成功' : '❌ 失败';
+                        const statusCode = response.status;
+                        
+                        results.push(`${status} ${url} (${statusCode})`);
+                        
+                        if (response.ok) {
+                            const data = await response.json();
+                            console.log(`数据加载成功: ${data.title}`);
+                        }
+                    } catch (error) {
+                        results.push(`❌ 错误 ${url}: ${error.message}`);
+                        console.error(`数据访问错误: ${error.message}`);
+                    }
+                }
+
+                dataResults.innerHTML = `<pre>${results.join('\n')}</pre>`;
+                dataTest.className = 'test-item success';
+            } catch (error) {
+                dataResults.innerHTML = `<pre>数据访问测试失败: ${error.message}</pre>`;
+                dataTest.className = 'test-item error';
+                console.error('数据访问测试失败:', error);
+            }
+        }
+
+        // Fetch API 测试
+        async function testFetchApi() {
+            const fetchTest = document.getElementById('fetch-test');
+            const fetchResults = document.getElementById('fetch-results');
+            
+            try {
+                // 测试基本的fetch功能
+                console.log('开始 Fetch API 测试');
+                
+                const testUrl = 'https://api.github.com/repos/hippieZhou/BingWallpaperCollector';
+                const response = await fetch(testUrl);
+                const data = await response.json();
+                
+                const results = [
+                    `✅ Fetch API 可用`,
+                    `✅ GitHub API 访问成功`,
+                    `仓库名称: ${data.name}`,
+                    `仓库描述: ${data.description}`,
+                    `最后更新: ${new Date(data.updated_at).toLocaleString('zh-CN')}`
+                ];
+
+                fetchResults.innerHTML = `<pre>${results.join('\n')}</pre>`;
+                fetchTest.className = 'test-item success';
+                console.log('Fetch API 测试成功');
+            } catch (error) {
+                fetchResults.innerHTML = `<pre>Fetch API 测试失败: ${error.message}</pre>`;
+                fetchTest.className = 'test-item error';
+                console.error('Fetch API 测试失败:', error);
+            }
+        }
+
+        // 运行所有测试
+        async function runAllTests() {
+            console.log('开始运行所有测试...');
+            await testDataAccess();
+            await testFetchApi();
+            console.log('所有测试完成');
+        }
+
+        // 页面加载完成后运行测试
+        window.addEventListener('load', runAllTests);
+    </script>
+</body>
+</html>

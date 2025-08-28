@@ -1,0 +1,86 @@
+# 必应壁纸展示平台
+
+这是一个基于GitHub Pages的静态网站，用于展示必应壁纸信息收集器收集的数据。
+
+## 🌐 访问地址
+
+**主站地址**: https://hippiezhou.github.io/BingWallpaperCollector/
+
+## 📋 功能特性
+
+- 📱 **响应式设计** - 完美适配桌面和移动设备
+- 🌍 **多国家浏览** - 支持14个国家/地区的壁纸
+- 📅 **时间轴视图** - 按日期浏览历史壁纸
+- 🔍 **智能搜索** - 按标题、描述、国家筛选
+- 🖼️ **高清预览** - 支持多分辨率下载
+- 🎨 **现代界面** - 美观的用户界面设计
+
+## 🚀 技术栈
+
+- **前端**: 纯JavaScript (ES6+)、CSS3、HTML5
+- **部署**: GitHub Pages + GitHub Actions
+- **数据**: 直接读取仓库中的JSON文件
+- **样式**: 现代CSS Grid + Flexbox布局
+- **图标**: Font Awesome 6
+
+## 📁 项目结构
+
+```
+docs/
+├── index.html              # 主页
+├── assets/
+│   ├── css/
+│   │   └── style.css       # 主样式文件
+│   ├── js/
+│   │   ├── app.js         # 主应用逻辑
+│   │   └── data-loader.js  # 数据加载模块
+│   └── images/             # 图片资源
+├── pages/                  # 其他页面（预留）
+├── data-index.js          # 数据索引（自动生成）
+└── _config.yml            # Jekyll配置
+```
+
+## 🔄 自动部署
+
+网站通过GitHub Actions自动部署：
+
+1. 当`main`分支的`docs/`或`BingWallpaperData/`目录有更新时触发
+2. 自动生成数据索引文件
+3. 验证HTML和JSON文件完整性
+4. 部署到GitHub Pages
+
+## 📊 数据来源
+
+网站数据来源于同仓库的`BingWallpaperData/`目录：
+- 支持14个国家/地区
+- 每日自动更新
+- JSON格式存储
+- 包含多分辨率图片链接
+
+## 🛠️ 本地开发
+
+如需本地开发，请：
+
+1. 克隆仓库
+2. 启动本地HTTP服务器
+3. 访问`docs/index.html`
+
+```bash
+# 使用Python启动本地服务器
+cd docs
+python -m http.server 8000
+
+# 或使用Node.js
+npx http-server . -p 8000
+```
+
+## 📱 浏览器支持
+
+- Chrome 70+
+- Firefox 65+  
+- Safari 12+
+- Edge 79+
+
+## 📄 许可证
+
+本项目采用MIT许可证，与主项目保持一致。

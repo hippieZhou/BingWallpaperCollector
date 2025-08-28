@@ -1,0 +1,254 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - 'BingWallpaperData/**'
+      - '.github/workflows/deploy-pages.yml'
+  
+  # 允许手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 防止并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # 构建作业
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Copy data to docs directory
+        run: |
+          # 将BingWallpaperData复制到docs目录，使其可在GitHub Pages中访问
+          cp -r BingWallpaperData docs/
+          echo "数据文件已复制到docs目录"
+
+      - name: Create data index
+        run: |
+          # 创建数据索引文件
+          cat > docs/data-index.js << 'EOF'
+          // 自动生成的数据索引
+          window.WALLPAPER_DATA_INDEX = {
+            generated: new Date().toISOString(),
+            countries: [],
+            dates: [],
+            totalFiles: 0,
+            availableData: {}
+          };
+          
+          // 扫描可用数据
+          const fs = require('fs');
+          const path = require('path');
+          
+          const dataDir = path.join(__dirname, '..', 'BingWallpaperData');
+          const index = window.WALLPAPER_DATA_INDEX;
+          
+          if (fs.existsSync(dataDir)) {
+            const countries = fs.readdirSync(dataDir).filter(item => 
+              fs.statSync(path.join(dataDir, item)).isDirectory()
+            );
+            
+            countries.forEach(country => {
+              const countryPath = path.join(dataDir, country);
+              const dates = fs.readdirSync(countryPath).filter(item =>
+                fs.statSync(path.join(countryPath, item)).isDirectory()
+              );
+              
+              if (!index.availableData[country]) {
+                index.availableData[country] = [];
+              }
+              
+              dates.forEach(date => {
+                const jsonFile = path.join(countryPath, date, 'wallpaper_info.json');
+                if (fs.existsSync(jsonFile)) {
+                  index.availableData[country].push(date);
+                  index.totalFiles++;
+                }
+              });
+              
+              if (index.availableData[country].length > 0) {
+                index.countries.push(country);
+                index.dates = [...new Set([...index.dates, ...index.availableData[country]])];
+              }
+            });
+            
+            index.dates.sort().reverse();
+          }
+          EOF
+          
+          # 使用Node.js生成实际的索引
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          
+          const index = {
+            generated: new Date().toISOString(),
+            countries: [],
+            dates: [],
+            totalFiles: 0,
+            availableData: {}
+          };
+          
+          const dataDir = 'docs/BingWallpaperData';
+          
+          if (fs.existsSync(dataDir)) {
+            const countries = fs.readdirSync(dataDir).filter(item => 
+              fs.statSync(path.join(dataDir, item)).isDirectory()
+            );
+            
+            countries.forEach(country => {
+              const countryPath = path.join(dataDir, country);
+              if (!fs.existsSync(countryPath)) return;
+              
+              const dates = fs.readdirSync(countryPath).filter(item =>
+                fs.statSync(path.join(countryPath, item)).isDirectory()
+              );
+              
+              if (!index.availableData[country]) {
+                index.availableData[country] = [];
+              }
+              
+              dates.forEach(date => {
+                const jsonFile = path.join(countryPath, date, 'wallpaper_info.json');
+                if (fs.existsSync(jsonFile)) {
+                  index.availableData[country].push(date);
+                  index.totalFiles++;
+                }
+              });
+              
+              if (index.availableData[country].length > 0) {
+                index.countries.push(country);
+                index.dates = [...new Set([...index.dates, ...index.availableData[country]])];
+              }
+            });
+            
+            index.dates.sort().reverse();
+          }
+          
+          // 写入索引文件
+          const indexContent = 'window.WALLPAPER_DATA_INDEX = ' + JSON.stringify(index, null, 2) + ';';
+          fs.writeFileSync('docs/data-index.js', indexContent);
+          
+          console.log('数据索引生成完成:');
+          console.log('- 国家数量:', index.countries.length);
+          console.log('- 日期数量:', index.dates.length);
+          console.log('- 文件总数:', index.totalFiles);
+          "
+
+      - name: Optimize images and create thumbnails
+        run: |
+          # 这里可以添加图片优化逻辑（可选）
+          echo "图片优化步骤（当前跳过）"
+
+      - name: Validate website
+        run: |
+          # 验证HTML和JSON文件
+          echo "验证网站文件..."
+          
+          # 检查关键文件是否存在
+          test -f docs/index.html || (echo "错误: index.html 不存在" && exit 1)
+          test -f docs/assets/css/style.css || (echo "错误: style.css 不存在" && exit 1)
+          test -f docs/assets/js/app.js || (echo "错误: app.js 不存在" && exit 1)
+          test -f docs/data-index.js || (echo "错误: data-index.js 不存在" && exit 1)
+          
+          # 验证JSON文件格式
+          echo "验证 JSON 文件格式..."
+          find BingWallpaperData -name "*.json" -exec node -e "
+            try {
+              JSON.parse(require('fs').readFileSync('{}', 'utf8'));
+              console.log('✓ {}');
+            } catch(e) {
+              console.error('✗ {}: ' + e.message);
+              process.exit(1);
+            }
+          " \;
+          
+          echo "验证通过！"
+
+      - name: Build with Jekyll
+        run: |
+          # 为了兼容GitHub Pages，添加Jekyll配置
+          cat > docs/_config.yml << 'EOF'
+          # GitHub Pages Jekyll 配置
+          title: "必应壁纸展示平台"
+          description: "浏览来自全球14个国家/地区的精美必应壁纸"
+          baseurl: "/BingWallpaperCollector"
+          url: "https://hippiezhou.github.io"
+          
+          # 排除文件
+          exclude:
+            - node_modules
+            - package*.json
+            - "*.md"
+          
+          # 包含隐藏文件
+          include:
+            - _headers
+            - _redirects
+          
+          # 插件
+          plugins:
+            - jekyll-relative-links
+          
+          # 相对链接
+          relative_links:
+            enabled: true
+            collections: true
+          EOF
+          
+          # 创建.nojekyll文件以禁用Jekyll（如果需要纯静态站点）
+          # touch docs/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+  # 部署作业
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # 通知作业（可选）
+  notify:
+    runs-on: ubuntu-latest
+    needs: [build, deploy]
+    if: always()
+    steps:
+      - name: Notify deployment status
+        run: |
+          if [ "${{ needs.deploy.result }}" == "success" ]; then
+            echo "✅ 部署成功!"
+            echo "🌐 访问地址: https://hippiezhou.github.io/BingWallpaperCollector/"
+          else
+            echo "❌ 部署失败!"
+          fi

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="必应壁纸信息展示平台 - 浏览来自全球14个国家/地区的精美必应壁纸">
+    <title>必应壁纸信息展示平台</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-image"></i>
+                    <h1>必应壁纸展示平台</h1>
+                    <span class="subtitle">Bing Wallpaper Gallery</span>
+                </div>
+                <nav class="nav">
+                    <button class="nav-btn active" data-view="gallery">
+                        <i class="fas fa-th-large"></i>
+                        <span>画廊</span>
+                    </button>
+                    <button class="nav-btn" data-view="countries">
+                        <i class="fas fa-globe"></i>
+                        <span>国家</span>
+                    </button>
+                    <button class="nav-btn" data-view="timeline">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>时间轴</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-group">
+                <div class="filter-item">
+                    <label for="country-filter">
+                        <i class="fas fa-flag"></i>
+                        选择国家/地区:
+                    </label>
+                    <select id="country-filter">
+                        <option value="">所有国家</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="date-filter">
+                        <i class="fas fa-calendar"></i>
+                        选择日期:
+                    </label>
+                    <select id="date-filter">
+                        <option value="">所有日期</option>
+                    </select>
+                </div>
+                <div class="filter-item search-box">
+                    <label for="search-input">
+                        <i class="fas fa-search"></i>
+                        搜索:
+                    </label>
+                    <input type="text" id="search-input" placeholder="搜索标题或描述...">
+                </div>
+            </div>
+            <div class="stats">
+                <span class="stat-item">
+                    <i class="fas fa-images"></i>
+                    <span id="total-count">0</span> 张壁纸
+                </span>
+                <span class="stat-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <span id="country-count">0</span> 个国家
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading -->
+    <div id="loading" class="loading">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>正在加载壁纸数据...</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Gallery View -->
+            <section id="gallery-view" class="view active">
+                <div id="wallpaper-grid" class="wallpaper-grid">
+                    <!-- 壁纸项目将通过JavaScript动态插入 -->
+                </div>
+            </section>
+
+            <!-- Countries View -->
+            <section id="countries-view" class="view">
+                <div id="countries-grid" class="countries-grid">
+                    <!-- 国家项目将通过JavaScript动态插入 -->
+                </div>
+            </section>
+
+            <!-- Timeline View -->
+            <section id="timeline-view" class="view">
+                <div id="timeline-container" class="timeline-container">
+                    <!-- 时间轴将通过JavaScript动态插入 -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="wallpaper-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title"></h2>
+                <div class="modal-meta">
+                    <span id="modal-country" class="country-tag"></span>
+                    <span id="modal-date" class="date-tag"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="">
+                    <div class="image-overlay">
+                        <div class="download-options">
+                            <h3>下载选项:</h3>
+                            <div id="resolution-buttons" class="resolution-buttons">
+                                <!-- 分辨率按钮将动态插入 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <p id="modal-description"></p>
+                    <p id="modal-copyright"></p>
+                    <div class="modal-actions">
+                        <button id="copy-link-btn" class="action-btn">
+                            <i class="fas fa-copy"></i>
+                            复制链接
+                        </button>
+                        <button id="share-btn" class="action-btn">
+                            <i class="fas fa-share"></i>
+                            分享
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>必应壁纸展示平台</h3>
+                    <p>数据来源：Microsoft Bing 官方壁纸服务</p>
+                    <p>支持 14 个国家/地区的本地化壁纸信息</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/hippieZhou/BingWallpaperCollector" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="#" id="about-link">
+                        <i class="fas fa-info-circle"></i>
+                        关于
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 必应壁纸展示平台. 数据自动更新于 <span id="last-update">--</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/data-loader.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
