@@ -45,126 +45,29 @@
 
 本项目采用现代化的分层架构设计，基于 SOLID 原则和 .NET 最佳实践进行重构：
 
-### 架构总览图
+由于GitHub对复杂Mermaid图表的渲染限制，完整的交互式架构图请查看：
+**[📊 完整架构图 - 在线查看](https://github.com/hippieZhou/BingWallpaperCollector/blob/main/README.md#%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84)**
 
-```mermaid
-graph TB
-    subgraph "🏗️ Application Layer"
-        Program["Program.cs<br/>程序入口点<br/>依赖注入配置"]
-        App["BingWallpaperApp.cs<br/>主应用协调器<br/>服务编排"]
-    end
+### 简化架构概览
 
-    subgraph "🔧 Service Layer"
-        subgraph "Interfaces"
-            IWallpaper["IBingWallpaperService<br/>壁纸收集接口"]
-            IDownload["IImageDownloadService<br/>图片下载接口"]
-            IStorage["IWallpaperStorageService<br/>存储服务接口"]
-            IConfig["IUserConfigurationService<br/>配置服务接口"]
-        end
+```
+应用层 (Application)
+├── Program.cs          # 程序入口与DI配置
+└── BingWallpaperApp.cs # 主应用协调器
 
-        subgraph "Implementations"
-            WallpaperSvc["BingWallpaperService<br/>壁纸收集实现<br/>API调用逻辑"]
-            DownloadSvc["ImageDownloadService<br/>图片下载实现<br/>并发下载管理"]
-            StorageSvc["WallpaperStorageService<br/>存储服务实现<br/>JSON序列化"]
-            ConfigSvc["UserConfigurationService<br/>配置服务实现<br/>环境变量处理"]
-        end
-    end
+服务层 (Services)
+├── Interfaces/         # 服务接口定义
+└── Impl/              # 服务具体实现
 
-    subgraph "🏛️ Model Layer"
-        subgraph "Data Models"
-            M1["BingWallpaperInfo<br/>API响应模型"]
-            M2["WallpaperTimeInfo<br/>时间信息模型<br/>DateOnly支持"]
-            M3["WallpaperInfoStorage<br/>存储数据模型"]
-            M4["ImageResolution<br/>分辨率信息"]
-        end
+数据层 (Models & Enums)
+├── Models/            # 数据模型
+├── Enums/            # 枚举定义
+└── Converters/       # JSON转换器
 
-        subgraph "Progress Models"
-            P1["FileDownloadProgress<br/>单文件下载进度"]
-            P2["BatchDownloadProgress<br/>批量下载进度"]
-            P3["ImageDownloadRequest<br/>下载请求模型"]
-        end
-
-        subgraph "API Models"
-            A1["BingApiResponse<br/>API响应封装"]
-        end
-    end
-
-    subgraph "🎯 Enums & Extensions"
-        E1["MarketCode<br/>市场代码枚举<br/>14个国家/地区"]
-        E2["DownloadStatus<br/>下载状态枚举"]
-        EX1["EnumExtensions<br/>枚举扩展方法<br/>Description获取"]
-    end
-
-    subgraph "⚙️ Configuration"
-        C1["AppConstants<br/>应用常量<br/>API地址、超时等"]
-        C2["CollectionConfig<br/>收集配置模型"]
-        CV1["WallpaperTimeInfoConverter<br/>JSON时间转换器<br/>DateOnly序列化"]
-    end
-
-    subgraph "🌐 External Systems"
-        EXT1["Bing Wallpaper API<br/>https://www.bing.com/<br/>HPImageArchive.aspx"]
-        EXT2["本地文件系统<br/>BingWallpaperData/<br/>Country/Date/结构"]
-        EXT3["GitHub Actions<br/>自动化工作流<br/>定时收集"]
-    end
-
-    %% 应用层连接
-    Program --> App
-    App --> IWallpaper
-    App --> IDownload
-
-    %% 接口实现连接
-    IWallpaper -.-> WallpaperSvc
-    IDownload -.-> DownloadSvc
-    IStorage -.-> StorageSvc
-    IConfig -.-> ConfigSvc
-
-    %% 服务依赖关系
-    WallpaperSvc --> IStorage
-    WallpaperSvc --> IConfig
-    WallpaperSvc --> EXT1
-
-    %% 存储服务使用模型
-    StorageSvc --> M1
-    StorageSvc --> M2
-    StorageSvc --> M3
-    StorageSvc --> CV1
-    StorageSvc --> EXT2
-
-    %% 下载服务使用模型
-    DownloadSvc --> P1
-    DownloadSvc --> P2
-    DownloadSvc --> P3
-    DownloadSvc --> E2
-
-    %% 配置服务使用枚举
-    ConfigSvc --> E1
-    ConfigSvc --> EX1
-    ConfigSvc --> C1
-    ConfigSvc --> C2
-
-    %% API调用关系
-    WallpaperSvc --> A1
-    A1 --> M1
-
-    %% 外部触发
-    EXT3 --> Program
-
-    %% 样式定义
-    classDef appClass fill:#90EE90,stroke:#333,stroke-width:3px,color:#000
-    classDef serviceClass fill:#87CEEB,stroke:#333,stroke-width:2px,color:#000
-    classDef interfaceClass fill:#E8F4FD,stroke:#333,stroke-width:2px,color:#000
-    classDef modelClass fill:#DDA0DD,stroke:#333,stroke-width:2px,color:#000
-    classDef enumClass fill:#F0E68C,stroke:#333,stroke-width:2px,color:#000
-    classDef configClass fill:#FFE4B5,stroke:#333,stroke-width:2px,color:#000
-    classDef externalClass fill:#FFB6C1,stroke:#333,stroke-width:3px,color:#000
-
-    class Program,App appClass
-    class WallpaperSvc,DownloadSvc,StorageSvc,ConfigSvc serviceClass
-    class IWallpaper,IDownload,IStorage,IConfig interfaceClass
-    class M1,M2,M3,M4,P1,P2,P3,A1 modelClass
-    class E1,E2,EX1 enumClass
-    class C1,C2,CV1 configClass
-    class EXT1,EXT2,EXT3 externalClass
+配置层 (Configuration)
+├── AppConstants      # 应用常量
+├── CollectionConfig  # 收集配置
+└── Extensions/       # 扩展方法
 ```
 
 ### 架构特点
