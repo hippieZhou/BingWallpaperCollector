@@ -195,8 +195,22 @@ jobs:
             console.log('  - 可用国家:', index.countries.length, '个');
             console.log('  - 可用日期:', index.dates.length, '个');
             console.log('  - JSON文件总数:', index.totalFiles, '个');
-            console.log('  - 日期范围:', index.dates[index.dates.length-1], '至', index.dates[0]);
+            if (index.dates.length > 0) {
+              console.log('  - 日期范围:', index.dates[index.dates.length-1], '至', index.dates[0]);
+            }
             console.log('  - 索引文件大小:', fs.statSync('docs/data-index.js').size, '字节');
+            
+            // 验证索引文件内容
+            const indexFileContent = fs.readFileSync('docs/data-index.js', 'utf8');
+            if (indexFileContent.includes('WALLPAPER_DATA_INDEX')) {
+              console.log('✅ 索引文件内容验证通过');
+            } else {
+              console.log('❌ 索引文件内容验证失败');
+              process.exit(1);
+            }
+            
+            // 输出完整的日期列表用于调试
+            console.log('📅 完整日期列表:', JSON.stringify(index.dates));
           } else {
             console.log('❌ 错误: 数据目录不存在:', dataDir);
             process.exit(1);

@@ -29,20 +29,75 @@ class DataLoader {
 
     // 获取可用的日期列表
     async getAvailableDates() {
+        // 添加调试信息
+        console.log('🔍 正在获取可用日期列表...');
+        console.log('数据索引对象存在:', !!window.WALLPAPER_DATA_INDEX);
+        
         // 首先尝试从数据索引获取
-        if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates) {
-            console.log('从数据索引获取日期列表:', window.WALLPAPER_DATA_INDEX.dates);
+        if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates && Array.isArray(window.WALLPAPER_DATA_INDEX.dates)) {
+            console.log('✅ 从数据索引获取日期列表:', window.WALLPAPER_DATA_INDEX.dates);
+            console.log('📊 索引生成时间:', window.WALLPAPER_DATA_INDEX.generated);
             return window.WALLPAPER_DATA_INDEX.dates;
         }
         
-        // 回退到已知的可用日期（基于实际数据）
+        // 等待一下，可能数据索引正在加载
+        if (!window.WALLPAPER_DATA_INDEX) {
+            console.log('⏳ 等待数据索引加载...');
+            await new Promise(resolve => setTimeout(resolve, 100));
+            
+            // 再次尝试
+            if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates) {
+                console.log('✅ 延迟获取到数据索引:', window.WALLPAPER_DATA_INDEX.dates);
+                return window.WALLPAPER_DATA_INDEX.dates;
+            }
+        }
+        
+        // 尝试动态获取可用日期（基于实际数据检查）
+        const dynamicDates = await this.detectAvailableDates();
+        if (dynamicDates.length > 0) {
+            console.log('✅ 通过检测获取到可用日期:', dynamicDates);
+            return dynamicDates;
+        }
+        
+        // 最终回退到已知的可用日期
         const knownDates = [
             '2025-08-28',
             '2025-08-27'
         ];
         
-        console.log('使用预设的已知日期:', knownDates);
+        console.log('⚠️ 使用预设的已知日期:', knownDates);
         return knownDates;
+    }
+
+    // 动态检测可用日期
+    async detectAvailableDates() {
+        console.log('🔍 开始动态检测可用日期...');
+        const basePath = this.getBasePath();
+        const testCountry = 'China'; // 使用中国作为测试国家
+        const detectedDates = [];
+        
+        // 测试最近几天的数据
+        const testDates = [
+            '2025-08-28',
+            '2025-08-27',
+            '2025-08-26',
+            '2025-08-25'
+        ];
+        
+        for (const date of testDates) {
+            const url = `${basePath}/BingWallpaperData/${testCountry}/${date}/wallpaper_info.json`;
+            try {
+                const response = await fetch(url, { method: 'HEAD' });
+                if (response.ok) {
+                    detectedDates.push(date);
+                    console.log(`✅ 检测到可用日期: ${date}`);
+                }
+            } catch (error) {
+                console.log(`❌ 日期不可用: ${date}`);
+            }
+        }
+        
+        return detectedDates;
     }
 
     // 检查文件是否存在
