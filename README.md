@@ -1,9 +1,15 @@
-# 必应壁纸信息收集器 (Bing Wallpaper Information Collector)
+<div align='center'>
+
+# 必应壁纸信息收集器
+
+Bing Wallpaper Information Collector
 
 [![每日收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml)
 [![区域化收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml)
 ![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+</div>
 
 基于 C# 和 .NET 9.0 开发的多语言必应壁纸信息收集工具，支持 14 个国家/地区的本地化壁纸信息收集。
 
@@ -376,47 +382,3 @@ curl -I "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_UHD.jpg"
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
-
-## 📝 更新日志
-
-### v2.2.0 (当前版本) - 架构重构版本
-
-- 🏗️ **全面架构重构**: 从单个 1399 行文件重构为 27 个专业组织的模块化文件
-- 🎯 **SOLID 原则实践**: 完整实现单一职责、开放封闭、依赖倒置等设计原则
-- 🔧 **依赖注入架构**: 完整的 DI 容器配置，支持服务生命周期管理
-- 📦 **服务分层设计**: Services 接口与 Impl 实现清晰分离，提升可维护性
-- 🚀 **现代 C#特性**: 使用 `sealed` 类、集合表达式 `[]`、`Span<T>` 等最新语法
-- 📋 **类型安全增强**: `DateOnly` 类型处理日期，自定义 JSON 转换器
-- 🧪 **测试友好设计**: 每个服务可独立进行单元测试和集成测试
-- 🔄 **异步编程优化**: 全面的 `async/await` 支持，包含 `CancellationToken`
-- 📊 **常量管理优化**: AppConstants 集中管理，消除 27 处魔法数字
-- 🌐 **跨平台兼容**: 支持 WinUI3、控制台应用等多种宿主环境集成
-- 🎨 **项目架构图**: 新增完整的 Mermaid 架构图展示项目结构
-
-### v2.1.0
-
-- 🎯 **修复关键问题**: 修正图片 URL 生成逻辑，确保所有 URL 可用
-- 🔧 **GitHub Actions 完善**: 解决并发推送冲突，优化自动化流程
-- 📋 **调试工具增强**: 改进日志输出，添加详细的状态反馈
-- 🌍 **全球自动收集**: 成功实现 14 个国家的自动化数据收集
-- 🖼️ **分辨率优化**: 基于实际测试确定可用格式（UHD、HD、Full HD、Standard）
-- 📊 **数据完整性**: 修复.gitignore 问题，确保数据正确提交和存储
-
-### v2.0.0
-
-- 🔄 **重大更新**: 从壁纸下载器转换为壁纸信息收集器
-- 🌍 新增多语言支持（14 个国家/地区）
-- 📊 JSON 数据存储替代图片下载
-- 🖼️ 多分辨率 URL 支持（UHD、4K、1080p、HD）
-- 📅 历史数据收集功能（最多 8 天）
-- 📁 智能目录结构（按国家和日期组织）
-- ⚡ 并发处理和性能优化
-- 🎨 交互式用户界面
-- 🤖 GitHub Actions 自动化收集
-
-### v1.0.0
-
-- 初始版本发布
-- 支持必应壁纸自动下载
-- 支持 4K 和 HD 分辨率
-- 完整的错误处理和日志记录
