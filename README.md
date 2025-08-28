@@ -29,14 +29,19 @@ Bing Wallpaper Information Collector
 - 💾 **高清下载** - 支持UHD、4K、1080p、HD多种分辨率
 - ⚡ **实时更新** - 数据与收集器同步，每日自动更新
 - 📊 **详细信息** - 显示壁纸标题、描述、版权、时间等完整信息
+- 🔍 **SEO优化** - 完整的搜索引擎优化，支持Google、百度等搜索收录
+- 📱 **社交分享** - 支持Facebook、Twitter等社交媒体分享
 
 ### 🔗 快速链接
 
 | 链接 | 描述 |
 |------|------|
 | [🏠 主网站](https://hippiezhou.github.io/BingWallpaperCollector/) | 壁纸画廊主页 |
+| [📋 项目介绍](https://hippiezhou.github.io/BingWallpaperCollector/promo.html) | 项目详细介绍和宣传页面 |
 | [🧪 健康检查](https://hippiezhou.github.io/BingWallpaperCollector/health.html) | 网站状态和诊断 |
+| [📊 数据检查](https://hippiezhou.github.io/BingWallpaperCollector/data-check.html) | 数据完整性和加载检查 |
 | [🔬 功能测试](https://hippiezhou.github.io/BingWallpaperCollector/test.html) | 详细功能测试页面 |
+| [🗺️ 网站地图](https://hippiezhou.github.io/BingWallpaperCollector/sitemap.xml) | 搜索引擎站点地图 |
 
 ## 🌟 功能特性
 

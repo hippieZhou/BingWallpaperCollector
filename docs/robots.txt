@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# 站点地图
+Sitemap: https://hippiezhou.github.io/BingWallpaperCollector/sitemap.xml
+
+# 优先收录重要页面
+Crawl-delay: 1
+
+# 禁止收录的目录
+Disallow: /assets/js/
+Disallow: /test.html
+Disallow: /debug-dates.html
+Disallow: /health.html
+
+# 鼓励收录的重要页面
+Allow: /index.html
+Allow: /promo.html
+Allow: /BingWallpaperData/
