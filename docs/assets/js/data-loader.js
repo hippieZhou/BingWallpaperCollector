@@ -196,55 +196,79 @@ class DataLoader {
         this.wallpapers = [];
         
         const countries = Object.keys(this.getCountryInfo());
-        // 使用实际数据日期进行加载，而不是UI显示日期
-        const actualDates = this.getActualDataDates();
         
-        const total = countries.length * actualDates.length;
+        // 构建实际要加载的文件列表
+        const filesToLoad = [];
+        
+        if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.availableData) {
+            // 使用数据索引中的具体文件信息
+            console.log('📊 使用数据索引构建加载列表...');
+            Object.entries(window.WALLPAPER_DATA_INDEX.availableData).forEach(([country, dates]) => {
+                dates.forEach(date => {
+                    filesToLoad.push({ country, date });
+                });
+            });
+        } else {
+            // 回退到所有可能的组合
+            console.log('⚠️ 数据索引不可用，尝试所有可能的组合...');
+            const fallbackDates = ['2025-08-28', '2025-08-27'];
+            countries.forEach(country => {
+                fallbackDates.forEach(date => {
+                    filesToLoad.push({ country, date });
+                });
+            });
+        }
+        
+        const total = filesToLoad.length;
         let loaded = 0;
 
-        console.log(`开始加载数据: ${countries.length} 个国家 × ${actualDates.length} 个实际数据日期 = ${total} 个文件`);
-        console.log(`🗂️ 实际加载日期:`, actualDates);
+        console.log(`📋 开始加载数据: ${filesToLoad.length} 个文件`);
+        console.log(`🗂️ 涉及国家数: ${countries.length}`);
+        
+        if (window.WALLPAPER_DATA_INDEX) {
+            console.log(`📊 数据索引信息: ${window.WALLPAPER_DATA_INDEX.totalFiles} 个文件`);
+        }
 
         // 并发加载数据，但限制并发数
         const concurrencyLimit = 5;
-        const promises = [];
+        const allPromises = []; // 保存所有的 Promise
+        const currentBatch = []; // 当前批次的 Promise
 
-        for (const country of countries) {
-            for (const date of actualDates) {
-                const promise = this.loadWallpaperData(country, date)
-                    .then(data => {
-                        loaded++;
-                        if (progressCallback) {
-                            progressCallback({
-                                loaded,
-                                total,
-                                percentage: Math.round((loaded / total) * 100),
-                                current: `${country}/${date}`
-                            });
-                        }
-                        return data;
-                    });
+        for (const fileInfo of filesToLoad) {
+            const promise = this.loadWallpaperData(fileInfo.country, fileInfo.date)
+                .then(data => {
+                    loaded++;
+                    if (progressCallback) {
+                        progressCallback({
+                            loaded,
+                            total,
+                            percentage: Math.round((loaded / total) * 100),
+                            current: `${fileInfo.country}/${fileInfo.date}`
+                        });
+                    }
+                    return data;
+                });
+            
+            allPromises.push(promise); // 保存到总列表
+            currentBatch.push(promise); // 添加到当前批次
+            
+            // 控制并发数
+            if (currentBatch.length >= concurrencyLimit) {
+                await Promise.all(currentBatch);
+                currentBatch.length = 0; // 清空当前批次
                 
-                promises.push(promise);
-                
-                // 控制并发数
-                if (promises.length >= concurrencyLimit) {
-                    await Promise.all(promises);
-                    promises.length = 0; // 清空数组
-                    
-                    // 短暂延迟，避免过快的请求
-                    await new Promise(resolve => setTimeout(resolve, 100));
-                }
+                // 短暂延迟，避免过快的请求
+                await new Promise(resolve => setTimeout(resolve, 100));
             }
         }
 
         // 等待剩余的请求完成
-        if (promises.length > 0) {
-            await Promise.all(promises);
+        if (currentBatch.length > 0) {
+            await Promise.all(currentBatch);
         }
 
         // 收集所有有效数据
-        const allResults = await Promise.all(promises);
+        const allResults = await Promise.all(allPromises);
         this.wallpapers = allResults.filter(data => data !== null);
         
         // 提取国家和日期列表
