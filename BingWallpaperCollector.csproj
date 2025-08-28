@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <AssemblyTitle>Bing Wallpaper Information Collector</AssemblyTitle>
     <AssemblyDescription>A C# application to collect Bing daily wallpaper information from multiple countries</AssemblyDescription>
-    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <AssemblyVersion>2.2.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

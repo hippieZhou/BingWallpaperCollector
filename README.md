@@ -41,6 +41,156 @@
 | 13   | 🇨🇦   | 加拿大    | en-CA    | 英文     |
 | 14   | 🇮🇳   | 印度      | en-IN    | 英文     |
 
+## 项目架构
+
+本项目采用现代化的分层架构设计，基于 SOLID 原则和 .NET 最佳实践进行重构：
+
+### 架构总览图
+
+```mermaid
+graph TB
+    subgraph "🏗️ Application Layer"
+        Program["Program.cs<br/>程序入口点<br/>依赖注入配置"]
+        App["BingWallpaperApp.cs<br/>主应用协调器<br/>服务编排"]
+    end
+
+    subgraph "🔧 Service Layer"
+        subgraph "Interfaces"
+            IWallpaper["IBingWallpaperService<br/>壁纸收集接口"]
+            IDownload["IImageDownloadService<br/>图片下载接口"]
+            IStorage["IWallpaperStorageService<br/>存储服务接口"]
+            IConfig["IUserConfigurationService<br/>配置服务接口"]
+        end
+
+        subgraph "Implementations"
+            WallpaperSvc["BingWallpaperService<br/>壁纸收集实现<br/>API调用逻辑"]
+            DownloadSvc["ImageDownloadService<br/>图片下载实现<br/>并发下载管理"]
+            StorageSvc["WallpaperStorageService<br/>存储服务实现<br/>JSON序列化"]
+            ConfigSvc["UserConfigurationService<br/>配置服务实现<br/>环境变量处理"]
+        end
+    end
+
+    subgraph "🏛️ Model Layer"
+        subgraph "Data Models"
+            M1["BingWallpaperInfo<br/>API响应模型"]
+            M2["WallpaperTimeInfo<br/>时间信息模型<br/>DateOnly支持"]
+            M3["WallpaperInfoStorage<br/>存储数据模型"]
+            M4["ImageResolution<br/>分辨率信息"]
+        end
+
+        subgraph "Progress Models"
+            P1["FileDownloadProgress<br/>单文件下载进度"]
+            P2["BatchDownloadProgress<br/>批量下载进度"]
+            P3["ImageDownloadRequest<br/>下载请求模型"]
+        end
+
+        subgraph "API Models"
+            A1["BingApiResponse<br/>API响应封装"]
+        end
+    end
+
+    subgraph "🎯 Enums & Extensions"
+        E1["MarketCode<br/>市场代码枚举<br/>14个国家/地区"]
+        E2["DownloadStatus<br/>下载状态枚举"]
+        EX1["EnumExtensions<br/>枚举扩展方法<br/>Description获取"]
+    end
+
+    subgraph "⚙️ Configuration"
+        C1["AppConstants<br/>应用常量<br/>API地址、超时等"]
+        C2["CollectionConfig<br/>收集配置模型"]
+        CV1["WallpaperTimeInfoConverter<br/>JSON时间转换器<br/>DateOnly序列化"]
+    end
+
+    subgraph "🌐 External Systems"
+        EXT1["Bing Wallpaper API<br/>https://www.bing.com/<br/>HPImageArchive.aspx"]
+        EXT2["本地文件系统<br/>BingWallpaperData/<br/>Country/Date/结构"]
+        EXT3["GitHub Actions<br/>自动化工作流<br/>定时收集"]
+    end
+
+    %% 应用层连接
+    Program --> App
+    App --> IWallpaper
+    App --> IDownload
+
+    %% 接口实现连接
+    IWallpaper -.-> WallpaperSvc
+    IDownload -.-> DownloadSvc
+    IStorage -.-> StorageSvc
+    IConfig -.-> ConfigSvc
+
+    %% 服务依赖关系
+    WallpaperSvc --> IStorage
+    WallpaperSvc --> IConfig
+    WallpaperSvc --> EXT1
+
+    %% 存储服务使用模型
+    StorageSvc --> M1
+    StorageSvc --> M2
+    StorageSvc --> M3
+    StorageSvc --> CV1
+    StorageSvc --> EXT2
+
+    %% 下载服务使用模型
+    DownloadSvc --> P1
+    DownloadSvc --> P2
+    DownloadSvc --> P3
+    DownloadSvc --> E2
+
+    %% 配置服务使用枚举
+    ConfigSvc --> E1
+    ConfigSvc --> EX1
+    ConfigSvc --> C1
+    ConfigSvc --> C2
+
+    %% API调用关系
+    WallpaperSvc --> A1
+    A1 --> M1
+
+    %% 外部触发
+    EXT3 --> Program
+
+    %% 样式定义
+    classDef appClass fill:#90EE90,stroke:#333,stroke-width:3px,color:#000
+    classDef serviceClass fill:#87CEEB,stroke:#333,stroke-width:2px,color:#000
+    classDef interfaceClass fill:#E8F4FD,stroke:#333,stroke-width:2px,color:#000
+    classDef modelClass fill:#DDA0DD,stroke:#333,stroke-width:2px,color:#000
+    classDef enumClass fill:#F0E68C,stroke:#333,stroke-width:2px,color:#000
+    classDef configClass fill:#FFE4B5,stroke:#333,stroke-width:2px,color:#000
+    classDef externalClass fill:#FFB6C1,stroke:#333,stroke-width:3px,color:#000
+
+    class Program,App appClass
+    class WallpaperSvc,DownloadSvc,StorageSvc,ConfigSvc serviceClass
+    class IWallpaper,IDownload,IStorage,IConfig interfaceClass
+    class M1,M2,M3,M4,P1,P2,P3,A1 modelClass
+    class E1,E2,EX1 enumClass
+    class C1,C2,CV1 configClass
+    class EXT1,EXT2,EXT3 externalClass
+```
+
+### 架构特点
+
+#### 🎯 **分层设计**
+
+- **应用层**: 轻量级协调器，负责应用程序启动和服务协调
+- **服务层**: 清晰的接口定义与实现分离，支持依赖注入和单元测试
+- **模型层**: 类型安全的数据模型，支持 JSON 序列化和自定义转换
+- **配置层**: 集中管理常量、配置和扩展方法
+
+#### 🔧 **技术特性**
+
+- **SOLID 原则**: 单一职责、开放封闭、依赖倒置等原则的完整实现
+- **依赖注入**: 完整的 DI 容器配置，支持服务生命周期管理
+- **现代 C#**: 使用 `sealed` 类、集合表达式 `[]`、`Span<T>` 等现代语法
+- **类型安全**: `DateOnly` 类型处理日期，自定义 JSON 转换器
+- **异步编程**: 全面的 `async/await` 支持，包含 `CancellationToken`
+
+#### 📦 **可扩展性**
+
+- **接口驱动**: 所有核心功能通过接口定义，便于扩展和替换实现
+- **模块化设计**: 27 个专业组织的文件，从原来的单个 1399 行巨大文件重构而来
+- **测试友好**: 每个服务都可独立进行单元测试和集成测试
+- **跨平台兼容**: 支持 WinUI3、控制台应用等多种宿主环境
+
 ## 系统要求
 
 - .NET 9.0 或更高版本
@@ -256,7 +406,21 @@ curl -I "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_UHD.jpg"
 
 ## 更新日志
 
-### v2.1.0 (当前版本)
+### v2.2.0 (当前版本) - 架构重构版本
+
+- 🏗️ **全面架构重构**: 从单个 1399 行文件重构为 27 个专业组织的模块化文件
+- 🎯 **SOLID 原则实践**: 完整实现单一职责、开放封闭、依赖倒置等设计原则
+- 🔧 **依赖注入架构**: 完整的 DI 容器配置，支持服务生命周期管理
+- 📦 **服务分层设计**: Services 接口与 Impl 实现清晰分离，提升可维护性
+- 🚀 **现代 C#特性**: 使用 `sealed` 类、集合表达式 `[]`、`Span<T>` 等最新语法
+- 📋 **类型安全增强**: `DateOnly` 类型处理日期，自定义 JSON 转换器
+- 🧪 **测试友好设计**: 每个服务可独立进行单元测试和集成测试
+- 🔄 **异步编程优化**: 全面的 `async/await` 支持，包含 `CancellationToken`
+- 📊 **常量管理优化**: AppConstants 集中管理，消除 27 处魔法数字
+- 🌐 **跨平台兼容**: 支持 WinUI3、控制台应用等多种宿主环境集成
+- 🎨 **项目架构图**: 新增完整的 Mermaid 架构图展示项目结构
+
+### v2.1.0
 
 - 🎯 **修复关键问题**: 修正图片 URL 生成逻辑，确保所有 URL 可用
 - 🔧 **GitHub Actions 完善**: 解决并发推送冲突，优化自动化流程

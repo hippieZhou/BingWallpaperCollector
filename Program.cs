@@ -1,16 +1,24 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using BingWallpaperCollector;
+using BingWallpaperCollector.Configuration;
+using BingWallpaperCollector.Services;
+using BingWallpaperCollector.Services.Impl;
 
 // 创建服务容器
 var services = new ServiceCollection();
 
-// 配置服务
-services.AddHttpClient<BingWallpaperApp>(client =>
+// 配置HttpClient
+services.AddHttpClient<IBingWallpaperService, BingWallpaperService>(client =>
 {
-    client.Timeout = TimeSpan.FromSeconds(30); // 减少超时时间为30秒
-    client.DefaultRequestHeaders.Add("User-Agent",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
+    client.Timeout = TimeSpan.FromSeconds(AppConstants.HttpTimeoutSeconds);
+    client.DefaultRequestHeaders.Add("User-Agent", AppConstants.HttpHeaders.UserAgent);
+});
+
+services.AddHttpClient<IImageDownloadService, ImageDownloadService>(client =>
+{
+    client.Timeout = TimeSpan.FromSeconds(AppConstants.HttpTimeoutSeconds);
+    client.DefaultRequestHeaders.Add("User-Agent", AppConstants.HttpHeaders.UserAgent);
 });
 
 // 配置日志
@@ -19,6 +27,12 @@ services.AddLogging(builder =>
     builder.AddConsole();
     builder.SetMinimumLevel(LogLevel.Information);
 });
+
+// 注册服务
+services.AddSingleton<IUserConfigurationService, UserConfigurationService>();
+services.AddSingleton<IWallpaperStorageService, WallpaperStorageService>();
+services.AddTransient<IBingWallpaperService, BingWallpaperService>();
+services.AddTransient<IImageDownloadService, ImageDownloadService>();
 
 // 注册应用服务
 services.AddTransient<BingWallpaperApp>();
@@ -32,7 +46,7 @@ var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
 try
 {
     logger.LogInformation("=== 必应壁纸信息收集器启动 ===");
-    logger.LogInformation("程序版本: 2.0.0");
+    logger.LogInformation("程序版本: 2.2.0");
     logger.LogInformation("目标框架: .NET 9.0");
     logger.LogInformation("启动时间: {StartTime}", DateTime.Now);
     logger.LogInformation("=============================");
@@ -41,7 +55,6 @@ try
     var app = serviceProvider.GetRequiredService<BingWallpaperApp>();
     await app.RunAsync();
 
-    logger.LogInformation("数据存储目录: {DataPath}", app.GetDataDirectory());
     logger.LogInformation("程序执行完成，按任意键退出...");
 
     // 等待用户输入以便查看结果（检测是否为重定向输入）
