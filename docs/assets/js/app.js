@@ -19,7 +19,7 @@ class WallpaperApp {
         
         try {
             await this.loadData();
-            this.initializeFilters();
+            await this.initializeFilters();
             this.showGalleryView();
             this.updateStats();
         } catch (error) {
@@ -100,7 +100,7 @@ class WallpaperApp {
     }
 
     // 初始化筛选器
-    initializeFilters() {
+    async initializeFilters() {
         const countryFilter = document.getElementById('country-filter');
         const dateFilter = document.getElementById('date-filter');
 
