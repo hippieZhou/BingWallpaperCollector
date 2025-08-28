@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: 部署到 GitHub Pages
 
 on:
   push:
@@ -8,6 +8,10 @@ on:
       - 'BingWallpaperData/**'
       - '.github/workflows/deploy-pages.yml'
   
+  # 定时执行 - 每天 UTC 2:00 (北京时间 10:00)
+  schedule:
+    - cron: '0 2 * * *'
+
   # 允许手动触发
   workflow_dispatch:
 
