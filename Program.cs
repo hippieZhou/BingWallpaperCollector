@@ -8,7 +8,7 @@ var services = new ServiceCollection();
 // 配置服务
 services.AddHttpClient<BingWallpaperApp>(client =>
 {
-    client.Timeout = TimeSpan.FromMinutes(5); // 设置超时时间为5分钟
+    client.Timeout = TimeSpan.FromSeconds(30); // 减少超时时间为30秒
     client.DefaultRequestHeaders.Add("User-Agent",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
 });

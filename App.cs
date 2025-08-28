@@ -1,3 +1,5 @@
+using System.ComponentModel;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.Logging;
@@ -44,6 +46,15 @@ public class BingWallpaperInfo
 
     [JsonPropertyName("hs")]
     public object[]? Hs { get; set; }
+
+    [JsonPropertyName("startdate")]
+    public string StartDate { get; set; } = string.Empty;
+
+    [JsonPropertyName("fullstartdate")]
+    public string FullStartDate { get; set; } = string.Empty;
+
+    [JsonPropertyName("enddate")]
+    public string EndDate { get; set; } = string.Empty;
 }
 
 /// <summary>
@@ -54,6 +65,211 @@ public class ImageResolution
     public string Resolution { get; set; } = string.Empty;
     public string Url { get; set; } = string.Empty;
     public string Size { get; set; } = string.Empty;
+}
+
+/// <summary>
+/// 时间信息类
+/// </summary>
+public class WallpaperTimeInfo
+{
+    /// <summary>
+    /// 开始日期
+    /// </summary>
+    public DateOnly? StartDate { get; set; }
+
+    /// <summary>
+    /// 结束日期
+    /// </summary>
+    public DateOnly? EndDate { get; set; }
+
+    /// <summary>
+    /// 完整开始时间 (ISO 8601 格式)
+    /// </summary>
+    public DateTime? FullStartDateTime { get; set; }
+
+    /// <summary>
+    /// 原始Bing API时间字段
+    /// </summary>
+    public BingApiTimeFields OriginalTimeFields { get; set; } = new();
+
+    /// <summary>
+    /// 从Bing API时间字段创建WallpaperTimeInfo
+    /// </summary>
+    public static WallpaperTimeInfo FromBingApiFields(string? startDate, string? fullStartDate, string? endDate)
+    {
+        var timeInfo = new WallpaperTimeInfo
+        {
+            OriginalTimeFields = new BingApiTimeFields
+            {
+                StartDate = startDate ?? string.Empty,
+                FullStartDate = fullStartDate ?? string.Empty,
+                EndDate = endDate ?? string.Empty
+            }
+        };
+
+        try
+        {
+            // 解析开始日期 (YYYYMMDD -> DateOnly)
+            if (!string.IsNullOrEmpty(startDate) && startDate.Length == 8)
+            {
+                var year = int.Parse(startDate.Substring(0, 4));
+                var month = int.Parse(startDate.Substring(4, 2));
+                var day = int.Parse(startDate.Substring(6, 2));
+                timeInfo.StartDate = new DateOnly(year, month, day);
+            }
+
+            // 解析结束日期 (YYYYMMDD -> DateOnly)
+            if (!string.IsNullOrEmpty(endDate) && endDate.Length == 8)
+            {
+                var year = int.Parse(endDate.Substring(0, 4));
+                var month = int.Parse(endDate.Substring(4, 2));
+                var day = int.Parse(endDate.Substring(6, 2));
+                timeInfo.EndDate = new DateOnly(year, month, day);
+            }
+
+            // 解析完整开始时间 (YYYYMMDDHHMM -> DateTime)
+            if (!string.IsNullOrEmpty(fullStartDate) && fullStartDate.Length == 12)
+            {
+                var year = int.Parse(fullStartDate.Substring(0, 4));
+                var month = int.Parse(fullStartDate.Substring(4, 2));
+                var day = int.Parse(fullStartDate.Substring(6, 2));
+                var hour = int.Parse(fullStartDate.Substring(8, 2));
+                var minute = int.Parse(fullStartDate.Substring(10, 2));
+
+                timeInfo.FullStartDateTime = new DateTime(year, month, day, hour, minute, 0, DateTimeKind.Utc);
+            }
+        }
+        catch (Exception)
+        {
+            // 忽略解析错误，保留原始字段值
+        }
+
+        return timeInfo;
+    }
+}
+
+/// <summary>
+/// Bing API原始时间字段
+/// </summary>
+public class BingApiTimeFields
+{
+    /// <summary>
+    /// 原始开始日期 (YYYYMMDD)
+    /// </summary>
+    public string StartDate { get; set; } = string.Empty;
+
+    /// <summary>
+    /// 原始完整开始时间 (YYYYMMDDHHMM)
+    /// </summary>
+    public string FullStartDate { get; set; } = string.Empty;
+
+    /// <summary>
+    /// 原始结束日期 (YYYYMMDD)
+    /// </summary>
+    public string EndDate { get; set; } = string.Empty;
+}
+
+/// <summary>
+/// WallpaperTimeInfo 的自定义 JSON 转换器
+/// </summary>
+public class WallpaperTimeInfoConverter : JsonConverter<WallpaperTimeInfo>
+{
+    public override WallpaperTimeInfo Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+    {
+        if (reader.TokenType != JsonTokenType.StartObject)
+        {
+            throw new JsonException("Expected StartObject token");
+        }
+
+        string? startDate = null;
+        string? fullStartDate = null;
+        string? endDate = null;
+        DateOnly? parsedStartDate = null;
+        DateOnly? parsedEndDate = null;
+        DateTime? fullStartDateTime = null;
+
+        while (reader.Read())
+        {
+            if (reader.TokenType == JsonTokenType.EndObject)
+            {
+                break;
+            }
+
+            if (reader.TokenType != JsonTokenType.PropertyName)
+            {
+                throw new JsonException("Expected PropertyName token");
+            }
+
+            string? propertyName = reader.GetString();
+            reader.Read();
+
+            switch (propertyName?.ToLowerInvariant())
+            {
+                case "startdate":
+                    parsedStartDate = reader.TokenType == JsonTokenType.String ?
+                        JsonSerializer.Deserialize<DateOnly?>(ref reader, options) : null;
+                    break;
+                case "enddate":
+                    parsedEndDate = reader.TokenType == JsonTokenType.String ?
+                        JsonSerializer.Deserialize<DateOnly?>(ref reader, options) : null;
+                    break;
+                case "fullstartdatetime":
+                    fullStartDateTime = reader.TokenType == JsonTokenType.String ?
+                        JsonSerializer.Deserialize<DateTime?>(ref reader, options) : null;
+                    break;
+                case "originaltimefields":
+                    var originalFields = JsonSerializer.Deserialize<BingApiTimeFields>(ref reader, options);
+                    if (originalFields != null)
+                    {
+                        startDate = originalFields.StartDate;
+                        fullStartDate = originalFields.FullStartDate;
+                        endDate = originalFields.EndDate;
+                    }
+                    break;
+            }
+        }
+
+        return new WallpaperTimeInfo
+        {
+            StartDate = parsedStartDate,
+            EndDate = parsedEndDate,
+            FullStartDateTime = fullStartDateTime,
+            OriginalTimeFields = new BingApiTimeFields
+            {
+                StartDate = startDate ?? string.Empty,
+                FullStartDate = fullStartDate ?? string.Empty,
+                EndDate = endDate ?? string.Empty
+            }
+        };
+    }
+
+    public override void Write(Utf8JsonWriter writer, WallpaperTimeInfo value, JsonSerializerOptions options)
+    {
+        writer.WriteStartObject();
+
+        if (value.StartDate.HasValue)
+        {
+            writer.WritePropertyName("StartDate");
+            JsonSerializer.Serialize(writer, value.StartDate.Value, options);
+        }
+
+        if (value.EndDate.HasValue)
+        {
+            writer.WritePropertyName("EndDate");
+            JsonSerializer.Serialize(writer, value.EndDate.Value, options);
+        }
+
+        if (value.FullStartDateTime.HasValue)
+        {
+            writer.WritePropertyName("FullStartDateTime");
+            JsonSerializer.Serialize(writer, value.FullStartDateTime.Value, options);
+        }
+
+        writer.WritePropertyName("OriginalTimeFields");
+        JsonSerializer.Serialize(writer, value.OriginalTimeFields, options);
+
+        writer.WriteEndObject();
+    }
 }
 
 /// <summary>
@@ -71,6 +287,7 @@ public class WallpaperInfoStorage
     public string Quiz { get; set; } = string.Empty;
     public string Hash { get; set; } = string.Empty;
     public List<ImageResolution> ImageResolutions { get; set; } = new();
+    public WallpaperTimeInfo TimeInfo { get; set; } = new();
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public string OriginalUrlBase { get; set; } = string.Empty;
 }
@@ -92,33 +309,33 @@ public class BingApiResponse
 /// </summary>
 public enum MarketCode
 {
-    [System.ComponentModel.Description("zh-CN")]
+    [Description("zh-CN")]
     China,
-    [System.ComponentModel.Description("en-US")]
+    [Description("en-US")]
     UnitedStates,
-    [System.ComponentModel.Description("en-GB")]
+    [Description("en-GB")]
     UnitedKingdom,
-    [System.ComponentModel.Description("ja-JP")]
+    [Description("ja-JP")]
     Japan,
-    [System.ComponentModel.Description("de-DE")]
+    [Description("de-DE")]
     Germany,
-    [System.ComponentModel.Description("fr-FR")]
+    [Description("fr-FR")]
     France,
-    [System.ComponentModel.Description("es-ES")]
+    [Description("es-ES")]
     Spain,
-    [System.ComponentModel.Description("it-IT")]
+    [Description("it-IT")]
     Italy,
-    [System.ComponentModel.Description("ru-RU")]
+    [Description("ru-RU")]
     Russia,
-    [System.ComponentModel.Description("ko-KR")]
+    [Description("ko-KR")]
     SouthKorea,
-    [System.ComponentModel.Description("pt-BR")]
+    [Description("pt-BR")]
     Brazil,
-    [System.ComponentModel.Description("en-AU")]
+    [Description("en-AU")]
     Australia,
-    [System.ComponentModel.Description("en-CA")]
+    [Description("en-CA")]
     Canada,
-    [System.ComponentModel.Description("en-IN")]
+    [Description("en-IN")]
     India
 }
 
@@ -133,10 +350,10 @@ public static class EnumExtensions
         var memberInfo = type.GetMember(marketCode.ToString());
         if (memberInfo.Length > 0)
         {
-            var attrs = memberInfo[0].GetCustomAttributes(typeof(System.ComponentModel.DescriptionAttribute), false);
+            var attrs = memberInfo[0].GetCustomAttributes(typeof(DescriptionAttribute), false);
             if (attrs.Length > 0)
             {
-                return ((System.ComponentModel.DescriptionAttribute)attrs[0]).Description;
+                return ((DescriptionAttribute)attrs[0]).Description;
             }
         }
         return marketCode.ToString();
@@ -172,6 +389,14 @@ public class BingWallpaperApp : IDisposable
     // 图片下载并发控制信号量
     private static readonly SemaphoreSlim _downloadSemaphore = new(5, 5); // 最多同时下载5张图片
 
+    // JSON序列化配置 - 包含自定义转换器
+    private static readonly JsonSerializerOptions _jsonOptions = new()
+    {
+        Converters = { new WallpaperTimeInfoConverter() },
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+        Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+    };
+
     public BingWallpaperApp(HttpClient httpClient, ILogger<BingWallpaperApp> logger)
     {
         _httpClient = httpClient;
@@ -189,6 +414,8 @@ public class BingWallpaperApp : IDisposable
     {
         try
         {
+            _logger.LogInformation("🚀 应用程序启动，开始初始化...");
+
             // 获取用户配置
             var config = GetUserConfig();
 
@@ -227,6 +454,8 @@ public class BingWallpaperApp : IDisposable
 
         // 检查是否启用了自动模式（用于GitHub Actions等自动化场景）
         var autoMode = Environment.GetEnvironmentVariable("AUTO_MODE") == "true";
+        _logger.LogInformation("🔍 检查自动模式: AUTO_MODE={AutoModeValue}, 结果={IsAutoMode}",
+            Environment.GetEnvironmentVariable("AUTO_MODE"), autoMode);
 
         if (autoMode)
         {
@@ -273,6 +502,7 @@ public class BingWallpaperApp : IDisposable
         }
 
         // 交互模式 - 原有的用户交互逻辑
+        _logger.LogInformation("⚠️ 进入交互模式（这不应该在自动模式下发生）");
         Console.WriteLine("\n=== 必应壁纸信息收集器配置 ===");
 
         // 选择国家
@@ -358,7 +588,9 @@ public class BingWallpaperApp : IDisposable
     /// </summary>
     private async Task CollectForSingleCountryAsync(CollectionConfig config)
     {
+        _logger.LogInformation("🎯 开始为单个国家收集壁纸信息: {Country}", config.MarketCode);
         await CollectForCountryAsync(config.MarketCode, config.DaysToCollect, config);
+        _logger.LogInformation("✅ 完成单个国家壁纸收集: {Country}", config.MarketCode);
     }
 
     /// <summary>
@@ -454,11 +686,13 @@ public class BingWallpaperApp : IDisposable
             request.Headers.Add("Accept", "application/json,text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
             request.Headers.Add("Cache-Control", "no-cache");
 
+            _logger.LogInformation("🌐 正在发送请求到 Bing API: {ApiUrl}", apiUrl);
             var response = await _httpClient.SendAsync(request);
+            _logger.LogInformation("✅ 收到 Bing API 响应，状态码: {StatusCode}", response.StatusCode);
             response.EnsureSuccessStatusCode();
 
             var content = await response.Content.ReadAsStringAsync();
-            var apiResponse = JsonSerializer.Deserialize<BingApiResponse>(content);
+            var apiResponse = JsonSerializer.Deserialize<BingApiResponse>(content, _jsonOptions);
 
             if (apiResponse?.Images?.Count > 0)
             {
@@ -529,6 +763,7 @@ public class BingWallpaperApp : IDisposable
                 Hash = wallpaperInfo.Hash,
                 OriginalUrlBase = wallpaperInfo.UrlBase,
                 ImageResolutions = GenerateImageResolutions(wallpaperInfo.UrlBase, marketCode),
+                TimeInfo = WallpaperTimeInfo.FromBingApiFields(wallpaperInfo.StartDate, wallpaperInfo.FullStartDate, wallpaperInfo.EndDate), // 使用静态工厂方法
                 CreatedAt = DateTime.Now
             };
 
@@ -548,11 +783,10 @@ public class BingWallpaperApp : IDisposable
                 return;
             }
 
-            // 序列化JSON
-            var options = new JsonSerializerOptions
+            // 序列化JSON - 基于配置创建选项
+            var options = new JsonSerializerOptions(_jsonOptions)
             {
-                WriteIndented = config.PrettyJsonFormat,
-                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                WriteIndented = config.PrettyJsonFormat
             };
 
             var jsonContent = JsonSerializer.Serialize(storageInfo, options);
@@ -568,6 +802,8 @@ public class BingWallpaperApp : IDisposable
             _logger.LogError(ex, "保存 {Country} 壁纸信息时发生错误: {Message}", marketCode.ToString(), ex.Message);
         }
     }
+
+
 
     /// <summary>
     /// 从版权信息中提取描述

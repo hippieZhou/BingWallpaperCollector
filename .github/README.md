@@ -2,6 +2,8 @@
 
 本项目配置了简洁高效的 GitHub Actions workflows 来自动收集 Bing 壁纸信息。
 
+> 📖 **项目基础信息**: 系统要求、快速开始、API 接口等信息请参考 [主 README 文档](../README.md)
+
 ## 🤖 自动化 Workflows
 
 ### 1. 每日收集 Bing 壁纸信息 (`collect-wallpapers.yml`)
@@ -42,22 +44,14 @@
 
 ## 🎯 支持的收集国家
 
-| 地区   | 国家     | 市场代码 |
-| ------ | -------- | -------- |
-| 亚洲   | 中国     | zh-CN    |
-| 亚洲   | 日本     | ja-JP    |
-| 亚洲   | 韩国     | ko-KR    |
-| 亚洲   | 印度     | en-IN    |
-| 欧洲   | 英国     | en-GB    |
-| 欧洲   | 德国     | de-DE    |
-| 欧洲   | 法国     | fr-FR    |
-| 欧洲   | 西班牙   | es-ES    |
-| 欧洲   | 意大利   | it-IT    |
-| 欧洲   | 俄罗斯   | ru-RU    |
-| 美洲   | 美国     | en-US    |
-| 美洲   | 加拿大   | en-CA    |
-| 美洲   | 巴西     | pt-BR    |
-| 大洋洲 | 澳大利亚 | en-AU    |
+支持全球 **14 个国家/地区**，按地区分组进行自动化收集：
+
+- **亚洲地区**: 中国、日本、韩国、印度
+- **欧洲地区**: 英国、德国、法国、西班牙、意大利、俄罗斯
+- **美洲地区**: 美国、加拿大、巴西
+- **大洋洲**: 澳大利亚
+
+详细的国家列表和市场代码请查看 [主 README 文档](../README.md#支持的国家地区)。
 
 ## 📝 环境变量配置
 
@@ -100,22 +94,9 @@
 
 ## 📁 数据组织结构
 
-收集的数据将自动保存到 `BingWallpaperData/` 目录：
+收集的数据按 `国家/日期/wallpaper_info.json` 的结构自动保存到 `BingWallpaperData/` 目录。
 
-```
-BingWallpaperData/
-├── China/
-│   ├── 2025-01-15/
-│   │   └── wallpaper_info.json
-│   └── 2025-01-16/
-│       └── wallpaper_info.json
-├── Japan/
-│   └── 2025-01-15/
-│       └── wallpaper_info.json
-└── UnitedStates/
-    └── 2025-01-15/
-        └── wallpaper_info.json
-```
+详细的项目信息和配置选项请查看 [主 README 文档](../README.md)。
 
 ## 🔧 本地测试
 

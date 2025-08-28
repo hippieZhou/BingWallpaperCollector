@@ -24,22 +24,22 @@
 
 ## 支持的国家/地区
 
-| 编号 | 国家/地区 | 市场代码 | 语言     |
-| ---- | --------- | -------- | -------- |
-| 01   | 中国      | zh-CN    | 中文     |
-| 02   | 美国      | en-US    | 英文     |
-| 03   | 英国      | en-GB    | 英文     |
-| 04   | 日本      | ja-JP    | 日文     |
-| 05   | 德国      | de-DE    | 德文     |
-| 06   | 法国      | fr-FR    | 法文     |
-| 07   | 西班牙    | es-ES    | 西班牙文 |
-| 08   | 意大利    | it-IT    | 意大利文 |
-| 09   | 俄罗斯    | ru-RU    | 俄文     |
-| 10   | 韩国      | ko-KR    | 韩文     |
-| 11   | 巴西      | pt-BR    | 葡萄牙文 |
-| 12   | 澳大利亚  | en-AU    | 英文     |
-| 13   | 加拿大    | en-CA    | 英文     |
-| 14   | 印度      | en-IN    | 英文     |
+| 编号 | 国旗 | 国家/地区 | 市场代码 | 语言     |
+| ---- | ---- | --------- | -------- | -------- |
+| 01   | 🇨🇳   | 中国      | zh-CN    | 中文     |
+| 02   | 🇺🇸   | 美国      | en-US    | 英文     |
+| 03   | 🇬🇧   | 英国      | en-GB    | 英文     |
+| 04   | 🇯🇵   | 日本      | ja-JP    | 日文     |
+| 05   | 🇩🇪   | 德国      | de-DE    | 德文     |
+| 06   | 🇫🇷   | 法国      | fr-FR    | 法文     |
+| 07   | 🇪🇸   | 西班牙    | es-ES    | 西班牙文 |
+| 08   | 🇮🇹   | 意大利    | it-IT    | 意大利文 |
+| 09   | 🇷🇺   | 俄罗斯    | ru-RU    | 俄文     |
+| 10   | 🇰🇷   | 韩国      | ko-KR    | 韩文     |
+| 11   | 🇧🇷   | 巴西      | pt-BR    | 葡萄牙文 |
+| 12   | 🇦🇺   | 澳大利亚  | en-AU    | 英文     |
+| 13   | 🇨🇦   | 加拿大    | en-CA    | 英文     |
+| 14   | 🇮🇳   | 印度      | en-IN    | 英文     |
 
 ## 系统要求
 
@@ -76,72 +76,6 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 
 # 发布为框架依赖（需要安装.NET运行时）
 dotnet publish -c Release
-```
-
-## 项目结构
-
-```
-BingWallpaperCollector/
-├── BingWallpaperCollector.csproj   # 项目文件
-├── Program.cs                      # 程序入口点
-├── App.cs                         # 核心业务逻辑
-├── README.md                      # 说明文档
-└── BingWallpaperData/            # 数据存储目录（自动创建）
-    ├── China/
-    │   ├── 2025-08-27/
-    │   │   └── wallpaper_info.json
-    │   └── 2025-08-26/
-    │       └── wallpaper_info.json
-    ├── Japan/
-    │   └── 2025-08-27/
-    │       └── wallpaper_info.json
-    └── UnitedKingdom/
-        ├── 2025-08-27/
-        │   └── wallpaper_info.json
-        └── 2025-08-26/
-            └── wallpaper_info.json
-```
-
-## JSON 数据结构
-
-每个壁纸信息 JSON 文件包含以下字段：
-
-```json
-{
-  "Date": "2025-08-27",
-  "Country": "Japan",
-  "MarketCode": "ja-JP",
-  "Title": "今日は世界湖沼の日",
-  "Copyright": "ソールヴァグスヴァトン湖, デンマーク (© Anton Petrus/Getty Images)",
-  "CopyrightLink": "https://www.bing.com/search?q=lake&form=hpcapt",
-  "Description": "ソールヴァグスヴァトン湖, デンマーク",
-  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
-  "Hash": "09b70003799ebbd456070dfde0312d82",
-  "ImageResolutions": [
-    {
-      "Resolution": "UHD",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_UHD.jpg",
-      "Size": "Ultra High Definition (~4K)"
-    },
-    {
-      "Resolution": "HD",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_1920x1200.jpg",
-      "Size": "1920x1200"
-    },
-    {
-      "Resolution": "Full HD",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_1920x1080.jpg",
-      "Size": "1920x1080"
-    },
-    {
-      "Resolution": "Standard",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_1366x768.jpg",
-      "Size": "1366x768"
-    }
-  ],
-  "CreatedAt": "2025-08-27T21:36:56.068511+08:00",
-  "OriginalUrlBase": "/th?id=OHR.FaroeLake_JA-JP9172526741"
-}
 ```
 
 ## 配置选项
@@ -246,13 +180,6 @@ Japan 的壁纸信息收集完成
 - 避免对必应服务器造成过大压力
 - 支持用户自定义并发数量
 
-## 依赖包
-
-- `System.Text.Json`: JSON 序列化和反序列化
-- `Microsoft.Extensions.Http`: HTTP 客户端工厂
-- `Microsoft.Extensions.Logging`: 日志框架
-- `Microsoft.Extensions.Logging.Console`: 控制台日志输出
-
 ## 常见问题
 
 ### Q: 为什么某些国家的内容还是显示英文？
@@ -269,24 +196,16 @@ A: 可以在 `MarketCode` 枚举中添加更多国家代码，但需要确保必
 
 ### Q: 如何实现自动化收集？
 
-A: 项目已集成 GitHub Actions 自动化收集功能！详情请查看 [GitHub Actions 文档](.github/README.md)。
+A: 项目已集成 GitHub Actions 自动化收集功能！
 
-**✅ 系统运行状态：完全自动化中！**
+- 🤖 **每日自动运行** - 无需手动干预
+- 🌍 **多时区优化** - 覆盖全球 14 个国家
+- 📊 **智能重试机制** - 避免并发冲突
+- 🔄 **自动提交数据** - 持续更新仓库
 
-- 🌍 已成功收集 **14 个国家** 的壁纸信息
-- 📅 覆盖 **2025-08-20 至 2025-08-27** 多个日期
-- 📊 110+ JSON 文件自动生成和提交
-- 🔗 所有图片 URL 经过验证可用
-
-**自动化特性:**
-
-- 🤖 每天自动运行，无需手动干预（2 个核心 workflow）
-- 🌍 支持全球多时区优化收集
-- 📊 智能重试机制，避免并发冲突
-- 🔄 自动提交新数据到仓库
+详细配置和使用方法请查看 [GitHub Actions 文档](.github/README.md)。
 
 **本地自动化:**
-你也可以配合系统的计划任务（Windows）或 cron（Linux/macOS）来实现定时运行：
 
 ```bash
 # 设置环境变量实现非交互模式
@@ -301,21 +220,9 @@ A: 可以用于构建壁纸应用、网站展示、数据分析、或者作为�
 
 ### Q: 当前系统运行状况如何？
 
-A: 🎉 **系统运行完全正常！**
+A: 🎉 **系统运行完全正常！** GitHub Actions 自动化流程稳定运行，数据持续更新。
 
-**自动收集状态:**
-
-- ✅ 已成功收集 **14 个国家** 的壁纸信息
-- ✅ 覆盖多个日期，数据持续更新
-- ✅ 所有图片 URL 经过验证可用
-- ✅ GitHub Actions 自动化流程稳定运行
-
-**数据质量保证:**
-
-- 所有图片 URL 使用真实的 Bing API ID
-- UHD 格式提供最高分辨率（~4K 质量）
-- 4 种分辨率满足不同设备需求
-- JSON 数据结构完整，包含所有必要信息
+详细的运行状态和收集报告请查看 [GitHub Actions 文档](.github/README.md)。
 
 ### Q: 如何验证图片 URL 是否可用？
 
