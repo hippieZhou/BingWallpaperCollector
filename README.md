@@ -161,6 +161,125 @@ Japan 的壁纸信息收集完成
 数据存储目录: /path/to/BingWallpaperData
 ```
 
+## 🤖 GitHub Actions 自动化
+
+本项目配置了完全自动化的 GitHub Actions workflows，每天自动收集全球 Bing 壁纸信息！
+
+### ✅ 系统状态
+
+**🎉 完全自动化运行中！**
+
+- ✅ 已成功收集 **14 个国家** 的壁纸信息
+- ✅ 110+ JSON 文件自动生成和提交
+- ✅ 所有图片 URL 经过验证可用
+
+### 🕒 自动化 Workflows
+
+#### 1. 每日收集 (`collect-wallpapers.yml`)
+
+**运行时间:**
+- 每天 UTC 00:30 (北京时间 08:30)
+- 每天 UTC 12:30 (北京时间 20:30)
+
+**功能:**
+- 自动收集所有 14 个支持国家的当日壁纸信息
+- 自动提交新数据到仓库
+- 生成详细的收集报告
+
+#### 2. 区域化收集 (`collect-regional-wallpapers.yml`)
+
+**运行时间:**
+- **亚洲地区:** UTC 22:00 (北京时间次日 06:00)
+- **欧洲地区:** UTC 06:00 (中欧时间 07:00/08:00)  
+- **美洲地区:** UTC 14:00 (美东时间 09:00/10:00)
+
+**功能:**
+- 根据不同时区优化收集时间
+- 使用矩阵策略并行收集多个国家
+- 智能重试机制，避免并发冲突
+- 分地区提交数据，提高成功率
+
+### 📝 环境变量配置
+
+程序支持以下环境变量来实现自动化运行：
+
+| 环境变量                | 说明                   | 可选值                 | 默认值   |
+| ----------------------- | ---------------------- | ---------------------- | -------- |
+| `AUTO_MODE`             | 启用自动模式           | `true`, `false`        | `false`  |
+| `COLLECT_ALL_COUNTRIES` | 收集所有国家           | `true`, `false`        | `false`  |
+| `TARGET_COUNTRY`        | 目标国家（单国家模式） | 国家名称               | `China`  |
+| `COLLECT_DAYS`          | 收集天数               | `1-8`                  | `1`      |
+| `CONCURRENT_REQUESTS`   | 并发请求数             | `1-5`                  | `3`      |
+| `JSON_FORMAT`           | JSON 格式              | `pretty`, `compressed` | `pretty` |
+
+### 🚀 手动运行 Workflows
+
+#### 手动触发区域化收集
+1. 进入 GitHub 仓库的 Actions 页面
+2. 选择 "区域化壁纸收集" workflow
+3. 点击 "Run workflow"
+4. 可以自定义：
+   - **目标国家列表**: 用逗号分隔的国家名称（如: China,Japan,UnitedStates）
+   - **收集天数**: 1-8 天
+
+#### 手动触发每日收集
+1. 进入 GitHub 仓库的 Actions 页面
+2. 选择 "每日收集 Bing 壁纸信息" workflow
+3. 点击 "Run workflow" 立即执行全球收集
+
+### 🔧 本地自动化测试
+
+要在本地测试自动模式：
+
+```bash
+# 收集所有国家
+export AUTO_MODE=true
+export COLLECT_ALL_COUNTRIES=true
+export COLLECT_DAYS=1
+export JSON_FORMAT=pretty
+dotnet run
+```
+
+```bash
+# 测试单个国家
+export AUTO_MODE=true
+export COLLECT_ALL_COUNTRIES=false
+export TARGET_COUNTRY=Japan
+export COLLECT_DAYS=1
+dotnet run
+```
+
+### 🛠 故障排除
+
+#### 常见问题
+
+1. **Workflow 没有运行**
+   - 检查 cron 表达式是否正确
+   - 确认仓库有提交活动
+
+2. **收集失败**
+   - 检查网络连接
+   - 验证 Bing API 是否可访问
+
+3. **推送失败**
+   - 确认 `GITHUB_TOKEN` 权限
+   - 检查分支保护规则
+
+#### 调试步骤
+
+1. 手动触发 workflow 进行调试
+2. 查看 Actions 日志中的详细错误信息
+3. 在本地使用相同的环境变量测试
+
+### 📊 收集报告
+
+每次运行后，GitHub Actions 会生成详细的报告，包括：
+
+- 📈 **数据统计**: 各国家的文件数量
+- ⏰ **执行时间**: 收集开始和结束时间
+- ✅ **成功状态**: 哪些国家成功收集了新数据
+- 🔍 **详细日志**: 完整的执行过程
+
 ## 技术特点
 
 ### 多语言本地化
