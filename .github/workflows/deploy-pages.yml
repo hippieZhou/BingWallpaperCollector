@@ -124,6 +124,8 @@ jobs:
           const fs = require('fs');
           const path = require('path');
           
+          console.log('🔍 开始生成数据索引...');
+          
           const index = {
             generated: new Date().toISOString(),
             countries: [],
@@ -135,16 +137,20 @@ jobs:
           const dataDir = 'docs/BingWallpaperData';
           
           if (fs.existsSync(dataDir)) {
+            console.log('📁 扫描数据目录:', dataDir);
             const countries = fs.readdirSync(dataDir).filter(item => 
               fs.statSync(path.join(dataDir, item)).isDirectory()
             );
+            
+            console.log('🌍 发现国家目录:', countries.length, '个');
             
             countries.forEach(country => {
               const countryPath = path.join(dataDir, country);
               if (!fs.existsSync(countryPath)) return;
               
               const dates = fs.readdirSync(countryPath).filter(item =>
-                fs.statSync(path.join(countryPath, item)).isDirectory()
+                fs.statSync(path.join(countryPath, item)).isDirectory() &&
+                /^\d{4}-\d{2}-\d{2}$/.test(item)
               );
               
               if (!index.availableData[country]) {
@@ -156,6 +162,7 @@ jobs:
                 if (fs.existsSync(jsonFile)) {
                   index.availableData[country].push(date);
                   index.totalFiles++;
+                  console.log('✅ 发现数据文件:', country + '/' + date);
                 }
               });
               
@@ -165,17 +172,35 @@ jobs:
               }
             });
             
+            // 按日期倒序排列（最新在前）
             index.dates.sort().reverse();
+            
+            // 生成索引内容
+            const indexContent = [
+              '// 自动生成的数据索引文件',
+              '// 生成时间: ' + new Date().toISOString(),
+              '',
+              'window.WALLPAPER_DATA_INDEX = ' + JSON.stringify(index, null, 2) + ';',
+              '',
+              'console.log(\"📊 数据索引加载完成:\", {',
+              '  countries: ' + index.countries.length + ',',
+              '  dates: ' + index.dates.length + ',',
+              '  totalFiles: ' + index.totalFiles,
+              '});'
+            ].join('\n');
+            
+            fs.writeFileSync('docs/data-index.js', indexContent);
+            
+            console.log('✅ 数据索引生成完成:');
+            console.log('  - 可用国家:', index.countries.length, '个');
+            console.log('  - 可用日期:', index.dates.length, '个');
+            console.log('  - JSON文件总数:', index.totalFiles, '个');
+            console.log('  - 日期范围:', index.dates[index.dates.length-1], '至', index.dates[0]);
+            console.log('  - 索引文件大小:', fs.statSync('docs/data-index.js').size, '字节');
+          } else {
+            console.log('❌ 错误: 数据目录不存在:', dataDir);
+            process.exit(1);
           }
-          
-          // 写入索引文件
-          const indexContent = 'window.WALLPAPER_DATA_INDEX = ' + JSON.stringify(index, null, 2) + ';';
-          fs.writeFileSync('docs/data-index.js', indexContent);
-          
-          console.log('数据索引生成完成:');
-          console.log('- 国家数量:', index.countries.length);
-          console.log('- 日期数量:', index.dates.length);
-          console.log('- 文件总数:', index.totalFiles);
           "
 
       - name: Optimize images and create thumbnails

@@ -29,18 +29,20 @@ class DataLoader {
 
     // 获取可用的日期列表
     async getAvailableDates() {
-        // 基于当前日期生成可能的日期范围
-        const today = new Date();
-        const dates = [];
-        
-        for (let i = 0; i < 8; i++) {
-            const date = new Date(today);
-            date.setDate(date.getDate() - i);
-            const dateString = date.toISOString().split('T')[0];
-            dates.push(dateString);
+        // 首先尝试从数据索引获取
+        if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates) {
+            console.log('从数据索引获取日期列表:', window.WALLPAPER_DATA_INDEX.dates);
+            return window.WALLPAPER_DATA_INDEX.dates;
         }
         
-        return dates;
+        // 回退到已知的可用日期（基于实际数据）
+        const knownDates = [
+            '2025-08-28',
+            '2025-08-27'
+        ];
+        
+        console.log('使用预设的已知日期:', knownDates);
+        return knownDates;
     }
 
     // 检查文件是否存在
@@ -72,7 +74,7 @@ class DataLoader {
         try {
             // 检查文件是否存在
             if (!(await this.fileExists(url))) {
-                console.log(`文件不存在: ${url}`);
+                // 静默处理文件不存在的情况
                 return null;
             }
 

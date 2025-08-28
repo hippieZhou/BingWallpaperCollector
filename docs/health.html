@@ -134,6 +134,7 @@
         <button onclick="clearCache()">🗑️ 清除缓存</button>
     </div>
 
+    <script src="data-index.js"></script>
     <script>
         let logs = [];
         
@@ -176,9 +177,19 @@
             
             try {
                 const basePath = getBasePath();
-                const testFiles = [];
-                const countries = ['China', 'UnitedStates', 'Japan', 'Germany', 'France'];
-                const dates = ['2025-08-28', '2025-08-27'];
+                
+                // 使用数据索引获取实际可用的国家和日期
+                let countries, dates;
+                if (window.WALLPAPER_DATA_INDEX) {
+                    countries = window.WALLPAPER_DATA_INDEX.countries.slice(0, 5); // 检查前5个国家
+                    dates = window.WALLPAPER_DATA_INDEX.dates;
+                    log(`从数据索引获取: ${countries.length}个国家, ${dates.length}个日期`);
+                } else {
+                    // 回退到预设值
+                    countries = ['China', 'UnitedStates', 'Japan', 'Germany', 'France'];
+                    dates = ['2025-08-28', '2025-08-27'];
+                    log('数据索引不可用，使用预设值');
+                }
                 
                 let totalFiles = 0;
                 let successfulFiles = 0;
