@@ -192,22 +192,40 @@
       box-shadow: 0 12px 25px rgba(102, 126, 234, 0.5);
     }
 
-    .github-link {
-      position: absolute;
-      top: 2rem;
-      right: 2rem;
-      background: rgba(0, 0, 0, 0.8);
-      color: white;
-      padding: 0.75rem;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 1.2rem;
-      transition: transform 0.3s ease;
-    }
+            .github-link {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 0.75rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
 
-    .github-link:hover {
-      transform: scale(1.1);
-    }
+        .github-link:hover {
+            transform: scale(1.1);
+        }
+
+        .home-link {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            background: rgba(102, 126, 234, 0.9);
+            color: white;
+            padding: 0.75rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .home-link:hover {
+            transform: scale(1.1);
+            background: rgba(102, 126, 234, 1);
+        }
 
     @media (max-width: 768px) {
       .promo-card {
@@ -229,10 +247,15 @@
         gap: 1.5rem;
       }
 
-      .github-link {
-        top: 1rem;
-        right: 1rem;
-      }
+                  .github-link {
+                top: 1rem;
+                right: 1rem;
+            }
+            
+            .home-link {
+                top: 1rem;
+                left: 1rem;
+            }
     }
 
     .watermark {
@@ -249,9 +272,13 @@
 
 <body>
   <div class="promo-card">
-    <a href="https://github.com/hippieZhou/BingWallpaperCollector" class="github-link" target="_blank">
-      ⭐ GitHub
-    </a>
+            <a href="https://github.com/hippieZhou/BingWallpaperCollector" class="github-link" target="_blank">
+            ⭐ GitHub
+        </a>
+        
+        <a href="index.html" class="home-link">
+            🏠 返回主页
+        </a>
 
     <div class="content">
       <h1 class="title">必应壁纸收集器</h1>
