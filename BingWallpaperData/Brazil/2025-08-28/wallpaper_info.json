@@ -2,44 +2,44 @@
   "date": "2025-08-28",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Arte em estado líquido",
-  "copyright": "Lago Sørvágsvatn, ilha de Vágar, Ilhas Faroe, Dinamarca (© Anton Petrus/Getty Images)",
-  "copyrightLink": "https://www.bing.com/search?q=o+que+%C3%A9+um+lago&form=hpcapt&mkt=pt-br",
-  "description": "Lago Sørvágsvatn, ilha de Vágar, Ilhas Faroe, Dinamarca",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_FaroeLake%22&FORM=HPQUIZ",
-  "hash": "3f67bdb203a0a88636d1ee5f6f741dcd",
+  "title": "Resistência é o novo branco",
+  "copyright": "Garça-branca-grande, Hungria (© Markus Varesvuo/Nature Picture Library)",
+  "copyrightLink": "https://www.bing.com/search?q=Gar%C3%A7a-branca-grande&form=hpcapt&mkt=pt-br",
+  "description": "Garça-branca-grande, Hungria",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "cffa01e8b894e0f9e9394daa9e4b837e",
   "imageResolutions": [
     {
       "resolution": "UHD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_UHD.jpg",
       "size": "Ultra High Definition (~4K)"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "Full HD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_PT-BR9196671345_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_1366x768.jpg",
       "size": "1366x768"
     }
   ],
   "timeInfo": {
-    "StartDate": "2025-08-27",
-    "EndDate": "2025-08-28",
-    "FullStartDateTime": "2025-08-27T03:00:00Z",
+    "StartDate": "2025-08-28",
+    "EndDate": "2025-08-29",
+    "FullStartDateTime": "2025-08-28T03:00:00Z",
     "OriginalTimeFields": {
-      "startDate": "20250827",
-      "fullStartDate": "202508270300",
-      "endDate": "20250828"
+      "startDate": "20250828",
+      "fullStartDate": "202508280300",
+      "endDate": "20250829"
     }
   },
-  "createdAt": "2025-08-28T02:12:49.0363224+00:00",
-  "originalUrlBase": "/th?id=OHR.FaroeLake_PT-BR9196671345"
+  "createdAt": "2025-08-28T13:20:58.160946+08:00",
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_PT-BR8998981600"
 }

@@ -1,35 +1,45 @@
 {
-  "Date": "2025-08-27",
-  "Country": "France",
-  "MarketCode": "fr-FR",
-  "Title": "Vers l’infini… et l’eau de là",
-  "Copyright": "Lac Sørvágsvatn, île de Vágar, Îles Féroé (© Anton Petrus/Getty Images)",
-  "CopyrightLink": "https://www.bing.com/search?q=Lac+S%C3%B8rv%C3%A1gsvatn&form=hpcapt&filters=HpDate%3a%2220250826_2200%22",
-  "Description": "Lac Sørvágsvatn, île de Vágar, Îles Féroé",
-  "Quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
-  "Hash": "1f44d2ea9980222c54fa7b849bd72e31",
-  "ImageResolutions": [
+  "date": "2025-08-27",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Vers l’infini… et l’eau de là",
+  "copyright": "Lac Sørvágsvatn, île de Vágar, Îles Féroé (© Anton Petrus/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Lac+S%C3%B8rv%C3%A1gsvatn&form=hpcapt&filters=HpDate%3a%2220250826_2200%22",
+  "description": "Lac Sørvágsvatn, île de Vágar, Îles Féroé",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
+  "hash": "1f44d2ea9980222c54fa7b849bd72e31",
+  "imageResolutions": [
     {
-      "Resolution": "UHD",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_UHD.jpg",
-      "Size": "Ultra High Definition (~4K)"
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
     },
     {
-      "Resolution": "HD",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1920x1200.jpg",
-      "Size": "1920x1200"
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1920x1200.jpg",
+      "size": "1920x1200"
     },
     {
-      "Resolution": "Full HD",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1920x1080.jpg",
-      "Size": "1920x1080"
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1920x1080.jpg",
+      "size": "1920x1080"
     },
     {
-      "Resolution": "Standard",
-      "Url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1366x768.jpg",
-      "Size": "1366x768"
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1366x768.jpg",
+      "size": "1366x768"
     }
   ],
-  "CreatedAt": "2025-08-27T15:08:16.4135518+00:00",
-  "OriginalUrlBase": "/th?id=OHR.FaroeLake_FR-FR9783963301"
+  "timeInfo": {
+    "StartDate": "2025-08-26",
+    "EndDate": "2025-08-27",
+    "FullStartDateTime": "2025-08-26T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250826",
+      "fullStartDate": "202508262200",
+      "endDate": "20250827"
+    }
+  },
+  "createdAt": "2025-08-28T13:20:57.155024+08:00",
+  "originalUrlBase": "/th?id=OHR.FaroeLake_FR-FR9783963301"
 }
