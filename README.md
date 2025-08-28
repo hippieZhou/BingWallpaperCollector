@@ -6,6 +6,8 @@ Bing Wallpaper Information Collector
 
 [![每日收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml)
 [![区域化收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml)
+[![GitHub Pages](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/deploy-pages.yml)
+[![在线预览](https://img.shields.io/badge/在线预览-GitHub%20Pages-brightgreen.svg)](https://hippiezhou.github.io/BingWallpaperCollector/)
 ![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -15,18 +17,49 @@ Bing Wallpaper Information Collector
 
 > **🤖 全自动收集**: 项目已集成 GitHub Actions，每天自动收集全球 Bing 壁纸信息，无需人工干预！
 
+## 🌐 在线预览
+
+**📱 立即体验**: [https://hippiezhou.github.io/BingWallpaperCollector/](https://hippiezhou.github.io/BingWallpaperCollector/)
+
+### ✨ 网站特色
+
+- 🎨 **现代化界面** - 响应式设计，完美适配桌面和移动设备
+- 🖼️ **多视图浏览** - 画廊、国家、时间轴三种浏览模式
+- 🔍 **智能搜索** - 按标题、描述、国家快速筛选
+- 💾 **高清下载** - 支持UHD、4K、1080p、HD多种分辨率
+- ⚡ **实时更新** - 数据与收集器同步，每日自动更新
+- 📊 **详细信息** - 显示壁纸标题、描述、版权、时间等完整信息
+
+### 🔗 快速链接
+
+| 链接 | 描述 |
+|------|------|
+| [🏠 主网站](https://hippiezhou.github.io/BingWallpaperCollector/) | 壁纸画廊主页 |
+| [🧪 健康检查](https://hippiezhou.github.io/BingWallpaperCollector/health.html) | 网站状态和诊断 |
+| [🔬 功能测试](https://hippiezhou.github.io/BingWallpaperCollector/test.html) | 详细功能测试页面 |
+
 ## 🌟 功能特性
 
-- 🤖 **GitHub Actions 自动化** - 每天自动收集，多时区优化，自动提交数据
-- 🌍 **多语言支持** - 支持 14 个国家/地区的本地化内容
-- 📊 **JSON 数据存储** - 保存完整的壁纸信息而非下载图片
-- 🖼️ **多分辨率 URL** - 提供 UHD、4K、1080p、HD 四种分辨率链接
-- 📅 **历史数据收集** - 支持收集最近 8 天的历史壁纸信息
-- 📁 **智能目录结构** - 按国家和日期组织数据文件
-- ⚡ **并发处理** - 支持多线程并发收集，提高效率
-- 🔄 **重复检测** - 避免重复收集相同的数据
-- 📋 **详细日志** - 完整的操作日志记录
-- 🎛️ **双模式运行** - 支持交互式和自动化无人值守运行
+### 🤖 数据收集功能
+- **GitHub Actions 自动化** - 每天自动收集，多时区优化，自动提交数据
+- **多语言支持** - 支持 14 个国家/地区的本地化内容
+- **JSON 数据存储** - 保存完整的壁纸信息而非下载图片
+- **多分辨率 URL** - 提供 UHD、4K、1080p、HD 四种分辨率链接
+- **历史数据收集** - 支持收集最近 8 天的历史壁纸信息
+- **智能目录结构** - 按国家和日期组织数据文件
+- **并发处理** - 支持多线程并发收集，提高效率
+- **重复检测** - 避免重复收集相同的数据
+- **详细日志** - 完整的操作日志记录
+- **双模式运行** - 支持交互式和自动化无人值守运行
+
+### 🌐 在线展示功能
+- **GitHub Pages 网站** - 美观的在线壁纸展示平台
+- **响应式设计** - 完美适配桌面、平板、手机
+- **多视图模式** - 画廊视图、国家视图、时间轴视图
+- **智能搜索筛选** - 按标题、描述、国家、日期筛选
+- **高清预览** - 模态框高清预览和多分辨率下载
+- **实时数据同步** - 与数据收集器保持同步更新
+- **离线友好** - 纯静态网站，无服务器依赖
 
 ## 🌍 支持的国家/地区
 
@@ -176,8 +209,10 @@ Japan 的壁纸信息收集完成
 **🎉 完全自动化运行中！**
 
 - ✅ 已成功收集 **14 个国家** 的壁纸信息
-- ✅ 110+ JSON 文件自动生成和提交
+- ✅ 28+ JSON 文件自动生成和提交（2天数据）
 - ✅ 所有图片 URL 经过验证可用
+- 🌐 **GitHub Pages 在线展示** - 自动部署和更新
+- 📊 **实时数据同步** - 网站数据与收集器保持同步
 
 ### 🕒 自动化 Workflows
 
@@ -199,7 +234,7 @@ Japan 的壁纸信息收集完成
 **运行时间:**
 
 - **亚洲地区:** UTC 22:00 (北京时间次日 06:00)
-- **欧洲地区:** UTC 06:00 (中欧时间 07:00/08:00)
+- **欧洲地区:** UTC 06:00 (中欧时间 07:00/08:00)  
 - **美洲地区:** UTC 14:00 (美东时间 09:00/10:00)
 
 **功能:**
@@ -208,6 +243,20 @@ Japan 的壁纸信息收集完成
 - 使用矩阵策略并行收集多个国家
 - 智能重试机制，避免并发冲突
 - 分地区提交数据，提高成功率
+
+#### 3. GitHub Pages 部署 (`deploy-pages.yml`)
+
+**运行时间:**
+
+- 当 `docs/` 或 `BingWallpaperData/` 目录有更新时自动触发
+- 支持手动触发部署
+
+**功能:**
+
+- 自动复制最新数据到网站目录
+- 生成数据索引文件，优化加载速度
+- 验证JSON文件完整性和网站结构
+- 部署到GitHub Pages，实时更新在线展示
 
 ### 📝 环境变量配置
 
@@ -382,3 +431,33 @@ curl -I "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_UHD.jpg"
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
+
+### 📝 贡献指南
+
+- **数据收集器**: 改进C#程序的功能和性能
+- **网站界面**: 优化GitHub Pages的用户体验和设计
+- **文档完善**: 更新README和使用说明
+- **问题反馈**: 报告bugs或提出功能建议
+
+### 🔧 开发环境
+
+**数据收集器开发:**
+```bash
+# 克隆仓库
+git clone https://github.com/hippieZhou/BingWallpaperCollector.git
+
+# 运行程序
+dotnet run
+```
+
+**网站开发:**
+```bash
+# 进入网站目录
+cd docs
+
+# 启动本地服务器
+python -m http.server 8000
+# 或使用 Node.js: npx http-server . -p 8000
+
+# 访问 http://localhost:8000
+```
