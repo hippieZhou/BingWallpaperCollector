@@ -42,8 +42,29 @@ jobs:
       - name: Copy data to docs directory
         run: |
           # 将BingWallpaperData复制到docs目录，使其可在GitHub Pages中访问
-          cp -r BingWallpaperData docs/
-          echo "数据文件已复制到docs目录"
+          if [ -d "BingWallpaperData" ]; then
+            cp -r BingWallpaperData docs/
+            echo "✅ 数据文件已复制到docs目录"
+            
+            # 验证复制结果
+            echo "📊 复制统计:"
+            echo "  - 国家目录数: $(ls docs/BingWallpaperData | wc -l)"
+            echo "  - JSON文件总数: $(find docs/BingWallpaperData -name '*.json' | wc -l)"
+            echo "  - 总文件大小: $(du -sh docs/BingWallpaperData | cut -f1)"
+            
+            # 显示示例文件
+            echo -e "\n📁 目录结构示例:"
+            ls -la docs/BingWallpaperData | head -5
+            
+            if [ -f "docs/BingWallpaperData/China/2025-08-28/wallpaper_info.json" ]; then
+              echo "✅ 测试文件存在: China/2025-08-28/wallpaper_info.json"
+            else
+              echo "⚠️ 测试文件不存在: China/2025-08-28/wallpaper_info.json"
+            fi
+          else
+            echo "❌ 错误: BingWallpaperData 目录不存在"
+            exit 1
+          fi
 
       - name: Create data index
         run: |
@@ -168,14 +189,22 @@ jobs:
           echo "验证网站文件..."
           
           # 检查关键文件是否存在
-          test -f docs/index.html || (echo "错误: index.html 不存在" && exit 1)
-          test -f docs/assets/css/style.css || (echo "错误: style.css 不存在" && exit 1)
-          test -f docs/assets/js/app.js || (echo "错误: app.js 不存在" && exit 1)
-          test -f docs/data-index.js || (echo "错误: data-index.js 不存在" && exit 1)
+          echo "🔍 验证关键文件..."
+          test -f docs/index.html || (echo "❌ 错误: index.html 不存在" && exit 1)
+          test -f docs/assets/css/style.css || (echo "❌ 错误: style.css 不存在" && exit 1)
+          test -f docs/assets/js/app.js || (echo "❌ 错误: app.js 不存在" && exit 1)
+          test -f docs/data-index.js || (echo "❌ 错误: data-index.js 不存在" && exit 1)
+          test -d docs/BingWallpaperData || (echo "❌ 错误: BingWallpaperData 目录不存在" && exit 1)
+          
+          echo "✅ 关键文件验证通过"
+          
+          # 显示最终的文件结构
+          echo -e "\n📁 最终部署结构:"
+          find docs -type f | head -20 | sort
           
           # 验证JSON文件格式
           echo "验证 JSON 文件格式..."
-          find BingWallpaperData -name "*.json" -exec node -e "
+          find docs/BingWallpaperData -name "*.json" -exec node -e "
             try {
               JSON.parse(require('fs').readFileSync('{}', 'utf8'));
               console.log('✓ {}');

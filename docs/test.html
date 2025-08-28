@@ -36,6 +36,9 @@
     <div class="test-item">
         <h3>基础信息</h3>
         <p><strong>当前页面URL:</strong> <span id="current-url"></span></p>
+        <p><strong>主机名:</strong> <span id="hostname"></span></p>
+        <p><strong>路径名:</strong> <span id="pathname"></span></p>
+        <p><strong>基础路径:</strong> <span id="base-path"></span></p>
         <p><strong>用户代理:</strong> <span id="user-agent"></span></p>
         <p><strong>测试时间:</strong> <span id="test-time"></span></p>
     </div>
@@ -64,6 +67,9 @@
     <script>
         // 基础信息显示
         document.getElementById('current-url').textContent = window.location.href;
+        document.getElementById('hostname').textContent = window.location.hostname;
+        document.getElementById('pathname').textContent = window.location.pathname;
+        document.getElementById('base-path').textContent = getBasePath() || '(空)';
         document.getElementById('user-agent').textContent = navigator.userAgent;
         document.getElementById('test-time').textContent = new Date().toLocaleString('zh-CN');
 
@@ -91,17 +97,28 @@
                 .join('\n');
         }
 
+        // 获取正确的基础路径
+        function getBasePath() {
+            if (window.location.hostname.includes('github.io')) {
+                return '/BingWallpaperCollector';
+            }
+            return '';
+        }
+
         // 数据文件访问测试
         async function testDataAccess() {
             const dataTest = document.getElementById('data-test');
             const dataResults = document.getElementById('data-results');
             
             try {
+                const basePath = getBasePath();
+                console.log(`使用基础路径: ${basePath}`);
+                
                 // 测试几个常见的数据文件路径
                 const testUrls = [
-                    './BingWallpaperData/China/2025-08-28/wallpaper_info.json',
-                    './BingWallpaperData/UnitedStates/2025-08-28/wallpaper_info.json',
-                    './BingWallpaperData/Japan/2025-08-28/wallpaper_info.json'
+                    `${basePath}/BingWallpaperData/China/2025-08-28/wallpaper_info.json`,
+                    `${basePath}/BingWallpaperData/UnitedStates/2025-08-28/wallpaper_info.json`,
+                    `${basePath}/BingWallpaperData/Japan/2025-08-28/wallpaper_info.json`
                 ];
 
                 let results = [];

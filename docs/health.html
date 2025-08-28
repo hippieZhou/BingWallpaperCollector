@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站健康检查</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            line-height: 1.6;
+            background: #f8f9fa;
+        }
+        .health-card {
+            background: white;
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .status {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-left: 1rem;
+        }
+        .status-ok { background: #d4edda; color: #155724; }
+        .status-error { background: #f8d7da; color: #721c24; }
+        .status-loading { background: #d1ecf1; color: #0c5460; }
+        pre {
+            background: #f1f3f4;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.9rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .metric {
+            background: #e9ecef;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .metric-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .metric-label {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 0.5rem;
+        }
+        button:hover { background: #0056b3; }
+        button:disabled { background: #6c757d; cursor: not-allowed; }
+    </style>
+</head>
+<body>
+    <h1>📋 网站健康检查</h1>
+    
+    <div class="health-card">
+        <h2>🌐 环境信息</h2>
+        <div class="grid">
+            <div class="metric">
+                <div class="metric-number" id="env-type">-</div>
+                <div class="metric-label">环境类型</div>
+            </div>
+            <div class="metric">
+                <div class="metric-number" id="base-path">-</div>
+                <div class="metric-label">基础路径</div>
+            </div>
+            <div class="metric">
+                <div class="metric-number" id="current-time">-</div>
+                <div class="metric-label">当前时间</div>
+            </div>
+        </div>
+        <pre id="env-details"></pre>
+    </div>
+
+    <div class="health-card">
+        <h2>📁 数据文件检查 <span id="data-status" class="status status-loading">检查中...</span></h2>
+        <div class="grid">
+            <div class="metric">
+                <div class="metric-number" id="total-files">-</div>
+                <div class="metric-label">总文件数</div>
+            </div>
+            <div class="metric">
+                <div class="metric-number" id="available-countries">-</div>
+                <div class="metric-label">可用国家</div>
+            </div>
+            <div class="metric">
+                <div class="metric-number" id="date-range">-</div>
+                <div class="metric-label">日期范围</div>
+            </div>
+        </div>
+        <div>
+            <button onclick="checkDataFiles()">🔄 重新检查</button>
+            <button onclick="checkSampleFiles()">🧪 检查示例文件</button>
+        </div>
+        <pre id="data-results"></pre>
+    </div>
+
+    <div class="health-card">
+        <h2>🔗 网络连接检查 <span id="network-status" class="status status-loading">检查中...</span></h2>
+        <div>
+            <button onclick="testNetworkConnectivity()">🌐 测试连接</button>
+            <button onclick="testCORS()">🔒 测试CORS</button>
+        </div>
+        <pre id="network-results"></pre>
+    </div>
+
+    <div class="health-card">
+        <h2>🛠️ 快速操作</h2>
+        <button onclick="location.href='index.html'">🏠 返回主页</button>
+        <button onclick="location.href='test.html'">🧪 详细测试</button>
+        <button onclick="downloadLogs()">📥 下载日志</button>
+        <button onclick="clearCache()">🗑️ 清除缓存</button>
+    </div>
+
+    <script>
+        let logs = [];
+        
+        function log(message, type = 'info') {
+            const timestamp = new Date().toISOString();
+            logs.push({ timestamp, message, type });
+            console.log(`[${type.toUpperCase()}] ${message}`);
+        }
+
+        function getBasePath() {
+            if (window.location.hostname.includes('github.io')) {
+                return '/BingWallpaperCollector';
+            }
+            return '';
+        }
+
+        function updateEnvInfo() {
+            const envType = window.location.hostname.includes('github.io') ? 'GitHub Pages' : '本地开发';
+            const basePath = getBasePath() || '(根路径)';
+            
+            document.getElementById('env-type').textContent = envType;
+            document.getElementById('base-path').textContent = basePath;
+            document.getElementById('current-time').textContent = new Date().toLocaleTimeString('zh-CN');
+            
+            document.getElementById('env-details').textContent = 
+                `URL: ${window.location.href}\n` +
+                `主机: ${window.location.hostname}\n` +
+                `路径: ${window.location.pathname}\n` +
+                `基础路径: ${basePath}\n` +
+                `用户代理: ${navigator.userAgent.substring(0, 80)}...`;
+        }
+
+        async function checkDataFiles() {
+            log('开始检查数据文件...');
+            const status = document.getElementById('data-status');
+            const results = document.getElementById('data-results');
+            
+            status.textContent = '检查中...';
+            status.className = 'status status-loading';
+            
+            try {
+                const basePath = getBasePath();
+                const testFiles = [];
+                const countries = ['China', 'UnitedStates', 'Japan', 'Germany', 'France'];
+                const dates = ['2025-08-28', '2025-08-27'];
+                
+                let totalFiles = 0;
+                let successfulFiles = 0;
+                let availableCountries = new Set();
+                let availableDates = new Set();
+                let resultText = '📊 数据文件检查结果:\n\n';
+                
+                for (const country of countries) {
+                    for (const date of dates) {
+                        const url = `${basePath}/BingWallpaperData/${country}/${date}/wallpaper_info.json`;
+                        totalFiles++;
+                        
+                        try {
+                            log(`检查文件: ${url}`);
+                            const response = await fetch(url);
+                            if (response.ok) {
+                                const data = await response.json();
+                                successfulFiles++;
+                                availableCountries.add(country);
+                                availableDates.add(date);
+                                resultText += `✅ ${country}/${date} - ${data.title}\n`;
+                                log(`文件可用: ${country}/${date}`, 'success');
+                            } else {
+                                resultText += `❌ ${country}/${date} - HTTP ${response.status}\n`;
+                                log(`文件不可用: ${country}/${date} (${response.status})`, 'error');
+                            }
+                        } catch (error) {
+                            resultText += `❌ ${country}/${date} - ${error.message}\n`;
+                            log(`文件错误: ${country}/${date} - ${error.message}`, 'error');
+                        }
+                        
+                        // 短暂延迟避免请求过快
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                    }
+                }
+                
+                document.getElementById('total-files').textContent = `${successfulFiles}/${totalFiles}`;
+                document.getElementById('available-countries').textContent = availableCountries.size;
+                
+                const dateArray = Array.from(availableDates).sort();
+                document.getElementById('date-range').textContent = 
+                    dateArray.length > 0 ? `${dateArray[0]} - ${dateArray[dateArray.length-1]}` : '无';
+                
+                results.textContent = resultText + 
+                    `\n📈 统计:\n` +
+                    `- 成功: ${successfulFiles}/${totalFiles}\n` +
+                    `- 可用国家: ${availableCountries.size}\n` +
+                    `- 日期范围: ${dateArray.length} 个日期`;
+                
+                if (successfulFiles > 0) {
+                    status.textContent = '正常';
+                    status.className = 'status status-ok';
+                    log('数据文件检查完成 - 正常', 'success');
+                } else {
+                    status.textContent = '异常';
+                    status.className = 'status status-error';
+                    log('数据文件检查完成 - 无可用文件', 'error');
+                }
+                
+            } catch (error) {
+                status.textContent = '错误';
+                status.className = 'status status-error';
+                results.textContent = `检查失败: ${error.message}`;
+                log(`数据文件检查失败: ${error.message}`, 'error');
+            }
+        }
+
+        async function checkSampleFiles() {
+            log('检查示例文件...');
+            const basePath = getBasePath();
+            const sampleFiles = [
+                'BingWallpaperData/China/2025-08-28/wallpaper_info.json',
+                'assets/js/app.js',
+                'assets/css/style.css',
+                'data-index.js'
+            ];
+            
+            let results = '🔍 示例文件检查:\n\n';
+            
+            for (const file of sampleFiles) {
+                try {
+                    const url = `${basePath}/${file}`;
+                    const response = await fetch(url, { method: 'HEAD' });
+                    const size = response.headers.get('content-length');
+                    const sizeText = size ? `(${(size/1024).toFixed(1)}KB)` : '';
+                    
+                    if (response.ok) {
+                        results += `✅ ${file} ${sizeText}\n`;
+                        log(`示例文件存在: ${file}`, 'success');
+                    } else {
+                        results += `❌ ${file} - HTTP ${response.status}\n`;
+                        log(`示例文件不存在: ${file}`, 'error');
+                    }
+                } catch (error) {
+                    results += `❌ ${file} - ${error.message}\n`;
+                    log(`示例文件错误: ${file} - ${error.message}`, 'error');
+                }
+            }
+            
+            document.getElementById('data-results').textContent = results;
+        }
+
+        async function testNetworkConnectivity() {
+            log('测试网络连接...');
+            const status = document.getElementById('network-status');
+            const results = document.getElementById('network-results');
+            
+            status.textContent = '测试中...';
+            status.className = 'status status-loading';
+            
+            let resultText = '🌐 网络连接测试:\n\n';
+            
+            // 测试GitHub API
+            try {
+                const start = Date.now();
+                const response = await fetch('https://api.github.com/repos/hippieZhou/BingWallpaperCollector');
+                const duration = Date.now() - start;
+                const data = await response.json();
+                
+                resultText += `✅ GitHub API - ${duration}ms\n`;
+                resultText += `   仓库: ${data.name}\n`;
+                resultText += `   更新: ${new Date(data.updated_at).toLocaleString('zh-CN')}\n\n`;
+                log('GitHub API连接正常', 'success');
+            } catch (error) {
+                resultText += `❌ GitHub API - ${error.message}\n\n`;
+                log(`GitHub API连接失败: ${error.message}`, 'error');
+            }
+            
+            results.textContent = resultText;
+            status.textContent = '完成';
+            status.className = 'status status-ok';
+        }
+
+        async function testCORS() {
+            log('测试CORS设置...');
+            const basePath = getBasePath();
+            const testUrl = `${basePath}/BingWallpaperData/China/2025-08-28/wallpaper_info.json`;
+            
+            try {
+                const response = await fetch(testUrl);
+                const corsHeaders = {
+                    'Access-Control-Allow-Origin': response.headers.get('access-control-allow-origin'),
+                    'Access-Control-Allow-Methods': response.headers.get('access-control-allow-methods'),
+                    'Content-Type': response.headers.get('content-type')
+                };
+                
+                let results = '🔒 CORS测试结果:\n\n';
+                results += `测试URL: ${testUrl}\n`;
+                results += `状态: ${response.status} ${response.statusText}\n\n`;
+                results += `响应头:\n`;
+                Object.entries(corsHeaders).forEach(([key, value]) => {
+                    results += `  ${key}: ${value || '(未设置)'}\n`;
+                });
+                
+                document.getElementById('network-results').textContent = results;
+                log('CORS测试完成', 'success');
+            } catch (error) {
+                document.getElementById('network-results').textContent = `CORS测试失败: ${error.message}`;
+                log(`CORS测试失败: ${error.message}`, 'error');
+            }
+        }
+
+        function downloadLogs() {
+            const logText = logs.map(entry => 
+                `[${entry.timestamp}] [${entry.type.toUpperCase()}] ${entry.message}`
+            ).join('\n');
+            
+            const blob = new Blob([logText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `health-check-${new Date().toISOString().slice(0, 19)}.log`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            log('日志已下载', 'info');
+        }
+
+        function clearCache() {
+            if ('caches' in window) {
+                caches.keys().then(names => {
+                    names.forEach(name => caches.delete(name));
+                });
+            }
+            localStorage.clear();
+            sessionStorage.clear();
+            log('缓存已清除', 'info');
+            alert('缓存已清除，请刷新页面');
+        }
+
+        // 初始化
+        window.addEventListener('load', () => {
+            log('健康检查页面加载完成', 'info');
+            updateEnvInfo();
+            checkDataFiles();
+            
+            // 每30秒更新时间
+            setInterval(updateEnvInfo, 30000);
+        });
+    </script>
+</body>
+</html>

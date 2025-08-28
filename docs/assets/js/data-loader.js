@@ -53,9 +53,21 @@ class DataLoader {
         }
     }
 
+    // 获取正确的基础路径
+    getBasePath() {
+        // 检测是否在GitHub Pages环境
+        if (window.location.hostname.includes('github.io')) {
+            // GitHub Pages路径: /BingWallpaperCollector/
+            return '/BingWallpaperCollector';
+        }
+        // 本地开发环境
+        return '';
+    }
+
     // 加载单个壁纸数据
     async loadWallpaperData(country, date) {
-        const url = `./BingWallpaperData/${country}/${date}/wallpaper_info.json`;
+        const basePath = this.getBasePath();
+        const url = `${basePath}/BingWallpaperData/${country}/${date}/wallpaper_info.json`;
         
         try {
             // 检查文件是否存在
