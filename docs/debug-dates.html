@@ -292,37 +292,56 @@
                     dataLoader = new DataLoader();
                 }
                 
-                resultText += `🔄 调用 getAvailableDates()...\n`;
-                const dates = await dataLoader.getAvailableDates();
+                // 测试UI显示日期
+                resultText += `🔄 调用 getAvailableDates() (UI显示日期)...\n`;
+                const uiDates = await dataLoader.getAvailableDates();
                 
-                resultText += `✅ 成功获取日期列表:\n`;
-                dates.forEach(date => {
+                resultText += `✅ UI显示日期列表 (基于当前时间8天):\n`;
+                uiDates.forEach(date => {
+                    resultText += `  - ${date}\n`;
+                });
+                
+                // 测试实际数据日期
+                resultText += `\n🔄 调用 getActualDataDates() (实际数据日期)...\n`;
+                const actualDates = dataLoader.getActualDataDates();
+                
+                resultText += `✅ 实际数据日期列表:\n`;
+                actualDates.forEach(date => {
                     resultText += `  - ${date}\n`;
                 });
                 
                 resultText += `\n📊 统计信息:\n`;
-                resultText += `  - 日期数量: ${dates.length}\n`;
-                resultText += `  - 最新日期: ${dates[0]}\n`;
-                resultText += `  - 最旧日期: ${dates[dates.length - 1]}\n`;
+                resultText += `  - UI显示日期数量: ${uiDates.length} (应该是8天)\n`;
+                resultText += `  - 实际数据日期数量: ${actualDates.length}\n`;
+                resultText += `  - UI最新日期: ${uiDates[0]} (应该是今天)\n`;
+                resultText += `  - 实际数据最新日期: ${actualDates[0]}\n`;
                 
-                // 检查是否是预期的日期
-                const expectedDates = ['2025-08-28', '2025-08-27'];
-                const isExpected = dates.length === expectedDates.length && 
-                                  dates.every(date => expectedDates.includes(date));
+                // 检查UI日期是否符合预期（8天范围）
+                const today = new Date().toISOString().split('T')[0];
+                const isUiCorrect = uiDates.length === 8 && uiDates[0] === today;
                 
-                if (isExpected) {
-                    resultText += `✅ 日期列表符合预期\n`;
+                if (isUiCorrect) {
+                    resultText += `✅ UI日期列表符合预期 (8天范围，从今天开始)\n`;
+                } else {
+                    resultText += `⚠️ UI日期列表异常\n`;
+                    resultText += `  预期: 8天范围，从 ${today} 开始\n`;
+                    resultText += `  实际: ${uiDates.length}天，从 ${uiDates[0]} 开始\n`;
+                }
+                
+                // 检查实际数据日期
+                const hasActualData = actualDates.length > 0;
+                if (hasActualData) {
+                    resultText += `✅ 实际数据日期正常\n`;
                     status.textContent = '正常';
                     status.className = 'status status-ok';
                 } else {
-                    resultText += `⚠️ 日期列表与预期不符\n`;
-                    resultText += `  预期: ${expectedDates.join(', ')}\n`;
-                    resultText += `  实际: ${dates.join(', ')}\n`;
-                    status.textContent = '异常';
-                    status.className = 'status status-error';
+                    resultText += `⚠️ 无实际数据日期\n`;
+                    status.textContent = '部分正常';
+                    status.className = 'status status-ok';
                 }
                 
-                document.getElementById('dates-count').textContent = dates.length;
+                document.getElementById('dates-count').textContent = uiDates.length;
+                document.getElementById('detection-method').textContent = '当前时间+索引';
                 
             } catch (error) {
                 resultText += `❌ 日期加载失败: ${error.message}\n`;

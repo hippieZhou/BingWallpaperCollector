@@ -27,46 +27,36 @@ class DataLoader {
         };
     }
 
-    // 获取可用的日期列表
+    // 获取UI显示的日期列表（基于当前日期的8天范围）
     async getAvailableDates() {
-        // 添加调试信息
-        console.log('🔍 正在获取可用日期列表...');
-        console.log('数据索引对象存在:', !!window.WALLPAPER_DATA_INDEX);
+        console.log('📅 生成基于当前日期的8天范围...');
         
-        // 首先尝试从数据索引获取
-        if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates && Array.isArray(window.WALLPAPER_DATA_INDEX.dates)) {
-            console.log('✅ 从数据索引获取日期列表:', window.WALLPAPER_DATA_INDEX.dates);
-            console.log('📊 索引生成时间:', window.WALLPAPER_DATA_INDEX.generated);
+        const today = new Date();
+        const dates = [];
+        
+        // 生成从今天开始往前8天的日期
+        for (let i = 0; i < 8; i++) {
+            const date = new Date(today);
+            date.setDate(date.getDate() - i);
+            const dateString = date.toISOString().split('T')[0];
+            dates.push(dateString);
+        }
+        
+        console.log('📅 生成的日期范围:', dates);
+        console.log('🗓️ 从', dates[dates.length - 1], '到', dates[0]);
+        
+        return dates;
+    }
+
+    // 获取实际数据中可用的日期（用于数据验证）
+    getActualDataDates() {
+        if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates) {
+            console.log('📊 实际数据日期:', window.WALLPAPER_DATA_INDEX.dates);
             return window.WALLPAPER_DATA_INDEX.dates;
         }
         
-        // 等待一下，可能数据索引正在加载
-        if (!window.WALLPAPER_DATA_INDEX) {
-            console.log('⏳ 等待数据索引加载...');
-            await new Promise(resolve => setTimeout(resolve, 100));
-            
-            // 再次尝试
-            if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates) {
-                console.log('✅ 延迟获取到数据索引:', window.WALLPAPER_DATA_INDEX.dates);
-                return window.WALLPAPER_DATA_INDEX.dates;
-            }
-        }
-        
-        // 尝试动态获取可用日期（基于实际数据检查）
-        const dynamicDates = await this.detectAvailableDates();
-        if (dynamicDates.length > 0) {
-            console.log('✅ 通过检测获取到可用日期:', dynamicDates);
-            return dynamicDates;
-        }
-        
-        // 最终回退到已知的可用日期
-        const knownDates = [
-            '2025-08-28',
-            '2025-08-27'
-        ];
-        
-        console.log('⚠️ 使用预设的已知日期:', knownDates);
-        return knownDates;
+        // 回退到预设的已知日期
+        return ['2025-08-28', '2025-08-27'];
     }
 
     // 动态检测可用日期
@@ -206,19 +196,21 @@ class DataLoader {
         this.wallpapers = [];
         
         const countries = Object.keys(this.getCountryInfo());
-        const dates = await this.getAvailableDates();
+        // 使用实际数据日期进行加载，而不是UI显示日期
+        const actualDates = this.getActualDataDates();
         
-        const total = countries.length * dates.length;
+        const total = countries.length * actualDates.length;
         let loaded = 0;
 
-        console.log(`开始加载数据: ${countries.length} 个国家 × ${dates.length} 个日期 = ${total} 个文件`);
+        console.log(`开始加载数据: ${countries.length} 个国家 × ${actualDates.length} 个实际数据日期 = ${total} 个文件`);
+        console.log(`🗂️ 实际加载日期:`, actualDates);
 
         // 并发加载数据，但限制并发数
         const concurrencyLimit = 5;
         const promises = [];
 
         for (const country of countries) {
-            for (const date of dates) {
+            for (const date of actualDates) {
                 const promise = this.loadWallpaperData(country, date)
                     .then(data => {
                         loaded++;

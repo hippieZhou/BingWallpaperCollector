@@ -115,11 +115,23 @@ class WallpaperApp {
             }
         });
 
-        // 填充日期筛选器
-        window.dataLoader.dates.forEach(date => {
+        // 填充日期筛选器 - 使用UI显示的8天范围
+        const uiDates = await window.dataLoader.getAvailableDates();
+        uiDates.forEach(date => {
             const option = document.createElement('option');
             option.value = date;
-            option.textContent = this.formatDate(date);
+            
+            // 检查这个日期是否有实际数据
+            const hasData = window.dataLoader.wallpapers.some(w => w.date === date);
+            const dateText = this.formatDate(date);
+            
+            if (hasData) {
+                option.textContent = dateText;
+            } else {
+                option.textContent = `${dateText} (无数据)`;
+                option.style.color = '#999';
+            }
+            
             dateFilter.appendChild(option);
         });
     }
@@ -161,7 +173,7 @@ class WallpaperApp {
                 this.showCountriesView();
                 break;
             case 'timeline':
-                this.showTimelineView();
+                this.showTimelineView(); // 异步方法，但不需要await
                 break;
         }
     }
@@ -179,9 +191,18 @@ class WallpaperApp {
     }
 
     // 显示时间轴视图
-    showTimelineView() {
+    async showTimelineView() {
+        // 获取UI显示的日期范围和实际数据
+        const uiDates = await window.dataLoader.getAvailableDates();
         const wallpapersByDate = window.dataLoader.getWallpapersByDate();
-        this.renderTimeline(wallpapersByDate);
+        
+        // 创建包含所有UI日期的完整时间轴数据
+        const completeTimeline = {};
+        uiDates.forEach(date => {
+            completeTimeline[date] = wallpapersByDate[date] || [];
+        });
+        
+        this.renderTimeline(completeTimeline);
     }
 
     // 渲染壁纸网格
@@ -265,16 +286,37 @@ class WallpaperApp {
         Object.entries(wallpapersByDate).forEach(([date, wallpapers]) => {
             const dateSection = document.createElement('div');
             dateSection.innerHTML = `
-                <div class="timeline-date">${this.formatDate(date)}</div>
+                <div class="timeline-date">${this.formatDate(date)} ${wallpapers.length > 0 ? `(${wallpapers.length} 张)` : '(无数据)'}</div>
                 <div class="timeline-wallpapers" id="timeline-${date}"></div>
             `;
             container.appendChild(dateSection);
 
             const wallpapersGrid = dateSection.querySelector('.timeline-wallpapers');
-            wallpapers.forEach(wallpaper => {
-                const card = this.createWallpaperCard(wallpaper);
-                wallpapersGrid.appendChild(card);
-            });
+            
+            if (wallpapers.length > 0) {
+                wallpapers.forEach(wallpaper => {
+                    const card = this.createWallpaperCard(wallpaper);
+                    wallpapersGrid.appendChild(card);
+                });
+            } else {
+                // 显示无数据提示
+                const noDataCard = document.createElement('div');
+                noDataCard.className = 'no-data-message';
+                noDataCard.style.cssText = `
+                    text-align: center;
+                    padding: 2rem;
+                    color: #999;
+                    background: #f8f9fa;
+                    border-radius: 8px;
+                    border: 2px dashed #dee2e6;
+                `;
+                noDataCard.innerHTML = `
+                    <i class="fas fa-calendar-times" style="font-size: 2rem; margin-bottom: 1rem; color: #ccc;"></i>
+                    <p>这一天暂无壁纸数据</p>
+                    <p style="font-size: 0.8rem;">数据可能还未收集或正在更新中</p>
+                `;
+                wallpapersGrid.appendChild(noDataCard);
+            }
         });
     }
 
@@ -289,9 +331,48 @@ class WallpaperApp {
         
         if (this.currentView === 'gallery') {
             this.renderWallpaperGrid(results);
+            
+            // 如果选择了特定日期但没有结果，显示特殊提示
+            if (this.filters.date && results.length === 0) {
+                this.showNoDataForDate(this.filters.date);
+            }
         }
 
         this.updateStats(results.length);
+    }
+
+    // 显示指定日期无数据的提示
+    showNoDataForDate(date) {
+        const grid = document.getElementById('wallpaper-grid');
+        
+        const noDataMessage = document.createElement('div');
+        noDataMessage.className = 'no-data-message';
+        noDataMessage.style.cssText = `
+            text-align: center;
+            padding: 4rem;
+            color: #666;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            grid-column: 1 / -1;
+        `;
+        
+        const formattedDate = this.formatDate(date);
+        noDataMessage.innerHTML = `
+            <i class="fas fa-calendar-times" style="font-size: 4rem; margin-bottom: 2rem; color: #ddd;"></i>
+            <h3 style="margin-bottom: 1rem; color: #333;">${formattedDate} 暂无数据</h3>
+            <p style="margin-bottom: 2rem; color: #666;">
+                这一天的壁纸信息可能还未收集，或者此日期超出了数据收集范围。
+            </p>
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 0 auto; max-width: 400px;">
+                <p style="font-size: 0.9rem; color: #666; margin: 0;">
+                    <i class="fas fa-info-circle"></i> 
+                    数据通常会在每天自动收集，请稍后再试或选择其他日期。
+                </p>
+            </div>
+        `;
+        
+        grid.appendChild(noDataMessage);
     }
 
     // 搜索防抖
