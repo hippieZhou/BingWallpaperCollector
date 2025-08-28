@@ -104,15 +104,27 @@ class WallpaperApp {
         const countryFilter = document.getElementById('country-filter');
         const dateFilter = document.getElementById('date-filter');
 
-        // 填充国家筛选器
+        // 填充国家筛选器 - 显示所有支持的国家
         const countryStats = window.dataLoader.getCountryStats();
-        Object.entries(countryStats).forEach(([country, info]) => {
-            if (info.count > 0) {
-                const option = document.createElement('option');
-                option.value = country;
-                option.textContent = `${info.flag} ${info.name} (${info.count})`;
-                countryFilter.appendChild(option);
+        const countryInfo = window.dataLoader.getCountryInfo();
+        
+        // 遍历所有支持的国家，确保都显示在下拉列表中
+        Object.entries(countryInfo).forEach(([country, info]) => {
+            const option = document.createElement('option');
+            option.value = country;
+            
+            // 获取统计数据（如果有的话）
+            const stats = countryStats[country];
+            const count = stats ? stats.count : 0;
+            
+            if (count > 0) {
+                option.textContent = `${info.flag} ${info.name} (${count})`;
+            } else {
+                option.textContent = `${info.flag} ${info.name} (无数据)`;
+                option.style.color = '#999';
             }
+            
+            countryFilter.appendChild(option);
         });
 
         // 填充日期筛选器 - 使用UI显示的8天范围
@@ -251,27 +263,39 @@ class WallpaperApp {
         const grid = document.getElementById('countries-grid');
         grid.innerHTML = '';
 
-        Object.entries(countryStats).forEach(([country, info]) => {
-            if (info.count === 0) return;
+        const countryInfo = window.dataLoader.getCountryInfo();
+
+        // 显示所有支持的国家
+        Object.entries(countryInfo).forEach(([country, basicInfo]) => {
+            const stats = countryStats[country];
+            const count = stats ? stats.count : 0;
+            const datesCount = stats ? stats.dates.length : 0;
 
             const card = document.createElement('div');
             card.className = 'country-card';
             card.addEventListener('click', () => this.filterByCountry(country));
 
+            // 根据是否有数据设置不同的样式
+            if (count === 0) {
+                card.style.opacity = '0.6';
+                card.style.cursor = 'pointer';
+            }
+
             card.innerHTML = `
-                <div class="country-flag">${info.flag}</div>
-                <div class="country-name">${info.name}</div>
-                <div class="country-code">${info.code}</div>
+                <div class="country-flag">${basicInfo.flag}</div>
+                <div class="country-name">${basicInfo.name}</div>
+                <div class="country-code">${basicInfo.code}</div>
                 <div class="country-stats">
                     <div class="stat">
-                        <span class="stat-number">${info.count}</span>
+                        <span class="stat-number" style="color: ${count > 0 ? '#667eea' : '#ccc'}">${count}</span>
                         <span class="stat-label">壁纸</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">${info.dates.length}</span>
+                        <span class="stat-number" style="color: ${datesCount > 0 ? '#667eea' : '#ccc'}">${datesCount}</span>
                         <span class="stat-label">天数</span>
                     </div>
                 </div>
+                ${count === 0 ? '<div style="text-align: center; margin-top: 1rem; font-size: 0.8rem; color: #999;">暂无数据</div>' : ''}
             `;
 
             grid.appendChild(card);
@@ -332,9 +356,15 @@ class WallpaperApp {
         if (this.currentView === 'gallery') {
             this.renderWallpaperGrid(results);
             
-            // 如果选择了特定日期但没有结果，显示特殊提示
-            if (this.filters.date && results.length === 0) {
-                this.showNoDataForDate(this.filters.date);
+            // 如果没有结果，显示特殊提示
+            if (results.length === 0) {
+                if (this.filters.date && this.filters.country) {
+                    this.showNoDataForCountryAndDate(this.filters.country, this.filters.date);
+                } else if (this.filters.date) {
+                    this.showNoDataForDate(this.filters.date);
+                } else if (this.filters.country) {
+                    this.showNoDataForCountry(this.filters.country);
+                }
             }
         }
 
@@ -368,6 +398,78 @@ class WallpaperApp {
                 <p style="font-size: 0.9rem; color: #666; margin: 0;">
                     <i class="fas fa-info-circle"></i> 
                     数据通常会在每天自动收集，请稍后再试或选择其他日期。
+                </p>
+            </div>
+        `;
+        
+        grid.appendChild(noDataMessage);
+    }
+
+    // 显示指定国家无数据的提示
+    showNoDataForCountry(country) {
+        const grid = document.getElementById('wallpaper-grid');
+        
+        const countryInfo = window.dataLoader.getCountryInfo()[country];
+        const noDataMessage = document.createElement('div');
+        noDataMessage.className = 'no-data-message';
+        noDataMessage.style.cssText = `
+            text-align: center;
+            padding: 4rem;
+            color: #666;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            grid-column: 1 / -1;
+        `;
+        
+        noDataMessage.innerHTML = `
+            <div style="font-size: 4rem; margin-bottom: 2rem;">${countryInfo.flag}</div>
+            <h3 style="margin-bottom: 1rem; color: #333;">${countryInfo.name} 暂无数据</h3>
+            <p style="margin-bottom: 2rem; color: #666;">
+                ${countryInfo.name} (${countryInfo.code}) 的壁纸信息可能还未收集，或者正在更新中。
+            </p>
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 0 auto; max-width: 400px;">
+                <p style="font-size: 0.9rem; color: #666; margin: 0;">
+                    <i class="fas fa-info-circle"></i> 
+                    我们支持 14 个国家/地区的壁纸收集，数据会定期更新。
+                </p>
+            </div>
+        `;
+        
+        grid.appendChild(noDataMessage);
+    }
+
+    // 显示指定国家和日期无数据的提示
+    showNoDataForCountryAndDate(country, date) {
+        const grid = document.getElementById('wallpaper-grid');
+        
+        const countryInfo = window.dataLoader.getCountryInfo()[country];
+        const formattedDate = this.formatDate(date);
+        const noDataMessage = document.createElement('div');
+        noDataMessage.className = 'no-data-message';
+        noDataMessage.style.cssText = `
+            text-align: center;
+            padding: 4rem;
+            color: #666;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            grid-column: 1 / -1;
+        `;
+        
+        noDataMessage.innerHTML = `
+            <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                <div style="font-size: 3rem;">${countryInfo.flag}</div>
+                <i class="fas fa-calendar-times" style="font-size: 3rem; color: #ddd;"></i>
+            </div>
+            <h3 style="margin-bottom: 1rem; color: #333;">${countryInfo.name} - ${formattedDate}</h3>
+            <p style="margin-bottom: 2rem; color: #666;">
+                ${formattedDate} 这天还没有来自 ${countryInfo.name} 的壁纸数据。
+            </p>
+            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 0 auto; max-width: 400px;">
+                <p style="font-size: 0.9rem; color: #666; margin: 0;">
+                    <i class="fas fa-lightbulb"></i> 
+                    尝试选择其他日期或国家，或稍后再来查看更新。
                 </p>
             </div>
         `;
