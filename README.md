@@ -220,7 +220,7 @@ Japan 的壁纸信息收集完成
 
 #### 手动触发区域化收集
 
-1. 进入 GitHub 仓库的 [Actions 页面](https://github.com/hippieZhou/BingWallpaperCollector/actions)，或查看文档中的 [🤖 GitHub Actions 自动化](#-github-actions-自动化) 部分
+1. 查看 [🤖 GitHub Actions 自动化](#-github-actions-自动化) 部分，然后进入 GitHub 仓库的 Actions 页面
 2. 选择 "区域化壁纸收集" workflow
 3. 点击 "Run workflow"
 4. 可以自定义：
@@ -229,7 +229,7 @@ Japan 的壁纸信息收集完成
 
 #### 手动触发每日收集
 
-1. 进入 GitHub 仓库的 [Actions 页面](https://github.com/hippieZhou/BingWallpaperCollector/actions)，或查看文档中的 [🤖 GitHub Actions 自动化](#-github-actions-自动化) 部分
+1. 查看 [🤖 GitHub Actions 自动化](#-github-actions-自动化) 部分，然后进入 GitHub 仓库的 Actions 页面
 2. 选择 "每日收集 Bing 壁纸信息" workflow
 3. 点击 "Run workflow" 立即执行全球收集
 
