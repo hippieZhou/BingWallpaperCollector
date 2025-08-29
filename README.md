@@ -100,7 +100,7 @@ Bing Wallpaper Information Collector
 
 ## 🤖 GitHub Actions 自动化
 
-**📖 完整的自动化文档**: [查看 .github/README.md](.github/README.md)
+**📖 完整的自动化文档**: [查看 .github/ACTIONS.md](.github/ACTIONS.md)
 
 本项目配置了完全自动化的 GitHub Actions 工作流：
 
@@ -113,7 +113,7 @@ Bing Wallpaper Information Collector
 - **页面部署** - 数据更新时自动部署到GitHub Pages
 
 ### 🚀 使用说明
-如需了解详细的工作流配置、手动触发方法、故障排除等信息，请查看 [GitHub Actions 自动化文档](.github/README.md)。
+如需了解详细的工作流配置、手动触发方法、故障排除等信息，请查看 [GitHub Actions 自动化文档](.github/ACTIONS.md)。
 
 
 
@@ -135,7 +135,7 @@ A: 项目已完全集成 GitHub Actions 自动化功能！
 - 🌍 **全球14国覆盖** - 智能重试机制，避免冲突  
 - 📊 **实时数据同步** - 自动提交数据并部署网站
 
-详细配置和使用方法请查看 [GitHub Actions 文档](.github/README.md)。如需本地运行或开发，请查看 [开发者文档](src/README.md)。
+详细配置和使用方法请查看 [GitHub Actions 文档](.github/ACTIONS.md)。如需本地运行或开发，请查看 [开发者文档](src/README.md)。
 
 ### Q: JSON 文件可以用于什么用途？
 
@@ -143,7 +143,7 @@ A: 可以用于构建壁纸应用、网站展示、数据分析、或者作为�
 
 ### Q: 当前系统运行状况如何？
 
-A: 🎉 **系统运行完全正常！** GitHub Actions 自动化流程稳定运行，数据持续更新。详细状态请查看 [自动化文档](.github/README.md)。
+A: 🎉 **系统运行完全正常！** GitHub Actions 自动化流程稳定运行，数据持续更新。详细状态请查看 [自动化文档](.github/ACTIONS.md)。
 
 ### Q: 图片 URL 是否可靠？
 
