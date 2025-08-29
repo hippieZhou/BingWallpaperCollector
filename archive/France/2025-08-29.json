@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-29",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "La géométrie du souvenir",
+  "copyright": "Vue aérienne de la Plaza Mayor, Madrid, Espagne (© AirPano LLC/Amazing Aerial Agency)",
+  "copyrightLink": "https://www.bing.com/search?q=La+Plaza+Mayor+de+Madrid&form=hpcapt&filters=HpDate%3a%2220250828_2200%22",
+  "description": "Vue aérienne de la Plaza Mayor, Madrid, Espagne",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "53ca45e6f86b8d2aa214383d6ed80790",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_FR-FR2388557183_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_FR-FR2388557183_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_FR-FR2388557183_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_FR-FR2388557183_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-28",
+    "EndDate": "2025-08-29",
+    "FullStartDateTime": "2025-08-28T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508282200",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "2025-08-29T04:33:31.6642754+00:00",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_FR-FR2388557183"
+}

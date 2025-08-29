@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-29",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "歴史的な長方形の広場",
+  "copyright": "マヨール広場, スペイン (© AirPano LLC/Amazing Aerial Agency)",
+  "copyrightLink": "https://www.bing.com/search?q=%E3%83%9E%E3%83%A8%E3%83%BC%E3%83%AB%E5%BA%83%E5%A0%B4&form=hpcapt&filters=HpDate%3a%2220250828_1500%22",
+  "description": "マヨール広場, スペイン",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "04d649c1b45b9a716b3cc1dfeba7d5ec",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_JA-JP5661212297_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_JA-JP5661212297_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_JA-JP5661212297_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_JA-JP5661212297_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-28",
+    "EndDate": "2025-08-29",
+    "FullStartDateTime": "2025-08-28T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508281500",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "2025-08-29T04:33:31.6572512+00:00",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_JA-JP5661212297"
+}

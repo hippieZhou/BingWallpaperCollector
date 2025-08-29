@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-29",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "copyright": "Great white egret, Hungary (© Markus Varesvuo/Nature Picture Library)",
+  "copyrightLink": "https://www.bing.com/search?q=Great+white+egret&form=hpcapt",
+  "description": "Great white egret, Hungary",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "0c8c489bf33c6cdccb5b617d576f7306",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ROW7082373076_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ROW7082373076_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ROW7082373076_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ROW7082373076_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-28",
+    "EndDate": "2025-08-29",
+    "FullStartDateTime": "2025-08-28T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508280700",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "2025-08-29T04:33:31.7854016+00:00",
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_ROW7082373076"
+}

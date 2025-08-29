@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-29",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Geometria del potere",
+  "copyright": "Vista aerea di Plaza Mayor, Madrid, Spagna (© AirPano LLC/Amazing Aerial Agency)",
+  "copyrightLink": "https://www.bing.com/search?q=Madrid+capitale+spagnola&form=hpcapt",
+  "description": "Vista aerea di Plaza Mayor, Madrid, Spagna",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "9a1214f83abb21953c9a653c85219d45",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-28",
+    "EndDate": "2025-08-29",
+    "FullStartDateTime": "2025-08-28T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508282200",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "2025-08-29T04:33:31.7401985+00:00",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_IT-IT9894137686"
+}

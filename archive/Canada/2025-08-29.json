@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-29",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "The heart of the grid",
+  "copyright": "Aerial view of Plaza Mayor, Madrid, Spain (© AirPano LLC/Amazing Aerial Agency)",
+  "copyrightLink": "https://www.bing.com/search?q=Plaza+Mayor+Madrid&form=hpcapt&filters=HpDate%3a%2220250829_0400%22",
+  "description": "Aerial view of Plaza Mayor, Madrid, Spain",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250829_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "c9954d42ef0dff91dc15ffc6155fd2c7",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-CA2624304818_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-CA2624304818_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-CA2624304818_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-CA2624304818_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-29",
+    "EndDate": "2025-08-30",
+    "FullStartDateTime": "2025-08-29T04:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250829",
+      "fullStartDate": "202508290400",
+      "endDate": "20250830"
+    }
+  },
+  "createdAt": "2025-08-29T04:33:31.8745762+00:00",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_EN-CA2624304818"
+}
