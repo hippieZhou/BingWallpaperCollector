@@ -26,26 +26,27 @@ Bing Wallpaper Information Collector
 - 🎨 **现代化界面** - 响应式设计，完美适配桌面和移动设备
 - 🖼️ **多视图浏览** - 画廊、国家、时间轴三种浏览模式
 - 🔍 **智能搜索** - 按标题、描述、国家快速筛选
-- 💾 **高清下载** - 支持UHD、4K、1080p、HD多种分辨率
+- 💾 **高清下载** - 支持 UHD、4K、1080p、HD 多种分辨率
 - ⚡ **实时更新** - 数据与收集器同步，每日自动更新
 - 📊 **详细信息** - 显示壁纸标题、描述、版权、时间等完整信息
-- 🔍 **SEO优化** - 完整的搜索引擎优化，支持Google、百度等搜索收录
-- 📱 **社交分享** - 支持Facebook、Twitter等社交媒体分享
+- 🔍 **SEO 优化** - 完整的搜索引擎优化，支持 Google、百度等搜索收录
+- 📱 **社交分享** - 支持 Facebook、Twitter 等社交媒体分享
 
 ### 🔗 快速链接
 
-| 链接 | 描述 |
-|------|------|
-| [🏠 主网站](https://hippiezhou.github.io/BingWallpaperCollector/) | 壁纸画廊主页 |
-| [📋 项目介绍](https://hippiezhou.github.io/BingWallpaperCollector/promo.html) | 项目详细介绍和宣传页面 |
-| [🧪 健康检查](https://hippiezhou.github.io/BingWallpaperCollector/health.html) | 网站状态和诊断 |
-| [📊 数据检查](https://hippiezhou.github.io/BingWallpaperCollector/data-check.html) | 数据完整性和加载检查 |
-| [🔬 功能测试](https://hippiezhou.github.io/BingWallpaperCollector/test.html) | 详细功能测试页面 |
-| [🗺️ 网站地图](https://hippiezhou.github.io/BingWallpaperCollector/sitemap.xml) | 搜索引擎站点地图 |
+| 链接                                                                               | 描述                   |
+| ---------------------------------------------------------------------------------- | ---------------------- |
+| [🏠 主网站](https://hippiezhou.github.io/BingWallpaperCollector/)                  | 壁纸画廊主页           |
+| [📋 项目介绍](https://hippiezhou.github.io/BingWallpaperCollector/promo.html)      | 项目详细介绍和宣传页面 |
+| [🧪 健康检查](https://hippiezhou.github.io/BingWallpaperCollector/health.html)     | 网站状态和诊断         |
+| [📊 数据检查](https://hippiezhou.github.io/BingWallpaperCollector/data-check.html) | 数据完整性和加载检查   |
+| [🔬 功能测试](https://hippiezhou.github.io/BingWallpaperCollector/test.html)       | 详细功能测试页面       |
+| [🗺️ 网站地图](https://hippiezhou.github.io/BingWallpaperCollector/sitemap.xml)     | 搜索引擎站点地图       |
 
 ## 🌟 功能特性
 
 ### 🤖 数据收集功能
+
 - **GitHub Actions 自动化** - 每天自动收集，多时区优化，自动提交数据
 - **多语言支持** - 支持 14 个国家/地区的本地化内容
 - **JSON 数据存储** - 保存完整的壁纸信息而非下载图片
@@ -58,6 +59,7 @@ Bing Wallpaper Information Collector
 - **双模式运行** - 支持交互式和自动化无人值守运行
 
 ### 🌐 在线展示功能
+
 - **GitHub Pages 网站** - 美观的在线壁纸展示平台
 - **响应式设计** - 完美适配桌面、平板、手机
 - **多视图模式** - 画廊视图、国家视图、时间轴视图
@@ -90,9 +92,10 @@ Bing Wallpaper Information Collector
 **📖 完整的技术文档**: [查看 src/README.md](src/README.md)
 
 如果你是开发者，想了解：
+
 - 系统要求和环境配置
 - 代码运行和编译方法
-- 配置选项和API接口
+- 配置选项和 API 接口
 - 技术实现细节
 - 开发环境设置
 
@@ -104,18 +107,15 @@ Bing Wallpaper Information Collector
 
 本项目配置了完全自动化的 GitHub Actions 工作流：
 
-### ✅ 系统状态  
-**🎉 完全自动化运行中！** - 每天自动收集全球14个国家的壁纸信息
+### ✅ 系统状态
+
+**🎉 完全自动化运行中！** - 每天自动收集全球 14 个国家的壁纸信息
 
 ### 🕒 主要工作流
+
 - **每日收集** - 每天两次自动收集所有国家的壁纸信息
 - **区域化收集** - 按时区分地区优化收集，避免冲突
-- **页面部署** - 数据更新时自动部署到GitHub Pages
-
-### 🚀 使用说明
-如需了解详细的工作流配置、手动触发方法、故障排除等信息，请查看 [GitHub Actions 自动化文档](.github/ACTIONS.md)。
-
-
+- **页面部署** - 数据更新时自动部署到 GitHub Pages
 
 ## ❓ 常见问题
 
@@ -125,14 +125,14 @@ A: 某些国家/地区可能没有完全本地化的内容，必应会返回英�
 
 ### Q: 支持更多国家吗？
 
-A: 项目已支持必应API提供的14个主要市场，覆盖了全球主要语言和地区。如需支持其他国家，可查看[开发者文档](src/README.md)了解如何修改。
+A: 项目已支持必应 API 提供的 14 个主要市场，覆盖了全球主要语言和地区。如需支持其他国家，可查看[开发者文档](src/README.md)了解如何修改。
 
 ### Q: 如何实现自动化收集？
 
 A: 项目已完全集成 GitHub Actions 自动化功能！
 
 - 🤖 **每日自动运行** - 无需手动干预，多时区优化
-- 🌍 **全球14国覆盖** - 智能重试机制，避免冲突  
+- 🌍 **全球 14 国覆盖** - 智能重试机制，避免冲突
 - 📊 **实时数据同步** - 自动提交数据并部署网站
 
 详细配置和使用方法请查看 [GitHub Actions 文档](.github/ACTIONS.md)。如需本地运行或开发，请查看 [开发者文档](src/README.md)。
@@ -147,7 +147,7 @@ A: 🎉 **系统运行完全正常！** GitHub Actions 自动化流程稳定运�
 
 ### Q: 图片 URL 是否可靠？
 
-A: 是的，项目中的所有图片 URL 都经过验证，提供UHD、4K、1080p、HD等多种分辨率，确保可以正常访问和下载。
+A: 是的，项目中的所有图片 URL 都经过验证，提供 UHD、4K、1080p、HD 等多种分辨率，确保可以正常访问和下载。
 
 ## 📄 许可证
 
@@ -169,9 +169,9 @@ A: 是的，项目中的所有图片 URL 都经过验证，提供UHD、4K、1080
 
 ### 📝 贡献指南
 
-- **数据收集器**: 改进C#程序的功能和性能
-- **网站界面**: 优化GitHub Pages的用户体验和设计
-- **文档完善**: 更新README和使用说明
-- **问题反馈**: 报告bugs或提出功能建议
+- **数据收集器**: 改进 C#程序的功能和性能
+- **网站界面**: 优化 GitHub Pages 的用户体验和设计
+- **文档完善**: 更新 README 和使用说明
+- **问题反馈**: 报告 bugs 或提出功能建议
 
 **开发环境设置和技术细节请查看**: [开发者文档](src/README.md)
