@@ -59,6 +59,9 @@ class WallpaperApp {
         // 清除筛选器按钮
         this.addClearFiltersButton();
 
+        // 初始化时设置筛选器控件状态（默认是画廊视图）
+        this.toggleFilterControls('gallery');
+
         // 模态框
         document.getElementById('wallpaper-modal').addEventListener('click', (e) => {
             if (e.target.id === 'wallpaper-modal') {
@@ -389,26 +392,23 @@ class WallpaperApp {
 
     // 控制筛选器控件的显示/隐藏
     toggleFilterControls(viewName) {
-        const filterControls = document.querySelector('.filter-controls');
-        const statsSection = document.querySelector('.stats');
+        const filtersSection = document.querySelector('.filters');
         
-        if (filterControls && statsSection) {
+        if (filtersSection) {
             if (viewName === 'gallery') {
                 // 画廊视图：显示筛选器控件
-                filterControls.style.display = 'flex';
-                statsSection.style.display = 'flex';
+                filtersSection.style.display = 'block';
             } else {
                 // 其他视图：隐藏筛选器控件
-                filterControls.style.display = 'none';
-                statsSection.style.display = 'none';
+                filtersSection.style.display = 'none';
             }
         }
     }
 
     // 添加清除筛选器按钮
     addClearFiltersButton() {
-        const filterControls = document.querySelector('.filter-controls');
-        if (filterControls && !document.getElementById('clear-filters-btn')) {
+        const filterGroup = document.querySelector('.filter-group');
+        if (filterGroup && !document.getElementById('clear-filters-btn')) {
             const clearButton = document.createElement('button');
             clearButton.id = 'clear-filters-btn';
             clearButton.className = 'clear-filters-btn';
@@ -427,7 +427,7 @@ class WallpaperApp {
                 gap: 5px;
             `;
             clearButton.addEventListener('click', () => this.clearAllFilters());
-            filterControls.appendChild(clearButton);
+            filterGroup.appendChild(clearButton);
         }
     }
 
