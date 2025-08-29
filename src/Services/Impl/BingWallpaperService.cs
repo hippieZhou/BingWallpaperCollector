@@ -104,7 +104,7 @@ public sealed class BingWallpaperService : IBingWallpaperService
       var fileCount = 0;
       if (Directory.Exists(countryDir))
       {
-        fileCount = Directory.GetFiles(countryDir, $"*{AppConstants.WallpaperInfoFileName}", SearchOption.AllDirectories).Length;
+        fileCount = Directory.GetFiles(countryDir, "*.json", SearchOption.TopDirectoryOnly).Length;
       }
 
       _logger.LogInformation("✅ {Country} 的壁纸信息收集完成 - 共有 {FileCount} 个文件", marketCode.ToString(), fileCount);

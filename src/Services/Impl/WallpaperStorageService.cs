@@ -106,7 +106,9 @@ public sealed class WallpaperStorageService : IWallpaperStorageService
   {
     ArgumentException.ThrowIfNullOrEmpty(dateStr);
 
-    var filePath = Path.Combine(_dataDirectory, marketCode.ToString(), dateStr, AppConstants.WallpaperInfoFileName);
+    var countryDir = Path.Combine(_dataDirectory, marketCode.ToString());
+    var fileName = $"{dateStr}.json";
+    var filePath = Path.Combine(countryDir, fileName);
     return File.Exists(filePath);
   }
 

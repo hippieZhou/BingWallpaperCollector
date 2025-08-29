@@ -51,11 +51,6 @@ public static class AppConstants
   public const string ImagesSubDirectoryName = "Images";
 
   /// <summary>
-  /// 壁纸信息文件名
-  /// </summary>
-  public const string WallpaperInfoFileName = "wallpaper_info.json";
-
-  /// <summary>
   /// 支持的图片分辨率
   /// </summary>
   public static readonly Dictionary<string, (string Suffix, string Description)> ImageResolutions = new()
