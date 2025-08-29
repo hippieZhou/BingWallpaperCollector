@@ -56,6 +56,9 @@ class WallpaperApp {
             this.debounceSearch();
         });
 
+        // 清除筛选器按钮
+        this.addClearFiltersButton();
+
         // 模态框
         document.getElementById('wallpaper-modal').addEventListener('click', (e) => {
             if (e.target.id === 'wallpaper-modal') {
@@ -192,29 +195,44 @@ class WallpaperApp {
 
     // 显示画廊视图
     showGalleryView() {
-        this.currentWallpapers = window.dataLoader.getLatestWallpapers();
-        this.renderWallpaperGrid(this.currentWallpapers);
+        // 如果有筛选条件，应用筛选
+        if (this.hasActiveFilters()) {
+            this.applyFilters();
+        } else {
+            this.currentWallpapers = window.dataLoader.getLatestWallpapers();
+            this.renderWallpaperGrid(this.currentWallpapers);
+        }
     }
 
     // 显示国家视图
     showCountriesView() {
-        const countryStats = window.dataLoader.getCountryStats();
-        this.renderCountriesGrid(countryStats);
+        // 如果有筛选条件，应用筛选
+        if (this.hasActiveFilters()) {
+            this.applyFilters();
+        } else {
+            const countryStats = window.dataLoader.getCountryStats();
+            this.renderCountriesGrid(countryStats);
+        }
     }
 
     // 显示时间轴视图
     async showTimelineView() {
-        // 获取UI显示的日期范围和实际数据
-        const uiDates = await window.dataLoader.getAvailableDates();
-        const wallpapersByDate = window.dataLoader.getWallpapersByDate();
-        
-        // 创建包含所有UI日期的完整时间轴数据
-        const completeTimeline = {};
-        uiDates.forEach(date => {
-            completeTimeline[date] = wallpapersByDate[date] || [];
-        });
-        
-        this.renderTimeline(completeTimeline);
+        // 如果有筛选条件，应用筛选
+        if (this.hasActiveFilters()) {
+            this.applyFilters();
+        } else {
+            // 获取UI显示的日期范围和实际数据
+            const uiDates = await window.dataLoader.getAvailableDates();
+            const wallpapersByDate = window.dataLoader.getWallpapersByDate();
+            
+            // 创建包含所有UI日期的完整时间轴数据
+            const completeTimeline = {};
+            uiDates.forEach(date => {
+                completeTimeline[date] = wallpapersByDate[date] || [];
+            });
+            
+            this.renderTimeline(completeTimeline);
+        }
     }
 
     // 渲染壁纸网格
@@ -353,22 +371,226 @@ class WallpaperApp {
 
         this.currentWallpapers = results;
         
-        if (this.currentView === 'gallery') {
-            this.renderWallpaperGrid(results);
-            
-            // 如果没有结果，显示特殊提示
-            if (results.length === 0) {
-                if (this.filters.date && this.filters.country) {
-                    this.showNoDataForCountryAndDate(this.filters.country, this.filters.date);
-                } else if (this.filters.date) {
-                    this.showNoDataForDate(this.filters.date);
-                } else if (this.filters.country) {
-                    this.showNoDataForCountry(this.filters.country);
+        // 根据当前视图应用筛选
+        switch (this.currentView) {
+            case 'gallery':
+                this.renderWallpaperGrid(results);
+                
+                // 如果没有结果，显示特殊提示
+                if (results.length === 0) {
+                    if (this.filters.date && this.filters.country) {
+                        this.showNoDataForCountryAndDate(this.filters.country, this.filters.date);
+                    } else if (this.filters.date) {
+                        this.showNoDataForDate(this.filters.date);
+                    } else if (this.filters.country) {
+                        this.showNoDataForCountry(this.filters.country);
+                    }
                 }
-            }
+                break;
+                
+            case 'countries':
+                this.renderFilteredCountriesView(results);
+                break;
+                
+            case 'timeline':
+                this.renderFilteredTimelineView(results);
+                break;
         }
 
         this.updateStats(results.length);
+        this.updateClearFiltersButton();
+    }
+
+    // 添加清除筛选器按钮
+    addClearFiltersButton() {
+        const filterControls = document.querySelector('.filter-controls');
+        if (filterControls && !document.getElementById('clear-filters-btn')) {
+            const clearButton = document.createElement('button');
+            clearButton.id = 'clear-filters-btn';
+            clearButton.className = 'clear-filters-btn';
+            clearButton.innerHTML = '<i class="fas fa-times"></i> 清除筛选';
+            clearButton.style.cssText = `
+                background: #e74c3c;
+                color: white;
+                border: none;
+                padding: 8px 12px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 0.9rem;
+                margin-left: auto;
+                display: none;
+                align-items: center;
+                gap: 5px;
+            `;
+            clearButton.addEventListener('click', () => this.clearAllFilters());
+            filterControls.appendChild(clearButton);
+        }
+    }
+
+    // 更新清除筛选器按钮的显示状态
+    updateClearFiltersButton() {
+        const clearButton = document.getElementById('clear-filters-btn');
+        if (clearButton) {
+            clearButton.style.display = this.hasActiveFilters() ? 'flex' : 'none';
+        }
+    }
+
+    // 清除所有筛选器
+    clearAllFilters() {
+        // 重置筛选器状态
+        this.filters.country = '';
+        this.filters.date = '';
+        this.filters.search = '';
+
+        // 重置UI控件
+        document.getElementById('country-filter').value = '';
+        document.getElementById('date-filter').value = '';
+        document.getElementById('search-input').value = '';
+
+        // 根据当前视图重新加载数据
+        switch (this.currentView) {
+            case 'gallery':
+                this.showGalleryView();
+                break;
+            case 'countries':
+                this.showCountriesView();
+                break;
+            case 'timeline':
+                this.showTimelineView();
+                break;
+        }
+
+        // 更新统计和按钮状态
+        this.updateStats();
+        this.updateClearFiltersButton();
+    }
+
+    // 检查是否有激活的筛选器
+    hasActiveFilters() {
+        return this.filters.country || this.filters.date || this.filters.search;
+    }
+
+    // 渲染筛选后的国家视图
+    renderFilteredCountriesView(filteredWallpapers) {
+        const grid = document.getElementById('countries-grid');
+        grid.innerHTML = '';
+
+        const countryInfo = window.dataLoader.getCountryInfo();
+        
+        // 基于筛选结果计算每个国家的统计
+        const filteredCountryStats = {};
+        filteredWallpapers.forEach(wallpaper => {
+            if (!filteredCountryStats[wallpaper.country]) {
+                filteredCountryStats[wallpaper.country] = {
+                    count: 0,
+                    dates: new Set()
+                };
+            }
+            filteredCountryStats[wallpaper.country].count++;
+            filteredCountryStats[wallpaper.country].dates.add(wallpaper.date);
+        });
+
+        // 转换Set为Array以获取长度
+        Object.keys(filteredCountryStats).forEach(country => {
+            filteredCountryStats[country].dates = Array.from(filteredCountryStats[country].dates);
+        });
+
+        // 如果有国家筛选，只显示该国家
+        const countriesToShow = this.filters.country 
+            ? [this.filters.country] 
+            : Object.keys(countryInfo);
+
+        // 显示国家（包括没有数据的）
+        countriesToShow.forEach(country => {
+            const basicInfo = countryInfo[country];
+            if (!basicInfo) return;
+
+            const stats = filteredCountryStats[country];
+            const count = stats ? stats.count : 0;
+            const datesCount = stats ? stats.dates.length : 0;
+
+            const card = document.createElement('div');
+            card.className = 'country-card';
+            card.addEventListener('click', () => this.filterByCountry(country));
+
+            // 根据是否有数据设置不同的样式
+            if (count === 0) {
+                card.style.opacity = '0.6';
+                card.style.cursor = 'pointer';
+            }
+
+            card.innerHTML = `
+                <div class="country-flag">${basicInfo.flag}</div>
+                <div class="country-name">${basicInfo.name}</div>
+                <div class="country-code">${basicInfo.code}</div>
+                <div class="country-stats">
+                    <div class="stat">
+                        <span class="stat-number" style="color: ${count > 0 ? '#667eea' : '#ccc'}">${count}</span>
+                        <span class="stat-label">壁纸</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" style="color: ${datesCount > 0 ? '#667eea' : '#ccc'}">${datesCount}</span>
+                        <span class="stat-label">天数</span>
+                    </div>
+                </div>
+                ${count === 0 ? '<div style="text-align: center; margin-top: 1rem; font-size: 0.8rem; color: #999;">暂无匹配数据</div>' : ''}
+            `;
+
+            grid.appendChild(card);
+        });
+    }
+
+    // 渲染筛选后的时间轴视图
+    async renderFilteredTimelineView(filteredWallpapers) {
+        const container = document.getElementById('timeline-container');
+        container.innerHTML = '';
+
+        // 按日期分组筛选后的壁纸
+        const wallpapersByDate = {};
+        filteredWallpapers.forEach(wallpaper => {
+            if (!wallpapersByDate[wallpaper.date]) {
+                wallpapersByDate[wallpaper.date] = [];
+            }
+            wallpapersByDate[wallpaper.date].push(wallpaper);
+        });
+
+        // 获取UI日期范围，如果有日期筛选则只显示该日期
+        let datesToShow;
+        if (this.filters.date) {
+            datesToShow = [this.filters.date];
+        } else {
+            const uiDates = await window.dataLoader.getAvailableDates();
+            // 只显示有数据的日期
+            datesToShow = uiDates.filter(date => wallpapersByDate[date] && wallpapersByDate[date].length > 0);
+        }
+
+        if (datesToShow.length === 0) {
+            container.innerHTML = `
+                <div style="text-align: center; padding: 4rem; color: #666;">
+                    <i class="fas fa-search" style="font-size: 4rem; margin-bottom: 2rem; color: #ddd;"></i>
+                    <h3>没有找到匹配的数据</h3>
+                    <p>尝试调整筛选条件以查看更多结果</p>
+                </div>
+            `;
+            return;
+        }
+
+        // 渲染每个日期的数据
+        datesToShow.forEach(date => {
+            const wallpapers = wallpapersByDate[date] || [];
+            const dateSection = document.createElement('div');
+            dateSection.innerHTML = `
+                <div class="timeline-date">${this.formatDate(date)} (${wallpapers.length} 张)</div>
+                <div class="timeline-wallpapers" id="timeline-${date}"></div>
+            `;
+            container.appendChild(dateSection);
+
+            const wallpapersGrid = dateSection.querySelector('.timeline-wallpapers');
+            wallpapers.forEach(wallpaper => {
+                const card = this.createWallpaperCard(wallpaper);
+                wallpapersGrid.appendChild(card);
+            });
+        });
     }
 
     // 显示指定日期无数据的提示
