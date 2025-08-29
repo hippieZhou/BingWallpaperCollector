@@ -126,7 +126,7 @@ self.addEventListener("fetch", (event) => {
   // 4. 导航请求 - 网络优先，离线时返回缓存页面
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request)
+      fetch(request, { referrerPolicy: 'no-referrer' })
         .then((response) => {
           // 成功时缓存页面
           if (response.ok) {
@@ -151,9 +151,25 @@ self.addEventListener("fetch", (event) => {
 
   // 5. 其他请求 - 网络优先
   event.respondWith(
-    fetch(request).catch(() => {
-      return caches.match(request);
-    })
+    (async () => {
+      try {
+        // 检查是否是Bing图片URL，如果是则设置no-referrer策略
+        const url = new URL(request.url);
+        let fetchOptions = {};
+        
+        if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
+          fetchOptions = {
+            referrerPolicy: 'no-referrer',
+            mode: 'cors'
+          };
+        }
+        
+        return await fetch(request, fetchOptions);
+      } catch (error) {
+        // 网络失败时回退到缓存
+        return await caches.match(request);
+      }
+    })()
   );
 });
 
@@ -162,37 +178,59 @@ async function fetchAndCache(request, cacheName, options = {}) {
   const { fallbackToCache = false, maxAge = 0 } = options;
 
   try {
-    const response = await fetch(request);
+    // 检查是否是Bing图片URL，如果是则设置no-referrer策略
+    const url = new URL(request.url);
+    let fetchOptions = {};
+    
+    if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
+      fetchOptions = {
+        referrerPolicy: 'no-referrer',
+        mode: 'cors'
+      };
+    }
+    
+    const response = await fetch(request, fetchOptions);
 
     if (response.ok) {
-      // 克隆响应用于缓存
-      const responseClone = response.clone();
-      const cache = await caches.open(cacheName);
+      // 只缓存GET请求，跳过HEAD等其他请求方法
+      if (request.method === 'GET') {
+        // 克隆响应用于缓存
+        const responseClone = response.clone();
+        const cache = await caches.open(cacheName);
 
-      // 设置缓存头（如果指定了maxAge）
-      if (maxAge > 0) {
-        const headers = new Headers(responseClone.headers);
-        headers.set("sw-cached-at", Date.now().toString());
-        headers.set("sw-max-age", maxAge.toString());
+        // 设置缓存头（如果指定了maxAge）
+        if (maxAge > 0) {
+          const headers = new Headers(responseClone.headers);
+          headers.set("sw-cached-at", Date.now().toString());
+          headers.set("sw-max-age", maxAge.toString());
 
-        const cachedResponse = new Response(responseClone.body, {
-          status: responseClone.status,
-          statusText: responseClone.statusText,
-          headers: headers,
-        });
+          const cachedResponse = new Response(responseClone.body, {
+            status: responseClone.status,
+            statusText: responseClone.statusText,
+            headers: headers,
+          });
 
-        cache.put(request, cachedResponse);
+          cache.put(request, cachedResponse);
+        } else {
+          cache.put(request, responseClone);
+        }
+
+        console.log("[SW] 缓存新资源:", request.url);
       } else {
-        cache.put(request, responseClone);
+        console.log("[SW] 跳过非GET请求的缓存:", request.method, request.url);
       }
-
-      console.log("[SW] 缓存新资源:", request.url);
       return response;
     }
 
     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
   } catch (error) {
     console.log("[SW] 网络请求失败:", request.url, error.message);
+    
+    // 对于Bing图片请求失败，不要记录详细错误避免过多日志
+    const url = new URL(request.url);
+    if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
+      // 静默处理Bing图片请求失败
+    }
 
     if (fallbackToCache) {
       const cachedResponse = await caches.match(request);
