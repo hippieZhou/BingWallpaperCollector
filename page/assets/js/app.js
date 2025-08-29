@@ -59,8 +59,7 @@ class WallpaperApp {
         // 清除筛选器按钮
         this.addClearFiltersButton();
 
-        // 初始化时设置筛选器控件状态（默认是画廊视图）
-        this.toggleFilterControls('gallery');
+        // 筛选器控件在所有视图中都可见
 
         // 模态框
         document.getElementById('wallpaper-modal').addEventListener('click', (e) => {
@@ -182,8 +181,7 @@ class WallpaperApp {
 
         this.currentView = viewName;
 
-        // 控制筛选器控件的显示/隐藏
-        this.toggleFilterControls(viewName);
+        // 筛选器控件在所有视图中都可见
 
         // 根据视图加载内容
         switch (viewName) {
@@ -205,21 +203,28 @@ class WallpaperApp {
         if (this.hasActiveFilters()) {
             this.applyFilters();
         } else {
-            this.currentWallpapers = window.dataLoader.getLatestWallpapers();
-            this.renderWallpaperGrid(this.currentWallpapers);
+        this.currentWallpapers = window.dataLoader.getLatestWallpapers();
+        this.renderWallpaperGrid(this.currentWallpapers);
         }
     }
 
     // 显示国家视图
     showCountriesView() {
-        // 国家视图始终显示完整数据，不应用筛选
+        // 如果有筛选条件，应用筛选
+        if (this.hasActiveFilters()) {
+            this.applyFilters();
+        } else {
         const countryStats = window.dataLoader.getCountryStats();
         this.renderCountriesGrid(countryStats);
+        }
     }
 
     // 显示时间轴视图
     async showTimelineView() {
-        // 时间轴视图始终显示完整数据，不应用筛选
+        // 如果有筛选条件，应用筛选
+        if (this.hasActiveFilters()) {
+            this.applyFilters();
+        } else {
         // 获取UI显示的日期范围和实际数据
         const uiDates = await window.dataLoader.getAvailableDates();
         const wallpapersByDate = window.dataLoader.getWallpapersByDate();
@@ -231,6 +236,7 @@ class WallpaperApp {
         });
         
         this.renderTimeline(completeTimeline);
+        }
     }
 
     // 渲染壁纸网格
@@ -360,48 +366,93 @@ class WallpaperApp {
         });
     }
 
-    // 应用筛选器 (仅对画廊视图生效)
+    // 应用筛选器 (支持所有视图)
     applyFilters() {
-        // 只在画廊视图中应用筛选
-        if (this.currentView !== 'gallery') {
-            return;
-        }
-
         const results = window.dataLoader.searchWallpapers(this.filters.search, {
             country: this.filters.country,
             date: this.filters.date
         });
 
         this.currentWallpapers = results;
-        this.renderWallpaperGrid(results);
         
-        // 如果没有结果，显示特殊提示
-        if (results.length === 0) {
-            if (this.filters.date && this.filters.country) {
-                this.showNoDataForCountryAndDate(this.filters.country, this.filters.date);
-            } else if (this.filters.date) {
-                this.showNoDataForDate(this.filters.date);
-            } else if (this.filters.country) {
-                this.showNoDataForCountry(this.filters.country);
+        // 根据当前视图渲染筛选后的结果
+        switch (this.currentView) {
+            case 'gallery':
+            this.renderWallpaperGrid(results);
+            // 如果没有结果，显示特殊提示
+            if (results.length === 0) {
+                if (this.filters.date && this.filters.country) {
+                    this.showNoDataForCountryAndDate(this.filters.country, this.filters.date);
+                } else if (this.filters.date) {
+                    this.showNoDataForDate(this.filters.date);
+                } else if (this.filters.country) {
+                    this.showNoDataForCountry(this.filters.country);
+                }
             }
+                break;
+            case 'countries':
+                this.renderFilteredCountriesView(results);
+                break;
+            case 'timeline':
+                this.renderFilteredTimelineView(results);
+                break;
         }
 
         this.updateStats(results.length);
         this.updateClearFiltersButton();
     }
 
-    // 控制筛选器控件的显示/隐藏
-    toggleFilterControls(viewName) {
-        const filtersSection = document.querySelector('.filters');
+    // 渲染筛选后的国家视图
+    renderFilteredCountriesView(filteredWallpapers) {
+        // 从筛选后的壁纸中统计国家信息
+        const countryStats = {};
         
-        if (filtersSection) {
-            if (viewName === 'gallery') {
-                // 画廊视图：显示筛选器控件
-                filtersSection.style.display = 'block';
-            } else {
-                // 其他视图：隐藏筛选器控件
-                filtersSection.style.display = 'none';
+        filteredWallpapers.forEach(wallpaper => {
+            if (!countryStats[wallpaper.country]) {
+                countryStats[wallpaper.country] = {
+                    count: 0,
+                    dates: new Set()
+                };
             }
+            countryStats[wallpaper.country].count++;
+            countryStats[wallpaper.country].dates.add(wallpaper.date);
+        });
+
+        // 转换为渲染格式
+        const filteredCountryStats = Object.entries(countryStats).map(([country, stats]) => [
+            country,
+            stats.count,
+            stats.dates.size
+        ]);
+
+        this.renderCountriesGrid(filteredCountryStats);
+    }
+
+    // 渲染筛选后的时间轴视图
+    renderFilteredTimelineView(filteredWallpapers) {
+        // 按日期分组筛选后的壁纸
+        const filteredWallpapersByDate = {};
+        
+        filteredWallpapers.forEach(wallpaper => {
+            if (!filteredWallpapersByDate[wallpaper.date]) {
+                filteredWallpapersByDate[wallpaper.date] = [];
+            }
+            filteredWallpapersByDate[wallpaper.date].push(wallpaper);
+        });
+
+        // 如果有日期筛选，只显示筛选的日期
+        if (this.filters.date) {
+            const filteredTimeline = {};
+            filteredTimeline[this.filters.date] = filteredWallpapersByDate[this.filters.date] || [];
+            this.renderTimeline(filteredTimeline);
+        } else {
+            // 没有日期筛选时，显示所有有数据的日期（按时间排序）
+            const sortedDates = Object.keys(filteredWallpapersByDate).sort((a, b) => new Date(b) - new Date(a));
+            const sortedTimeline = {};
+            sortedDates.forEach(date => {
+                sortedTimeline[date] = filteredWallpapersByDate[date];
+            });
+            this.renderTimeline(sortedTimeline);
         }
     }
 
