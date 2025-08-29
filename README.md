@@ -85,125 +85,18 @@ Bing Wallpaper Information Collector
 | 13   | 🇨🇦   | 加拿大    | en-CA    | 英文     |
 | 14   | 🇮🇳   | 印度      | en-IN    | 英文     |
 
-## 📋 系统要求
+## 👨‍💻 开发者指南
 
-- .NET 9.0 或更高版本
-- Windows、macOS 或 Linux
-- 稳定的网络连接
+**📖 完整的技术文档**: [查看 src/README.md](src/README.md)
 
-## 🚀 快速开始
+如果你是开发者，想了解：
+- 系统要求和环境配置
+- 代码运行和编译方法
+- 配置选项和API接口
+- 技术实现细节
+- 开发环境设置
 
-### 1. 克隆或下载项目
-
-```bash
-git clone git@github.com:hippieZhou/BingWallpaperCollector.git
-cd BingWallpaperCollector
-```
-
-### 2. 恢复依赖包
-
-```bash
-dotnet restore
-```
-
-### 3. 运行程序
-
-```bash
-dotnet run
-```
-
-### 4. 发布可执行文件
-
-```bash
-# 发布为独立可执行文件（包含运行时）
-dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
-
-# 发布为框架依赖（需要安装.NET运行时）
-dotnet publish -c Release
-```
-
-## ⚙️ 配置选项
-
-程序运行时支持以下交互式配置：
-
-### 1. 收集模式选择
-
-- **单个国家/地区**: 选择特定国家进行数据收集
-- **所有支持的国家/地区**: 收集所有 14 个国家的数据
-
-### 2. 历史天数设置
-
-- 支持收集 1-8 天的历史数据
-- 默认收集 1 天（今日）
-
-### 3. 并发请求数
-
-- 支持 1-5 个并发请求
-- 默认 3 个并发，平衡速度和服务器负载
-
-### 4. JSON 格式选择
-
-- **美化格式**: 易于阅读，文件较大
-- **压缩格式**: 节省空间，文件较小
-
-## 🔌 API 接口
-
-程序使用必应官方的壁纸 API：
-
-- **API 地址**: `https://www.bing.com/HPImageArchive.aspx?format=js&idx={dayIndex}&n=1&mkt={marketCode}`
-- **支持参数**:
-  - `idx`: 天数索引（0=今天，1=昨天，最大 7）
-  - `mkt`: 市场代码（如 zh-CN、en-US、ja-JP 等）
-  - `n`: 获取图片数量（通常为 1）
-
-## 💡 使用示例
-
-```bash
-# 运行程序
-dotnet run
-
-# 交互式输出示例
-=== 必应壁纸信息收集器配置 ===
-
-请选择收集模式:
-1. 单个国家/地区
-2. 所有支持的国家/地区
-请输入选择 (1-2) [默认: 1]: 1
-
-支持的国家/地区:
-01. China (zh-CN)
-02. UnitedStates (en-US)
-03. UnitedKingdom (en-GB)
-04. Japan (ja-JP)
-...
-请选择国家/地区 (1-14) [默认: 1-中国]: 4
-
-请输入要收集的历史天数 (1-8) [默认: 1]: 3
-请输入并发请求数 (1-5) [默认: 3]: 3
-
-请选择JSON格式:
-1. 美化格式（易读）
-2. 压缩格式（占用空间小）
-请输入选择 (1-2) [默认: 1]: 1
-
-# 程序执行输出
-=== 开始收集必应壁纸信息 ===
-配置信息:
-  - 目标国家: Japan
-  - 历史天数: 3 天
-  - 并发请求: 3 个
-  - JSON格式: 美化
-================================
-
-开始为 Japan (ja-JP) 收集 3 天的历史壁纸信息...
-✓ Japan - 2025-08-27 - 今日は世界湖沼の日
-✓ Japan - 2025-08-26 - 驚くべき...
-✓ Japan - 2025-08-25 - 火山から...
-Japan 的壁纸信息收集完成
-
-所有壁纸信息收集完成！
-数据存储目录: /path/to/archive
-```
+请查看 [src/README.md](src/README.md) 获取完整的开发者文档。
 
 ## 🤖 GitHub Actions 自动化
 
@@ -263,18 +156,7 @@ Japan 的壁纸信息收集完成
 - 验证JSON文件完整性和网站结构
 - 部署到GitHub Pages，实时更新在线展示
 
-### 📝 环境变量配置
 
-程序支持以下环境变量来实现自动化运行：
-
-| 环境变量                | 说明                   | 可选值                 | 默认值   |
-| ----------------------- | ---------------------- | ---------------------- | -------- |
-| `AUTO_MODE`             | 启用自动模式           | `true`, `false`        | `false`  |
-| `COLLECT_ALL_COUNTRIES` | 收集所有国家           | `true`, `false`        | `false`  |
-| `TARGET_COUNTRY`        | 目标国家（单国家模式） | 国家名称               | `China`  |
-| `COLLECT_DAYS`          | 收集天数               | `1-8`                  | `1`      |
-| `CONCURRENT_REQUESTS`   | 并发请求数             | `1-5`                  | `3`      |
-| `JSON_FORMAT`           | JSON 格式              | `pretty`, `compressed` | `pretty` |
 
 ### 🚀 手动运行 Workflows
 
@@ -293,27 +175,7 @@ Japan 的壁纸信息收集完成
 2. 选择 "每日收集 Bing 壁纸信息" workflow
 3. 点击 "Run workflow" 立即执行全球收集
 
-### 🔧 本地自动化测试
 
-要在本地测试自动模式：
-
-```bash
-# 收集所有国家
-export AUTO_MODE=true
-export COLLECT_ALL_COUNTRIES=true
-export COLLECT_DAYS=1
-export JSON_FORMAT=pretty
-dotnet run
-```
-
-```bash
-# 测试单个国家
-export AUTO_MODE=true
-export COLLECT_ALL_COUNTRIES=false
-export TARGET_COUNTRY=Japan
-export COLLECT_DAYS=1
-dotnet run
-```
 
 ### 🛠 故障排除
 
@@ -348,24 +210,7 @@ dotnet run
 - ✅ **成功状态**: 哪些国家成功收集了新数据
 - 🔍 **详细日志**: 完整的执行过程
 
-## 🔧 技术特点
 
-### 多语言本地化
-
-- 使用正确的 HTTP 请求头 (`Accept-Language`) 获取对应语言内容
-- 自动处理不同国家的标题、描述和版权信息的本地化
-
-### URL 智能处理
-
-- 自动修正图片 URL 中的市场代码
-- 根据国家代码生成一致的图片标识符
-- 提供多种分辨率的图片链接
-
-### 并发控制
-
-- 使用信号量控制 API 请求频率
-- 避免对必应服务器造成过大压力
-- 支持用户自定义并发数量
 
 ## ❓ 常见问题
 
@@ -373,13 +218,9 @@ dotnet run
 
 A: 某些国家/地区可能没有完全本地化的内容，必应会返回英文作为默认语言。
 
-### Q: 如何修改数据存储目录？
-
-A: 可以在 `App.cs` 中修改 `_dataDirectory` 的初始化代码。
-
 ### Q: 支持更多国家吗？
 
-A: 可以在 `MarketCode` 枚举中添加更多国家代码，但需要确保必应 API 支持该市场。
+A: 项目已支持必应API提供的14个主要市场，覆盖了全球主要语言和地区。如需支持其他国家，可查看[开发者文档](src/README.md)了解如何修改。
 
 ### Q: 如何实现自动化收集？
 
@@ -390,14 +231,7 @@ A: 项目已集成 GitHub Actions 自动化收集功能！
 - 📊 **智能重试机制** - 避免并发冲突
 - 🔄 **自动提交数据** - 持续更新仓库
 
-**本地自动化:**
-
-```bash
-# 设置环境变量实现非交互模式
-export AUTO_MODE=true
-export COLLECT_ALL_COUNTRIES=true
-dotnet run
-```
+如需本地运行或开发，请查看 [开发者文档](src/README.md)。
 
 ### Q: JSON 文件可以用于什么用途？
 
@@ -407,17 +241,9 @@ A: 可以用于构建壁纸应用、网站展示、数据分析、或者作为�
 
 A: 🎉 **系统运行完全正常！** GitHub Actions 自动化流程稳定运行，数据持续更新。
 
-### Q: 如何验证图片 URL 是否可用？
+### Q: 图片 URL 是否可靠？
 
-A: 项目中的所有图片 URL 都经过实际 HTTP 测试验证：
-
-```bash
-# 例如测试UHD格式
-curl -I "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_UHD.jpg"
-# 返回: HTTP/2 200, Content-Length: 3628316 (约3.6MB)
-```
-
-每个分辨率都确保可以正常下载使用。
+A: 是的，项目中的所有图片 URL 都经过验证，提供UHD、4K、1080p、HD等多种分辨率，确保可以正常访问和下载。
 
 ## 📄 许可证
 
@@ -444,25 +270,4 @@ curl -I "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_UHD.jpg"
 - **文档完善**: 更新README和使用说明
 - **问题反馈**: 报告bugs或提出功能建议
 
-### 🔧 开发环境
-
-**数据收集器开发:**
-```bash
-# 克隆仓库
-git clone https://github.com/hippieZhou/BingWallpaperCollector.git
-
-# 运行程序
-dotnet run
-```
-
-**网站开发:**
-```bash
-# 进入网站目录
-cd docs
-
-# 启动本地服务器
-python -m http.server 8000
-# 或使用 Node.js: npx http-server . -p 8000
-
-# 访问 http://localhost:8000
-```
+**开发环境设置和技术细节请查看**: [开发者文档](src/README.md)
