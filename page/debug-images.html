@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片显示诊断</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .test-section { margin-bottom: 30px; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        .image-test { margin: 10px 0; }
+        .image-test img { max-width: 300px; height: auto; border: 1px solid #ccc; }
+        .error { color: red; }
+        .success { color: green; }
+        .info { color: blue; }
+        .result { margin-top: 10px; padding: 10px; background: #f5f5f5; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <h1>🔍 图片显示诊断</h1>
+    
+    <div class="test-section">
+        <h2>1. 测试Bing直接图片URL</h2>
+        <div id="bing-test"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>2. 测试Referrer策略</h2>
+        <div id="referrer-test"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>3. 测试CORS策略</h2>
+        <div id="cors-test"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>4. 测试占位图片</h2>
+        <div id="placeholder-test"></div>
+    </div>
+
+    <script>
+        // 测试Bing图片URL
+        async function testBingImages() {
+            const container = document.getElementById('bing-test');
+            
+            try {
+                // 获取一个样本数据文件
+                const response = await fetch('/archive/China/2025-08-29.json');
+                const data = await response.json();
+                
+                if (data.imageResolutions && data.imageResolutions.length > 0) {
+                    const hdImage = data.imageResolutions.find(img => img.resolution === 'HD');
+                    const imageUrl = hdImage ? hdImage.url : data.imageResolutions[0].url;
+                    
+                    container.innerHTML = `
+                        <div class="info">测试图片URL: ${imageUrl}</div>
+                        <div class="image-test">
+                            <img src="${imageUrl}" alt="Bing壁纸测试" 
+                                 onload="logImageSuccess('bing', '${imageUrl}')" 
+                                 onerror="logImageError('bing', '${imageUrl}', this)">
+                        </div>
+                        <div id="bing-result" class="result">加载中...</div>
+                    `;
+                } else {
+                    container.innerHTML = '<div class="error">无法获取图片数据</div>';
+                }
+            } catch (error) {
+                container.innerHTML = `<div class="error">获取数据失败: ${error.message}</div>`;
+            }
+        }
+        
+        // 测试Referrer策略
+        function testReferrerPolicy() {
+            const container = document.getElementById('referrer-test');
+            const testUrl = 'https://www.bing.com/th?id=OHR.PlazaMayor_ZH-CN4576498488_1920x1200.jpg';
+            
+            container.innerHTML = `
+                <div class="info">测试不同referrer策略</div>
+                <div class="image-test">
+                    <p>no-referrer:</p>
+                    <img src="${testUrl}" referrerpolicy="no-referrer" alt="no-referrer测试"
+                         onload="logImageSuccess('no-referrer', '${testUrl}')" 
+                         onerror="logImageError('no-referrer', '${testUrl}', this)">
+                </div>
+                <div class="image-test">
+                    <p>origin:</p>
+                    <img src="${testUrl}" referrerpolicy="origin" alt="origin测试"
+                         onload="logImageSuccess('origin', '${testUrl}')" 
+                         onerror="logImageError('origin', '${testUrl}', this)">
+                </div>
+                <div id="referrer-result" class="result">测试中...</div>
+            `;
+        }
+        
+        // 测试CORS
+        async function testCORS() {
+            const container = document.getElementById('cors-test');
+            const testUrl = 'https://www.bing.com/th?id=OHR.PlazaMayor_ZH-CN4576498488_1920x1200.jpg';
+            
+            try {
+                const response = await fetch(testUrl, { mode: 'no-cors' });
+                container.innerHTML = `
+                    <div class="success">CORS测试: 请求成功 (status: ${response.status})</div>
+                    <div class="info">Response type: ${response.type}</div>
+                `;
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="error">CORS测试失败: ${error.message}</div>
+                `;
+            }
+        }
+        
+        // 测试占位图片
+        function testPlaceholder() {
+            const container = document.getElementById('placeholder-test');
+            container.innerHTML = `
+                <div class="image-test">
+                    <img src="/assets/images/placeholder.jpg" alt="占位图片测试"
+                         onload="logImageSuccess('placeholder', '/assets/images/placeholder.jpg')" 
+                         onerror="logImageError('placeholder', '/assets/images/placeholder.jpg', this)">
+                </div>
+                <div id="placeholder-result" class="result">测试中...</div>
+            `;
+        }
+        
+        // 记录成功结果
+        function logImageSuccess(type, url) {
+            const resultDiv = document.getElementById(type + '-result') || 
+                             document.getElementById('referrer-result');
+            if (resultDiv) {
+                resultDiv.innerHTML = `<div class="success">✅ ${type} 图片加载成功!</div>`;
+            }
+            console.log(`[${type}] 图片加载成功:`, url);
+        }
+        
+        // 记录错误结果
+        function logImageError(type, url, imgElement) {
+            const resultDiv = document.getElementById(type + '-result') || 
+                             document.getElementById('referrer-result');
+            if (resultDiv) {
+                resultDiv.innerHTML = `<div class="error">❌ ${type} 图片加载失败</div>`;
+            }
+            console.error(`[${type}] 图片加载失败:`, url, imgElement);
+        }
+        
+        // 页面加载时执行测试
+        document.addEventListener('DOMContentLoaded', function() {
+            testBingImages();
+            testReferrerPolicy();
+            testCORS();
+            testPlaceholder();
+        });
+    </script>
+</body>
+</html>

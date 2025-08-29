@@ -242,7 +242,7 @@ class WallpaperApp {
 
         card.innerHTML = `
             <div class="wallpaper-image">
-                <img src="${wallpaper.thumbnailUrl}" alt="${wallpaper.title}" loading="lazy">
+                <img src="${wallpaper.thumbnailUrl}" alt="${wallpaper.title}" loading="lazy" referrerpolicy="no-referrer">
                 <div class="image-overlay"></div>
             </div>
             <div class="wallpaper-info">

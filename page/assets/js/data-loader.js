@@ -142,7 +142,7 @@ class DataLoader {
   // 获取最佳图片URL（用于显示）
   getBestImageUrl(imageResolutions) {
     if (!imageResolutions || imageResolutions.length === 0) {
-      return "/assets/images/placeholder.jpg";
+      return "/assets/images/placeholder.svg";
     }
 
     // 优先选择HD分辨率
@@ -162,7 +162,7 @@ class DataLoader {
   // 获取缩略图URL
   getThumbnailUrl(imageResolutions) {
     if (!imageResolutions || imageResolutions.length === 0) {
-      return "/assets/images/placeholder.jpg";
+      return "/assets/images/placeholder.svg";
     }
 
     // 优先选择Standard分辨率作为缩略图
