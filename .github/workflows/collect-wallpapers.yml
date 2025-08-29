@@ -64,7 +64,7 @@ jobs:
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           # 添加所有新文件
-          git add BingWallpaperData/
+          git add archive/
 
           # 获取当前日期
           DATE=$(date +'%Y-%m-%d')
@@ -99,10 +99,10 @@ jobs:
             echo "| 国家 | 文件数量 |" >> $GITHUB_STEP_SUMMARY
             echo "|------|---------|" >> $GITHUB_STEP_SUMMARY
             
-            for country_dir in BingWallpaperData/*/; do
+            for country_dir in archive/*/; do
               if [ -d "$country_dir" ]; then
                 country=$(basename "$country_dir")
-                file_count=$(find "$country_dir" -name "wallpaper_info.json" | wc -l)
+                file_count=$(find "$country_dir" -name "*.json" | wc -l)
                 echo "| $country | $file_count |" >> $GITHUB_STEP_SUMMARY
               fi
             done
