@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生成PWA图标</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .icon-preview {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        button {
+            margin: 10px 5px;
+            padding: 10px 20px;
+            background: #0f3460;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #16537e;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>PWA图标生成器</h1>
+    <p>这个页面将自动生成所有需要的PNG图标文件。</p>
+    
+    <div>
+        <button onclick="generateAllIcons()">生成所有图标</button>
+        <button onclick="previewIcons()">预览图标</button>
+    </div>
+    
+    <div id="preview-container"></div>
+    
+    <script>
+        const iconSizes = [72, 96, 128, 144, 152, 192, 384, 512];
+        
+        // 创建单个图标
+        function createIcon(size, download = true) {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.width = size;
+            canvas.height = size;
+            
+            // 清空画布
+            ctx.clearRect(0, 0, size, size);
+            
+            // 设置渐变背景
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#0f3460');
+            gradient.addColorStop(1, '#16537e');
+            
+            // 绘制圆角矩形背景 (使用简单的fillRect代替roundRect以兼容性)
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, size, size);
+            
+            // 绘制白色圆形背景
+            const centerX = size / 2;
+            const centerY = size / 2;
+            const radius = size * 0.35;
+            
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // 绘制字母B
+            const fontSize = size * 0.4;
+            ctx.font = `bold ${fontSize}px Arial, sans-serif`;
+            ctx.fillStyle = 'white';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('B', centerX, centerY);
+            
+            if (download) {
+                // 转换为blob并下载
+                canvas.toBlob((blob) => {
+                    const url = URL.createObjectURL(blob);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = `icon-${size}x${size}.png`;
+                    link.click();
+                    URL.revokeObjectURL(url);
+                }, 'image/png');
+            }
+            
+            return canvas;
+        }
+        
+        // 生成所有图标
+        function generateAllIcons() {
+            iconSizes.forEach((size, index) => {
+                setTimeout(() => {
+                    createIcon(size, true);
+                    console.log(`生成 icon-${size}x${size}.png`);
+                }, index * 500); // 延迟下载避免同时下载
+            });
+            
+            alert('开始生成图标文件。每个图标会自动下载到您的下载文件夹。');
+        }
+        
+        // 预览图标
+        function previewIcons() {
+            const container = document.getElementById('preview-container');
+            container.innerHTML = '<h2>图标预览</h2>';
+            
+            iconSizes.forEach(size => {
+                const div = document.createElement('div');
+                div.className = 'icon-preview';
+                
+                const canvas = createIcon(size, false);
+                canvas.style.width = '64px';
+                canvas.style.height = '64px';
+                
+                div.appendChild(canvas);
+                div.innerHTML += `<br><small>${size}×${size}</small>`;
+                container.appendChild(div);
+            });
+        }
+        
+        // 页面加载时自动预览
+        window.addEventListener('load', () => {
+            setTimeout(previewIcons, 500);
+        });
+    </script>
+</body>
+</html>
