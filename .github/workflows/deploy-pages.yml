@@ -3,10 +3,10 @@ name: 部署到 GitHub Pages
 on:
   push:
     branches: [ main ]
-            paths:
-          - 'docs/**'
-          - 'archive/**'
-          - '.github/workflows/deploy-pages.yml'
+    paths:
+      - 'docs/**'
+      - 'archive/**'
+      - '.github/workflows/deploy-pages.yml'
   
   # 定时执行 - 每天 UTC 2:00 (北京时间 10:00)
   schedule:
@@ -147,7 +147,28 @@ jobs:
             
             console.log('🌍 发现国家目录:', countries.length, '个');
             
-
+            countries.forEach(country => {
+              const countryPath = path.join(dataDir, country);
+              const files = fs.readdirSync(countryPath).filter(item =>
+                item.endsWith('.json') && fs.statSync(path.join(countryPath, item)).isFile()
+              );
+              
+              if (!index.availableData[country]) {
+                index.availableData[country] = [];
+              }
+              
+              files.forEach(file => {
+                const date = file.replace('.json', '');
+                index.availableData[country].push(date);
+                index.totalFiles++;
+                console.log('✅ 发现数据文件:', country + '/' + date);
+              });
+              
+              if (index.availableData[country].length > 0) {
+                index.countries.push(country);
+                index.dates = [...new Set([...index.dates, ...index.availableData[country]])];
+              }
+            });
             
             // 按日期倒序排列（最新在前）
             index.dates.sort().reverse();
