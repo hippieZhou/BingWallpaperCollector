@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-27",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "A lake above the ocean",
+  "copyright": "Sørvágsvatn lake, island of Vágar, Faroe Islands (© Anton Petrus/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=World+Lake+Day&form=hpcapt&filters=HpDate%3a%2220250826_2300%22",
+  "description": "Sørvágsvatn lake, island of Vágar, Faroe Islands",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
+  "hash": "45ce06373d0aa6352288ac1f9fd23a8d",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-GB9601686603_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-GB9601686603_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-GB9601686603_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-GB9601686603_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-26",
+    "EndDate": "2025-08-27",
+    "FullStartDateTime": "2025-08-26T23:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250826",
+      "fullStartDate": "202508262300",
+      "endDate": "20250827"
+    }
+  },
+  "createdAt": "2025-08-28T13:20:56.451461+08:00",
+  "originalUrlBase": "/th?id=OHR.FaroeLake_EN-GB9601686603"
+}

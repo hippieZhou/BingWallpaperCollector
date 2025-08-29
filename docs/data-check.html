@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +14,15 @@
             line-height: 1.6;
             background: #f8f9fa;
         }
+
         .check-card {
             background: white;
             padding: 2rem;
             margin: 1rem 0;
             border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+
         .status {
             display: inline-block;
             padding: 0.25rem 0.75rem;
@@ -28,10 +31,27 @@
             font-weight: 500;
             margin-left: 1rem;
         }
-        .status-ok { background: #d4edda; color: #155724; }
-        .status-error { background: #f8d7da; color: #721c24; }
-        .status-warning { background: #fff3cd; color: #856404; }
-        .status-loading { background: #d1ecf1; color: #0c5460; }
+
+        .status-ok {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-warning {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-loading {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
         pre {
             background: #f1f3f4;
             padding: 1rem;
@@ -41,27 +61,32 @@
             max-height: 500px;
             overflow-y: auto;
         }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1rem;
             margin: 2rem 0;
         }
+
         .metric {
             background: #e9ecef;
             padding: 1rem;
             border-radius: 8px;
             text-align: center;
         }
+
         .metric-number {
             font-size: 2rem;
             font-weight: bold;
             color: #007bff;
         }
+
         .metric-label {
             color: #6c757d;
             font-size: 0.9rem;
         }
+
         button {
             background: #007bff;
             color: white;
@@ -71,7 +96,11 @@
             cursor: pointer;
             margin: 0.5rem;
         }
-        button:hover { background: #0056b3; }
+
+        button:hover {
+            background: #0056b3;
+        }
+
         .country-row {
             display: grid;
             grid-template-columns: 1fr auto auto;
@@ -79,9 +108,11 @@
             padding: 0.5rem;
             border-bottom: 1px solid #eee;
         }
+
         .country-row:last-child {
             border-bottom: none;
         }
+
         .country-info {
             display: flex;
             align-items: center;
@@ -89,9 +120,10 @@
         }
     </style>
 </head>
+
 <body>
     <h1>📊 数据完整性检查</h1>
-    
+
     <div class="check-card">
         <h2>🌐 环境信息</h2>
         <div class="grid">
@@ -160,7 +192,8 @@
     <div class="check-card">
         <h2>📊 国家数据对比</h2>
         <div id="country-comparison">
-            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; font-weight: bold; padding: 1rem; background: #f8f9fa; border-radius: 8px; margin-bottom: 1rem;">
+            <div
+                style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; font-weight: bold; padding: 1rem; background: #f8f9fa; border-radius: 8px; margin-bottom: 1rem;">
                 <div>国家</div>
                 <div style="text-align: center;">索引状态</div>
                 <div style="text-align: center;">加载状态</div>
@@ -179,7 +212,7 @@
     <script src="assets/js/data-loader.js"></script>
     <script>
         let dataLoader;
-        
+
         function getBasePath() {
             if (window.location.hostname.includes('github.io')) {
                 return '/BingWallpaperCollector';
@@ -190,7 +223,7 @@
         function updateEnvInfo() {
             const envType = window.location.hostname.includes('github.io') ? 'GitHub Pages' : '本地开发';
             const basePath = getBasePath() || '(根路径)';
-            
+
             document.getElementById('env-type').textContent = envType;
             document.getElementById('base-path').textContent = basePath;
         }
@@ -199,44 +232,44 @@
             console.log('🔍 检查数据索引...');
             const status = document.getElementById('index-status');
             const details = document.getElementById('index-details');
-            
+
             if (window.WALLPAPER_DATA_INDEX) {
                 const index = window.WALLPAPER_DATA_INDEX;
-                
+
                 document.getElementById('index-countries').textContent = index.countries ? index.countries.length : 0;
                 document.getElementById('index-dates').textContent = index.dates ? index.dates.length : 0;
                 document.getElementById('index-files').textContent = index.totalFiles || 0;
-                
+
                 let detailText = `📊 数据索引详情:\n`;
                 detailText += `生成时间: ${index.generated}\n`;
                 detailText += `总文件数: ${index.totalFiles}\n\n`;
-                
+
                 detailText += `🌍 国家列表 (${index.countries.length}):\n`;
                 index.countries.forEach((country, i) => {
                     detailText += `${String(i + 1).padStart(2, ' ')}. ${country}\n`;
                 });
-                
+
                 detailText += `\n📅 日期列表 (${index.dates.length}):\n`;
                 index.dates.forEach(date => {
                     detailText += `  - ${date}\n`;
                 });
-                
+
                 if (index.availableData) {
                     detailText += `\n📁 每个国家的文件数:\n`;
                     Object.entries(index.availableData).forEach(([country, dates]) => {
                         detailText += `  ${country}: ${dates.length} 个文件\n`;
                     });
                 }
-                
+
                 details.textContent = detailText;
                 status.textContent = '正常';
                 status.className = 'status status-ok';
-                
+
             } else {
                 details.textContent = '❌ 数据索引不存在或未加载';
                 status.textContent = '异常';
                 status.className = 'status status-error';
-                
+
                 document.getElementById('index-countries').textContent = '0';
                 document.getElementById('index-dates').textContent = '0';
                 document.getElementById('index-files').textContent = '0';
@@ -247,28 +280,28 @@
             console.log('🔍 检查所有文件存在性...');
             const status = document.getElementById('files-status');
             const details = document.getElementById('files-details');
-            
+
             status.textContent = '检查中...';
             status.className = 'status status-loading';
-            
+
             const basePath = getBasePath();
             const allCountries = [
-                'China', 'UnitedStates', 'UnitedKingdom', 'Japan', 'Germany', 
-                'France', 'Spain', 'Italy', 'Russia', 'SouthKorea', 
+                'China', 'UnitedStates', 'UnitedKingdom', 'Japan', 'Germany',
+                'France', 'Spain', 'Italy', 'Russia', 'SouthKorea',
                 'Brazil', 'Australia', 'Canada', 'India'
             ];
             const allDates = ['2025-08-28', '2025-08-27'];
-            
+
             let detailText = '📁 文件存在性检查结果:\n\n';
             let availableCount = 0;
             let missingCount = 0;
-            
+
             for (const country of allCountries) {
                 detailText += `🌍 ${country}:\n`;
-                
+
                 for (const date of allDates) {
                     const url = `${basePath}/archive/${country}/${date}.json`;
-                    
+
                     try {
                         const response = await fetch(url, { method: 'HEAD' });
                         if (response.ok) {
@@ -285,16 +318,16 @@
                 }
                 detailText += '\n';
             }
-            
+
             detailText += `\n📊 汇总统计:\n`;
             detailText += `  - 可访问文件: ${availableCount}\n`;
             detailText += `  - 缺失文件: ${missingCount}\n`;
             detailText += `  - 总计: ${availableCount + missingCount}\n`;
-            
+
             document.getElementById('available-files').textContent = availableCount;
             document.getElementById('missing-files').textContent = missingCount;
             details.textContent = detailText;
-            
+
             if (missingCount === 0) {
                 status.textContent = '完整';
                 status.className = 'status status-ok';
@@ -311,31 +344,31 @@
             console.log('🎯 测试数据加载器...');
             const status = document.getElementById('loader-status');
             const details = document.getElementById('loader-details');
-            
+
             status.textContent = '测试中...';
             status.className = 'status status-loading';
-            
+
             try {
                 if (!dataLoader) {
                     dataLoader = new DataLoader();
                 }
-                
+
                 let detailText = '🎯 数据加载器测试结果:\n\n';
-                
+
                 // 测试数据加载
                 detailText += '🔄 开始加载数据...\n';
                 await dataLoader.loadAllData((progress) => {
                     console.log(`加载进度: ${progress.percentage}%`);
                 });
-                
+
                 const wallpapers = dataLoader.wallpapers;
                 const countryStats = dataLoader.getCountryStats();
-                
+
                 detailText += `✅ 数据加载完成\n`;
                 detailText += `📊 加载统计:\n`;
                 detailText += `  - 总壁纸数: ${wallpapers.length}\n`;
                 detailText += `  - 有数据国家: ${Object.keys(countryStats).filter(c => countryStats[c].count > 0).length}\n\n`;
-                
+
                 detailText += `🌍 各国家加载情况:\n`;
                 Object.entries(countryStats).forEach(([country, stats]) => {
                     const countryInfo = dataLoader.getCountryInfo()[country];
@@ -343,12 +376,12 @@
                         detailText += `  ${countryInfo.flag} ${countryInfo.name}: ${stats.count} 张壁纸\n`;
                     }
                 });
-                
+
                 document.getElementById('loaded-wallpapers').textContent = wallpapers.length;
                 document.getElementById('loaded-countries').textContent = Object.keys(countryStats).filter(c => countryStats[c].count > 0).length;
-                
+
                 details.textContent = detailText;
-                
+
                 if (wallpapers.length > 0) {
                     status.textContent = '成功';
                     status.className = 'status status-ok';
@@ -356,15 +389,15 @@
                     status.textContent = '无数据';
                     status.className = 'status status-error';
                 }
-                
+
                 // 更新国家对比
                 updateCountryComparison(countryStats);
-                
+
             } catch (error) {
                 details.textContent = `❌ 数据加载失败: ${error.message}\n\n${error.stack}`;
                 status.textContent = '失败';
                 status.className = 'status status-error';
-                
+
                 document.getElementById('loaded-wallpapers').textContent = '0';
                 document.getElementById('loaded-countries').textContent = '0';
             }
@@ -373,28 +406,28 @@
         function updateCountryComparison(countryStats) {
             const container = document.getElementById('country-rows');
             container.innerHTML = '';
-            
+
             const allCountries = [
-                'China', 'UnitedStates', 'UnitedKingdom', 'Japan', 'Germany', 
-                'France', 'Spain', 'Italy', 'Russia', 'SouthKorea', 
+                'China', 'UnitedStates', 'UnitedKingdom', 'Japan', 'Germany',
+                'France', 'Spain', 'Italy', 'Russia', 'SouthKorea',
                 'Brazil', 'Australia', 'Canada', 'India'
             ];
-            
+
             if (!dataLoader) return;
-            
+
             const countryInfo = dataLoader.getCountryInfo();
-            
+
             allCountries.forEach(country => {
                 const info = countryInfo[country];
-                const indexHasData = window.WALLPAPER_DATA_INDEX && 
-                                   window.WALLPAPER_DATA_INDEX.availableData && 
-                                   window.WALLPAPER_DATA_INDEX.availableData[country] && 
-                                   window.WALLPAPER_DATA_INDEX.availableData[country].length > 0;
+                const indexHasData = window.WALLPAPER_DATA_INDEX &&
+                    window.WALLPAPER_DATA_INDEX.availableData &&
+                    window.WALLPAPER_DATA_INDEX.availableData[country] &&
+                    window.WALLPAPER_DATA_INDEX.availableData[country].length > 0;
                 const loaderHasData = countryStats[country] && countryStats[country].count > 0;
-                
+
                 const row = document.createElement('div');
                 row.className = 'country-row';
-                
+
                 row.innerHTML = `
                     <div class="country-info">
                         <span style="font-size: 1.5rem;">${info.flag}</span>
@@ -404,19 +437,19 @@
                         </div>
                     </div>
                     <div style="text-align: center;">
-                        ${indexHasData ? 
-                            `<span style="color: #28a745;">✅ 有数据</span>` : 
-                            `<span style="color: #dc3545;">❌ 无数据</span>`
-                        }
+                        ${indexHasData ?
+                        `<span style="color: #28a745;">✅ 有数据</span>` :
+                        `<span style="color: #dc3545;">❌ 无数据</span>`
+                    }
                     </div>
                     <div style="text-align: center;">
-                        ${loaderHasData ? 
-                            `<span style="color: #28a745;">✅ 已加载 (${countryStats[country].count})</span>` : 
-                            `<span style="color: #dc3545;">❌ 未加载</span>`
-                        }
+                        ${loaderHasData ?
+                        `<span style="color: #28a745;">✅ 已加载 (${countryStats[country].count})</span>` :
+                        `<span style="color: #dc3545;">❌ 未加载</span>`
+                    }
                     </div>
                 `;
-                
+
                 container.appendChild(row);
             });
         }
@@ -431,4 +464,5 @@
         });
     </script>
 </body>
+
 </html>

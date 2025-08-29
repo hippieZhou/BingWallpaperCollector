@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
             padding: 2rem;
             line-height: 1.6;
         }
+
         .test-item {
             background: #f8f9fa;
             padding: 1rem;
@@ -19,9 +21,19 @@
             border-radius: 8px;
             border-left: 4px solid #007bff;
         }
-        .success { border-left-color: #28a745; }
-        .error { border-left-color: #dc3545; }
-        .warning { border-left-color: #ffc107; }
+
+        .success {
+            border-left-color: #28a745;
+        }
+
+        .error {
+            border-left-color: #dc3545;
+        }
+
+        .warning {
+            border-left-color: #ffc107;
+        }
+
         pre {
             background: #f1f3f4;
             padding: 1rem;
@@ -30,9 +42,10 @@
         }
     </style>
 </head>
+
 <body>
     <h1>GitHub Pages 功能测试</h1>
-    
+
     <div class="test-item">
         <h3>基础信息</h3>
         <p><strong>当前页面URL:</strong> <span id="current-url"></span></p>
@@ -61,7 +74,8 @@
     </div>
 
     <div style="text-align: center; margin-top: 2rem;">
-        <a href="index.html" style="background: #007bff; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px;">返回主页</a>
+        <a href="index.html"
+            style="background: #007bff; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 8px;">返回主页</a>
     </div>
 
     <script src="data-index.js"></script>
@@ -79,13 +93,13 @@
         const originalConsoleError = console.error;
         let consoleOutput = [];
 
-        console.log = function(...args) {
+        console.log = function (...args) {
             consoleOutput.push(['LOG', ...args]);
             originalConsoleLog.apply(console, args);
             updateConsoleDisplay();
         };
 
-        console.error = function(...args) {
+        console.error = function (...args) {
             consoleOutput.push(['ERROR', ...args]);
             originalConsoleError.apply(console, args);
             updateConsoleDisplay();
@@ -110,11 +124,11 @@
         async function testDataAccess() {
             const dataTest = document.getElementById('data-test');
             const dataResults = document.getElementById('data-results');
-            
+
             try {
                 const basePath = getBasePath();
                 console.log(`使用基础路径: ${basePath}`);
-                
+
                 // 测试几个常见的数据文件路径
                 const testUrls = [
                     `${basePath}/archive/China/2025-08-28.json`,
@@ -123,16 +137,16 @@
                 ];
 
                 let results = [];
-                
+
                 for (const url of testUrls) {
                     try {
                         console.log(`测试数据文件: ${url}`);
                         const response = await fetch(url);
                         const status = response.ok ? '✅ 成功' : '❌ 失败';
                         const statusCode = response.status;
-                        
+
                         results.push(`${status} ${url} (${statusCode})`);
-                        
+
                         if (response.ok) {
                             const data = await response.json();
                             console.log(`数据加载成功: ${data.title}`);
@@ -156,15 +170,15 @@
         async function testFetchApi() {
             const fetchTest = document.getElementById('fetch-test');
             const fetchResults = document.getElementById('fetch-results');
-            
+
             try {
                 // 测试基本的fetch功能
                 console.log('开始 Fetch API 测试');
-                
+
                 const testUrl = 'https://api.github.com/repos/hippieZhou/BingWallpaperCollector';
                 const response = await fetch(testUrl);
                 const data = await response.json();
-                
+
                 const results = [
                     `✅ Fetch API 可用`,
                     `✅ GitHub API 访问成功`,
@@ -195,4 +209,5 @@
         window.addEventListener('load', runAllTests);
     </script>
 </body>
+
 </html>

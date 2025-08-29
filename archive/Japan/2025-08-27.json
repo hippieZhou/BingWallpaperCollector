@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-27",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は世界湖沼の日",
+  "copyright": "ソールヴァグスヴァトン湖, デンマーク (© Anton Petrus/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E3%82%BD%E3%83%BC%E3%83%AB%E3%83%B4%E3%82%A1%E3%82%B0%E3%82%B9%E3%83%B4%E3%82%A1%E3%83%88%E3%83%B3%E6%B9%96&form=hpcapt&filters=HpDate%3a%2220250826_1500%22",
+  "description": "ソールヴァグスヴァトン湖, デンマーク",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
+  "hash": "09b70003799ebbd456070dfde0312d82",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_JA-JP5563873968_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-26",
+    "EndDate": "2025-08-27",
+    "FullStartDateTime": "2025-08-26T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250826",
+      "fullStartDate": "202508261500",
+      "endDate": "20250827"
+    }
+  },
+  "createdAt": "2025-08-28T13:20:56.716598+08:00",
+  "originalUrlBase": "/th?id=OHR.FaroeLake_JA-JP5563873968"
+}

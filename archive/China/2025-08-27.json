@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-27",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "海洋上方的湖泊",
+  "copyright": "瑟沃格湖，瓦加尔岛，法罗群岛 (© Anton Petrus/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E7%91%9F%E6%B2%83%E6%A0%BC%E6%B9%96&form=hpcapt&mkt=zh-cn",
+  "description": "瑟沃格湖，瓦加尔岛，法罗群岛",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
+  "hash": "fb3f49f9159ceb872ed16a13f6cb87be",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ZH-CN3977660997_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-26",
+    "EndDate": "2025-08-27",
+    "FullStartDateTime": "2025-08-26T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250826",
+      "fullStartDate": "202508261600",
+      "endDate": "20250827"
+    }
+  },
+  "createdAt": "2025-08-28T13:20:55.88106+08:00",
+  "originalUrlBase": "/th?id=OHR.FaroeLake_ZH-CN3977660997"
+}

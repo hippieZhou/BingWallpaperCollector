@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +14,15 @@
             line-height: 1.6;
             background: #f8f9fa;
         }
+
         .debug-card {
             background: white;
             padding: 2rem;
             margin: 1rem 0;
             border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+
         .status {
             display: inline-block;
             padding: 0.25rem 0.75rem;
@@ -28,9 +31,22 @@
             font-weight: 500;
             margin-left: 1rem;
         }
-        .status-ok { background: #d4edda; color: #155724; }
-        .status-error { background: #f8d7da; color: #721c24; }
-        .status-loading { background: #d1ecf1; color: #0c5460; }
+
+        .status-ok {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-loading {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
         pre {
             background: #f1f3f4;
             padding: 1rem;
@@ -40,16 +56,30 @@
             max-height: 400px;
             overflow-y: auto;
         }
+
         .log-entry {
             margin: 0.5rem 0;
             padding: 0.5rem;
             border-left: 3px solid #ccc;
             background: #f8f9fa;
         }
-        .log-info { border-left-color: #007bff; }
-        .log-success { border-left-color: #28a745; }
-        .log-warning { border-left-color: #ffc107; }
-        .log-error { border-left-color: #dc3545; }
+
+        .log-info {
+            border-left-color: #007bff;
+        }
+
+        .log-success {
+            border-left-color: #28a745;
+        }
+
+        .log-warning {
+            border-left-color: #ffc107;
+        }
+
+        .log-error {
+            border-left-color: #dc3545;
+        }
+
         button {
             background: #007bff;
             color: white;
@@ -59,20 +89,30 @@
             cursor: pointer;
             margin: 0.5rem;
         }
-        button:hover { background: #0056b3; }
-        button:disabled { background: #6c757d; cursor: not-allowed; }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 1rem;
             margin: 2rem 0;
         }
+
         .info-box {
             background: #e9ecef;
             padding: 1rem;
             border-radius: 8px;
             text-align: center;
         }
+
         .info-value {
             font-size: 1.5rem;
             font-weight: bold;
@@ -80,9 +120,10 @@
         }
     </style>
 </head>
+
 <body>
     <h1>🔍 日期加载调试页面</h1>
-    
+
     <div class="debug-card">
         <h2>📊 当前状态</h2>
         <div class="grid">
@@ -141,23 +182,23 @@
     <script>
         let logs = [];
         let dataLoader;
-        
+
         // 重写console.log来捕获日志
         const originalConsoleLog = console.log;
         const originalConsoleError = console.error;
         const originalConsoleWarn = console.warn;
-        
-        console.log = function(...args) {
+
+        console.log = function (...args) {
             addLog('info', args.join(' '));
             originalConsoleLog.apply(console, args);
         };
-        
-        console.error = function(...args) {
+
+        console.error = function (...args) {
             addLog('error', args.join(' '));
             originalConsoleError.apply(console, args);
         };
-        
-        console.warn = function(...args) {
+
+        console.warn = function (...args) {
             addLog('warning', args.join(' '));
             originalConsoleWarn.apply(console, args);
         };
@@ -171,13 +212,13 @@
         function updateLiveLogs() {
             const container = document.getElementById('live-logs');
             const recentLogs = logs.slice(-20); // 显示最近20条
-            
-            container.innerHTML = recentLogs.map(log => 
+
+            container.innerHTML = recentLogs.map(log =>
                 `<div class="log-entry log-${log.type}">
                     <strong>[${log.timestamp.split('T')[1].split('.')[0]}]</strong> ${log.message}
                 </div>`
             ).join('');
-            
+
             container.scrollTop = container.scrollHeight;
         }
 
@@ -191,8 +232,8 @@
         function updateEnvInfo() {
             const envType = window.location.hostname.includes('github.io') ? 'GitHub Pages' : '本地开发';
             const basePath = getBasePath() || '(根路径)';
-            
-            document.getElementById('env-info').textContent = 
+
+            document.getElementById('env-info').textContent =
                 `环境类型: ${envType}\n` +
                 `URL: ${window.location.href}\n` +
                 `主机: ${window.location.hostname}\n` +
@@ -206,12 +247,12 @@
             console.log('🔍 开始检查数据索引...');
             const status = document.getElementById('data-index-status');
             const results = document.getElementById('data-index-results');
-            
+
             status.textContent = '检查中...';
             status.className = 'status status-loading';
-            
+
             let resultText = '📊 数据索引检查结果:\n\n';
-            
+
             // 检查window.WALLPAPER_DATA_INDEX
             if (window.WALLPAPER_DATA_INDEX) {
                 resultText += `✅ 数据索引对象存在\n`;
@@ -219,7 +260,7 @@
                 resultText += `🌍 国家数量: ${window.WALLPAPER_DATA_INDEX.countries ? window.WALLPAPER_DATA_INDEX.countries.length : 0}\n`;
                 resultText += `📅 日期数量: ${window.WALLPAPER_DATA_INDEX.dates ? window.WALLPAPER_DATA_INDEX.dates.length : 0}\n`;
                 resultText += `📁 文件总数: ${window.WALLPAPER_DATA_INDEX.totalFiles || 0}\n\n`;
-                
+
                 if (window.WALLPAPER_DATA_INDEX.dates) {
                     resultText += `📅 可用日期列表:\n`;
                     window.WALLPAPER_DATA_INDEX.dates.forEach(date => {
@@ -227,7 +268,7 @@
                     });
                     resultText += `\n`;
                 }
-                
+
                 if (window.WALLPAPER_DATA_INDEX.countries) {
                     resultText += `🌍 可用国家列表:\n`;
                     window.WALLPAPER_DATA_INDEX.countries.slice(0, 5).forEach(country => {
@@ -237,17 +278,17 @@
                         resultText += `  ... 还有 ${window.WALLPAPER_DATA_INDEX.countries.length - 5} 个\n`;
                     }
                 }
-                
+
                 status.textContent = '正常';
                 status.className = 'status status-ok';
                 document.getElementById('index-status').textContent = '正常';
                 document.getElementById('dates-count').textContent = window.WALLPAPER_DATA_INDEX.dates ? window.WALLPAPER_DATA_INDEX.dates.length : 0;
                 document.getElementById('detection-method').textContent = '数据索引';
-                
+
             } else {
                 resultText += `❌ 数据索引对象不存在\n`;
                 resultText += `⚠️ window.WALLPAPER_DATA_INDEX 未定义\n`;
-                
+
                 // 尝试检查data-index.js文件
                 try {
                     const basePath = getBasePath();
@@ -255,7 +296,7 @@
                     if (response.ok) {
                         const content = await response.text();
                         resultText += `✅ data-index.js 文件可访问 (大小: ${content.length} 字符)\n`;
-                        
+
                         if (content.includes('WALLPAPER_DATA_INDEX')) {
                             resultText += `✅ 文件包含 WALLPAPER_DATA_INDEX\n`;
                         } else {
@@ -267,12 +308,12 @@
                 } catch (error) {
                     resultText += `❌ 无法访问 data-index.js: ${error.message}\n`;
                 }
-                
+
                 status.textContent = '异常';
                 status.className = 'status status-error';
                 document.getElementById('index-status').textContent = '异常';
             }
-            
+
             results.textContent = resultText;
         }
 
@@ -280,46 +321,46 @@
             console.log('🧪 开始测试日期加载...');
             const status = document.getElementById('date-loading-status');
             const results = document.getElementById('date-loading-results');
-            
+
             status.textContent = '测试中...';
             status.className = 'status status-loading';
-            
+
             let resultText = '📅 日期加载测试结果:\n\n';
-            
+
             try {
                 // 创建数据加载器实例
                 if (!dataLoader) {
                     dataLoader = new DataLoader();
                 }
-                
+
                 // 测试UI显示日期
                 resultText += `🔄 调用 getAvailableDates() (UI显示日期)...\n`;
                 const uiDates = await dataLoader.getAvailableDates();
-                
+
                 resultText += `✅ UI显示日期列表 (基于当前时间8天):\n`;
                 uiDates.forEach(date => {
                     resultText += `  - ${date}\n`;
                 });
-                
+
                 // 测试实际数据日期
                 resultText += `\n🔄 调用 getActualDataDates() (实际数据日期)...\n`;
                 const actualDates = dataLoader.getActualDataDates();
-                
+
                 resultText += `✅ 实际数据日期列表:\n`;
                 actualDates.forEach(date => {
                     resultText += `  - ${date}\n`;
                 });
-                
+
                 resultText += `\n📊 统计信息:\n`;
                 resultText += `  - UI显示日期数量: ${uiDates.length} (应该是8天)\n`;
                 resultText += `  - 实际数据日期数量: ${actualDates.length}\n`;
                 resultText += `  - UI最新日期: ${uiDates[0]} (应该是今天)\n`;
                 resultText += `  - 实际数据最新日期: ${actualDates[0]}\n`;
-                
+
                 // 检查UI日期是否符合预期（8天范围）
                 const today = new Date().toISOString().split('T')[0];
                 const isUiCorrect = uiDates.length === 8 && uiDates[0] === today;
-                
+
                 if (isUiCorrect) {
                     resultText += `✅ UI日期列表符合预期 (8天范围，从今天开始)\n`;
                 } else {
@@ -327,7 +368,7 @@
                     resultText += `  预期: 8天范围，从 ${today} 开始\n`;
                     resultText += `  实际: ${uiDates.length}天，从 ${uiDates[0]} 开始\n`;
                 }
-                
+
                 // 检查实际数据日期
                 const hasActualData = actualDates.length > 0;
                 if (hasActualData) {
@@ -339,27 +380,27 @@
                     status.textContent = '部分正常';
                     status.className = 'status status-ok';
                 }
-                
+
                 document.getElementById('dates-count').textContent = uiDates.length;
                 document.getElementById('detection-method').textContent = '当前时间+索引';
-                
+
             } catch (error) {
                 resultText += `❌ 日期加载失败: ${error.message}\n`;
                 resultText += `📋 错误堆栈:\n${error.stack}\n`;
-                
+
                 status.textContent = '错误';
                 status.className = 'status status-error';
             }
-            
+
             results.textContent = resultText;
         }
 
         async function testFileExistence() {
             console.log('📁 开始测试文件存在性...');
             const results = document.getElementById('file-test-results');
-            
+
             let resultText = '📁 文件存在性测试结果:\n\n';
-            
+
             const basePath = getBasePath();
             const testFiles = [
                 'archive/China/2025-08-28.json',
@@ -370,17 +411,17 @@
                 'assets/js/data-loader.js',
                 'assets/css/style.css'
             ];
-            
+
             for (const file of testFiles) {
                 try {
                     const url = `${basePath}/${file}`;
                     const response = await fetch(url, { method: 'HEAD' });
                     const size = response.headers.get('content-length');
                     const lastModified = response.headers.get('last-modified');
-                    
+
                     if (response.ok) {
                         resultText += `✅ ${file}\n`;
-                        if (size) resultText += `   大小: ${(size/1024).toFixed(1)}KB\n`;
+                        if (size) resultText += `   大小: ${(size / 1024).toFixed(1)}KB\n`;
                         if (lastModified) resultText += `   修改时间: ${lastModified}\n`;
                     } else {
                         resultText += `❌ ${file} (状态: ${response.status})\n`;
@@ -390,7 +431,7 @@
                 }
                 resultText += `\n`;
             }
-            
+
             results.textContent = resultText;
         }
 
@@ -401,10 +442,10 @@
         }
 
         function exportLogs() {
-            const logText = logs.map(entry => 
+            const logText = logs.map(entry =>
                 `[${entry.timestamp}] [${entry.type.toUpperCase()}] ${entry.message}`
             ).join('\n');
-            
+
             const blob = new Blob([logText], { type: 'text/plain' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
@@ -414,7 +455,7 @@
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
-            
+
             console.log('📥 日志已导出');
         }
 
@@ -424,10 +465,11 @@
             updateEnvInfo();
             checkDataIndex();
             testDateLoading();
-            
+
             // 定期更新
             setInterval(updateEnvInfo, 30000);
         });
     </script>
 </body>
+
 </html>

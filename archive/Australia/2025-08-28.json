@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-28",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "copyright": "Sørvágsvatn lake, Island of Vágar, Faroe Islands (© Anton Petrus/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Sorvagsvatn+lake&form=hpcapt&filters=HpDate%3a%2220250827_0700%22",
+  "description": "Sørvágsvatn lake, Island of Vágar, Faroe Islands",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_FaroeLake%22&FORM=HPQUIZ",
+  "hash": "b56dd2ee35314ffd43c352c376a2d125",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ROW6981036463_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ROW6981036463_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ROW6981036463_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ROW6981036463_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-27",
+    "EndDate": "2025-08-28",
+    "FullStartDateTime": "2025-08-27T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250827",
+      "fullStartDate": "202508270700",
+      "endDate": "20250828"
+    }
+  },
+  "createdAt": "2025-08-28T13:20:58.368914+08:00",
+  "originalUrlBase": "/th?id=OHR.FaroeLake_ROW6981036463"
+}
