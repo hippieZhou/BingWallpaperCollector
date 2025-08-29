@@ -157,12 +157,13 @@ self.addEventListener("fetch", (event) => {
         const url = new URL(request.url);
         let fetchOptions = {};
         
-        if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
-          fetchOptions = {
-            referrerPolicy: 'no-referrer',
-            mode: 'cors'
-          };
-        }
+                 if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
+           fetchOptions = {
+             referrerPolicy: 'no-referrer',
+             mode: 'cors',
+             credentials: 'omit'
+           };
+         }
         
         return await fetch(request, fetchOptions);
       } catch (error) {
@@ -182,12 +183,13 @@ async function fetchAndCache(request, cacheName, options = {}) {
     const url = new URL(request.url);
     let fetchOptions = {};
     
-    if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
-      fetchOptions = {
-        referrerPolicy: 'no-referrer',
-        mode: 'cors'
-      };
-    }
+             if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
+           fetchOptions = {
+             referrerPolicy: 'no-referrer',
+             mode: 'cors',
+             credentials: 'omit'
+           };
+         }
     
     const response = await fetch(request, fetchOptions);
 
