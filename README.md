@@ -88,8 +88,6 @@ Bing Wallpaper Information Collector
 
 ## 👨‍💻 开发者指南
 
-**📖 完整的技术文档**: [查看 src/README.md](src/README.md)
-
 如果你是开发者，想了解：
 
 - 系统要求和环境配置
@@ -102,13 +100,13 @@ Bing Wallpaper Information Collector
 
 ## 🤖 GitHub Actions 自动化
 
-**📖 完整的自动化文档**: [查看 .github/ACTIONS.md](.github/ACTIONS.md)
-
 本项目配置了完全自动化的 GitHub Actions 工作流：
 
 - **每日收集** - 每天两次自动收集所有国家的壁纸信息
 - **区域化收集** - 按时区分地区优化收集，避免冲突
 - **页面部署** - 数据更新时自动部署到 GitHub Pages
+
+请查看 [.github/ACTIONS.md](.github/ACTIONS.md) 获取完整的自动化文档。
 
 ### ✅ 系统状态
 
