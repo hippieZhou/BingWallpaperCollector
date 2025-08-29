@@ -43,7 +43,7 @@ public static class AppConstants
   /// <summary>
   /// 数据目录名称
   /// </summary>
-  public const string DataDirectoryName = "BingWallpaperData";
+  public const string DataDirectoryName = "archive";
 
   /// <summary>
   /// 图片子目录名称

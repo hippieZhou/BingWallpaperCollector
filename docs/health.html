@@ -199,7 +199,7 @@
                 
                 for (const country of countries) {
                     for (const date of dates) {
-                        const url = `${basePath}/BingWallpaperData/${country}/${date}/wallpaper_info.json`;
+                        const url = `${basePath}/archive/${country}/${date}/wallpaper_info.json`;
                         totalFiles++;
                         
                         try {
@@ -261,7 +261,7 @@
             log('检查示例文件...');
             const basePath = getBasePath();
             const sampleFiles = [
-                'BingWallpaperData/China/2025-08-28/wallpaper_info.json',
+                'archive/China/2025-08-28/wallpaper_info.json',
                 'assets/js/app.js',
                 'assets/css/style.css',
                 'data-index.js'
@@ -326,7 +326,7 @@
         async function testCORS() {
             log('测试CORS设置...');
             const basePath = getBasePath();
-            const testUrl = `${basePath}/BingWallpaperData/China/2025-08-28/wallpaper_info.json`;
+            const testUrl = `${basePath}/archive/China/2025-08-28/wallpaper_info.json`;
             
             try {
                 const response = await fetch(testUrl);

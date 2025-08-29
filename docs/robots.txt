@@ -16,5 +16,5 @@ Disallow: /health.html
 # 鼓励收录的重要页面
 Allow: /index.html
 Allow: /promo.html
-Allow: /BingWallpaperData/
+Allow: /archive/
 

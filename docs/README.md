@@ -44,14 +44,14 @@ docs/
 
 网站通过GitHub Actions自动部署：
 
-1. 当`main`分支的`docs/`或`BingWallpaperData/`目录有更新时触发
+1. 当`main`分支的`docs/`或`archive/`目录有更新时触发
 2. 自动生成数据索引文件
 3. 验证HTML和JSON文件完整性
 4. 部署到GitHub Pages
 
 ## 📊 数据来源
 
-网站数据来源于同仓库的`BingWallpaperData/`目录：
+网站数据来源于同仓库的`archive/`目录：
 - 支持14个国家/地区
 - 每日自动更新
 - JSON格式存储

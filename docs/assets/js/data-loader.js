@@ -75,7 +75,7 @@ class DataLoader {
         ];
         
         for (const date of testDates) {
-            const url = `${basePath}/BingWallpaperData/${testCountry}/${date}/wallpaper_info.json`;
+            const url = `${basePath}/archive/${testCountry}/${date}/wallpaper_info.json`;
             try {
                 const response = await fetch(url, { method: 'HEAD' });
                 if (response.ok) {
@@ -114,7 +114,7 @@ class DataLoader {
     // 加载单个壁纸数据
     async loadWallpaperData(country, date) {
         const basePath = this.getBasePath();
-        const url = `${basePath}/BingWallpaperData/${country}/${date}/wallpaper_info.json`;
+        const url = `${basePath}/archive/${country}/${date}/wallpaper_info.json`;
         
         try {
             // 检查文件是否存在

@@ -267,7 +267,7 @@
                 detailText += `🌍 ${country}:\n`;
                 
                 for (const date of allDates) {
-                    const url = `${basePath}/BingWallpaperData/${country}/${date}/wallpaper_info.json`;
+                    const url = `${basePath}/archive/${country}/${date}/wallpaper_info.json`;
                     
                     try {
                         const response = await fetch(url, { method: 'HEAD' });

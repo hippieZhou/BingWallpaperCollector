@@ -202,7 +202,7 @@ dotnet run
 Japan 的壁纸信息收集完成
 
 所有壁纸信息收集完成！
-数据存储目录: /path/to/BingWallpaperData
+数据存储目录: /path/to/archive
 ```
 
 ## 🤖 GitHub Actions 自动化
@@ -253,7 +253,7 @@ Japan 的壁纸信息收集完成
 
 **运行时间:**
 
-- 当 `docs/` 或 `BingWallpaperData/` 目录有更新时自动触发
+- 当 `docs/` 或 `archive/` 目录有更新时自动触发
 - 支持手动触发部署
 
 **功能:**
