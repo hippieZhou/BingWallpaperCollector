@@ -60,10 +60,10 @@ jobs:
             echo -e "\n📁 目录结构示例:"
             ls -la docs/archive | head -5
             
-            if [ -f "docs/archive/China/2025-08-28/wallpaper_info.json" ]; then
-              echo "✅ 测试文件存在: China/2025-08-28/wallpaper_info.json"
+            if [ -f "docs/archive/China/2025-08-28.json" ]; then
+              echo "✅ 测试文件存在: China/2025-08-28.json"
             else
-              echo "⚠️ 测试文件不存在: China/2025-08-28/wallpaper_info.json"
+              echo "⚠️ 测试文件不存在: China/2025-08-28.json"
             fi
           else
             echo "❌ 错误: archive 目录不存在"
@@ -97,20 +97,19 @@ jobs:
             
             countries.forEach(country => {
               const countryPath = path.join(dataDir, country);
-              const dates = fs.readdirSync(countryPath).filter(item =>
-                fs.statSync(path.join(countryPath, item)).isDirectory()
+              const files = fs.readdirSync(countryPath).filter(item =>
+                item.endsWith('.json') && fs.statSync(path.join(countryPath, item)).isFile()
               );
               
               if (!index.availableData[country]) {
                 index.availableData[country] = [];
               }
               
-              dates.forEach(date => {
-                const jsonFile = path.join(countryPath, date, 'wallpaper_info.json');
-                if (fs.existsSync(jsonFile)) {
-                  index.availableData[country].push(date);
-                  index.totalFiles++;
-                }
+              files.forEach(file => {
+                // 从文件名获取日期（去掉.json扩展名）
+                const date = file.replace('.json', '');
+                index.availableData[country].push(date);
+                index.totalFiles++;
               });
               
               if (index.availableData[country].length > 0) {
@@ -148,33 +147,7 @@ jobs:
             
             console.log('🌍 发现国家目录:', countries.length, '个');
             
-            countries.forEach(country => {
-              const countryPath = path.join(dataDir, country);
-              if (!fs.existsSync(countryPath)) return;
-              
-              const dates = fs.readdirSync(countryPath).filter(item =>
-                fs.statSync(path.join(countryPath, item)).isDirectory() &&
-                /^\d{4}-\d{2}-\d{2}$/.test(item)
-              );
-              
-              if (!index.availableData[country]) {
-                index.availableData[country] = [];
-              }
-              
-              dates.forEach(date => {
-                const jsonFile = path.join(countryPath, date, 'wallpaper_info.json');
-                if (fs.existsSync(jsonFile)) {
-                  index.availableData[country].push(date);
-                  index.totalFiles++;
-                  console.log('✅ 发现数据文件:', country + '/' + date);
-                }
-              });
-              
-              if (index.availableData[country].length > 0) {
-                index.countries.push(country);
-                index.dates = [...new Set([...index.dates, ...index.availableData[country]])];
-              }
-            });
+
             
             // 按日期倒序排列（最新在前）
             index.dates.sort().reverse();

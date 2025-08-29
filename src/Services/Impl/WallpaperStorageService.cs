@@ -66,13 +66,13 @@ public sealed class WallpaperStorageService : IWallpaperStorageService
         CreatedAt = DateTime.Now
       };
 
-      // 创建目录结构：Country/Date/
+      // 创建目录结构：Country/
       var countryDir = Path.Combine(_dataDirectory, marketCode.ToString());
-      var dateDir = Path.Combine(countryDir, dateStr);
-      Directory.CreateDirectory(dateDir);
+      Directory.CreateDirectory(countryDir);
 
-      // 生成文件路径
-      var filePath = Path.Combine(dateDir, AppConstants.WallpaperInfoFileName);
+      // 生成文件路径：使用日期作为文件名
+      var fileName = $"{dateStr}.json";
+      var filePath = Path.Combine(countryDir, fileName);
 
       // 检查文件是否已存在
       if (File.Exists(filePath))
