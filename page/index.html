@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 基础SEO标签 -->
+    <title>必应壁纸展示平台 - 全球14国高清壁纸每日更新 | Bing Wallpaper Gallery</title>
+    <meta name="description" content="必应壁纸展示平台提供来自全球14个国家/地区的高清壁纸，包括中国、美国、日本、德国等。4K画质，每日自动更新，支持筛选、搜索和预览下载。">
+    <meta name="keywords" content="必应壁纸,Bing壁纸,高清壁纸,4K壁纸,壁纸下载,每日壁纸,全球壁纸,风景壁纸,免费壁纸">
+    <meta name="author" content="hippieZhou">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#0f3460">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Bing壁纸">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Bing壁纸收集器">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="assets/images/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/images/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/images/icon-192x192.png">
+    
+    <!-- Standard Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icon-72x72.png">
+    <link rel="shortcut icon" href="assets/images/icon-72x72.png">
+    
+    <!-- 网站验证标签 (需要在各搜索引擎站长工具中获取) -->
+    <meta name="google-site-verification" content="" />
+    <meta name="baidu-site-verification" content="" />
+    <meta name="msvalidate.01" content="" />
+    
+    <!-- 规范链接 -->
+    <link rel="canonical" href="https://hippiezhou.github.io/BingWallpaperCollector/">
+    
+    <!-- Open Graph 标签 (Facebook分享) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="必应壁纸展示平台 - 全球14国高清壁纸每日更新">
+    <meta property="og:description" content="浏览来自全球14个国家/地区的精美必应壁纸，4K画质，每日自动更新，支持筛选搜索和高清下载。">
+    <meta property="og:url" content="https://hippiezhou.github.io/BingWallpaperCollector/">
+    <meta property="og:site_name" content="必应壁纸展示平台">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:locale:alternate" content="en_US">
+    
+    <!-- Twitter Card 标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="必应壁纸展示平台 - 全球14国高清壁纸每日更新">
+    <meta name="twitter:description" content="浏览来自全球14个国家/地区的精美必应壁纸，4K画质，每日自动更新。">
+    <meta name="twitter:creator" content="@hippieZhou">
+    
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "必应壁纸展示平台",
+        "alternateName": "Bing Wallpaper Gallery",
+        "url": "https://hippiezhou.github.io/BingWallpaperCollector/",
+        "description": "提供来自全球14个国家/地区的高清必应壁纸，支持筛选、搜索和预览下载",
+        "applicationCategory": "Multimedia",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "creator": {
+            "@type": "Person",
+            "name": "hippieZhou",
+            "url": "https://github.com/hippieZhou"
+        },
+        "datePublished": "2025-08-28",
+        "dateModified": "2025-08-28",
+        "inLanguage": ["zh-CN", "en-US"],
+        "keywords": "必应壁纸,Bing壁纸,高清壁纸,4K壁纸,壁纸下载,每日壁纸",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "100",
+            "bestRating": "5"
+        }
+    }
+    </script>
+    
+    <!-- 样式文件 -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- 预连接重要域名 -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//www.bing.com">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-image"></i>
+                    <h1>必应壁纸展示平台</h1>
+                    <span class="subtitle">Bing Wallpaper Gallery</span>
+                </div>
+                <nav class="nav">
+                    <button class="nav-btn active" data-view="gallery">
+                        <i class="fas fa-th-large"></i>
+                        <span>画廊</span>
+                    </button>
+                    <button class="nav-btn" data-view="countries">
+                        <i class="fas fa-globe"></i>
+                        <span>国家</span>
+                    </button>
+                    <button class="nav-btn" data-view="timeline">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>时间轴</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-group">
+                <div class="filter-item">
+                    <label for="country-filter">
+                        <i class="fas fa-flag"></i>
+                        选择国家/地区:
+                    </label>
+                    <select id="country-filter">
+                        <option value="">所有国家</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label for="date-filter">
+                        <i class="fas fa-calendar"></i>
+                        选择日期:
+                    </label>
+                    <select id="date-filter">
+                        <option value="">所有日期</option>
+                    </select>
+                </div>
+                <div class="filter-item search-box">
+                    <label for="search-input">
+                        <i class="fas fa-search"></i>
+                        搜索:
+                    </label>
+                    <input type="text" id="search-input" placeholder="搜索标题或描述...">
+                </div>
+            </div>
+            <div class="stats">
+                <span class="stat-item">
+                    <i class="fas fa-images"></i>
+                    <span id="total-count">0</span> 张壁纸
+                </span>
+                <span class="stat-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <span id="country-count">0</span> 个国家
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading -->
+    <div id="loading" class="loading">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>正在加载壁纸数据...</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Gallery View -->
+            <section id="gallery-view" class="view active">
+                <div id="wallpaper-grid" class="wallpaper-grid">
+                    <!-- 壁纸项目将通过JavaScript动态插入 -->
+                </div>
+            </section>
+
+            <!-- Countries View -->
+            <section id="countries-view" class="view">
+                <div id="countries-grid" class="countries-grid">
+                    <!-- 国家项目将通过JavaScript动态插入 -->
+                </div>
+            </section>
+
+            <!-- Timeline View -->
+            <section id="timeline-view" class="view">
+                <div id="timeline-container" class="timeline-container">
+                    <!-- 时间轴将通过JavaScript动态插入 -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="wallpaper-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title"></h2>
+                <div class="modal-meta">
+                    <span id="modal-country" class="country-tag"></span>
+                    <span id="modal-date" class="date-tag"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="">
+                    <div class="image-overlay">
+                        <div class="download-options">
+                            <h3>下载选项:</h3>
+                            <div id="resolution-buttons" class="resolution-buttons">
+                                <!-- 分辨率按钮将动态插入 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <p id="modal-description"></p>
+                    <p id="modal-copyright"></p>
+                    <div class="modal-actions">
+                        <button id="copy-link-btn" class="action-btn">
+                            <i class="fas fa-copy"></i>
+                            复制链接
+                        </button>
+                        <button id="share-btn" class="action-btn">
+                            <i class="fas fa-share"></i>
+                            分享
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>必应壁纸展示平台</h3>
+                    <p>数据来源：Microsoft Bing 官方壁纸服务</p>
+                    <p>支持 14 个国家/地区的本地化壁纸信息</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/hippieZhou/BingWallpaperCollector" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="promo.html" target="_blank">
+                        <i class="fas fa-info-circle"></i>
+                        关于
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 必应壁纸展示平台. 数据自动更新于 <span id="last-update">--</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data-index.js"></script>
+    <script src="assets/js/data-loader.js"></script>
+    <script src="assets/js/app.js"></script>
+    
+    <!-- PWA Installation and Service Worker -->
+    <div id="pwa-install-banner" class="pwa-install-banner" style="display: none;">
+        <div class="pwa-banner-content">
+            <div class="pwa-banner-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2L13.09 8.26L19 7L18.26 8.74L19 12L18.26 15.26L19 17L13.09 15.74L12 22L10.91 15.74L5 17L5.74 15.26L5 12L5.74 8.74L5 7L10.91 8.26L12 2Z"/>
+                </svg>
+            </div>
+            <div class="pwa-banner-text">
+                <div class="pwa-banner-title">安装应用</div>
+                <div class="pwa-banner-subtitle">将网站添加到主屏幕，获得更好体验</div>
+            </div>
+            <div class="pwa-banner-actions">
+                <button id="pwa-install-btn" class="pwa-install-btn">安装</button>
+                <button id="pwa-dismiss-btn" class="pwa-dismiss-btn">&times;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Service Worker注册和PWA功能
+        (function() {
+            'use strict';
+            
+            let deferredPrompt;
+            let isInstalled = false;
+            
+            // 检查是否已安装为PWA
+            function checkIfInstalled() {
+                // 检查是否以standalone模式运行
+                if (window.matchMedia('(display-mode: standalone)').matches) {
+                    isInstalled = true;
+                    return true;
+                }
+                
+                // 检查navigator.standalone (iOS)
+                if (window.navigator.standalone === true) {
+                    isInstalled = true;
+                    return true;
+                }
+                
+                return false;
+            }
+            
+            // Service Worker注册
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/BingWallpaperCollector/sw.js', {
+                        scope: '/BingWallpaperCollector/'
+                    }).then(function(registration) {
+                        console.log('[PWA] Service Worker注册成功:', registration.scope);
+                        
+                        // 检查更新
+                        registration.addEventListener('updatefound', function() {
+                            const newWorker = registration.installing;
+                            if (newWorker) {
+                                newWorker.addEventListener('statechange', function() {
+                                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                        // 新版本可用
+                                        showUpdateNotification();
+                                    }
+                                });
+                            }
+                        });
+                        
+                    }).catch(function(error) {
+                        console.log('[PWA] Service Worker注册失败:', error);
+                    });
+                });
+            }
+            
+            // PWA安装提示
+            window.addEventListener('beforeinstallprompt', function(e) {
+                // 防止浏览器默认的安装提示
+                e.preventDefault();
+                deferredPrompt = e;
+                
+                // 如果用户没有安装且没有被永久拒绝，显示自定义安装提示
+                if (!isInstalled && !localStorage.getItem('pwa-install-dismissed-forever')) {
+                    setTimeout(showInstallBanner, 3000); // 3秒后显示
+                }
+            });
+            
+            // 显示安装横幅
+            function showInstallBanner() {
+                const banner = document.getElementById('pwa-install-banner');
+                const installBtn = document.getElementById('pwa-install-btn');
+                const dismissBtn = document.getElementById('pwa-dismiss-btn');
+                
+                if (banner && !checkIfInstalled()) {
+                    banner.style.display = 'block';
+                    banner.style.animation = 'slideInFromTop 0.5s ease-out forwards';
+                    
+                    // 安装按钮点击
+                    installBtn.addEventListener('click', function() {
+                        if (deferredPrompt) {
+                            deferredPrompt.prompt();
+                            deferredPrompt.userChoice.then(function(choiceResult) {
+                                if (choiceResult.outcome === 'accepted') {
+                                    console.log('[PWA] 用户接受了安装提示');
+                                } else {
+                                    console.log('[PWA] 用户拒绝了安装提示');
+                                }
+                                deferredPrompt = null;
+                                hideInstallBanner();
+                            });
+                        }
+                    });
+                    
+                    // 关闭按钮点击
+                    dismissBtn.addEventListener('click', function() {
+                        hideInstallBanner();
+                        // 记住用户选择，1天内不再显示
+                        localStorage.setItem('pwa-install-dismissed', Date.now().toString());
+                    });
+                }
+            }
+            
+            // 隐藏安装横幅
+            function hideInstallBanner() {
+                const banner = document.getElementById('pwa-install-banner');
+                if (banner) {
+                    banner.style.animation = 'slideOutToTop 0.3s ease-in forwards';
+                    setTimeout(() => {
+                        banner.style.display = 'none';
+                    }, 300);
+                }
+            }
+            
+            // 显示更新通知
+            function showUpdateNotification() {
+                if (confirm('发现新版本！是否立即刷新页面以获得最新功能？')) {
+                    window.location.reload();
+                }
+            }
+            
+            // 检查是否应该显示安装提示
+            function shouldShowInstallBanner() {
+                if (checkIfInstalled()) return false;
+                
+                const dismissTime = localStorage.getItem('pwa-install-dismissed');
+                if (dismissTime) {
+                    const dayInMs = 24 * 60 * 60 * 1000;
+                    if (Date.now() - parseInt(dismissTime) < dayInMs) {
+                        return false;
+                    }
+                }
+                
+                return true;
+            }
+            
+            // 监听应用安装完成
+            window.addEventListener('appinstalled', function(evt) {
+                console.log('[PWA] 应用安装成功');
+                isInstalled = true;
+                hideInstallBanner();
+            });
+            
+            // 初始化
+            checkIfInstalled();
+            
+            // 添加PWA相关样式
+            const style = document.createElement('style');
+            style.textContent = `
+                .pwa-install-banner {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+                    color: white;
+                    z-index: 9999;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+                }
+                
+                .pwa-banner-content {
+                    display: flex;
+                    align-items: center;
+                    padding: 12px 20px;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+                
+                .pwa-banner-icon {
+                    margin-right: 12px;
+                    opacity: 0.9;
+                }
+                
+                .pwa-banner-text {
+                    flex-grow: 1;
+                    margin-right: 15px;
+                }
+                
+                .pwa-banner-title {
+                    font-weight: 600;
+                    font-size: 14px;
+                    margin-bottom: 2px;
+                }
+                
+                .pwa-banner-subtitle {
+                    font-size: 12px;
+                    opacity: 0.9;
+                }
+                
+                .pwa-banner-actions {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                
+                .pwa-install-btn {
+                    background: rgba(255,255,255,0.2);
+                    color: white;
+                    border: 1px solid rgba(255,255,255,0.3);
+                    padding: 8px 16px;
+                    border-radius: 20px;
+                    font-size: 13px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                }
+                
+                .pwa-install-btn:hover {
+                    background: rgba(255,255,255,0.3);
+                    transform: translateY(-1px);
+                }
+                
+                .pwa-dismiss-btn {
+                    background: none;
+                    color: white;
+                    border: none;
+                    font-size: 20px;
+                    cursor: pointer;
+                    padding: 4px 8px;
+                    border-radius: 50%;
+                    transition: all 0.3s ease;
+                    line-height: 1;
+                }
+                
+                .pwa-dismiss-btn:hover {
+                    background: rgba(255,255,255,0.2);
+                }
+                
+                @keyframes slideInFromTop {
+                    from {
+                        transform: translateY(-100%);
+                        opacity: 0;
+                    }
+                    to {
+                        transform: translateY(0);
+                        opacity: 1;
+                    }
+                }
+                
+                @keyframes slideOutToTop {
+                    from {
+                        transform: translateY(0);
+                        opacity: 1;
+                    }
+                    to {
+                        transform: translateY(-100%);
+                        opacity: 0;
+                    }
+                }
+                
+                @media (max-width: 600px) {
+                    .pwa-banner-content {
+                        padding: 10px 15px;
+                    }
+                    
+                    .pwa-banner-title {
+                        font-size: 13px;
+                    }
+                    
+                    .pwa-banner-subtitle {
+                        font-size: 11px;
+                    }
+                    
+                    .pwa-install-btn {
+                        padding: 6px 12px;
+                        font-size: 12px;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+        })();
+    </script>
+</body>
+
+</html>
