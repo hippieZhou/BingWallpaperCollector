@@ -7,7 +7,6 @@ Bing Wallpaper Information Collector
 [![每日收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-wallpapers.yml)
 [![区域化收集](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/collect-regional-wallpapers.yml)
 [![GitHub Pages](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/hippieZhou/BingWallpaperCollector/actions/workflows/deploy-pages.yml)
-[![在线预览](https://img.shields.io/badge/在线预览-GitHub%20Pages-brightgreen.svg)](https://hippiezhou.github.io/BingWallpaperCollector/)
 ![.NET](https://img.shields.io/badge/.NET-9.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -19,7 +18,7 @@ Bing Wallpaper Information Collector
 
 ## 🌐 在线预览
 
-**📱 立即体验**: [https://hippiezhou.github.io/BingWallpaperCollector/](https://hippiezhou.github.io/BingWallpaperCollector/)
+[![立即体验](https://img.shields.io/badge/在线预览-GitHub%20Pages-brightgreen.svg)](https://hippiezhou.github.io/BingWallpaperCollector/)
 
 ### ✨ 网站特色
 
