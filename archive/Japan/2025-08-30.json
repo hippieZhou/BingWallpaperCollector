@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-30",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は全国花火競技大会の開催日",
+  "copyright": "全国花火競技大会, 秋田県, 大仙市 (© Toru Hanai/寄稿者/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E5%85%A8%E5%9B%BD%E8%8A%B1%E7%81%AB%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A&form=hpcapt&filters=HpDate%3a%2220250829_1500%22",
+  "description": "全国花火競技大会, 秋田県, 大仙市",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250829_OmagariFireworks2025%22&FORM=HPQUIZ",
+  "hash": "eea7fb4e26884ae937fde0a56f1f0309",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OmagariFireworks2025_JA-JP5692415884_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OmagariFireworks2025_JA-JP5692415884_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OmagariFireworks2025_JA-JP5692415884_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OmagariFireworks2025_JA-JP5692415884_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-29",
+    "EndDate": "2025-08-30",
+    "FullStartDateTime": "2025-08-29T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250829",
+      "fullStartDate": "202508291500",
+      "endDate": "20250830"
+    }
+  },
+  "createdAt": "2025-08-30T02:06:50.0838023+00:00",
+  "originalUrlBase": "/th?id=OHR.OmagariFireworks2025_JA-JP5692415884"
+}

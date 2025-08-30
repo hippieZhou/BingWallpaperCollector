@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-30",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Ese tiburón está ba-lleno",
+  "copyright": "Tiburón ballena frente a la costa del Atolón Alif Dhaal, Maldivas (© Bachir Moukarzel/Amazing Aerial Agency)",
+  "copyrightLink": "https://www.bing.com/search?q=Tibur%C3%B3n+Ballena&form=hpcapt&filters=HpDate%3a%2220250829_2200%22",
+  "description": "Tiburón ballena frente a la costa del Atolón Alif Dhaal, Maldivas",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250829_MaldivesWhaleShark%22&FORM=HPQUIZ",
+  "hash": "4d9f62252e1b75896042a62692538c88",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ES-ES8989429655_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ES-ES8989429655_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ES-ES8989429655_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ES-ES8989429655_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-29",
+    "EndDate": "2025-08-30",
+    "FullStartDateTime": "2025-08-29T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250829",
+      "fullStartDate": "202508292200",
+      "endDate": "20250830"
+    }
+  },
+  "createdAt": "2025-08-30T02:06:50.1168672+00:00",
+  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_ES-ES8989429655"
+}
