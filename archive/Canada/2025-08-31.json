@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-31",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Finned and fabulous",
+  "copyright": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)",
+  "copyrightLink": "https://www.bing.com/search?q=International+Whale+Shark+Day&form=hpcapt&filters=HpDate%3a%2220250830_0400%22",
+  "description": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_MaldivesWhaleShark%22&FORM=HPQUIZ",
+  "hash": "c719f1425415179834d5b6ebf62ed687",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-30",
+    "EndDate": "2025-08-31",
+    "FullStartDateTime": "2025-08-30T04:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250830",
+      "fullStartDate": "202508300400",
+      "endDate": "20250831"
+    }
+  },
+  "createdAt": "2025-08-31T02:18:11.8442999+00:00",
+  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101"
+}

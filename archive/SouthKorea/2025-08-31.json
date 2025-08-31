@@ -1,0 +1,45 @@
+{
+  "date": "2025-08-31",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "copyright": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)",
+  "copyrightLink": "https://www.bing.com/search?q=Whale+shark&form=hpcapt",
+  "description": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_MaldivesWhaleShark%22&FORM=HPQUIZ",
+  "hash": "ad36cb2561d47c866cc3f8b17888e014",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-08-30",
+    "EndDate": "2025-08-31",
+    "FullStartDateTime": "2025-08-30T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250830",
+      "fullStartDate": "202508300700",
+      "endDate": "20250831"
+    }
+  },
+  "createdAt": "2025-08-31T02:18:11.8280987+00:00",
+  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_ROW7272953722"
+}
