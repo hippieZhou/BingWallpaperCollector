@@ -673,18 +673,46 @@ class WallpaperApp {
         description.textContent = wallpaper.description;
         copyright.innerHTML = `© ${wallpaper.copyright}`;
 
-        // 渲染分辨率按钮
+        // 渲染分辨率下载按钮
         resolutionButtons.innerHTML = '';
         if (wallpaper.imageResolutions) {
-            wallpaper.imageResolutions.forEach(resolution => {
-                const btn = document.createElement('a');
-                btn.href = resolution.url;
-                btn.target = '_blank';
-                btn.className = 'resolution-btn';
+            // 按分辨率重要性排序（4K优先）
+            const sortedResolutions = [...wallpaper.imageResolutions].sort((a, b) => {
+                const priorities = { 'UHD': 1, 'Full HD': 2, 'HD': 3, 'Standard': 4 };
+                return (priorities[a.resolution] || 5) - (priorities[b.resolution] || 5);
+            });
+            
+            sortedResolutions.forEach((resolution, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'resolution-btn download-btn';
+                btn.setAttribute('data-url', resolution.url);
+                btn.setAttribute('data-resolution', resolution.resolution);
+                btn.setAttribute('data-filename', `${wallpaper.title}-${resolution.resolution}.jpg`);
+                
+                // 4K分辨率添加特殊标识
+                const is4K = resolution.resolution === 'UHD';
+                if (is4K) {
+                    btn.classList.add('resolution-4k');
+                }
+                
                 btn.innerHTML = `
-                    <span>${resolution.resolution}</span>
-                    <span>${resolution.size}</span>
+                    <div class="resolution-info">
+                        <span class="resolution-name">
+                            ${resolution.resolution}
+                            ${is4K ? '<span class="badge-4k">4K</span>' : ''}
+                        </span>
+                        <span class="resolution-size">${resolution.size}</span>
+                    </div>
+                    <div class="download-action">
+                        <i class="fas fa-download"></i>
+                        <span class="download-text">下载</span>
+                        <span class="download-status"></span>
+                    </div>
                 `;
+                
+                // 绑定下载事件
+                btn.addEventListener('click', () => this.downloadWallpaper(resolution, wallpaper));
+                
                 resolutionButtons.appendChild(btn);
             });
         }
@@ -735,6 +763,115 @@ class WallpaperApp {
         }
     }
 
+    // 下载壁纸
+    async downloadWallpaper(resolution, wallpaper) {
+        const button = event.currentTarget;
+        const downloadText = button.querySelector('.download-text');
+        const downloadStatus = button.querySelector('.download-status');
+        const downloadIcon = button.querySelector('.fas');
+        
+        try {
+            // 更新按钮状态
+            button.disabled = true;
+            button.classList.add('downloading');
+            downloadIcon.className = 'fas fa-spinner fa-spin';
+            downloadText.textContent = '下载中...';
+            downloadStatus.textContent = '';
+            
+            // 生成文件名
+            const fileName = this.generateFileName(wallpaper, resolution);
+            
+            // 显示下载进度提示
+            this.showToast(`开始下载 ${resolution.resolution} 分辨率壁纸...`);
+            
+            // 使用 fetch 下载图片
+            const response = await fetch(resolution.url);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            // 获取图片数据
+            const blob = await response.blob();
+            
+            // 创建下载链接
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.download = fileName;
+            
+            // 触发下载
+            document.body.appendChild(a);
+            a.click();
+            
+            // 清理
+            setTimeout(() => {
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            }, 100);
+            
+            // 成功状态
+            downloadIcon.className = 'fas fa-check';
+            downloadText.textContent = '下载完成';
+            downloadStatus.textContent = '✓';
+            button.classList.remove('downloading');
+            button.classList.add('download-success');
+            
+            // 显示成功消息
+            const is4K = resolution.resolution === 'UHD';
+            this.showToast(`${is4K ? '4K ' : ''}壁纸下载完成！(${resolution.size})`, 'success');
+            
+            // 重置按钮状态
+            setTimeout(() => {
+                button.disabled = false;
+                downloadIcon.className = 'fas fa-download';
+                downloadText.textContent = '下载';
+                downloadStatus.textContent = '';
+                button.classList.remove('download-success');
+            }, 3000);
+            
+        } catch (error) {
+            console.error('下载失败:', error);
+            
+            // 错误状态
+            downloadIcon.className = 'fas fa-exclamation-triangle';
+            downloadText.textContent = '下载失败';
+            downloadStatus.textContent = '!';
+            button.classList.remove('downloading');
+            button.classList.add('download-error');
+            
+            // 显示错误消息
+            this.showToast('下载失败，请稍后重试', 'error');
+            
+            // 重置按钮状态
+            setTimeout(() => {
+                button.disabled = false;
+                downloadIcon.className = 'fas fa-download';
+                downloadText.textContent = '下载';
+                downloadStatus.textContent = '';
+                button.classList.remove('download-error');
+            }, 3000);
+        }
+    }
+
+    // 生成下载文件名
+    generateFileName(wallpaper, resolution) {
+        // 清理标题中的特殊字符
+        const cleanTitle = wallpaper.title
+            .replace(/[<>:"/\\|?*]/g, '') // 移除文件名不允许的字符
+            .replace(/\s+/g, '-') // 空格替换为短横线
+            .substring(0, 50); // 限制长度
+        
+        // 格式化日期
+        const date = wallpaper.date || new Date().toISOString().split('T')[0];
+        
+        // 分辨率标识
+        const resolutionTag = resolution.resolution === 'UHD' ? '4K-UHD' : resolution.resolution;
+        
+        // 构建文件名
+        return `Bing-${cleanTitle}-${date}-${resolutionTag}.jpg`;
+    }
+
     // 更新统计信息
     updateStats(filteredCount = null) {
         const totalCount = document.getElementById('total-count');
@@ -775,7 +912,7 @@ class WallpaperApp {
     }
 
     // 显示提示消息
-    showToast(message) {
+    showToast(message, type = 'info') {
         // 创建或获取toast容器
         let toastContainer = document.getElementById('toast-container');
         if (!toastContainer) {
@@ -789,22 +926,43 @@ class WallpaperApp {
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+                max-width: 350px;
             `;
             document.body.appendChild(toastContainer);
         }
 
+        // 根据类型设置样式和图标
+        const typeStyles = {
+            info: { bg: 'rgba(0, 0, 0, 0.8)', icon: 'fas fa-info-circle', color: 'white' },
+            success: { bg: 'rgba(72, 187, 120, 0.9)', icon: 'fas fa-check-circle', color: 'white' },
+            error: { bg: 'rgba(245, 101, 101, 0.9)', icon: 'fas fa-exclamation-circle', color: 'white' },
+            warning: { bg: 'rgba(236, 201, 75, 0.9)', icon: 'fas fa-exclamation-triangle', color: 'white' }
+        };
+
+        const style = typeStyles[type] || typeStyles.info;
+
         // 创建toast元素
         const toast = document.createElement('div');
+        toast.className = `toast toast-${type}`;
         toast.style.cssText = `
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
+            background: ${style.bg};
+            color: ${style.color};
             padding: 1rem 1.5rem;
             border-radius: 8px;
             font-size: 0.9rem;
             transform: translateX(100%);
             transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(10px);
         `;
-        toast.textContent = message;
+        
+        toast.innerHTML = `
+            <i class="${style.icon}" style="font-size: 1.1rem; flex-shrink: 0;"></i>
+            <span style="flex: 1;">${message}</span>
+        `;
         
         toastContainer.appendChild(toast);
 
@@ -812,6 +970,9 @@ class WallpaperApp {
         setTimeout(() => {
             toast.style.transform = 'translateX(0)';
         }, 100);
+
+        // 根据类型设置不同的显示时间
+        const duration = type === 'error' ? 5000 : (type === 'success' ? 4000 : 3000);
 
         // 自动隐藏
         setTimeout(() => {
@@ -821,7 +982,7 @@ class WallpaperApp {
                     toast.parentNode.removeChild(toast);
                 }
             }, 300);
-        }, 3000);
+        }, duration);
     }
 }
 
