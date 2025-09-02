@@ -2,22 +2,22 @@ name: 部署到 GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - 'page/**'
-      - 'archive/**'
-      - 'archive/**/*.json'
-      - '.github/workflows/deploy-pages.yml'
-  
+      - "page/**"
+      - "archive/**"
+      - "archive/**/*.json"
+      - ".github/workflows/deploy-pages.yml"
+
   # 定时执行 - 每天 UTC 2:00 (北京时间 10:00)
   schedule:
-    - cron: '0 2 * * *'
+    - cron: "0 2 * * *"
 
   # 允许手动触发
   workflow_dispatch:
 
 permissions:
-  contents: write  # 需要写权限来提交数据索引更新
+  contents: write # 需要写权限来提交数据索引更新
   pages: write
   id-token: write
 
@@ -39,7 +39,7 @@ jobs:
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: ⚙️ 配置 Pages
         uses: actions/configure-pages@v4
@@ -157,7 +157,7 @@ jobs:
         run: |
           # 验证HTML和JSON文件
           echo "验证网站文件..."
-          
+
           # 检查关键文件是否存在
           echo "🔍 验证关键文件..."
           test -f page/index.html || (echo "❌ 错误: index.html 不存在" && exit 1)
@@ -165,13 +165,13 @@ jobs:
           test -f page/assets/js/app.js || (echo "❌ 错误: app.js 不存在" && exit 1)
           test -f page/data-index.js || (echo "❌ 错误: data-index.js 不存在" && exit 1)
           test -d page/archive || (echo "❌ 错误: archive 目录不存在" && exit 1)
-          
+
           echo "✅ 关键文件验证通过"
-          
+
           # 显示最终的文件结构
           echo -e "\n📁 最终部署结构:"
           find page -type f | head -20 | sort
-          
+
           # 验证JSON文件格式
           echo "验证 JSON 文件格式..."
           find page/archive -name "*.json" -exec node -e "
@@ -183,7 +183,7 @@ jobs:
               process.exit(1);
             }
           " \;
-          
+
           echo "验证通过！"
 
       - name: 🏗️ 使用 Jekyll 构建
@@ -195,28 +195,28 @@ jobs:
           description: "浏览来自全球14个国家/地区的精美必应壁纸"
           baseurl: "/BingWallpaperCollector"
           url: "https://hippiezhou.github.io"
-          
+
           # 排除文件
           exclude:
             - node_modules
             - package*.json
             - "*.md"
-          
+
           # 包含隐藏文件
           include:
             - _headers
             - _redirects
-          
+
           # 插件
           plugins:
             - jekyll-relative-links
-          
+
           # 相对链接
           relative_links:
             enabled: true
             collections: true
           EOF
-          
+
           # 创建.nojekyll文件以禁用Jekyll（如果需要纯静态站点）
           # touch page/.nojekyll
 
