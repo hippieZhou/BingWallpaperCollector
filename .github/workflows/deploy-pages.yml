@@ -8,7 +8,7 @@ on:
       - "archive/**"
       - "archive/**/*.json"
       - ".github/workflows/deploy-pages.yml"
-
+  
   # 定时执行 - 每天 UTC 2:00 (北京时间 10:00)
   schedule:
     - cron: "0 2 * * *"
@@ -73,47 +73,110 @@ jobs:
 
       - name: 📊 检查当前数据状态
         run: |
-          echo "=== Current Archive Status ==="
-          find archive -name "*.json" | wc -l | xargs echo "Total JSON files:"
-          ls -la archive/ | wc -l | xargs echo "Country directories:"
+          echo "=== Archive 目录状态检查 ==="
+          if [ -d archive ]; then
+            echo "✅ archive 目录存在"
+            echo "📊 统计信息:"
+            find archive -name "*.json" | wc -l | xargs echo "  - JSON文件总数:"
+            ls -la archive/ | grep -E '^d' | wc -l | xargs echo "  - 国家目录数:"
+            echo "  - 目录大小: $(du -sh archive | cut -f1)"
+          else
+            echo "❌ archive 目录不存在"
+            echo "当前目录内容:"
+            ls -la
+            exit 1
+          fi
 
           echo ""
-          echo "=== Latest files in each country ==="
+          echo "=== 各国最新数据文件 ==="
           for country in archive/*/; do
             if [ -d "$country" ]; then
               country_name=$(basename "$country")
+              file_count=$(find "$country" -name "*.json" | wc -l)
               latest_file=$(ls -1t "$country"*.json 2>/dev/null | head -1)
               if [ -n "$latest_file" ]; then
-                echo "$country_name: $(basename "$latest_file")"
+                echo "$country_name: $(basename "$latest_file") (共$file_count个文件)"
               else
-                echo "$country_name: no files"
+                echo "$country_name: 无数据文件"
               fi
             fi
           done
 
           echo ""
-          echo "=== Current data-index.js status ==="
+          echo "=== 验证数据文件内容 ==="
+          # 检查一个示例文件的内容
+          sample_file=$(find archive -name "*.json" | head -1)
+          if [ -n "$sample_file" ]; then
+            echo "示例文件: $sample_file"
+            echo "文件大小: $(wc -c "$sample_file" | cut -d' ' -f1) 字节"
+            echo "文件内容预览:"
+            head -10 "$sample_file" || echo "无法读取文件内容"
+          fi
+
+          echo ""
+          echo "=== 当前 data-index.js 状态 ==="
           if [ -f "page/data-index.js" ]; then
-            echo "data-index.js exists"
+            echo "✅ page/data-index.js 已存在"
+            echo "文件大小: $(wc -c page/data-index.js | cut -d' ' -f1) 字节"
             # 提取生成时间
-            grep -o "generated.*" page/data-index.js | head -1 || echo "No generation time found"
+            grep -o "generated.*" page/data-index.js | head -1 || echo "未找到生成时间信息"
           else
-            echo "data-index.js does not exist"
+            echo "❌ page/data-index.js 不存在"
           fi
 
       - name: 📝 生成数据索引
         run: |
-          echo "🚀 Running data index generation..."
+          echo "🚀 开始生成数据索引..."
+          
+          # 检查必要的目录和文件
+          echo "=== 环境检查 ==="
+          echo "当前工作目录: $(pwd)"
+          echo "scripts目录是否存在: $(test -d scripts && echo '✅ 存在' || echo '❌ 不存在')"
+          echo "archive目录是否存在: $(test -d archive && echo '✅ 存在' || echo '❌ 不存在')"
+          
+          if [ -d scripts ]; then
+            echo "scripts目录内容:"
+            ls -la scripts/
+          fi
+          
+          if [ -d archive ]; then
+            echo "archive目录内容:"
+            ls -la archive/ | head -5
+            echo "archive中JSON文件总数: $(find archive -name '*.json' | wc -l)"
+          else
+            echo "❌ 错误: archive 目录不存在，无法生成数据索引"
+            exit 1
+          fi
+          
+          # 检查生成脚本是否存在
+          if [ ! -f "scripts/generate-data-index.js" ]; then
+            echo "❌ 错误: scripts/generate-data-index.js 不存在"
+            echo "尝试列出所有.js文件:"
+            find . -name "*.js" | grep -E "(generate|index)" || echo "未找到相关脚本"
+            exit 1
+          fi
+          
+          # 运行数据索引生成脚本
+          echo "🚀 执行数据索引生成..."
           node scripts/generate-data-index.js
-
+          
+          # 验证生成结果
           echo ""
-          echo "=== Generated data-index.js preview ==="
-          head -20 page/data-index.js
-
-          echo ""
-          echo "=== File size comparison ==="
+          echo "=== 验证生成结果 ==="
           if [ -f "page/data-index.js" ]; then
-            wc -c page/data-index.js | xargs echo "New data-index.js size (bytes):"
+            echo "✅ data-index.js 生成成功"
+            echo "文件大小: $(wc -c page/data-index.js | cut -d' ' -f1) 字节"
+            echo ""
+            echo "=== 生成的文件预览 ==="
+            head -30 page/data-index.js
+            echo ""
+            echo "=== 文件末尾 ==="
+            tail -10 page/data-index.js
+          else
+            echo "❌ 错误: data-index.js 未生成"
+            echo "检查page目录内容:"
+            ls -la page/ | head -10
+            exit 1
           fi
 
       - name: 🔍 检查并提交数据索引更新
@@ -157,7 +220,7 @@ jobs:
         run: |
           # 验证HTML和JSON文件
           echo "验证网站文件..."
-
+          
           # 检查关键文件是否存在
           echo "🔍 验证关键文件..."
           test -f page/index.html || (echo "❌ 错误: index.html 不存在" && exit 1)
@@ -165,13 +228,13 @@ jobs:
           test -f page/assets/js/app.js || (echo "❌ 错误: app.js 不存在" && exit 1)
           test -f page/data-index.js || (echo "❌ 错误: data-index.js 不存在" && exit 1)
           test -d page/archive || (echo "❌ 错误: archive 目录不存在" && exit 1)
-
+          
           echo "✅ 关键文件验证通过"
-
+          
           # 显示最终的文件结构
           echo -e "\n📁 最终部署结构:"
           find page -type f | head -20 | sort
-
+          
           # 验证JSON文件格式
           echo "验证 JSON 文件格式..."
           find page/archive -name "*.json" -exec node -e "
@@ -183,7 +246,7 @@ jobs:
               process.exit(1);
             }
           " \;
-
+          
           echo "验证通过！"
 
       - name: 🏗️ 使用 Jekyll 构建
@@ -195,28 +258,28 @@ jobs:
           description: "浏览来自全球14个国家/地区的精美必应壁纸"
           baseurl: "/BingWallpaperCollector"
           url: "https://hippiezhou.github.io"
-
+          
           # 排除文件
           exclude:
             - node_modules
             - package*.json
             - "*.md"
-
+          
           # 包含隐藏文件
           include:
             - _headers
             - _redirects
-
+          
           # 插件
           plugins:
             - jekyll-relative-links
-
+          
           # 相对链接
           relative_links:
             enabled: true
             collections: true
           EOF
-
+          
           # 创建.nojekyll文件以禁用Jekyll（如果需要纯静态站点）
           # touch page/.nojekyll
 
