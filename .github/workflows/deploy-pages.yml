@@ -6,6 +6,7 @@ on:
     paths:
       - 'page/**'
       - 'archive/**'
+      - 'archive/**/*.json'
       - '.github/workflows/deploy-pages.yml'
   
   # 定时执行 - 每天 UTC 2:00 (北京时间 10:00)
@@ -16,7 +17,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write  # 需要写权限来提交数据索引更新
   pages: write
   id-token: write
 
@@ -30,20 +31,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 📥 检出代码仓库
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Setup Pages
+      - name: ⚙️ 配置 Pages
         uses: actions/configure-pages@v4
 
-      - name: Copy data to page directory
+      - name: 📂 复制数据到页面目录
         run: |
           # 将archive复制到page目录，使其可在GitHub Pages中访问
           if [ -d "archive" ]; then
@@ -70,157 +71,89 @@ jobs:
             exit 1
           fi
 
-      - name: Create data index
+      - name: 📊 检查当前数据状态
         run: |
-          # 创建数据索引文件
-          cat > page/data-index.js << 'EOF'
-          // 自动生成的数据索引
-          window.WALLPAPER_DATA_INDEX = {
-            generated: new Date().toISOString(),
-            countries: [],
-            dates: [],
-            totalFiles: 0,
-            availableData: {}
-          };
-          
-          // 扫描可用数据
-          const fs = require('fs');
-          const path = require('path');
-          
-          const dataDir = path.join(__dirname, '..', 'archive');
-          const index = window.WALLPAPER_DATA_INDEX;
-          
-          if (fs.existsSync(dataDir)) {
-            const countries = fs.readdirSync(dataDir).filter(item => 
-              fs.statSync(path.join(dataDir, item)).isDirectory()
-            );
-            
-            countries.forEach(country => {
-              const countryPath = path.join(dataDir, country);
-              const files = fs.readdirSync(countryPath).filter(item =>
-                item.endsWith('.json') && fs.statSync(path.join(countryPath, item)).isFile()
-              );
-              
-              if (!index.availableData[country]) {
-                index.availableData[country] = [];
-              }
-              
-              files.forEach(file => {
-                // 从文件名获取日期（去掉.json扩展名）
-                const date = file.replace('.json', '');
-                index.availableData[country].push(date);
-                index.totalFiles++;
-              });
-              
-              if (index.availableData[country].length > 0) {
-                index.countries.push(country);
-                index.dates = [...new Set([...index.dates, ...index.availableData[country]])];
-              }
-            });
-            
-            index.dates.sort().reverse();
-          }
-          EOF
-          
-          # 使用Node.js生成实际的索引
-          node -e "
-          const fs = require('fs');
-          const path = require('path');
-          
-          console.log('🔍 开始生成数据索引...');
-          
-          const index = {
-            generated: new Date().toISOString(),
-            countries: [],
-            dates: [],
-            totalFiles: 0,
-            availableData: {}
-          };
-          
-          const dataDir = 'page/archive';
-          
-          if (fs.existsSync(dataDir)) {
-            console.log('📁 扫描数据目录:', dataDir);
-            const countries = fs.readdirSync(dataDir).filter(item => 
-              fs.statSync(path.join(dataDir, item)).isDirectory()
-            );
-            
-            console.log('🌍 发现国家目录:', countries.length, '个');
-            
-            countries.forEach(country => {
-              const countryPath = path.join(dataDir, country);
-              const files = fs.readdirSync(countryPath).filter(item =>
-                item.endsWith('.json') && fs.statSync(path.join(countryPath, item)).isFile()
-              );
-              
-              if (!index.availableData[country]) {
-                index.availableData[country] = [];
-              }
-              
-              files.forEach(file => {
-                const date = file.replace('.json', '');
-                index.availableData[country].push(date);
-                index.totalFiles++;
-                console.log('✅ 发现数据文件:', country + '/' + date);
-              });
-              
-              if (index.availableData[country].length > 0) {
-                index.countries.push(country);
-                index.dates = [...new Set([...index.dates, ...index.availableData[country]])];
-              }
-            });
-            
-            // 按日期倒序排列（最新在前）
-            index.dates.sort().reverse();
-            
-            // 生成索引内容
-            const indexContent = [
-              '// 自动生成的数据索引文件',
-              '// 生成时间: ' + new Date().toISOString(),
-              '',
-              'window.WALLPAPER_DATA_INDEX = ' + JSON.stringify(index, null, 2) + ';',
-              '',
-              'console.log(\"📊 数据索引加载完成:\", {',
-              '  countries: ' + index.countries.length + ',',
-              '  dates: ' + index.dates.length + ',',
-              '  totalFiles: ' + index.totalFiles,
-              '});'
-            ].join('\n');
-            
-            fs.writeFileSync('page/data-index.js', indexContent);
-            
-            console.log('✅ 数据索引生成完成:');
-            console.log('  - 可用国家:', index.countries.length, '个');
-            console.log('  - 可用日期:', index.dates.length, '个');
-            console.log('  - JSON文件总数:', index.totalFiles, '个');
-            if (index.dates.length > 0) {
-              console.log('  - 日期范围:', index.dates[index.dates.length-1], '至', index.dates[0]);
-            }
-            console.log('  - 索引文件大小:', fs.statSync('page/data-index.js').size, '字节');
-            
-            // 验证索引文件内容
-            const indexFileContent = fs.readFileSync('page/data-index.js', 'utf8');
-            if (indexFileContent.includes('WALLPAPER_DATA_INDEX')) {
-              console.log('✅ 索引文件内容验证通过');
-            } else {
-              console.log('❌ 索引文件内容验证失败');
-              process.exit(1);
-            }
-            
-            // 输出完整的日期列表用于调试
-            console.log('📅 完整日期列表:', JSON.stringify(index.dates));
-          } else {
-            console.log('❌ 错误: 数据目录不存在:', dataDir);
-            process.exit(1);
-          }
-          "
+          echo "=== Current Archive Status ==="
+          find archive -name "*.json" | wc -l | xargs echo "Total JSON files:"
+          ls -la archive/ | wc -l | xargs echo "Country directories:"
 
-      - name: Optimize images and create thumbnails
+          echo ""
+          echo "=== Latest files in each country ==="
+          for country in archive/*/; do
+            if [ -d "$country" ]; then
+              country_name=$(basename "$country")
+              latest_file=$(ls -1t "$country"*.json 2>/dev/null | head -1)
+              if [ -n "$latest_file" ]; then
+                echo "$country_name: $(basename "$latest_file")"
+              else
+                echo "$country_name: no files"
+              fi
+            fi
+          done
+
+          echo ""
+          echo "=== Current data-index.js status ==="
+          if [ -f "page/data-index.js" ]; then
+            echo "data-index.js exists"
+            # 提取生成时间
+            grep -o "generated.*" page/data-index.js | head -1 || echo "No generation time found"
+          else
+            echo "data-index.js does not exist"
+          fi
+
+      - name: 📝 生成数据索引
+        run: |
+          echo "🚀 Running data index generation..."
+          node scripts/generate-data-index.js
+
+          echo ""
+          echo "=== Generated data-index.js preview ==="
+          head -20 page/data-index.js
+
+          echo ""
+          echo "=== File size comparison ==="
+          if [ -f "page/data-index.js" ]; then
+            wc -c page/data-index.js | xargs echo "New data-index.js size (bytes):"
+          fi
+
+      - name: 🔍 检查并提交数据索引更新
+        id: check-and-commit
+        run: |
+          # 检查 data-index.js 是否有变化
+          if git diff --quiet page/data-index.js; then
+            echo "No changes detected in data-index.js"
+            echo "has-index-changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in data-index.js, committing updates..."
+            echo "has-index-changes=true" >> $GITHUB_OUTPUT
+            
+            # 配置 Git
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            
+            # 添加更改
+            git add page/data-index.js
+            
+            # 创建提交信息
+            COMMIT_MSG="🤖 Auto-update data index - $(date '+%Y-%m-%d %H:%M UTC')"
+            git commit -m "$COMMIT_MSG"
+            
+            # 推送更改
+            git push
+            
+            echo "✅ Data index changes committed and pushed successfully"
+            
+            echo ""
+            echo "=== Changes preview ==="
+            git --no-pager show --name-only HEAD
+          fi
+
+      - name: 🖼️ 优化图片和创建缩略图
         run: |
           # 这里可以添加图片优化逻辑（可选）
           echo "图片优化步骤（当前跳过）"
 
-      - name: Validate website
+      - name: ✅ 验证网站文件
         run: |
           # 验证HTML和JSON文件
           echo "验证网站文件..."
@@ -253,7 +186,7 @@ jobs:
           
           echo "验证通过！"
 
-      - name: Build with Jekyll
+      - name: 🏗️ 使用 Jekyll 构建
         run: |
           # 为了兼容GitHub Pages，添加Jekyll配置
           cat > page/_config.yml << 'EOF'
@@ -287,7 +220,7 @@ jobs:
           # 创建.nojekyll文件以禁用Jekyll（如果需要纯静态站点）
           # touch page/.nojekyll
 
-      - name: Upload artifact
+      - name: 📤 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./page
@@ -300,7 +233,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 🚀 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
@@ -310,7 +243,7 @@ jobs:
     needs: [build, deploy]
     if: always()
     steps:
-      - name: Notify deployment status
+      - name: 📢 通知部署状态
         run: |
           if [ "${{ needs.deploy.result }}" == "success" ]; then
             echo "✅ 部署成功!"
