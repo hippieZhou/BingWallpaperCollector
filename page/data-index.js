@@ -1,8 +1,8 @@
 // 本地数据索引文件
-// 生成时间: 2025-09-02T23:48:10.469Z
+// 生成时间: 2025-09-02T23:53:21.997Z
 
 window.WALLPAPER_DATA_INDEX = {
-  "generated": "2025-09-02T23:48:10.000Z",
+  "generated": "2025-09-02T23:53:21.000Z",
   "countries": [
     "Australia",
     "Brazil",
