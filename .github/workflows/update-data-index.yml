@@ -1,0 +1,153 @@
+name: 更新 GitHub Pages 数据索引
+
+# 当 archive 目录有新数据时触发，或手动触发
+on:
+  push:
+    paths:
+      - "archive/**/*.json"
+  workflow_dispatch: # 允许手动触发
+  schedule:
+    # 每天 UTC 3:00 (北京时间 11:00) 自动检查更新
+    - cron: "0 3 * * *"
+
+jobs:
+  update-data-index:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # 需要写权限来提交更新
+      pages: write # 需要 Pages 权限
+      id-token: write # 需要 OIDC token
+
+    steps:
+      - name: 📥 检出代码仓库
+        uses: actions/checkout@v4
+        with:
+          # 获取完整历史记录以确保能看到所有更改
+          fetch-depth: 0
+
+      - name: 📦 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: 📊 检查当前数据状态
+        run: |
+          echo "=== Current Archive Status ==="
+          find archive -name "*.json" | wc -l | xargs echo "Total JSON files:"
+          ls -la archive/ | wc -l | xargs echo "Country directories:"
+
+          echo ""
+          echo "=== Latest files in each country ==="
+          for country in archive/*/; do
+            if [ -d "$country" ]; then
+              country_name=$(basename "$country")
+              latest_file=$(ls -1t "$country"*.json 2>/dev/null | head -1)
+              if [ -n "$latest_file" ]; then
+                echo "$country_name: $(basename "$latest_file")"
+              else
+                echo "$country_name: no files"
+              fi
+            fi
+          done
+
+          echo ""
+          echo "=== Current data-index.js status ==="
+          if [ -f "page/data-index.js" ]; then
+            echo "data-index.js exists"
+            # 提取生成时间
+            grep -o "generated.*" page/data-index.js | head -1 || echo "No generation time found"
+          else
+            echo "data-index.js does not exist"
+          fi
+
+      - name: 🔧 创建脚本目录
+        run: mkdir -p scripts
+
+      - name: 📝 生成数据索引
+        run: |
+          echo "🚀 Running data index generation..."
+          node scripts/generate-data-index.js
+
+          echo ""
+          echo "=== Generated data-index.js preview ==="
+          head -20 page/data-index.js
+
+          echo ""
+          echo "=== File size comparison ==="
+          if [ -f "page/data-index.js" ]; then
+            wc -c page/data-index.js | xargs echo "New data-index.js size (bytes):"
+          fi
+
+      - name: 🔍 检查文件变更
+        id: check-changes
+        run: |
+          # 检查 data-index.js 是否有变化
+          if git diff --quiet page/data-index.js; then
+            echo "No changes detected in data-index.js"
+            echo "has-changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in data-index.js"
+            echo "has-changes=true" >> $GITHUB_OUTPUT
+            
+            echo ""
+            echo "=== Changes preview ==="
+            git --no-pager diff page/data-index.js | head -50
+          fi
+
+      - name: 📤 提交并推送更改
+        if: steps.check-changes.outputs.has-changes == 'true'
+        run: |
+          # 配置 Git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # 添加更改
+          git add page/data-index.js
+
+          # 创建提交信息
+          COMMIT_MSG="🤖 Auto-update data index - $(date '+%Y-%m-%d %H:%M UTC')"
+          git commit -m "$COMMIT_MSG"
+
+          # 推送更改
+          git push
+
+          echo "✅ Changes committed and pushed successfully"
+
+      - name: 📋 运行总结
+        run: |
+          echo "=== Update Summary ==="
+          echo "Workflow completed successfully!"
+
+          if [ "${{ steps.check-changes.outputs.has-changes }}" == "true" ]; then
+            echo "✅ Data index was updated and committed"
+          else
+            echo "ℹ️ No updates were needed"
+          fi
+
+          echo ""
+          echo "=== Final Status ==="
+          find archive -name "*.json" | wc -l | xargs echo "Total archive files:"
+
+          if [ -f "page/data-index.js" ]; then
+            grep -o '"totalFiles": *[0-9]*' page/data-index.js | head -1 || echo "Could not extract total files count"
+            grep -o '"generated": *"[^"]*"' page/data-index.js | head -1 || echo "Could not extract generation time"
+          fi
+
+      - name: 🚀 触发 GitHub Pages 部署
+        if: steps.check-changes.outputs.has-changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // 触发 GitHub Pages 重新部署
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'pages.yml',  // 如果您有自定义的 Pages workflow
+                ref: 'main'
+              });
+              console.log('✅ GitHub Pages deployment triggered');
+            } catch (error) {
+              console.log('ℹ️ Could not trigger custom Pages workflow, relying on automatic deployment');
+            }

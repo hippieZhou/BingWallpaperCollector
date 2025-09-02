@@ -1,0 +1,22 @@
+{
+  "name": "bing-wallpaper-data-index-generator",
+  "version": "1.0.0",
+  "description": "Generate data index for Bing Wallpaper Collector GitHub Pages",
+  "main": "generate-data-index.js",
+  "scripts": {
+    "generate": "node generate-data-index.js",
+    "test": "node -e \"console.log('Testing script...'); require('./generate-data-index.js')\""
+  },
+  "keywords": [
+    "bing",
+    "wallpaper",
+    "data",
+    "index",
+    "github-pages"
+  ],
+  "author": "BingWallpaperCollector",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
