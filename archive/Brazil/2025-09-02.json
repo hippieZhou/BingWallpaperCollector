@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-02",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "O trigo que nasceu do gelo",
+  "copyright": "Colinas onduladas de Palouse, Washington, EUA (© svetlana57/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Palouse&form=hpcapt&mkt=pt-br",
+  "description": "Colinas onduladas de Palouse, Washington, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_PalouseWA%22&FORM=HPQUIZ",
+  "hash": "e834ac6a51bce762ea7607028dd50126",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-01",
+    "EndDate": "2025-09-02",
+    "FullStartDateTime": "2025-09-01T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250901",
+      "fullStartDate": "202509010300",
+      "endDate": "20250902"
+    }
+  },
+  "createdAt": "2025-09-02T02:14:55.7090151+00:00",
+  "originalUrlBase": "/th?id=OHR.PalouseWA_PT-BR8269290462"
+}
