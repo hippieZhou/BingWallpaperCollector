@@ -190,12 +190,15 @@ jobs:
             echo "Changes detected in data-index.js, committing updates..."
             echo "has-index-changes=true" >> $GITHUB_OUTPUT
             
+            # 创建更新时间戳文件 (用于触发推送通知)
+            echo "{ \"lastUpdate\": $(date +%s), \"updateTime\": \"$(date -u '+%Y-%m-%d %H:%M:%S UTC')\" }" > page/last-update.json
+            
             # 配置 Git
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             
             # 添加更改
-            git add page/data-index.js
+            git add page/data-index.js page/last-update.json
             
             # 创建提交信息
             COMMIT_MSG="🤖 Auto-update data index - $(date '+%Y-%m-%d %H:%M UTC')"
@@ -205,6 +208,7 @@ jobs:
             git push
             
             echo "✅ Data index changes committed and pushed successfully"
+            echo "📅 Update timestamp: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             
             echo ""
             echo "=== Changes preview ==="

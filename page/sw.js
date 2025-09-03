@@ -126,7 +126,7 @@ self.addEventListener("fetch", (event) => {
   // 4. 导航请求 - 网络优先，离线时返回缓存页面
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request, { referrerPolicy: 'no-referrer' })
+      fetch(request, { referrerPolicy: "no-referrer" })
         .then((response) => {
           // 成功时缓存页面
           if (response.ok) {
@@ -156,15 +156,15 @@ self.addEventListener("fetch", (event) => {
         // 检查是否是Bing图片URL，如果是则设置no-referrer策略
         const url = new URL(request.url);
         let fetchOptions = {};
-        
-                 if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
-           fetchOptions = {
-             referrerPolicy: 'no-referrer',
-             mode: 'cors',
-             credentials: 'omit'
-           };
-         }
-        
+
+        if (url.hostname === "www.bing.com" || url.hostname === "bing.com") {
+          fetchOptions = {
+            referrerPolicy: "no-referrer",
+            mode: "cors",
+            credentials: "omit",
+          };
+        }
+
         return await fetch(request, fetchOptions);
       } catch (error) {
         // 网络失败时回退到缓存
@@ -182,20 +182,20 @@ async function fetchAndCache(request, cacheName, options = {}) {
     // 检查是否是Bing图片URL，如果是则设置no-referrer策略
     const url = new URL(request.url);
     let fetchOptions = {};
-    
-             if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
-           fetchOptions = {
-             referrerPolicy: 'no-referrer',
-             mode: 'cors',
-             credentials: 'omit'
-           };
-         }
-    
+
+    if (url.hostname === "www.bing.com" || url.hostname === "bing.com") {
+      fetchOptions = {
+        referrerPolicy: "no-referrer",
+        mode: "cors",
+        credentials: "omit",
+      };
+    }
+
     const response = await fetch(request, fetchOptions);
 
     if (response.ok) {
       // 只缓存GET请求，跳过HEAD等其他请求方法
-      if (request.method === 'GET') {
+      if (request.method === "GET") {
         // 克隆响应用于缓存
         const responseClone = response.clone();
         const cache = await caches.open(cacheName);
@@ -227,10 +227,10 @@ async function fetchAndCache(request, cacheName, options = {}) {
     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
   } catch (error) {
     console.log("[SW] 网络请求失败:", request.url, error.message);
-    
+
     // 对于Bing图片请求失败，不要记录详细错误避免过多日志
     const url = new URL(request.url);
-    if (url.hostname === 'www.bing.com' || url.hostname === 'bing.com') {
+    if (url.hostname === "www.bing.com" || url.hostname === "bing.com") {
       // 静默处理Bing图片请求失败
     }
 
@@ -334,5 +334,210 @@ self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
     self.skipWaiting();
   }
+
+  // 手动检查数据更新
+  if (event.data && event.data.type === "CHECK_DATA_UPDATE") {
+    checkForDataUpdates();
+  }
 });
 
+// 检查数据更新
+async function checkForDataUpdates() {
+  try {
+    console.log("[SW] 检查数据更新...");
+
+    const cache = await caches.open(CACHE_NAME);
+
+    // 首先检查更新时间戳
+    const latestTimestampResponse = await fetch(
+      "/BingWallpaperCollector/last-update.json?t=" + Date.now(),
+      {
+        cache: "no-cache",
+      }
+    );
+
+    if (latestTimestampResponse.ok) {
+      const latestTimestamp = await latestTimestampResponse.json();
+      const cachedTimestampResponse = await cache.match(
+        "/BingWallpaperCollector/last-update.json"
+      );
+
+      let shouldUpdate = false;
+      let isFirstCheck = false;
+
+      if (cachedTimestampResponse) {
+        const cachedTimestamp = await cachedTimestampResponse.json();
+
+        // 比较时间戳
+        if (latestTimestamp.lastUpdate > cachedTimestamp.lastUpdate) {
+          console.log("[SW] 时间戳显示有数据更新！");
+          console.log(
+            "[SW] 缓存时间:",
+            new Date(cachedTimestamp.lastUpdate * 1000).toISOString()
+          );
+          console.log(
+            "[SW] 最新时间:",
+            new Date(latestTimestamp.lastUpdate * 1000).toISOString()
+          );
+          shouldUpdate = true;
+        }
+      } else {
+        console.log("[SW] 首次检查更新时间戳");
+        isFirstCheck = true;
+        shouldUpdate = true;
+      }
+
+      if (shouldUpdate) {
+        // 更新时间戳缓存
+        await cache.put(
+          "/BingWallpaperCollector/last-update.json",
+          latestTimestampResponse.clone()
+        );
+
+        // 更新数据索引缓存
+        const latestIndexResponse = await fetch(
+          "/BingWallpaperCollector/data-index.js?t=" + Date.now(),
+          {
+            cache: "no-cache",
+          }
+        );
+
+        if (latestIndexResponse.ok) {
+          await cache.put(
+            "/BingWallpaperCollector/data-index.js",
+            latestIndexResponse.clone()
+          );
+
+          if (!isFirstCheck) {
+            // 发送推送通知 (不在首次检查时发送)
+            await sendDataUpdateNotification();
+
+            // 通知所有客户端数据已更新
+            const clients = await self.clients.matchAll();
+            clients.forEach((client) => {
+              client.postMessage({
+                type: "DATA_UPDATED",
+                message: "发现新的壁纸数据！",
+                timestamp: latestTimestamp.lastUpdate,
+                updateTime: latestTimestamp.updateTime,
+              });
+            });
+          }
+
+          console.log("[SW] 数据缓存已更新");
+        }
+      } else {
+        console.log("[SW] 数据无更新");
+      }
+    } else {
+      // 如果没有时间戳文件，回退到检查数据索引文件
+      console.log("[SW] 未找到时间戳文件，回退到检查数据索引");
+      await checkDataIndexForUpdates(cache);
+    }
+  } catch (error) {
+    console.error("[SW] 检查数据更新失败:", error);
+    // 错误时回退到检查数据索引文件
+    try {
+      const cache = await caches.open(CACHE_NAME);
+      await checkDataIndexForUpdates(cache);
+    } catch (fallbackError) {
+      console.error("[SW] 回退检查也失败:", fallbackError);
+    }
+  }
+}
+
+// 回退方法：检查数据索引文件变化
+async function checkDataIndexForUpdates(cache) {
+  try {
+    const cachedIndexResponse = await cache.match(
+      "/BingWallpaperCollector/data-index.js"
+    );
+    const latestIndexResponse = await fetch(
+      "/BingWallpaperCollector/data-index.js?t=" + Date.now(),
+      {
+        cache: "no-cache",
+      }
+    );
+
+    if (!latestIndexResponse.ok) {
+      console.log("[SW] 无法获取最新数据索引");
+      return;
+    }
+
+    const latestIndexText = await latestIndexResponse.text();
+
+    if (cachedIndexResponse) {
+      const cachedIndexText = await cachedIndexResponse.text();
+
+      if (cachedIndexText !== latestIndexText) {
+        console.log("[SW] 数据索引有变化！");
+        await cache.put(
+          "/BingWallpaperCollector/data-index.js",
+          latestIndexResponse.clone()
+        );
+
+        await sendDataUpdateNotification();
+
+        const clients = await self.clients.matchAll();
+        clients.forEach((client) => {
+          client.postMessage({
+            type: "DATA_UPDATED",
+            message: "发现新的壁纸数据！",
+          });
+        });
+      }
+    } else {
+      await cache.put(
+        "/BingWallpaperCollector/data-index.js",
+        latestIndexResponse.clone()
+      );
+      console.log("[SW] 首次缓存数据索引");
+    }
+  } catch (error) {
+    console.error("[SW] 检查数据索引失败:", error);
+  }
+}
+
+// 发送数据更新通知
+async function sendDataUpdateNotification() {
+  try {
+    const options = {
+      body: "发现新的壁纸！点击查看最新收集的精美壁纸。",
+      icon: "/BingWallpaperCollector/assets/images/icon-192x192.png",
+      badge: "/BingWallpaperCollector/assets/images/icon-72x72.png",
+      vibrate: [200, 100, 200, 100, 200],
+      data: {
+        url: "/BingWallpaperCollector/",
+        timestamp: Date.now(),
+      },
+      actions: [
+        {
+          action: "view",
+          title: "查看新壁纸",
+          icon: "/BingWallpaperCollector/assets/images/icon-96x96.png",
+        },
+        {
+          action: "dismiss",
+          title: "稍后查看",
+          icon: "/BingWallpaperCollector/assets/images/icon-72x72.png",
+        },
+      ],
+      tag: "data-update",
+      renotify: true,
+      requireInteraction: false,
+    };
+
+    await self.registration.showNotification(
+      "必应壁纸收集器 - 新数据",
+      options
+    );
+    console.log("[SW] 数据更新通知已发送");
+  } catch (error) {
+    console.error("[SW] 发送通知失败:", error);
+  }
+}
+
+// 定期检查数据更新（每小时一次）
+setInterval(() => {
+  checkForDataUpdates();
+}, 60 * 60 * 1000);

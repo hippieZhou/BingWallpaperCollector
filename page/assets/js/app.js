@@ -684,15 +684,27 @@ class WallpaperApp {
     const copyright = document.getElementById("modal-copyright");
     const resolutionButtons = document.getElementById("resolution-buttons");
 
-    title.textContent = wallpaper.title;
-    country.textContent = `${wallpaper.countryInfo.flag} ${wallpaper.countryInfo.name}`;
-    country.className = "country-tag";
-    date.textContent = wallpaper.displayDate;
-    date.className = "date-tag";
-    image.src = wallpaper.fullImageUrl;
-    image.alt = wallpaper.title;
-    description.textContent = wallpaper.description;
-    copyright.innerHTML = `© ${wallpaper.copyright}`;
+    if (title) {
+      title.textContent = wallpaper.title;
+    }
+    if (country) {
+      country.textContent = `${wallpaper.countryInfo.flag} ${wallpaper.countryInfo.name}`;
+      country.className = "country-tag";
+    }
+    if (date) {
+      date.textContent = wallpaper.displayDate;
+      date.className = "date-tag";
+    }
+    if (image) {
+      image.src = wallpaper.fullImageUrl;
+      image.alt = wallpaper.title;
+    }
+    if (description) {
+      description.textContent = wallpaper.description;
+    }
+    if (copyright) {
+      copyright.innerHTML = `© ${wallpaper.copyright}`;
+    }
 
     // 设置主下载按钮
     this.setupDownloadButton(wallpaper);
@@ -756,7 +768,9 @@ class WallpaperApp {
   // 设置主下载按钮
   setupDownloadButton(wallpaper) {
     const downloadBtn = document.getElementById("download-btn");
-    const resolutionSpan = downloadBtn.querySelector(".btn-resolution");
+    const resolutionSpan = downloadBtn
+      ? downloadBtn.querySelector(".btn-resolution")
+      : null;
 
     if (wallpaper.imageResolutions && wallpaper.imageResolutions.length > 0) {
       // 找到最高分辨率（优先UHD 4K）
@@ -764,13 +778,17 @@ class WallpaperApp {
       const is4K = bestResolution.resolution === "UHD";
 
       // 更新按钮显示的分辨率
-      resolutionSpan.textContent = is4K ? "4K" : bestResolution.resolution;
+      if (resolutionSpan) {
+        resolutionSpan.textContent = is4K ? "4K" : bestResolution.resolution;
+      }
 
       // 存储默认下载的分辨率
-      downloadBtn.setAttribute(
-        "data-default-resolution",
-        JSON.stringify(bestResolution)
-      );
+      if (downloadBtn) {
+        downloadBtn.setAttribute(
+          "data-default-resolution",
+          JSON.stringify(bestResolution)
+        );
+      }
     }
   }
 
@@ -852,8 +870,15 @@ class WallpaperApp {
     panel.classList.add("show");
 
     // 更新按钮状态
-    downloadBtn.querySelector(".btn-text").textContent = "选择分辨率";
-    downloadBtn.querySelector(".fas").className = "fas fa-chevron-up";
+    const btnText = downloadBtn.querySelector(".btn-text");
+    const btnIcon = downloadBtn.querySelector(".fas");
+
+    if (btnText) {
+      btnText.textContent = "选择分辨率";
+    }
+    if (btnIcon) {
+      btnIcon.className = "fas fa-chevron-up";
+    }
 
     // 如果有默认分辨率，也添加快速下载选项
     const defaultResolution = downloadBtn.getAttribute(
@@ -891,8 +916,15 @@ class WallpaperApp {
     panel.classList.remove("show");
 
     // 恢复按钮状态
-    downloadBtn.querySelector(".btn-text").textContent = "下载壁纸";
-    downloadBtn.querySelector(".fas").className = "fas fa-download";
+    const btnText = downloadBtn.querySelector(".btn-text");
+    const btnIcon = downloadBtn.querySelector(".fas");
+
+    if (btnText) {
+      btnText.textContent = "下载壁纸";
+    }
+    if (btnIcon) {
+      btnIcon.className = "fas fa-download";
+    }
 
     // 清除快速下载选项
     const quickDownload = panel.querySelector(".quick-download");
@@ -912,9 +944,16 @@ class WallpaperApp {
       // 更新按钮状态
       button.disabled = true;
       button.classList.add("downloading");
-      downloadIcon.className = "fas fa-spinner fa-spin";
-      downloadText.textContent = "下载中...";
-      downloadStatus.textContent = "";
+
+      if (downloadIcon) {
+        downloadIcon.className = "fas fa-spinner fa-spin";
+      }
+      if (downloadText) {
+        downloadText.textContent = "下载中...";
+      }
+      if (downloadStatus) {
+        downloadStatus.textContent = "";
+      }
 
       // 生成文件名
       const fileName = this.generateFileName(wallpaper, resolution);
@@ -949,9 +988,15 @@ class WallpaperApp {
       }, 100);
 
       // 成功状态
-      downloadIcon.className = "fas fa-check";
-      downloadText.textContent = "下载完成";
-      downloadStatus.textContent = "✓";
+      if (downloadIcon) {
+        downloadIcon.className = "fas fa-check";
+      }
+      if (downloadText) {
+        downloadText.textContent = "下载完成";
+      }
+      if (downloadStatus) {
+        downloadStatus.textContent = "✓";
+      }
       button.classList.remove("downloading");
       button.classList.add("download-success");
 
@@ -965,18 +1010,30 @@ class WallpaperApp {
       // 重置按钮状态
       setTimeout(() => {
         button.disabled = false;
-        downloadIcon.className = "fas fa-download";
-        downloadText.textContent = "下载";
-        downloadStatus.textContent = "";
+        if (downloadIcon) {
+          downloadIcon.className = "fas fa-download";
+        }
+        if (downloadText) {
+          downloadText.textContent = "下载";
+        }
+        if (downloadStatus) {
+          downloadStatus.textContent = "";
+        }
         button.classList.remove("download-success");
       }, 3000);
     } catch (error) {
       console.error("下载失败:", error);
 
       // 错误状态
-      downloadIcon.className = "fas fa-exclamation-triangle";
-      downloadText.textContent = "下载失败";
-      downloadStatus.textContent = "!";
+      if (downloadIcon) {
+        downloadIcon.className = "fas fa-exclamation-triangle";
+      }
+      if (downloadText) {
+        downloadText.textContent = "下载失败";
+      }
+      if (downloadStatus) {
+        downloadStatus.textContent = "!";
+      }
       button.classList.remove("downloading");
       button.classList.add("download-error");
 
@@ -986,9 +1043,15 @@ class WallpaperApp {
       // 重置按钮状态
       setTimeout(() => {
         button.disabled = false;
-        downloadIcon.className = "fas fa-download";
-        downloadText.textContent = "下载";
-        downloadStatus.textContent = "";
+        if (downloadIcon) {
+          downloadIcon.className = "fas fa-download";
+        }
+        if (downloadText) {
+          downloadText.textContent = "下载";
+        }
+        if (downloadStatus) {
+          downloadStatus.textContent = "";
+        }
         button.classList.remove("download-error");
       }, 3000);
     }
@@ -1023,11 +1086,16 @@ class WallpaperApp {
       filteredCount !== null
         ? filteredCount
         : window.dataLoader.wallpapers.length;
-    totalCount.textContent = displayCount;
-    countryCount.textContent = window.dataLoader.countries.length;
+
+    if (totalCount) {
+      totalCount.textContent = displayCount;
+    }
+    if (countryCount) {
+      countryCount.textContent = window.dataLoader.countries.length;
+    }
 
     // 设置最后更新时间
-    if (window.dataLoader.wallpapers.length > 0) {
+    if (lastUpdate && window.dataLoader.wallpapers.length > 0) {
       const latestDate = Math.max(
         ...window.dataLoader.wallpapers.map((w) => new Date(w.date))
       );

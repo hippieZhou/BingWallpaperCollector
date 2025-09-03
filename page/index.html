@@ -170,6 +170,12 @@
                     <i class="fas fa-globe-americas"></i>
                     <span id="country-count">0</span> 个国家
                 </span>
+                <span class="stat-item notification-control">
+                    <button id="notification-btn" class="btn btn-primary btn-sm">
+                        <i class="fas fa-bell"></i> 订阅通知
+                    </button>
+                    <span id="notification-status" class="notification-status">未订阅通知</span>
+                </span>
             </div>
         </div>
     </section>
@@ -332,6 +338,9 @@
             // Service Worker注册
             if ('serviceWorker' in navigator) {
                 window.addEventListener('load', function () {
+                    // 初始化推送通知
+                    setTimeout(initPushNotifications, 1000);
+
                     navigator.serviceWorker.register('/BingWallpaperCollector/sw.js', {
                         scope: '/BingWallpaperCollector/'
                     }).then(function (registration) {
@@ -419,6 +428,155 @@
                 if (confirm('发现新版本！是否立即刷新页面以获得最新功能？')) {
                     window.location.reload();
                 }
+            }
+
+            // 推送通知管理
+            async function initPushNotifications() {
+                if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+                    console.log('[PWA] 推送通知不支持');
+                    return;
+                }
+
+                try {
+                    const registration = await navigator.serviceWorker.ready;
+
+                    // 检查用户是否已经订阅
+                    const subscription = await registration.pushManager.getSubscription();
+                    const isSubscribed = subscription !== null;
+
+                    updateNotificationUI(isSubscribed);
+
+                    if (isSubscribed) {
+                        console.log('[PWA] 用户已订阅推送通知');
+                        // 可以在这里发送订阅信息到服务器
+                        // sendSubscriptionToServer(subscription);
+                    }
+                } catch (error) {
+                    console.error('[PWA] 推送通知初始化失败:', error);
+                }
+            }
+
+            // 订阅推送通知
+            async function subscribePushNotification() {
+                try {
+                    const registration = await navigator.serviceWorker.ready;
+
+                    // 请求通知权限
+                    const permission = await Notification.requestPermission();
+                    if (permission !== 'granted') {
+                        alert('需要通知权限才能接收更新通知');
+                        return false;
+                    }
+
+                    // VAPID 公钥 (需要替换为实际的公钥)
+                    const applicationServerKey = urlB64ToUint8Array(
+                        'BEl62iUYgUivxIkv69yViEuiBIa40HI8MF4aPyPXOB8BFwvz4chBH6DV2L3gRv6U7OG9S1DgmRc_8xk7VvEYRmI'
+                    );
+
+                    const subscription = await registration.pushManager.subscribe({
+                        userVisibleOnly: true,
+                        applicationServerKey: applicationServerKey
+                    });
+
+                    console.log('[PWA] 推送通知订阅成功');
+                    updateNotificationUI(true);
+
+                    // 这里可以将订阅信息发送到服务器
+                    // await sendSubscriptionToServer(subscription);
+
+                    // 显示成功消息
+                    showNotificationStatus('订阅成功！现在您会收到新壁纸更新通知。', 'success');
+
+                    return true;
+                } catch (error) {
+                    console.error('[PWA] 推送通知订阅失败:', error);
+                    showNotificationStatus('订阅失败：' + error.message, 'error');
+                    return false;
+                }
+            }
+
+            // 取消订阅推送通知
+            async function unsubscribePushNotification() {
+                try {
+                    const registration = await navigator.serviceWorker.ready;
+                    const subscription = await registration.pushManager.getSubscription();
+
+                    if (subscription) {
+                        await subscription.unsubscribe();
+                        console.log('[PWA] 推送通知取消订阅成功');
+                        updateNotificationUI(false);
+                        showNotificationStatus('已取消通知订阅', 'info');
+                    }
+                } catch (error) {
+                    console.error('[PWA] 取消订阅失败:', error);
+                    showNotificationStatus('取消订阅失败：' + error.message, 'error');
+                }
+            }
+
+            // 更新通知界面状态
+            function updateNotificationUI(isSubscribed) {
+                const notifyBtn = document.getElementById('notification-btn');
+                const notifyStatus = document.getElementById('notification-status');
+
+                if (notifyBtn) {
+                    if (isSubscribed) {
+                        notifyBtn.innerHTML = '<i class="fas fa-bell-slash"></i> 取消通知';
+                        notifyBtn.onclick = unsubscribePushNotification;
+                        notifyBtn.className = 'btn btn-secondary btn-sm';
+                    } else {
+                        notifyBtn.innerHTML = '<i class="fas fa-bell"></i> 订阅通知';
+                        notifyBtn.onclick = subscribePushNotification;
+                        notifyBtn.className = 'btn btn-primary btn-sm';
+                    }
+                }
+
+                if (notifyStatus) {
+                    notifyStatus.textContent = isSubscribed ? '已订阅更新通知' : '未订阅通知';
+                    notifyStatus.className = isSubscribed ? 'notification-status subscribed' : 'notification-status';
+                }
+            }
+
+            // 显示通知状态消息
+            function showNotificationStatus(message, type) {
+                const statusDiv = document.createElement('div');
+                statusDiv.className = `notification-message ${type}`;
+                statusDiv.textContent = message;
+                statusDiv.style.cssText = `
+                    position: fixed; 
+                    top: 20px; 
+                    right: 20px; 
+                    z-index: 10000; 
+                    padding: 12px 20px; 
+                    border-radius: 8px; 
+                    color: white;
+                    font-weight: 500;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                    animation: slideIn 0.3s ease-out;
+                    background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#6b7280'};
+                `;
+
+                document.body.appendChild(statusDiv);
+
+                setTimeout(() => {
+                    statusDiv.style.animation = 'slideOut 0.3s ease-in';
+                    setTimeout(() => statusDiv.remove(), 300);
+                }, 3000);
+            }
+
+            // VAPID key 转换函数
+            function urlB64ToUint8Array(base64String) {
+                const padding = '='.repeat((4 - base64String.length % 4) % 4);
+                const base64 = (base64String + padding)
+                    .replace(/\-/g, '+')
+                    .replace(/_/g, '/');
+
+                const rawData = window.atob(base64);
+                const outputArray = new Uint8Array(rawData.length);
+
+                for (let i = 0; i < rawData.length; ++i) {
+                    outputArray[i] = rawData.charCodeAt(i);
+                }
+                return outputArray;
             }
 
             // 检查是否应该显示安装提示
@@ -570,6 +728,97 @@
                 }
             `;
             document.head.appendChild(style);
+
+            // 监听Service Worker消息
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.addEventListener('message', function (event) {
+                    if (event.data && event.data.type === 'DATA_UPDATED') {
+                        console.log('[PWA] 收到数据更新通知:', event.data.message);
+                        // 显示数据更新提示
+                        showDataUpdateBanner(event.data.message);
+                    }
+                });
+            }
+
+            // 显示数据更新横幅
+            function showDataUpdateBanner(message) {
+                // 移除现有的更新横幅
+                const existingBanner = document.getElementById('data-update-banner');
+                if (existingBanner) {
+                    existingBanner.remove();
+                }
+
+                // 创建新的更新横幅
+                const banner = document.createElement('div');
+                banner.id = 'data-update-banner';
+                banner.innerHTML = `
+                    <div style="
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        color: white;
+                        padding: 12px 20px;
+                        text-align: center;
+                        z-index: 10001;
+                        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+                        animation: slideDown 0.5s ease-out;
+                    ">
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                            <i class="fas fa-sparkles" style="color: #ffd700;"></i>
+                            <span style="font-weight: 500;">${message} 点击刷新查看最新内容</span>
+                            <button onclick="window.location.reload()" style="
+                                background: rgba(255,255,255,0.2);
+                                border: 1px solid rgba(255,255,255,0.3);
+                                color: white;
+                                padding: 6px 12px;
+                                border-radius: 4px;
+                                cursor: pointer;
+                                font-size: 0.9rem;
+                                margin-left: 10px;
+                            ">刷新</button>
+                            <button onclick="this.parentElement.parentElement.parentElement.remove()" style="
+                                background: transparent;
+                                border: none;
+                                color: rgba(255,255,255,0.8);
+                                cursor: pointer;
+                                font-size: 1.2rem;
+                                margin-left: 10px;
+                            ">×</button>
+                        </div>
+                    </div>
+                `;
+
+                // 添加到页面
+                document.body.appendChild(banner);
+
+                // 5秒后自动隐藏
+                setTimeout(() => {
+                    if (banner && banner.parentNode) {
+                        banner.style.animation = 'slideUp 0.5s ease-in';
+                        setTimeout(() => {
+                            if (banner.parentNode) {
+                                banner.remove();
+                            }
+                        }, 500);
+                    }
+                }, 8000);
+            }
+
+            // 添加滑入动画样式
+            const updateStyle = document.createElement('style');
+            updateStyle.textContent = `
+                @keyframes slideDown {
+                    from { transform: translateY(-100%); opacity: 0; }
+                    to { transform: translateY(0); opacity: 1; }
+                }
+                @keyframes slideUp {
+                    from { transform: translateY(0); opacity: 1; }
+                    to { transform: translateY(-100%); opacity: 0; }
+                }
+            `;
+            document.head.appendChild(updateStyle);
         })();
     </script>
 </body>
