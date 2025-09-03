@@ -23,21 +23,21 @@ function scanArchiveDirectory() {
     console.error(`❌ Archive 目录不存在: ${ARCHIVE_DIR}`);
     console.log("当前工作目录:", process.cwd());
     console.log("尝试查找 archive 目录...");
-    
+
     // 列出当前目录的内容
     try {
       const currentDirContents = fs.readdirSync(process.cwd());
       console.log("当前目录内容:", currentDirContents);
-      
+
       // 检查是否有 archive 相关目录
-      const archiveRelated = currentDirContents.filter(item => 
-        item.toLowerCase().includes('archive')
+      const archiveRelated = currentDirContents.filter((item) =>
+        item.toLowerCase().includes("archive")
       );
       console.log("发现的 archive 相关项:", archiveRelated);
     } catch (err) {
       console.error("无法读取当前目录:", err.message);
     }
-    
+
     throw new Error(`Archive 目录不存在: ${ARCHIVE_DIR}`);
   }
 
@@ -61,14 +61,14 @@ function scanArchiveDirectory() {
   }
 
   console.log(`📁 发现 ${countryDirs.length} 个国家目录:`, countryDirs);
-  
+
   if (countryDirs.length === 0) {
     console.warn("⚠️ 警告: 未发现任何国家目录");
     return {
       countries: [],
       dates: [],
       totalFiles: 0,
-      availableData: {}
+      availableData: {},
     };
   }
 
@@ -77,18 +77,18 @@ function scanArchiveDirectory() {
     const countryPath = path.join(ARCHIVE_DIR, country);
     console.log(`🔍 正在扫描国家目录: ${country}`);
     console.log(`   路径: ${countryPath}`);
-    
+
     let jsonFiles;
     try {
       // 检查国家目录是否可读
       const allFiles = fs.readdirSync(countryPath);
       console.log(`   目录中所有文件: ${allFiles.length} 个`);
-      
+
       jsonFiles = allFiles
         .filter((file) => file.endsWith(".json"))
         .map((file) => file.replace(".json", ""))
         .sort((a, b) => new Date(b) - new Date(a)); // 日期降序
-        
+
       console.log(`   JSON文件: ${jsonFiles.length} 个`, jsonFiles.slice(0, 3));
     } catch (err) {
       console.error(`❌ 无法读取国家目录 ${country}: ${err.message}`);
@@ -103,7 +103,11 @@ function scanArchiveDirectory() {
       // 收集所有日期
       jsonFiles.forEach((date) => dates.add(date));
 
-      console.log(`✅ ${country}: ${jsonFiles.length} 个文件 (${jsonFiles[0]} 到 ${jsonFiles[jsonFiles.length-1]})`);
+      console.log(
+        `✅ ${country}: ${jsonFiles.length} 个文件 (${jsonFiles[0]} 到 ${
+          jsonFiles[jsonFiles.length - 1]
+        })`
+      );
     } else {
       console.log(`⚠️  ${country}: 无有效JSON文件`);
     }
@@ -220,10 +224,10 @@ function main() {
       const fileStats = fs.statSync(OUTPUT_FILE);
       console.log(`文件大小: ${fileStats.size} 字节`);
       console.log(`修改时间: ${fileStats.mtime}`);
-      
+
       // 读取并验证文件内容
-      const savedContent = fs.readFileSync(OUTPUT_FILE, 'utf8');
-      if (savedContent.includes('WALLPAPER_DATA_INDEX')) {
+      const savedContent = fs.readFileSync(OUTPUT_FILE, "utf8");
+      if (savedContent.includes("WALLPAPER_DATA_INDEX")) {
         console.log("✅ 文件内容验证通过");
       } else {
         console.error("❌ 文件内容验证失败");
