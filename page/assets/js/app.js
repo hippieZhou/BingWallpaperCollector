@@ -72,6 +72,11 @@ class WallpaperApp {
             this.closeModal();
         });
 
+        // 下载按钮
+        document.getElementById('download-btn').addEventListener('click', (e) => {
+            this.toggleDownloadPanel();
+        });
+
         // 复制链接和分享按钮
         document.getElementById('copy-link-btn').addEventListener('click', () => {
             this.copyCurrentWallpaperLink();
@@ -673,49 +678,11 @@ class WallpaperApp {
         description.textContent = wallpaper.description;
         copyright.innerHTML = `© ${wallpaper.copyright}`;
 
-        // 渲染分辨率下载按钮
-        resolutionButtons.innerHTML = '';
-        if (wallpaper.imageResolutions) {
-            // 按分辨率重要性排序（4K优先）
-            const sortedResolutions = [...wallpaper.imageResolutions].sort((a, b) => {
-                const priorities = { 'UHD': 1, 'Full HD': 2, 'HD': 3, 'Standard': 4 };
-                return (priorities[a.resolution] || 5) - (priorities[b.resolution] || 5);
-            });
-            
-            sortedResolutions.forEach((resolution, index) => {
-                const btn = document.createElement('button');
-                btn.className = 'resolution-btn download-btn';
-                btn.setAttribute('data-url', resolution.url);
-                btn.setAttribute('data-resolution', resolution.resolution);
-                btn.setAttribute('data-filename', `${wallpaper.title}-${resolution.resolution}.jpg`);
-                
-                // 4K分辨率添加特殊标识
-                const is4K = resolution.resolution === 'UHD';
-                if (is4K) {
-                    btn.classList.add('resolution-4k');
-                }
-                
-                btn.innerHTML = `
-                    <div class="resolution-info">
-                        <span class="resolution-name">
-                            ${resolution.resolution}
-                            ${is4K ? '<span class="badge-4k">4K</span>' : ''}
-                        </span>
-                        <span class="resolution-size">${resolution.size}</span>
-                    </div>
-                    <div class="download-action">
-                        <i class="fas fa-download"></i>
-                        <span class="download-text">下载</span>
-                        <span class="download-status"></span>
-                    </div>
-                `;
-                
-                // 绑定下载事件
-                btn.addEventListener('click', () => this.downloadWallpaper(resolution, wallpaper));
-                
-                resolutionButtons.appendChild(btn);
-            });
-        }
+        // 设置主下载按钮
+        this.setupDownloadButton(wallpaper);
+        
+        // 生成分辨率选项面板
+        this.setupDownloadPanel(wallpaper);
 
         // 存储当前壁纸用于分享
         this.currentModalWallpaper = wallpaper;
@@ -729,6 +696,10 @@ class WallpaperApp {
         const modal = document.getElementById('wallpaper-modal');
         modal.classList.remove('active');
         document.body.style.overflow = '';
+        
+        // 隐藏下载面板
+        this.hideDownloadPanel();
+        
         this.currentModalWallpaper = null;
     }
 
@@ -760,6 +731,142 @@ class WallpaperApp {
         } else {
             // 回退到复制链接
             this.copyCurrentWallpaperLink();
+        }
+    }
+
+    // 设置主下载按钮
+    setupDownloadButton(wallpaper) {
+        const downloadBtn = document.getElementById('download-btn');
+        const resolutionSpan = downloadBtn.querySelector('.btn-resolution');
+        
+        if (wallpaper.imageResolutions && wallpaper.imageResolutions.length > 0) {
+            // 找到最高分辨率（优先UHD 4K）
+            const bestResolution = this.getBestResolution(wallpaper.imageResolutions);
+            const is4K = bestResolution.resolution === 'UHD';
+            
+            // 更新按钮显示的分辨率
+            resolutionSpan.textContent = is4K ? '4K' : bestResolution.resolution;
+            
+            // 存储默认下载的分辨率
+            downloadBtn.setAttribute('data-default-resolution', JSON.stringify(bestResolution));
+        }
+    }
+
+    // 设置下载面板
+    setupDownloadPanel(wallpaper) {
+        const resolutionOptions = document.getElementById('resolution-options');
+        resolutionOptions.innerHTML = '';
+        
+        if (wallpaper.imageResolutions) {
+            // 按分辨率重要性排序（4K优先）
+            const sortedResolutions = [...wallpaper.imageResolutions].sort((a, b) => {
+                const priorities = { 'UHD': 1, 'Full HD': 2, 'HD': 3, 'Standard': 4 };
+                return (priorities[a.resolution] || 5) - (priorities[b.resolution] || 5);
+            });
+            
+            sortedResolutions.forEach((resolution) => {
+                const option = document.createElement('div');
+                const is4K = resolution.resolution === 'UHD';
+                
+                option.className = 'resolution-option';
+                if (is4K) {
+                    option.classList.add('is-4k');
+                }
+                
+                option.innerHTML = `
+                    <div class="resolution-info">
+                        <div class="resolution-name">
+                            ${resolution.resolution}
+                            ${is4K ? '<span class="resolution-badge">4K</span>' : ''}
+                        </div>
+                        <div class="resolution-size">${resolution.size}</div>
+                    </div>
+                    <i class="fas fa-download download-icon"></i>
+                `;
+                
+                // 绑定点击下载事件
+                option.addEventListener('click', () => {
+                    this.downloadWallpaper(resolution, wallpaper);
+                    this.hideDownloadPanel();
+                });
+                
+                resolutionOptions.appendChild(option);
+            });
+        }
+    }
+
+    // 获取最佳分辨率（优先4K）
+    getBestResolution(resolutions) {
+        const priorities = { 'UHD': 1, 'Full HD': 2, 'HD': 3, 'Standard': 4 };
+        return resolutions.sort((a, b) => 
+            (priorities[a.resolution] || 5) - (priorities[b.resolution] || 5)
+        )[0];
+    }
+
+    // 切换下载面板显示
+    toggleDownloadPanel() {
+        const panel = document.getElementById('download-panel');
+        
+        if (panel.classList.contains('hidden')) {
+            this.showDownloadPanel();
+        } else {
+            this.hideDownloadPanel();
+        }
+    }
+
+    // 显示下载面板
+    showDownloadPanel() {
+        const panel = document.getElementById('download-panel');
+        const downloadBtn = document.getElementById('download-btn');
+        
+        panel.classList.remove('hidden');
+        panel.classList.add('show');
+        
+        // 更新按钮状态
+        downloadBtn.querySelector('.btn-text').textContent = '选择分辨率';
+        downloadBtn.querySelector('.fas').className = 'fas fa-chevron-up';
+        
+        // 如果有默认分辨率，也添加快速下载选项
+        const defaultResolution = downloadBtn.getAttribute('data-default-resolution');
+        if (defaultResolution && this.currentModalWallpaper) {
+            const resolution = JSON.parse(defaultResolution);
+            const quickDownload = document.createElement('div');
+            quickDownload.className = 'quick-download';
+            quickDownload.innerHTML = `
+                <button class="resolution-option quick-download-btn">
+                    <div class="resolution-info">
+                        <div class="resolution-name">⚡ 快速下载 ${resolution.resolution}</div>
+                        <div class="resolution-size">推荐分辨率</div>
+                    </div>
+                    <i class="fas fa-bolt download-icon"></i>
+                </button>
+            `;
+            
+            quickDownload.querySelector('button').addEventListener('click', () => {
+                this.downloadWallpaper(resolution, this.currentModalWallpaper);
+                this.hideDownloadPanel();
+            });
+            
+            panel.querySelector('#resolution-options').prepend(quickDownload);
+        }
+    }
+
+    // 隐藏下载面板
+    hideDownloadPanel() {
+        const panel = document.getElementById('download-panel');
+        const downloadBtn = document.getElementById('download-btn');
+        
+        panel.classList.add('hidden');
+        panel.classList.remove('show');
+        
+        // 恢复按钮状态
+        downloadBtn.querySelector('.btn-text').textContent = '下载壁纸';
+        downloadBtn.querySelector('.fas').className = 'fas fa-download';
+        
+        // 清除快速下载选项
+        const quickDownload = panel.querySelector('.quick-download');
+        if (quickDownload) {
+            quickDownload.remove();
         }
     }
 

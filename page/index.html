@@ -222,19 +222,16 @@
             <div class="modal-body">
                 <div class="modal-image-container">
                     <img id="modal-image" src="" alt="">
-                    <div class="image-overlay">
-                        <div class="download-options">
-                            <h3>下载选项:</h3>
-                            <div id="resolution-buttons" class="resolution-buttons">
-                                <!-- 分辨率按钮将动态插入 -->
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="modal-details">
                     <p id="modal-description"></p>
                     <p id="modal-copyright"></p>
                     <div class="modal-actions">
+                        <button id="download-btn" class="action-btn download-btn-primary">
+                            <i class="fas fa-download"></i>
+                            <span class="btn-text">下载壁纸</span>
+                            <span class="btn-resolution">4K</span>
+                        </button>
                         <button id="copy-link-btn" class="action-btn">
                             <i class="fas fa-copy"></i>
                             复制链接
@@ -243,6 +240,13 @@
                             <i class="fas fa-share"></i>
                             分享
                         </button>
+                    </div>
+                    <!-- 下载选项面板 -->
+                    <div id="download-panel" class="download-panel hidden">
+                        <h4>选择分辨率:</h4>
+                        <div id="resolution-options" class="resolution-options">
+                            <!-- 分辨率选项将动态插入 -->
+                        </div>
                     </div>
                 </div>
             </div>
