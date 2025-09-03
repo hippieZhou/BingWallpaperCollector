@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-03",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Os fantasmas de Deadvlei",
+  "copyright": "Árvores espinho-de-camelo, Deadvlei, Parque Namib-Naukluft, Namíbia (© Inge Johnsson/Alamy Stock Photo)",
+  "copyrightLink": "https://www.bing.com/search?q=o+Parque+Namib-Naukluft&form=hpcapt&mkt=pt-br",
+  "description": "Árvores espinho-de-camelo, Deadvlei, Parque Namib-Naukluft, Namíbia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_DeadvleiTrees%22&FORM=HPQUIZ",
+  "hash": "08eb95f59cd0dffe16d08f939541c2ff",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-02",
+    "EndDate": "2025-09-03",
+    "FullStartDateTime": "2025-09-02T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250902",
+      "fullStartDate": "202509020300",
+      "endDate": "20250903"
+    }
+  },
+  "createdAt": "2025-09-03T02:06:03.624534+00:00",
+  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_PT-BR2241595565"
+}

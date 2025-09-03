@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-03",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "¡Vamos a abrir hueco!",
+  "copyright": "66.ª Vuelta a España 2011, Etapa 19, Noja - Bilbao, España (© Tim de Waele/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=La+vuelta+a+Espa%C3%B1a&form=hpcapt&filters=HpDate%3a%2220250902_2200%22",
+  "description": "66.ª Vuelta a España 2011, Etapa 19, Noja - Bilbao, España",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_LaVueltaBilbao%22&FORM=HPQUIZ",
+  "hash": "0b838d203776e5cb28a5461413f343ac",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.LaVueltaBilbao_ES-ES0567019335_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.LaVueltaBilbao_ES-ES0567019335_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.LaVueltaBilbao_ES-ES0567019335_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.LaVueltaBilbao_ES-ES0567019335_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-02",
+    "EndDate": "2025-09-03",
+    "FullStartDateTime": "2025-09-02T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250902",
+      "fullStartDate": "202509022200",
+      "endDate": "20250903"
+    }
+  },
+  "createdAt": "2025-09-03T02:06:03.5508842+00:00",
+  "originalUrlBase": "/th?id=OHR.LaVueltaBilbao_ES-ES0567019335"
+}

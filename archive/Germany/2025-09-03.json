@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-03",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Unberührte Wildnis",
+  "copyright": "Boundary Waters Canoe Area Wilderness, Minnesota, USA (© s.tomas/Shutterstock)",
+  "copyrightLink": "https://www.bing.com/search?q=Minnesota+Bundesstaat+USA&form=hpcapt&filters=HpDate%3a%2220250902_2200%22",
+  "description": "Boundary Waters Canoe Area Wilderness, Minnesota, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_MinnesotaWaters%22&FORM=HPQUIZ",
+  "hash": "d78be03233b3097814c13876e228b72a",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-02",
+    "EndDate": "2025-09-03",
+    "FullStartDateTime": "2025-09-02T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250902",
+      "fullStartDate": "202509022200",
+      "endDate": "20250903"
+    }
+  },
+  "createdAt": "2025-09-03T02:06:03.558406+00:00",
+  "originalUrlBase": "/th?id=OHR.MinnesotaWaters_DE-DE6807349928"
+}
