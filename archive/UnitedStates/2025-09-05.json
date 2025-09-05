@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-05",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Bear with us—it's National Wildlife Day",
+  "copyright": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska (© Cavan Images/Adobe Stock)",
+  "copyrightLink": "https://www.bing.com/search?q=Grizzly+bears&form=hpcapt&filters=HpDate%3a%2220250904_0700%22",
+  "description": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_WrestlingBears%22&FORM=HPQUIZ",
+  "hash": "c0341487f6bce18b056fae680f8aaa0e",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-US4338158114_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-US4338158114_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-US4338158114_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-US4338158114_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-04",
+    "EndDate": "2025-09-05",
+    "FullStartDateTime": "2025-09-04T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250904",
+      "fullStartDate": "202509040700",
+      "endDate": "20250905"
+    }
+  },
+  "createdAt": "2025-09-05T02:09:35.9327246+00:00",
+  "originalUrlBase": "/th?id=OHR.WrestlingBears_EN-US4338158114"
+}

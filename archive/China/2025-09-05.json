@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-05",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "完美的夜晚",
+  "copyright": "太平洋公园，圣莫妮卡州立海滩，加利福尼亚州，美国 (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E5%9C%A3%E8%8E%AB%E5%A6%AE%E5%8D%A1%E5%B7%9E%E7%AB%8B%E6%B5%B7%E6%BB%A9&form=hpcapt&mkt=zh-cn",
+  "description": "太平洋公园，圣莫妮卡州立海滩，加利福尼亚州，美国",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_SunsetPier%22&FORM=HPQUIZ",
+  "hash": "7547e05be918d2e85a058dca4529353c",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ZH-CN1202083395_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ZH-CN1202083395_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ZH-CN1202083395_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ZH-CN1202083395_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-04",
+    "EndDate": "2025-09-05",
+    "FullStartDateTime": "2025-09-04T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250904",
+      "fullStartDate": "202509041600",
+      "endDate": "20250905"
+    }
+  },
+  "createdAt": "2025-09-05T02:09:35.9327204+00:00",
+  "originalUrlBase": "/th?id=OHR.SunsetPier_ZH-CN1202083395"
+}

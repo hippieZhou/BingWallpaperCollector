@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-05",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Racing the harvest tides",
+  "copyright": "Oarsmen rowing in snake boats at Aranmula, Kerala (© Rajesh Narayanan/Shutterstock)",
+  "copyrightLink": "https://www.bing.com/search?q=Onam&form=hpcapt&filters=HpDate%3a%2220250904_1830%22",
+  "description": "Oarsmen rowing in snake boats at Aranmula, Kerala",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_BoatraceOnam%22&FORM=HPQUIZ",
+  "hash": "90d5ffe77438d93a7ff13fc7fdb1cab8",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.BoatraceOnam_EN-IN9170886628_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BoatraceOnam_EN-IN9170886628_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.BoatraceOnam_EN-IN9170886628_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BoatraceOnam_EN-IN9170886628_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-04",
+    "EndDate": "2025-09-05",
+    "FullStartDateTime": "2025-09-04T18:30:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250904",
+      "fullStartDate": "202509041830",
+      "endDate": "20250905"
+    }
+  },
+  "createdAt": "2025-09-05T02:09:36.0174715+00:00",
+  "originalUrlBase": "/th?id=OHR.BoatraceOnam_EN-IN9170886628"
+}
