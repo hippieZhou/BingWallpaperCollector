@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-06",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "O que os olhos não veem",
+  "copyright": "Névoa sobre a copa da Floresta Amazônica (© Ignacio Palacios/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Dia+da+Amaz%C3%B4nia&form=hpcapt&mkt=pt-br",
+  "description": "Névoa sobre a copa da Floresta Amazônica",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_DiaAmazonia%22&FORM=HPQUIZ",
+  "hash": "18ce916b7cd72159884cfc2d7014e10e",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-05",
+    "EndDate": "2025-09-06",
+    "FullStartDateTime": "2025-09-05T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250905",
+      "fullStartDate": "202509050300",
+      "endDate": "20250906"
+    }
+  },
+  "createdAt": "2025-09-06T02:06:01.6689253+00:00",
+  "originalUrlBase": "/th?id=OHR.DiaAmazonia_PT-BR5240863340"
+}
