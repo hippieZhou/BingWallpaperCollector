@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-07",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Pequeno grande viajante",
+  "copyright": "Beija-flor-ruivo no Golden Gate Park, São Francisco, Califórnia, Estados Unidos (© jeremyborkat/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=beija-flor&form=hpcapt&mkt=pt-br",
+  "description": "Beija-flor-ruivo no Golden Gate Park, São Francisco, Califórnia, Estados Unidos",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_RufousHummer%22&FORM=HPQUIZ",
+  "hash": "68781d16154f9fbd2dee21f3c6d21d34",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-06",
+    "EndDate": "2025-09-07",
+    "FullStartDateTime": "2025-09-06T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250906",
+      "fullStartDate": "202509060300",
+      "endDate": "20250907"
+    }
+  },
+  "createdAt": "2025-09-07T02:15:10.0732811+00:00",
+  "originalUrlBase": "/th?id=OHR.RufousHummer_PT-BR5721753783"
+}

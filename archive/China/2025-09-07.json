@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-07",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "淡彩的梦境和静水",
+  "copyright": "位于莫特拉瓦河河畔的格但斯克市，波兰 (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyrightLink": "https://www.bing.com/search?q=%E6%B3%A2%E5%85%B0%E6%A0%BC%E4%BD%86%E6%96%AF%E5%85%8B%E5%B8%82&form=hpcapt&mkt=zh-cn",
+  "description": "位于莫特拉瓦河河畔的格但斯克市，波兰",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "20d86be3bca5feba96ab07da105301c7",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-06",
+    "EndDate": "2025-09-07",
+    "FullStartDateTime": "2025-09-06T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250906",
+      "fullStartDate": "202509061600",
+      "endDate": "20250907"
+    }
+  },
+  "createdAt": "2025-09-07T02:15:09.9316534+00:00",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_ZH-CN3328928509"
+}
