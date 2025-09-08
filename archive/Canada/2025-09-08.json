@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-08",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Pastel dreams and still waters",
+  "copyright": "Gdańsk on the banks of the Motława river, Poland (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyrightLink": "https://www.bing.com/search?q=Gdansk+poland&form=hpcapt&filters=HpDate%3a%2220250907_0400%22",
+  "description": "Gdańsk on the banks of the Motława river, Poland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "456e38c8962382b9229880ec342ffc84",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-CA5626237578_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-CA5626237578_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-CA5626237578_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-CA5626237578_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-07",
+    "EndDate": "2025-09-08",
+    "FullStartDateTime": "2025-09-07T04:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250907",
+      "fullStartDate": "202509070400",
+      "endDate": "20250908"
+    }
+  },
+  "createdAt": "2025-09-08T02:15:34.6365826+00:00",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_EN-CA5626237578"
+}

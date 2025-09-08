@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-08",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Libri, Luce e Libertà",
+  "copyright": "library@orchard, Singapore (© Darwin Fan/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Giornata+internazionale+dell%E2%80%99+alfabetizzazione&form=hpcapt",
+  "description": "library@orchard, Singapore",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "3a239c76dc1cc2c968d07001ab21208c",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-07",
+    "EndDate": "2025-09-08",
+    "FullStartDateTime": "2025-09-07T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250907",
+      "fullStartDate": "202509072200",
+      "endDate": "20250908"
+    }
+  },
+  "createdAt": "2025-09-08T02:15:34.5496943+00:00",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_IT-IT9071511638"
+}
