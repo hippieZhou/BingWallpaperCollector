@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-09",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Ler para crer",
+  "copyright": "Library@orchard, Singapura (© Darwin Fan/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Dia+Internacional+da+Alfabetiza%C3%A7%C3%A3o&form=hpcapt&mkt=pt-br",
+  "description": "Library@orchard, Singapura",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "0ed43ad0fa978c307c71944f27448aa6",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-08",
+    "EndDate": "2025-09-09",
+    "FullStartDateTime": "2025-09-08T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250908",
+      "fullStartDate": "202509080300",
+      "endDate": "20250909"
+    }
+  },
+  "createdAt": "2025-09-09T02:11:49.5335948+00:00",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_PT-BR6559924297"
+}

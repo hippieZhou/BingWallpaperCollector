@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-09",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein Meister des Kletterns",
+  "copyright": "Ein Eurasisches Eichhörnchen trägt Moos, Schweiz (© Jean-Luc and Francoise Ziegler/Minden Pictures)",
+  "copyrightLink": "https://www.bing.com/search?q=Eurasisches+Eichh%C3%B6rnchen&form=hpcapt&filters=HpDate%3a%2220250908_2200%22",
+  "description": "Ein Eurasisches Eichhörnchen trägt Moos, Schweiz",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_SwissSquirrel%22&FORM=HPQUIZ",
+  "hash": "5e276323a49be3656419b5b82ecf2638",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-08",
+    "EndDate": "2025-09-09",
+    "FullStartDateTime": "2025-09-08T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250908",
+      "fullStartDate": "202509082200",
+      "endDate": "20250909"
+    }
+  },
+  "createdAt": "2025-09-09T02:11:49.4343063+00:00",
+  "originalUrlBase": "/th?id=OHR.SwissSquirrel_DE-DE3902212654"
+}
