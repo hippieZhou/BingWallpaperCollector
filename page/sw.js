@@ -88,13 +88,11 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // 2. 数据文件 - 网络优先策略
+  // 2. 数据文件 - 始终从网络获取最新数据，不使用缓存
   if (DATA_URL_PATTERNS.some((pattern) => pattern.test(url.href))) {
+    console.log("[SW] 数据文件请求，始终从网络获取:", url.pathname);
     event.respondWith(
-      fetchAndCache(request, DATA_CACHE_NAME, {
-        fallbackToCache: true,
-        maxAge: 1000 * 60 * 60 * 2, // 2小时缓存
-      })
+      fetchWithCacheBusting(request)
     );
     return;
   }
@@ -173,6 +171,54 @@ self.addEventListener("fetch", (event) => {
     })()
   );
 });
+
+// 工具函数：无缓存获取数据文件，添加时间戳防止缓存
+async function fetchWithCacheBusting(request) {
+  try {
+    // 为URL添加时间戳参数防止缓存
+    const url = new URL(request.url);
+    url.searchParams.set('t', Date.now().toString());
+    url.searchParams.set('nocache', '1');
+    
+    // 创建新的请求，添加缓存控制头
+    const newRequest = new Request(url.toString(), {
+      method: request.method,
+      headers: {
+        ...request.headers,
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+      },
+      body: request.body,
+      credentials: request.credentials,
+      cache: 'no-cache'
+    });
+
+    console.log("[SW] 从网络获取数据文件（无缓存）:", url.toString());
+    const response = await fetch(newRequest);
+    
+    if (response.ok) {
+      // 添加防缓存响应头
+      const headers = new Headers(response.headers);
+      headers.set('Cache-Control', 'no-cache, no-store, must-revalidate');
+      headers.set('Pragma', 'no-cache');
+      headers.set('Expires', '0');
+      headers.set('Last-Modified', new Date().toUTCString());
+      
+      return new Response(response.body, {
+        status: response.status,
+        statusText: response.statusText,
+        headers: headers
+      });
+    } else {
+      throw new Error(`Network response not ok: ${response.status}`);
+    }
+  } catch (error) {
+    console.error("[SW] 获取数据文件失败:", request.url, error);
+    // 数据文件获取失败时，不回退到缓存，直接返回错误
+    throw error;
+  }
+}
 
 // 工具函数：获取并缓存资源
 async function fetchAndCache(request, cacheName, options = {}) {
