@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-11",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein Blick in den Himmel lohnt sich!",
+  "copyright": "Geierfelsen (Peña Falcon) am Fluss Tajo im Nationalpark Monfragüe, Spanien (© Daniel Viñé Garcia/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Nationalpark+Monfrag%C3%BCe&form=hpcapt&filters=HpDate%3a%2220250910_2200%22",
+  "description": "Geierfelsen",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250910_ExtremaduraJamon%22&FORM=HPQUIZ",
+  "hash": "229b0366a40a9bfebbcfd9adb5d299f7",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-10",
+    "EndDate": "2025-09-11",
+    "FullStartDateTime": "2025-09-10T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250910",
+      "fullStartDate": "202509102200",
+      "endDate": "20250911"
+    }
+  },
+  "createdAt": "2025-09-11T02:10:48.9926748+00:00",
+  "originalUrlBase": "/th?id=OHR.ExtremaduraJamon_DE-DE4354679644"
+}
