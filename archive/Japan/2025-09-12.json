@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-12",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は宇宙の日",
+  "copyright": "種子島宇宙センター, 鹿児島県 (© norinori303/Adobe Stock)",
+  "copyrightLink": "https://www.bing.com/search?q=%E7%A8%AE%E5%AD%90%E5%B3%B6%E5%AE%87%E5%AE%99%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&form=hpcapt&filters=HpDate%3a%2220250911_1500%22",
+  "description": "種子島宇宙センター, 鹿児島県",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_SpaceDay2025%22&FORM=HPQUIZ",
+  "hash": "6d11ee8a79381e323d9970582f974681",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-11",
+    "EndDate": "2025-09-12",
+    "FullStartDateTime": "2025-09-11T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250911",
+      "fullStartDate": "202509111500",
+      "endDate": "20250912"
+    }
+  },
+  "createdAt": "2025-09-12T02:05:57.2420398+00:00",
+  "originalUrlBase": "/th?id=OHR.SpaceDay2025_JA-JP8112086826"
+}

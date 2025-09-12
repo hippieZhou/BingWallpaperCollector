@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-12",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Nada salvaje, nada libre",
+  "copyright": "Manada de delfines giradores en el Mar Rojo, Marsa Alam, Egipto (© Franco Banfi/Nature Picture Library)",
+  "copyrightLink": "https://www.bing.com/search?q=delf%C3%ADn+girador&form=hpcapt&filters=HpDate%3a%2220250911_2200%22",
+  "description": "Manada de delfines giradores en el Mar Rojo, Marsa Alam, Egipto",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_SpinnerDolphins%22&FORM=HPQUIZ",
+  "hash": "75151bacb98ee89058914cf56c886698",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_ES-ES8128013547_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_ES-ES8128013547_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_ES-ES8128013547_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_ES-ES8128013547_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-11",
+    "EndDate": "2025-09-12",
+    "FullStartDateTime": "2025-09-11T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250911",
+      "fullStartDate": "202509112200",
+      "endDate": "20250912"
+    }
+  },
+  "createdAt": "2025-09-12T02:05:57.2792044+00:00",
+  "originalUrlBase": "/th?id=OHR.SpinnerDolphins_ES-ES8128013547"
+}
