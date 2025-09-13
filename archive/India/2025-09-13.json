@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-13",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Rugged and wild",
+  "copyright": "Chimney Rock, Point Reyes National Seashore, California, United States (© Enrique Aguirre Aves/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Point+Reyes+National+Seashore&form=hpcapt&filters=HpDate%3a%2220250912_1830%22",
+  "description": "Chimney Rock, Point Reyes National Seashore, California, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
+  "hash": "559148d3fd497ca263b2d8eaa8b34d6e",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-12",
+    "EndDate": "2025-09-13",
+    "FullStartDateTime": "2025-09-12T18:30:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250912",
+      "fullStartDate": "202509121830",
+      "endDate": "20250913"
+    }
+  },
+  "createdAt": "2025-09-13T01:56:28.312025+00:00",
+  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_EN-IN1229615007"
+}

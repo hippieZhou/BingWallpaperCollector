@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-13",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "Ending on a high note",
+  "copyright": "Royal Albert Hall, South Kensington, London (© Gonzalo Azumendi/Stone/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=BBC+Proms&form=hpcapt&filters=HpDate%3a%2220250912_2300%22",
+  "description": "Royal Albert Hall, South Kensington, London",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PromsNight2025%22&FORM=HPQUIZ",
+  "hash": "12a42bdea41c8155e19ef32807a46a7d",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PromsNight2025_EN-GB2154998430_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PromsNight2025_EN-GB2154998430_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PromsNight2025_EN-GB2154998430_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PromsNight2025_EN-GB2154998430_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-12",
+    "EndDate": "2025-09-13",
+    "FullStartDateTime": "2025-09-12T23:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250912",
+      "fullStartDate": "202509122300",
+      "endDate": "20250913"
+    }
+  },
+  "createdAt": "2025-09-13T01:56:27.9692457+00:00",
+  "originalUrlBase": "/th?id=OHR.PromsNight2025_EN-GB2154998430"
+}
