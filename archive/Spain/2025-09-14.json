@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-14",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Musgo y niebla",
+  "copyright": "Una cascada en el Parque Nacional Olympic, Washington, EE. UU. (© Chris Moore/TANDEM Stills + Motion)",
+  "copyrightLink": "https://www.bing.com/search?q=Parque+Nacional+Olympic&form=hpcapt&filters=HpDate%3a%2220250913_2200%22",
+  "description": "Una cascada en el Parque Nacional Olympic, Washington, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "ea2d167d191c0f781cbd90bede6d9dca",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-13",
+    "EndDate": "2025-09-14",
+    "FullStartDateTime": "2025-09-13T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250913",
+      "fullStartDate": "202509132200",
+      "endDate": "20250914"
+    }
+  },
+  "createdAt": "2025-09-14T02:14:28.4162677+00:00",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_ES-ES8372999914"
+}
