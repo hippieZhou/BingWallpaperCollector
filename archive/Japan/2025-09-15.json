@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-15",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は敬老の日",
+  "copyright": "アメリカワシミミズク (© Scott Suriano/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%AF%E3%82%B7%E3%83%9F%E3%83%9F%E3%82%BA%E3%82%AF&form=hpcapt&filters=HpDate%3a%2220250914_1500%22",
+  "description": "アメリカワシミミズク",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_AgedDay2025%22&FORM=HPQUIZ",
+  "hash": "db72fefa71b8c23c70a0c5a3dc778171",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AgedDay2025_JA-JP9424136979_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AgedDay2025_JA-JP9424136979_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AgedDay2025_JA-JP9424136979_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AgedDay2025_JA-JP9424136979_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-14",
+    "EndDate": "2025-09-15",
+    "FullStartDateTime": "2025-09-14T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250914",
+      "fullStartDate": "202509141500",
+      "endDate": "20250915"
+    }
+  },
+  "createdAt": "2025-09-15T02:16:41.7283824+00:00",
+  "originalUrlBase": "/th?id=OHR.AgedDay2025_JA-JP9424136979"
+}
