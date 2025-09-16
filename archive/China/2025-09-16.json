@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-16",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "巨大的成功",
+  "copyright": "从地球上空225英里处俯瞰墨西哥湾沿岸各州的夜间景象 (© Stocktrek Images/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E8%87%AD%E6%B0%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
+  "description": "从地球上空225英里处俯瞰墨西哥湾沿岸各州的夜间景象",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "bd920b029dbc3c4c8df4214ba50b652a",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-15",
+    "EndDate": "2025-09-16",
+    "FullStartDateTime": "2025-09-15T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509151600",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "2025-09-16T02:07:35.3639821+00:00",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_ZH-CN0993915980"
+}

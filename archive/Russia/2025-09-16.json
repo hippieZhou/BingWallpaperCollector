@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-16",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "copyright": "Black-winged stilts, France (© Antonio Sementa/500px/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Black-winged+stilt&form=hpcapt",
+  "description": "Black-winged stilts, France",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_Echasse%22&FORM=HPQUIZ",
+  "hash": "e602f90dd65d267504daf9547c28d679",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ROW7944797323_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ROW7944797323_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ROW7944797323_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ROW7944797323_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-15",
+    "EndDate": "2025-09-16",
+    "FullStartDateTime": "2025-09-15T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509150700",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "2025-09-16T02:07:35.5245069+00:00",
+  "originalUrlBase": "/th?id=OHR.Echasse_ROW7944797323"
+}

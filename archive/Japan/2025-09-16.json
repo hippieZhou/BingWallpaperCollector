@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-16",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は国際オゾン層保護デー",
+  "copyright": "高度約 360km から撮影したガルフコースト (© Stocktrek Images/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E5%9B%BD%E9%9A%9B%E3%82%AA%E3%82%BE%E3%83%B3%E5%B1%A4%E4%BF%9D%E8%AD%B7%E3%83%87%E3%83%BC&form=hpcapt&filters=HpDate%3a%2220250915_1500%22",
+  "description": "高度約 360km から撮影したガルフコースト",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "de16914e33cb0685c22e5ff7f61d5543",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_JA-JP1432094253_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_JA-JP1432094253_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_JA-JP1432094253_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_JA-JP1432094253_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-15",
+    "EndDate": "2025-09-16",
+    "FullStartDateTime": "2025-09-15T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509151500",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "2025-09-16T02:07:35.4235085+00:00",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_JA-JP1432094253"
+}
