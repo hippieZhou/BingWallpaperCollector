@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-17",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "A stratospheric success",
+  "copyright": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth (© Stocktrek Images/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Ozone+Day&form=hpcapt&filters=HpDate%3a%2220250916_0400%22",
+  "description": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "f7eb56ba835a471da242d379f02f946f",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-16",
+    "EndDate": "2025-09-17",
+    "FullStartDateTime": "2025-09-16T04:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250916",
+      "fullStartDate": "202509160400",
+      "endDate": "20250917"
+    }
+  },
+  "createdAt": "2025-09-17T02:07:00.2483474+00:00",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_EN-CA7588653763"
+}

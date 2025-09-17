@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-17",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein ehrfürchtiger Einzelgänger",
+  "copyright": "Ein junger Elchbulle im Denali-Nationalpark, Alaska, USA (© Grant Ordelheide/TANDEM Stills + Motion)",
+  "copyrightLink": "https://www.bing.com/search?q=Elch&form=hpcapt&filters=HpDate%3a%2220250916_2200%22",
+  "description": "Ein junger Elchbulle im Denali-Nationalpark, Alaska, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "69609d811f489e0527a0e272b29a5603",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-16",
+    "EndDate": "2025-09-17",
+    "FullStartDateTime": "2025-09-16T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250916",
+      "fullStartDate": "202509162200",
+      "endDate": "20250917"
+    }
+  },
+  "createdAt": "2025-09-17T02:06:59.8622643+00:00",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_DE-DE0761999333"
+}

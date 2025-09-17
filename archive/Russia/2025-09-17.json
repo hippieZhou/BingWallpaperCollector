@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-17",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "copyright": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth (© Stocktrek Images/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Ozone+layer&form=hpcapt",
+  "description": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "64bd6a72d0d34c9c2bf3fe1e567f5472",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-16",
+    "EndDate": "2025-09-17",
+    "FullStartDateTime": "2025-09-16T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250916",
+      "fullStartDate": "202509160700",
+      "endDate": "20250917"
+    }
+  },
+  "createdAt": "2025-09-17T02:06:59.9536941+00:00",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_ROW8045660515"
+}
