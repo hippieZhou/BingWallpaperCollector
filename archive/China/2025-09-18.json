@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-18",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "爱尔兰岛的西端",
+  "copyright": "邓金码头的蛇形楼梯, 凯里郡, 爱尔兰 (© Hugh O'Connor/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E4%B8%81%E6%A0%BC%E5%B0%94%E5%8D%8A%E5%B2%9B&form=hpcapt&mkt=zh-cn",
+  "description": "邓金码头的蛇形楼梯, 凯里郡, 爱尔兰",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "847fe8ccad837c0ca0983f7e081be5b0",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ZH-CN1418844818_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ZH-CN1418844818_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ZH-CN1418844818_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ZH-CN1418844818_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-17",
+    "EndDate": "2025-09-18",
+    "FullStartDateTime": "2025-09-17T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250917",
+      "fullStartDate": "202509171600",
+      "endDate": "20250918"
+    }
+  },
+  "createdAt": "2025-09-18T02:07:19.0559234+00:00",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_ZH-CN1418844818"
+}
