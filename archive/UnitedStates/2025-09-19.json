@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-19",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Ireland's western edge",
+  "copyright": "Serpentine stairs of Dunquin Pier, County Kerry, Ireland (© Hugh O'Connor/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Dunquin+Pier&form=hpcapt&filters=HpDate%3a%2220250918_0700%22",
+  "description": "Serpentine stairs of Dunquin Pier, County Kerry, Ireland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "2309f2b12dd2ba8227c5b29e3a3aefbf",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-US9846056364_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-US9846056364_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-US9846056364_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-US9846056364_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-18",
+    "EndDate": "2025-09-19",
+    "FullStartDateTime": "2025-09-18T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250918",
+      "fullStartDate": "202509180700",
+      "endDate": "20250919"
+    }
+  },
+  "createdAt": "2025-09-19T02:11:19.7842728+00:00",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_EN-US9846056364"
+}

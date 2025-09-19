@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-19",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Escadas para o horizonte",
+  "copyright": "Escadaria serpenteante do Cais de Dunquin, Condado de Kerry, Irlanda (© Hugh O'Connor/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Dunquin%2c+Condado+de+Kerry%2c+Irlanda&form=hpcapt&mkt=pt-br",
+  "description": "Escadaria serpenteante do Cais de Dunquin, Condado de Kerry, Irlanda",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "73e11afc8031115d01f8f72d47b001d2",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_PT-BR6766126699_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_PT-BR6766126699_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_PT-BR6766126699_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_PT-BR6766126699_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-18",
+    "EndDate": "2025-09-19",
+    "FullStartDateTime": "2025-09-18T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250918",
+      "fullStartDate": "202509180300",
+      "endDate": "20250919"
+    }
+  },
+  "createdAt": "2025-09-19T02:11:20.1988933+00:00",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_PT-BR6766126699"
+}
