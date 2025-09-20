@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-20",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "关于啤酒和风景的故事",
+  "copyright": "慕尼黑啤酒节上的旋转木马，慕尼黑，巴伐利亚，德国 (© LOOK-foto/Alamy)",
+  "copyrightLink": "https://www.bing.com/search?q=%E6%85%95%E5%B0%BC%E9%BB%91%E5%95%A4%E9%85%92%E8%8A%82&form=hpcapt&mkt=zh-cn",
+  "description": "慕尼黑啤酒节上的旋转木马，慕尼黑，巴伐利亚，德国",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250919_OktoberfestSwing%22&FORM=HPQUIZ",
+  "hash": "733bd460c646ad947d6bfffaa51f52ac",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ZH-CN5270146600_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ZH-CN5270146600_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ZH-CN5270146600_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ZH-CN5270146600_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-19",
+    "EndDate": "2025-09-20",
+    "FullStartDateTime": "2025-09-19T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250919",
+      "fullStartDate": "202509191600",
+      "endDate": "20250920"
+    }
+  },
+  "createdAt": "2025-09-20T02:04:59.1356013+00:00",
+  "originalUrlBase": "/th?id=OHR.OktoberfestSwing_ZH-CN5270146600"
+}
