@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-21",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今週はラッコ啓蒙週間",
+  "copyright": "プリンス・ウィリアム湾, 米国 アラスカ州 (© Gerald Corsi/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E6%B9%BE%E3%81%AE%E3%83%A9%E3%83%83%E3%82%B3&form=hpcapt&filters=HpDate%3a%2220250920_1500%22",
+  "description": "プリンス・ウィリアム湾, 米国 アラスカ州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250920_IceOtters%22&FORM=HPQUIZ",
+  "hash": "46af60343a9d894cabc4a52f49ee5c9e",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_JA-JP8317371641_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_JA-JP8317371641_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_JA-JP8317371641_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_JA-JP8317371641_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-20",
+    "EndDate": "2025-09-21",
+    "FullStartDateTime": "2025-09-20T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250920",
+      "fullStartDate": "202509201500",
+      "endDate": "20250921"
+    }
+  },
+  "createdAt": "2025-09-21T02:18:29.1519268+00:00",
+  "originalUrlBase": "/th?id=OHR.IceOtters_JA-JP8317371641"
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-21",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Une cathédrale de pierre et de mer",
+  "copyright": "L’aiguille et la Porte d’Aval, falaises d’Étretat, Normandie (© Luis Henrique Boucault/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Falaises+d%E2%80%99%C3%89tretat&form=hpcapt&filters=HpDate%3a%2220250920_2200%22",
+  "description": "L’aiguille et la Porte d’Aval, falaises d’Étretat, Normandie",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250920_EtretatBeach%22&FORM=HPQUIZ",
+  "hash": "97a297e3cf5e9b7726577c438f7ce9f6",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.EtretatBeach_FR-FR4685460454_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.EtretatBeach_FR-FR4685460454_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.EtretatBeach_FR-FR4685460454_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.EtretatBeach_FR-FR4685460454_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-20",
+    "EndDate": "2025-09-21",
+    "FullStartDateTime": "2025-09-20T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250920",
+      "fullStartDate": "202509202200",
+      "endDate": "20250921"
+    }
+  },
+  "createdAt": "2025-09-21T02:18:29.1496209+00:00",
+  "originalUrlBase": "/th?id=OHR.EtretatBeach_FR-FR4685460454"
+}
