@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-22",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Peupliers faux-trembles… mais pas de peur !",
+  "copyright": "Peupliers faux-trembles en automne, forêt nationale de Fishlake, Utah, États-Unis (© Danita Delimont/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=%C3%A9quinoxe+automne+2025&form=hpcapt&filters=HpDate%3a%2220250921_2200%22",
+  "description": "Peupliers faux-trembles en automne, forêt nationale de Fishlake, Utah, États-Unis",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_AspenEquinox%22&FORM=HPQUIZ",
+  "hash": "30c7a759d7c0878f0db5375463866dea",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_FR-FR4843698159_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_FR-FR4843698159_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_FR-FR4843698159_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_FR-FR4843698159_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-21",
+    "EndDate": "2025-09-22",
+    "FullStartDateTime": "2025-09-21T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250921",
+      "fullStartDate": "202509212200",
+      "endDate": "20250922"
+    }
+  },
+  "createdAt": "2025-09-22T02:18:08.030839+00:00",
+  "originalUrlBase": "/th?id=OHR.AspenEquinox_FR-FR4843698159"
+}

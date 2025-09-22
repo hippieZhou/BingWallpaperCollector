@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-22",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "copyright": "Sea otters, Prince William Sound, Alaska, United States (© Gerald Corsi/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Sea+Otter&form=hpcapt",
+  "description": "Sea otters, Prince William Sound, Alaska, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_IceOtters%22&FORM=HPQUIZ",
+  "hash": "41d84b85ca18d0d6c4921c9fd8a80215",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_ROW4423609000_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_ROW4423609000_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_ROW4423609000_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_ROW4423609000_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-21",
+    "EndDate": "2025-09-22",
+    "FullStartDateTime": "2025-09-21T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250921",
+      "fullStartDate": "202509210700",
+      "endDate": "20250922"
+    }
+  },
+  "createdAt": "2025-09-22T02:18:08.0623206+00:00",
+  "originalUrlBase": "/th?id=OHR.IceOtters_ROW4423609000"
+}
