@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-24",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Der einsame Riese",
+  "copyright": "Devils Tower National Monument, Wyoming, USA (© Laura Hedien/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Devils+Tower+National+Monument&form=hpcapt&filters=HpDate%3a%2220250923_2200%22",
+  "description": "Devils Tower National Monument, Wyoming, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250923_BearLodge%22&FORM=HPQUIZ",
+  "hash": "16e05322ffcc1857e9d7e739d4e820bb",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_DE-DE0621021956_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_DE-DE0621021956_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_DE-DE0621021956_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_DE-DE0621021956_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-23",
+    "EndDate": "2025-09-24",
+    "FullStartDateTime": "2025-09-23T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250923",
+      "fullStartDate": "202509232200",
+      "endDate": "20250924"
+    }
+  },
+  "createdAt": "2025-09-24T02:09:23.742189+00:00",
+  "originalUrlBase": "/th?id=OHR.BearLodge_DE-DE0621021956"
+}
