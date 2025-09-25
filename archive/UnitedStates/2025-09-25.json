@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-25",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "The lonely giant",
+  "copyright": "Devils Tower National Monument, Wyoming (© Laura Hedien/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Devils+Tower+National+Monument&form=hpcapt&filters=HpDate%3a%2220250924_0700%22",
+  "description": "Devils Tower National Monument, Wyoming",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_BearLodge%22&FORM=HPQUIZ",
+  "hash": "543d315ebce4fd35f68974fa4ecdf015",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-24",
+    "EndDate": "2025-09-25",
+    "FullStartDateTime": "2025-09-24T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250924",
+      "fullStartDate": "202509240700",
+      "endDate": "20250925"
+    }
+  },
+  "createdAt": "2025-09-25T02:11:01.3472244+00:00",
+  "originalUrlBase": "/th?id=OHR.BearLodge_EN-US9061134971"
+}

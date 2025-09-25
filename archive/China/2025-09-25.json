@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-25",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "忠勇的雕刻石",
+  "copyright": "奇陶尔加尔堡, 拉贾斯坦邦, 印度 (© chetansoni/Shutterstock)",
+  "copyrightLink": "https://www.bing.com/search?q=%E5%A5%87%E9%99%B6%E5%B0%94%E5%8A%A0%E5%B0%94%E5%A0%A1%E5%8D%B0%E5%BA%A6&form=hpcapt&mkt=zh-cn",
+  "description": "奇陶尔加尔堡, 拉贾斯坦邦, 印度",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_FortChittorgarh%22&FORM=HPQUIZ",
+  "hash": "1ce53069edceeee5aa5081dc3746a2cc",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ZH-CN5999553283_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ZH-CN5999553283_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ZH-CN5999553283_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ZH-CN5999553283_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-24",
+    "EndDate": "2025-09-25",
+    "FullStartDateTime": "2025-09-24T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250924",
+      "fullStartDate": "202509241600",
+      "endDate": "20250925"
+    }
+  },
+  "createdAt": "2025-09-25T02:11:01.347235+00:00",
+  "originalUrlBase": "/th?id=OHR.FortChittorgarh_ZH-CN5999553283"
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-25",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "Carved stones of courage",
+  "copyright": "Chittorgarh Fort, Rajasthan, India (© chetansoni/Shutterstock)",
+  "copyrightLink": "https://www.bing.com/search?q=Chittorgarh+Fort+India&form=hpcapt&filters=HpDate%3a%2220250924_2300%22",
+  "description": "Chittorgarh Fort, Rajasthan, India",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_FortChittorgarh%22&FORM=HPQUIZ",
+  "hash": "ee306da71016be6185ffab49481a5c32",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-GB8794173369_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-GB8794173369_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-GB8794173369_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-GB8794173369_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-24",
+    "EndDate": "2025-09-25",
+    "FullStartDateTime": "2025-09-24T23:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250924",
+      "fullStartDate": "202509242300",
+      "endDate": "20250925"
+    }
+  },
+  "createdAt": "2025-09-25T02:11:01.3472176+00:00",
+  "originalUrlBase": "/th?id=OHR.FortChittorgarh_EN-GB8794173369"
+}
