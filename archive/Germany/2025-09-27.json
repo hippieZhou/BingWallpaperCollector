@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-27",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Mystische Atmosphäre",
+  "copyright": "Herbstliche Farben in Berlin (© Sergio Saavedra Ruiz/Getty Images)",
+  "copyrightLink": "https://www.bing.com/search?q=Berlin&form=hpcapt&filters=HpDate%3a%2220250926_2200%22",
+  "description": "Herbstliche Farben in Berlin",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_BerlinAutumn%22&FORM=HPQUIZ",
+  "hash": "3cf9b35028758c4167a1f60230b6caec",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.BerlinAutumn_DE-DE0881465418_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BerlinAutumn_DE-DE0881465418_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.BerlinAutumn_DE-DE0881465418_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BerlinAutumn_DE-DE0881465418_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-26",
+    "EndDate": "2025-09-27",
+    "FullStartDateTime": "2025-09-26T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250926",
+      "fullStartDate": "202509262200",
+      "endDate": "20250927"
+    }
+  },
+  "createdAt": "2025-09-27T02:02:47.1604569+00:00",
+  "originalUrlBase": "/th?id=OHR.BerlinAutumn_DE-DE0881465418"
+}

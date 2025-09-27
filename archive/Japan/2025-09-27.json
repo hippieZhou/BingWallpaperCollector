@@ -1,0 +1,45 @@
+{
+  "date": "2025-09-27",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "星降る夜の水鏡",
+  "copyright": "タンク・レイクス, 米国 ワシントン州 (© Austin Trigg/TANDEM Stills + Motion)",
+  "copyrightLink": "https://www.bing.com/search?q=Tanks+Lake&form=hpcapt&filters=HpDate%3a%2220250926_1500%22",
+  "description": "タンク・レイクス, 米国 ワシントン州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_TankLakes%22&FORM=HPQUIZ",
+  "hash": "f2fe625bdbb1ec62f40dc3cff37865e7",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_JA-JP1667519475_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_JA-JP1667519475_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_JA-JP1667519475_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_JA-JP1667519475_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-26",
+    "EndDate": "2025-09-27",
+    "FullStartDateTime": "2025-09-26T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250926",
+      "fullStartDate": "202509261500",
+      "endDate": "20250927"
+    }
+  },
+  "createdAt": "2025-09-27T02:02:47.1751176+00:00",
+  "originalUrlBase": "/th?id=OHR.TankLakes_JA-JP1667519475"
+}
