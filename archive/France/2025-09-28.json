@@ -1,0 +1,48 @@
+{
+  "date": "28 sept. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Pienza et son pecorino, c’est fort de fromage !",
+  "copyright": "Ville de Pienza, Toscane, Italie (© zpagistock/Getty Images)",
+  "copyrightLink": "/search?q=Pienza&form=hpcapt&filters=HpDate%3a%2220250927_2200%22",
+  "description": "Accrochée au-dessus du Val d’Orcia, en Toscane, en Italie, Pienza déploie ses murs clairs face à un paysage digne d’un maître : cyprès élancés, collines ondulantes, routes de terre serpentant vers l’horizon. Jadis simple village médiéval nommé Corsignano, elle fut métamorphosée au XVe siècle par l’un de ses fils, devenu le pape Pie II. Avec l’architecte Bernardo Rossellino, il voulut offrir au monde un modèle de ville idéale, où ordre et harmonie guideraient les rues.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "74f93f95e7e3bffafce5044f435da11a",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-27",
+    "EndDate": "2025-09-28",
+    "FullStartDateTime": "2025-09-27T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250927",
+      "fullStartDate": "202509272200",
+      "endDate": "20250928"
+    }
+  },
+  "createdAt": "2025-09-28T02:19:20.5044589+00:00",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_FR-FR1953145437",
+  "caption": "Pienza, Toscane, Italie",
+  "copyrightOnly": "© zpagistock/Getty Images",
+  "bsTitle": "Pienza et son pecorino, c’est fort de fromage !"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 27, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "copyright": "Tank Lakes, Alpine Lakes Wilderness, Washington, United States (© Austin Trigg/TANDEM Stills + Motion)",
+  "copyrightLink": "/search?q=Alpine+Lakes+Wilderness&form=hpcapt&filters=HpDate%3a%2220250927_0700%22",
+  "description": "Tank Lakes in Alpine Lakes Wilderness, in Washington, United States, is a hidden treasure for nature lovers. The hike begins at the Necklace Valley Trailhead along the forested East Foss River before climbing steeply through rocky terrain and passing several alpine lakes. It covers about 38 kilometres round trip with an elevation gain of more than 1600 metres. The major attractions of the trails are snow-capped peaks, pristine alpine lakes and plenty backcountry exploring in a stunning section of Washington's Cascade Range. The journey to Tank Lakes is challenging but rewarding, offering panoramic views, pristine waters and an immersive wilderness experience. So, if you are adventurous, Tank Lakes could be your next destination.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_TankLakes%22&FORM=HPQUIZ",
+  "hash": "e41543cd21c8d1fb4edd8647c00fbd59",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-27",
+    "EndDate": "2025-09-28",
+    "FullStartDateTime": "2025-09-27T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250927",
+      "fullStartDate": "202509270700",
+      "endDate": "20250928"
+    }
+  },
+  "createdAt": "2025-09-28T02:19:20.547445+00:00",
+  "originalUrlBase": "/th?id=OHR.TankLakes_ROW5456053450",
+  "caption": "Tank Lakes, Alpine Lakes Wilderness, Washington, United States",
+  "copyrightOnly": "© Austin Trigg/TANDEM Stills + Motion",
+  "bsTitle": "Info"
+}
