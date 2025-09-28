@@ -40,6 +40,7 @@ public sealed class UserConfigurationService : IUserConfigurationService
     var concurrentRequests = Environment.GetEnvironmentVariable("CONCURRENT_REQUESTS");
     var jsonFormat = Environment.GetEnvironmentVariable("JSON_FORMAT");
     var targetCountry = Environment.GetEnvironmentVariable("TARGET_COUNTRY");
+    var resolution = Environment.GetEnvironmentVariable("API_RESOLUTION");
 
     config.CollectAllCountries = collectAllCountries;
 
@@ -69,12 +70,20 @@ public sealed class UserConfigurationService : IUserConfigurationService
     // 设置JSON格式
     config.PrettyJsonFormat = jsonFormat != "compressed";
 
+    // 设置API分辨率
+    if (!string.IsNullOrEmpty(resolution) &&
+        Enum.TryParse<ApiResolution>(resolution, true, out var apiResolution))
+    {
+      config.DefaultResolution = apiResolution;
+    }
+
     _logger.LogInformation(
-        "自动模式配置: 所有国家={AllCountries}, 天数={Days}, 并发={Concurrent}, JSON格式={JsonFormat}",
+        "自动模式配置: 所有国家={AllCountries}, 天数={Days}, 并发={Concurrent}, JSON格式={JsonFormat}, 分辨率={Resolution}",
         config.CollectAllCountries,
         config.DaysToCollect,
         config.MaxConcurrentRequests,
-        config.PrettyJsonFormat ? "美化" : "压缩");
+        config.PrettyJsonFormat ? "美化" : "压缩",
+        config.DefaultResolution.GetDescription());
 
     return config;
   }

@@ -7,6 +7,22 @@ on:
     # 每天 UTC 12:30 (北京时间 20:30) 再次运行，确保获取不同时区的更新
     - cron: "30 12 * * *"
   workflow_dispatch: # 支持手动触发
+    inputs:
+      collect_days:
+        description: "收集天数 (1-8)"
+        required: false
+        default: "1"
+      api_resolution:
+        description: "API 请求分辨率"
+        required: false
+        default: "UHD4K"
+        type: choice
+        options:
+          - UHD4K
+          - QHD2K
+          - FullHD
+          - HD
+          - Standard
 
 permissions:
   contents: write
@@ -40,9 +56,10 @@ jobs:
           # 配置自动化运行参数
           AUTO_MODE: "true" # 启用自动模式
           COLLECT_ALL_COUNTRIES: "true" # 收集所有支持的国家
-          COLLECT_DAYS: "1" # 收集1天的数据（今日）
+          COLLECT_DAYS: "${{ github.event.inputs.collect_days || '1' }}" # 收集天数，支持手动设置
           CONCURRENT_REQUESTS: "3" # 并发请求数
           JSON_FORMAT: "pretty" # 使用美化的JSON格式
+          API_RESOLUTION: "${{ github.event.inputs.api_resolution || 'UHD4K' }}" # API分辨率，支持手动选择
 
       - name: 配置 Git 用户信息
         run: |

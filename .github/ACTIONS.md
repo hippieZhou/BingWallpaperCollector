@@ -38,8 +38,9 @@ env:
   AUTO_MODE: "true"
   COLLECT_ALL_COUNTRIES: "true"
   COLLECT_DAYS: "1"
-  CONCURRENT_REQUESTS: "2"
+  CONCURRENT_REQUESTS: "3"
   JSON_FORMAT: "pretty"
+  API_RESOLUTION: "UHD4K"
 ```
 
 ### 2. 区域化收集 (`collect-regional-wallpapers.yml`)
@@ -54,6 +55,7 @@ env:
 - 使用矩阵策略并行收集多个国家
 - 智能重试机制，避免并发冲突
 - 分地区提交数据，提高成功率
+- 分辨率优化: 亚洲/美洲地区使用4K，欧洲地区使用2K分辨率
 
 **🌍 地区分组:**
 ```yaml
@@ -97,13 +99,16 @@ countries: ["UnitedStates", "Canada", "Brazil", "Australia"]
 4. 可以自定义参数：
    - **目标国家列表**: 用逗号分隔的国家名称（如: `China,Japan,UnitedStates`）
    - **收集天数**: 1-8 天
-   - **并发请求数**: 1-5 个
+   - **API 分辨率**: UHD4K, QHD2K, FullHD, HD, Standard
 
 ### 手动触发每日收集
 
 1. 进入 GitHub 仓库的 **Actions** 页面
 2. 选择 **"每日收集 Bing 壁纸信息"** workflow
 3. 点击 **"Run workflow"** 立即执行全球收集
+4. 可以自定义参数：
+   - **收集天数**: 1-8 天
+   - **API 分辨率**: UHD4K, QHD2K, FullHD, HD, Standard
 
 ### 手动触发页面部署
 
@@ -115,14 +120,15 @@ countries: ["UnitedStates", "Canada", "Brazil", "Australia"]
 
 所有工作流支持以下环境变量：
 
-| 环境变量                | 说明                   | 可选值                 | 默认值     |
-| ----------------------- | ---------------------- | ---------------------- | ---------- |
-| `AUTO_MODE`             | 启用自动模式           | `true`, `false`        | `true`     |
-| `COLLECT_ALL_COUNTRIES` | 收集所有国家           | `true`, `false`        | `true`     |
-| `TARGET_COUNTRY`        | 目标国家（单国家模式） | 国家名称               | `China`    |
-| `COLLECT_DAYS`          | 收集天数               | `1-8`                  | `1`        |
-| `CONCURRENT_REQUESTS`   | 并发请求数             | `1-5`                  | `2`        |
-| `JSON_FORMAT`           | JSON 格式              | `pretty`, `compressed` | `pretty`   |
+| 环境变量                | 说明                   | 可选值                                       | 默认值     |
+| ----------------------- | ---------------------- | -------------------------------------------- | ---------- |
+| `AUTO_MODE`             | 启用自动模式           | `true`, `false`                             | `true`     |
+| `COLLECT_ALL_COUNTRIES` | 收集所有国家           | `true`, `false`                             | `true`     |
+| `TARGET_COUNTRY`        | 目标国家（单国家模式） | 国家名称                                     | `China`    |
+| `COLLECT_DAYS`          | 收集天数               | `1-8`                                       | `1`        |
+| `CONCURRENT_REQUESTS`   | 并发请求数             | `1-5`                                       | `2-3`      |
+| `JSON_FORMAT`           | JSON 格式              | `pretty`, `compressed`                      | `pretty`   |
+| `API_RESOLUTION`        | API 请求分辨率         | `UHD4K`, `QHD2K`, `FullHD`, `HD`, `Standard` | `UHD4K`    |
 
 ## 🛠 故障排除
 

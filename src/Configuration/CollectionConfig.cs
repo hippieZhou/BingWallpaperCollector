@@ -12,4 +12,9 @@ public sealed class CollectionConfig
   public bool CollectAllCountries { get; set; } = false;
   public int MaxConcurrentRequests { get; set; } = 3;
   public bool PrettyJsonFormat { get; set; } = true;
+
+  /// <summary>
+  /// 默认请求分辨率
+  /// </summary>
+  public ApiResolution DefaultResolution { get; set; } = ApiResolution.UHD4K;
 }

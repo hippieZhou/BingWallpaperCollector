@@ -51,4 +51,19 @@ public sealed class BingWallpaperInfo
 
   [JsonPropertyName("enddate")]
   public string EndDate { get; set; } = string.Empty;
+
+  [JsonPropertyName("date")]
+  public string Date { get; set; } = string.Empty;
+
+  [JsonPropertyName("caption")]
+  public string Caption { get; set; } = string.Empty;
+
+  [JsonPropertyName("copyrightonly")]
+  public string CopyrightOnly { get; set; } = string.Empty;
+
+  [JsonPropertyName("desc")]
+  public string Description { get; set; } = string.Empty;
+
+  [JsonPropertyName("bsTitle")]
+  public string BsTitle { get; set; } = string.Empty;
 }

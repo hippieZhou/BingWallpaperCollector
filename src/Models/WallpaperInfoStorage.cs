@@ -18,4 +18,9 @@ public sealed class WallpaperInfoStorage
   public WallpaperTimeInfo TimeInfo { get; set; } = new();
   public DateTime CreatedAt { get; set; } = DateTime.Now;
   public string OriginalUrlBase { get; set; } = string.Empty;
+
+  // 新增字段
+  public string Caption { get; set; } = string.Empty;
+  public string CopyrightOnly { get; set; } = string.Empty;
+  public string BsTitle { get; set; } = string.Empty;
 }

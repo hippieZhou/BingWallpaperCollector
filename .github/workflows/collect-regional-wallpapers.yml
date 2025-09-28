@@ -18,6 +18,17 @@ on:
         description: "收集天数 (1-8)"
         required: false
         default: "1"
+      api_resolution:
+        description: "API 请求分辨率"
+        required: false
+        default: "UHD4K"
+        type: choice
+        options:
+          - UHD4K
+          - QHD2K
+          - FullHD
+          - HD
+          - Standard
 
 permissions:
   contents: write
@@ -58,6 +69,7 @@ jobs:
           COLLECT_DAYS: "${{ github.event.inputs.collect_days || '1' }}"
           CONCURRENT_REQUESTS: "2"
           JSON_FORMAT: "pretty"
+          API_RESOLUTION: "${{ github.event.inputs.api_resolution || 'UHD4K' }}" # 亚洲地区默认4K Ultra HD分辨率
 
       - name: 检查收集结果
         run: |
@@ -175,6 +187,7 @@ jobs:
           COLLECT_DAYS: "${{ github.event.inputs.collect_days || '1' }}"
           CONCURRENT_REQUESTS: "2"
           JSON_FORMAT: "pretty"
+          API_RESOLUTION: "${{ github.event.inputs.api_resolution || 'QHD2K' }}" # 欧洲地区默认2K分辨率，平衡质量和速度
 
       - name: 检查收集结果
         run: |
@@ -276,6 +289,7 @@ jobs:
           COLLECT_DAYS: "${{ github.event.inputs.collect_days || '1' }}"
           CONCURRENT_REQUESTS: "2"
           JSON_FORMAT: "pretty"
+          API_RESOLUTION: "${{ github.event.inputs.api_resolution || 'UHD4K' }}" # 美洲地区默认4K Ultra HD分辨率
 
       - name: 检查收集结果
         run: |

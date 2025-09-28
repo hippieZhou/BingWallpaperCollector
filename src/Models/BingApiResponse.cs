@@ -11,5 +11,5 @@ public sealed class BingApiResponse
   public List<BingWallpaperInfo> Images { get; set; } = [];
 
   [JsonPropertyName("tooltips")]
-  public object? Tooltips { get; set; }
+  public Tooltips? Tooltips { get; set; }
 }

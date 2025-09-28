@@ -48,13 +48,13 @@ public sealed class WallpaperStorageService : IWallpaperStorageService
       // 创建存储信息对象
       var storageInfo = new WallpaperInfoStorage
       {
-        Date = dateStr,
+        Date = wallpaperInfo.Date,
         Country = marketCode.ToString(),
         MarketCode = marketCode.GetDescription(),
         Title = wallpaperInfo.Title,
         Copyright = wallpaperInfo.Copyright,
         CopyrightLink = wallpaperInfo.CopyrightLink,
-        Description = ExtractDescription(wallpaperInfo.Copyright),
+        Description = wallpaperInfo.Description,
         Quiz = wallpaperInfo.Quiz,
         Hash = wallpaperInfo.Hash,
         OriginalUrlBase = wallpaperInfo.UrlBase,
@@ -63,7 +63,12 @@ public sealed class WallpaperStorageService : IWallpaperStorageService
               wallpaperInfo.StartDate,
               wallpaperInfo.FullStartDate,
               wallpaperInfo.EndDate),
-        CreatedAt = DateTime.Now
+        CreatedAt = DateTime.Now,
+
+        // 映射新增字段
+        Caption = wallpaperInfo.Caption,
+        CopyrightOnly = wallpaperInfo.CopyrightOnly,
+        BsTitle = wallpaperInfo.BsTitle
       };
 
       // 创建目录结构：Country/

@@ -6,9 +6,11 @@ namespace BingWallpaperCollector.Configuration;
 public static class AppConstants
 {
   /// <summary>
-  /// 必应壁纸API地址模板
+  /// 必应壁纸API地址模板 (支持可配置分辨率)
+  /// 参数说明: {0}=dayIndex, {1}=count, {2}=marketCode, {3}=simpleLanguageCode, {4}=width, {5}=height
+  /// 特性: 使用global.bing.com端点，支持可配置分辨率，包含完整的API参数
   /// </summary>
-  public const string BingApiUrlTemplate = "https://www.bing.com/HPImageArchive.aspx?format=js&idx={0}&n={1}&mkt={2}";
+  public const string BingApiUrlTemplate = "https://global.bing.com/HPImageArchive.aspx?format=js&idx={0}&n={1}&pid=hp&FORM=BEHPTB&uhd=1&uhdwidth={4}&uhdheight={5}&setmkt={2}&setlang={3}";
 
   /// <summary>
   /// 必应基础URL

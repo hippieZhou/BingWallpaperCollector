@@ -118,20 +118,25 @@ public sealed class BingWallpaperService : IBingWallpaperService
   public async Task<BingWallpaperInfo?> GetWallpaperInfoAsync(
       MarketCode marketCode,
       int dayIndex,
+      CollectionConfig config,
       CancellationToken cancellationToken = default)
   {
     try
     {
       var marketCodeStr = marketCode.GetDescription();
-      var apiUrl = string.Format(AppConstants.BingApiUrlTemplate, dayIndex, 1, marketCodeStr);
+      var languageCode = GetLanguageCodeFromMarket(marketCodeStr);
+      var simpleLanguageCode = GetSimpleLanguageCode(marketCodeStr);
 
-      _logger.LogDebug("正在获取 {Country} 第 {Day} 天的壁纸信息...", marketCode.ToString(), dayIndex + 1);
+      // 构建支持可配置分辨率的API请求URL
+      // 使用 global.bing.com 端点以获取更高质量的图片数据
+      var apiUrl = string.Format(AppConstants.BingApiUrlTemplate, dayIndex, 1, marketCodeStr, simpleLanguageCode, config.DefaultResolution.GetWidth(), config.DefaultResolution.GetHeight());
+
+      _logger.LogDebug("正在获取 {Country} 第 {Day} 天的壁纸信息 ({ResolutionName} {Width}x{Height})...", marketCode.ToString(), dayIndex + 1, config.DefaultResolution.GetDescription(), config.DefaultResolution.GetWidth(), config.DefaultResolution.GetHeight());
 
       // 创建带有特定语言头的请求
       using var request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
 
-      // 设置Accept-Language头以获取对应语言的内容
-      var languageCode = GetLanguageCodeFromMarket(marketCodeStr);
+      // 设置Accept-Language头以获取对应语言的内容  
       request.Headers.Add("Accept-Language", $"{languageCode},en;q=0.9");
 
       // 设置User-Agent以模拟浏览器请求
@@ -225,7 +230,7 @@ public sealed class BingWallpaperService : IBingWallpaperService
     await semaphore.WaitAsync(cancellationToken);
     try
     {
-      var wallpaperInfo = await GetWallpaperInfoAsync(marketCode, dayIndex, cancellationToken);
+      var wallpaperInfo = await GetWallpaperInfoAsync(marketCode, dayIndex, config, cancellationToken);
       if (wallpaperInfo != null)
       {
         // 计算实际日期
@@ -242,7 +247,7 @@ public sealed class BingWallpaperService : IBingWallpaperService
   }
 
   /// <summary>
-  /// 从市场代码获取语言代码
+  /// 从市场代码获取完整语言代码 (用于Accept-Language头)
   /// </summary>
   private static string GetLanguageCodeFromMarket(string marketCode)
   {
@@ -263,6 +268,27 @@ public sealed class BingWallpaperService : IBingWallpaperService
       "en-CA" => "en-CA",
       "en-IN" => "en-IN",
       _ => "en-US" // 默认使用英语
+    };
+  }
+
+  /// <summary>
+  /// 从市场代码获取简化语言代码 (用于API的setlang参数)
+  /// </summary>
+  private static string GetSimpleLanguageCode(string marketCode)
+  {
+    return marketCode switch
+    {
+      "zh-CN" => "zh",
+      "en-US" or "en-GB" or "en-AU" or "en-CA" or "en-IN" => "en",
+      "ja-JP" => "ja",
+      "de-DE" => "de",
+      "fr-FR" => "fr",
+      "es-ES" => "es",
+      "it-IT" => "it",
+      "ru-RU" => "ru",
+      "ko-KR" => "ko",
+      "pt-BR" => "pt",
+      _ => "en" // 默认使用英语
     };
   }
 }
