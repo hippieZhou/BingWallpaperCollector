@@ -1,8 +1,8 @@
 // 本地数据索引文件
-// 生成时间: 2025-09-27T02:55:58.533Z
+// 生成时间: 2025-09-28T00:54:56.071Z
 
 window.WALLPAPER_DATA_INDEX = {
-  "generated": "2025-09-27T02:55:58.000Z",
+  "generated": "2025-09-28T00:54:56.000Z",
   "countries": [
     "Australia",
     "Brazil",
@@ -53,10 +53,9 @@ window.WALLPAPER_DATA_INDEX = {
     "2025-08-28",
     "2025-08-27"
   ],
-  "totalFiles": 448,
+  "totalFiles": 447,
   "availableData": {
     "Australia": [
-      "2025-09-27",
       "2025-09-26",
       "2025-09-25",
       "2025-09-24",
@@ -537,5 +536,5 @@ window.WALLPAPER_DATA_INDEX = {
 console.log("📊 本地数据索引加载完成:", {
   countries: 14,
   dates: 32,
-  totalFiles: 448
+  totalFiles: 447
 });
