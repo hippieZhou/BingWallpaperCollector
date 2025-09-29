@@ -1,0 +1,48 @@
+{
+  "date": "Sep 29, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Rainbow rides and quiet vibes",
+  "copyright": "Rainbow houses in the town of Houten, Netherlands (© George Pachantouris/Getty Images)",
+  "copyrightLink": "/search?q=Houten+Netherlands&form=hpcapt&filters=HpDate%3a%2220250928_1830%22",
+  "description": "You won't find souvenir shops or tourist maps pointing the way—but follow the edge of Lake Rietplas in Houten, and you'll stumble upon one of the Netherlands' most unexpectedly photogenic sights. While many flock to Amsterdam's canals or Rotterdam's cube houses, this quiet commuter town offers its own architectural twist. Lined up like a mirage, the Rainbow Houses shimmer in bold, painterly hues—a residential block turned an understated cultural landmark.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_HoutenHouses%22&FORM=HPQUIZ",
+  "hash": "692c9e4f40e6acb586ac7479e268f483",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_EN-IN3573740286_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_EN-IN3573740286_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_EN-IN3573740286_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_EN-IN3573740286_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-28",
+    "EndDate": "2025-09-29",
+    "FullStartDateTime": "2025-09-28T18:30:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250928",
+      "fullStartDate": "202509281830",
+      "endDate": "20250929"
+    }
+  },
+  "createdAt": "2025-09-29T02:13:17.8513144+00:00",
+  "originalUrlBase": "/th?id=OHR.HoutenHouses_EN-IN3573740286",
+  "caption": "Rainbow houses, Houten, Netherlands",
+  "copyrightOnly": "© George Pachantouris/Getty Images",
+  "bsTitle": "Rainbow rides and quiet vibes"
+}

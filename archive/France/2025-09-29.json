@@ -1,0 +1,48 @@
+{
+  "date": "29 sept. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Au pied des maisons arc-en-ciel, un trésor",
+  "copyright": "Maisons arc-en-ciel dans la ville de Houten, Pays-Bas (© George Pachantouris/Getty Images)",
+  "copyrightLink": "/search?q=Houten%2c+Pays-Bas&form=hpcapt&filters=HpDate%3a%2220250928_2200%22",
+  "description": "Au bord du lac Rietplas, dans la ville néerlandaise de Houten, une rangée de maisons surgit, telle une palette de peintre posée sur l’eau. Conçues par l’architecte Hans Been et achevées en 2005, ces façades arc-en-ciel mêlent audace caribéenne et sobriété nordique. Reflets saturés, lignes nettes : un quartier résidentiel devenu, presque malgré lui, un paysage de carte postale.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_HoutenHouses%22&FORM=HPQUIZ",
+  "hash": "0699812a1e8d8cec87329380a69f47e8",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-28",
+    "EndDate": "2025-09-29",
+    "FullStartDateTime": "2025-09-28T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250928",
+      "fullStartDate": "202509282200",
+      "endDate": "20250929"
+    }
+  },
+  "createdAt": "2025-09-29T02:13:17.8022407+00:00",
+  "originalUrlBase": "/th?id=OHR.HoutenHouses_FR-FR2130005193",
+  "caption": "Maisons arc-en-ciel, Houten, Pays-Bas",
+  "copyrightOnly": "© George Pachantouris/Getty Images",
+  "bsTitle": "Au pied des maisons arc-en-ciel, un trésor"
+}
