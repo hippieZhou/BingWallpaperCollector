@@ -1,0 +1,48 @@
+{
+  "date": "Sep. 30, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Clinging to what matters",
+  "copyright": "Koala in a eucalyptus tree, Great Otway National Park, Australia (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyrightLink": "/search?q=Koala&form=hpcapt&filters=HpDate%3a%2220250930_0400%22",
+  "description": "Amid the lush eucalyptus canopy of Great Otway National Park, koalas reign as sleepy sentinels of Australia's wild soul. Often misnamed 'koala bears,' these marsupials are actually closer to wombats and tend to be instantly recognisable by their stout, tailless bodies, fluffy ears and velvety black noses.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_EucalyptusKoala%22&FORM=HPQUIZ",
+  "hash": "395995d76b20897a57fdf781a690dd51",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-09-30",
+    "EndDate": "2025-10-01",
+    "FullStartDateTime": "2025-09-30T04:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20250930",
+      "fullStartDate": "202509300400",
+      "endDate": "20251001"
+    }
+  },
+  "createdAt": "2025-10-01T02:20:51.7638566+00:00",
+  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_EN-CA8939050680",
+  "caption": "Koala in the Great Otway National Park, Australia",
+  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
+  "bsTitle": "Clinging to what matters"
+}
