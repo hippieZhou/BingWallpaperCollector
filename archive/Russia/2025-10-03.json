@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "copyright": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming, United States (© DanitaDelimont.com/AWL Images/SuperStock)",
+  "copyrightLink": "/search?q=Grand+Teton+National+Park&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
+  "hash": "6420b998ebc499971ea744a13a1169fe",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-02",
+    "EndDate": "2025-10-03",
+    "FullStartDateTime": "2025-10-02T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251002",
+      "fullStartDate": "202510020700",
+      "endDate": "20251003"
+    }
+  },
+  "createdAt": "2025-10-03T02:07:00.5123913+00:00",
+  "originalUrlBase": "/th?id=OHR.OxbowBend_ROW5989192939",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

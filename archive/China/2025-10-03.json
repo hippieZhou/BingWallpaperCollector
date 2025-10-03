@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "雾中遐想",
+  "copyright": "布里特尔峡谷里生长的帚石楠花, 斯凯岛, 苏格兰 (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyrightLink": "/search?q=%e6%96%af%e5%87%af%e5%b2%9b&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "467be40c964090c293e783fc168a6ae2",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ZH-CN2820283990_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ZH-CN2820283990_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ZH-CN2820283990_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ZH-CN2820283990_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-02",
+    "EndDate": "2025-10-03",
+    "FullStartDateTime": "2025-10-02T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251002",
+      "fullStartDate": "202510021600",
+      "endDate": "20251003"
+    }
+  },
+  "createdAt": "2025-10-03T02:07:00.4530301+00:00",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_ZH-CN2820283990",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

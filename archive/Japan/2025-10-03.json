@@ -1,0 +1,48 @@
+{
+  "date": "2025 年 10月 月 3 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "紫の花咲く大地",
+  "copyright": "グレン・ブリトル, スコットランド (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyrightLink": "/search?q=%e3%82%b0%e3%83%ac%e3%83%b3%e3%83%bb%e3%83%96%e3%83%aa%e3%83%88%e3%83%ab&form=hpcapt&filters=HpDate%3a%2220251002_1500%22",
+  "description": "「霧の島」とも称されるスコットランドのスカイ島。その南西部に広がる谷、グレン・ブリトルでは、ヒースと呼ばれる美しい紫の小さな花が絨毯のように咲き誇ります。太古の昔から存在する歴史ある土地で、断崖には恐竜の足跡が刻まれており、9 世紀にはヴァイキングが定住しました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "5546ca888fcb54e6405a7e23e5f272b0",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-02",
+    "EndDate": "2025-10-03",
+    "FullStartDateTime": "2025-10-02T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251002",
+      "fullStartDate": "202510021500",
+      "endDate": "20251003"
+    }
+  },
+  "createdAt": "2025-10-03T02:07:00.4919462+00:00",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_JA-JP7561347402",
+  "caption": "紫の花咲く大地",
+  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
+  "bsTitle": "紫の花咲く大地"
+}
