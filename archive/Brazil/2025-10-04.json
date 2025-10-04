@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Sonhos envoltos na névoa",
+  "copyright": "Urze crescendo em Glen Brittle, Ilha de Skye, Escócia (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyrightLink": "/search?q=Ilha+de+Skye&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "388872d2de59e306d96a49f2874d4d89",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-03",
+    "EndDate": "2025-10-04",
+    "FullStartDateTime": "2025-10-03T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251003",
+      "fullStartDate": "202510030300",
+      "endDate": "20251004"
+    }
+  },
+  "createdAt": "2025-10-04T01:57:40.8346468+00:00",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_PT-BR7113823627",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}
