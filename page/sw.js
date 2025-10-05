@@ -1,6 +1,6 @@
 // Service Worker for Bing Wallpaper Collector PWA
-const CACHE_NAME = "bing-wallpaper-v1.0.0";
-const DATA_CACHE_NAME = "bing-wallpaper-data-v1.0.0";
+const CACHE_NAME = "bing-wallpaper-v1.1.0";
+const DATA_CACHE_NAME = "bing-wallpaper-data-v1.1.0";
 
 // 需要缓存的静态资源
 const STATIC_FILES = [
@@ -91,23 +91,50 @@ self.addEventListener("fetch", (event) => {
   // 2. 数据文件 - 始终从网络获取最新数据，不使用缓存
   if (DATA_URL_PATTERNS.some((pattern) => pattern.test(url.href))) {
     console.log("[SW] 数据文件请求，始终从网络获取:", url.pathname);
-    event.respondWith(
-      fetchWithCacheBusting(request)
-    );
+    event.respondWith(fetchWithCacheBusting(request));
     return;
   }
 
-  // 3. 外部图片 - 缓存优先，长期缓存
+  // 3. 外部图片 - 智能缓存策略
   if (EXTERNAL_IMAGE_PATTERNS.some((pattern) => pattern.test(url.href))) {
     event.respondWith(
       caches
         .match(request)
         .then((response) => {
+          // 检查缓存是否存在且未过期
           if (response) {
-            return response;
+            const cachedAt = response.headers.get("sw-cached-at");
+            const maxAge = response.headers.get("sw-max-age");
+
+            if (cachedAt && maxAge) {
+              const age = Date.now() - parseInt(cachedAt);
+              const maxAgeMs = parseInt(maxAge);
+
+              // 如果缓存未过期，返回缓存
+              if (age < maxAgeMs) {
+                console.log(
+                  "[SW] 返回缓存的图片:",
+                  url.pathname,
+                  `(缓存${Math.round(age / 1000 / 60)}分钟)`
+                );
+                return response;
+              } else {
+                console.log("[SW] 图片缓存已过期，重新获取:", url.pathname);
+              }
+            } else {
+              // 旧版本缓存，直接使用但标记为需要更新
+              console.log("[SW] 使用旧版本缓存，后台更新:", url.pathname);
+              // 后台更新缓存
+              fetchAndCache(request, DATA_CACHE_NAME, {
+                maxAge: 1000 * 60 * 60 * 2, // 2小时缓存
+              }).catch(() => {}); // 静默处理错误
+              return response;
+            }
           }
+
+          // 没有缓存或缓存过期，重新获取
           return fetchAndCache(request, DATA_CACHE_NAME, {
-            maxAge: 1000 * 60 * 60 * 24 * 7, // 7天缓存
+            maxAge: 1000 * 60 * 60 * 2, // 2小时缓存（从7天改为2小时）
           });
         })
         .catch(() => {
@@ -177,38 +204,38 @@ async function fetchWithCacheBusting(request) {
   try {
     // 为URL添加时间戳参数防止缓存
     const url = new URL(request.url);
-    url.searchParams.set('t', Date.now().toString());
-    url.searchParams.set('nocache', '1');
-    
+    url.searchParams.set("t", Date.now().toString());
+    url.searchParams.set("nocache", "1");
+
     // 创建新的请求，添加缓存控制头
     const newRequest = new Request(url.toString(), {
       method: request.method,
       headers: {
         ...request.headers,
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache',
-        'Expires': '0'
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        Pragma: "no-cache",
+        Expires: "0",
       },
       body: request.body,
       credentials: request.credentials,
-      cache: 'no-cache'
+      cache: "no-cache",
     });
 
     console.log("[SW] 从网络获取数据文件（无缓存）:", url.toString());
     const response = await fetch(newRequest);
-    
+
     if (response.ok) {
       // 添加防缓存响应头
       const headers = new Headers(response.headers);
-      headers.set('Cache-Control', 'no-cache, no-store, must-revalidate');
-      headers.set('Pragma', 'no-cache');
-      headers.set('Expires', '0');
-      headers.set('Last-Modified', new Date().toUTCString());
-      
+      headers.set("Cache-Control", "no-cache, no-store, must-revalidate");
+      headers.set("Pragma", "no-cache");
+      headers.set("Expires", "0");
+      headers.set("Last-Modified", new Date().toUTCString());
+
       return new Response(response.body, {
         status: response.status,
         statusText: response.statusText,
-        headers: headers
+        headers: headers,
       });
     } else {
       throw new Error(`Network response not ok: ${response.status}`);
@@ -328,53 +355,6 @@ async function doBackgroundSync() {
   }
 }
 
-// 推送通知
-self.addEventListener("push", (event) => {
-  const options = {
-    body: event.data ? event.data.text() : "Bing壁纸收集器有新更新",
-    icon: "/BingWallpaperCollector/assets/images/icon-192x192.png",
-    badge: "/BingWallpaperCollector/assets/images/icon-72x72.png",
-    vibrate: [200, 100, 200],
-    data: {
-      url: "/BingWallpaperCollector/",
-    },
-    actions: [
-      {
-        action: "view",
-        title: "查看",
-        icon: "/BingWallpaperCollector/assets/images/icon-96x96.png",
-      },
-    ],
-  };
-
-  event.waitUntil(
-    self.registration.showNotification("Bing壁纸收集器", options)
-  );
-});
-
-// 处理通知点击
-self.addEventListener("notificationclick", (event) => {
-  event.notification.close();
-
-  const url = event.notification.data?.url || "/BingWallpaperCollector/";
-
-  event.waitUntil(
-    clients.matchAll({ type: "window" }).then((clientList) => {
-      // 如果已有窗口打开，则聚焦
-      for (const client of clientList) {
-        if (client.url === url && "focus" in client) {
-          return client.focus();
-        }
-      }
-
-      // 否则打开新窗口
-      if (clients.openWindow) {
-        return clients.openWindow(url);
-      }
-    })
-  );
-});
-
 // 版本更新检查
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") {
@@ -384,6 +364,16 @@ self.addEventListener("message", (event) => {
   // 手动检查数据更新
   if (event.data && event.data.type === "CHECK_DATA_UPDATE") {
     checkForDataUpdates();
+  }
+
+  // 清除图片缓存
+  if (event.data && event.data.type === "CLEAR_IMAGE_CACHE") {
+    clearImageCache();
+  }
+
+  // 强制刷新所有缓存
+  if (event.data && event.data.type === "FORCE_REFRESH_CACHE") {
+    forceRefreshAllCache();
   }
 });
 
@@ -455,9 +445,6 @@ async function checkForDataUpdates() {
           );
 
           if (!isFirstCheck) {
-            // 发送推送通知 (不在首次检查时发送)
-            await sendDataUpdateNotification();
-
             // 通知所有客户端数据已更新
             const clients = await self.clients.matchAll();
             clients.forEach((client) => {
@@ -522,8 +509,6 @@ async function checkDataIndexForUpdates(cache) {
           latestIndexResponse.clone()
         );
 
-        await sendDataUpdateNotification();
-
         const clients = await self.clients.matchAll();
         clients.forEach((client) => {
           client.postMessage({
@@ -544,42 +529,60 @@ async function checkDataIndexForUpdates(cache) {
   }
 }
 
-// 发送数据更新通知
-async function sendDataUpdateNotification() {
+// 清除图片缓存
+async function clearImageCache() {
   try {
-    const options = {
-      body: "发现新的壁纸！点击查看最新收集的精美壁纸。",
-      icon: "/BingWallpaperCollector/assets/images/icon-192x192.png",
-      badge: "/BingWallpaperCollector/assets/images/icon-72x72.png",
-      vibrate: [200, 100, 200, 100, 200],
-      data: {
-        url: "/BingWallpaperCollector/",
-        timestamp: Date.now(),
-      },
-      actions: [
-        {
-          action: "view",
-          title: "查看新壁纸",
-          icon: "/BingWallpaperCollector/assets/images/icon-96x96.png",
-        },
-        {
-          action: "dismiss",
-          title: "稍后查看",
-          icon: "/BingWallpaperCollector/assets/images/icon-72x72.png",
-        },
-      ],
-      tag: "data-update",
-      renotify: true,
-      requireInteraction: false,
-    };
+    console.log("[SW] 开始清除图片缓存...");
+    const cache = await caches.open(DATA_CACHE_NAME);
+    const requests = await cache.keys();
 
-    await self.registration.showNotification(
-      "必应壁纸收集器 - 新数据",
-      options
-    );
-    console.log("[SW] 数据更新通知已发送");
+    let clearedCount = 0;
+    for (const request of requests) {
+      const url = new URL(request.url);
+      // 检查是否是图片URL
+      if (EXTERNAL_IMAGE_PATTERNS.some((pattern) => pattern.test(url.href))) {
+        await cache.delete(request);
+        clearedCount++;
+      }
+    }
+
+    console.log(`[SW] 已清除 ${clearedCount} 个图片缓存`);
+
+    // 通知所有客户端缓存已清除
+    const clients = await self.clients.matchAll();
+    clients.forEach((client) => {
+      client.postMessage({
+        type: "IMAGE_CACHE_CLEARED",
+        message: `已清除 ${clearedCount} 个图片缓存`,
+        count: clearedCount,
+      });
+    });
   } catch (error) {
-    console.error("[SW] 发送通知失败:", error);
+    console.error("[SW] 清除图片缓存失败:", error);
+  }
+}
+
+// 强制刷新所有缓存
+async function forceRefreshAllCache() {
+  try {
+    console.log("[SW] 开始强制刷新所有缓存...");
+
+    // 清除所有缓存
+    const cacheNames = await caches.keys();
+    await Promise.all(cacheNames.map((cacheName) => caches.delete(cacheName)));
+
+    console.log("[SW] 所有缓存已清除，准备重新加载...");
+
+    // 通知所有客户端进行硬刷新
+    const clients = await self.clients.matchAll();
+    clients.forEach((client) => {
+      client.postMessage({
+        type: "FORCE_RELOAD",
+        message: "缓存已清除，正在重新加载...",
+      });
+    });
+  } catch (error) {
+    console.error("[SW] 强制刷新缓存失败:", error);
   }
 }
 

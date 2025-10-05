@@ -1125,6 +1125,27 @@ class WallpaperApp {
         `;
   }
 
+  // 刷新当前视图（用于缓存清除后重新加载）
+  refreshCurrentView() {
+    console.log("🔄 刷新当前视图:", this.currentView);
+    
+    // 根据当前视图重新加载内容
+    switch (this.currentView) {
+      case "gallery":
+        this.showGalleryView();
+        break;
+      case "countries":
+        this.showCountriesView();
+        break;
+      case "timeline":
+        this.showTimelineView();
+        break;
+    }
+    
+    // 显示刷新提示
+    this.showToast("页面内容已刷新，图片缓存已清除", "success");
+  }
+
   // 显示提示消息
   showToast(message, type = "info") {
     // 创建或获取toast容器
