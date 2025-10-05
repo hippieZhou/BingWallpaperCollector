@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
+  "copyrightLink": "/search?q=International+Space+Station&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "85a56fa0120b3e0f3febcd5767f2aa1c",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-04",
+    "EndDate": "2025-10-05",
+    "FullStartDateTime": "2025-10-04T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251004",
+      "fullStartDate": "202510040700",
+      "endDate": "20251005"
+    }
+  },
+  "createdAt": "2025-10-05T02:18:57.1684472+00:00",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_ROW8867251205",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

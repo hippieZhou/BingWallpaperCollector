@@ -1,0 +1,48 @@
+{
+  "date": "Oct 4, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Mission: Possible",
+  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
+  "copyrightLink": "/search?q=World+Space+Week&form=hpcapt&filters=HpDate%3a%2220251004_0700%22",
+  "description": "From October 4 to 10, World Space Week invites us to transcend our earthly bounds and chase the stars. It was born from the launch of Sputnik 1 by the USSR in 1957 and the signing of the Outer Space Treaty in 1967, a pioneering international commitment to peaceful cosmic exploration. During this week, classrooms buzz with experiments, planetariums echo with wonder, and telescopes bridge the gap to distant galaxies. Together, these moments weave a universal story of science, discovery, and humanity's relentless drive to push boundaries. The week's mission is clear: to ignite the next generation of explorers, engineers, and dreamers ready to rewrite the cosmos.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "a7511aad9c5210cec968309e5d72e740",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-US9321246369_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-US9321246369_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-US9321246369_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-US9321246369_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-04",
+    "EndDate": "2025-10-05",
+    "FullStartDateTime": "2025-10-04T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251004",
+      "fullStartDate": "202510040700",
+      "endDate": "20251005"
+    }
+  },
+  "createdAt": "2025-10-05T02:18:57.108557+00:00",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_EN-US9321246369",
+  "caption": "World Space Week",
+  "copyrightOnly": "© NASA",
+  "bsTitle": "Mission: Possible"
+}
