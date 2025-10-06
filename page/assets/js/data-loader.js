@@ -88,19 +88,7 @@ class DataLoader {
   // 检查文件是否存在（使用无缓存策略）
   async fileExists(url) {
     try {
-      // 添加时间戳防止缓存
-      const timestamp = Date.now();
-      const cacheBustUrl = `${url}?t=${timestamp}&nocache=1`;
-      
-      const response = await fetch(cacheBustUrl, { 
-        method: "HEAD",
-        cache: 'no-cache',
-        headers: {
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache',
-          'Expires': '0'
-        }
-      });
+      const response = await fetch(url, { method: "HEAD" });
       return response.ok;
     } catch (error) {
       return false;
@@ -121,28 +109,17 @@ class DataLoader {
   // 加载单个壁纸数据
   async loadWallpaperData(country, date) {
     const basePath = this.getBasePath();
-    // 添加时间戳参数防止缓存
-    const timestamp = Date.now();
-    const url = `${basePath}/archive/${country}/${date}.json?t=${timestamp}&nocache=1`;
-    const baseUrl = `${basePath}/archive/${country}/${date}.json`;
+    const url = `${basePath}/archive/${country}/${date}.json`;
 
     try {
-      // 检查文件是否存在（使用基础URL）
-      if (!(await this.fileExists(baseUrl))) {
+      // 检查文件是否存在
+      if (!(await this.fileExists(url))) {
         // 静默处理文件不存在的情况
         return null;
       }
 
-      // 使用带cache-busting参数的URL和强制无缓存策略
-      const response = await fetch(url, {
-        cache: 'no-cache',
-        headers: {
-          'Cache-Control': 'no-cache, no-store, must-revalidate',
-          'Pragma': 'no-cache',
-          'Expires': '0'
-        }
-      });
-      
+      const response = await fetch(url);
+
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

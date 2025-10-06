@@ -19,7 +19,4 @@ Allow: /promo.html
 Allow: /offline.html
 Allow: /archive/
 
-# PWA核心文件
-Allow: /manifest.json
-Allow: /sw.js
 
