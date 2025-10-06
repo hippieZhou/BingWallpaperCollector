@@ -1,0 +1,48 @@
+{
+  "date": "Oct 5, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Celebrating our teachers",
+  "copyright": "Boreal owl in a forest in Central Europe (© Ondrej Prosicky/Alamy)",
+  "copyrightLink": "/search?q=World+Teachers+Day&form=hpcapt&filters=HpDate%3a%2220251005_0700%22",
+  "description": "The tradition of teaching is deeply rooted in human history. Today, we honor those who dedicate their lives to sharing knowledge and shaping minds. Happy World Teachers' Day to all the educators who have helped us become who we are.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "bebab527d47ed9590611a3e56211515d",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-US9991815804_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-US9991815804_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-US9991815804_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-US9991815804_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-05",
+    "EndDate": "2025-10-06",
+    "FullStartDateTime": "2025-10-05T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251005",
+      "fullStartDate": "202510050700",
+      "endDate": "20251006"
+    }
+  },
+  "createdAt": "2025-10-06T02:11:04.2538769+00:00",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_EN-US9991815804",
+  "caption": "World Teachers' Day",
+  "copyrightOnly": "© Ondrej Prosicky/Alamy",
+  "bsTitle": "Celebrating our teachers"
+}

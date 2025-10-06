@@ -1,0 +1,48 @@
+{
+  "date": "2025 年 10月 月 6 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は中秋の名月",
+  "copyright": "錦江に映える安順橋と満月, 中国 (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightLink": "/search?q=%e5%ae%89%e9%a0%86%e6%a9%8b&form=hpcapt&filters=HpDate%3a%2220251005_1500%22",
+  "description": "今日 10 月 6 日は中秋の名月。「十五夜」とも呼ばれ、お団子やススキなどをお供えし、お月見をする日です。もともとは、中国の中秋節に由来しており、平安時代に日本へと伝わり定着しました。そして、今日の画像の月は、中国・成都の安順橋の上に浮かんでいます…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "6831830d4852b47247b2a03b98f72629",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-05",
+    "EndDate": "2025-10-06",
+    "FullStartDateTime": "2025-10-05T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251005",
+      "fullStartDate": "202510051500",
+      "endDate": "20251006"
+    }
+  },
+  "createdAt": "2025-10-06T02:11:04.3266595+00:00",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_JA-JP7739273331",
+  "caption": "今日は中秋の名月",
+  "copyrightOnly": "© Philippe LEJEANVRE/Getty Images",
+  "bsTitle": "今日は中秋の名月"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "6 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Fiesta a la luz de la luna",
+  "copyright": "Puente Anshun iluminado para el Fiesta del Medio Otoño, Chengdu, China (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightLink": "/search?q=Fiesta+del+Medio+Oto%c3%b1o&form=hpcapt&filters=HpDate%3a%2220251005_2200%22",
+  "description": "El Festival del Medio Otoño, también llamado Festival de la Luna, es una de las celebraciones más queridas de China. Se festeja el día 15 del octavo mes lunar, que este año coincide con el 6 de octubre. La tradición cuenta que esa noche la diosa de la luna, Chang’e, contempla el mundo desde lo alto.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "0a4734241a682330b8c3777db49ee1bd",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ES-ES0720553853_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ES-ES0720553853_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ES-ES0720553853_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ES-ES0720553853_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-05",
+    "EndDate": "2025-10-06",
+    "FullStartDateTime": "2025-10-05T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251005",
+      "fullStartDate": "202510052200",
+      "endDate": "20251006"
+    }
+  },
+  "createdAt": "2025-10-06T02:11:04.3783602+00:00",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_ES-ES0720553853",
+  "caption": "Puente Anshun, Chengdu, China",
+  "copyrightOnly": "© Philippe LEJEANVRE/Getty Images",
+  "bsTitle": "Fiesta a la luz de la luna"
+}
