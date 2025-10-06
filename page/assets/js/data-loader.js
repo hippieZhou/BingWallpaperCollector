@@ -50,11 +50,16 @@ class DataLoader {
 
   // 获取实际数据中可用的日期（用于数据验证）
   getActualDataDates() {
+    console.log("🔍 getActualDataDates() 被调用");
+    console.log("📊 WALLPAPER_DATA_INDEX 存在:", !!window.WALLPAPER_DATA_INDEX);
+    
     if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates) {
-      console.log("📊 实际数据日期:", window.WALLPAPER_DATA_INDEX.dates);
+      console.log("📊 实际数据日期数量:", window.WALLPAPER_DATA_INDEX.dates.length);
+      console.log("📊 前5个日期:", window.WALLPAPER_DATA_INDEX.dates.slice(0, 5));
       return window.WALLPAPER_DATA_INDEX.dates;
     }
 
+    console.log("⚠️ 使用回退日期");
     // 回退到预设的已知日期
     return ["2025-08-28", "2025-08-27"];
   }

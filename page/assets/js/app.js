@@ -115,6 +115,9 @@ class WallpaperApp {
 
   // 初始化筛选器
   async initializeFilters() {
+    console.log("🔧 开始初始化筛选器...");
+    console.log("📊 WALLPAPER_DATA_INDEX:", window.WALLPAPER_DATA_INDEX);
+    
     const countryFilter = document.getElementById("country-filter");
     const dateFilter = document.getElementById("date-filter");
 
@@ -141,23 +144,16 @@ class WallpaperApp {
       countryFilter.appendChild(option);
     });
 
-    // 填充日期筛选器 - 使用UI显示的8天范围
-    const uiDates = await window.dataLoader.getAvailableDates();
-    uiDates.forEach((date) => {
+    // 填充日期筛选器 - 使用实际数据中可用的日期
+    const actualDates = window.dataLoader.getActualDataDates();
+    
+    // 只显示最近的8个日期
+    const recentDates = actualDates.slice(0, 8);
+    
+    recentDates.forEach((date) => {
       const option = document.createElement("option");
       option.value = date;
-
-      // 检查这个日期是否有实际数据
-      const hasData = window.dataLoader.wallpapers.some((w) => w.date === date);
-      const dateText = this.formatDate(date);
-
-      if (hasData) {
-        option.textContent = dateText;
-      } else {
-        option.textContent = `${dateText} (无数据)`;
-        option.style.color = "#999";
-      }
-
+      option.textContent = this.formatDate(date);
       dateFilter.appendChild(option);
     });
   }
