@@ -143,6 +143,9 @@ class DataLoader {
 
       return {
         ...data,
+        // 确保使用正确的日期和国家信息（覆盖JSON中可能为空的字段）
+        date: date,
+        country: country,
         countryInfo: countryInfo,
         displayDate: this.formatDate(date),
         fullImageUrl: this.getBestImageUrl(data.imageResolutions),
@@ -358,6 +361,9 @@ class DataLoader {
 
   // 搜索壁纸
   searchWallpapers(query, filters = {}) {
+    console.log("🔍 searchWallpapers 被调用:", { query, filters });
+    console.log("📊 总壁纸数量:", this.wallpapers.length);
+    
     let results = [...this.wallpapers];
 
     // 文本搜索
@@ -369,20 +375,42 @@ class DataLoader {
           wallpaper.description.toLowerCase().includes(searchTerm) ||
           wallpaper.copyright.toLowerCase().includes(searchTerm)
       );
+      console.log(`📝 文本搜索后剩余: ${results.length} 张`);
     }
 
     // 国家筛选
     if (filters.country) {
+      const beforeCount = results.length;
       results = results.filter(
         (wallpaper) => wallpaper.country === filters.country
       );
+      console.log(`🌍 国家筛选 (${filters.country}) 后: ${beforeCount} -> ${results.length} 张`);
     }
 
     // 日期筛选
     if (filters.date) {
-      results = results.filter((wallpaper) => wallpaper.date === filters.date);
+      const beforeCount = results.length;
+      console.log(`📅 日期筛选目标: "${filters.date}"`);
+      
+      // 调试：显示前几个壁纸的日期格式
+      if (this.wallpapers.length > 0) {
+        console.log("📅 壁纸数据中的日期格式示例:");
+        this.wallpapers.slice(0, 3).forEach((w, i) => {
+          console.log(`  ${i + 1}. ${w.country}/${w.date} (类型: ${typeof w.date})`);
+        });
+      }
+      
+      results = results.filter((wallpaper) => {
+        const matches = wallpaper.date === filters.date;
+        if (!matches && beforeCount < 10) { // 只在数量较少时显示详细信息
+          console.log(`❌ 不匹配: "${wallpaper.date}" !== "${filters.date}"`);
+        }
+        return matches;
+      });
+      console.log(`📅 日期筛选 (${filters.date}) 后: ${beforeCount} -> ${results.length} 张`);
     }
 
+    console.log(`✅ 最终筛选结果: ${results.length} 张壁纸`);
     return results;
   }
 
