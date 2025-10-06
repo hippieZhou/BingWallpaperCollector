@@ -226,21 +226,23 @@ class WallpaperApp {
 
   // 显示时间轴视图
   async showTimelineView() {
+    console.log("📅 showTimelineView() 被调用");
+    
     // 如果有筛选条件，应用筛选
     if (this.hasActiveFilters()) {
+      console.log("🔍 应用筛选条件到时间轴");
       this.applyFilters();
     } else {
-      // 获取UI显示的日期范围和实际数据
-      const uiDates = await window.dataLoader.getAvailableDates();
+      // 直接使用实际数据的日期分组
       const wallpapersByDate = window.dataLoader.getWallpapersByDate();
-
-      // 创建包含所有UI日期的完整时间轴数据
-      const completeTimeline = {};
-      uiDates.forEach((date) => {
-        completeTimeline[date] = wallpapersByDate[date] || [];
+      
+      console.log("📊 时间轴数据:", {
+        totalDates: Object.keys(wallpapersByDate).length,
+        dates: Object.keys(wallpapersByDate).slice(0, 5),
+        totalWallpapers: Object.values(wallpapersByDate).reduce((sum, arr) => sum + arr.length, 0)
       });
 
-      this.renderTimeline(completeTimeline);
+      this.renderTimeline(wallpapersByDate);
     }
   }
 

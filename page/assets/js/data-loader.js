@@ -129,7 +129,7 @@ class DataLoader {
         console.log(`📄 文件不存在: ${country}/${date}.json`);
         return null;
       }
-      
+
       console.log(`📥 加载文件: ${country}/${date}.json`);
 
       const response = await fetch(url);
@@ -205,7 +205,7 @@ class DataLoader {
   // 加载所有壁纸数据
   async loadAllData(progressCallback = null) {
     console.log("🚀 loadAllData() 开始执行");
-    
+
     if (this.loading) {
       console.log("数据正在加载中...");
       return this.wallpapers;
@@ -213,13 +213,15 @@ class DataLoader {
 
     this.loading = true;
     this.wallpapers = [];
-    
+
     console.log("📊 检查 WALLPAPER_DATA_INDEX:", {
       exists: !!window.WALLPAPER_DATA_INDEX,
-      hasAvailableData: !!(window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.availableData),
+      hasAvailableData: !!(
+        window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.availableData
+      ),
       totalFiles: window.WALLPAPER_DATA_INDEX?.totalFiles,
       countries: window.WALLPAPER_DATA_INDEX?.countries?.length,
-      dates: window.WALLPAPER_DATA_INDEX?.dates?.length
+      dates: window.WALLPAPER_DATA_INDEX?.dates?.length,
     });
 
     const countries = Object.keys(this.getCountryInfo());
@@ -316,15 +318,17 @@ class DataLoader {
     console.log(`✅ 数据加载完成: ${this.wallpapers.length} 张壁纸`);
     console.log(`🌍 涉及国家: ${this.countries.length} 个`);
     console.log(`📅 涉及日期: ${this.dates.length} 个`);
-    
+
     // 详细统计信息
     console.log("📊 加载统计:", {
       totalRequests: filesToLoad.length,
       successfulLoads: this.wallpapers.length,
       failedLoads: filesToLoad.length - this.wallpapers.length,
-      successRate: `${Math.round((this.wallpapers.length / filesToLoad.length) * 100)}%`
+      successRate: `${Math.round(
+        (this.wallpapers.length / filesToLoad.length) * 100
+      )}%`,
     });
-    
+
     if (this.wallpapers.length === 0) {
       console.error("❌ 没有成功加载任何壁纸数据！");
       console.log("🔍 请检查:");
@@ -363,7 +367,7 @@ class DataLoader {
   searchWallpapers(query, filters = {}) {
     console.log("🔍 searchWallpapers 被调用:", { query, filters });
     console.log("📊 总壁纸数量:", this.wallpapers.length);
-    
+
     let results = [...this.wallpapers];
 
     // 文本搜索
@@ -384,30 +388,37 @@ class DataLoader {
       results = results.filter(
         (wallpaper) => wallpaper.country === filters.country
       );
-      console.log(`🌍 国家筛选 (${filters.country}) 后: ${beforeCount} -> ${results.length} 张`);
+      console.log(
+        `🌍 国家筛选 (${filters.country}) 后: ${beforeCount} -> ${results.length} 张`
+      );
     }
 
     // 日期筛选
     if (filters.date) {
       const beforeCount = results.length;
       console.log(`📅 日期筛选目标: "${filters.date}"`);
-      
+
       // 调试：显示前几个壁纸的日期格式
       if (this.wallpapers.length > 0) {
         console.log("📅 壁纸数据中的日期格式示例:");
         this.wallpapers.slice(0, 3).forEach((w, i) => {
-          console.log(`  ${i + 1}. ${w.country}/${w.date} (类型: ${typeof w.date})`);
+          console.log(
+            `  ${i + 1}. ${w.country}/${w.date} (类型: ${typeof w.date})`
+          );
         });
       }
-      
+
       results = results.filter((wallpaper) => {
         const matches = wallpaper.date === filters.date;
-        if (!matches && beforeCount < 10) { // 只在数量较少时显示详细信息
+        if (!matches && beforeCount < 10) {
+          // 只在数量较少时显示详细信息
           console.log(`❌ 不匹配: "${wallpaper.date}" !== "${filters.date}"`);
         }
         return matches;
       });
-      console.log(`📅 日期筛选 (${filters.date}) 后: ${beforeCount} -> ${results.length} 张`);
+      console.log(
+        `📅 日期筛选 (${filters.date}) 后: ${beforeCount} -> ${results.length} 张`
+      );
     }
 
     console.log(`✅ 最终筛选结果: ${results.length} 张壁纸`);
@@ -416,6 +427,9 @@ class DataLoader {
 
   // 按日期分组壁纸
   getWallpapersByDate() {
+    console.log("📅 getWallpapersByDate() 被调用");
+    console.log("📊 当前壁纸总数:", this.wallpapers.length);
+    
     const grouped = {};
 
     this.wallpapers.forEach((wallpaper) => {
@@ -423,6 +437,12 @@ class DataLoader {
         grouped[wallpaper.date] = [];
       }
       grouped[wallpaper.date].push(wallpaper);
+    });
+    
+    console.log("📅 按日期分组结果:", {
+      totalDates: Object.keys(grouped).length,
+      dates: Object.keys(grouped).slice(0, 5),
+      sampleCounts: Object.entries(grouped).slice(0, 3).map(([date, wallpapers]) => `${date}: ${wallpapers.length}张`)
     });
 
     // 按日期排序（最新在前）
