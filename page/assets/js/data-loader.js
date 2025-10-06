@@ -52,10 +52,16 @@ class DataLoader {
   getActualDataDates() {
     console.log("🔍 getActualDataDates() 被调用");
     console.log("📊 WALLPAPER_DATA_INDEX 存在:", !!window.WALLPAPER_DATA_INDEX);
-    
+
     if (window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.dates) {
-      console.log("📊 实际数据日期数量:", window.WALLPAPER_DATA_INDEX.dates.length);
-      console.log("📊 前5个日期:", window.WALLPAPER_DATA_INDEX.dates.slice(0, 5));
+      console.log(
+        "📊 实际数据日期数量:",
+        window.WALLPAPER_DATA_INDEX.dates.length
+      );
+      console.log(
+        "📊 前5个日期:",
+        window.WALLPAPER_DATA_INDEX.dates.slice(0, 5)
+      );
       return window.WALLPAPER_DATA_INDEX.dates;
     }
 
@@ -118,10 +124,13 @@ class DataLoader {
 
     try {
       // 检查文件是否存在
-      if (!(await this.fileExists(url))) {
-        // 静默处理文件不存在的情况
+      const fileExists = await this.fileExists(url);
+      if (!fileExists) {
+        console.log(`📄 文件不存在: ${country}/${date}.json`);
         return null;
       }
+      
+      console.log(`📥 加载文件: ${country}/${date}.json`);
 
       const response = await fetch(url);
 
@@ -192,6 +201,8 @@ class DataLoader {
 
   // 加载所有壁纸数据
   async loadAllData(progressCallback = null) {
+    console.log("🚀 loadAllData() 开始执行");
+    
     if (this.loading) {
       console.log("数据正在加载中...");
       return this.wallpapers;
@@ -199,6 +210,14 @@ class DataLoader {
 
     this.loading = true;
     this.wallpapers = [];
+    
+    console.log("📊 检查 WALLPAPER_DATA_INDEX:", {
+      exists: !!window.WALLPAPER_DATA_INDEX,
+      hasAvailableData: !!(window.WALLPAPER_DATA_INDEX && window.WALLPAPER_DATA_INDEX.availableData),
+      totalFiles: window.WALLPAPER_DATA_INDEX?.totalFiles,
+      countries: window.WALLPAPER_DATA_INDEX?.countries?.length,
+      dates: window.WALLPAPER_DATA_INDEX?.dates?.length
+    });
 
     const countries = Object.keys(this.getCountryInfo());
 
@@ -291,9 +310,25 @@ class DataLoader {
       .sort()
       .reverse();
 
-    console.log(`数据加载完成: ${this.wallpapers.length} 张壁纸`);
-    console.log(`可用国家: ${this.countries.length} 个`);
-    console.log(`可用日期: ${this.dates.length} 个`);
+    console.log(`✅ 数据加载完成: ${this.wallpapers.length} 张壁纸`);
+    console.log(`🌍 涉及国家: ${this.countries.length} 个`);
+    console.log(`📅 涉及日期: ${this.dates.length} 个`);
+    
+    // 详细统计信息
+    console.log("📊 加载统计:", {
+      totalRequests: filesToLoad.length,
+      successfulLoads: this.wallpapers.length,
+      failedLoads: filesToLoad.length - this.wallpapers.length,
+      successRate: `${Math.round((this.wallpapers.length / filesToLoad.length) * 100)}%`
+    });
+    
+    if (this.wallpapers.length === 0) {
+      console.error("❌ 没有成功加载任何壁纸数据！");
+      console.log("🔍 请检查:");
+      console.log("1. data-index.js 是否正确加载");
+      console.log("2. 网络连接是否正常");
+      console.log("3. 数据文件路径是否正确");
+    }
 
     this.loading = false;
     return this.wallpapers;

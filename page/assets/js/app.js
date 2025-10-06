@@ -117,7 +117,7 @@ class WallpaperApp {
   async initializeFilters() {
     console.log("🔧 开始初始化筛选器...");
     console.log("📊 WALLPAPER_DATA_INDEX:", window.WALLPAPER_DATA_INDEX);
-    
+
     const countryFilter = document.getElementById("country-filter");
     const dateFilter = document.getElementById("date-filter");
 
@@ -146,10 +146,10 @@ class WallpaperApp {
 
     // 填充日期筛选器 - 使用实际数据中可用的日期
     const actualDates = window.dataLoader.getActualDataDates();
-    
+
     // 只显示最近的8个日期
     const recentDates = actualDates.slice(0, 8);
-    
+
     recentDates.forEach((date) => {
       const option = document.createElement("option");
       option.value = date;
