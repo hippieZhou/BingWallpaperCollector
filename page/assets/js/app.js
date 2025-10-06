@@ -277,8 +277,6 @@ class WallpaperApp {
                 <div class="image-overlay"></div>
             </div>
             <div class="wallpaper-info">
-                <h3 class="wallpaper-title">${wallpaper.title}</h3>
-                <p class="wallpaper-description">${wallpaper.description}</p>
                 <div class="wallpaper-meta">
                     <span class="country-tag">${wallpaper.countryInfo.flag} ${wallpaper.countryInfo.name}</span>
                     <span class="date-tag">${wallpaper.displayDate}</span>
@@ -1128,7 +1126,7 @@ class WallpaperApp {
   // 刷新当前视图（用于缓存清除后重新加载）
   refreshCurrentView() {
     console.log("🔄 刷新当前视图:", this.currentView);
-    
+
     // 根据当前视图重新加载内容
     switch (this.currentView) {
       case "gallery":
@@ -1141,7 +1139,7 @@ class WallpaperApp {
         this.showTimelineView();
         break;
     }
-    
+
     // 显示刷新提示
     this.showToast("页面内容已刷新，图片缓存已清除", "success");
   }

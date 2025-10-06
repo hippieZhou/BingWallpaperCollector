@@ -256,22 +256,7 @@ body {
 }
 
 .wallpaper-info {
-  padding: 1.5rem;
-}
-
-.wallpaper-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #333;
-  line-height: 1.4;
-}
-
-.wallpaper-description {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 1rem;
-  line-height: 1.5;
+  padding: 1rem 1.5rem;
 }
 
 .wallpaper-meta {
@@ -990,6 +975,10 @@ body {
   .wallpaper-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .wallpaper-info {
+    padding: 0.75rem 1rem;
   }
 
   .modal {
