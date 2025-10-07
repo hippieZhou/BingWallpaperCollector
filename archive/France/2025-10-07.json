@@ -1,0 +1,48 @@
+{
+  "date": "7 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "L’arrière-saison en majesté",
+  "copyright": "Rochers dans la mer au coucher du soleil, au Cap d’Antibes, Provence-Alpes-Côte d’Azur (© Eric Rousset/Getty Images)",
+  "copyrightLink": "/search?q=cap+d%27Antibes&form=hpcapt&filters=HpDate%3a%2220251006_2200%22",
+  "description": "Quand l’été s’éteint doucement, Cap d’Antibes révèle un autre visage, plus secret, presque intime. Les pins maritimes embaument l’air salin, les criques se vident de leur agitation, et les sentiers côtiers deviennent des corridors silencieux, rythmés par le ressac. Ici, l’automne n’est pas une fin, mais une respiration : la lumière se fait plus douce, les roches ocres se teintent de reflets rosés, et la Méditerranée, apaisée, prend des allures de miroir.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251006_CapAntibes%22&FORM=HPQUIZ",
+  "hash": "751b728f5c4b88138099fd97e7d0d26c",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_FR-FR2066318600_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_FR-FR2066318600_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_FR-FR2066318600_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_FR-FR2066318600_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-06",
+    "EndDate": "2025-10-07",
+    "FullStartDateTime": "2025-10-06T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251006",
+      "fullStartDate": "202510062200",
+      "endDate": "20251007"
+    }
+  },
+  "createdAt": "2025-10-07T02:08:20.8003588+00:00",
+  "originalUrlBase": "/th?id=OHR.CapAntibes_FR-FR2066318600",
+  "caption": "Cap d’Antibes, Provence-Alpes-Côte d’Azur",
+  "copyrightOnly": "© Eric Rousset/Getty Images",
+  "bsTitle": "L’arrière-saison en majesté"
+}

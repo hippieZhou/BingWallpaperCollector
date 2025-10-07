@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "copyright": "Anshun Bridge illuminated for the Mid-Autumn Festival, Chengdu, China (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightLink": "/search?q=Anshun+Bridge&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251006_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "fe7e58ffacaf45009196c34f4bb82962",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ROW9179881328_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ROW9179881328_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ROW9179881328_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ROW9179881328_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-06",
+    "EndDate": "2025-10-07",
+    "FullStartDateTime": "2025-10-06T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251006",
+      "fullStartDate": "202510060700",
+      "endDate": "20251007"
+    }
+  },
+  "createdAt": "2025-10-07T02:08:20.8305445+00:00",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_ROW9179881328",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}
