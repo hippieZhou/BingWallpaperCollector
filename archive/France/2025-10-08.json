@@ -1,0 +1,48 @@
+{
+  "date": "8 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Poulpe un jour, poulpe toujours !",
+  "copyright": "Pieuvre diurne, Maui, Hawaï, États-Unis (© Dave Fleetham/plainpicture)",
+  "copyrightLink": "/search?q=pieuvre&form=hpcapt&filters=HpDate%3a%2220251007_2200%22",
+  "description": "Sous les eaux claires de l’océan Indien, une silhouette ondulante glisse entre les coraux. C’est la pieuvre diurne, ou poulpe, car en français, les deux mots désignent le même génie des mers, un céphalopode aux huit bras fascinants. Elle chasse en plein jour, changeant de couleur comme un tableau vivant, mimant les ombres pour tromper ses proies. Un crabe hésite… trop tard.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251007_OctopusCyanea%22&FORM=HPQUIZ",
+  "hash": "3d9cf28b6afe053662b064762114f4fe",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_FR-FR1796300491_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_FR-FR1796300491_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_FR-FR1796300491_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_FR-FR1796300491_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-07",
+    "EndDate": "2025-10-08",
+    "FullStartDateTime": "2025-10-07T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251007",
+      "fullStartDate": "202510072200",
+      "endDate": "20251008"
+    }
+  },
+  "createdAt": "2025-10-08T02:08:02.2444289+00:00",
+  "originalUrlBase": "/th?id=OHR.OctopusCyanea_FR-FR1796300491",
+  "caption": "Journée internationale du poulpe",
+  "copyrightOnly": "© Dave Fleetham/plainpicture",
+  "bsTitle": "Poulpe un jour, poulpe toujours !"
+}
