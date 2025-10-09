@@ -1,0 +1,48 @@
+{
+  "date": "2025 年 10月 月 9 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "10 月 4 日から 10 日まで世界宇宙週間",
+  "copyright": "ジェームズ・ウェッブ宇宙望遠鏡が撮影した創造の柱 (© NASA)",
+  "copyrightLink": "/search?q=%e5%89%b5%e9%80%a0%e3%81%ae%e6%9f%b1&form=hpcapt&filters=HpDate%3a%2220251008_1500%22",
+  "description": "今日の画像は、NASA のジェームズ・ウェッブ宇宙望遠鏡が、2022 年 10 月に赤外線波長で捉えた「創造の柱」です。1995 年に、ハッブル宇宙望遠鏡が初めて撮影した「創造の柱」は、世界でもっとも有名な天体画像の一つといわれています。柱のように見えるガスと塵が新しい恒星を創造し、近隣の恒星の光に侵食されている様子から名付けられました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_WebbPillars%22&FORM=HPQUIZ",
+  "hash": "b2ff55297b8031168270c7e261b2282d",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_JA-JP7847589500_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_JA-JP7847589500_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_JA-JP7847589500_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_JA-JP7847589500_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-08",
+    "EndDate": "2025-10-09",
+    "FullStartDateTime": "2025-10-08T15:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510081500",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "2025-10-09T02:09:42.2103589+00:00",
+  "originalUrlBase": "/th?id=OHR.WebbPillars_JA-JP7847589500",
+  "caption": "10 月 4 日から 10 日まで世界宇宙週間",
+  "copyrightOnly": "© NASA",
+  "bsTitle": "10 月 4 日から 10 日まで世界宇宙週間"
+}

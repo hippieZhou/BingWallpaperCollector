@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "copyright": "Day octopus, Maui, Hawaii, United States (© Dave Fleetham/plainpicture)",
+  "copyrightLink": "/search?q=Day+octopus&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_OctopusCyanea%22&FORM=HPQUIZ",
+  "hash": "fcc67823efdfc3402f7118e88fdb342b",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_ROW4586818693_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_ROW4586818693_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_ROW4586818693_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_ROW4586818693_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-08",
+    "EndDate": "2025-10-09",
+    "FullStartDateTime": "2025-10-08T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510080700",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "2025-10-09T02:09:42.2466748+00:00",
+  "originalUrlBase": "/th?id=OHR.OctopusCyanea_ROW4586818693",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

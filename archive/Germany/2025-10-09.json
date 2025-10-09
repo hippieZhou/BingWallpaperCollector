@@ -1,0 +1,48 @@
+{
+  "date": "9. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein Universum in voller Blüte",
+  "copyright": "Die Säulen der Schöpfung, betrachtet vom James-Webb-Weltraumteleskop (© NASA)",
+  "copyrightLink": "/search?q=S%c3%a4ulen+der+Sch%c3%b6pfung&form=hpcapt&filters=HpDate%3a%2220251008_2200%22",
+  "description": "Es ist bereits der 9. Oktober und die Internationale Weltraumwoche neigt sich dem Ende zu. Die vergangenen Tage brachten eine Fülle an Erkenntnissen, eindrucksvollen Aufnahmen und neuen Perspektiven auf unsere Stellung im Universum. Zum krönenden Abschluss richten wir heute unseren Blick auf eine der ikonischsten Ansichten des Kosmos: die majestätischen Säulen der Schöpfung, die vom James-Webb-Weltraumteleskop eingefangen wurden.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_WebbPillars%22&FORM=HPQUIZ",
+  "hash": "f7f2b43a6b7b3ab7b6e2ffdbd1f93745",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-08",
+    "EndDate": "2025-10-09",
+    "FullStartDateTime": "2025-10-08T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510082200",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "2025-10-09T02:09:42.2104964+00:00",
+  "originalUrlBase": "/th?id=OHR.WebbPillars_DE-DE3382075540",
+  "caption": "Die Internationale Weltraumwoche ist noch nicht vorbei!",
+  "copyrightOnly": "© NASA",
+  "bsTitle": "Ein Universum in voller Blüte"
+}
