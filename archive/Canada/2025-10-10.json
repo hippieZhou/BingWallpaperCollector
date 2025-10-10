@@ -1,0 +1,48 @@
+{
+  "date": "Oct. 9, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Universe in bloom",
+  "copyright": "The Pillars of Creation viewed by the James Webb Space Telescope (© NASA)",
+  "copyrightLink": "/search?q=Pillars+of+Creation&form=hpcapt&filters=HpDate%3a%2220251009_0400%22",
+  "description": "As World Space Week draws to a close, the cosmos continues to give us reasons to look up in awe. Picture clouds—not drifting across our skies, but stretching across space itself, cradling the birth of new stars. That's exactly what NASA's James Webb Space Telescope has revealed in its view of the Pillars of Creation—shown here—with colours and details unlike anything seen before.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251009_WebbPillars%22&FORM=HPQUIZ",
+  "hash": "27acdb490f0eaa26e4c4c4a035b12697",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-CA8021988309_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-CA8021988309_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-CA8021988309_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-CA8021988309_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-09",
+    "EndDate": "2025-10-10",
+    "FullStartDateTime": "2025-10-09T04:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251009",
+      "fullStartDate": "202510090400",
+      "endDate": "20251010"
+    }
+  },
+  "createdAt": "2025-10-10T02:09:50.4391654+00:00",
+  "originalUrlBase": "/th?id=OHR.WebbPillars_EN-CA8021988309",
+  "caption": "Space Week isn't over yet!",
+  "copyrightOnly": "© NASA",
+  "bsTitle": "Universe in bloom"
+}
