@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Oro e Natura",
+  "copyright": "Lago Lagazzuolo, Valmalenco, Valle Valtellina, Lombardia (© Francesco Bergamaschi/Getty Images)",
+  "copyrightLink": "/search?q=Valmalenco&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251010_LagoLagazuolo%22&FORM=HPQUIZ",
+  "hash": "b73f43fbc5587f37a052e51a50728c42",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.LagoLagazuolo_IT-IT9428871019_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.LagoLagazuolo_IT-IT9428871019_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.LagoLagazuolo_IT-IT9428871019_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.LagoLagazuolo_IT-IT9428871019_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-10",
+    "EndDate": "2025-10-11",
+    "FullStartDateTime": "2025-10-10T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251010",
+      "fullStartDate": "202510102200",
+      "endDate": "20251011"
+    }
+  },
+  "createdAt": "2025-10-11T02:04:47.7047601+00:00",
+  "originalUrlBase": "/th?id=OHR.LagoLagazuolo_IT-IT9428871019",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

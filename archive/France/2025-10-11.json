@@ -1,0 +1,48 @@
+{
+  "date": "11 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Prochain arrêt : le Sud !",
+  "copyright": "Cane branchu, États-Unis (© ps50ace/iStock/Getty Images)",
+  "copyrightLink": "/search?q=Journ%c3%a9e+mondiale+des+oiseaux+migrateurs+&form=hpcapt&filters=HpDate%3a%2220251010_2200%22",
+  "description": "Un matin d’automne, une cane branchu fend les eaux cuivrées d’un lac nord-américain. Ses plumes irisées rappellent les vitraux des cathédrales, éclats fragiles qui scintillent entre les roseaux. Comme tant d’autres voyageurs ailés, elle suit les chemins invisibles du ciel, fil d’Ariane reliant les forêts canadiennes aux marécages du Sud.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251010_WoodDuckHen%22&FORM=HPQUIZ",
+  "hash": "60ee380f49ef5ee69aa472c0e5814531",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_FR-FR2128757864_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_FR-FR2128757864_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_FR-FR2128757864_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_FR-FR2128757864_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-10",
+    "EndDate": "2025-10-11",
+    "FullStartDateTime": "2025-10-10T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251010",
+      "fullStartDate": "202510102200",
+      "endDate": "20251011"
+    }
+  },
+  "createdAt": "2025-10-11T02:04:47.676913+00:00",
+  "originalUrlBase": "/th?id=OHR.WoodDuckHen_FR-FR2128757864",
+  "caption": "Journée mondiale des oiseaux migrateurs",
+  "copyrightOnly": "© ps50ace/iStock/Getty Images",
+  "bsTitle": "Prochain arrêt : le Sud !"
+}
