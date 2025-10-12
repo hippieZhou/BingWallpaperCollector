@@ -1,0 +1,48 @@
+{
+  "date": "12 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Día de la Hispanidad",
+  "copyright": "Fiesta Nacional de España, Plaza de Cibeles, Madrid, España (© Noppasin Wongchum/Getty Images)",
+  "copyrightLink": "/search?q=Fiesta+Nacional+de+Espa%c3%b1a&form=hpcapt&filters=HpDate%3a%2220251011_2200%22",
+  "description": "Cada 12 de octubre, España celebra su Fiesta Nacional, una fecha que recuerda el descubrimiento de América en 1492. Es un día en el que Madrid se convierte en el centro de todas las miradas, con un desfile militar que recorre el Paseo de la Castellana y reúne a la Familia Real, al Gobierno y a visitantes de todas partes.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251011_DaySpain%22&FORM=HPQUIZ",
+  "hash": "80279ed6e168c07667d15e4e213efcd7",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.DaySpain_ES-ES2088635486_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DaySpain_ES-ES2088635486_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.DaySpain_ES-ES2088635486_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DaySpain_ES-ES2088635486_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-11",
+    "EndDate": "2025-10-12",
+    "FullStartDateTime": "2025-10-11T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251011",
+      "fullStartDate": "202510112200",
+      "endDate": "20251012"
+    }
+  },
+  "createdAt": "2025-10-12T02:13:38.6021174+00:00",
+  "originalUrlBase": "/th?id=OHR.DaySpain_ES-ES2088635486",
+  "caption": "Fiesta Nacional de España",
+  "copyrightOnly": "© Noppasin Wongchum/Getty Images",
+  "bsTitle": "Día de la Hispanidad"
+}

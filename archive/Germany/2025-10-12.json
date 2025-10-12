@@ -1,0 +1,48 @@
+{
+  "date": "12. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Herbstidylle am See",
+  "copyright": "Saranac Lake, Adirondack Mountains, New York, USA (© DenisTangneyJr/Getty Images)",
+  "copyrightLink": "/search?q=Saranac+Lake+Ort+USA&form=hpcapt&filters=HpDate%3a%2220251011_2200%22",
+  "description": "Was macht einen Ort zu etwas Besonderem, unabhängig von seiner Lage? Saranac Lake, gelegen in den Adirondack Mountains im US-Bundesstaat New York, ist ein Beispiel dafür. Obwohl das Dorf nicht direkt an den Saranac-Seen, sondern am Lake Flower liegt, zieht es seit dem 19. Jahrhundert Menschen an. Ursprünglich wurde die Gegend von indigenen Völkern als Jagd- und Reiseroute genutzt. Ende des 19. Jahrhunderts wurde Saranac Lake als Luftkurort bekannt. Dr. Edward Livingston Trudeau entwickelte hier die Frischlufttherapie gegen Tuberkulose – die historischen „Cure Cottages“ sind bis heute erhalten geblieben. Etwa zur gleichen Zeit erforschte der Bakteriologe Robert Koch in Deutschland den Erreger dieser Krankheit und erhielt dafür 1905 den Nobelpreis für Medizin.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251011_SaranacLake%22&FORM=HPQUIZ",
+  "hash": "f15c9487939bc8b7839082f50c5ef43b",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_DE-DE3608042378_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_DE-DE3608042378_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_DE-DE3608042378_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_DE-DE3608042378_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-11",
+    "EndDate": "2025-10-12",
+    "FullStartDateTime": "2025-10-11T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251011",
+      "fullStartDate": "202510112200",
+      "endDate": "20251012"
+    }
+  },
+  "createdAt": "2025-10-12T02:13:38.5638605+00:00",
+  "originalUrlBase": "/th?id=OHR.SaranacLake_DE-DE3608042378",
+  "caption": "Saranac Lake, New York, USA",
+  "copyrightOnly": "© DenisTangneyJr/Getty Images",
+  "bsTitle": "Herbstidylle am See"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "爱上萨拉纳克",
+  "copyright": "萨拉纳克湖村，阿迪朗达克山脉，纽约州，美国 (© DenisTangneyJr/Getty Images)",
+  "copyrightLink": "/search?q=%e8%90%a8%e6%8b%89%e7%ba%b3%e5%85%8b%e6%b9%96%e6%9d%91&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251011_SaranacLake%22&FORM=HPQUIZ",
+  "hash": "dfb0df066511e0ce18f7f3d1b668a2b2",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_ZH-CN0224689397_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_ZH-CN0224689397_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_ZH-CN0224689397_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_ZH-CN0224689397_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-11",
+    "EndDate": "2025-10-12",
+    "FullStartDateTime": "2025-10-11T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251011",
+      "fullStartDate": "202510111600",
+      "endDate": "20251012"
+    }
+  },
+  "createdAt": "2025-10-12T02:13:38.5097453+00:00",
+  "originalUrlBase": "/th?id=OHR.SaranacLake_ZH-CN0224689397",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}
