@@ -1,0 +1,48 @@
+{
+  "date": "13 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "¡Respira aire puro!",
+  "copyright": "Desfiladero Wimbachklamm en el valle Wimbachtal, Ramsau bei Berchtesgaden, Baviera, Alemania (© EyeEm Mobile GmbH/Getty Images)",
+  "copyrightLink": "/search?q=Baviera+Alemania&form=hpcapt&filters=HpDate%3a%2220251012_2200%22",
+  "description": "Empinadas gargantas rocosas, aguas turbulentas y un paisaje que parece un cuadro: el Wimbachklamm, cerca de Ramsau, en el Parque Nacional de Berchtesgaden, es una de las gargantas más impresionantes de Baviera, Alemania. El Wimbach recorre unos 200 metros entre estrechas formaciones rocosas, cayendo en pequeñas cascadas y creando con el tiempo patrones sorprendentes en la piedra. Las capas de roca, de vivos colores, cuentan historias geológicas de miles de años.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251012_HinterseeWaterfall%22&FORM=HPQUIZ",
+  "hash": "520eca6eaa7ad16c60b745e46911ee0b",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ES-ES0526830866_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ES-ES0526830866_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ES-ES0526830866_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ES-ES0526830866_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-12",
+    "EndDate": "2025-10-13",
+    "FullStartDateTime": "2025-10-12T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251012",
+      "fullStartDate": "202510122200",
+      "endDate": "20251013"
+    }
+  },
+  "createdAt": "2025-10-13T02:17:41.2277385+00:00",
+  "originalUrlBase": "/th?id=OHR.HinterseeWaterfall_ES-ES0526830866",
+  "caption": "Desfiladero Wimbachklamm, Ramsau bei Berchtesgaden, Baviera, Alemania",
+  "copyrightOnly": "© EyeEm Mobile GmbH/Getty Images",
+  "bsTitle": "¡Respira aire puro!"
+}
