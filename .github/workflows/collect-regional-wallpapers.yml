@@ -57,11 +57,11 @@ jobs:
 
       - name: 恢复依赖包和构建
         run: |
-          dotnet restore src/BingWallpaperCollector.csproj
-          dotnet build src/BingWallpaperCollector.csproj --configuration Release --no-restore
+          dotnet restore src/BingWallpaperCollector/BingWallpaperCollector.csproj
+          dotnet build src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release --no-restore
 
       - name: 收集 ${{ matrix.country }} 壁纸信息
-        run: dotnet run --project src/BingWallpaperCollector.csproj --configuration Release
+        run: dotnet run --project src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release
         env:
           AUTO_MODE: "true"
           COLLECT_ALL_COUNTRIES: "false"
@@ -175,11 +175,11 @@ jobs:
 
       - name: 恢复依赖包和构建
         run: |
-          dotnet restore src/BingWallpaperCollector.csproj
-          dotnet build src/BingWallpaperCollector.csproj --configuration Release --no-restore
+          dotnet restore src/BingWallpaperCollector/BingWallpaperCollector.csproj
+          dotnet build src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release --no-restore
 
       - name: 收集 ${{ matrix.country }} 壁纸信息
-        run: dotnet run --project src/BingWallpaperCollector.csproj --configuration Release
+        run: dotnet run --project src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release
         env:
           AUTO_MODE: "true"
           COLLECT_ALL_COUNTRIES: "false"
@@ -277,11 +277,11 @@ jobs:
 
       - name: 恢复依赖包和构建
         run: |
-          dotnet restore src/BingWallpaperCollector.csproj
-          dotnet build src/BingWallpaperCollector.csproj --configuration Release --no-restore
+          dotnet restore src/BingWallpaperCollector/BingWallpaperCollector.csproj
+          dotnet build src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release --no-restore
 
       - name: 收集 ${{ matrix.country }} 壁纸信息
-        run: dotnet run --project src/BingWallpaperCollector.csproj --configuration Release
+        run: dotnet run --project src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release
         env:
           AUTO_MODE: "true"
           COLLECT_ALL_COUNTRIES: "false"

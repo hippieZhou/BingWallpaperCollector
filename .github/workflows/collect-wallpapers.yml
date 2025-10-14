@@ -45,13 +45,13 @@ jobs:
           dotnet-version: "9.0.x"
 
       - name: 恢复依赖包
-        run: dotnet restore src/BingWallpaperCollector.csproj
+        run: dotnet restore src/BingWallpaperCollector/BingWallpaperCollector.csproj
 
       - name: 构建项目
-        run: dotnet build src/BingWallpaperCollector.csproj --configuration Release --no-restore
+        run: dotnet build src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release --no-restore
 
       - name: 收集全球壁纸信息
-        run: dotnet run --project src/BingWallpaperCollector.csproj --configuration Release
+        run: dotnet run --project src/BingWallpaperCollector/BingWallpaperCollector.csproj --configuration Release
         env:
           # 配置自动化运行参数
           AUTO_MODE: "true" # 启用自动模式
