@@ -15,12 +15,6 @@ services.AddHttpClient<IBingWallpaperService, BingWallpaperService>(client =>
     client.DefaultRequestHeaders.Add("User-Agent", AppConstants.HttpHeaders.UserAgent);
 });
 
-services.AddHttpClient<IImageDownloadService, ImageDownloadService>(client =>
-{
-    client.Timeout = TimeSpan.FromSeconds(AppConstants.HttpTimeoutSeconds);
-    client.DefaultRequestHeaders.Add("User-Agent", AppConstants.HttpHeaders.UserAgent);
-});
-
 // 配置日志
 services.AddLogging(builder =>
 {
@@ -32,7 +26,6 @@ services.AddLogging(builder =>
 services.AddSingleton<IUserConfigurationService, UserConfigurationService>();
 services.AddSingleton<IWallpaperStorageService, WallpaperStorageService>();
 services.AddTransient<IBingWallpaperService, BingWallpaperService>();
-services.AddTransient<IImageDownloadService, ImageDownloadService>();
 
 // 注册应用服务
 services.AddTransient<BingWallpaperApp>();
