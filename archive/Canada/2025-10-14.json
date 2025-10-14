@@ -1,0 +1,48 @@
+{
+  "date": "Oct. 13, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Ontario's wild heart",
+  "copyright": "River rapids in Algonquin Provincial Park, Ontario (© Pgiam/Getty Images)",
+  "copyrightLink": "/search?q=Canadian+Thanksgiving&form=hpcapt&filters=HpDate%3a%2220251013_0400%22",
+  "description": "What's on your plate today—turkey, pie, mashed potatoes and maybe a second helping of gratitude? Canadian Thanksgiving arrives each October to mark the autumn harvest. Long before it became official in 1879, explorers and settlers held feasts for safe journeys and full larders. The first nationwide Thanksgiving was once celebrated in November. Today, it's a three-day weekend of family dinners, walks, counting blessings and quiet reflection before winter.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251013_AlgonParkOnt%22&FORM=HPQUIZ",
+  "hash": "bee96fd135b46208464e143ecee5a1f9",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AlgonParkOnt_EN-CA8810326454_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AlgonParkOnt_EN-CA8810326454_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AlgonParkOnt_EN-CA8810326454_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AlgonParkOnt_EN-CA8810326454_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-13",
+    "EndDate": "2025-10-14",
+    "FullStartDateTime": "2025-10-13T04:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251013",
+      "fullStartDate": "202510130400",
+      "endDate": "20251014"
+    }
+  },
+  "createdAt": "2025-10-14T02:10:22.6627564+00:00",
+  "originalUrlBase": "/th?id=OHR.AlgonParkOnt_EN-CA8810326454",
+  "caption": "Happy Thanksgiving!",
+  "copyrightOnly": "© Pgiam/Getty Images",
+  "bsTitle": "Ontario's wild heart"
+}
