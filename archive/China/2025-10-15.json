@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "孢子奇遇记",
+  "copyright": "紫蜡蘑，西贝克，华盛顿州，美国 (© Danita Delimont/Shutterstock)",
+  "copyrightLink": "/search?q=%e7%b4%ab%e8%9c%a1%e8%98%91&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251014_AmethystLaccaria%22&FORM=HPQUIZ",
+  "hash": "521e06d3d6e57f7c579c1092b30c18cf",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ZH-CN0643667280_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ZH-CN0643667280_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ZH-CN0643667280_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ZH-CN0643667280_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-14",
+    "EndDate": "2025-10-15",
+    "FullStartDateTime": "2025-10-14T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251014",
+      "fullStartDate": "202510141600",
+      "endDate": "20251015"
+    }
+  },
+  "createdAt": "2025-10-15T02:13:40.8555287+00:00",
+  "originalUrlBase": "/th?id=OHR.AmethystLaccaria_ZH-CN0643667280",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}
