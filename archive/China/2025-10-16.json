@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "幽灵之猫",
+  "copyright": "欧亚猞猁，西伯利亚 (© Mario Plechaty Photograph/Shutterstock)",
+  "copyrightLink": "/search?q=%e6%ac%a7%e4%ba%9a%e7%8c%9e%e7%8c%81&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251015_SiberianLynx%22&FORM=HPQUIZ",
+  "hash": "2e6ff5f51fcb2e77da98b4dd9756bf9a",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ZH-CN0749166653_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ZH-CN0749166653_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ZH-CN0749166653_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ZH-CN0749166653_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-15",
+    "EndDate": "2025-10-16",
+    "FullStartDateTime": "2025-10-15T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251015",
+      "fullStartDate": "202510151600",
+      "endDate": "20251016"
+    }
+  },
+  "createdAt": "2025-10-16T02:12:07.2535493+00:00",
+  "originalUrlBase": "/th?id=OHR.SiberianLynx_ZH-CN0749166653",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

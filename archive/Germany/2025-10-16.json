@@ -1,0 +1,48 @@
+{
+  "date": "16. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Der Schatten der Wälder",
+  "copyright": "Eurasischer Luchs, Sibirien (© Mario Plechaty Photograph/Shutterstock)",
+  "copyrightLink": "/search?q=Eurasischer+Luchs&form=hpcapt&filters=HpDate%3a%2220251015_2200%22",
+  "description": "Haben Sie schon einmal vom „Geist des Waldes“ gehört? So wird der Eurasische Luchs aufgrund seiner lautlosen, nachtaktiven Lebensweise und seiner Seltenheit auch genannt. Mit bis zu 1,07 Metern Länge und 76 Zentimetern Schulterhöhe ist er die größte Luchsart. Seine breiten Pfoten verteilen sein Gewicht wie Schneeschuhe – ideal für die Jagd im verschneiten Gelände. Er jagt nachts und ruht tagsüber in Felsspalten oder dichtem Gebüsch. Zu seiner Beute zählen Rehe, Hasen und Eichhörnchen. In Deutschland lebt der Luchs wieder in Teilen des Harzes und Bayerischen Waldes.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251015_SiberianLynx%22&FORM=HPQUIZ",
+  "hash": "1bbdd0791cd31eb9185fc33e39e3eecd",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_DE-DE4192979708_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_DE-DE4192979708_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_DE-DE4192979708_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_DE-DE4192979708_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-15",
+    "EndDate": "2025-10-16",
+    "FullStartDateTime": "2025-10-15T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251015",
+      "fullStartDate": "202510152200",
+      "endDate": "20251016"
+    }
+  },
+  "createdAt": "2025-10-16T02:12:07.2978704+00:00",
+  "originalUrlBase": "/th?id=OHR.SiberianLynx_DE-DE4192979708",
+  "caption": "Eurasischer Luchs",
+  "copyrightOnly": "© Mario Plechaty Photograph/Shutterstock",
+  "bsTitle": "Der Schatten der Wälder"
+}

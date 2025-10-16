@@ -1,0 +1,48 @@
+{
+  "date": "16 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "El gato fantasma",
+  "copyright": "Lince euroasiático, Siberia (© Mario Plechaty Photograph/Shutterstock)",
+  "copyrightLink": "/search?q=Lince+euroasi%c3%a1tico&form=hpcapt&filters=HpDate%3a%2220251015_2200%22",
+  "description": "Piense en un gato que puede desaparecer en el bosque sin hacer ruido: ese es el lince euroasiático. Con sus orejas copetudas y mirada penetrante, es el más grande de las cuatro especies de lince. Sus patas acolchadas no solo le permiten escabullirse; actúan como raquetas de nieve, distribuyendo su peso para perseguir presas en profundas derivas invernales. Principalmente nocturno, pasa el día escondido en matorrales o guaridas rocosas, saliendo de noche a acechar ciervos, liebres o ardillas.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251015_SiberianLynx%22&FORM=HPQUIZ",
+  "hash": "56e84b8c374ced84df71c47317ea2e6b",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ES-ES1284959959_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ES-ES1284959959_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ES-ES1284959959_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_ES-ES1284959959_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-15",
+    "EndDate": "2025-10-16",
+    "FullStartDateTime": "2025-10-15T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251015",
+      "fullStartDate": "202510152200",
+      "endDate": "20251016"
+    }
+  },
+  "createdAt": "2025-10-16T02:12:07.3281135+00:00",
+  "originalUrlBase": "/th?id=OHR.SiberianLynx_ES-ES1284959959",
+  "caption": "Lince euroasiático, Siberia",
+  "copyrightOnly": "© Mario Plechaty Photograph/Shutterstock",
+  "bsTitle": "El gato fantasma"
+}
