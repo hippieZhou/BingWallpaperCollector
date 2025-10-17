@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Rugiada di luce",
+  "copyright": "Rock River Falls, Penisola Superiore, Michigan, USA (© Matt Anderson Photography/Getty Images)",
+  "copyrightLink": "/search?q=Penisola+superiore&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251016_RockRiverFalls%22&FORM=HPQUIZ",
+  "hash": "ddfa487099b7af18639b94d2798c05f3",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_IT-IT3239553748_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_IT-IT3239553748_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_IT-IT3239553748_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_IT-IT3239553748_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-16",
+    "EndDate": "2025-10-17",
+    "FullStartDateTime": "2025-10-16T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251016",
+      "fullStartDate": "202510162200",
+      "endDate": "20251017"
+    }
+  },
+  "createdAt": "2025-10-17T02:10:57.2242559+00:00",
+  "originalUrlBase": "/th?id=OHR.RockRiverFalls_IT-IT3239553748",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "爱上密歇根",
+  "copyright": "罗克河瀑布，上半岛，密歇根州，美国 (© Matt Anderson Photography/Getty Images)",
+  "copyrightLink": "/search?q=%e5%af%86%e6%ad%87%e6%a0%b9%e5%b7%9e%e7%bd%97%e5%85%8b%e6%b2%b3%e8%8d%92%e9%87%8e&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251016_RockRiverFalls%22&FORM=HPQUIZ",
+  "hash": "cbf6aa5f3599c40aa259afb62ee91301",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ZH-CN6532185546_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ZH-CN6532185546_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ZH-CN6532185546_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ZH-CN6532185546_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-16",
+    "EndDate": "2025-10-17",
+    "FullStartDateTime": "2025-10-16T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251016",
+      "fullStartDate": "202510161600",
+      "endDate": "20251017"
+    }
+  },
+  "createdAt": "2025-10-17T02:10:57.1747191+00:00",
+  "originalUrlBase": "/th?id=OHR.RockRiverFalls_ZH-CN6532185546",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

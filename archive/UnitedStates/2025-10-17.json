@@ -1,0 +1,48 @@
+{
+  "date": "Oct 16, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "The phantom cat",
+  "copyright": "Eurasian lynx in Siberia (© Mario Plechaty Photograph/Shutterstock)",
+  "copyrightLink": "/search?q=Eurasian+lynx&form=hpcapt&filters=HpDate%3a%2220251016_0700%22",
+  "description": "Think of a cat that can vanish into the forest without a sound—that's the Eurasian lynx. With its tufted ears and a piercing gaze, this feline is the largest of the four lynx species. Stretching up to 42 inches in length and standing as tall as 30 inches at the shoulder, the Eurasian lynx is built for power and precision. Its padded paws aren't just for sneaking; they act like snowshoes, spreading its weight so it can chase down prey in deep winter drifts. Mostly a nocturnal hunter, it spends its days tucked away in thickets or rocky dens, venturing out under the cover of darkness to stalk deer, hares, and squirrels.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251016_SiberianLynx%22&FORM=HPQUIZ",
+  "hash": "3e9fe085980d5a33175f495a732ddb30",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_EN-US0696336220_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_EN-US0696336220_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_EN-US0696336220_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_EN-US0696336220_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-16",
+    "EndDate": "2025-10-17",
+    "FullStartDateTime": "2025-10-16T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251016",
+      "fullStartDate": "202510160700",
+      "endDate": "20251017"
+    }
+  },
+  "createdAt": "2025-10-17T02:10:57.1747135+00:00",
+  "originalUrlBase": "/th?id=OHR.SiberianLynx_EN-US0696336220",
+  "caption": "A Eurasian lynx in Siberia",
+  "copyrightOnly": "© Mario Plechaty Photograph/Shutterstock",
+  "bsTitle": "The phantom cat"
+}
