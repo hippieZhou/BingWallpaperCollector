@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "那座铭记往昔的山丘",
+  "copyright": "西尔布利山的新石器时代遗址，蒂尔斯黑德，威尔特郡，英国 (© dbstockphotoa/Getty Images)",
+  "copyrightLink": "/search?q=%e5%9b%bd%e9%99%85%e8%80%83%e5%8f%a4%e6%97%a5&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251017_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "79da91399f168cf29f23d597453e565b",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ZH-CN6666447580_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ZH-CN6666447580_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ZH-CN6666447580_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ZH-CN6666447580_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-17",
+    "EndDate": "2025-10-18",
+    "FullStartDateTime": "2025-10-17T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251017",
+      "fullStartDate": "202510171600",
+      "endDate": "20251018"
+    }
+  },
+  "createdAt": "2025-10-18T02:06:16.4730791+00:00",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_ZH-CN6666447580",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}
