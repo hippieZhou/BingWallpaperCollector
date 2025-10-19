@@ -1,0 +1,48 @@
+{
+  "date": "Oct 18, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "The hill that remembers",
+  "copyright": "Neolithic site of Silbury Hill, Tilshead, Wiltshire, England (© dbstockphoto/Getty Images)",
+  "copyrightLink": "/search?q=International+Archaeology+Day&form=hpcapt&filters=HpDate%3a%2220251018_0700%22",
+  "description": "Each year, International Archaeology Day—observed on the third Saturday of October—invites us to literally look beneath the surface. Established in 2011 by the Archaeological Institute of America (AIA), it's celebrated worldwide through events, tours, and hands-on excavations.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "cf7be7bdb3255dec349c518ff6acad28",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-US2485144120_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-US2485144120_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-US2485144120_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-US2485144120_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-18",
+    "EndDate": "2025-10-19",
+    "FullStartDateTime": "2025-10-18T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510180700",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "2025-10-19T02:24:29.9976009+00:00",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_EN-US2485144120",
+  "caption": "Silbury Hill for International Archaeology Day",
+  "copyrightOnly": "© dbstockphoto/Getty Images",
+  "bsTitle": "The hill that remembers"
+}

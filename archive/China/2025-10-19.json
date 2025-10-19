@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "痴迷科学",
+  "copyright": "即将收获的苹果，明尼苏达州，美国 (© Tammi Mild/Getty Images)",
+  "copyrightLink": "/search?q=%e6%94%b6%e8%8e%b7%e8%8b%b9%e6%9e%9c%e7%9a%84%e5%ad%a3%e8%8a%82&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_AppleHarvest%22&FORM=HPQUIZ",
+  "hash": "52522b2be616e0e92bd27e64c59585a7",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_ZH-CN7317228007_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_ZH-CN7317228007_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_ZH-CN7317228007_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_ZH-CN7317228007_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-18",
+    "EndDate": "2025-10-19",
+    "FullStartDateTime": "2025-10-18T16:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510181600",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "2025-10-19T02:24:29.9976145+00:00",
+  "originalUrlBase": "/th?id=OHR.AppleHarvest_ZH-CN7317228007",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

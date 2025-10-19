@@ -1,0 +1,48 @@
+{
+  "date": "",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "A colina que guarda memórias",
+  "copyright": "Sítio neolítico de Silbury Hill em Tilshead, Wiltshire, Inglaterra (© dbstockphoto/Getty Images)",
+  "copyrightLink": "/search?q=Arqueologia&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "75ed88d4d3234460041fd9a2eb24dd7a",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_PT-BR5871845476_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_PT-BR5871845476_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_PT-BR5871845476_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_PT-BR5871845476_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-18",
+    "EndDate": "2025-10-19",
+    "FullStartDateTime": "2025-10-18T03:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510180300",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "2025-10-19T02:24:30.0678332+00:00",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_PT-BR5871845476",
+  "caption": "",
+  "copyrightOnly": "",
+  "bsTitle": ""
+}

@@ -1,0 +1,48 @@
+{
+  "date": "19 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "El tesoro mejor guardado",
+  "copyright": "Catedral de la Asunción, Jaén, Andalucía, España (© JoseIgnacioSoto/Getty Images)",
+  "copyrightLink": "/search?q=Ja%c3%a9n+ciudad&form=hpcapt&filters=HpDate%3a%2220251018_2200%22",
+  "description": "Jaén, rodeada por un manto de más de 66 millones de olivos, es la capital mundial del aceite de oliva. Desde esta impresionante vista aérea, podemos apreciar cómo el paisaje se dibuja con infinitas hileras de árboles que han marcado la historia, la economía y la cultura de esta tierra. La Catedral de la Asunción, joya renacentista declarada Patrimonio de la Humanidad por la UNESCO, domina el horizonte y recuerda la grandeza del pasado de la ciudad.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_JaenCathedral%22&FORM=HPQUIZ",
+  "hash": "9551d6f746a00f48bba48614e2003899",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.JaenCathedral_ES-ES4511407655_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.JaenCathedral_ES-ES4511407655_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.JaenCathedral_ES-ES4511407655_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.JaenCathedral_ES-ES4511407655_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-18",
+    "EndDate": "2025-10-19",
+    "FullStartDateTime": "2025-10-18T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510182200",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "2025-10-19T02:24:30.0465193+00:00",
+  "originalUrlBase": "/th?id=OHR.JaenCathedral_ES-ES4511407655",
+  "caption": "Catedral de la Asunción, Jaén, Andalucía, España",
+  "copyrightOnly": "© JoseIgnacioSoto/Getty Images",
+  "bsTitle": "El tesoro mejor guardado"
+}

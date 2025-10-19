@@ -1,0 +1,48 @@
+{
+  "date": "19. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Erntegenuss pur",
+  "copyright": "Erntereife Äpfel, Minnesota, USA (© Tammi Mild/Getty Images)",
+  "copyrightLink": "/search?q=Apfelernte&form=hpcapt&filters=HpDate%3a%2220251018_2200%22",
+  "description": "Herbstzeit ist Apfelzeit – und vielerorts in Deutschland stehen die Zeichen auf Ernte! Im Oktober sind die Plantagen noch voller reifer Früchte, besonders bei den späten Sorten wie Boskoop und Jonagold. Die Apfelernte bringt nicht nur frischen Geschmack, sondern auch ein Stück gelebte Tradition in die Küchen und auf die Märkte. Deutschland zählt zu den größten Apfelproduzenten Europas: Jährlich werden auf etwa 32.700 Hektar – das entspricht mehr als 45.000 Fußballfeldern – rund 1 Million Tonnen Äpfel geerntet.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_AppleHarvest%22&FORM=HPQUIZ",
+  "hash": "9871f0f8b2ebe6977ce9d097552d53b4",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_DE-DE2705439483_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_DE-DE2705439483_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_DE-DE2705439483_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_DE-DE2705439483_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-18",
+    "EndDate": "2025-10-19",
+    "FullStartDateTime": "2025-10-18T22:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510182200",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "2025-10-19T02:24:30.030593+00:00",
+  "originalUrlBase": "/th?id=OHR.AppleHarvest_DE-DE2705439483",
+  "caption": "Herbstzeit ist Apfelzeit",
+  "copyrightOnly": "© Tammi Mild/Getty Images",
+  "bsTitle": "Erntegenuss pur"
+}

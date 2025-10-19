@@ -1,0 +1,48 @@
+{
+  "date": "Oct 18, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "copyright": "Neolithic site of Silbury Hill, Tilshead, Wiltshire, England (© dbstockphoto/Getty Images)",
+  "copyrightLink": "/search?q=Silbury+Hill&form=hpcapt&filters=HpDate%3a%2220251018_0700%22",
+  "description": "Some ancient sites, like the one shown here, blend seamlessly into their surroundings: at first glance, Silbury Hill in Wiltshire, England, may seem like a simple slope in the countryside. However, it conceals a 4,500-year-old Neolithic enigma. Starting around 2400 BCE, chalk was locally quarried, transported and compacted by hand, layer by layer, over generations. The result is the tallest prehistoric mound in Europe, built entirely by human effort, rising to almost 40 metres.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "f87f46fbd9eb70c8322dc4c9f17c3870",
+  "imageResolutions": [
+    {
+      "resolution": "UHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_UHD.jpg",
+      "size": "Ultra High Definition (~4K)"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "Full HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_1366x768.jpg",
+      "size": "1366x768"
+    }
+  ],
+  "timeInfo": {
+    "StartDate": "2025-10-18",
+    "EndDate": "2025-10-19",
+    "FullStartDateTime": "2025-10-18T07:00:00Z",
+    "OriginalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510180700",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "2025-10-19T02:24:30.069399+00:00",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_ROW9508999634",
+  "caption": "Silbury Hill, Wiltshire, England",
+  "copyrightOnly": "© dbstockphoto/Getty Images",
+  "bsTitle": "Info"
+}
