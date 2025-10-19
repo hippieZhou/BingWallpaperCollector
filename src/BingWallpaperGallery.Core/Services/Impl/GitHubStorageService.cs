@@ -13,6 +13,7 @@ public class GitHubStorageService(
 {
     public async Task RunAsync(
         Action<string> onLoading = null,
+        Action onEnded = null,
         Action<Exception> onError = null,
         CancellationToken cancellationToken = default)
     {
@@ -39,6 +40,10 @@ public class GitHubStorageService(
             onError?.Invoke(ex);
             logger.LogError(ex, "获取 GitHub 归档文件异常: {Message}", ex.Message);
         }
+        finally
+        {
+            onEnded?.Invoke();
+        }
     }
 
     private async Task ProcessArchivedWallpapersAsync(
@@ -48,5 +53,6 @@ public class GitHubStorageService(
         var wallpaperInfoStorages = await githubRepository.GetArchiveDetailsAsync(archiveItem, cancellationToken);
         var entities = wallpaperInfoStorages.Select(WallpaperMapper.MapToEntity);
         await wallpaperRepository.BulkSaveIfNotExistsAsync(entities, cancellationToken);
+        await Task.Yield();
     }
 }

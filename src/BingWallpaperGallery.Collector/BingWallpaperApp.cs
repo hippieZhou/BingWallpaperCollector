@@ -63,7 +63,7 @@ public sealed class BingWallpaperApp(
         await Parallel.ForEachAsync(wallpapers, cancellationToken, async (wallpaper, token) =>
         {
             // 计算实际日期
-            var dateStr = wallpaper.TimeInfo.FullStartDateTime?.ToString("yyyy-MM-dd");
+            var dateStr = wallpaper.TimeInfo.FullStartDateTime.ToString("yyyy-MM-dd");
             var marketCode = wallpaper.Country;
             // 创建目录结构：Country/
             var countryDir = Path.Combine(dataDirectory, marketCode);

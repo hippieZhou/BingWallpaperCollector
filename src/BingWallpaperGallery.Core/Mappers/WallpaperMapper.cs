@@ -20,7 +20,7 @@ public static class WallpaperMapper
         ArgumentNullException.ThrowIfNull(wallpaper);
 
         var wallpaperInfo = wallpaper.Info;
-        var timeInfo = wallpaperInfo.TimeInfo?.OriginalTimeFields;
+        var timeInfo = wallpaperInfo.TimeInfo;
 
         return new WallpaperInfoDto(
             Id: wallpaper.Id,
@@ -28,7 +28,7 @@ public static class WallpaperMapper
             ActualDate: wallpaper.ActualDate,
             Startdate: timeInfo.StartDate,
             Enddate: timeInfo.EndDate,
-            Fullstartdate: timeInfo?.FullStartDate,
+            Fullstartdate: timeInfo?.FullStartDateTime,
             Market: MapToMarketDto(wallpaper.MarketCode),
             Title: wallpaperInfo.Title ?? string.Empty,
             Copyright: wallpaperInfo.Copyright ?? string.Empty,

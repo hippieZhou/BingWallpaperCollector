@@ -35,15 +35,12 @@
             Grid.Row="1"
             Width="100"
             Height="100"
-            IsIndeterminate="False"
-            Maximum="100"
-            Minimum="1"
-            Value="40" />
+            IsIndeterminate="{x:Bind ViewModel.IsLoading, Mode=OneWay}" />
         <TextBlock
             Grid.Row="2"
             HorizontalAlignment="Center"
             Style="{StaticResource BodyStrongTextBlockStyle}"
-            Text="50/100"
+            Text="{x:Bind ViewModel.Duration, Mode=OneWay, Converter={StaticResource StringFormatConverter}, ConverterParameter={}{0} s}"
             TextLineBounds="TrimToCapHeight"
             TextWrapping="NoWrap" />
     </Grid>

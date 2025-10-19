@@ -8,24 +8,19 @@ namespace BingWallpaperGallery.Core.Http.Models;
 public sealed class WallpaperTimeInfo
 {
     /// <summary>
-    /// 开始日期
+    /// 原始开始日期 (YYYYMMDD)
     /// </summary>
-    public DateOnly? StartDate { get; set; }
+    public DateOnly StartDate { get; set; }
 
     /// <summary>
-    /// 结束日期
+    /// 原始完整开始时间 (YYYYMMDDHHMM)
     /// </summary>
-    public DateOnly? EndDate { get; set; }
+    public DateTime FullStartDateTime { get; set; }
 
     /// <summary>
-    /// 完整开始时间 (ISO 8601 格式)
+    /// 原始结束日期 (YYYYMMDD)
     /// </summary>
-    public DateTime? FullStartDateTime { get; set; }
-
-    /// <summary>
-    /// 原始Bing API时间字段
-    /// </summary>
-    public BingApiTimeFields OriginalTimeFields { get; set; } = new();
+    public DateOnly EndDate { get; set; }
 
     /// <summary>
     /// 从Bing API时间字段创建WallpaperTimeInfo
@@ -36,34 +31,7 @@ public sealed class WallpaperTimeInfo
         {
             StartDate = startDate,
             FullStartDateTime = fullStartDate,
-            EndDate = endDate,
-            OriginalTimeFields = new BingApiTimeFields
-            {
-                StartDate = startDate,
-                FullStartDate = fullStartDate,
-                EndDate = endDate
-            }
+            EndDate = endDate
         };
     }
-}
-
-/// <summary>
-/// Bing API原始时间字段
-/// </summary>
-public sealed class BingApiTimeFields
-{
-    /// <summary>
-    /// 原始开始日期 (YYYYMMDD)
-    /// </summary>
-    public DateOnly StartDate { get; set; }
-
-    /// <summary>
-    /// 原始完整开始时间 (YYYYMMDDHHMM)
-    /// </summary>
-    public DateTime FullStartDate { get; set; }
-
-    /// <summary>
-    /// 原始结束日期 (YYYYMMDD)
-    /// </summary>
-    public DateOnly EndDate { get; set; }
 }
