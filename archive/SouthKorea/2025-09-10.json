@@ -1,0 +1,48 @@
+{
+  "date": "Sep 10, 2025",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "A female Eurasian red squirrel carrying moss, Switzerland (© Jean-Luc and Francoise Ziegler/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Eurasian+red+squirrel&form=hpcapt",
+  "description": "A female Eurasian red squirrel carrying moss, Switzerland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250909_SwissSquirrel%22&FORM=HPQUIZ",
+  "hash": "21d6a2ec71108d575c9077c68c61bf15",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ROW7231297165_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ROW7231297165_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ROW7231297165_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ROW7231297165_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250909",
+    "endDate": "20250910",
+    "fullStartDateTime": "202509090700",
+    "originalTimeFields": {
+      "startDate": "20250909",
+      "fullStartDate": "202509090700",
+      "endDate": "20250910"
+    }
+  },
+  "createdAt": "202509100000",
+  "originalUrlBase": "/th?id=OHR.SwissSquirrel_ROW7231297165"
+}

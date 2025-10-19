@@ -1,0 +1,77 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- 启用更严格的格式检查 -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591;CS8632;CA1416</NoWarn>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Copyright>2024-$([System.DateTime]::Now.Year) hippieZhou</Copyright>
+    <Authors>hippieZhou</Authors>
+    <PackageProjectUrl>https://github.com/hippieZhou/BingWallpaperGallery</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- CommunityToolkit Labs Packages -->
+    <PackageVersion Include="CommunityToolkit.Labs.WinUI.Controls.MarkdownTextBlock" Version="0.1.251006-build.2319" />
+    <PackageVersion Include="CommunityToolkit.Labs.WinUI.DependencyPropertyGenerator" Version="0.1.250829-build.2245" />
+    <PackageVersion Include="CommunityToolkit.Labs.WinUI.OpacityMaskView" Version="0.1.250826-build.2212" />
+    <PackageVersion Include="CommunityToolkit.Labs.WinUI.Shimmer" Version="0.1.250828-build.2223" />
+    <PackageVersion Include="CommunityToolkit.Labs.WinUI.TokenView" Version="0.1.250828-build.2223" />
+    <!-- CommunityToolkit Packages -->
+    <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Behaviors" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Animations" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Collections" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Controls.MetadataControl" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Controls.Primitives" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Controls.SettingsControls" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Controls.Segmented" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Controls.HeaderedControls" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Converters" Version="8.2.250717-build.1484" />
+    <PackageVersion Include="CommunityToolkit.WinUI.Media" Version="8.2.250717-build.1484" />
+    <!-- Microsoft Packages -->
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="9.10.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.Graphics.Win2D" Version="1.3.2" />
+    <PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.8.251003001" />
+    <PackageVersion Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="3.0.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
+    <!-- Other UI Packages -->
+    <PackageVersion Include="ImageEx.WinUI" Version="4.0.0" />
+    <PackageVersion Include="WinUIEx" Version="2.8.0" />
+    <!-- Logging Packages -->
+    <PackageVersion Include="Serilog.Extensions.Hosting" Version="9.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Debug" Version="3.0.0" />
+    <PackageVersion Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageVersion Include="Serilog.Formatting.Compact" Version="3.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Map" Version="2.0.0" />
+    <!-- Testing Packages -->
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="FluentAssertions" Version="8.7.1" />
+    <PackageVersion Include="Moq" Version="4.20.72" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+  </ItemGroup>
+</Project>

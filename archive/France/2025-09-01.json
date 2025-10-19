@@ -1,0 +1,48 @@
+{
+  "date": "Sep 01, 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Là où les frontières s’effacent au fil de l’eau",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Zone sauvage des Boundary Waters Canoe Area, Minnesota, États-Unis (© s.tomas/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Boundary+waters+canoe+area&form=hpcapt&filters=HpDate%3a%2220250831_2200%22",
+  "description": "Zone sauvage des Boundary Waters Canoe Area, Minnesota, États-Unis",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_MinnesotaWaters%22&FORM=HPQUIZ",
+  "hash": "4fe2cfdf69534072b6f5a1142b3e81d2",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_FR-FR7608099826_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_FR-FR7608099826_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_FR-FR7608099826_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_FR-FR7608099826_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508312200",
+    "originalTimeFields": {
+      "startDate": "20250831",
+      "fullStartDate": "202508312200",
+      "endDate": "20250901"
+    }
+  },
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.MinnesotaWaters_FR-FR7608099826"
+}

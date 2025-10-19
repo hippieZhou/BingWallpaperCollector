@@ -1,0 +1,48 @@
+{
+  "date": "Aug 28, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "这只白鹭毫无遗憾",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "大白鹭，匈牙利 (© Markus Varesvuo/Nature Picture Library)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E5%A4%A7%E7%99%BD%E9%B9%AD&form=hpcapt&mkt=zh-cn",
+  "description": "大白鹭，匈牙利",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "c69b1f7666e39eef5e89b4cea500c87f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ZH-CN4425921150_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ZH-CN4425921150_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ZH-CN4425921150_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ZH-CN4425921150_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250827",
+    "endDate": "20250828",
+    "fullStartDateTime": "202508271600",
+    "originalTimeFields": {
+      "startDate": "20250827",
+      "fullStartDate": "202508271600",
+      "endDate": "20250828"
+    }
+  },
+  "createdAt": "202508280000",
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_ZH-CN4425921150"
+}

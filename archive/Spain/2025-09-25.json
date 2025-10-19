@@ -1,0 +1,48 @@
+{
+  "date": "Sep 25, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Piedras talladas de coraje",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Fuerte de Chittorgarh, Rajastán, India (© chetansoni/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Fuerte+de+Chittorgarh+India&form=hpcapt&filters=HpDate%3a%2220250924_2200%22",
+  "description": "Fuerte de Chittorgarh, Rajastán, India",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_FortChittorgarh%22&FORM=HPQUIZ",
+  "hash": "42635e128fc7b640557c7b7a7ebc471e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ES-ES0644530390_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ES-ES0644530390_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ES-ES0644530390_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ES-ES0644530390_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250924",
+    "endDate": "20250925",
+    "fullStartDateTime": "202509242200",
+    "originalTimeFields": {
+      "startDate": "20250924",
+      "fullStartDate": "202509242200",
+      "endDate": "20250925"
+    }
+  },
+  "createdAt": "202509250000",
+  "originalUrlBase": "/th?id=OHR.FortChittorgarh_ES-ES0644530390"
+}

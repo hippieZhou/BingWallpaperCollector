@@ -1,0 +1,48 @@
+{
+  "date": "Oct 02, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Sol, mar e história para contar",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Praia de Porto de Galinhas, Pernambuco (© Ildo Frazao/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Porto+de+Galinhas&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_PraiaPortoGalinhas%22&FORM=HPQUIZ",
+  "hash": "7c0b0f934c517177aff40421aa857c99",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510010300",
+    "originalTimeFields": {
+      "startDate": "20251001",
+      "fullStartDate": "202510010300",
+      "endDate": "20251002"
+    }
+  },
+  "createdAt": "202510020000",
+  "originalUrlBase": "/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838"
+}

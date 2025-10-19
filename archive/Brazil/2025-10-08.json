@@ -1,0 +1,48 @@
+{
+  "date": "Oct 8, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Camuflagem em movimento",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Polvo-do-dia, Maui, Havaí, EUA (© Dave Fleetham/plainpicture)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Dia+Mundial+do+Polvo&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_OctopusCyanea%22&FORM=HPQUIZ",
+  "hash": "ec39f99a03e762ce187b06eb0d1f2781",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_PT-BR6333276319_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_PT-BR6333276319_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_PT-BR6333276319_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_PT-BR6333276319_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251008",
+    "endDate": "20251009",
+    "fullStartDateTime": "202510080300",
+    "originalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510080300",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.OctopusCyanea_PT-BR6333276319"
+}

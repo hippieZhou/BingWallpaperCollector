@@ -1,0 +1,48 @@
+{
+  "date": "Sep. 13, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Swim wild, swim free",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Spinner dolphin pod in the Red Sea, Marsa Alam, Egypt (© Franco Banfi/Nature Picture Library)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=World+Dolphin+Day&form=hpcapt&filters=HpDate%3a%2220250912_0400%22",
+  "description": "Spinner dolphin pod in the Red Sea, Marsa Alam, Egypt",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_SpinnerDolphins%22&FORM=HPQUIZ",
+  "hash": "7ae5ecae6a643f00cd9fe9dff1624b1f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-CA6671326546_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-CA6671326546_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-CA6671326546_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-CA6671326546_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250912",
+    "endDate": "20250913",
+    "fullStartDateTime": "202509120400",
+    "originalTimeFields": {
+      "startDate": "20250912",
+      "fullStartDate": "202509120400",
+      "endDate": "20250913"
+    }
+  },
+  "createdAt": "202509130000",
+  "originalUrlBase": "/th?id=OHR.SpinnerDolphins_EN-CA6671326546"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 15, 2025",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "A waterfall in Olympic National Park, Washington, United States (© Chris Moore/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Olympic+National+Park+Washington&form=hpcapt",
+  "description": "A waterfall in Olympic National Park, Washington, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "4e942952e82ba34e4c52209cca587192",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ROW7820858130_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ROW7820858130_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ROW7820858130_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ROW7820858130_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509140700",
+    "originalTimeFields": {
+      "startDate": "20250914",
+      "fullStartDate": "202509140700",
+      "endDate": "20250915"
+    }
+  },
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_ROW7820858130"
+}

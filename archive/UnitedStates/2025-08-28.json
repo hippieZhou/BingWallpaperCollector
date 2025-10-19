@@ -1,0 +1,48 @@
+{
+  "date": "Aug 28, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "A lake above the ocean",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Sørvágsvatn lake, island of Vágar, Faroe Islands, Denmark (© Anton Petrus/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=S%C3%B8rv%C3%A1gsvatn&form=hpcapt&filters=HpDate%3a%2220250827_0700%22",
+  "description": "Sørvágsvatn lake, island of Vágar, Faroe Islands, Denmark",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_FaroeLake%22&FORM=HPQUIZ",
+  "hash": "2e650e4212afced2c700f167db2966a8",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250827",
+    "endDate": "20250828",
+    "fullStartDateTime": "202508270700",
+    "originalTimeFields": {
+      "startDate": "20250827",
+      "fullStartDate": "202508270700",
+      "endDate": "20250828"
+    }
+  },
+  "createdAt": "202508280000",
+  "originalUrlBase": "/th?id=OHR.FaroeLake_EN-US3557234950"
+}

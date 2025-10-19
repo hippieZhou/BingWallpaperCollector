@@ -1,0 +1,48 @@
+{
+  "date": "6 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Un pont vers la lune",
+  "bsTitle": "Un pont vers la lune",
+  "caption": "Pont d’Anshun, Chengdu, Chine",
+  "copyright": "Pont Anshun illuminé pour la fête de la mi-automne, Chengdu, Chine (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightOnly": "© Philippe LEJEANVRE/Getty Images",
+  "copyrightLink": "/search?q=F%c3%aate+de+la+mi-automne+Chine&form=hpcapt&filters=HpDate%3a%2220251005_2200%22",
+  "description": "Sous la pleine lune d’octobre, l’air se fait plus vif, annonciateur de l’hiver à venir. À Chengdu, en Chine, le pont Anshun s’illumine d’or et se reflète dans les eaux calmes du fleuve Jin. Ce soir-là, la ville célèbre la fête de la mi-automne, l'une des traditions chinoises les plus anciennes. Selon la légende, la déesse Chang'e veille depuis la lune, tandis que les familles se réunissent pour partager des mooncakes, des pâtisseries rondes comme des astres, fourrées aux graines de lotus, aux haricots rouges ou au jaune d'œuf salé.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "f1d1c723d13d0f7671a264bd6f80716e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_FR-FR1659622087_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_FR-FR1659622087_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_FR-FR1659622087_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_FR-FR1659622087_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251005",
+    "endDate": "20251006",
+    "fullStartDateTime": "202510052200",
+    "originalTimeFields": {
+      "startDate": "20251005",
+      "fullStartDate": "202510052200",
+      "endDate": "20251006"
+    }
+  },
+  "createdAt": "202510060000",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_FR-FR1659622087"
+}

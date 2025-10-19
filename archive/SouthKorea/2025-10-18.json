@@ -1,0 +1,48 @@
+{
+  "date": "Oct 18, 2025",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Neolithic site of Silbury Hill, Tilshead, Wiltshire, England (© dbstockphoto/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Silbury+Hill&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "f87f46fbd9eb70c8322dc4c9f17c3870",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ROW9508999634_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251018",
+    "endDate": "20251019",
+    "fullStartDateTime": "202510180700",
+    "originalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510180700",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "202510180000",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_ROW9508999634"
+}

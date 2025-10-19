@@ -1,0 +1,48 @@
+{
+  "date": "Sep 06, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Colori ad Acqua",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Danzica, Fiume Motława, Polonia (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Gda%C5%84sk+Polonia&form=hpcapt",
+  "description": "Danzica, Fiume Motława, Polonia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "7b3477c65836e134f69f32d1ede4002f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_IT-IT8980051630_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_IT-IT8980051630_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_IT-IT8980051630_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_IT-IT8980051630_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509052200",
+    "originalTimeFields": {
+      "startDate": "20250905",
+      "fullStartDate": "202509052200",
+      "endDate": "20250906"
+    }
+  },
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_IT-IT8980051630"
+}

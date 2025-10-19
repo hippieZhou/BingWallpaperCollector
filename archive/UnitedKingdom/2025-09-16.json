@@ -1,0 +1,48 @@
+{
+  "date": "Sep 16, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "A stratospheric success",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "A nighttime view of the Gulf Coast states from 225 miles above Earth (© Stocktrek Images/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Ozone+Day&form=hpcapt&filters=HpDate%3a%2220250915_2300%22",
+  "description": "A nighttime view of the Gulf Coast states from 225 miles above Earth",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "9141e9083bef80a03e3e95b06c1bb6d0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250915",
+    "endDate": "20250916",
+    "fullStartDateTime": "202509152300",
+    "originalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509152300",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "202509160000",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_EN-GB2737742012"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 28, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "A taste of Pienza",
+  "bsTitle": "A taste of Pienza",
+  "caption": "Town of Pienza in Tuscany, Italy",
+  "copyright": "Town of Pienza in Tuscany, Italy (© zpagistock/Getty Images)",
+  "copyrightOnly": "© zpagistock/Getty Images",
+  "copyrightLink": "/search?q=Pienza&form=hpcapt&filters=HpDate%3a%2220250927_1830%22",
+  "description": "Some towns evolve slowly over centuries. Pienza? It received a full rebrand in the 1400s from a pope who wanted to prove a point—and maybe show off a little. This tiny Italian town is perched above the Val d'Orcia, surrounded by rolling hills that look exactly like you think Tuscany should: cypress trees, winding dirt roads, the occasional sheep. It's peaceful. And then you step inside the town walls, and it gets clever.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "eb6db1840094237ff0110223e1f15f03",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-IN3424027062_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-IN3424027062_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-IN3424027062_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-IN3424027062_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509271830",
+    "originalTimeFields": {
+      "startDate": "20250927",
+      "fullStartDate": "202509271830",
+      "endDate": "20250928"
+    }
+  },
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_EN-IN3424027062"
+}

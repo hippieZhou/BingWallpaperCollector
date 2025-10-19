@@ -1,0 +1,48 @@
+{
+  "date": "Oct 13, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "O fluir que desafia a solidez",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Desfiladeiro de Wimbachklamm, Baviera, Alemanha (© EyeEm Mobile GmbH/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Baviera&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251013_HinterseeWaterfall%22&FORM=HPQUIZ",
+  "hash": "3a1e57f5f323f166b0a8d4be8b34bb4c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_PT-BR2829623135_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_PT-BR2829623135_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_PT-BR2829623135_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_PT-BR2829623135_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251013",
+    "endDate": "20251014",
+    "fullStartDateTime": "202510130300",
+    "originalTimeFields": {
+      "startDate": "20251013",
+      "fullStartDate": "202510130300",
+      "endDate": "20251014"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.HinterseeWaterfall_PT-BR2829623135"
+}

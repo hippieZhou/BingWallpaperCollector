@@ -1,0 +1,48 @@
+{
+  "date": "Aug 31, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Monumento em movimento",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Tubarão-baleia na costa do Atol Alifu Dhaalu, Maldivas (© Bachir  Moukarzel/Amazing Aerial Agency)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Dia+Internacional+do+Tubar%C3%A3o-Baleia&form=hpcapt&mkt=pt-br",
+  "description": "Tubarão-baleia na costa do Atol Alifu Dhaalu, Maldivas",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_MaldivesWhaleShark%22&FORM=HPQUIZ",
+  "hash": "a0db490b9102804986f651511491e031",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250830",
+    "endDate": "20250831",
+    "fullStartDateTime": "202508300300",
+    "originalTimeFields": {
+      "startDate": "20250830",
+      "fullStartDate": "202508300300",
+      "endDate": "20250831"
+    }
+  },
+  "createdAt": "202508310000",
+  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447"
+}

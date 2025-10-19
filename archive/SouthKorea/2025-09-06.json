@@ -1,0 +1,48 @@
+{
+  "date": "Sep 06, 2025",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Pacific Park, Santa Monica State Beach, California, United States (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Santa+Monica+State+Beach&form=hpcapt",
+  "description": "Pacific Park, Santa Monica State Beach, California, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_SunsetPier%22&FORM=HPQUIZ",
+  "hash": "f510f149cd46855cfc9cdcb41d0a9d64",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509050700",
+    "originalTimeFields": {
+      "startDate": "20250905",
+      "fullStartDate": "202509050700",
+      "endDate": "20250906"
+    }
+  },
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.SunsetPier_ROW6836711117"
+}

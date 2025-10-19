@@ -1,0 +1,48 @@
+{
+  "date": "Oct 9, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Coralli e riflessi",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Barriera corallina, Isola di Monuriki, Isole Mamanuca, Figi (© David Wall/SuperStock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Figi&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251009_MonurikiFiji%22&FORM=HPQUIZ",
+  "hash": "c55a59f3df0f7f1188f32a427e8fde35",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_IT-IT0760985138_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_IT-IT0760985138_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_IT-IT0760985138_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_IT-IT0760985138_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251009",
+    "endDate": "20251010",
+    "fullStartDateTime": "202510092200",
+    "originalTimeFields": {
+      "startDate": "20251009",
+      "fullStartDate": "202510092200",
+      "endDate": "20251010"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.MonurikiFiji_IT-IT0760985138"
+}

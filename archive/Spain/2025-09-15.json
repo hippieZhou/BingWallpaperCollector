@@ -1,0 +1,48 @@
+{
+  "date": "Sep 15, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Romance sobre el agua",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Cigüeñuelas de alas negras, Francia (© Antonio Sementa/500px/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Cig%C3%BCe%C3%B1uelas+de+alas+negras&form=hpcapt&filters=HpDate%3a%2220250914_2200%22",
+  "description": "Cigüeñuelas de alas negras, Francia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_Echasse%22&FORM=HPQUIZ",
+  "hash": "5c22c458930a0735476d381a16d3a775",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ES-ES8443490175_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ES-ES8443490175_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ES-ES8443490175_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ES-ES8443490175_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509142200",
+    "originalTimeFields": {
+      "startDate": "20250914",
+      "fullStartDate": "202509142200",
+      "endDate": "20250915"
+    }
+  },
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.Echasse_ES-ES8443490175"
+}

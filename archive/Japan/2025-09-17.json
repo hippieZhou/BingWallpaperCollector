@@ -1,0 +1,48 @@
+{
+  "date": "Sep 17, 2025",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "若き角の輝き",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "若いオスのヘラジカ, 米国 アラスカ州 (© Grant Ordelheide/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E8%8B%A5%E3%81%84%E3%82%AA%E3%82%B9%E3%81%AE%E3%83%98%E3%83%A9%E3%82%B8%E3%82%AB&form=hpcapt&filters=HpDate%3a%2220250916_1500%22",
+  "description": "若いオスのヘラジカ, 米国 アラスカ州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "6a0e7895ddc569da30128e30081606b3",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_JA-JP2388659996_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_JA-JP2388659996_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_JA-JP2388659996_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_JA-JP2388659996_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509161500",
+    "originalTimeFields": {
+      "startDate": "20250916",
+      "fullStartDate": "202509161500",
+      "endDate": "20250917"
+    }
+  },
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_JA-JP2388659996"
+}

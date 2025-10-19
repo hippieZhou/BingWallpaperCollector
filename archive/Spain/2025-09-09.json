@@ -1,0 +1,48 @@
+{
+  "date": "Sep 09, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Ramita a ramita, ella prepara",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Una ardilla roja euroasiática hembra que lleva musgo, Suiza (© Jean-Luc and Francoise Ziegler/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Ardilla+roja+euroasi%C3%A1tica&form=hpcapt&filters=HpDate%3a%2220250908_2200%22",
+  "description": "Una ardilla roja euroasiática hembra que lleva musgo, Suiza",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_SwissSquirrel%22&FORM=HPQUIZ",
+  "hash": "88a59e5c877704c127e1fe5c7616f6b0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ES-ES7836274977_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ES-ES7836274977_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ES-ES7836274977_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_ES-ES7836274977_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509082200",
+    "originalTimeFields": {
+      "startDate": "20250908",
+      "fullStartDate": "202509082200",
+      "endDate": "20250909"
+    }
+  },
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.SwissSquirrel_ES-ES7836274977"
+}

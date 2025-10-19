@@ -1,0 +1,48 @@
+{
+  "date": "14 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Lienzo en azul y blanco",
+  "bsTitle": "Lienzo en azul y blanco",
+  "caption": "Pueblo de Oia en Santorini, Grecia",
+  "copyright": "Pueblo de Oia, Santorini, Grecia (© f9photos/Getty Images)",
+  "copyrightOnly": "© f9photos/Getty Images",
+  "copyrightLink": "/search?q=Oia+Grecia&form=hpcapt&filters=HpDate%3a%2220251013_2200%22",
+  "description": "¿Alguna vez te has preguntado cómo es vivir en un set de cine? Oia, en el archipiélago griego de Santorini, es lo más parecido. Este pintoresco pueblo ha aparecido en películas como “The Sisterhood of the Traveling Pants” (Uno para todas) y “Tomb Raider”, gracias a sus casas de las Cícladas, de forma cúbica y con techos planos, y a sus impresionantes vistas desde los acantilados. Su arquitectura, que data de finales del siglo XIX, fue creada por marineros y comerciantes que tallaron las casas en la roca volcánica: frescas en verano y cálidas en invierno. El característico blanco y azul de las casas no solo es bonito; la cal ayudaba a que el agua de lluvia se recogiera y no dañara la vivienda. Hoy, los visitantes pasean por sus calles empedradas, visitan el Museo Marítimo Naval o suben a las ruinas del castillo de Agios Nikolaos para disfrutar de puestas de sol inolvidables.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251013_OiaSantorini%22&FORM=HPQUIZ",
+  "hash": "2700c6cc9a5655a38a353b13ce2750ce",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_ES-ES1170312678_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_ES-ES1170312678_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_ES-ES1170312678_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_ES-ES1170312678_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251013",
+    "endDate": "20251014",
+    "fullStartDateTime": "202510132200",
+    "originalTimeFields": {
+      "startDate": "20251013",
+      "fullStartDate": "202510132200",
+      "endDate": "20251014"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.OiaSantorini_ES-ES1170312678"
+}

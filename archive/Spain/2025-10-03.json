@@ -1,0 +1,48 @@
+{
+  "date": "3 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Una elegante floración",
+  "bsTitle": "Una elegante floración",
+  "caption": "Glen Brittle, Isla de Skye, Escocia",
+  "copyright": "Brezo creciendo en Glen Brittle, Isla de Skye, Escocia (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=Glen+Brittle+en+la+Isla+de+Skye&form=hpcapt&filters=HpDate%3a%2220251002_2200%22",
+  "description": "Las nieblas se enroscan, las aguas centellean y las leyendas siguen vivas: bienvenido a Glen Brittle. En la isla de Skye, conocida como la “Isla Brumosa” de Escocia, el valle se abre en una alfombra de brezo púrpura que cubre sus laderas rocosas. Este paisaje guarda huellas de dinosaurios en sus acantilados y recuerda a los cazadores mesolíticos que recorrieron sus riachuelos hace más de ocho mil años. Más tarde llegaron los vikingos y, siglos después, los clanes MacLeod y MacDonald dejaron su marca en castillos que aún evocan batallas y alianzas.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "9d1a5af0a4f410c2f231b7e0828cab34",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ES-ES0179378651_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ES-ES0179378651_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ES-ES0179378651_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ES-ES0179378651_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510022200",
+    "originalTimeFields": {
+      "startDate": "20251002",
+      "fullStartDate": "202510022200",
+      "endDate": "20251003"
+    }
+  },
+  "createdAt": "202510030000",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_ES-ES0179378651"
+}

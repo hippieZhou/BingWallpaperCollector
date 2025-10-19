@@ -1,0 +1,48 @@
+{
+  "date": "Sep 06, 2025",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "北米を翔ける小さな旅人",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "アカフトオハチドリ, 米国 カリフォルニア州 (© jeremyborkat/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E3%82%A2%E3%82%AB%E3%83%95%E3%83%88%E3%82%AA%E3%83%8F%E3%83%81%E3%83%89%E3%83%AA&form=hpcapt&filters=HpDate%3a%2220250905_1500%22",
+  "description": "アカフトオハチドリ, 米国 カリフォルニア州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_RufousHummer%22&FORM=HPQUIZ",
+  "hash": "5c9e8858b1f9f4b35a4eacd919108c5e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_JA-JP7090993703_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_JA-JP7090993703_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_JA-JP7090993703_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_JA-JP7090993703_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509051500",
+    "originalTimeFields": {
+      "startDate": "20250905",
+      "fullStartDate": "202509051500",
+      "endDate": "20250906"
+    }
+  },
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.RufousHummer_JA-JP7090993703"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 20, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Mil razões para visitar",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Arquipélago das Mil Ilhas, Rio São Lourenço, fronteira EUA-Canadá (© benedek/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Mil+Ilhas+no+Canad%C3%A1&form=hpcapt&mkt=pt-br",
+  "description": "Arquipélago das Mil Ilhas, Rio São Lourenço, fronteira EUA-Canadá",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250919_ThousandIslands%22&FORM=HPQUIZ",
+  "hash": "4b2c71d8c4e1021d5d0a4d9fc1e2cccd",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_PT-BR6464136258_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_PT-BR6464136258_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_PT-BR6464136258_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_PT-BR6464136258_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250919",
+    "endDate": "20250920",
+    "fullStartDateTime": "202509190300",
+    "originalTimeFields": {
+      "startDate": "20250919",
+      "fullStartDate": "202509190300",
+      "endDate": "20250920"
+    }
+  },
+  "createdAt": "202509200000",
+  "originalUrlBase": "/th?id=OHR.ThousandIslands_PT-BR6464136258"
+}

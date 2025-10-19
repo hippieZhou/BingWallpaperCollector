@@ -1,0 +1,48 @@
+{
+  "date": "Sep 02, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "Ghosts of Deadvlei",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia (© Inge Johnsson/Alamy Stock Photo)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Namib+Naukluft+Park+in+Namibia&form=hpcapt&filters=HpDate%3a%2220250901_2300%22",
+  "description": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_DeadvleiTrees%22&FORM=HPQUIZ",
+  "hash": "c4bb9c3c7d1f294fb44445d2c20a8321",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-GB0679166785_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-GB0679166785_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-GB0679166785_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-GB0679166785_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250901",
+    "endDate": "20250902",
+    "fullStartDateTime": "202509012300",
+    "originalTimeFields": {
+      "startDate": "20250901",
+      "fullStartDate": "202509012300",
+      "endDate": "20250902"
+    }
+  },
+  "createdAt": "202509020000",
+  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_EN-GB0679166785"
+}

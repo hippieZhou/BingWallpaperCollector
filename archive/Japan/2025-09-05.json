@@ -1,0 +1,48 @@
+{
+  "date": "Sep 05, 2025",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "夕陽に染まる遊園地のシルエット",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "パシフィック・パーク, 米国 カリフォルニア州 (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E3%83%91%E3%82%B7%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AF&form=hpcapt&filters=HpDate%3a%2220250904_1500%22",
+  "description": "パシフィック・パーク, 米国 カリフォルニア州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_SunsetPier%22&FORM=HPQUIZ",
+  "hash": "bfe4a38faef30009f90c4ed28dc51e99",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250904",
+    "endDate": "20250905",
+    "fullStartDateTime": "202509041500",
+    "originalTimeFields": {
+      "startDate": "20250904",
+      "fullStartDate": "202509041500",
+      "endDate": "20250905"
+    }
+  },
+  "createdAt": "202509050000",
+  "originalUrlBase": "/th?id=OHR.SunsetPier_JA-JP6277978338"
+}

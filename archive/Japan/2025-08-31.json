@@ -1,0 +1,48 @@
+{
+  "date": "Aug 31, 2025",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "彩られた雲と静かな断崖",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "スコッツブラフ国定記念物, 米国 ネブラスカ州 (© Hawk Buckman/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E3%82%B9%E3%82%B3%E3%83%83%E3%83%84%E3%83%96%E3%83%A9%E3%83%95%E5%9B%BD%E5%AE%9A%E8%A8%98%E5%BF%B5%E7%89%A9&form=hpcapt&filters=HpDate%3a%2220250830_1500%22",
+  "description": "スコッツブラフ国定記念物, 米国 ネブラスカ州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_ScottsBluff%22&FORM=HPQUIZ",
+  "hash": "5bc7215387dede1f49a130d154ff2914",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_JA-JP5785584590_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_JA-JP5785584590_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_JA-JP5785584590_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_JA-JP5785584590_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250830",
+    "endDate": "20250831",
+    "fullStartDateTime": "202508301500",
+    "originalTimeFields": {
+      "startDate": "20250830",
+      "fullStartDate": "202508301500",
+      "endDate": "20250831"
+    }
+  },
+  "createdAt": "202508310000",
+  "originalUrlBase": "/th?id=OHR.ScottsBluff_JA-JP5785584590"
+}

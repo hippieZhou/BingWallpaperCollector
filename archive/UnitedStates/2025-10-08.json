@@ -1,0 +1,48 @@
+{
+  "date": "Oct 8, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Camouflage in motion",
+  "bsTitle": "Camouflage in motion",
+  "caption": "World Octopus Day",
+  "copyright": "Day octopus in the waters off Maui, Hawaii (© Dave Fleetham/plainpicture)",
+  "copyrightOnly": "© Dave Fleetham/plainpicture",
+  "copyrightLink": "/search?q=world+octopus+day&form=hpcapt&filters=HpDate%3a%2220251008_0700%22",
+  "description": "With eight arms and plenty of charm, the octopus takes the spotlight today. On World Octopus Day, as we reflect on their brilliance, we're reminded that even these ocean geniuses can't outsmart threats like climate change and pollution. Protecting their homes means safeguarding the future of our seas.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_OctopusCyanea%22&FORM=HPQUIZ",
+  "hash": "f6128b4d47d8ccd0d7a06fcdbe0fda96",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_EN-US0194861123_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_EN-US0194861123_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_EN-US0194861123_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_EN-US0194861123_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251008",
+    "endDate": "20251009",
+    "fullStartDateTime": "202510080700",
+    "originalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510080700",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.OctopusCyanea_EN-US0194861123"
+}

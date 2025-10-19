@@ -1,0 +1,48 @@
+{
+  "date": "30 de sept. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Con un buen respirar",
+  "bsTitle": "Con un buen respirar",
+  "caption": "Koala en el Parque Nacional Great Otway, Australia",
+  "copyright": "Koala en un eucalipto, Parque Nacional Great Otway, Australia (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
+  "copyrightLink": "/search?q=koala&form=hpcapt&filters=HpDate%3a%2220250929_2200%22",
+  "description": "En medio del exuberante dosel de eucaliptos del Parque Nacional Great Otway, los koalas se muestran como centinelas soñolientos del alma salvaje de Australia. Estos marsupiales están más emparentados con los wombats y se reconocen al instante por sus cuerpos robustos sin cola, sus orejas esponjosas y sus narices negras y aterciopeladas.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_EucalyptusKoala%22&FORM=HPQUIZ",
+  "hash": "d0345bb27a0cb3f5eda21868ca0104c0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ES-ES0797719606_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ES-ES0797719606_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ES-ES0797719606_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ES-ES0797719606_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250929",
+    "endDate": "20250930",
+    "fullStartDateTime": "202509292200",
+    "originalTimeFields": {
+      "startDate": "20250929",
+      "fullStartDate": "202509292200",
+      "endDate": "20250930"
+    }
+  },
+  "createdAt": "202509300000",
+  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_ES-ES0797719606"
+}

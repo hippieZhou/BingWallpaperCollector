@@ -1,0 +1,48 @@
+{
+  "date": "Oct 01, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Agarrando-se ao que importa",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Coala em uma árvore de eucalipto, Parque Nacional Great Otway, Austrália (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Coala&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_EucalyptusKoala%22&FORM=HPQUIZ",
+  "hash": "2bbcf5077b78432eff7eb2282e5d90d7",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250930",
+    "endDate": "20251001",
+    "fullStartDateTime": "202509300300",
+    "originalTimeFields": {
+      "startDate": "20250930",
+      "fullStartDate": "202509300300",
+      "endDate": "20251001"
+    }
+  },
+  "createdAt": "202510010000",
+  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_PT-BR2049021569"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 06, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "A pier-fect evening",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Pacific Park, Santa Monica State Beach, California, United States (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Santa+Monica+State+Beach&form=hpcapt&filters=HpDate%3a%2220250905_1830%22",
+  "description": "Pacific Park, Santa Monica State Beach, California, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_SunsetPier%22&FORM=HPQUIZ",
+  "hash": "47d1f1d7b495d4b3e9bf55c603b3b225",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_EN-IN9369889790_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_EN-IN9369889790_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_EN-IN9369889790_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_EN-IN9369889790_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509051830",
+    "originalTimeFields": {
+      "startDate": "20250905",
+      "fullStartDate": "202509051830",
+      "endDate": "20250906"
+    }
+  },
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.SunsetPier_EN-IN9369889790"
+}

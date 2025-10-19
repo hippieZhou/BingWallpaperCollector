@@ -1,0 +1,48 @@
+{
+  "date": "Sep 04, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "¡Qué graci-oso!",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Lucha de osos pardos, Parque Nacional y Reserva Katmai, Alaska, EE. UU. (© Cavan Images/Adobe Stock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Parque+nacional+y+reserva+Katmai&form=hpcapt&filters=HpDate%3a%2220250903_2200%22",
+  "description": "Lucha de osos pardos, Parque Nacional y Reserva Katmai, Alaska, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_WrestlingBears%22&FORM=HPQUIZ",
+  "hash": "c2a21cea0e74544525c3825f791bc00c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ES-ES0873710105_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ES-ES0873710105_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ES-ES0873710105_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ES-ES0873710105_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250903",
+    "endDate": "20250904",
+    "fullStartDateTime": "202509032200",
+    "originalTimeFields": {
+      "startDate": "20250903",
+      "fullStartDate": "202509032200",
+      "endDate": "20250904"
+    }
+  },
+  "createdAt": "202509040000",
+  "originalUrlBase": "/th?id=OHR.WrestlingBears_ES-ES0873710105"
+}

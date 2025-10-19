@@ -1,0 +1,48 @@
+{
+  "date": "Oct 05, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "庆祝智慧！",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "中欧森林里的鬼鸮 (© Ondrej Prosicky/Alamy)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e4%b8%96%e7%95%8c%e6%95%99%e5%b8%88%e6%97%a5&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "1635c1020fc76cc71cd734e32a3eab69",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ZH-CN8289875605_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ZH-CN8289875605_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ZH-CN8289875605_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ZH-CN8289875605_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510041600",
+    "originalTimeFields": {
+      "startDate": "20251004",
+      "fullStartDate": "202510041600",
+      "endDate": "20251005"
+    }
+  },
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_ZH-CN8289875605"
+}

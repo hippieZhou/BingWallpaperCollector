@@ -1,0 +1,48 @@
+{
+  "date": "Oct 12, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "水声低语",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "温巴赫峡谷瀑布，巴伐利亚州，德国 (© EyeEm Mobile GmbH/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e6%b8%a9%e5%b7%b4%e8%b5%ab%e5%b3%a1%e8%b0%b7&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251012_HinterseeWaterfall%22&FORM=HPQUIZ",
+  "hash": "441d49b906eb4b3f98f69458c8b4f1c7",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ZH-CN0432994081_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ZH-CN0432994081_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ZH-CN0432994081_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HinterseeWaterfall_ZH-CN0432994081_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251012",
+    "endDate": "20251013",
+    "fullStartDateTime": "202510121600",
+    "originalTimeFields": {
+      "startDate": "20251012",
+      "fullStartDate": "202510121600",
+      "endDate": "20251013"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.HinterseeWaterfall_ZH-CN0432994081"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Aug 27, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "È qui il festival?",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vista aerea delle case colorate dell'isola di Burano, Laguna di Venezia, Veneto (© Pol Albarrán/Moment)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=festival+cinematografico+che+si+svolge+annualmente+in+Italia+a+Venezia&form=hpcapt",
+  "description": "Vista aerea delle case colorate dell'isola di Burano, Laguna di Venezia, Veneto",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FestivalVenezia%22&FORM=HPQUIZ",
+  "hash": "d83ce1d5cc30b0d79e92d04309562e8d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FestivalVenezia_IT-IT9738242817_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FestivalVenezia_IT-IT9738242817_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FestivalVenezia_IT-IT9738242817_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FestivalVenezia_IT-IT9738242817_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250826",
+    "endDate": "20250827",
+    "fullStartDateTime": "202508262200",
+    "originalTimeFields": {
+      "startDate": "20250826",
+      "fullStartDate": "202508262200",
+      "endDate": "20250827"
+    }
+  },
+  "createdAt": "202508280000",
+  "originalUrlBase": "/th?id=OHR.FestivalVenezia_IT-IT9738242817"
+}

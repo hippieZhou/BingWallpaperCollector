@@ -1,0 +1,48 @@
+{
+  "date": "Oct. 18, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "The hill that remembers",
+  "bsTitle": "The hill that remembers",
+  "caption": "International Archaeology Day",
+  "copyright": "Neolithic site of Silbury Hill, Tilshead, Wiltshire, England (© dbstockphoto/Getty Images)",
+  "copyrightOnly": "© dbstockphoto/Getty Images",
+  "copyrightLink": "/search?q=International+Archaeology+Day&form=hpcapt&filters=HpDate%3a%2220251018_0400%22",
+  "description": "Each year, International Archaeology Day—observed on the third Saturday of October—invites us to literally look beneath the surface. Established in 2011 by the Archaeological Institute of America (AIA), it's celebrated worldwide through events, tours and hands-on excavations.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "e09cc3b64a3f1e23382f555218218258",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-CA8140895314_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-CA8140895314_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-CA8140895314_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_EN-CA8140895314_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251018",
+    "endDate": "20251019",
+    "fullStartDateTime": "202510180400",
+    "originalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510180400",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "202510180000",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_EN-CA8140895314"
+}

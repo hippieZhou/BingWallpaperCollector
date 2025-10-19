@@ -1,0 +1,48 @@
+{
+  "date": "Sep 30, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Clinging to what matters",
+  "bsTitle": "Clinging to what matters",
+  "caption": "Koala in the Great Otway National Park, Australia",
+  "copyright": "Koala in a eucalyptus tree, Great Otway National Park, Australia (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
+  "copyrightLink": "/search?q=koala&form=hpcapt&filters=HpDate%3a%2220250929_1830%22",
+  "description": "Amid the lush eucalyptus canopy of Great Otway National Park, koalas reign as sleepy sentinels of Australia's wild soul. Often misnamed 'koala bears,' these marsupials are actually closer to wombats and tend to be instantly recognisable by their stout, tailless bodies, fluffy ears and velvety black noses.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_EucalyptusKoala%22&FORM=HPQUIZ",
+  "hash": "e302bdba8e659ae48ecac0a631877b57",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-IN3734256942_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-IN3734256942_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-IN3734256942_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-IN3734256942_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250929",
+    "endDate": "20250930",
+    "fullStartDateTime": "202509291830",
+    "originalTimeFields": {
+      "startDate": "20250929",
+      "fullStartDate": "202509291830",
+      "endDate": "20250930"
+    }
+  },
+  "createdAt": "202509300000",
+  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_EN-IN3734256942"
+}

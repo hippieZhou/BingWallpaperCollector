@@ -1,0 +1,48 @@
+{
+  "date": "Sep 02, 2025",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Kaiserstuhl, Baden-Württemberg, Germany (© EyeEM Mobile GmbH/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Kaiserstuhl&form=hpcapt",
+  "description": "Kaiserstuhl, Baden-Württemberg, Germany",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_FieldKaiserstuhl%22&FORM=HPQUIZ",
+  "hash": "f3e90a2e8b8ec2a2515bb3f8f509f3d0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250901",
+    "endDate": "20250902",
+    "fullStartDateTime": "202509010700",
+    "originalTimeFields": {
+      "startDate": "20250901",
+      "fullStartDate": "202509010700",
+      "endDate": "20250902"
+    }
+  },
+  "createdAt": "202509020000",
+  "originalUrlBase": "/th?id=OHR.FieldKaiserstuhl_ROW2652237582"
+}

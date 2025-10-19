@@ -1,0 +1,48 @@
+{
+  "date": "Sep 05, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Gira la ruota",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Pacific Park, Santa Monica State Beach, California, USA (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Santa+Monica+comune+degli+Stati+Uniti&form=hpcapt",
+  "description": "Pacific Park, Santa Monica State Beach, California, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_SunsetPier%22&FORM=HPQUIZ",
+  "hash": "17580125b185a4462a5849e152cd42b1",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_IT-IT8926979057_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_IT-IT8926979057_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_IT-IT8926979057_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_IT-IT8926979057_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250904",
+    "endDate": "20250905",
+    "fullStartDateTime": "202509042200",
+    "originalTimeFields": {
+      "startDate": "20250904",
+      "fullStartDate": "202509042200",
+      "endDate": "20250905"
+    }
+  },
+  "createdAt": "202509050000",
+  "originalUrlBase": "/th?id=OHR.SunsetPier_IT-IT8926979057"
+}

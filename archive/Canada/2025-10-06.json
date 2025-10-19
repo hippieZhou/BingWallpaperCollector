@@ -1,0 +1,48 @@
+{
+  "date": "Oct. 5, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Celebrating wisdom",
+  "bsTitle": "Celebrating wisdom",
+  "caption": "World Teachers' Day",
+  "copyright": "Boreal owl in a forest in Central Europe (© Ondrej Prosicky/Alamy)",
+  "copyrightOnly": "© Ondrej Prosicky/Alamy",
+  "copyrightLink": "/search?q=World+Teachers+Day&form=hpcapt&filters=HpDate%3a%2220251005_0400%22",
+  "description": "The tradition of teaching is deeply rooted in human history. Today, we honour those who dedicate their lives to sharing knowledge and shaping minds. Happy World Teachers' Day to all the educators who have helped us become who we are.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "d40b1ee2b7121642fbb61bf4c95e55b2",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-CA7173344502_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-CA7173344502_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-CA7173344502_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-CA7173344502_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251005",
+    "endDate": "20251006",
+    "fullStartDateTime": "202510050400",
+    "originalTimeFields": {
+      "startDate": "20251005",
+      "fullStartDate": "202510050400",
+      "endDate": "20251006"
+    }
+  },
+  "createdAt": "202510060000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_EN-CA7173344502"
+}

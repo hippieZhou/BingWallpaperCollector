@@ -1,0 +1,48 @@
+{
+  "date": "17 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Afluentes del otoño",
+  "bsTitle": "Afluentes del otoño",
+  "caption": "Rock River Canyon Wilderness, Península superior de Míchigan, EE. UU.",
+  "copyright": "Rock River Canyon Wilderness, Península superior de Míchigan, EE. UU. (© Matt Anderson Photography/Getty Images)",
+  "copyrightOnly": "© Matt Anderson Photography/Getty Images",
+  "copyrightLink": "/search?q=Pen%c3%adnsula+superior+de+M%c3%adchigan&form=hpcapt&filters=HpDate%3a%2220251016_2200%22",
+  "description": "En el corazón del Rock River Canyon Wilderness, en la Península Superior de Michigan, Estados Unidos, se encuentra Rock River Falls, una cascada de cinco metros rodeada de bosques y paisajes moldeados por glaciares. Esta región conserva huellas de pueblos indígenas de habla algonquina, exploradores franceses y británicos, y más tarde de inmigrantes finlandeses, suecos y franco-canadienses que llegaron en el siglo XIX con la minería y la tala.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251016_RockRiverFalls%22&FORM=HPQUIZ",
+  "hash": "d8520b744a95d8216b0af6208e67671c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ES-ES6474484835_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ES-ES6474484835_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ES-ES6474484835_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ES-ES6474484835_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251016",
+    "endDate": "20251017",
+    "fullStartDateTime": "202510162200",
+    "originalTimeFields": {
+      "startDate": "20251016",
+      "fullStartDate": "202510162200",
+      "endDate": "20251017"
+    }
+  },
+  "createdAt": "202510160000",
+  "originalUrlBase": "/th?id=OHR.RockRiverFalls_ES-ES6474484835"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 13, 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "La vigie du Pacifique",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Chimney Rock, Point Reyes National Seashore, Californie, États-Unis (© Enrique Aguirre Aves/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Point+reyes+national+seashore+etats-unis&form=hpcapt&filters=HpDate%3a%2220250912_2200%22",
+  "description": "Chimney Rock, Point Reyes National Seashore, Californie, États-Unis",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
+  "hash": "3367d8b29d2390b19e6e5ac924312f12",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_FR-FR5791711233_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_FR-FR5791711233_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_FR-FR5791711233_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_FR-FR5791711233_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250912",
+    "endDate": "20250913",
+    "fullStartDateTime": "202509122200",
+    "originalTimeFields": {
+      "startDate": "20250912",
+      "fullStartDate": "202509122200",
+      "endDate": "20250913"
+    }
+  },
+  "createdAt": "202509130000",
+  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_FR-FR5791711233"
+}

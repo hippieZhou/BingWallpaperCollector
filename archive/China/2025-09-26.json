@@ -1,0 +1,48 @@
+{
+  "date": "Sep 26, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "速度与毛茸茸",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "最小花栗鼠, 库特奈国家公园, 蒙大拿州, 美国 (© Donald M. Jones/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E6%9C%80%E5%B0%8F%E8%8A%B1%E6%A0%97%E9%BC%A0&form=hpcapt&mkt=zh-cn",
+  "description": "最小花栗鼠, 库特奈国家公园, 蒙大拿州, 美国",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250925_AutumnChipmunk%22&FORM=HPQUIZ",
+  "hash": "2885513666b93587b3f34108402e97fc",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ZH-CN6224482683_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ZH-CN6224482683_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ZH-CN6224482683_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ZH-CN6224482683_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250925",
+    "endDate": "20250926",
+    "fullStartDateTime": "202509251600",
+    "originalTimeFields": {
+      "startDate": "20250925",
+      "fullStartDate": "202509251600",
+      "endDate": "20250926"
+    }
+  },
+  "createdAt": "202509260000",
+  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_ZH-CN6224482683"
+}

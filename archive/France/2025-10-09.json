@@ -1,0 +1,48 @@
+{
+  "date": "10 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "L’île était une fois, les Fidji",
+  "bsTitle": "L’île était une fois, les Fidji",
+  "caption": "Journée des Fidji",
+  "copyright": "Récif corallien entourant l’île de Monuriki, archipel des Mamanuca, Fidji (© David Wall/SuperStock)",
+  "copyrightOnly": "© David Wall/SuperStock",
+  "copyrightLink": "/search?q=Journ%c3%a9e+des+Fidji&form=hpcapt&filters=HpDate%3a%2220251009_2200%22",
+  "description": "Le 10 octobre, les Fidji célèbrent bien plus qu’une date : c’est le jour où l’histoire coloniale s’est refermée et où le drapeau national s’est hissé pour la première fois, en 1970. Une journée de mémoire et de fête, où les villages vibrent au rythme du meke, les plats traditionnels mijotent sous terre dans le lovo, et les terrains de rugby deviennent des arènes de passion.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251009_MonurikiFiji%22&FORM=HPQUIZ",
+  "hash": "97146aed818265d28a664c8a0ac04946",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_FR-FR1965594259_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_FR-FR1965594259_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_FR-FR1965594259_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_FR-FR1965594259_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251009",
+    "endDate": "20251010",
+    "fullStartDateTime": "202510092200",
+    "originalTimeFields": {
+      "startDate": "20251009",
+      "fullStartDate": "202510092200",
+      "endDate": "20251010"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.MonurikiFiji_FR-FR1965594259"
+}

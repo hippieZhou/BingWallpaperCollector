@@ -1,0 +1,48 @@
+{
+  "date": "Sep 01, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Faróis de pedra",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Monumento Nacional Scotts Bluff em Gering, Nebraska, EUA (© Hawk Buckman/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Monumento+Nacional+Scotts+Bluff+em+Gering%2c+Nebraska%2c+EUA&form=hpcapt&mkt=pt-br",
+  "description": "Monumento Nacional Scotts Bluff em Gering, Nebraska, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
+  "hash": "fc74dd7d7f293c24774b7c5d19e65267",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508310300",
+    "originalTimeFields": {
+      "startDate": "20250831",
+      "fullStartDate": "202508310300",
+      "endDate": "20250901"
+    }
+  },
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.ScottsBluff_PT-BR7461504826"
+}

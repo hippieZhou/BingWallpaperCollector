@@ -1,0 +1,48 @@
+{
+  "date": "Sep 26, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Pequeña y adorable",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "La ardilla rayada, Parque Nacional Kootenai, Montana, EE. UU. (© Donald M. Jones/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=La+ardilla+rayada&form=hpcapt&filters=HpDate%3a%2220250925_2200%22",
+  "description": "La ardilla rayada, Parque Nacional Kootenai, Montana, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250925_AutumnChipmunk%22&FORM=HPQUIZ",
+  "hash": "af7f75b6b1b3f55e2a540e90c49d4c40",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ES-ES0673938292_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ES-ES0673938292_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ES-ES0673938292_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ES-ES0673938292_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250925",
+    "endDate": "20250926",
+    "fullStartDateTime": "202509252200",
+    "originalTimeFields": {
+      "startDate": "20250925",
+      "fullStartDate": "202509252200",
+      "endDate": "20250926"
+    }
+  },
+  "createdAt": "202509260000",
+  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_ES-ES0673938292"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "18 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Une colline pas comme les autres",
+  "bsTitle": "Une colline pas comme les autres",
+  "caption": "Site néolithique de la colline de Silbury, Angleterre",
+  "copyright": "Site néolithique de la colline de Silbury, Tilshead, Wiltshire, Angleterre (© dbstockphoto/Getty Images)",
+  "copyrightOnly": "© dbstockphoto/Getty Images",
+  "copyrightLink": "/search?q=colline+de+Silbury&form=hpcapt&filters=HpDate%3a%2220251017_2200%22",
+  "description": "Au cœur des plaines du Wiltshire, en Angleterre, la colline de Silbury se dresse comme une énigme venue du passé. Recouverte d'herbe par la nature, elle a été construite il y a 4 500 ans. Vers 2 400 av. J.-C., des générations entières ont extrait la craie des environs, l'ont transportée puis compactée patiemment jusqu'à ériger ce tertre monumental de 40 mètres, le plus haut de toute l'Europe préhistorique.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251017_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "9f62e541999681cd14fa16744c97ceda",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_FR-FR0576051334_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_FR-FR0576051334_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_FR-FR0576051334_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_FR-FR0576051334_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251017",
+    "endDate": "20251018",
+    "fullStartDateTime": "202510172200",
+    "originalTimeFields": {
+      "startDate": "20251017",
+      "fullStartDate": "202510172200",
+      "endDate": "20251018"
+    }
+  },
+  "createdAt": "202510170000",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_FR-FR0576051334"
+}

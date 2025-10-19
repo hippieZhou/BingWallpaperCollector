@@ -1,0 +1,48 @@
+{
+  "date": "Sep 11, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "O sol que se deixou guardar",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Fardos de feno, North Yorkshire, Inglaterra (© Nick Brundle Photography/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=North+Yorkshire+na+Inglaterra&form=hpcapt&mkt=pt-br",
+  "description": "Fardos de feno, North Yorkshire, Inglaterra",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250910_YorkshireHay%22&FORM=HPQUIZ",
+  "hash": "5c476846ce85f2acabd19328098135f7",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_PT-BR7088228512_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_PT-BR7088228512_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_PT-BR7088228512_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_PT-BR7088228512_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250910",
+    "endDate": "20250911",
+    "fullStartDateTime": "202509100300",
+    "originalTimeFields": {
+      "startDate": "20250910",
+      "fullStartDate": "202509100300",
+      "endDate": "20250911"
+    }
+  },
+  "createdAt": "202509110000",
+  "originalUrlBase": "/th?id=OHR.YorkshireHay_PT-BR7088228512"
+}

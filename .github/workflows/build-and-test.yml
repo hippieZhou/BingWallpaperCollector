@@ -1,0 +1,84 @@
+name: Build and Test
+
+on:
+  push:
+    branches: ["**"] # 所有分支的 push 都会触发
+  pull_request:
+    branches: ["**"] # 所有分支的 PR 都会触发
+  workflow_dispatch: # 支持手动触发
+
+env:
+  DOTNET_VERSION: "9.0.x"
+  SOLUTION_PATH: "BingWallpaperGallery.sln"
+  BUILD_PLATFORM: "x64"
+
+jobs:
+  build-and-test:
+    name: Build and Test
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 获取完整历史记录用于 GitVersion
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/Directory.Packages.props') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: Restore dependencies
+        run: dotnet restore ${{ env.SOLUTION_PATH }} -p:Platform=${{ env.BUILD_PLATFORM }}
+
+      - name: Build solution
+        run: dotnet build ${{ env.SOLUTION_PATH }} --configuration Release --no-restore -p:Platform=${{ env.BUILD_PLATFORM }}
+
+      - name: Run tests
+        run: dotnet test src/BingWallpaperGallery.Core.Tests/BingWallpaperGallery.Core.Tests.csproj --configuration Release --verbosity normal --collect:"XPlat Code Coverage" --results-directory ./coverage
+
+      - name: Generate coverage report
+        uses: danielpalme/ReportGenerator-GitHub-Action@5.3.11
+        with:
+          reports: "coverage/**/coverage.cobertura.xml"
+          targetdir: "coveragereport"
+          reporttypes: "HtmlInline;Cobertura;MarkdownSummaryGithub"
+          assemblyfilters: "-xunit*;-*.Tests"
+
+      - name: Add coverage comment to PR
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          recreate: true
+          path: coveragereport/SummaryGithub.md
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: ./coverage/**/coverage.cobertura.xml
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: false
+          token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: coverage
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coveragereport

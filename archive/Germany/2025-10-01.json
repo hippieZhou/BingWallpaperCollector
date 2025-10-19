@@ -1,0 +1,48 @@
+{
+  "date": "1. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Echos aus der Clark Range",
+  "bsTitle": "Echos aus der Clark Range",
+  "caption": "Clark Range, Yosemite-Nationalpark, Kalifornien, USA",
+  "copyright": "Clark Range, Sierra Nevada, Yosemite-Nationalpark, Kalifornien, USA (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=Yosemite-Nationalpark&form=hpcapt&filters=HpDate%3a%2220250930_2200%22",
+  "description": "Auf dem heutigen Bild ist die Clark Range zu sehen, eine Gebirgskette in der Sierra Nevada im Yosemite-Nationalpark in Kalifornien, USA. Diese Region zeichnet sich durch ihre zerklüfteten Gipfel wie den Mount Clark und den Red Peak aus, die aus metamorphen Gesteinen bestehen und sich deutlich vom dominierenden Granit des Parks abheben. Es handelt sich um ein weniger besuchtes Gebiet, ideal für erfahrene Wanderer, die anspruchsvolle Routen wie den Red Peak Pass suchen. Darüber hinaus beherbergt die Region Gletscherseen, alpine Wiesen und eine überraschende Artenvielfalt mit Spezies, die sich an Höhen über 3.500 Meter angepasst haben. Ihre Abgeschiedenheit und wilde Schönheit machen sie zu einem versteckten Juwel im ikonischen Yosemite und bieten ein intensiveres und kontemplativeres Naturerlebnis als die stärker frequentierten Bereiche des Parks.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "623291c736a85be8dbaaa2d3490a77ca",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_DE-DE1037605908_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_DE-DE1037605908_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_DE-DE1037605908_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_DE-DE1037605908_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250930",
+    "endDate": "20251001",
+    "fullStartDateTime": "202509302200",
+    "originalTimeFields": {
+      "startDate": "20250930",
+      "fullStartDate": "202509302200",
+      "endDate": "20251001"
+    }
+  },
+  "createdAt": "202510010000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_DE-DE1037605908"
+}

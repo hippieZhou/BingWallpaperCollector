@@ -1,0 +1,48 @@
+{
+  "date": "Sep 20, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "A tale of brews and views",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Swing carousel at Oktoberfest, Munich, Bavaria, Germany (© LOOK-foto/Alamy)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Oktoberfest&form=hpcapt&filters=HpDate%3a%2220250919_2300%22",
+  "description": "Swing carousel at Oktoberfest, Munich, Bavaria, Germany",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250919_OktoberfestSwing%22&FORM=HPQUIZ",
+  "hash": "3cf1cd18cbaa88f3892bcdfcdee97b2f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-GB1846284671_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-GB1846284671_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-GB1846284671_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-GB1846284671_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250919",
+    "endDate": "20250920",
+    "fullStartDateTime": "202509192300",
+    "originalTimeFields": {
+      "startDate": "20250919",
+      "fullStartDate": "202509192300",
+      "endDate": "20250920"
+    }
+  },
+  "createdAt": "202509200000",
+  "originalUrlBase": "/th?id=OHR.OktoberfestSwing_EN-GB1846284671"
+}

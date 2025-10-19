@@ -1,0 +1,48 @@
+{
+  "date": "Sep 11, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "¡Prepárate para mirar al cielo!",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vista desde el Salto del Gitano, Parque Nacional de Monfragüe, Cáceres, Extremadura, España (© Daniel Viñé Garcia/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Parque+Nacional+de+Monfrag%C3%BCe&form=hpcapt&filters=HpDate%3a%2220250910_2200%22",
+  "description": "Vista desde el Salto del Gitano, Parque Nacional de Monfragüe, Cáceres, Extremadura, España",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250910_ExtremaduraJamon%22&FORM=HPQUIZ",
+  "hash": "61cd08422590cbf7bcfe31e96ff2d4a9",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_ES-ES8041175238_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_ES-ES8041175238_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_ES-ES8041175238_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_ES-ES8041175238_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250910",
+    "endDate": "20250911",
+    "fullStartDateTime": "202509102200",
+    "originalTimeFields": {
+      "startDate": "20250910",
+      "fullStartDate": "202509102200",
+      "endDate": "20250911"
+    }
+  },
+  "createdAt": "202509110000",
+  "originalUrlBase": "/th?id=OHR.ExtremaduraJamon_ES-ES8041175238"
+}

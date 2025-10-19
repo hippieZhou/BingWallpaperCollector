@@ -1,0 +1,48 @@
+{
+  "date": "30. Sept.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Fest im Griff, weich im Blick",
+  "bsTitle": "Fest im Griff, weich im Blick",
+  "caption": "Koala im Great-Otway-Nationalpark, Australien",
+  "copyright": "Koala in einem Eukalyptusbaum, Great-Otway-Nationalpark, Australien (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
+  "copyrightLink": "/search?q=Koala+Tier&form=hpcapt&filters=HpDate%3a%2220250929_2200%22",
+  "description": "Koalas sind einzigartige Beuteltiere aus Australien, bekannt für ihr niedliches Aussehen und ihren entspannten Lebensstil. Sie schlafen bis zu 20 Stunden am Tag und verbringen den Rest damit, Eukalyptusblätter zu fressen – ihre einzige Nahrungsquelle. Trotz ihres Rufs als „Baumumarmer“ trinken Koalas kaum Wasser; sie beziehen fast ihre gesamte Flüssigkeit aus den Blättern. Auf dem heutigen Bild sieht man einen Koala in einem Eukalyptusbaum im Great-Otway-Nationalpark, Australien, der sich fest an die Äste klammert – als würde er das Wesentliche umarmen.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_EucalyptusKoala%22&FORM=HPQUIZ",
+  "hash": "a466c2d8d8e2027d8d49c97e46380786",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_DE-DE1090162276_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_DE-DE1090162276_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_DE-DE1090162276_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_DE-DE1090162276_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250929",
+    "endDate": "20250930",
+    "fullStartDateTime": "202509292200",
+    "originalTimeFields": {
+      "startDate": "20250929",
+      "fullStartDate": "202509292200",
+      "endDate": "20250930"
+    }
+  },
+  "createdAt": "202509300000",
+  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_DE-DE1090162276"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 02, 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Stumme Zeugen der Vergangenheit",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Kameldornbäume, Deadvlei, Namib-Naukluft-Park, Namibia (© Inge Johnsson/Alamy)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Namib-Naukluft-Park+in+Namibia&form=hpcapt&filters=HpDate%3a%2220250901_2200%22",
+  "description": "Kameldornbäume, Deadvlei, Namib-Naukluft-Park, Namibia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_DeadvleiTrees%22&FORM=HPQUIZ",
+  "hash": "aa6310de87faa7587b9c75eb76032f84",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_DE-DE6613331232_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_DE-DE6613331232_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_DE-DE6613331232_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_DE-DE6613331232_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250901",
+    "endDate": "20250902",
+    "fullStartDateTime": "202509012200",
+    "originalTimeFields": {
+      "startDate": "20250901",
+      "fullStartDate": "202509012200",
+      "endDate": "20250902"
+    }
+  },
+  "createdAt": "202509020000",
+  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_DE-DE6613331232"
+}

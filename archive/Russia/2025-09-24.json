@@ -1,0 +1,48 @@
+{
+  "date": "Sep 24, 2025",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Keel-billed toucan in Costa Rica (© Juan Carlos Vindas/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Keel+billed+toucan&form=hpcapt",
+  "description": "Keel-billed toucan in Costa Rica",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250923_ToucanForest%22&FORM=HPQUIZ",
+  "hash": "1d6115eca7124ec9a09480b5ec79994e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_ROW4747613727_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_ROW4747613727_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_ROW4747613727_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_ROW4747613727_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250923",
+    "endDate": "20250924",
+    "fullStartDateTime": "202509230700",
+    "originalTimeFields": {
+      "startDate": "20250923",
+      "fullStartDate": "202509230700",
+      "endDate": "20250924"
+    }
+  },
+  "createdAt": "202509240000",
+  "originalUrlBase": "/th?id=OHR.ToucanForest_ROW4747613727"
+}

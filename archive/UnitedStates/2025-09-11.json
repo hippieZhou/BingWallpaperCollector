@@ -1,0 +1,48 @@
+{
+  "date": "Sep 11, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "'Hay' there!",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Hay bales, North Yorkshire, England (© Nick Brundle Photography/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Yorkshire+England&form=hpcapt&filters=HpDate%3a%2220250910_0700%22",
+  "description": "Hay bales, North Yorkshire, England",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250910_YorkshireHay%22&FORM=HPQUIZ",
+  "hash": "b983836886a97ddb6a573ede69f5dd7c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-US8523120193_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-US8523120193_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-US8523120193_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-US8523120193_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250910",
+    "endDate": "20250911",
+    "fullStartDateTime": "202509100700",
+    "originalTimeFields": {
+      "startDate": "20250910",
+      "fullStartDate": "202509100700",
+      "endDate": "20250911"
+    }
+  },
+  "createdAt": "202509110000",
+  "originalUrlBase": "/th?id=OHR.YorkshireHay_EN-US8523120193"
+}

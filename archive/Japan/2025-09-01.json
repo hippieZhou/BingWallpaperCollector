@@ -1,0 +1,48 @@
+{
+  "date": "Sep 01, 2025",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "尖頭アーチと肋骨ヴォールト",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "聖バルボラ教会, チェコ共和国 (© Castka/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E8%81%96%E3%83%90%E3%83%AB%E3%83%9C%E3%83%A9%E6%95%99%E4%BC%9A&form=hpcapt&filters=HpDate%3a%2220250831_1500%22",
+  "description": "聖バルボラ教会, チェコ共和国",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_SaintBarbaras%22&FORM=HPQUIZ",
+  "hash": "f5c3fe2b3e267a074a97bbff8368d9c5",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_JA-JP5804029970_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_JA-JP5804029970_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_JA-JP5804029970_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_JA-JP5804029970_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508311500",
+    "originalTimeFields": {
+      "startDate": "20250831",
+      "fullStartDate": "202508311500",
+      "endDate": "20250901"
+    }
+  },
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.SaintBarbaras_JA-JP5804029970"
+}

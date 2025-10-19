@@ -1,0 +1,48 @@
+{
+  "date": "Sep 14, 2025",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "苔と水が織りなす風景",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "オリンピック国立公園, 米国 ワシントン州 (© Chris Moore/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9C%92&form=hpcapt&filters=HpDate%3a%2220250913_1500%22",
+  "description": "オリンピック国立公園, 米国 ワシントン州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "dfc79bd87c31214f7cfa099e9ba6c8b0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250913",
+    "endDate": "20250914",
+    "fullStartDateTime": "202509131500",
+    "originalTimeFields": {
+      "startDate": "20250913",
+      "fullStartDate": "202509131500",
+      "endDate": "20250914"
+    }
+  },
+  "createdAt": "202509140000",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_JA-JP8707934931"
+}

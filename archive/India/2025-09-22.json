@@ -1,0 +1,48 @@
+{
+  "date": "Sep 22, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Midway to winter",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Aspen trees during autumn Fishlake National Forest, Utah, United States (© Danita Delimont/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Autumn+equinox&form=hpcapt&filters=HpDate%3a%2220250921_1830%22",
+  "description": "Aspen trees during autumn Fishlake National Forest, Utah, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_AspenEquinox%22&FORM=HPQUIZ",
+  "hash": "0e282a66e01821dd8c6ff05bfbb1831f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-IN2120497410_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-IN2120497410_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-IN2120497410_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-IN2120497410_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250921",
+    "endDate": "20250922",
+    "fullStartDateTime": "202509211830",
+    "originalTimeFields": {
+      "startDate": "20250921",
+      "fullStartDate": "202509211830",
+      "endDate": "20250922"
+    }
+  },
+  "createdAt": "202509220000",
+  "originalUrlBase": "/th?id=OHR.AspenEquinox_EN-IN2120497410"
+}

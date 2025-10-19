@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "BingWallpaperGallery.WinUI (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "BingWallpaperGallery.WinUI (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}

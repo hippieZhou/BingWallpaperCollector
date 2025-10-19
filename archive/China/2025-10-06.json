@@ -1,0 +1,48 @@
+{
+  "date": "Oct 06, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "千里共婵娟",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "安顺桥中秋灯展，成都，中国 (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e4%b8%ad%e7%a7%8b%e8%8a%82&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "e276da4ffe4dd53c3ee48f4ce4386645",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ZH-CN8392458102_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ZH-CN8392458102_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ZH-CN8392458102_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_ZH-CN8392458102_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251005",
+    "endDate": "20251006",
+    "fullStartDateTime": "202510051600",
+    "originalTimeFields": {
+      "startDate": "20251005",
+      "fullStartDate": "202510051600",
+      "endDate": "20251006"
+    }
+  },
+  "createdAt": "202510060000",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_ZH-CN8392458102"
+}

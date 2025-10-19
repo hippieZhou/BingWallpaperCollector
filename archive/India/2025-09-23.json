@@ -1,0 +1,48 @@
+{
+  "date": "Sep 23, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Beak-side story",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Keel-billed toucan in Costa Rica (© Juan Carlos Vindas/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Keel+billed+toucan&form=hpcapt&filters=HpDate%3a%2220250922_1830%22",
+  "description": "Keel-billed toucan in Costa Rica",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250922_ToucanForest%22&FORM=HPQUIZ",
+  "hash": "b37a43c50c5dda6e6533e9e30b3b5b1e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_EN-IN2300582458_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_EN-IN2300582458_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_EN-IN2300582458_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_EN-IN2300582458_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250922",
+    "endDate": "20250923",
+    "fullStartDateTime": "202509221830",
+    "originalTimeFields": {
+      "startDate": "20250922",
+      "fullStartDate": "202509221830",
+      "endDate": "20250923"
+    }
+  },
+  "createdAt": "202509230000",
+  "originalUrlBase": "/th?id=OHR.ToucanForest_EN-IN2300582458"
+}

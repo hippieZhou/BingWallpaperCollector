@@ -1,0 +1,48 @@
+{
+  "date": "Aug 29, 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Das Wahrzeichen der Stadt",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Luftaufnahme der Plaza Mayor, Madrid, Spanien (© AirPano LLC/Amazing Aerial Agency)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Madrid+Hauptstadt+Spanien&form=hpcapt&filters=HpDate%3a%2220250828_2200%22",
+  "description": "Luftaufnahme der Plaza Mayor, Madrid, Spanien",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "e1a5719d75febe56aceffbb97822d41d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508282200",
+    "originalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508282200",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "202508290000",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_DE-DE2952299555"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Oct 1, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "bsTitle": "Info",
+  "caption": "Clark Range, Yosemite National Park, California, United States",
+  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=Clark+Range&form=hpcapt&filters=HpDate%3a%2220251001_0700%22",
+  "description": "Nestled in the heart of California's Sierra Nevada, Yosemite National Park, spans more than 310,000 hectares, cradling granite giants, cascading waterfalls and ancient sequoias. Among its lesser-known treasures lies the Clark Range—the rugged, high-elevation spine seen in today's image. It was named after Galen Clark, Yosemite's first guardian and a pioneer of conservation.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "8127971718e27c4d625153cfd5c45288",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510010700",
+    "originalTimeFields": {
+      "startDate": "20251001",
+      "fullStartDate": "202510010700",
+      "endDate": "20251002"
+    }
+  },
+  "createdAt": "202510020207",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_ROW5897373346"
+}

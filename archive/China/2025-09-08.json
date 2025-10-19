@@ -1,0 +1,48 @@
+{
+  "date": "Sep 08, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "当天预订",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "乌节图书馆，新加坡 (© Darwin Fan/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E5%9B%BD%E9%99%85%E6%89%AB%E7%9B%B2%E6%97%A5&form=hpcapt&mkt=zh-cn",
+  "description": "乌节图书馆，新加坡",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "ea8f398bf14d39c4c5c213917911f1f2",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ZH-CN3578982798_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ZH-CN3578982798_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ZH-CN3578982798_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ZH-CN3578982798_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250907",
+    "endDate": "20250908",
+    "fullStartDateTime": "202509071600",
+    "originalTimeFields": {
+      "startDate": "20250907",
+      "fullStartDate": "202509071600",
+      "endDate": "20250908"
+    }
+  },
+  "createdAt": "202509080000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_ZH-CN3578982798"
+}

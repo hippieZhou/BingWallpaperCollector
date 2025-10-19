@@ -1,0 +1,48 @@
+{
+  "date": "9 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Les cathédrales du cosmos",
+  "bsTitle": "Les cathédrales du cosmos",
+  "caption": "Clap de fin pour la Semaine mondiale de l'espace",
+  "copyright": "Les Piliers de la Création vus par le télescope spatial James Webb (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=Piliers+de+la+cr%c3%a9ation&form=hpcapt&filters=HpDate%3a%2220251008_2200%22",
+  "description": "Alors que la Semaine mondiale de l’espace s’achève, le ciel nous offre un dernier frisson d’émerveillement. Dans l’immensité silencieuse du cosmos, les Piliers de la Création s’élèvent comme des cathédrales de poussière et de gaz. Sculptés par les vents stellaires dans la nébuleuse de l’Aigle, à 6 500 années-lumière, ils forment un berceau où naissent les étoiles. Grâce au télescope spatial James Webb, leur silhouette apparaît avec une clarté inédite : des colonnes dorées, des ombres profondes et des éclats lumineux au bord des nuages.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_WebbPillars%22&FORM=HPQUIZ",
+  "hash": "c66d6f3e4bc06db788b47f32c23a1c7e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_FR-FR1852034040_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_FR-FR1852034040_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_FR-FR1852034040_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_FR-FR1852034040_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251008",
+    "endDate": "20251009",
+    "fullStartDateTime": "202510082200",
+    "originalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510082200",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.WebbPillars_FR-FR1852034040"
+}

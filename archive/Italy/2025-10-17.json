@@ -1,0 +1,48 @@
+{
+  "date": "Oct 17, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Montagna di Memoria",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Sito neolitico di Silbury Hill, Tilshead, Wiltshire, Inghilterra (© dbstockphoto/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Sito+neolitico+di+Silbury+Hill+Tilshead+Wiltshire+Inghilterra&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251017_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "f29dc954a0635ccf37680e854658efdd",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_IT-IT5036622504_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_IT-IT5036622504_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_IT-IT5036622504_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_IT-IT5036622504_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251017",
+    "endDate": "20251018",
+    "fullStartDateTime": "202510172200",
+    "originalTimeFields": {
+      "startDate": "20251017",
+      "fullStartDate": "202510172200",
+      "endDate": "20251018"
+    }
+  },
+  "createdAt": "202510170000",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_IT-IT5036622504"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "28. Sept.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein Juwel der Toskana",
+  "bsTitle": "Ein Juwel der Toskana",
+  "caption": "Die Stadt Pienza, Toskana, Italien",
+  "copyright": "Die Stadt Pienza in der Toskana, Italien (© zpagistock/Getty Images)",
+  "copyrightOnly": "© zpagistock/Getty Images",
+  "copyrightLink": "/search?q=Pienza&form=hpcapt&filters=HpDate%3a%2220250927_2200%22",
+  "description": "Auf dem heutigen Bild ist die schöne Stadt Pienza im Herzen der Toskana, Italien, zu sehen. Diese charmante Renaissance-Stadt, die zum UNESCO-Weltkulturerbe gehört, ist bekannt für ihre harmonische Architektur und den atemberaubenden Blick auf das Val d’Orcia. Im 15. Jahrhundert als „ideale Stadt“ auf Wunsch von Papst Pius II. entworfen, vereint Pienza städtische Eleganz mit der Wärme des toskanischen Landlebens.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "18e64e14852d0dff65611a39bed91477",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_DE-DE0925604328_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_DE-DE0925604328_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_DE-DE0925604328_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_DE-DE0925604328_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509272200",
+    "originalTimeFields": {
+      "startDate": "20250927",
+      "fullStartDate": "202509272200",
+      "endDate": "20250928"
+    }
+  },
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_DE-DE0925604328"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 28, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "品味皮恩扎",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "托斯卡纳的皮恩扎镇, 意大利 (© zpagistock/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e7%9a%ae%e6%81%a9%e6%89%8e&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "7111f0189625cea9244104a06f8bd70a",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ZH-CN6564335348_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ZH-CN6564335348_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ZH-CN6564335348_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ZH-CN6564335348_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509271600",
+    "originalTimeFields": {
+      "startDate": "20250927",
+      "fullStartDate": "202509271600",
+      "endDate": "20250928"
+    }
+  },
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_ZH-CN6564335348"
+}

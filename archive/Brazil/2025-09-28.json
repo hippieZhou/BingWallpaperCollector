@@ -1,0 +1,48 @@
+{
+  "date": "Sep 28, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Olhares brilhantes",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Lagos Tank, Região Selvagem dos Lagos Alpinos, Washington, EUA (© Austin Trigg/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Lagos+Alpinos%2c+Washington%2c+EUA&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_TankLakes%22&FORM=HPQUIZ",
+  "hash": "94da1b7109cf2d3a4e79172558a545ab",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509270300",
+    "originalTimeFields": {
+      "startDate": "20250927",
+      "fullStartDate": "202509270300",
+      "endDate": "20250928"
+    }
+  },
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.TankLakes_PT-BR9433679717"
+}

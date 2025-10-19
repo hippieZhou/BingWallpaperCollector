@@ -1,0 +1,48 @@
+{
+  "date": "4. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Der Kosmos kennt keine Grenzen",
+  "bsTitle": "Der Kosmos kennt keine Grenzen",
+  "caption": "Internationale Weltraumwoche",
+  "copyright": "Die Hauptsolaranlagen der ISS, gesehen von der SpaceX Crew Dragon Endeavour (© NASA)  (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=Internationale+Weltraumwoche&form=hpcapt&filters=HpDate%3a%2220251003_2200%22",
+  "description": "Jedes Jahr vom 4. bis 10. Oktober wird die Internationale Weltraumwoche gefeiert – eine Initiative der Vereinten Nationen, die die Bedeutung von Raumfahrttechnologie und -wissenschaft für das Leben auf der Erde hervorhebt. Diese Woche erinnert an zwei historische Meilensteine: den Start des ersten künstlichen Satelliten, Sputnik I, am 4. Oktober 1957 und das Inkrafttreten des Weltraumvertrags am 10. Oktober 1967, der die friedliche Nutzung des Weltraums sowie das Verbot von Waffen im All regelt. Weltweit finden in dieser Zeit zahlreiche Veranstaltungen statt – von Schulprojekten bis hin zu wissenschaftlichen Ausstellungen –, um das Interesse an der Raumfahrt zu fördern und junge Menschen für die Erforschung des Universums zu begeistern.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "8b0f40693cba842b1618c6643518fb4d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510032200",
+    "originalTimeFields": {
+      "startDate": "20251003",
+      "fullStartDate": "202510032200",
+      "endDate": "20251004"
+    }
+  },
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_DE-DE7375931305"
+}

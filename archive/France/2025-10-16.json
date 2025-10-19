@@ -1,0 +1,48 @@
+{
+  "date": "17 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Quand le soir embrasse la montagne corse",
+  "bsTitle": "Quand le soir embrasse la montagne corse",
+  "caption": "Speloncato, Corse",
+  "copyright": "Lumière du soir sur le village de Speloncato, Corse (© joningall/Getty Images)",
+  "copyrightOnly": "© joningall/Getty Images",
+  "copyrightLink": "/search?q=Speloncato+Corse&form=hpcapt&filters=HpDate%3a%2220251016_2200%22",
+  "description": "Dominant la Balagne depuis le Moyen Âge, Speloncato est une sentinelle perchée à près de 600 mètres d’altitude. Ses maisons de pierre serrées les unes contre les autres dessinent un rempart face aux siècles et rappellent qu’une puissante fortification, gardienne des routes entre mer et montagne, se dressait autrefois ici.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251016_CorsicaSunshine%22&FORM=HPQUIZ",
+  "hash": "03a97c6b1e24f25e7cb8f5a3918bd747",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.CorsicaSunshine_FR-FR8649215960_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.CorsicaSunshine_FR-FR8649215960_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.CorsicaSunshine_FR-FR8649215960_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.CorsicaSunshine_FR-FR8649215960_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251016",
+    "endDate": "20251017",
+    "fullStartDateTime": "202510162200",
+    "originalTimeFields": {
+      "startDate": "20251016",
+      "fullStartDate": "202510162200",
+      "endDate": "20251017"
+    }
+  },
+  "createdAt": "202510160000",
+  "originalUrlBase": "/th?id=OHR.CorsicaSunshine_FR-FR8649215960"
+}

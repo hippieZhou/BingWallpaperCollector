@@ -1,0 +1,48 @@
+{
+  "date": "2025 年 10月 月 4 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日から世界宇宙週間",
+  "bsTitle": "今日から世界宇宙週間",
+  "caption": "今日から世界宇宙週間",
+  "copyright": "エンデバーから見た ISS のソーラーパネル (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=+ISS%e3%81%ae%e3%82%bd%e3%83%bc%e3%83%a9%e3%83%bc%e3%83%91%e3%83%8d%e3%83%ab&form=hpcapt&filters=HpDate%3a%2220251003_1500%22",
+  "description": "今日 10 月 4 日から 10 月 10 日までは世界宇宙週間です。1957 年の 10 月 4 日、世界初の人工衛星スプートニク 1 号が打ちあげられ、その 10 年後の 1967 年 10 月 10 日に、宇宙空間の平和的利用を定めた「宇宙条約」が発効したことを記念して、国連が制定しました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "f52362e83515a37779723183e6b2ed35",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510031500",
+    "originalTimeFields": {
+      "startDate": "20251003",
+      "fullStartDate": "202510031500",
+      "endDate": "20251004"
+    }
+  },
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_JA-JP7626531843"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "15 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Fongique mais fantastique !",
+  "bsTitle": "Fongique mais fantastique !",
+  "caption": "Le champignon Laccaria amethystina",
+  "copyright": "Champignon laccaria amethystina, Seabeck, Washington, États-Unis (© Danita Delimont/Shutterstock)",
+  "copyrightOnly": "© Danita Delimont/Shutterstock",
+  "copyrightLink": "/search?q=Laccaria+amethystina&form=hpcapt&filters=HpDate%3a%2220251014_2200%22",
+  "description": "À l’automne, la forêt se transforme en un théâtre d’ombres mystérieuses. Sous le craquement des feuilles aux tons chauds, un monde invisible prend vie : celui des champignons. Ni plante, ni animal, ils surgissent de la terre pour décomposer le bois mort, nourrir les arbres et tisser des liens invisibles sous nos pas.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251014_AmethystLaccaria%22&FORM=HPQUIZ",
+  "hash": "9ac92de7a5d81bfc2e81f3d05ec3d3d6",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_FR-FR2437866835_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_FR-FR2437866835_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_FR-FR2437866835_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_FR-FR2437866835_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251014",
+    "endDate": "20251015",
+    "fullStartDateTime": "202510142200",
+    "originalTimeFields": {
+      "startDate": "20251014",
+      "fullStartDate": "202510142200",
+      "endDate": "20251015"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.AmethystLaccaria_FR-FR2437866835"
+}

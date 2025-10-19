@@ -1,0 +1,48 @@
+{
+  "date": "19 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Une cueillette à croquer !",
+  "bsTitle": "Une cueillette à croquer !",
+  "caption": "La saison des pommes",
+  "copyright": "Pommes prêtes à être récoltées, Minnesota, États-Unis (© Tammi Mild/Getty Images)",
+  "copyrightOnly": "© Tammi Mild/Getty Images",
+  "copyrightLink": "/search?q=saison+des+pommes&form=hpcapt&filters=HpDate%3a%2220251018_2200%22",
+  "description": "Au Minnesota, aux États-Unis, l’automne est une fête des sens : les vergers ploient sous le poids des fruits et les branches offrent des grappes de Honeycrisp ou de Haralson, prêtes à être cueillies à la main. L’air vif embaume déjà de notes de cidre et de feuilles sèches tandis que les familles et les touristes se dispersent dans les allées à la recherche de la pomme parfaite, croquante et juteuse.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_AppleHarvest%22&FORM=HPQUIZ",
+  "hash": "ae1c9eb1db038a7836337ee233d90b32",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_FR-FR3383399730_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_FR-FR3383399730_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_FR-FR3383399730_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AppleHarvest_FR-FR3383399730_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251018",
+    "endDate": "20251019",
+    "fullStartDateTime": "202510182200",
+    "originalTimeFields": {
+      "startDate": "20251018",
+      "fullStartDate": "202510182200",
+      "endDate": "20251019"
+    }
+  },
+  "createdAt": "202510180000",
+  "originalUrlBase": "/th?id=OHR.AppleHarvest_FR-FR3383399730"
+}

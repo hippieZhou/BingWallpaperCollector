@@ -1,0 +1,48 @@
+{
+  "date": "Oct 05, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Missão: Possível",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Painéis solares da ISS vistos a partir da cápsula Crew Dragon Endeavour da SpaceX (© NASA)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Semana+Mundial+do+Espa%c3%a7o&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "03b12b85c8e651e0e4864c7c8e8aa496",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_PT-BR6949241146_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_PT-BR6949241146_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_PT-BR6949241146_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_PT-BR6949241146_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510040300",
+    "originalTimeFields": {
+      "startDate": "20251004",
+      "fullStartDate": "202510040300",
+      "endDate": "20251005"
+    }
+  },
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_PT-BR6949241146"
+}

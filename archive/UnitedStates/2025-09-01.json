@@ -1,0 +1,48 @@
+{
+  "date": "Sep 01, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Painted clouds, still cliffs",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Scotts Bluff National Monument in Gering, Nebraska (© Hawk Buckman/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Scotts+Bluff+National+Monument&form=hpcapt&filters=HpDate%3a%2220250831_0700%22",
+  "description": "Scotts Bluff National Monument in Gering, Nebraska",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
+  "hash": "ea1069b35f6d7afce4b6b388d5076389",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-US3893566724_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-US3893566724_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-US3893566724_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-US3893566724_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508310700",
+    "originalTimeFields": {
+      "startDate": "20250831",
+      "fullStartDate": "202508310700",
+      "endDate": "20250901"
+    }
+  },
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.ScottsBluff_EN-US3893566724"
+}

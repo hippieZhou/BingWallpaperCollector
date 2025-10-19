@@ -1,0 +1,48 @@
+{
+  "date": "Oct 14, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Dreams painted in blue and white",
+  "bsTitle": "Dreams painted in blue and white",
+  "caption": "Village of Oia in Santorini, Greece",
+  "copyright": "Village of Oia, Santorini, Greece (© f9photos/Getty Images)",
+  "copyrightOnly": "© f9photos/Getty Images",
+  "copyrightLink": "/search?q=Oia+Greece&form=hpcapt&filters=HpDate%3a%2220251014_0700%22",
+  "description": "Ever wondered what it's like to live on a movie set? Oia is about as close as it gets, part of Greece's Santorini archipelago. This village has appeared in films like 'The Sisterhood of the Traveling Pants' and 'Tomb Raider,' thanks to its Cycladic houses—cube-shaped homes with flat roofs—and cliffside views that feel almost unreal. Its unique architecture has roots in the late 19th century. Sailors and merchants carved houses right into the volcanic cliffs—cool in summer and warm in winter. The white-and-blue theme is also more than just for show: houses were painted with lime wash so rainwater would run off and be collected. Today, visitors wander its cobbled lanes, explore the Naval Maritime Museum, or climb to the ruins of Agios Nikolaos Castle for unforgettable sunsets.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251014_OiaSantorini%22&FORM=HPQUIZ",
+  "hash": "bec6ebdecf81b66ef0c33be1af706756",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_EN-US0585833457_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_EN-US0585833457_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_EN-US0585833457_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_EN-US0585833457_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251014",
+    "endDate": "20251015",
+    "fullStartDateTime": "202510140700",
+    "originalTimeFields": {
+      "startDate": "20251014",
+      "fullStartDate": "202510140700",
+      "endDate": "20251015"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.OiaSantorini_EN-US0585833457"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 24, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "El gigante solitario",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Monumento Nacional Devils Tower, Wyoming, EE. UU. (© Laura Hedien/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Monumento+Nacional+Devils+Tower&form=hpcapt&filters=HpDate%3a%2220250923_2200%22",
+  "description": "Monumento Nacional Devils Tower, Wyoming, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250923_BearLodge%22&FORM=HPQUIZ",
+  "hash": "77bfc50837bc2ce8371ea840567a94d6",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250923",
+    "endDate": "20250924",
+    "fullStartDateTime": "202509232200",
+    "originalTimeFields": {
+      "startDate": "20250923",
+      "fullStartDate": "202509232200",
+      "endDate": "20250924"
+    }
+  },
+  "createdAt": "202509240000",
+  "originalUrlBase": "/th?id=OHR.BearLodge_ES-ES0617575565"
+}

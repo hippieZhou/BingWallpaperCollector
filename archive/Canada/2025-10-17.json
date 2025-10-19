@@ -1,0 +1,48 @@
+{
+  "date": "Oct. 17, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Power Down. Look Up.",
+  "bsTitle": "Power Down. Look Up.",
+  "caption": "Jasper Dark Sky Festival",
+  "copyright": "Northern lights over Patricia Lake in Jasper National Park, Alberta (© Daniel Viñé Garcia/Getty Images)",
+  "copyrightOnly": "© Daniel Viñé Garcia/Getty Images",
+  "copyrightLink": "/search?q=Jasper+National+Park+Alberta&form=hpcapt&filters=HpDate%3a%2220251017_0400%22",
+  "description": "Ever tried counting stars and lost track halfway through? That's the kind of magic we chase in Jasper National Park, Alberta. When city lights fade, the night sky unfolds: constellations, distant galaxies and occasionally the dance of the northern lights above Patricia Lake, which draws gasps from even seasoned stargazers. Jasper Dark Sky Festival kicks off today and runs through 26 October, marking its 15th anniversary. Imagine being guided by astronomers using telescopes, watching a space-themed movie under the stars wrapped in a cosy blanket, hearing stories about nebulae and meteor showers, night hiking on Pyramid Beach or learning how to photograph the Milky Way.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251017_JasperFestival%22&FORM=HPQUIZ",
+  "hash": "e37d16bb054aaef2a8dc606331d1569e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.JasperFestival_EN-CA8017450155_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.JasperFestival_EN-CA8017450155_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.JasperFestival_EN-CA8017450155_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.JasperFestival_EN-CA8017450155_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251017",
+    "endDate": "20251018",
+    "fullStartDateTime": "202510170400",
+    "originalTimeFields": {
+      "startDate": "20251017",
+      "fullStartDate": "202510170400",
+      "endDate": "20251018"
+    }
+  },
+  "createdAt": "202510170000",
+  "originalUrlBase": "/th?id=OHR.JasperFestival_EN-CA8017450155"
+}

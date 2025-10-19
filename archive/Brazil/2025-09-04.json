@@ -1,0 +1,48 @@
+{
+  "date": "Sep 04, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Tranquilidade protegida",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Águas serenas da Boundary Waters Canoe Area Wilderness, Minnesota, EUA (© s.tomas/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Boundary+Waters+em+Minnesota+EUA&form=hpcapt&mkt=pt-br",
+  "description": "Águas serenas da Boundary Waters Canoe Area Wilderness, Minnesota, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_MinnesotaWaters%22&FORM=HPQUIZ",
+  "hash": "278e83342f4d50c71648b43905b8b2eb",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_PT-BR7389411612_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_PT-BR7389411612_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_PT-BR7389411612_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_PT-BR7389411612_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250903",
+    "endDate": "20250904",
+    "fullStartDateTime": "202509030300",
+    "originalTimeFields": {
+      "startDate": "20250903",
+      "fullStartDate": "202509030300",
+      "endDate": "20250904"
+    }
+  },
+  "createdAt": "202509040000",
+  "originalUrlBase": "/th?id=OHR.MinnesotaWaters_PT-BR7389411612"
+}

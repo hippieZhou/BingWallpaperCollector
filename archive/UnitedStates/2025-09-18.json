@@ -1,0 +1,48 @@
+{
+  "date": "Sep 18, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "A crown in the making",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Young bull moose in Denali National Park, Alaska (© Grant Ordelheide/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Alaska+moose&form=hpcapt&filters=HpDate%3a%2220250917_0700%22",
+  "description": "Young bull moose in Denali National Park, Alaska",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "45c0fee7cb5ca1125a2144d64844f516",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_EN-US2991221135_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_EN-US2991221135_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_EN-US2991221135_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_EN-US2991221135_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250917",
+    "endDate": "20250918",
+    "fullStartDateTime": "202509170700",
+    "originalTimeFields": {
+      "startDate": "20250917",
+      "fullStartDate": "202509170700",
+      "endDate": "20250918"
+    }
+  },
+  "createdAt": "202509180000",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_EN-US2991221135"
+}

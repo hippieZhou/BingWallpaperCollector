@@ -1,0 +1,48 @@
+{
+  "date": "Sep 22, 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Zwischen Sommer und Winter",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Espenbäume im Herbst, Fishlake National Forest, Utah, USA (© Danita Delimont/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%C3%84quinoktium&form=hpcapt&filters=HpDate%3a%2220250921_2200%22",
+  "description": "Espenbäume im Herbst, Fishlake National Forest, Utah, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_AspenEquinox%22&FORM=HPQUIZ",
+  "hash": "5617cf93af3f5930c0d755060ccfacce",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250921",
+    "endDate": "20250922",
+    "fullStartDateTime": "202509212200",
+    "originalTimeFields": {
+      "startDate": "20250921",
+      "fullStartDate": "202509212200",
+      "endDate": "20250922"
+    }
+  },
+  "createdAt": "202509220000",
+  "originalUrlBase": "/th?id=OHR.AspenEquinox_DE-DE0417309231"
+}

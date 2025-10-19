@@ -1,0 +1,169 @@
+name: Collect Bing Wallpapers
+
+on:
+  schedule:
+    # 针对亚洲地区 - UTC 22:00 (北京时间次日06:00)
+    - cron: "0 22 * * *"
+    # 针对欧洲地区 - UTC 06:00 (中欧时间07:00/08:00)
+    - cron: "0 6 * * *"
+    # 针对美洲地区 - UTC 14:00 (美东时间09:00/10:00)
+    - cron: "0 14 * * *"
+  workflow_dispatch: # 支持手动触发
+    inputs:
+      collect_days:
+        description: "收集天数 (1-8)"
+        required: false
+        default: "1"
+      resolution_code:
+        description: "API 请求分辨率"
+        required: false
+        default: "FullHD"
+        type: choice
+        options:
+          - Standard
+          - FullHD
+          - HD
+          - UHD4K
+      collect_all_countries:
+        description: "是否收集所有国家"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  collect-wallpapers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 .NET 9.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: 恢复依赖包
+        run: dotnet restore src/BingWallpaperGallery.Collector/BingWallpaperGallery.Collector.csproj
+
+      - name: 构建项目
+        run: dotnet build src/BingWallpaperGallery.Collector/BingWallpaperGallery.Collector.csproj --configuration Release --no-restore
+
+      - name: 配置收集参数
+        run: |
+          # 设置参数（手动触发时使用输入参数，定时任务使用默认值）
+          COLLECT_DAYS="${{ github.event.inputs.collect_days || '1' }}"
+          RESOLUTION_CODE="${{ github.event.inputs.resolution_code || 'FullHD' }}"
+          COLLECT_ALL="${{ github.event.inputs.collect_all_countries || 'true' }}"
+
+          echo "收集配置:"
+          echo "  - 收集天数: $COLLECT_DAYS"
+          echo "  - 分辨率: $RESOLUTION_CODE"
+          echo "  - 收集所有国家: $COLLECT_ALL"
+
+          # 使用 jq 修改 appsettings.json
+          jq --arg days "$COLLECT_DAYS" \
+             --arg resolution "$RESOLUTION_CODE" \
+             --argjson collectAll "$COLLECT_ALL" \
+             '.CollectionOptions.CollectDays = ($days | tonumber) |
+              .CollectionOptions.ResolutionCode = $resolution |
+              .CollectionOptions.CollectAllCountries = $collectAll |
+              .CollectionOptions.MaxConcurrentRequests = 3 |
+              .CollectionOptions.PrettyJsonFormat = true' \
+             src/BingWallpaperGallery.Collector/appsettings.json > temp.json && \
+             mv temp.json src/BingWallpaperGallery.Collector/appsettings.json
+
+          echo ""
+          echo "当前配置文件内容:"
+          cat src/BingWallpaperGallery.Collector/appsettings.json
+
+      - name: 收集全球壁纸信息
+        run: dotnet run --project src/BingWallpaperGallery.Collector/BingWallpaperGallery.Collector.csproj --configuration Release
+
+      - name: 配置 Git 用户信息
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: 检查是否有新的数据
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "发现新的壁纸数据"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "没有新的壁纸数据"
+          fi
+
+      - name: 提交并推送新数据
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          # 添加所有新文件
+          git add archive/
+
+          # 获取当前日期
+          DATE=$(date +'%Y-%m-%d')
+          TIME=$(date +'%H:%M UTC')
+
+          # 统计新增的文件数量
+          NEW_FILES=$(git diff --cached --name-only | wc -l)
+
+          # 创建详细的提交信息
+          git commit -m "🌅 自动收集 ${DATE} 的 Bing 壁纸信息" \
+                    -m "📊 更新了 ${NEW_FILES} 个文件" \
+                    -m "⏰ 收集时间: ${TIME}" \
+                    -m "🤖 由 GitHub Actions 自动执行"
+
+          # 推送到仓库
+          git push
+
+      - name: 生成摘要报告
+        if: always()
+        run: |
+          echo "## 📊 Bing壁纸收集摘要" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**执行时间:** $(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "**收集天数:** ${{ github.event.inputs.collect_days || '1' }} 天" >> $GITHUB_STEP_SUMMARY
+          echo "**分辨率:** ${{ github.event.inputs.resolution_code || 'FullHD' }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            echo "✅ **状态:** 成功收集到新的壁纸信息" >> $GITHUB_STEP_SUMMARY
+
+            # 统计各国家的数据文件
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "## 📈 数据统计" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "| 国家/地区 | JSON文件数 |" >> $GITHUB_STEP_SUMMARY
+            echo "|----------|-----------|" >> $GITHUB_STEP_SUMMARY
+
+            for country_dir in archive/*/; do
+              if [ -d "$country_dir" ]; then
+                country=$(basename "$country_dir")
+                file_count=$(find "$country_dir" -name "*.json" | wc -l)
+                echo "| $country | $file_count |" >> $GITHUB_STEP_SUMMARY
+              fi
+            done
+
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**总文件数:** $(find archive -name "*.json" | wc -l)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ **状态:** 没有发现新的壁纸信息" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "可能原因：" >> $GITHUB_STEP_SUMMARY
+            echo "- 今日壁纸已经收集过" >> $GITHUB_STEP_SUMMARY
+            echo "- 必应 API 暂无更新" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "*⏰ 定时执行时间: 每天 UTC 22:00 (亚洲) / 06:00 (欧洲) / 14:00 (美洲)*" >> $GITHUB_STEP_SUMMARY
+          echo "*💡 支持手动触发，可自定义收集参数*" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 20, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Salute",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Giostra all'Oktoberfest, Monaco di Baviera, Germania (© LOOK-foto/Alamy)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Oktoberfest&form=hpcapt",
+  "description": "Giostra all'Oktoberfest, Monaco di Baviera, Germania",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250919_OktoberfestSwing%22&FORM=HPQUIZ",
+  "hash": "1868560f97a991d8510c6074326c6561",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_IT-IT3600717607_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_IT-IT3600717607_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_IT-IT3600717607_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_IT-IT3600717607_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250919",
+    "endDate": "20250920",
+    "fullStartDateTime": "202509192200",
+    "originalTimeFields": {
+      "startDate": "20250919",
+      "fullStartDate": "202509192200",
+      "endDate": "20250920"
+    }
+  },
+  "createdAt": "202509200000",
+  "originalUrlBase": "/th?id=OHR.OktoberfestSwing_IT-IT3600717607"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Oct 10, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "bsTitle": "Info",
+  "caption": "Coral reef surrounding the island of Monuriki, Mamanuca Islands, Fiji",
+  "copyright": "Coral reef surrounding the island of Monuriki, Mamanuca Islands, Fiji (© David Wall/SuperStock)",
+  "copyrightOnly": "© David Wall/SuperStock",
+  "copyrightLink": "/search?q=Monuriki&form=hpcapt&filters=HpDate%3a%2220251010_0700%22",
+  "description": "Today's image features one of Fiji's true gems, the island of Monuriki. Known worldwide as the filming site of 'Cast Away,' it is uninhabited—but far from lifeless. Tucked within the Mamanuca group, this small volcanic islet stretches over a kilometre in length and 600 metres across, surrounded by turquoise waters and vibrant coral reefs. The reefs act as a natural fortress, protecting the island from storms while sheltering countless species of fish. They are a fitting metaphor: strong, diverse and deeply connected to the well-being of the nation. Beyond its waters, Monuriki is also home to the endangered Fiji crested iguana, one of the few places where this rare reptile can still be found. Together, the island's vibrant reef and unique wildlife make it a true natural treasure of Fiji.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251010_MonurikiFiji%22&FORM=HPQUIZ",
+  "hash": "6123baa6eaf740a834c41106366622cc",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_ROW9654134811_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_ROW9654134811_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_ROW9654134811_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MonurikiFiji_ROW9654134811_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251010",
+    "endDate": "20251011",
+    "fullStartDateTime": "202510100700",
+    "originalTimeFields": {
+      "startDate": "20251010",
+      "fullStartDate": "202510100700",
+      "endDate": "20251011"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.MonurikiFiji_ROW9654134811"
+}

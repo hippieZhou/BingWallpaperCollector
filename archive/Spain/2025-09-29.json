@@ -1,0 +1,48 @@
+{
+  "date": "29 de sept. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Paseos coloridos",
+  "bsTitle": "Paseos coloridos",
+  "caption": "Casas arcoíris, Houten, Países Bajos",
+  "copyright": "Casas arcoíris en la ciudad de Houten, Países Bajos (© George Pachantouris/Getty Images)",
+  "copyrightOnly": "© George Pachantouris/Getty Images",
+  "copyrightLink": "/search?q=Houten+Pa%c3%adses+Bajos&form=hpcapt&filters=HpDate%3a%2220250928_2200%22",
+  "description": "No encontrará tiendas de recuerdos ni mapas turísticos que indiquen el camino, pero si sigue la orilla del lago Rietplas en Houten, descubrirá uno de los rincones más fotogénicos de los Países Bajos. Mientras muchos turistas acuden en masa a los canales de Ámsterdam o a las casas cubo de Róterdam, esta tranquila ciudad cercana ofrece su propio toque arquitectónico.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_HoutenHouses%22&FORM=HPQUIZ",
+  "hash": "e66508c175a2ea3d928aa209fe8e3c0b",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_ES-ES0772668707_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_ES-ES0772668707_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_ES-ES0772668707_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_ES-ES0772668707_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250928",
+    "endDate": "20250929",
+    "fullStartDateTime": "202509282200",
+    "originalTimeFields": {
+      "startDate": "20250928",
+      "fullStartDate": "202509282200",
+      "endDate": "20250929"
+    }
+  },
+  "createdAt": "202509290000",
+  "originalUrlBase": "/th?id=OHR.HoutenHouses_ES-ES0772668707"
+}

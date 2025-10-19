@@ -1,0 +1,48 @@
+{
+  "date": "5 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Un hommage aux alchimistes du savoir",
+  "bsTitle": "Un hommage aux alchimistes du savoir",
+  "caption": "Journée mondiale des enseignants",
+  "copyright": "Chouette boréale dans une forêt d’Europe centrale (© Ondrej Prosicky/Alamy)",
+  "copyrightOnly": "© Ondrej Prosicky/Alamy",
+  "copyrightLink": "/search?q=Journ%c3%a9e+mondiale+des+enseignants&form=hpcapt&filters=HpDate%3a%2220251004_2200%22",
+  "description": "Dans les sous-bois silencieux d’Europe centrale, une chouette boréale observe l’horizon d’un regard perçant. Son plumage moucheté se fond dans les feuillages d’automne, à l'image d'une pensée sage nichée au cœur de la nature. Elle incarne l’intelligence discrète, celle qui veille et éclaire sans bruit.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "11b2d88e9599248ca12037db3146f92b",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_FR-FR0719163215_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_FR-FR0719163215_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_FR-FR0719163215_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_FR-FR0719163215_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510042200",
+    "originalTimeFields": {
+      "startDate": "20251004",
+      "fullStartDate": "202510042200",
+      "endDate": "20251005"
+    }
+  },
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_FR-FR0719163215"
+}

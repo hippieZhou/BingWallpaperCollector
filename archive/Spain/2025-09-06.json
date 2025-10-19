@@ -1,0 +1,48 @@
+{
+  "date": "Sep 06, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "¡Intenta ver su aleteo!",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Colibrí rufo, Golden Gate Park, San Francisco, California, EE. UU. (© jeremyborkat/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Colibr%C3%AD+rufo&form=hpcapt&filters=HpDate%3a%2220250905_2200%22",
+  "description": "Colibrí rufo, Golden Gate Park, San Francisco, California, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_RufousHummer%22&FORM=HPQUIZ",
+  "hash": "d1fd85b2ffd4b714727dd0ad114ad6fb",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ES-ES7667920526_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ES-ES7667920526_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ES-ES7667920526_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ES-ES7667920526_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509052200",
+    "originalTimeFields": {
+      "startDate": "20250905",
+      "fullStartDate": "202509052200",
+      "endDate": "20250906"
+    }
+  },
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.RufousHummer_ES-ES7667920526"
+}

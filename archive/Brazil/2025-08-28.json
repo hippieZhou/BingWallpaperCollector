@@ -1,0 +1,48 @@
+{
+  "date": "Aug 28, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Resistência é o novo branco",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Garça-branca-grande, Hungria (© Markus Varesvuo/Nature Picture Library)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Gar%C3%A7a-branca-grande&form=hpcapt&mkt=pt-br",
+  "description": "Garça-branca-grande, Hungria",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "cffa01e8b894e0f9e9394daa9e4b837e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_PT-BR8998981600_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508280300",
+    "originalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508280300",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "202508280000",
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_PT-BR8998981600"
+}

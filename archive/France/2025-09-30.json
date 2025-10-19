@@ -1,0 +1,48 @@
+{
+  "date": "30 sept. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "L’art du Koa-laisser-aller",
+  "bsTitle": "L’art du Koa-laisser-aller",
+  "caption": "Koala, parc national de Great Otway, Australie",
+  "copyright": "Koala dans un eucalyptus, parc national de Great Otway, Australie (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
+  "copyrightLink": "/search?q=koala&form=hpcapt&filters=HpDate%3a%2220250929_2200%22",
+  "description": "Dans la canopée parfumée des eucalyptus du parc national de Great Otway, en Australie, un koala veille. Ses oreilles rondes et son museau velouté émergent des feuillages argentés, tandis que son corps trapu épouse la branche comme s’il faisait corps avec l’arbre.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_EucalyptusKoala%22&FORM=HPQUIZ",
+  "hash": "610eef378e95099985343f0d1bbfc94a",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250929",
+    "endDate": "20250930",
+    "fullStartDateTime": "202509292200",
+    "originalTimeFields": {
+      "startDate": "20250929",
+      "fullStartDate": "202509292200",
+      "endDate": "20250930"
+    }
+  },
+  "createdAt": "202509300000",
+  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_FR-FR2271596623"
+}

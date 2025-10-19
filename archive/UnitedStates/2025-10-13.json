@@ -1,0 +1,48 @@
+{
+  "date": "Oct 13, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Flames of the past",
+  "bsTitle": "Flames of the past",
+  "caption": "Cedar Mesa, Utah, for Indigenous Peoples' Day",
+  "copyright": "House on Fire Ruin in Mule Canyon, Cedar Mesa, Utah (© Pete Lomchid/Getty Images)",
+  "copyrightOnly": "© Pete Lomchid/Getty Images",
+  "copyrightLink": "/search?q=Indigenous+Peoples%27+Day&form=hpcapt&filters=HpDate%3a%2220251013_0700%22",
+  "description": "Canyons and mesas across the US hold more than striking scenery—they carry centuries of Indigenous history. Indigenous Peoples' Day, celebrated nationally on the second Monday of October, honors that history. The holiday began gaining ground in 1992, when Berkeley, California, became the first city to replace Columbus Day with a celebration of Native cultures. It recognizes Native nations as the earliest protectors of the land and acknowledges their ongoing cultural contributions.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251013_MuleCanyon%22&FORM=HPQUIZ",
+  "hash": "838f7e517b6cae15ec26069bcf1678b4",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MuleCanyon_EN-US0527899523_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MuleCanyon_EN-US0527899523_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MuleCanyon_EN-US0527899523_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MuleCanyon_EN-US0527899523_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251013",
+    "endDate": "20251014",
+    "fullStartDateTime": "202510130700",
+    "originalTimeFields": {
+      "startDate": "20251013",
+      "fullStartDate": "202510130700",
+      "endDate": "20251014"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.MuleCanyon_EN-US0527899523"
+}

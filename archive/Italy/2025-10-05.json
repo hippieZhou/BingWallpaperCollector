@@ -1,0 +1,48 @@
+{
+  "date": "Oct 05, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Festeggiamo la saggezza",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Civetta capogrosso in una foresta dell'Europa centrale (© Ondrej Prosicky/Alamy)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Giornata+Mondiale+degli+Insegnanti&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "00027e6322028c5fbe42044d3828e154",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_IT-IT7269776472_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_IT-IT7269776472_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_IT-IT7269776472_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_IT-IT7269776472_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510042200",
+    "originalTimeFields": {
+      "startDate": "20251004",
+      "fullStartDate": "202510042200",
+      "endDate": "20251005"
+    }
+  },
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_IT-IT7269776472"
+}

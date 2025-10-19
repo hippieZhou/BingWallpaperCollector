@@ -1,0 +1,48 @@
+{
+  "date": "Sep 13, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Respiro Pacifico",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Chimney Rock, Point Reyes National Seashore, California, USA (© Enrique Aguirre Aves/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=california+stato&form=hpcapt",
+  "description": "Chimney Rock, Point Reyes National Seashore, California, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
+  "hash": "8014f5c590745d5ee13af2e4e35ff5c6",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_IT-IT5474043109_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_IT-IT5474043109_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_IT-IT5474043109_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_IT-IT5474043109_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250912",
+    "endDate": "20250913",
+    "fullStartDateTime": "202509122200",
+    "originalTimeFields": {
+      "startDate": "20250912",
+      "fullStartDate": "202509122200",
+      "endDate": "20250913"
+    }
+  },
+  "createdAt": "202509130000",
+  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_IT-IT5474043109"
+}

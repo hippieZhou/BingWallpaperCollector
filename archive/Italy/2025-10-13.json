@@ -1,0 +1,48 @@
+{
+  "date": "Oct 13, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Sogni Biancoblu",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Villaggio di Oia, Santorini, Grecia (© f9photos/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Santorini+isola+meridionale+delle+Cicladi&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251013_OiaSantorini%22&FORM=HPQUIZ",
+  "hash": "7c75c5ca6d460d5eda10904fdd0742ff",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_IT-IT9704470316_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_IT-IT9704470316_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_IT-IT9704470316_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_IT-IT9704470316_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251013",
+    "endDate": "20251014",
+    "fullStartDateTime": "202510132200",
+    "originalTimeFields": {
+      "startDate": "20251013",
+      "fullStartDate": "202510132200",
+      "endDate": "20251014"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.OiaSantorini_IT-IT9704470316"
+}

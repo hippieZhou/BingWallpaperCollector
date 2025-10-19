@@ -1,0 +1,48 @@
+{
+  "date": "Sep 16, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Un successo stratosferico",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vista notturna degli Stati della costa del Golfo dallo Spazio (© Stocktrek Images/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Giornata+internazionale+per+la+preservazione+dello+strato+di+ozono&form=hpcapt",
+  "description": "Vista notturna degli Stati della costa del Golfo dallo Spazio",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "c4bc60daaea01058774710b68b3f029c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_IT-IT9452054464_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_IT-IT9452054464_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_IT-IT9452054464_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_IT-IT9452054464_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250915",
+    "endDate": "20250916",
+    "fullStartDateTime": "202509152200",
+    "originalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509152200",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "202509160000",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_IT-IT9452054464"
+}

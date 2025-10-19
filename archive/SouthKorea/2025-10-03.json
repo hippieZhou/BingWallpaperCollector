@@ -1,0 +1,48 @@
+{
+  "date": "Oct 03, 2025",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming, United States (© DanitaDelimont.com/AWL Images/SuperStock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Grand+Teton+National+Park&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
+  "hash": "6420b998ebc499971ea744a13a1169fe",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510020700",
+    "originalTimeFields": {
+      "startDate": "20251002",
+      "fullStartDate": "202510020700",
+      "endDate": "20251003"
+    }
+  },
+  "createdAt": "202510030000",
+  "originalUrlBase": "/th?id=OHR.OxbowBend_ROW5989192939"
+}

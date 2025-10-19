@@ -1,0 +1,48 @@
+{
+  "date": "Sep 08, 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "L’alphabétisation : un droit, un avenir",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Bibliothèque library@orchard, Singapour (© Darwin Fan/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Journ%C3%A9e+internationale+de+l%27alphab%C3%A9tisation&form=hpcapt&filters=HpDate%3a%2220250907_2200%22",
+  "description": "Bibliothèque library@orchard, Singapour",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "a65b3f04828b5b53c00a4eab4595012b",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250907",
+    "endDate": "20250908",
+    "fullStartDateTime": "202509072200",
+    "originalTimeFields": {
+      "startDate": "20250907",
+      "fullStartDate": "202509072200",
+      "endDate": "20250908"
+    }
+  },
+  "createdAt": "202509080000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_FR-FR3660186396"
+}

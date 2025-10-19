@@ -1,0 +1,48 @@
+{
+  "date": "Oct 14, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Das cinzas às câmeras",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vilarejo de Oia, Santorini, Grécia (© f9photos/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Oia+na+Gr%c3%a9cia&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251014_OiaSantorini%22&FORM=HPQUIZ",
+  "hash": "e1b35e6e346c121f7de58c135016fb78",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_PT-BR4517893806_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_PT-BR4517893806_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_PT-BR4517893806_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OiaSantorini_PT-BR4517893806_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251014",
+    "endDate": "20251015",
+    "fullStartDateTime": "202510140300",
+    "originalTimeFields": {
+      "startDate": "20251014",
+      "fullStartDate": "202510140300",
+      "endDate": "20251015"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.OiaSantorini_PT-BR4517893806"
+}

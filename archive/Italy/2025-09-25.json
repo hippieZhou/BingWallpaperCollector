@@ -1,0 +1,48 @@
+{
+  "date": "Sep 25, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Occhiello sul passato?",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Forte di Chittor, Rajasthan, India (© chetansoni/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Forte+di+Chittor+Rajasthan+India&form=hpcapt",
+  "description": "Forte di Chittor, Rajasthan, India",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_FortChittorgarh%22&FORM=HPQUIZ",
+  "hash": "5d6e497f47c8befc42830fa44077eecd",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250924",
+    "endDate": "20250925",
+    "fullStartDateTime": "202509242200",
+    "originalTimeFields": {
+      "startDate": "20250924",
+      "fullStartDate": "202509242200",
+      "endDate": "20250925"
+    }
+  },
+  "createdAt": "202509250000",
+  "originalUrlBase": "/th?id=OHR.FortChittorgarh_IT-IT3892899630"
+}

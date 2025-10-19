@@ -1,0 +1,48 @@
+{
+  "date": "3 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "L’Écosse et ses landes mystérieuses…",
+  "bsTitle": "L’Écosse et ses landes mystérieuses…",
+  "caption": "Glen Brittle, île de Skye, Écosse",
+  "copyright": "Bruyère à Glen Brittle, île de Skye, Écosse (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=%c3%aele+de+Skye+%c3%89cosse&form=hpcapt&filters=HpDate%3a%2220251002_2200%22",
+  "description": "Dans le voile mouvant de l’île de Skye en Écosse, Glen Brittle déroule ses bruyères pourpres, ses torrents clairs et ses brumes où flottent mille légendes. Ici, les pierres portent les empreintes de dinosaures, les eaux gardent en mémoire les chasseurs mésolithiques d’il y a 8 000 ans, et les échos des clans MacLeod et MacDonald se glissent encore dans les vallées.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "47065e63243021bb56b979b403d89db6",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_FR-FR0643714401_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_FR-FR0643714401_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_FR-FR0643714401_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_FR-FR0643714401_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510022200",
+    "originalTimeFields": {
+      "startDate": "20251002",
+      "fullStartDate": "202510022200",
+      "endDate": "20251003"
+    }
+  },
+  "createdAt": "202510030000",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_FR-FR0643714401"
+}

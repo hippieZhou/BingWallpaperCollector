@@ -1,0 +1,48 @@
+{
+  "date": "Sep 07, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "One step at a Tyne",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "The Glasshouse International Centre for Music, Gateshead, England (© ChrisHepburn/iStock/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Great+North+Run&form=hpcapt&filters=HpDate%3a%2220250906_2300%22",
+  "description": "The Glasshouse International Centre for Music, Gateshead, England",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_GreatNorthRun2025%22&FORM=HPQUIZ",
+  "hash": "45cdae814566d451eca5117d291b2236",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.GreatNorthRun2025_EN-GB8681982473_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.GreatNorthRun2025_EN-GB8681982473_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.GreatNorthRun2025_EN-GB8681982473_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.GreatNorthRun2025_EN-GB8681982473_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250906",
+    "endDate": "20250907",
+    "fullStartDateTime": "202509062300",
+    "originalTimeFields": {
+      "startDate": "20250906",
+      "fullStartDate": "202509062300",
+      "endDate": "20250907"
+    }
+  },
+  "createdAt": "202509070000",
+  "originalUrlBase": "/th?id=OHR.GreatNorthRun2025_EN-GB8681982473"
+}

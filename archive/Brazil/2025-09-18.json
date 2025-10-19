@@ -1,0 +1,48 @@
+{
+  "date": "Sep 18, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Surf, história e pôr do sol",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Praia do Arpoador, Rio de Janeiro (© marchello74/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Arpoador&form=hpcapt&mkt=pt-br",
+  "description": "Praia do Arpoador, Rio de Janeiro",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_ArpoadorRJ%22&FORM=HPQUIZ",
+  "hash": "8e509960ca0012aad15938d4e29c517e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250917",
+    "endDate": "20250918",
+    "fullStartDateTime": "202509170300",
+    "originalTimeFields": {
+      "startDate": "20250917",
+      "fullStartDate": "202509170300",
+      "endDate": "20250918"
+    }
+  },
+  "createdAt": "202509180000",
+  "originalUrlBase": "/th?id=OHR.ArpoadorRJ_PT-BR5341950627"
+}

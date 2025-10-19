@@ -1,0 +1,48 @@
+{
+  "date": "5 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "El pilar más importante",
+  "bsTitle": "El pilar más importante",
+  "caption": "Fiestas del Pilar",
+  "copyright": "Catedral basílica de Nuestra Señora del Pilar, Zaragoza, España (© Botond Horvath/Shutterstock)",
+  "copyrightOnly": "© Botond Horvath/Shutterstock",
+  "copyrightLink": "/search?q=Zaragoza&form=hpcapt&filters=HpDate%3a%2220251004_2200%22",
+  "description": "En Zaragoza, cada octubre comienza una de las celebraciones más esperadas: las Fiestas del Pilar. Durante varios días, la ciudad se llena de música, luces, danzas y alegría. El punto central es la Basílica de Nuestra Señora del Pilar, cuyo imponente tejado y torres se han convertido en símbolo de la capital aragonesa.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_ElPilarZaragoza%22&FORM=HPQUIZ",
+  "hash": "33ef0326c60d5b41b3c54aaaadefe670",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ElPilarZaragoza_ES-ES2251401044_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ElPilarZaragoza_ES-ES2251401044_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ElPilarZaragoza_ES-ES2251401044_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ElPilarZaragoza_ES-ES2251401044_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510042200",
+    "originalTimeFields": {
+      "startDate": "20251004",
+      "fullStartDate": "202510042200",
+      "endDate": "20251005"
+    }
+  },
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.ElPilarZaragoza_ES-ES2251401044"
+}

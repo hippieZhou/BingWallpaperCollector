@@ -1,0 +1,48 @@
+{
+  "date": "Oct 8, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Universo in Fiore",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "I Pilastri della Creazione visti dal telescopio spaziale James Webb (© NASA)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Pilastri+della+Creazione&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_WebbPillars%22&FORM=HPQUIZ",
+  "hash": "d53abd3d3f8d640824fcec6155a748e4",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_IT-IT0673029544_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_IT-IT0673029544_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_IT-IT0673029544_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_IT-IT0673029544_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251008",
+    "endDate": "20251009",
+    "fullStartDateTime": "202510082200",
+    "originalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510082200",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.WebbPillars_IT-IT0673029544"
+}

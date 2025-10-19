@@ -1,0 +1,48 @@
+{
+  "date": "Sep 07, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Rivol-Unione",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Castel dell’Ovo, Baia di Napoli, Napoli, Campania (© florin1961/iStock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Ingresso+di+Garibaldi+a+Napoli&form=hpcapt",
+  "description": "Castel dell’Ovo, Baia di Napoli, Napoli, Campania",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_GaribaldiNapoli%22&FORM=HPQUIZ",
+  "hash": "4adc183ad3fbc533ac73870f4a6ed504",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.GaribaldiNapoli_IT-IT9017622092_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.GaribaldiNapoli_IT-IT9017622092_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.GaribaldiNapoli_IT-IT9017622092_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.GaribaldiNapoli_IT-IT9017622092_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250906",
+    "endDate": "20250907",
+    "fullStartDateTime": "202509062200",
+    "originalTimeFields": {
+      "startDate": "20250906",
+      "fullStartDate": "202509062200",
+      "endDate": "20250907"
+    }
+  },
+  "createdAt": "202509070000",
+  "originalUrlBase": "/th?id=OHR.GaribaldiNapoli_IT-IT9017622092"
+}

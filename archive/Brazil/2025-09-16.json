@@ -1,0 +1,48 @@
+{
+  "date": "Sep 16, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Termômetros alados",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Dupla de aves pernilongo na França (© Antonio Sementa/500px/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=ave+pernilongo&form=hpcapt&mkt=pt-br",
+  "description": "Dupla de aves pernilongo na França",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_Echasse%22&FORM=HPQUIZ",
+  "hash": "da500e4f9a3efcf3adcd627a80529fcf",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250915",
+    "endDate": "20250916",
+    "fullStartDateTime": "202509150300",
+    "originalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509150300",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "202509160000",
+  "originalUrlBase": "/th?id=OHR.Echasse_PT-BR5689846497"
+}

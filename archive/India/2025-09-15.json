@@ -1,0 +1,48 @@
+{
+  "date": "Sep 15, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Wading for a sign",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Black-winged stilts, France (© Antonio Sementa/500px/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Black-winged+stilt&form=hpcapt&filters=HpDate%3a%2220250914_1830%22",
+  "description": "Black-winged stilts, France",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_Echasse%22&FORM=HPQUIZ",
+  "hash": "944e2ae4d3ad73e7a91a0c6ceea66ea9",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509141830",
+    "originalTimeFields": {
+      "startDate": "20250914",
+      "fullStartDate": "202509141830",
+      "endDate": "20250915"
+    }
+  },
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.Echasse_EN-IN1542383073"
+}

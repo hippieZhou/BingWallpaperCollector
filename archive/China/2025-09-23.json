@@ -1,0 +1,48 @@
+{
+  "date": "Sep 23, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "树树皆秋色",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "航拍中国江苏省常州翠竹公园 (© Xu Changyu/Getty images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E7%A7%8B%E5%88%86&form=hpcapt&mkt=zh-cn",
+  "description": "航拍中国江苏省常州翠竹公园",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250922_AutumnalEquinoxY25%22&FORM=HPQUIZ",
+  "hash": "414618577ac45d408003fa84bf89c1c4",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AutumnalEquinoxY25_ZH-CN5692548297_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnalEquinoxY25_ZH-CN5692548297_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnalEquinoxY25_ZH-CN5692548297_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AutumnalEquinoxY25_ZH-CN5692548297_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250922",
+    "endDate": "20250923",
+    "fullStartDateTime": "202509221600",
+    "originalTimeFields": {
+      "startDate": "20250922",
+      "fullStartDate": "202509221600",
+      "endDate": "20250923"
+    }
+  },
+  "createdAt": "202509230000",
+  "originalUrlBase": "/th?id=OHR.AutumnalEquinoxY25_ZH-CN5692548297"
+}

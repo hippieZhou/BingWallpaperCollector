@@ -1,0 +1,48 @@
+{
+  "date": "15 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Los sabrosos del bosque",
+  "bsTitle": "Los sabrosos del bosque",
+  "caption": "Hongos laccaria de amatista, Seabeck, Washington, EE. UU.",
+  "copyright": "Hongos laccaria de amatista, Seabeck, Washington, EE. UU. (© Danita Delimont/Shutterstock)",
+  "copyrightOnly": "© Danita Delimont/Shutterstock",
+  "copyrightLink": "/search?q=Hongos+laccaria+de+amatista&form=hpcapt&filters=HpDate%3a%2220251014_2200%22",
+  "description": "¿Sabías que estamos en temporada de hongos? Uno de los más llamativos es la laccaria de amatista, también llamada “engaño de amatista”. Su color púrpura brillante deslumbra cuando es joven, pero se desvanece con la edad y la intemperie, lo que hace que sea difícil de identificar. A pesar de su apariencia delicada, este hongo es comestible y cumple un papel esencial en el ecosistema.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251014_AmethystLaccaria%22&FORM=HPQUIZ",
+  "hash": "6be74a2bcc1120e08f59bdff1c41f916",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ES-ES1228402064_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ES-ES1228402064_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ES-ES1228402064_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AmethystLaccaria_ES-ES1228402064_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251014",
+    "endDate": "20251015",
+    "fullStartDateTime": "202510142200",
+    "originalTimeFields": {
+      "startDate": "20251014",
+      "fullStartDate": "202510142200",
+      "endDate": "20251015"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.AmethystLaccaria_ES-ES1228402064"
+}

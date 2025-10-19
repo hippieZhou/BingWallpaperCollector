@@ -1,0 +1,48 @@
+{
+  "date": "Oct 9, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Universe in bloom",
+  "bsTitle": "Universe in bloom",
+  "caption": "Space Week isn't over yet!",
+  "copyright": "The Pillars of Creation viewed by the James Webb Space Telescope (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=Pillars+of+Creation&form=hpcapt&filters=HpDate%3a%2220251008_1830%22",
+  "description": "As World Space Week draws to a close, the cosmos continues to give us reasons to look up in awe. Picture clouds—not drifting across our skies, but stretching across space itself, cradling the birth of new stars. That's exactly what NASA's James Webb Space Telescope has revealed in its view of the Pillars of Creation—shown here—with colours and details unlike anything seen before.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_WebbPillars%22&FORM=HPQUIZ",
+  "hash": "7ad722e01969d37ead5dbf5531391091",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-IN0244722774_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-IN0244722774_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-IN0244722774_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_EN-IN0244722774_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251008",
+    "endDate": "20251009",
+    "fullStartDateTime": "202510081830",
+    "originalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510081830",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.WebbPillars_EN-IN0244722774"
+}

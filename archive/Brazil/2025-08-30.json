@@ -1,0 +1,48 @@
+{
+  "date": "Aug 30, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "O coração de Madrid",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vista aérea da Plaza Mayor, Madrid, Espanha (© AirPano  LLC/Amazing Aerial Agency)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=a+Plaza+Mayor+em+Madrid&form=hpcapt&mkt=pt-br",
+  "description": "Vista aérea da Plaza Mayor, Madrid, Espanha",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250829_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "4538986e9c1689927b9136eacec51e88",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_PT-BR7717335564_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_PT-BR7717335564_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_PT-BR7717335564_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_PT-BR7717335564_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250829",
+    "endDate": "20250830",
+    "fullStartDateTime": "202508290300",
+    "originalTimeFields": {
+      "startDate": "20250829",
+      "fullStartDate": "202508290300",
+      "endDate": "20250830"
+    }
+  },
+  "createdAt": "202508300000",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_PT-BR7717335564"
+}

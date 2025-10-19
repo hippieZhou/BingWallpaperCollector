@@ -1,0 +1,48 @@
+{
+  "date": "Sep 12, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "In unity and remembrance",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Statue of Liberty and Lower Manhattan, New York City (© Tetra Images/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Patriot+Day&form=hpcapt&filters=HpDate%3a%2220250911_0700%22",
+  "description": "Statue of Liberty and Lower Manhattan, New York City",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_LibertyManhattan%22&FORM=HPQUIZ",
+  "hash": "db810057e213b867b7b13c7871ea1a06",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.LibertyManhattan_EN-US8781721086_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.LibertyManhattan_EN-US8781721086_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.LibertyManhattan_EN-US8781721086_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.LibertyManhattan_EN-US8781721086_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250911",
+    "endDate": "20250912",
+    "fullStartDateTime": "202509110700",
+    "originalTimeFields": {
+      "startDate": "20250911",
+      "fullStartDate": "202509110700",
+      "endDate": "20250912"
+    }
+  },
+  "createdAt": "202509120000",
+  "originalUrlBase": "/th?id=OHR.LibertyManhattan_EN-US8781721086"
+}

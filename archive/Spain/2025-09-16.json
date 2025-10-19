@@ -1,0 +1,48 @@
+{
+  "date": "Sep 16, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "La verdadera cúpula protectora",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vista nocturna del sur de Estados Unidos a unos 360 kilómetros sobre la Tierra (© Stocktrek Images/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Capa+de+Ozono&form=hpcapt&filters=HpDate%3a%2220250915_2200%22",
+  "description": "Vista nocturna del sur de Estados Unidos a unos 360 kilómetros sobre la Tierra",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "8dc137ccd34dacf4f64f45292164a2a0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250915",
+    "endDate": "20250916",
+    "fullStartDateTime": "202509152200",
+    "originalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509152200",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "202509160000",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_ES-ES8514798418"
+}

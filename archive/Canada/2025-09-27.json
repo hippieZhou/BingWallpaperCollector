@@ -1,0 +1,48 @@
+{
+  "date": "Sep. 27, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "The fast and the furriest",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Least chipmunk, Kootenai National Forest, Montana, United States (© Donald M. Jones/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Least+chipmunk&form=hpcapt&filters=HpDate%3a%2220250926_0400%22",
+  "description": "Least chipmunk, Kootenai National Forest, Montana, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_AutumnChipmunk%22&FORM=HPQUIZ",
+  "hash": "87cc9e1a6d4463d23c36ff9b024b77ab",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-CA7669023856_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-CA7669023856_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-CA7669023856_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-CA7669023856_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250926",
+    "endDate": "20250927",
+    "fullStartDateTime": "202509260400",
+    "originalTimeFields": {
+      "startDate": "20250926",
+      "fullStartDate": "202509260400",
+      "endDate": "20250927"
+    }
+  },
+  "createdAt": "202509270000",
+  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_EN-CA7669023856"
+}

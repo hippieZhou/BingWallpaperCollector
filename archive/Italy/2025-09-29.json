@@ -1,0 +1,48 @@
+{
+  "date": "Sep 29, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Arcobaleno sull’Acqua",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Case arcobaleno nella città di Houten, Paesi Bassi (© George Pachantouris/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Houten+provincia+di+Utrecht&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_HoutenHouses%22&FORM=HPQUIZ",
+  "hash": "4f254a06ea0acd4fdf69f0b860c08e2a",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_IT-IT9070932054_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_IT-IT9070932054_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_IT-IT9070932054_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_IT-IT9070932054_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250928",
+    "endDate": "20250929",
+    "fullStartDateTime": "202509282200",
+    "originalTimeFields": {
+      "startDate": "20250928",
+      "fullStartDate": "202509282200",
+      "endDate": "20250929"
+    }
+  },
+  "createdAt": "202509290000",
+  "originalUrlBase": "/th?id=OHR.HoutenHouses_IT-IT9070932054"
+}

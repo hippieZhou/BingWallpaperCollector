@@ -1,0 +1,48 @@
+{
+  "date": "Oct 7, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "História esculpida em pedra",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "São Miguel das Missões, Rio Grande do Sul (© DircinhaSW/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=S%c3%a3o+Miguel+das+Miss%c3%b5es&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251007_SaoMiguel%22&FORM=HPQUIZ",
+  "hash": "0ff4a61042d29d2ef27787ed2da4f0c6",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SaoMiguel_PT-BR6587333283_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SaoMiguel_PT-BR6587333283_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SaoMiguel_PT-BR6587333283_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SaoMiguel_PT-BR6587333283_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251007",
+    "endDate": "20251008",
+    "fullStartDateTime": "202510070300",
+    "originalTimeFields": {
+      "startDate": "20251007",
+      "fullStartDate": "202510070300",
+      "endDate": "20251008"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.SaoMiguel_PT-BR6587333283"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 19, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "A thousand reasons to visit",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Thousand Islands region, St. Lawrence River, USA-Canada border (© benedek/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Thousand+Islands+region&form=hpcapt&filters=HpDate%3a%2220250918_1830%22",
+  "description": "Thousand Islands region, St. Lawrence River, USA-Canada border",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_ThousandIslands%22&FORM=HPQUIZ",
+  "hash": "de8d8832b195454547b1e2aab87d720d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-IN6967814594_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-IN6967814594_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-IN6967814594_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-IN6967814594_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250918",
+    "endDate": "20250919",
+    "fullStartDateTime": "202509181830",
+    "originalTimeFields": {
+      "startDate": "20250918",
+      "fullStartDate": "202509181830",
+      "endDate": "20250919"
+    }
+  },
+  "createdAt": "202509190000",
+  "originalUrlBase": "/th?id=OHR.ThousandIslands_EN-IN6967814594"
+}

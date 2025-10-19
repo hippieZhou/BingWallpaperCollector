@@ -1,0 +1,48 @@
+{
+  "date": "18 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Una colina protectora",
+  "bsTitle": "Una colina protectora",
+  "caption": "Colina de Silbury, Avebury, Wiltshire, Inglaterra",
+  "copyright": "Colina de Silbury, Avebury, Wiltshire, Inglaterra (© dbstockphoto/Getty Images)",
+  "copyrightOnly": "© dbstockphoto/Getty Images",
+  "copyrightLink": "/search?q=Colina+de+Silbury&form=hpcapt&filters=HpDate%3a%2220251017_2200%22",
+  "description": "Este paisaje nos invita a mirar más allá de lo visible. A primera vista, Silbury Hill, en Wiltshire, Inglaterra, parece una simple colina en el campo. Sin embargo, esconde un enigma neolítico de 4.500 años de antigüedad. Desde alrededor del 2400 a.C., la tiza se extrajo, transportó y compactó a mano, capa por capa, durante generaciones. El resultado es el montículo prehistórico más alto de Europa construido completamente por esfuerzo humano, que alcanza unos 39 metros de altura.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251017_SilburyHill%22&FORM=HPQUIZ",
+  "hash": "bc512ffe45c9b3bc7dabde86c0727bc2",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ES-ES9628182073_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ES-ES9628182073_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ES-ES9628182073_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SilburyHill_ES-ES9628182073_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251017",
+    "endDate": "20251018",
+    "fullStartDateTime": "202510172200",
+    "originalTimeFields": {
+      "startDate": "20251017",
+      "fullStartDate": "202510172200",
+      "endDate": "20251018"
+    }
+  },
+  "createdAt": "202510170000",
+  "originalUrlBase": "/th?id=OHR.SilburyHill_ES-ES9628182073"
+}

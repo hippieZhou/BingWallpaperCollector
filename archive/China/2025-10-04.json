@@ -1,0 +1,48 @@
+{
+  "date": "Oct 04, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "使命必达",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "从SpaceX载人龙飞船“奋进号”视角看到的国际空间站主太阳能电池阵列 (© NASA)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e4%b8%96%e7%95%8c%e7%a9%ba%e9%97%b4%e5%91%a8&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "d2c791b112b82c040310b10a2ca8e26c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ZH-CN8160066040_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ZH-CN8160066040_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ZH-CN8160066040_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ZH-CN8160066040_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510031600",
+    "originalTimeFields": {
+      "startDate": "20251003",
+      "fullStartDate": "202510031600",
+      "endDate": "20251004"
+    }
+  },
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_ZH-CN8160066040"
+}

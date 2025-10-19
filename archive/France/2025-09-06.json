@@ -1,0 +1,48 @@
+{
+  "date": "Sep 06, 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Lille en fête !",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Le beffroi de la Chambre de Commerce, Lille, Hauts-de-France (© Wirestock/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Braderie+de+Lille&form=hpcapt&filters=HpDate%3a%2220250905_2200%22",
+  "description": "Le beffroi de la Chambre de Commerce, Lille, Hauts-de-France",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_LilleMarket%22&FORM=HPQUIZ",
+  "hash": "48626e37b3761d009e40d0df68d152fc",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509052200",
+    "originalTimeFields": {
+      "startDate": "20250905",
+      "fullStartDate": "202509052200",
+      "endDate": "20250906"
+    }
+  },
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.LilleMarket_FR-FR3271144048"
+}

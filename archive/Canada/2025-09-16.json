@@ -1,0 +1,48 @@
+{
+  "date": "Sep. 16, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Cape Brenton views",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Coastline at Cape Breton Highlands National Park, Nova Scotia (© Tiago_Fernandez/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Cape+Breton+Highlands+National+Park+Nova+Scotia&form=hpcapt&filters=HpDate%3a%2220250915_0400%22",
+  "description": "Coastline at Cape Breton Highlands National Park, Nova Scotia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_BrentonHighlandsNP%22&FORM=HPQUIZ",
+  "hash": "17aa0b39fa71358901652bab0872eefe",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250915",
+    "endDate": "20250916",
+    "fullStartDateTime": "202509150400",
+    "originalTimeFields": {
+      "startDate": "20250915",
+      "fullStartDate": "202509150400",
+      "endDate": "20250916"
+    }
+  },
+  "createdAt": "202509160000",
+  "originalUrlBase": "/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042"
+}

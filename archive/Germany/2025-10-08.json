@@ -1,0 +1,48 @@
+{
+  "date": "9. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein Universum in voller Blüte",
+  "bsTitle": "Ein Universum in voller Blüte",
+  "caption": "Die Internationale Weltraumwoche ist noch nicht vorbei!",
+  "copyright": "Die Säulen der Schöpfung, betrachtet vom James-Webb-Weltraumteleskop (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=S%c3%a4ulen+der+Sch%c3%b6pfung&form=hpcapt&filters=HpDate%3a%2220251008_2200%22",
+  "description": "Es ist bereits der 9. Oktober und die Internationale Weltraumwoche neigt sich dem Ende zu. Die vergangenen Tage brachten eine Fülle an Erkenntnissen, eindrucksvollen Aufnahmen und neuen Perspektiven auf unsere Stellung im Universum. Zum krönenden Abschluss richten wir heute unseren Blick auf eine der ikonischsten Ansichten des Kosmos: die majestätischen Säulen der Schöpfung, die vom James-Webb-Weltraumteleskop eingefangen wurden.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251008_WebbPillars%22&FORM=HPQUIZ",
+  "hash": "f7f2b43a6b7b3ab7b6e2ffdbd1f93745",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WebbPillars_DE-DE3382075540_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251008",
+    "endDate": "20251009",
+    "fullStartDateTime": "202510082200",
+    "originalTimeFields": {
+      "startDate": "20251008",
+      "fullStartDate": "202510082200",
+      "endDate": "20251009"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.WebbPillars_DE-DE3382075540"
+}

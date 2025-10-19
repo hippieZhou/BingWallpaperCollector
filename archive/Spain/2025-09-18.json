@@ -1,0 +1,48 @@
+{
+  "date": "Sep 18, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "El borde occidental de Irlanda",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Escaleras serpenteantes del muelle de Dunquin, condado de Kerry, Irlanda (© Hugh O'Connor/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Dunquin&form=hpcapt&filters=HpDate%3a%2220250917_2200%22",
+  "description": "Escaleras serpenteantes del muelle de Dunquin, condado de Kerry, Irlanda",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "ad3a67a0948425f4016563fd220bd825",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ES-ES8742460168_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ES-ES8742460168_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ES-ES8742460168_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ES-ES8742460168_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250917",
+    "endDate": "20250918",
+    "fullStartDateTime": "202509172200",
+    "originalTimeFields": {
+      "startDate": "20250917",
+      "fullStartDate": "202509172200",
+      "endDate": "20250918"
+    }
+  },
+  "createdAt": "202509180000",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_ES-ES8742460168"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Aug. 28, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "This egret has no regrets",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Great white egret, Hungary (© Markus Varesvuo/Nature Picture Library)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Great+white+egret&form=hpcapt&filters=HpDate%3a%2220250828_0400%22",
+  "description": "Great white egret, Hungary",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "7c435552a6e83a21123e6f768a2553b3",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-CA2448116937_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-CA2448116937_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-CA2448116937_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-CA2448116937_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508280400",
+    "originalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508280400",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "202508280000",
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_EN-CA2448116937"
+}

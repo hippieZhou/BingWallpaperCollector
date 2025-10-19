@@ -1,0 +1,48 @@
+{
+  "date": "Aug 30, 2025",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "有鳍且惊艳",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "阿里夫达鲁环礁海岸的鲸鲨, 马尔代夫 (© Bachir Moukarzel/Amazing Aerial Agency)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%E5%9B%BD%E9%99%85%E9%B2%B8%E9%B2%A8%E6%97%A5&form=hpcapt&mkt=zh-cn",
+  "description": "阿里夫达鲁环礁海岸的鲸鲨, 马尔代夫",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250829_MaldivesWhaleShark%22&FORM=HPQUIZ",
+  "hash": "f728d365df33fd58a1cbd498f54a8efd",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ZH-CN9975504316_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ZH-CN9975504316_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ZH-CN9975504316_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ZH-CN9975504316_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250829",
+    "endDate": "20250830",
+    "fullStartDateTime": "202508291600",
+    "originalTimeFields": {
+      "startDate": "20250829",
+      "fullStartDate": "202508291600",
+      "endDate": "20250830"
+    }
+  },
+  "createdAt": "202508300000",
+  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_ZH-CN9975504316"
+}

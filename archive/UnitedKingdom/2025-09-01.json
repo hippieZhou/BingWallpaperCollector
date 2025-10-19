@@ -1,0 +1,48 @@
+{
+  "date": "Sep 01, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "Rocks that flow with the sea!",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Rock layers in Zumaia, Basque Country, Spain (© Eloi_Omella/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Zumaia&form=hpcapt&filters=HpDate%3a%2220250831_2300%22",
+  "description": "Rock layers in Zumaia, Basque Country, Spain",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_GipuzcoaSummer%22&FORM=HPQUIZ",
+  "hash": "9fa3853946020372bef810a6fea8c5e5",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.GipuzcoaSummer_EN-GB2818544324_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.GipuzcoaSummer_EN-GB2818544324_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.GipuzcoaSummer_EN-GB2818544324_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.GipuzcoaSummer_EN-GB2818544324_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508312300",
+    "originalTimeFields": {
+      "startDate": "20250831",
+      "fullStartDate": "202508312300",
+      "endDate": "20250901"
+    }
+  },
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.GipuzcoaSummer_EN-GB2818544324"
+}

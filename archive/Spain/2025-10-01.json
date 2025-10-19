@@ -1,0 +1,48 @@
+{
+  "date": "1 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Ecos de la cordillera",
+  "bsTitle": "Ecos de la cordillera",
+  "caption": "Cordillera Clark, Parque Nacional de Yosemite, California, EE. UU.",
+  "copyright": "Cordillera Clark, Sierra Nevada, Parque Nacional de Yosemite, California, EE. UU. (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=Cordillera+Clark&form=hpcapt&filters=HpDate%3a%2220250930_2200%22",
+  "description": "Este año marca otro hito en el legado del Parque Nacional Yosemite, en Estados Unidos, protegido desde 1864 por su valor natural y ecológico. El parque ocupa aproximadamente 3.100 kilómetros cuadrados en Sierra Nevada —y no, no confundir con la Sierra Nevada de Granada, España— y alberga más de 800 kilómetros de senderos, cascadas como Yosemite Falls y bosques de secuoyas gigantes. Entre sus áreas menos conocidas se encuentra la Cordillera Clark, una serie de picos y praderas alpinas que alcanzan hasta 3.000 metros de altitud. Debe su nombre a Galen Clark, primer guardián del parque y pionero de la conservación.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "c372b99956dea7a9dcc36b02ccab2221",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ES-ES0823562766_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ES-ES0823562766_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ES-ES0823562766_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ES-ES0823562766_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250930",
+    "endDate": "20251001",
+    "fullStartDateTime": "202509302200",
+    "originalTimeFields": {
+      "startDate": "20250930",
+      "fullStartDate": "202509302200",
+      "endDate": "20251001"
+    }
+  },
+  "createdAt": "202510010000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_ES-ES0823562766"
+}

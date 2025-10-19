@@ -1,0 +1,48 @@
+{
+  "date": "Oct 6, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "To the moon and back",
+  "bsTitle": "To the moon and back",
+  "caption": "Anshun Bridge, Chengdu, China",
+  "copyright": "Anshun Bridge illuminated for the Mid-Autumn Festival, Chengdu, China (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightOnly": "© Philippe LEJEANVRE/Getty Images",
+  "copyrightLink": "/search?q=mid+autumn+festival&form=hpcapt&filters=HpDate%3a%2220251005_1830%22",
+  "description": "The shiver felt under a full autumn moon, when the air hints at winter's arrival, has a way of lingering in memory. One of China's most cherished holidays, the Mid-Autumn Festival—also known as the Moon Festival—adds another touch of magic to the end of the harvest season. It's celebrated on the 15th day of the eighth lunar month of the Chinese calendar—this year, on October 6. According to legend, it's also the night when the moon goddess Chang'e watches over the world.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "7cd6fc352e464baaf2c2813cdde81194",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_EN-IN9593478408_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_EN-IN9593478408_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_EN-IN9593478408_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_EN-IN9593478408_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251005",
+    "endDate": "20251006",
+    "fullStartDateTime": "202510051830",
+    "originalTimeFields": {
+      "startDate": "20251005",
+      "fullStartDate": "202510051830",
+      "endDate": "20251006"
+    }
+  },
+  "createdAt": "202510060000",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_EN-IN9593478408"
+}

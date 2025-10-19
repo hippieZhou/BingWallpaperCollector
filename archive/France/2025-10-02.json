@@ -1,0 +1,48 @@
+{
+  "date": "2 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Grand Teton, grande émotion",
+  "bsTitle": "Grand Teton, grande émotion",
+  "caption": "Oxbow Bend, parc national du Grand Teton, États-Unis",
+  "copyright": "Site naturel de Oxbow Bend, parc national du Grand Teton, Wyoming, États-Unis (© DanitaDelimont.com/AWL Images/SuperStock)",
+  "copyrightOnly": "© DanitaDelimont.com/AWL Images/SuperStock",
+  "copyrightLink": "/search?q=Parc+national+du+Grand+Teton&form=hpcapt&filters=HpDate%3a%2220251001_2200%22",
+  "description": "Dans le Wyoming, aux États-Unis, se trouve un lieu où le temps semble suspendu : Oxbow Bend, au cœur du parc national du Grand Teton. La Snake River y dessine une large courbe dont les eaux calmes reflètent la silhouette bleutée des montagnes. Le parc doit son nom à des trappeurs francophones du XIXe siècle qui auraient trouvé à la montagne une forme évocatrice.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_OxbowBend%22&FORM=HPQUIZ",
+  "hash": "91c95ecd02dd649d76f85d1cee596499",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_FR-FR2570017898_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_FR-FR2570017898_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_FR-FR2570017898_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_FR-FR2570017898_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510012200",
+    "originalTimeFields": {
+      "startDate": "20251001",
+      "fullStartDate": "202510012200",
+      "endDate": "20251002"
+    }
+  },
+  "createdAt": "202510020000",
+  "originalUrlBase": "/th?id=OHR.OxbowBend_FR-FR2570017898"
+}

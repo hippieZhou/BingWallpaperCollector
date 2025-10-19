@@ -1,0 +1,48 @@
+{
+  "date": "16 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Le chat des neiges",
+  "bsTitle": "Le chat des neiges",
+  "caption": "Le lynx de Sibérie",
+  "copyright": "Lynx de Sibérie, Sibérie (© Mario Plechaty Photograph/Shutterstock)",
+  "copyrightOnly": "© Mario Plechaty Photograph/Shutterstock",
+  "copyrightLink": "/search?q=lynx+de+siberie&form=hpcapt&filters=HpDate%3a%2220251015_2200%22",
+  "description": "Imaginez une ombre qui glisse entre les arbres givrés, sans faire de bruit ni laisser de trace. Le lynx boréal — ce grand félin aux yeux d’ambre et aux oreilles coiffées de pinceaux noirs — règne en silence sur les immensités de Sibérie. Il est le plus imposant des lynx, mais aussi le plus agile. Ses larges pattes, pareilles à des raquettes naturelles, sont si discrètes sur la neige que ses proies ne sauraient sentir son approche.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251015_SiberianLynx%22&FORM=HPQUIZ",
+  "hash": "8ca71a918d15cb8a3e85eca834191c4c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_FR-FR2540232502_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_FR-FR2540232502_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_FR-FR2540232502_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SiberianLynx_FR-FR2540232502_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251015",
+    "endDate": "20251016",
+    "fullStartDateTime": "202510152200",
+    "originalTimeFields": {
+      "startDate": "20251015",
+      "fullStartDate": "202510152200",
+      "endDate": "20251016"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.SiberianLynx_FR-FR2540232502"
+}

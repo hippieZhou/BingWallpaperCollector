@@ -1,0 +1,48 @@
+{
+  "date": "Sep 14, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Moss and mist",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "A waterfall in Olympic National Park, Washington, United States (© Chris Moore/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Olympic+National+Park+Washington&form=hpcapt&filters=HpDate%3a%2220250913_1830%22",
+  "description": "A waterfall in Olympic National Park, Washington, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "9681399fc082b2dd358b60acf7723ddc",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250913",
+    "endDate": "20250914",
+    "fullStartDateTime": "202509131830",
+    "originalTimeFields": {
+      "startDate": "20250913",
+      "fullStartDate": "202509131830",
+      "endDate": "20250914"
+    }
+  },
+  "createdAt": "202509140000",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_EN-IN1403285660"
+}

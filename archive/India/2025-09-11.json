@@ -1,0 +1,48 @@
+{
+  "date": "Sep 11, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Jewel beyond the tides",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Butterfly Beach in Canacona, South Goa (© Puneet Vikram Singh, Nature and Concept photographer/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Butterfly+Beach+Goa&form=hpcapt&filters=HpDate%3a%2220250910_1830%22",
+  "description": "Butterfly Beach in Canacona, South Goa",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250910_ButterflyBeach%22&FORM=HPQUIZ",
+  "hash": "8dca8f8daa22c9eb36b0313a7dc6bc87",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ButterflyBeach_EN-IN0695823552_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ButterflyBeach_EN-IN0695823552_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ButterflyBeach_EN-IN0695823552_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ButterflyBeach_EN-IN0695823552_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250910",
+    "endDate": "20250911",
+    "fullStartDateTime": "202509101830",
+    "originalTimeFields": {
+      "startDate": "20250910",
+      "fullStartDate": "202509101830",
+      "endDate": "20250911"
+    }
+  },
+  "createdAt": "202509110000",
+  "originalUrlBase": "/th?id=OHR.ButterflyBeach_EN-IN0695823552"
+}

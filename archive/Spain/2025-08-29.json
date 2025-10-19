@@ -1,0 +1,48 @@
+{
+  "date": "Aug 29, 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "El corazón de la red",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vista aérea de la Plaza Mayor, Madrid, España (© AirPano LLC/Amazing Aerial Agency)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Plaza+Mayor+Madrid&form=hpcapt&filters=HpDate%3a%2220250828_2200%22",
+  "description": "Vista aérea de la Plaza Mayor, Madrid, España",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "a6207dd5a826a7ec313f327df102d513",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508282200",
+    "originalTimeFields": {
+      "startDate": "20250828",
+      "fullStartDate": "202508282200",
+      "endDate": "20250829"
+    }
+  },
+  "createdAt": "202508290000",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_ES-ES8897104707"
+}

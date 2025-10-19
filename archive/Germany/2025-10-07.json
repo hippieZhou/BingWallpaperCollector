@@ -1,0 +1,48 @@
+{
+  "date": "8. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Tarnung in Bewegung",
+  "bsTitle": "Tarnung in Bewegung",
+  "caption": "Welttag des Oktopus",
+  "copyright": "Großer Blauer Krake, Maui, Hawaii, USA (© Dave Fleetham/plainpicture)",
+  "copyrightOnly": "© Dave Fleetham/plainpicture",
+  "copyrightLink": "/search?q=Welttag+des+Oktopus&form=hpcapt&filters=HpDate%3a%2220251007_2200%22",
+  "description": "Am 8. Oktober wird der Welttag des Oktopus gefeiert – ein Tag, der der Intelligenz, Anpassungsfähigkeit und Schönheit dieser faszinierenden Kopffüßer gewidmet ist. Ziel ist es, das Bewusstsein für den Meeresschutz zu stärken und den Respekt gegenüber Arten wie dem Oktopus zu fördern, die mit ihren kognitiven Fähigkeiten, ihrer Tarnkunst und ihrer wichtigen Rolle in marinen Ökosystemen beeindrucken. An diesem Tag werden oft spannende Fakten, Bilder und Bildungsaktivitäten geteilt, die das Leben unter Wasser feiern.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251007_OctopusCyanea%22&FORM=HPQUIZ",
+  "hash": "1cc6a108c7fb8f2f94dabd833e540bcf",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_DE-DE3244013803_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_DE-DE3244013803_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_DE-DE3244013803_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OctopusCyanea_DE-DE3244013803_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251007",
+    "endDate": "20251008",
+    "fullStartDateTime": "202510072200",
+    "originalTimeFields": {
+      "startDate": "20251007",
+      "fullStartDate": "202510072200",
+      "endDate": "20251008"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.OctopusCyanea_DE-DE3244013803"
+}

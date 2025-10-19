@@ -1,0 +1,48 @@
+{
+  "date": "28 de sept. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Pienza en el arte",
+  "bsTitle": "Pienza en el arte",
+  "caption": "Pienza, Siena, Toscana, Italia",
+  "copyright": "Pienza en Siena, Toscana, Italia (© zpagistock/Getty Images)",
+  "copyrightOnly": "© zpagistock/Getty Images",
+  "copyrightLink": "/search?q=Pienza+en+Siena&form=hpcapt&filters=HpDate%3a%2220250927_2200%22",
+  "description": "Algunas ciudades evolucionan lentamente a lo largo de los siglos. ¿Y Pienza? Esta pequeña ciudad italiana recibió un cambio completo en el siglo XV gracias a un papa que quería demostrar su visión y, quizá, presumir un poco. Pienza se alza sobre el Val d’Orcia, rodeada de colinas onduladas que parecen la Toscana que todos imaginamos: cipreses, caminos de tierra serpenteantes y ovejas dispersas. Es un lugar pacífico.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "47013fc432c9ac9f6da668795633b41d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509272200",
+    "originalTimeFields": {
+      "startDate": "20250927",
+      "fullStartDate": "202509272200",
+      "endDate": "20250928"
+    }
+  },
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_ES-ES1965715400"
+}

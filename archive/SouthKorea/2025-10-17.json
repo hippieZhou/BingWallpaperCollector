@@ -1,0 +1,48 @@
+{
+  "date": "Oct 17, 2025",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Rock River Falls, Upper Peninsula, Michigan, United States (© Matt Anderson Photography/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Rock+River+Wilderness+Michigan&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251017_RockRiverFalls%22&FORM=HPQUIZ",
+  "hash": "3436e29b422504e5c6fb94e0da5c664c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ROW9398171921_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ROW9398171921_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ROW9398171921_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.RockRiverFalls_ROW9398171921_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251017",
+    "endDate": "20251018",
+    "fullStartDateTime": "202510170700",
+    "originalTimeFields": {
+      "startDate": "20251017",
+      "fullStartDate": "202510170700",
+      "endDate": "20251018"
+    }
+  },
+  "createdAt": "202510170000",
+  "originalUrlBase": "/th?id=OHR.RockRiverFalls_ROW9398171921"
+}

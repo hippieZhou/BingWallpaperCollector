@@ -1,0 +1,48 @@
+{
+  "date": "Oct 11, 2025",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Un respiro più la(r)go",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Villaggio di Saranac Lake, Montagne Adirondack, New York, USA (© DenisTangneyJr/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Saranac+Lake+villaggio&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251011_SaranacLake%22&FORM=HPQUIZ",
+  "hash": "3cd12926e761ef71986c8fc6fe8f6b3d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_IT-IT9519344894_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_IT-IT9519344894_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_IT-IT9519344894_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SaranacLake_IT-IT9519344894_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251011",
+    "endDate": "20251012",
+    "fullStartDateTime": "202510112200",
+    "originalTimeFields": {
+      "startDate": "20251011",
+      "fullStartDate": "202510112200",
+      "endDate": "20251012"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.SaranacLake_IT-IT9519344894"
+}

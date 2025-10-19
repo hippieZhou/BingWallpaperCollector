@@ -1,0 +1,48 @@
+{
+  "date": "Sep. 9, 2025",
+  "country": "Canada",
+  "marketCode": "en-CA",
+  "title": "Booked for the day",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Library@orchard, Singapore (© Darwin Fan/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=International+Literacy+Day&form=hpcapt&filters=HpDate%3a%2220250908_0400%22",
+  "description": "Library@orchard, Singapore",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "dcf9c17f8adf899c920b1bb125beb366",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-CA5905828145_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-CA5905828145_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-CA5905828145_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-CA5905828145_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509080400",
+    "originalTimeFields": {
+      "startDate": "20250908",
+      "fullStartDate": "202509080400",
+      "endDate": "20250909"
+    }
+  },
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_EN-CA5905828145"
+}

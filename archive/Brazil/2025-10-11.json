@@ -1,0 +1,48 @@
+{
+  "date": "Oct 11, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Voos sem fronteiras",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Fêmea de pato-carolino, Estados Unidos (© ps50ace/iStock/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Dia+Mundial+das+Aves+Migrat%c3%b3rias&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251011_WoodDuckHen%22&FORM=HPQUIZ",
+  "hash": "04b8050d44363d1a3b5d6a2b5d30a238",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_PT-BR4872632595_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_PT-BR4872632595_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_PT-BR4872632595_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.WoodDuckHen_PT-BR4872632595_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251011",
+    "endDate": "20251012",
+    "fullStartDateTime": "202510110300",
+    "originalTimeFields": {
+      "startDate": "20251011",
+      "fullStartDate": "202510110300",
+      "endDate": "20251012"
+    }
+  },
+  "createdAt": "202510150000",
+  "originalUrlBase": "/th?id=OHR.WoodDuckHen_PT-BR4872632595"
+}

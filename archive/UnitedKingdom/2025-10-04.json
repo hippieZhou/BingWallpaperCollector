@@ -1,0 +1,48 @@
+{
+  "date": "Oct 4, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "Mission: Possible",
+  "bsTitle": "Mission: Possible",
+  "caption": "World Space Week",
+  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=World+Space+Week&form=hpcapt&filters=HpDate%3a%2220251003_2300%22",
+  "description": "From October 4 to 10, World Space Week invites us to transcend our earthly bounds and chase the stars. It was born from the launch of Sputnik 1 by the USSR in 1957 and the signing of the Outer Space Treaty in 1967, a pioneering international commitment to peaceful cosmic exploration. During this week, classrooms buzz with experiments, planetariums echo with wonder and telescopes bridge the gap to distant galaxies. Together, these moments weave a universal story of science, discovery and humanity's relentless drive to push boundaries. The week's mission is clear: to ignite the next generation of explorers, engineers and dreamers ready to rewrite the cosmos.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "a2f02d6e3c85ed3964b526aabfcf9c70",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510032300",
+    "originalTimeFields": {
+      "startDate": "20251003",
+      "fullStartDate": "202510032300",
+      "endDate": "20251004"
+    }
+  },
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_EN-GB3820575849"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 09, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "Twig by twig, she prepares",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "A female Eurasian red squirrel carrying moss, Switzerland (© Jean-Luc and Francoise Ziegler/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Eurasian+red+squirrel&form=hpcapt&filters=HpDate%3a%2220250908_2300%22",
+  "description": "A female Eurasian red squirrel carrying moss, Switzerland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_SwissSquirrel%22&FORM=HPQUIZ",
+  "hash": "79f43a383b6e168d80bf77181fa0f902",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-GB9077607879_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-GB9077607879_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-GB9077607879_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-GB9077607879_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509082300",
+    "originalTimeFields": {
+      "startDate": "20250908",
+      "fullStartDate": "202509082300",
+      "endDate": "20250909"
+    }
+  },
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.SwissSquirrel_EN-GB9077607879"
+}

@@ -1,0 +1,48 @@
+{
+  "date": "Sep 15, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Natureza em alta definição",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Cachoeira no Parque Nacional Olympic, Washington, EUA (© Chris  Moore/TANDEM Stills + Motion)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Parque+Nacional+Olympic+nos+EUA&form=hpcapt&mkt=pt-br",
+  "description": "Cachoeira no Parque Nacional Olympic, Washington, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "9d9127a598c0a9b34c02e9214903b179",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_PT-BR6671892401_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_PT-BR6671892401_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_PT-BR6671892401_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_PT-BR6671892401_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509140300",
+    "originalTimeFields": {
+      "startDate": "20250914",
+      "fullStartDate": "202509140300",
+      "endDate": "20250915"
+    }
+  },
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_PT-BR6671892401"
+}

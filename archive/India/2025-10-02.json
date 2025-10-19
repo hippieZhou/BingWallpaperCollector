@@ -1,0 +1,48 @@
+{
+  "date": "Oct 2, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "A figure of peace",
+  "bsTitle": "A figure of peace",
+  "caption": "Gandhi Jayanti",
+  "copyright": "Mahatma Gandhi statue at Malpe Beach, Udupi, Karnataka (© Rainer Krack/Alamy)",
+  "copyrightOnly": "© Rainer Krack/Alamy",
+  "copyrightLink": "/search?q=Gandhi+Jayanti&form=hpcapt&filters=HpDate%3a%2220251001_1830%22",
+  "description": "A day that reminds us how simplicity can move mountains—Gandhi Jayanti celebrates the power of truth and non-violence. Recognised as one of the three national holidays in India, it also carries global significance as the United Nations has observed it since 2007 as the International Day of Non-Violence.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_StatueGandhi%22&FORM=HPQUIZ",
+  "hash": "a1dc3e07892aa10ea286f4fe34150ea1",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510011830",
+    "originalTimeFields": {
+      "startDate": "20251001",
+      "fullStartDate": "202510011830",
+      "endDate": "20251002"
+    }
+  },
+  "createdAt": "202510020000",
+  "originalUrlBase": "/th?id=OHR.StatueGandhi_EN-IN4485364887"
+}

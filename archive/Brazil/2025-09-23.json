@@ -1,0 +1,48 @@
+{
+  "date": "Sep 23, 2025",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Seja bem-vinda, primavera!",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Árvore de ipê-amarelo em floração (© Wilton mitsuo miwa/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=primavera&form=hpcapt&mkt=pt-br",
+  "description": "Árvore de ipê-amarelo em floração",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250922_Primavera25%22&FORM=HPQUIZ",
+  "hash": "257f28391a39bee449b82c06400c1148",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.Primavera25_PT-BR8233875845_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.Primavera25_PT-BR8233875845_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.Primavera25_PT-BR8233875845_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.Primavera25_PT-BR8233875845_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250922",
+    "endDate": "20250923",
+    "fullStartDateTime": "202509220300",
+    "originalTimeFields": {
+      "startDate": "20250922",
+      "fullStartDate": "202509220300",
+      "endDate": "20250923"
+    }
+  },
+  "createdAt": "202509230000",
+  "originalUrlBase": "/th?id=OHR.Primavera25_PT-BR8233875845"
+}
