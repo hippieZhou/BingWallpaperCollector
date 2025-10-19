@@ -1,0 +1,43 @@
+{
+  "date": "20. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein Leben in Zeitlupe",
+  "bsTitle": "Ein Leben in Zeitlupe",
+  "caption": "Internationaler Tag des Faultiers",
+  "copyright": "Hoffmann-Zweifingerfaultier, Ecuador (© Murray Cooper/Minden Pictures)",
+  "copyrightOnly": "© Murray Cooper/Minden Pictures",
+  "copyrightLink": "/search?q=Internationaler+Tag+des+Faultiers&form=hpcapt&filters=HpDate%3a%2220251019_2200%22",
+  "description": "Heute feiern wir den Internationalen Tag des Faultiers! Dieses besondere Datum, das jedes Jahr im Oktober begangen wird, lädt uns dazu ein, das ruhige und faszinierende Leben eines der einzigartigsten Tiere unseres Planeten zu entdecken. Faultiere, bekannt für ihre Langsamkeit und ihren entspannten Lebensstil, stammen aus Mittel- und Südamerika und spielen eine wichtige Rolle im ökologischen Gleichgewicht der tropischen Wälder. In Deutschland gewinnt dieser Feiertag zunehmend an Aufmerksamkeit – dank Zoos, Umweltorganisationen und Bildungsinitiativen, die den Tag nutzen, um spannende Fakten zu teilen, den Naturschutz zu fördern und die Schönheit der Biodiversität zu feiern.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251019_HoffmansSloth%22&FORM=HPQUIZ",
+  "hash": "77874788eef82964fd902e9fbfd40c83",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_DE-DE8974751665_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_DE-DE8974751665_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_DE-DE8974751665_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_DE-DE8974751665_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251019",
+    "fullStartDateTime": "202510192200",
+    "endDate": "20251020"
+  },
+  "createdAt": "202510190000",
+  "originalUrlBase": "/th?id=OHR.HoffmansSloth_DE-DE8974751665"
+}

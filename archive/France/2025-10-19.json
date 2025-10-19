@@ -1,0 +1,43 @@
+{
+  "date": "20 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Aujourd’hui, on s’accroche… à la paresse !",
+  "bsTitle": "Aujourd’hui, on s’accroche… à la paresse !",
+  "caption": "Journée internationale du paresseux",
+  "copyright": "Paresseux d’Hoffmann, Équateur (© Murray Cooper/Minden Pictures)",
+  "copyrightOnly": "© Murray Cooper/Minden Pictures",
+  "copyrightLink": "/search?q=Journ%c3%a9e+internationale+du+paresseux&form=hpcapt&filters=HpDate%3a%2220251019_2200%22",
+  "description": "Accroché aux branches de la forêt équatoriale, le paresseux d'Hoffmann incarne l'art de la lenteur. Son pelage, parfois teinté de vert par les algues qui y poussent, se fond dans la canopée, au milieu du feuillage. Ses mouvements lents, presque chorégraphiques, ne sont pas le fruit de la maladresse, mais une stratégie visant à économiser son énergie et à passer inaperçu aux yeux de ses prédateurs.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251019_HoffmansSloth%22&FORM=HPQUIZ",
+  "hash": "5a792669c971fc5dc1755328d088544f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_FR-FR9921272661_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_FR-FR9921272661_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_FR-FR9921272661_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_FR-FR9921272661_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251019",
+    "fullStartDateTime": "202510192200",
+    "endDate": "20251020"
+  },
+  "createdAt": "202510190000",
+  "originalUrlBase": "/th?id=OHR.HoffmansSloth_FR-FR9921272661"
+}

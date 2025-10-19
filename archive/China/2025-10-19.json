@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "慢节奏的生活",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "霍氏树懒，厄瓜多尔 (© Murray Cooper/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e5%9b%bd%e9%99%85%e6%a0%91%e6%87%92%e6%97%a5&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251019_HoffmansSloth%22&FORM=HPQUIZ",
+  "hash": "9b8959b31205f8015dba9545d32acaef",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ZH-CN7563408641_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ZH-CN7563408641_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ZH-CN7563408641_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ZH-CN7563408641_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251019",
+    "fullStartDateTime": "202510191600",
+    "endDate": "20251020"
+  },
+  "createdAt": "202510190000",
+  "originalUrlBase": "/th?id=OHR.HoffmansSloth_ZH-CN7563408641"
+}

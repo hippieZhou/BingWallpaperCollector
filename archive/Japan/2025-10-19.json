@@ -1,0 +1,43 @@
+{
+  "date": "2025 年 10月 月 20 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は国際ナマケモノの日",
+  "bsTitle": "今日は国際ナマケモノの日",
+  "caption": "今日は国際ナマケモノの日",
+  "copyright": "ホフマンナマケモノ, エクアドル (© Murray Cooper/Minden Pictures)",
+  "copyrightOnly": "© Murray Cooper/Minden Pictures",
+  "copyrightLink": "/search?q=%e3%83%9b%e3%83%95%e3%83%9e%e3%83%b3%e3%83%8a%e3%83%9e%e3%82%b1%e3%83%a2%e3%83%8e&form=hpcapt&filters=HpDate%3a%2220251019_1500%22",
+  "description": "今日の画像は、ゆったりとした動作が特徴的なナマケモノ。名前の由来は、のんびりとした動きが文字通り「怠け者」に見えたためとされています。英語名は Sloth であり、これも怠惰・ものぐさを意味する言葉となっているほか、生息地の一つであるコスタリカでも Perezoso （ぐうたら者）と呼ばれています…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251019_HoffmansSloth%22&FORM=HPQUIZ",
+  "hash": "3738807c799e9284d4804895d255f6ad",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_JA-JP1255329003_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_JA-JP1255329003_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_JA-JP1255329003_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_JA-JP1255329003_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251019",
+    "fullStartDateTime": "202510191500",
+    "endDate": "20251020"
+  },
+  "createdAt": "202510190000",
+  "originalUrlBase": "/th?id=OHR.HoffmansSloth_JA-JP1255329003"
+}
