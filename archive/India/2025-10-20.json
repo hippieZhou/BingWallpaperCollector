@@ -1,0 +1,43 @@
+{
+  "date": "Oct 21, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Glowing traditions",
+  "bsTitle": "Glowing traditions",
+  "caption": "Happy Diwali!",
+  "copyright": "Oil lamps lit during Diwali (© phive2015/Getty Images)",
+  "copyrightOnly": "© phive2015/Getty Images",
+  "copyrightLink": "/search?q=Diwali+festival&form=hpcapt&filters=HpDate%3a%2220251020_1830%22",
+  "description": "Today is Diwali, a festival that celebrates hope, prosperity and the triumph of good over evil. It marks Rama's return to Ayodhya after defeating the demon king Ravana, and honours the goddess Lakshmi, believed to bring wealth and well-being into homes, while some communities worship the goddess, Kali. Families clean and decorate their homes, exchange sweets (or mithai), and gather for prayers—filling neighbourhoods with an atmosphere of joy. Meanwhile, markets bustle with shoppers buying gifts and new clothes, while fireworks light up the sky. Central to the festival are diyas—small oil lamps whose flames symbolise the triumph of light over darkness and the promise of new beginnings.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251020_OilLamps%22&FORM=HPQUIZ",
+  "hash": "e4f8c8c9b85b34a8fc9f9ec81b454a7b",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.OilLamps_EN-IN0305267650_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.OilLamps_EN-IN0305267650_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.OilLamps_EN-IN0305267650_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.OilLamps_EN-IN0305267650_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251020",
+    "fullStartDateTime": "202510201830",
+    "endDate": "20251021"
+  },
+  "createdAt": "202510200000",
+  "originalUrlBase": "/th?id=OHR.OilLamps_EN-IN0305267650"
+}
