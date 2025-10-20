@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Hoffmann's two-toed sloth, Ecuador (© Murray Cooper/Minden Pictures)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Sloth&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251020_HoffmansSloth%22&FORM=HPQUIZ",
+  "hash": "f4fbc7541a6d85d646b32752de69bb23",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ROW9786631767_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ROW9786631767_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ROW9786631767_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.HoffmansSloth_ROW9786631767_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251020",
+    "fullStartDateTime": "202510200700",
+    "endDate": "20251021"
+  },
+  "createdAt": "202510200000",
+  "originalUrlBase": "/th?id=OHR.HoffmansSloth_ROW9786631767"
+}
