@@ -1,0 +1,43 @@
+{
+  "date": "22 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Pierre qui roule n’amasse pas légende… sauf ici !",
+  "bsTitle": "Pierre qui roule n’amasse pas légende… sauf ici !",
+  "caption": "Rochers de Belogradchik, Bulgarie",
+  "copyright": "Rochers de Belogradchik, Bulgarie (© EvaL Miko/Shutterstock)",
+  "copyrightOnly": "© EvaL Miko/Shutterstock",
+  "copyrightLink": "/search?q=Belogradchik+Rocks&form=hpcapt&filters=HpDate%3a%2220251021_2200%22",
+  "description": "Dans le nord-ouest de la Bulgarie, sur les pentes occidentales des Balkans, les rochers de Belogradchik s’élèvent comme une galerie sculptée par le temps. Façonnés durant des millions d’années, ces piliers de grès et de calcaire prennent des formes étonnantes que l’imagination locale a baptisées « cavaliers », « moines » ou « écolières ». Leurs teintes, qui oscillent entre le rouge profond et l'or lumineux, changent au fil de la journée.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251021_BulgariaRocks%22&FORM=HPQUIZ",
+  "hash": "56d58910b1ce58ac270908f913d7cf73",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_FR-FR6124284800_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_FR-FR6124284800_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_FR-FR6124284800_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_FR-FR6124284800_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251021",
+    "fullStartDateTime": "202510212200",
+    "endDate": "20251022"
+  },
+  "createdAt": "202510210000",
+  "originalUrlBase": "/th?id=OHR.BulgariaRocks_FR-FR6124284800"
+}

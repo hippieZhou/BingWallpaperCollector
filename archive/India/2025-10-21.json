@@ -1,0 +1,43 @@
+{
+  "date": "Oct 22, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Set in stone",
+  "bsTitle": "Set in stone",
+  "caption": "Belogradchik Rocks, Bulgaria",
+  "copyright": "Belogradchik Rocks, Bulgaria (© EvaL Miko/Shutterstock)",
+  "copyrightOnly": "© EvaL Miko/Shutterstock",
+  "copyrightLink": "/search?q=Belogradchik+Rocks&form=hpcapt&filters=HpDate%3a%2220251021_1830%22",
+  "description": "In Bulgaria, on the western slopes of the Balkan Mountains, the Belogradchik Rocks stand like a natural gallery where every formation tells a tale. Shaped over millions of years by erosion, these sandstone and limestone pillars twist and tower into outlines that locals swear resemble people, animals and even entire scenes. That's why names like 'The Horseman,' 'The Schoolgirl' and 'The Monks' have stuck—it's a landscape where spotting shapes feels a bit like playing nature's version of charades.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251021_BulgariaRocks%22&FORM=HPQUIZ",
+  "hash": "3fd73582b0f9695c8ab0291541970fd7",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_EN-IN6060043894_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_EN-IN6060043894_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_EN-IN6060043894_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_EN-IN6060043894_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251021",
+    "fullStartDateTime": "202510211830",
+    "endDate": "20251022"
+  },
+  "createdAt": "202510210000",
+  "originalUrlBase": "/th?id=OHR.BulgariaRocks_EN-IN6060043894"
+}
