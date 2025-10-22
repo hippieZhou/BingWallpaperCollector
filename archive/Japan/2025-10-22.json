@@ -1,0 +1,43 @@
+{
+  "date": "2025 年 10月 月 23 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日は霜降",
+  "bsTitle": "今日は霜降",
+  "caption": "今日は霜降",
+  "copyright": "八甲田山の紅葉, 青森県青森市 (© Mekdet/Getty images)",
+  "copyrightOnly": "© Mekdet/Getty images",
+  "copyrightLink": "/search?q=%e5%85%ab%e7%94%b2%e7%94%b0%e5%b1%b1%e3%81%ae%e7%b4%85%e8%91%89&form=hpcapt&filters=HpDate%3a%2220251022_1500%22",
+  "description": "今日 10 月 23 日は二十四節気の「霜降」。朝晩の冷え込みが一層厳しくなり、地面や草木に霜が降りる時期です。木々の紅葉が進む時期でもあり、ここ青森県青森市にある八甲田山は、例年のこの時期、山頂付近が見頃を終え、山麓付近が紅く色づいていきます…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251022_AomoriAutumn2025%22&FORM=HPQUIZ",
+  "hash": "51d1380375aeccfb198bfdb4bea0a96b",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AomoriAutumn2025_JA-JP3668853549_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AomoriAutumn2025_JA-JP3668853549_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AomoriAutumn2025_JA-JP3668853549_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AomoriAutumn2025_JA-JP3668853549_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251022",
+    "fullStartDateTime": "202510221500",
+    "endDate": "20251023"
+  },
+  "createdAt": "202510220000",
+  "originalUrlBase": "/th?id=OHR.AomoriAutumn2025_JA-JP3668853549"
+}

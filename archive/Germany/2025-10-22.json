@@ -1,0 +1,43 @@
+{
+  "date": "23. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Majestät der Berge",
+  "bsTitle": "Majestät der Berge",
+  "caption": "Internationaler Tag des Schneeleoparden",
+  "copyright": "Schneeleopardin mit ihren Jungen, Spitital, Cold Desert Biosphere Reserve, Indien (© Oriol Alamany/naturepl.com)",
+  "copyrightOnly": "© Oriol Alamany/naturepl.com",
+  "copyrightLink": "/search?q=Internationaler+Tag+des+Schneeleoparden&form=hpcapt&filters=HpDate%3a%2220251022_2200%22",
+  "description": "Der Internationale Tag des Schneeleoparden wird jedes Jahr am 23. Oktober gefeiert, um auf die Bedrohung dieser seltenen Großkatzen aufmerksam zu machen. Er wurde 2014 von den zwölf Ländern ins Leben gerufen, in denen Schneeleoparden heimisch sind, als Teil der sogenannten „Bischkek-Erklärung“. Ziel dieses Tages ist es, das Bewusstsein für den Schutz ihres natürlichen Lebensraums in den Hochgebirgen Zentralasiens zu stärken und internationale Maßnahmen zur Erhaltung der Art zu fördern. Auch in Deutschland beteiligen sich Zoos und Naturschutzorganisationen, wie der Naturschutzbund Deutschland (NABU), mit Informationskampagnen und Bildungsangeboten an diesem wichtigen Aktionstag.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251022_SnowLeopard%22&FORM=HPQUIZ",
+  "hash": "6e2b0376ce662c75e20181a254f446db",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_DE-DE9074654183_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_DE-DE9074654183_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_DE-DE9074654183_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_DE-DE9074654183_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251022",
+    "fullStartDateTime": "202510222200",
+    "endDate": "20251023"
+  },
+  "createdAt": "202510220000",
+  "originalUrlBase": "/th?id=OHR.SnowLeopard_DE-DE9074654183"
+}

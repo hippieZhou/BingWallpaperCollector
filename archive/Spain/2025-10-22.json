@@ -1,0 +1,43 @@
+{
+  "date": "23 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Nieve por todas partes",
+  "bsTitle": "Nieve por todas partes",
+  "caption": "Día Internacional del Leopardo de las Nieves",
+  "copyright": "Leopardo de las nieves, Spiti, valle del norte de Himachal Pradesh, Cordillera del Himalaya, India (© Oriol Alamany/naturepl.com)",
+  "copyrightOnly": "© Oriol Alamany/naturepl.com",
+  "copyrightLink": "/search?q=Leopardo+de+las+nieves+animal&form=hpcapt&filters=HpDate%3a%2220251022_2200%22",
+  "description": "¿Alguna vez has intentado ver un leopardo de las nieves en su hábitat natural? Se le llama el “fantasma de las montañas” por una razón: es más fácil encontrar sus huellas que al propio felino. Cada 23 de octubre, la especie recibe atención especial en el Día Internacional del Leopardo de las Nieves, un momento para concienciar sobre su protección y la de su accidentado hogar.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251022_SnowLeopard%22&FORM=HPQUIZ",
+  "hash": "dd60e85b2ddfa69037c6dfb770d17f38",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ES-ES0046977195_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ES-ES0046977195_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ES-ES0046977195_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ES-ES0046977195_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251022",
+    "fullStartDateTime": "202510222200",
+    "endDate": "20251023"
+  },
+  "createdAt": "202510220000",
+  "originalUrlBase": "/th?id=OHR.SnowLeopard_ES-ES0046977195"
+}

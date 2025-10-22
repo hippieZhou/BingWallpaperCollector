@@ -1,0 +1,43 @@
+{
+  "date": "23 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Le maître du camouflage",
+  "bsTitle": "Le maître du camouflage",
+  "caption": "Journée internationale du léopard des neiges",
+  "copyright": "Léopard des neiges avec ses petits, réserve de la biosphère du désert froid, Inde (© Oriol Alamany/naturepl.com)",
+  "copyrightOnly": "© Oriol Alamany/naturepl.com",
+  "copyrightLink": "/search?q=Journ%c3%a9e+internationale+du+l%c3%a9opard+des+neiges&form=hpcapt&filters=HpDate%3a%2220251022_2200%22",
+  "description": "Dans la vallée de Spiti, en Inde, la roche ocre se mêle aux neiges éternelles. Dans la réserve de biosphère du désert froid, l'air est rare et les hivers sont impitoyables, et pourtant la vie persiste avec force. Au creux d'une paroi, un léopard des neiges veille sur ses petits dont le pelage tacheté se confond avec la roche. On comprend alors pourquoi on l’appelle le « fantôme des montagnes » : maître de l’invisible, il est essentiel à ces paysages austères.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251022_SnowLeopard%22&FORM=HPQUIZ",
+  "hash": "4e9df42ebfb942825acca0516ef57d09",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_FR-FR6410501585_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_FR-FR6410501585_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_FR-FR6410501585_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_FR-FR6410501585_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251022",
+    "fullStartDateTime": "202510222200",
+    "endDate": "20251023"
+  },
+  "createdAt": "202510220000",
+  "originalUrlBase": "/th?id=OHR.SnowLeopard_FR-FR6410501585"
+}
