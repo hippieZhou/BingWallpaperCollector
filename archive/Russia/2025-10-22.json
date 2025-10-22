@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Belogradchik Rocks, Bulgaria (© EvaL Miko/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Belogradchik+Rocks&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251022_BulgariaRocks%22&FORM=HPQUIZ",
+  "hash": "1862d000475fc0b6518ae6decff5d8f5",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ROW0047570938_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ROW0047570938_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ROW0047570938_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ROW0047570938_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251022",
+    "fullStartDateTime": "202510220700",
+    "endDate": "20251023"
+  },
+  "createdAt": "202510220000",
+  "originalUrlBase": "/th?id=OHR.BulgariaRocks_ROW0047570938"
+}
