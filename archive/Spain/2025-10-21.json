@@ -1,0 +1,43 @@
+{
+  "date": "22 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Grabado en piedra",
+  "bsTitle": "Grabado en piedra",
+  "caption": "Rocas de Belogradchik, Bulgaria",
+  "copyright": "Rocas de Belogradchik, Bulgaria (© EvaL Miko/Shutterstock)",
+  "copyrightOnly": "© EvaL Miko/Shutterstock",
+  "copyrightLink": "/search?q=Fortaleza+Belogradchik&form=hpcapt&filters=HpDate%3a%2220251021_2200%22",
+  "description": "En Bulgaria, en las laderas occidentales de los Balcanes, las rocas de Belogradchik se elevan como una galería natural donde cada formación cuenta una historia. Moldeadas durante millones de años por la erosión, estas columnas de arenisca y piedra caliza adoptan formas que los lugareños aseguran que recuerdan personas, animales o escenas completas, con nombres como \"El Jinete\", \"La Escolta\" o \"Los Monjes\". Explorar este paisaje es como descubrir un museo de formas naturales.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251021_BulgariaRocks%22&FORM=HPQUIZ",
+  "hash": "8c62a87fa917ed5558e8733109d7dc8e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ES-ES9951900468_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ES-ES9951900468_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ES-ES9951900468_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ES-ES9951900468_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251021",
+    "fullStartDateTime": "202510212200",
+    "endDate": "20251022"
+  },
+  "createdAt": "202510210000",
+  "originalUrlBase": "/th?id=OHR.BulgariaRocks_ES-ES9951900468"
+}

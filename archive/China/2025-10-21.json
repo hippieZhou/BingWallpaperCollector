@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "刻在石头上",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "贝洛格拉齐克石林，保加利亚 (© EvaL Miko/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e8%b4%9d%e6%b4%9b%e6%a0%bc%e6%8b%89%e9%bd%90%e5%85%8b%e7%9f%b3%e6%9e%97&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251021_BulgariaRocks%22&FORM=HPQUIZ",
+  "hash": "a9029622376fd4bb6acd67e696f17fe5",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ZH-CN0234903972_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ZH-CN0234903972_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ZH-CN0234903972_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BulgariaRocks_ZH-CN0234903972_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251021",
+    "fullStartDateTime": "202510211600",
+    "endDate": "20251022"
+  },
+  "createdAt": "202510210000",
+  "originalUrlBase": "/th?id=OHR.BulgariaRocks_ZH-CN0234903972"
+}

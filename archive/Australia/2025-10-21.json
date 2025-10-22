@@ -1,0 +1,43 @@
+{
+  "date": "Oct 21, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "bsTitle": "Info",
+  "caption": "Cap d'Antibes, Provence-Alpes-Côte d'Azur, France",
+  "copyright": "Cap d'Antibes, Provence-Alpes-Côte d'Azur, France (© Eric Rousset/Getty Images)",
+  "copyrightOnly": "© Eric Rousset/Getty Images",
+  "copyrightLink": "/search?q=Cap+d%27Antibes&form=hpcapt&filters=HpDate%3a%2220251021_0700%22",
+  "description": "Nested between Cannes and Nice, the Cap d'Antibes is a peaceful peninsula at the heart of Antibes, France. Maritime pines perfume the salty air, the coves harbour solitude and the coastal paths are silent except for the waves.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251021_CapAntibes%22&FORM=HPQUIZ",
+  "hash": "098465aae80cb982e4559ec695417078",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_ROW9927091167_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_ROW9927091167_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_ROW9927091167_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.CapAntibes_ROW9927091167_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251021",
+    "fullStartDateTime": "202510210700",
+    "endDate": "20251022"
+  },
+  "createdAt": "202510210000",
+  "originalUrlBase": "/th?id=OHR.CapAntibes_ROW9927091167"
+}
