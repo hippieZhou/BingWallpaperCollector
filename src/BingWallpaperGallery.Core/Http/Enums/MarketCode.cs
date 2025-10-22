@@ -7,6 +7,7 @@ namespace BingWallpaperGallery.Core.Http.Enums;
 /// <summary>
 /// 支持的国家/地区市场代码
 /// </summary>
+[Flags]
 public enum MarketCode
 {
     [MarketInfo("zh-CN", "中国", "Chinese - China (Simplified)", "🇨🇳", "中国版必应壁纸，侧重中国文化、风景和节庆")]

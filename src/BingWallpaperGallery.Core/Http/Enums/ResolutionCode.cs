@@ -7,6 +7,7 @@ namespace BingWallpaperGallery.Core.Http.Enums;
 /// <summary>
 /// API请求支持的分辨率类型
 /// </summary>
+[Flags]
 public enum ResolutionCode
 {
     /// <summary>

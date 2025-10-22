@@ -5,6 +5,7 @@ namespace BingWallpaperGallery.Core.Http.Enums;
 /// <summary>
 /// 下载状态枚举
 /// </summary>
+[Flags]
 public enum DownloadStatus
 {
     /// <summary>
