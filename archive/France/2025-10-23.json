@@ -1,0 +1,43 @@
+{
+  "date": "24 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "La croisière s’amuse d’épouvante !",
+  "bsTitle": "La croisière s’amuse d’épouvante !",
+  "caption": "Le Queen Mary",
+  "copyright": "Vue nocturne du paquebot Queen Mary, Long Beach, Californie, États-Unis (© Kit Leong/Shutterstock)",
+  "copyrightOnly": "© Kit Leong/Shutterstock",
+  "copyrightLink": "/search?q=Queen+Mary+paquebot&form=hpcapt&filters=HpDate%3a%2220251023_2200%22",
+  "description": "Avec ses airs de Titanic, on pourrait s'y méprendre… Pourtant, son histoire est bien différente. Sous le ciel étoilé de Californie, le Queen Mary est ancré dans les eaux calmes de Long Beach, sur la côte ouest des États-Unis. Ce paquebot britannique légendaire, lancé en 1936, fut autrefois le joyau de l'Atlantique. Avec ses lignes Art déco et sa vitesse record, il transportait des stars, des rois et des diplomates dans un luxe inégalé. Puis la guerre le métamorphosa : peint en gris, vidé de ses dorures, il devint le « Fantôme gris », chargé de soldats et de silence.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251023_QueenMary%22&FORM=HPQUIZ",
+  "hash": "7ef0d6fee0410df0578bd4caee4d4d33",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_FR-FR8887233581_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_FR-FR8887233581_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_FR-FR8887233581_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_FR-FR8887233581_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251023",
+    "fullStartDateTime": "202510232200",
+    "endDate": "20251024"
+  },
+  "createdAt": "202510230000",
+  "originalUrlBase": "/th?id=OHR.QueenMary_FR-FR8887233581"
+}
