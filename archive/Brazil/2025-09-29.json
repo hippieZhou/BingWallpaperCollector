@@ -1,43 +1,43 @@
 {
-  "date": "Sep 29, 2025",
+  "date": "Sep 30, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "O gostinho de Pienza",
+  "title": "A paleta secreta da Holanda",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Cidade de Pienza, na Toscana, Itália (© zpagistock/Getty Images)",
+  "copyright": "Casas Arco-Íris na cidade de Houten, Países Baixos (© George Pachantouris/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Pienza+na+Toscana&form=hpcapt&mkt=pt-br",
+  "copyrightLink": "/search?q=houten+pa%c3%adses+baixos&form=hpcapt&mkt=pt-br",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_PienzaItaly%22&FORM=HPQUIZ",
-  "hash": "8ef73d57b895672f4875f926ed12a75e",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_HoutenHouses%22&FORM=HPQUIZ",
+  "hash": "d008bfcbb03c9ca2f03beca58503e1df",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250928",
-    "endDate": "20250929",
-    "fullStartDateTime": "202509280300"
+    "startDate": "20250929",
+    "endDate": "20250930",
+    "fullStartDateTime": "202509290300"
   },
-  "createdAt": "202509290000",
-  "originalUrlBase": "/th?id=OHR.PienzaItaly_PT-BR0767999929"
+  "createdAt": "202509300000",
+  "originalUrlBase": "/th?id=OHR.HoutenHouses_PT-BR1748801440"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 14, 2025",
+  "date": "Sep 15, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "Moss and mist",
+  "title": "Wading for a sign",
   "bsTitle": "",
   "caption": "",
-  "copyright": "A waterfall in Olympic National Park, Washington, United States (© Chris Moore/TANDEM Stills + Motion)",
+  "copyright": "Black-winged stilts, France (© Antonio Sementa/500px/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Olympic+National+Park+Washington&form=hpcapt&filters=HpDate%3a%2220250913_1830%22",
-  "description": "A waterfall in Olympic National Park, Washington, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
-  "hash": "9681399fc082b2dd358b60acf7723ddc",
+  "copyrightLink": "/search?q=Black-winged+stilt&form=hpcapt&filters=HpDate%3a%2220250914_1830%22",
+  "description": "Black-winged stilts, France",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_Echasse%22&FORM=HPQUIZ",
+  "hash": "944e2ae4d3ad73e7a91a0c6ceea66ea9",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-IN1403285660_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_EN-IN1542383073_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250913",
-    "endDate": "20250914",
-    "fullStartDateTime": "202509131830"
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509141830"
   },
-  "createdAt": "202509140000",
-  "originalUrlBase": "/th?id=OHR.HohWaterfall_EN-IN1403285660"
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.Echasse_EN-IN1542383073"
 }

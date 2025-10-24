@@ -1,43 +1,43 @@
 {
-  "date": "Sep 07, 2025",
+  "date": "Sep 08, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Eine Perle an der Ostsee",
+  "title": "Lesen bringt Wesen",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Danzig am Ufer der Mottlau, Polen (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyright": "library@orchard, Singapur (© Darwin Fan/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Danzig&form=hpcapt&filters=HpDate%3a%2220250906_2200%22",
-  "description": "Danzig am Ufer der Mottlau, Polen",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_BlueGdansk%22&FORM=HPQUIZ",
-  "hash": "d40fd6cd5034863f40453590d01379c0",
+  "copyrightLink": "/search?q=Weltalphabetisierungstag&form=hpcapt&filters=HpDate%3a%2220250907_2200%22",
+  "description": "library@orchard, Singapur",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "dd3fe74d534719f6ac23062eaef21019",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_DE-DE1336292524_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_DE-DE1336292524_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_DE-DE1336292524_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_DE-DE1336292524_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250906",
-    "endDate": "20250907",
-    "fullStartDateTime": "202509062200"
+    "startDate": "20250907",
+    "endDate": "20250908",
+    "fullStartDateTime": "202509072200"
   },
-  "createdAt": "202509070000",
-  "originalUrlBase": "/th?id=OHR.BlueGdansk_DE-DE2028955580"
+  "createdAt": "202509080000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_DE-DE1336292524"
 }

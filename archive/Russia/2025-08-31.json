@@ -1,43 +1,43 @@
 {
-  "date": "Aug 31, 2025",
+  "date": "Sep 01, 2025",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)",
+  "copyright": "Scotts Bluff National Monument in Gering, Nebraska, United States (© Hawk Buckman/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Whale+shark&form=hpcapt",
-  "description": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_MaldivesWhaleShark%22&FORM=HPQUIZ",
-  "hash": "ad36cb2561d47c866cc3f8b17888e014",
+  "copyrightLink": "/search?q=Scotts+Bluff+National+Monument&form=hpcapt",
+  "description": "Scotts Bluff National Monument in Gering, Nebraska, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
+  "hash": "117195cb66c57499ba60173794bc81aa",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_ROW7272953722_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250830",
-    "endDate": "20250831",
-    "fullStartDateTime": "202508300700"
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508310700"
   },
-  "createdAt": "202508310000",
-  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_ROW7272953722"
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.ScottsBluff_ROW7379733057"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 09, 2025",
+  "date": "Sep 10, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Ein Meister des Kletterns",
+  "title": "Ein traditionsreiches Handwerk",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Ein Eurasisches Eichhörnchen trägt Moos, Schweiz (© Jean-Luc and Francoise Ziegler/Minden Pictures)",
+  "copyright": "Heuballen, North Yorkshire, England (© Nick Brundle Photography/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Eurasisches+Eichh%C3%B6rnchen&form=hpcapt&filters=HpDate%3a%2220250908_2200%22",
-  "description": "Ein Eurasisches Eichhörnchen trägt Moos, Schweiz",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_SwissSquirrel%22&FORM=HPQUIZ",
-  "hash": "5e276323a49be3656419b5b82ecf2638",
+  "copyrightLink": "/search?q=Yorkshire+England&form=hpcapt&filters=HpDate%3a%2220250909_2200%22",
+  "description": "Heuballen, North Yorkshire, England",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250909_YorkshireHay%22&FORM=HPQUIZ",
+  "hash": "5429a4741cfa2fc130315697a476559a",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_DE-DE6716022558_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_DE-DE6716022558_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_DE-DE6716022558_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_DE-DE3902212654_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_DE-DE6716022558_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250908",
-    "endDate": "20250909",
-    "fullStartDateTime": "202509082200"
+    "startDate": "20250909",
+    "endDate": "20250910",
+    "fullStartDateTime": "202509092200"
   },
-  "createdAt": "202509090000",
-  "originalUrlBase": "/th?id=OHR.SwissSquirrel_DE-DE3902212654"
+  "createdAt": "202509100000",
+  "originalUrlBase": "/th?id=OHR.YorkshireHay_DE-DE6716022558"
 }

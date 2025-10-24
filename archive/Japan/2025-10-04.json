@@ -1,43 +1,43 @@
 {
-  "date": "2025 年 10月 月 4 日",
+  "date": "2025 年 10月 月 5 日",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "今日から世界宇宙週間",
-  "bsTitle": "今日から世界宇宙週間",
-  "caption": "今日から世界宇宙週間",
-  "copyright": "エンデバーから見た ISS のソーラーパネル (© NASA)",
-  "copyrightOnly": "© NASA",
-  "copyrightLink": "/search?q=+ISS%e3%81%ae%e3%82%bd%e3%83%bc%e3%83%a9%e3%83%bc%e3%83%91%e3%83%8d%e3%83%ab&form=hpcapt&filters=HpDate%3a%2220251003_1500%22",
-  "description": "今日 10 月 4 日から 10 月 10 日までは世界宇宙週間です。1957 年の 10 月 4 日、世界初の人工衛星スプートニク 1 号が打ちあげられ、その 10 年後の 1967 年 10 月 10 日に、宇宙空間の平和的利用を定めた「宇宙条約」が発効したことを記念して、国連が制定しました…",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
-  "hash": "f52362e83515a37779723183e6b2ed35",
+  "title": "今日は世界教師デー",
+  "bsTitle": "今日は世界教師デー",
+  "caption": "今日は世界教師デー",
+  "copyright": "森に佇むキンメフクロウ (© Ondrej Prosicky/Alamy)",
+  "copyrightOnly": "© Ondrej Prosicky/Alamy",
+  "copyrightLink": "/search?q=%e4%b8%96%e7%95%8c%e6%95%99%e5%b8%ab%e3%83%87%e3%83%bc&form=hpcapt&filters=HpDate%3a%2220251004_1500%22",
+  "description": "儒教の始祖となった孔子や、万学の祖とも呼ばれるアリストテレス、学問のすすめを書いた福沢諭吉に至るまで、学問に関わる偉人たちは、その時代の人々に知識を伝えるだけでなく、現代にも影響を与え続けています。そして今日、10 月 5 日は世界教師デーであり、そうした偉大な教師たちの貢献に感謝する日です…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "0dbea890e682841e475e727e85812ffd",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251003",
-    "endDate": "20251004",
-    "fullStartDateTime": "202510031500"
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510041500"
   },
-  "createdAt": "202510040000",
-  "originalUrlBase": "/th?id=OHR.DragonEndeavour_JA-JP7626531843"
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_JA-JP7686022274"
 }

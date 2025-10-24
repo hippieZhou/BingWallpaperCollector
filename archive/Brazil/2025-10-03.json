@@ -1,43 +1,43 @@
 {
-  "date": "Oct 03, 2025",
+  "date": "Oct 04, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Selvagem por lei",
+  "title": "Sonhos envoltos na névoa",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Oxbow Bend no Snake River, Parque Nacional de Grand Teton, Wyoming, EUA (© DanitaDelimont.com/AWL Images/SuperStock)",
+  "copyright": "Urze crescendo em Glen Brittle, Ilha de Skye, Escócia (© Adam Mowery/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Parque+Nacional+de+Grand+Teton&form=hpcapt&mkt=pt-br",
+  "copyrightLink": "/search?q=Ilha+de+Skye&form=hpcapt&mkt=pt-br",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
-  "hash": "662b06fb7053cbaf719c77d707a35888",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "388872d2de59e306d96a49f2874d4d89",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_PT-BR7113823627_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251002",
-    "endDate": "20251003",
-    "fullStartDateTime": "202510020300"
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510030300"
   },
-  "createdAt": "202510030000",
-  "originalUrlBase": "/th?id=OHR.OxbowBend_PT-BR2338383870"
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_PT-BR7113823627"
 }

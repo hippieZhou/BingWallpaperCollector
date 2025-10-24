@@ -1,5 +1,5 @@
 {
-  "date": "18 Oct 2025",
+  "date": "18 oct. 2025",
   "country": "France",
   "marketCode": "fr-FR",
   "title": "Une colline pas comme les autres",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251017",
-    "endDate": "20251018",
-    "fullStartDateTime": "202510172200"
+    "fullStartDateTime": "202510172200",
+    "endDate": "20251018"
   },
-  "createdAt": "202510170000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.SilburyHill_FR-FR0576051334"
 }

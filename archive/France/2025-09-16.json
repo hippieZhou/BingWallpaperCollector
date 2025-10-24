@@ -1,43 +1,43 @@
 {
-  "date": "Sep 16, 2025",
+  "date": "Sep 17, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "La couche d’ozone, un succès environnemental",
+  "title": "Le souffle calme de la force",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Vue nocturne des États américains bordant le golfe du Mexique, depuis 360 kilomètres au-dessus de la Terre (© Stocktrek Images/Getty Images)",
+  "copyright": "Jeune élan mâle, parc national de Denali, Alaska, États-Unis (© Grant Ordelheide/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Protection+de+la+couche+d%27ozone&form=hpcapt&filters=HpDate%3a%2220250915_2200%22",
-  "description": "Vue nocturne des États américains bordant le golfe du Mexique, depuis 360 kilomètres au-dessus de la Terre",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
-  "hash": "f6deeeaa3df60cf17601cd12ebae204f",
+  "copyrightLink": "/search?q=%C3%A9lan+d%27Alaska&form=hpcapt&filters=HpDate%3a%2220250916_2200%22",
+  "description": "Jeune élan mâle, parc national de Denali, Alaska, États-Unis",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "df6c9f949e559444810353e7183313d4",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_FR-FR6213796059_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_FR-FR6213796059_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_FR-FR6213796059_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_FR-FR6213796059_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250915",
-    "endDate": "20250916",
-    "fullStartDateTime": "202509152200"
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509162200"
   },
-  "createdAt": "202509160000",
-  "originalUrlBase": "/th?id=OHR.OzoneEarth_FR-FR6213796059"
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_FR-FR2257077158"
 }

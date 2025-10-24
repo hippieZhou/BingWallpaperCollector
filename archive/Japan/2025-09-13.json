@@ -1,43 +1,43 @@
 {
-  "date": "Sep 13, 2025",
+  "date": "Sep 14, 2025",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "チムニー・ロックの美しい海岸",
+  "title": "苔と水が織りなす風景",
   "bsTitle": "",
   "caption": "",
-  "copyright": "ポイント・レイズ国定海岸, 米国 カリフォルニア州 (© Enrique Aguirre Aves/Getty Images)",
+  "copyright": "オリンピック国立公園, 米国 ワシントン州 (© Chris Moore/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%83%BB%E3%83%AC%E3%82%A4%E3%82%BA%E5%9B%BD%E5%AE%9A%E6%B5%B7%E5%B2%B8&form=hpcapt&filters=HpDate%3a%2220250912_1500%22",
-  "description": "ポイント・レイズ国定海岸, 米国 カリフォルニア州",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
-  "hash": "037a0cd0a37bf74066d31450039195e6",
+  "copyrightLink": "/search?q=%E3%82%AA%E3%83%AA%E3%83%B3%E3%83%94%E3%83%83%E3%82%AF%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9C%92&form=hpcapt&filters=HpDate%3a%2220250913_1500%22",
+  "description": "オリンピック国立公園, 米国 ワシントン州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "dfc79bd87c31214f7cfa099e9ba6c8b0",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_JA-JP8707934931_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250912",
-    "endDate": "20250913",
-    "fullStartDateTime": "202509121500"
+    "startDate": "20250913",
+    "endDate": "20250914",
+    "fullStartDateTime": "202509131500"
   },
-  "createdAt": "202509130000",
-  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_JA-JP7685899201"
+  "createdAt": "202509140000",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_JA-JP8707934931"
 }

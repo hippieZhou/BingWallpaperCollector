@@ -1,43 +1,43 @@
 {
-  "date": "2025 年 9月 月 30 日",
+  "date": "2025 年 10月 月 1 日",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "丸い体とふわふわの耳をもつ動物",
-  "bsTitle": "丸い体とふわふわの耳をもつ動物",
-  "caption": "丸い体とふわふわの耳をもつ動物",
-  "copyright": "コアラ, オーストラリア (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
-  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
-  "copyrightLink": "/search?q=%e3%82%b3%e3%82%a2%e3%83%a9&form=hpcapt&filters=HpDate%3a%2220250929_1500%22",
-  "description": "コアラは、オーストラリアにのみ生息する特有の消化能力を持つ有袋類で、ほとんどの動物が餌としないタンニンや油分を多く含むユーカリの葉を主食とすることで知られています。そのユーカリの消化には多大なエネルギーを使うため、1 日最大 20 時間も眠って過ごしエネルギーを節約します…",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_EucalyptusKoala%22&FORM=HPQUIZ",
-  "hash": "5a53d8df007e0882db60ab3df039137d",
+  "title": "氷河によって削られた険しい山脈",
+  "bsTitle": "氷河によって削られた険しい山脈",
+  "caption": "氷河によって削られた険しい山脈",
+  "copyright": "クラーク山脈, 米国 カリフォルニア州 (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=%e3%82%af%e3%83%a9%e3%83%bc%e3%82%af%e5%b1%b1%e8%84%88&form=hpcapt&filters=HpDate%3a%2220250930_1500%22",
+  "description": "米国カリフォルニア州中央部に位置するヨセミテ国立公園。シエラネバダ山脈の西側に広がり、約 3,100km² という広大な面積を誇ります。1890 年に国立公園に指定され、1984 年にはユネスコの世界遺産にも登録されました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "36a1c1306361df25e096ba48df7f775d",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_JA-JP6385601679_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_JA-JP6457719277_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_JA-JP6385601679_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_JA-JP6457719277_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_JA-JP6385601679_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_JA-JP6457719277_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_JA-JP6385601679_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_JA-JP6457719277_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250929",
-    "endDate": "20250930",
-    "fullStartDateTime": "202509291500"
+    "startDate": "20250930",
+    "endDate": "20251001",
+    "fullStartDateTime": "202509301500"
   },
-  "createdAt": "202509300000",
-  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_JA-JP6385601679"
+  "createdAt": "202510010000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_JA-JP6457719277"
 }

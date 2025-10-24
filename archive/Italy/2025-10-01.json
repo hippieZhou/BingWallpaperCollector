@@ -1,43 +1,43 @@
 {
-  "date": "Oct 01, 2025",
+  "date": "Oct 02, 2025",
   "country": "Italy",
   "marketCode": "it-IT",
-  "title": "Anime d’acqua e roccia",
+  "title": "Un Mare di Vino?",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Catena montuosa Clark, Sierra Nevada, Parco Nazionale di Yosemite, California, USA (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyright": "Bolgheri, frazione di Castagneto Carducci, Livorno, Maremma, Toscana (© ©StevanZZ/iStock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Parco+Nazionale+di+Yosemite&form=hpcapt",
+  "copyrightLink": "/search?q=Bolgheri+frazione&form=hpcapt",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_YosemiteClark%22&FORM=HPQUIZ",
-  "hash": "29f45674afa1d6d20b2f5a4c369f896c",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_ToscanaAutunno%22&FORM=HPQUIZ",
+  "hash": "e54e7f3a14d81065b1aefbee9cd40f81",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_IT-IT9290949114_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToscanaAutunno_IT-IT9368718519_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_IT-IT9290949114_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToscanaAutunno_IT-IT9368718519_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_IT-IT9290949114_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToscanaAutunno_IT-IT9368718519_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_IT-IT9290949114_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToscanaAutunno_IT-IT9368718519_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250930",
-    "endDate": "20251001",
-    "fullStartDateTime": "202509302200"
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510012200"
   },
-  "createdAt": "202510010000",
-  "originalUrlBase": "/th?id=OHR.YosemiteClark_IT-IT9290949114"
+  "createdAt": "202510020000",
+  "originalUrlBase": "/th?id=OHR.ToscanaAutunno_IT-IT9368718519"
 }

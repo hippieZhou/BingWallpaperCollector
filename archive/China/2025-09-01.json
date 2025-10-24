@@ -1,43 +1,43 @@
 {
-  "date": "Sep 01, 2025",
+  "date": "Sep 02, 2025",
   "country": "China",
   "marketCode": "zh-CN",
-  "title": "风景如画的葡萄园",
+  "title": "死谷的幽灵",
   "bsTitle": "",
   "caption": "",
-  "copyright": "凯撒施图尔，巴登-符腾堡，德国 (© EyeEM Mobile GmbH/Getty Images)",
+  "copyright": "骆驼刺树, 死亡谷, 纳米布-诺克卢福国家公园, 纳米比亚 (© Inge Johnsson/Alamy Stock Photo)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E5%B7%B4%E7%99%BB-%E7%AC%A6%E8%85%BE%E5%A0%A1&form=hpcapt&mkt=zh-cn",
-  "description": "凯撒施图尔，巴登-符腾堡，德国",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_FieldKaiserstuhl%22&FORM=HPQUIZ",
-  "hash": "af91c316f14884de2b2dc7414e6409f3",
+  "copyrightLink": "/search?q=%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A%E7%BA%B3%E7%B1%B3%E5%B8%83%E8%AF%BA%E5%85%8B%E8%B7%AF%E7%A6%8F%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
+  "description": "骆驼刺树, 死亡谷, 纳米布-诺克卢福国家公园, 纳米比亚",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_DeadvleiTrees%22&FORM=HPQUIZ",
+  "hash": "5a90953aa8f36462fa4b1901ee601393",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ZH-CN0467488834_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ZH-CN0467488834_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ZH-CN0467488834_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ZH-CN0467488834_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250831",
-    "endDate": "20250901",
-    "fullStartDateTime": "202508311600"
+    "startDate": "20250901",
+    "endDate": "20250902",
+    "fullStartDateTime": "202509011600"
   },
-  "createdAt": "202509010000",
-  "originalUrlBase": "/th?id=OHR.FieldKaiserstuhl_ZH-CN0467488834"
+  "createdAt": "202509020000",
+  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_ZH-CN0967414858"
 }

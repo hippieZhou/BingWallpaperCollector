@@ -1,43 +1,43 @@
 {
-  "date": "Sep. 16, 2025",
+  "date": "Sep. 17, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "Cape Brenton views",
+  "title": "A stratospheric success",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Coastline at Cape Breton Highlands National Park, Nova Scotia (© Tiago_Fernandez/Getty Images)",
+  "copyright": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth (© Stocktrek Images/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Cape+Breton+Highlands+National+Park+Nova+Scotia&form=hpcapt&filters=HpDate%3a%2220250915_0400%22",
-  "description": "Coastline at Cape Breton Highlands National Park, Nova Scotia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_BrentonHighlandsNP%22&FORM=HPQUIZ",
-  "hash": "17aa0b39fa71358901652bab0872eefe",
+  "copyrightLink": "/search?q=Ozone+Day&form=hpcapt&filters=HpDate%3a%2220250916_0400%22",
+  "description": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "f7eb56ba835a471da242d379f02f946f",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-CA7588653763_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250915",
-    "endDate": "20250916",
-    "fullStartDateTime": "202509150400"
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509160400"
   },
-  "createdAt": "202509160000",
-  "originalUrlBase": "/th?id=OHR.BrentonHighlandsNP_EN-CA6938321042"
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_EN-CA7588653763"
 }

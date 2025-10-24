@@ -1,43 +1,43 @@
 {
-  "date": "Sep 03, 2025",
+  "date": "Sep 04, 2025",
   "country": "UnitedKingdom",
   "marketCode": "en-GB",
-  "title": "Gothic majesty",
+  "title": "Bear with us",
   "bsTitle": "",
   "caption": "",
-  "copyright": "St Barbara's Cathedral, Kutná Hora, Czechia (© Castka/Getty Images)",
+  "copyright": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States (© Cavan Images/Adobe Stock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=St+Barbaras+Cathedral&form=hpcapt&filters=HpDate%3a%2220250902_2300%22",
-  "description": "St Barbara's Cathedral, Kutná Hora, Czechia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_SaintBarbaras%22&FORM=HPQUIZ",
-  "hash": "3baad0d32e4a86054d758bd9a8b592fd",
+  "copyrightLink": "/search?q=Grizzly+bears&form=hpcapt&filters=HpDate%3a%2220250903_2300%22",
+  "description": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_WrestlingBears%22&FORM=HPQUIZ",
+  "hash": "b1c4d1b139bdc38f45ffd134dd530c41",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-GB0842695883_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-GB3380146887_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-GB0842695883_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-GB3380146887_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-GB0842695883_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-GB3380146887_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SaintBarbaras_EN-GB0842695883_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-GB3380146887_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250902",
-    "endDate": "20250903",
-    "fullStartDateTime": "202509022300"
+    "startDate": "20250903",
+    "endDate": "20250904",
+    "fullStartDateTime": "202509032300"
   },
-  "createdAt": "202509030000",
-  "originalUrlBase": "/th?id=OHR.SaintBarbaras_EN-GB0842695883"
+  "createdAt": "202509040000",
+  "originalUrlBase": "/th?id=OHR.WrestlingBears_EN-GB3380146887"
 }

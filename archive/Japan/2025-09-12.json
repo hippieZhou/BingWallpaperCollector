@@ -1,43 +1,43 @@
 {
-  "date": "Sep 12, 2025",
+  "date": "Sep 13, 2025",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "今日は宇宙の日",
+  "title": "チムニー・ロックの美しい海岸",
   "bsTitle": "",
   "caption": "",
-  "copyright": "種子島宇宙センター, 鹿児島県 (© norinori303/Adobe Stock)",
+  "copyright": "ポイント・レイズ国定海岸, 米国 カリフォルニア州 (© Enrique Aguirre Aves/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E7%A8%AE%E5%AD%90%E5%B3%B6%E5%AE%87%E5%AE%99%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC&form=hpcapt&filters=HpDate%3a%2220250911_1500%22",
-  "description": "種子島宇宙センター, 鹿児島県",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_SpaceDay2025%22&FORM=HPQUIZ",
-  "hash": "6d11ee8a79381e323d9970582f974681",
+  "copyrightLink": "/search?q=%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%83%BB%E3%83%AC%E3%82%A4%E3%82%BA%E5%9B%BD%E5%AE%9A%E6%B5%B7%E5%B2%B8&form=hpcapt&filters=HpDate%3a%2220250912_1500%22",
+  "description": "ポイント・レイズ国定海岸, 米国 カリフォルニア州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
+  "hash": "037a0cd0a37bf74066d31450039195e6",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SpaceDay2025_JA-JP8112086826_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_JA-JP7685899201_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250911",
-    "endDate": "20250912",
-    "fullStartDateTime": "202509111500"
+    "startDate": "20250912",
+    "endDate": "20250913",
+    "fullStartDateTime": "202509121500"
   },
-  "createdAt": "202509120000",
-  "originalUrlBase": "/th?id=OHR.SpaceDay2025_JA-JP8112086826"
+  "createdAt": "202509130000",
+  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_JA-JP7685899201"
 }

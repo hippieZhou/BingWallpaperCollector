@@ -1,43 +1,43 @@
 {
-  "date": "Sep. 30, 2025",
+  "date": "Oct. 1, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "Clinging to what matters",
-  "bsTitle": "Clinging to what matters",
-  "caption": "Koala in the Great Otway National Park, Australia",
-  "copyright": "Koala in a eucalyptus tree, Great Otway National Park, Australia (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
-  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
-  "copyrightLink": "/search?q=Koala&form=hpcapt&filters=HpDate%3a%2220250930_0400%22",
-  "description": "Amid the lush eucalyptus canopy of Great Otway National Park, koalas reign as sleepy sentinels of Australia's wild soul. Often misnamed 'koala bears,' these marsupials are actually closer to wombats and tend to be instantly recognisable by their stout, tailless bodies, fluffy ears and velvety black noses.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_EucalyptusKoala%22&FORM=HPQUIZ",
-  "hash": "395995d76b20897a57fdf781a690dd51",
+  "title": "Echoes from the Clark Range",
+  "bsTitle": "Echoes from the Clark Range",
+  "caption": "Clark Range, Yosemite National Park, California, United States",
+  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=National+Park+Yosemite&form=hpcapt&filters=HpDate%3a%2220251001_0400%22",
+  "description": "This year marks another milestone in the legacy of Yosemite National Park in California, United States, a sanctuary protected since 1864 and celebrated for its awe-inspiring grandeur and ecological significance. Nestled in the heart of the Sierra Nevada, Yosemite's nearly 3,100 square kilometres cradle granite giants, cascading waterfalls and ancient sequoias. Among its lesser-known treasures lies the Clark Range—the rugged, high-elevation spine seen in today's image. It was named after Galen Clark, Yosemite's first guardian and a pioneer of conservation.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "0eb1a470b02fa27924498255c8b8136b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_EN-CA8939050680_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250930",
-    "endDate": "20251001",
-    "fullStartDateTime": "202509300400"
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510010400"
   },
-  "createdAt": "202510010000",
-  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_EN-CA8939050680"
+  "createdAt": "202510020000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_EN-CA9187443856"
 }

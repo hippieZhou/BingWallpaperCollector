@@ -1,43 +1,43 @@
 {
-  "date": "Sep 07, 2025",
+  "date": "Sep 08, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Pequeno grande viajante",
+  "title": "A cidade preservada em âmbar",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Beija-flor-ruivo no Golden Gate Park, São Francisco, Califórnia, Estados Unidos (© jeremyborkat/Getty Images)",
+  "copyright": "Gdansk às margens do rio Motława, Polônia (© Oscar Dominguez/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=beija-flor&form=hpcapt&mkt=pt-br",
-  "description": "Beija-flor-ruivo no Golden Gate Park, São Francisco, Califórnia, Estados Unidos",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_RufousHummer%22&FORM=HPQUIZ",
-  "hash": "68781d16154f9fbd2dee21f3c6d21d34",
+  "copyrightLink": "/search?q=Gdansk&form=hpcapt&mkt=pt-br",
+  "description": "Gdansk às margens do rio Motława, Polônia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "3252b4d8bf505504a99de68f85b187e1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250906",
-    "endDate": "20250907",
-    "fullStartDateTime": "202509060300"
+    "startDate": "20250907",
+    "endDate": "20250908",
+    "fullStartDateTime": "202509070300"
   },
-  "createdAt": "202509070000",
-  "originalUrlBase": "/th?id=OHR.RufousHummer_PT-BR5721753783"
+  "createdAt": "202509080000",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_PT-BR6180639699"
 }

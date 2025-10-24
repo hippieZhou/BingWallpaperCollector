@@ -1,43 +1,43 @@
 {
-  "date": "Aug 28, 2025",
+  "date": "Aug 29, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Majestät in Weiß",
+  "title": "Das Wahrzeichen der Stadt",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Silberreiher, Ungarn (© Markus Varesvuo/Nature Picture Library)",
+  "copyright": "Luftaufnahme der Plaza Mayor, Madrid, Spanien (© AirPano LLC/Amazing Aerial Agency)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Silberreiher&form=hpcapt&filters=HpDate%3a%2220250827_2200%22",
-  "description": "Silberreiher, Ungarn",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
-  "hash": "c4fa4bcba5db43558a99a26b299d378d",
+  "copyrightLink": "/search?q=Madrid+Hauptstadt+Spanien&form=hpcapt&filters=HpDate%3a%2220250828_2200%22",
+  "description": "Luftaufnahme der Plaza Mayor, Madrid, Spanien",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "e1a5719d75febe56aceffbb97822d41d",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_DE-DE2952299555_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250827",
-    "endDate": "20250828",
-    "fullStartDateTime": "202508272200"
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508282200"
   },
-  "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.WhiteEgret_DE-DE4529883456"
+  "createdAt": "202508290000",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_DE-DE2952299555"
 }

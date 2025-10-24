@@ -1,43 +1,43 @@
 {
-  "date": "Sep 15, 2025",
+  "date": "Sep 16, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Moss and mist",
+  "title": "Vibrancy in every brick",
   "bsTitle": "",
   "caption": "",
-  "copyright": "A waterfall in Olympic National Park, Washington (© Chris Moore/TANDEM Stills + Motion)",
+  "copyright": "Latino Cultural Center designed by Ricardo Legorreta, Dallas, Texas (© Ken Hurst/Alamy)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Olympic+National+Park+Washington&form=hpcapt&filters=HpDate%3a%2220250914_0700%22",
-  "description": "A waterfall in Olympic National Park, Washington",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_HohWaterfall%22&FORM=HPQUIZ",
-  "hash": "cfd7bec4245c83fa1cf1be10e116669e",
+  "copyrightLink": "/search?q=Hispanic+Heritage+Month&form=hpcapt&filters=HpDate%3a%2220250915_0700%22",
+  "description": "Latino Cultural Center designed by Ricardo Legorreta, Dallas, Texas",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_DallasLegorreta%22&FORM=HPQUIZ",
+  "hash": "7c0d848a580ca0652fbe1a7f6c722854",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-US9003533736_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-US9003533736_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-US9003533736_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-US9003533736_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250914",
-    "endDate": "20250915",
-    "fullStartDateTime": "202509140700"
+    "startDate": "20250915",
+    "endDate": "20250916",
+    "fullStartDateTime": "202509150700"
   },
-  "createdAt": "202509150000",
-  "originalUrlBase": "/th?id=OHR.HohWaterfall_EN-US9003533736"
+  "createdAt": "202509160000",
+  "originalUrlBase": "/th?id=OHR.DallasLegorreta_EN-US9050675226"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 13, 2025",
+  "date": "Sep 14, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Cada mergulho é um splash!",
+  "title": "Esculpida pelo Pacífico",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Grupo de golfinhos-rotadores no Mar Vermelho, Marsa Alam, Egito (© Franco Banfi/Nature Picture Library)",
+  "copyright": "Chimney Rock, Point Reyes National Seashore, Califórnia, EUA (© Enrique Aguirre Aves/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Dia+Mundial+do+Golfinho&form=hpcapt&mkt=pt-br",
-  "description": "Grupo de golfinhos-rotadores no Mar Vermelho, Marsa Alam, Egito",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_SpinnerDolphins%22&FORM=HPQUIZ",
-  "hash": "f1154ff9829b5c2460d01cdc51ebbf6b",
+  "copyrightLink": "/search?q=Point+Reyes+National+Seashore+na+Calif%C3%B3rnia&form=hpcapt&mkt=pt-br",
+  "description": "Chimney Rock, Point Reyes National Seashore, Califórnia, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_PointReyesSeashore%22&FORM=HPQUIZ",
+  "hash": "980df16a3d116363f48693d6656b4b79",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_PT-BR6646395434_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_PT-BR6646395434_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_PT-BR6646395434_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_PT-BR6646395434_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250912",
-    "endDate": "20250913",
-    "fullStartDateTime": "202509120300"
+    "startDate": "20250913",
+    "endDate": "20250914",
+    "fullStartDateTime": "202509130300"
   },
-  "createdAt": "202509130000",
-  "originalUrlBase": "/th?id=OHR.SpinnerDolphins_PT-BR7075724083"
+  "createdAt": "202509140000",
+  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_PT-BR6646395434"
 }

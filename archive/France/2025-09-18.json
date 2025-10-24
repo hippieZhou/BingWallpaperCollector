@@ -1,43 +1,43 @@
 {
-  "date": "Sep 18, 2025",
+  "date": "Sep 19, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Un ruban de pierre vers la mer",
+  "title": "Place à 24 heures de légende",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Escalier sinueux de Dunquin Pier, comté de Kerry, Irlande (© Hugh O'Connor/Getty Images)",
+  "copyright": "Vue aérienne du circuit Paul Ricard, Le Castellet (© Sami Sarkis/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Dunquin+Pier+Irlande&form=hpcapt&filters=HpDate%3a%2220250917_2200%22",
-  "description": "Escalier sinueux de Dunquin Pier, comté de Kerry, Irlande",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_DunquinIreland%22&FORM=HPQUIZ",
-  "hash": "853e6835653f9cfb66e977ea76824801",
+  "copyrightLink": "/search?q=Circuit+Paul-Ricard&form=hpcapt&filters=HpDate%3a%2220250918_2200%22",
+  "description": "Vue aérienne du circuit Paul Ricard, Le Castellet",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_BolDor%22&FORM=HPQUIZ",
+  "hash": "9a3dd9aeaa46587cb78ff9d6ab22369d",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BolDor_FR-FR4058003205_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BolDor_FR-FR4058003205_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BolDor_FR-FR4058003205_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BolDor_FR-FR4058003205_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250917",
-    "endDate": "20250918",
-    "fullStartDateTime": "202509172200"
+    "startDate": "20250918",
+    "endDate": "20250919",
+    "fullStartDateTime": "202509182200"
   },
-  "createdAt": "202509180000",
-  "originalUrlBase": "/th?id=OHR.DunquinIreland_FR-FR6571793587"
+  "createdAt": "202509190000",
+  "originalUrlBase": "/th?id=OHR.BolDor_FR-FR4058003205"
 }

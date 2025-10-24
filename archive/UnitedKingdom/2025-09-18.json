@@ -1,43 +1,43 @@
 {
-  "date": "Sep 18, 2025",
+  "date": "Sep 19, 2025",
   "country": "UnitedKingdom",
   "marketCode": "en-GB",
-  "title": "Ireland's western edge",
+  "title": "A thousand reasons to visit",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Serpentine stairs of Dunquin Pier, County Kerry, Ireland (© Hugh O'Connor/Getty Images)",
+  "copyright": "Thousand Islands region, St Lawrence River, USA-Canada border (© benedek/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Dunquin+Pier&form=hpcapt&filters=HpDate%3a%2220250917_2300%22",
-  "description": "Serpentine stairs of Dunquin Pier, County Kerry, Ireland",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_DunquinIreland%22&FORM=HPQUIZ",
-  "hash": "706cb1e695a63502ab080c941ea97531",
+  "copyrightLink": "/search?q=Thousand+Islands+region&form=hpcapt&filters=HpDate%3a%2220250918_2300%22",
+  "description": "Thousand Islands region, St Lawrence River, USA-Canada border",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_ThousandIslands%22&FORM=HPQUIZ",
+  "hash": "c7612db3d768a2440145d3767f0e1d3b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-GB3162997633_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-GB1501665871_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-GB3162997633_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-GB1501665871_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-GB3162997633_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-GB1501665871_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_EN-GB3162997633_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_EN-GB1501665871_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250917",
-    "endDate": "20250918",
-    "fullStartDateTime": "202509172300"
+    "startDate": "20250918",
+    "endDate": "20250919",
+    "fullStartDateTime": "202509182300"
   },
-  "createdAt": "202509180000",
-  "originalUrlBase": "/th?id=OHR.DunquinIreland_EN-GB3162997633"
+  "createdAt": "202509190000",
+  "originalUrlBase": "/th?id=OHR.ThousandIslands_EN-GB1501665871"
 }

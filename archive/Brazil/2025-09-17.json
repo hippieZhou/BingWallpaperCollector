@@ -1,43 +1,43 @@
 {
-  "date": "Sep 17, 2025",
+  "date": "Sep 18, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Um sucesso estratosférico",
+  "title": "Surf, história e pôr do sol",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Vista noturna da Golfo do México, 362 quilômetros acima da Terra (© Stocktrek Images/Getty Images)",
+  "copyright": "Praia do Arpoador, Rio de Janeiro (© marchello74/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Dia+Internacional+para+a+Preserva%C3%A7%C3%A3o+da+Camada+de+Oz%C3%B4nio&form=hpcapt&mkt=pt-br",
-  "description": "Vista noturna da Golfo do México, 362 quilômetros acima da Terra",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_OzoneEarth%22&FORM=HPQUIZ",
-  "hash": "429913ffb40924f92caca4cf58823f70",
+  "copyrightLink": "/search?q=Arpoador&form=hpcapt&mkt=pt-br",
+  "description": "Praia do Arpoador, Rio de Janeiro",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_ArpoadorRJ%22&FORM=HPQUIZ",
+  "hash": "8e509960ca0012aad15938d4e29c517e",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ArpoadorRJ_PT-BR5341950627_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250916",
-    "endDate": "20250917",
-    "fullStartDateTime": "202509160300"
+    "startDate": "20250917",
+    "endDate": "20250918",
+    "fullStartDateTime": "202509170300"
   },
-  "createdAt": "202509170000",
-  "originalUrlBase": "/th?id=OHR.OzoneEarth_PT-BR3466489488"
+  "createdAt": "202509180000",
+  "originalUrlBase": "/th?id=OHR.ArpoadorRJ_PT-BR5341950627"
 }

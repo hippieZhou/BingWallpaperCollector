@@ -1,43 +1,43 @@
 {
-  "date": "Sep 08, 2025",
+  "date": "Sep 09, 2025",
   "country": "Italy",
   "marketCode": "it-IT",
-  "title": "Libri, Luce e Libertà",
+  "title": "Là dove finisce la Terra",
   "bsTitle": "",
   "caption": "",
-  "copyright": "library@orchard, Singapore (© Darwin Fan/Getty Images)",
+  "copyright": "Scala a chiocciola del molo di Dún Chaoin, Contea di Kerry, Irlanda (© Hugh O'Connor/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Giornata+internazionale+dell%E2%80%99+alfabetizzazione&form=hpcapt",
-  "description": "library@orchard, Singapore",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_OrchardLibrary%22&FORM=HPQUIZ",
-  "hash": "3a239c76dc1cc2c968d07001ab21208c",
+  "copyrightLink": "/search?q=D%C3%BAn+Chaoin&form=hpcapt",
+  "description": "Scala a chiocciola del molo di Dún Chaoin, Contea di Kerry, Irlanda",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "ba8398768edea25f1be8d688860b7966",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_IT-IT9116681695_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_IT-IT9116681695_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_IT-IT9116681695_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_IT-IT9071511638_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_IT-IT9116681695_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250907",
-    "endDate": "20250908",
-    "fullStartDateTime": "202509072200"
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509082200"
   },
-  "createdAt": "202509080000",
-  "originalUrlBase": "/th?id=OHR.OrchardLibrary_IT-IT9071511638"
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_IT-IT9116681695"
 }

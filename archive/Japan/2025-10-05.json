@@ -1,43 +1,43 @@
 {
-  "date": "2025 年 10月 月 5 日",
+  "date": "2025 年 10月 月 6 日",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "今日は世界教師デー",
-  "bsTitle": "今日は世界教師デー",
-  "caption": "今日は世界教師デー",
-  "copyright": "森に佇むキンメフクロウ (© Ondrej Prosicky/Alamy)",
-  "copyrightOnly": "© Ondrej Prosicky/Alamy",
-  "copyrightLink": "/search?q=%e4%b8%96%e7%95%8c%e6%95%99%e5%b8%ab%e3%83%87%e3%83%bc&form=hpcapt&filters=HpDate%3a%2220251004_1500%22",
-  "description": "儒教の始祖となった孔子や、万学の祖とも呼ばれるアリストテレス、学問のすすめを書いた福沢諭吉に至るまで、学問に関わる偉人たちは、その時代の人々に知識を伝えるだけでなく、現代にも影響を与え続けています。そして今日、10 月 5 日は世界教師デーであり、そうした偉大な教師たちの貢献に感謝する日です…",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
-  "hash": "0dbea890e682841e475e727e85812ffd",
+  "title": "今日は中秋の名月",
+  "bsTitle": "今日は中秋の名月",
+  "caption": "今日は中秋の名月",
+  "copyright": "錦江に映える安順橋と満月, 中国 (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightOnly": "© Philippe LEJEANVRE/Getty Images",
+  "copyrightLink": "/search?q=%e5%ae%89%e9%a0%86%e6%a9%8b&form=hpcapt&filters=HpDate%3a%2220251005_1500%22",
+  "description": "今日 10 月 6 日は中秋の名月。「十五夜」とも呼ばれ、お団子やススキなどをお供えし、お月見をする日です。もともとは、中国の中秋節に由来しており、平安時代に日本へと伝わり定着しました。そして、今日の画像の月は、中国・成都の安順橋の上に浮かんでいます…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "6831830d4852b47247b2a03b98f72629",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_JA-JP7686022274_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_JA-JP7739273331_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251004",
-    "endDate": "20251005",
-    "fullStartDateTime": "202510041500"
+    "startDate": "20251005",
+    "endDate": "20251006",
+    "fullStartDateTime": "202510051500"
   },
-  "createdAt": "202510050000",
-  "originalUrlBase": "/th?id=OHR.TeacherOwl_JA-JP7686022274"
+  "createdAt": "202510060000",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_JA-JP7739273331"
 }

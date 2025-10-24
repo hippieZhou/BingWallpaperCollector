@@ -1,43 +1,43 @@
 {
-  "date": "Sep 01, 2025",
+  "date": "Sep 02, 2025",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Scotts Bluff National Monument in Gering, Nebraska, United States (© Hawk Buckman/Getty Images)",
+  "copyright": "Kaiserstuhl, Baden-Württemberg, Germany (© EyeEM Mobile GmbH/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Scotts+Bluff+National+Monument&form=hpcapt",
-  "description": "Scotts Bluff National Monument in Gering, Nebraska, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
-  "hash": "117195cb66c57499ba60173794bc81aa",
+  "copyrightLink": "/search?q=Kaiserstuhl&form=hpcapt",
+  "description": "Kaiserstuhl, Baden-Württemberg, Germany",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_FieldKaiserstuhl%22&FORM=HPQUIZ",
+  "hash": "f3e90a2e8b8ec2a2515bb3f8f509f3d0",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ROW7379733057_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250831",
-    "endDate": "20250901",
-    "fullStartDateTime": "202508310700"
+    "startDate": "20250901",
+    "endDate": "20250902",
+    "fullStartDateTime": "202509010700"
   },
-  "createdAt": "202509010000",
-  "originalUrlBase": "/th?id=OHR.ScottsBluff_ROW7379733057"
+  "createdAt": "202509020000",
+  "originalUrlBase": "/th?id=OHR.FieldKaiserstuhl_ROW2652237582"
 }

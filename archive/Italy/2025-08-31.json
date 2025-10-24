@@ -1,43 +1,43 @@
 {
-  "date": "Aug 31, 2025",
+  "date": "Sep 01, 2025",
   "country": "Italy",
   "marketCode": "it-IT",
-  "title": "Tracce invisibili?",
+  "title": "Trull-la-la",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Monumento Nazionale di Scotts Bluff a Gering, Nebraska, USA (© Hawk Buckman/Getty Images)",
+  "copyright": "Trulli ad Alberobello, Bari, Puglia (© Feng Wei Photography/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Gering+citt%C3%A0+in+Nebraska&form=hpcapt",
-  "description": "Monumento Nazionale di Scotts Bluff a Gering, Nebraska, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_ScottsBluff%22&FORM=HPQUIZ",
-  "hash": "4bd735b8840e567e21302976181fb1b0",
+  "copyrightLink": "/search?q=Alberobello&form=hpcapt",
+  "description": "Trulli ad Alberobello, Bari, Puglia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_TrulliHouses%22&FORM=HPQUIZ",
+  "hash": "4c0b9af70ab5d4c5fc3a9b17075e3fbf",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_IT-IT0073144913_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_IT-IT0120917493_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_IT-IT0073144913_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_IT-IT0120917493_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_IT-IT0073144913_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_IT-IT0120917493_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_IT-IT0073144913_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_IT-IT0120917493_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250830",
-    "endDate": "20250831",
-    "fullStartDateTime": "202508302200"
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508312200"
   },
-  "createdAt": "202508310000",
-  "originalUrlBase": "/th?id=OHR.ScottsBluff_IT-IT0073144913"
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.TrulliHouses_IT-IT0120917493"
 }

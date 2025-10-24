@@ -1,43 +1,43 @@
 {
-  "date": "Oct 2, 2025",
+  "date": "Oct 3, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Wild by law",
-  "bsTitle": "Wild by law",
-  "caption": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming",
-  "copyright": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming (© DanitaDelimont.com/AWL Images/SuperStock)",
-  "copyrightOnly": "© DanitaDelimont.com/AWL Images/SuperStock",
-  "copyrightLink": "/search?q=National+Wild+and+Scenic+Rivers+System&form=hpcapt&filters=HpDate%3a%2220251002_0700%22",
-  "description": "Beyond water, rivers carry life, history, and stories. They are nature's ever-moving contribution to our landscapes, flowing through lands and across time. One such gem is the Snake River, which winds through Grand Teton National Park in Wyoming. A particularly stunning spot along this river is Oxbow Bend—featured in today's image—where calm waters reflect the towering Teton Range, and wildlife such as moose and bald eagles thrive. Here, water flows freely, unbound by concrete or commerce, protected by the Wild and Scenic Rivers Act, signed on this day in 1968.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
-  "hash": "a2867703bf67a005730df0e76f67614d",
+  "title": "Mist-bound reveries",
+  "bsTitle": "Mist-bound reveries",
+  "caption": "Glen Brittle, Isle of Skye, Scotland",
+  "copyright": "Heather growing in Glen Brittle, Isle of Skye, Scotland (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=Glen+Brittle+in+Skye&form=hpcapt&filters=HpDate%3a%2220251003_0700%22",
+  "description": "Mists curl, waters glimmer, and legends linger—welcome to Glen Brittle. On the Isle of Skye, Scotland's fabled 'Misty Isle,' the glen stretches in a sweep of purple heather carpeting its rugged slopes. The landscape hums with echoes of the past: dinosaurs left footprints on these cliffs long before Mesolithic hunters traced its streams over 8,000 years ago. In the 9th century, seafaring Norse Vikings settled here. Centuries later, the powerful MacLeod and MacDonald clans claimed these lands, their castles standing guard over countless battles and alliances.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "017ba25c990b7e1fa805c4642c93b4e3",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-US8471628790_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-US9221942108_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-US8471628790_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-US9221942108_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-US8471628790_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-US9221942108_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-US8471628790_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-US9221942108_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251002",
-    "endDate": "20251003",
-    "fullStartDateTime": "202510020700"
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510030700"
   },
-  "createdAt": "202510030000",
-  "originalUrlBase": "/th?id=OHR.OxbowBend_EN-US8471628790"
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_EN-US9221942108"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "3. Okt.. 2025",
+  "date": "4. Okt.. 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Symbol der Einheit",
-  "bsTitle": "Symbol der Einheit",
-  "caption": "Tag der Deutschen Einheit",
-  "copyright": "Brandenburger Tor bei Sonnenuntergang, Berlin (© Craig Hastings/Getty Images)",
-  "copyrightOnly": "© Craig Hastings/Getty Images",
-  "copyrightLink": "/search?q=Tag+der+Deutschen+Einheit&form=hpcapt&filters=HpDate%3a%2220251002_2200%22",
-  "description": "Heute begehen wir den Tag der Deutschen Einheit – den einzigen gesetzlichen Nationalfeiertag in Deutschland. Er erinnert an die Wiedervereinigung von 1990, als die Deutsche Demokratische Republik (DDR) der Bundesrepublik Deutschland beitrat. Damit endete die jahrzehntelange Teilung des Landes, die nach dem Zweiten Weltkrieg begonnen hatte. Besonders in Berlin, wo die Mauer einst die Stadt spaltete, wird dieser Tag intensiv erlebt. Orte wie die Gedenkstätte Berliner Mauer, das Brandenburger Tor oder die East Side Gallery laden dazu ein, Geschichte hautnah nachzuvollziehen.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_BrandenburgGate%22&FORM=HPQUIZ",
-  "hash": "806b45873e930bc04a70be1caca1d98c",
+  "title": "Der Kosmos kennt keine Grenzen",
+  "bsTitle": "Der Kosmos kennt keine Grenzen",
+  "caption": "Internationale Weltraumwoche",
+  "copyright": "Die Hauptsolaranlagen der ISS, gesehen von der SpaceX Crew Dragon Endeavour (© NASA)  (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=Internationale+Weltraumwoche&form=hpcapt&filters=HpDate%3a%2220251003_2200%22",
+  "description": "Jedes Jahr vom 4. bis 10. Oktober wird die Internationale Weltraumwoche gefeiert – eine Initiative der Vereinten Nationen, die die Bedeutung von Raumfahrttechnologie und -wissenschaft für das Leben auf der Erde hervorhebt. Diese Woche erinnert an zwei historische Meilensteine: den Start des ersten künstlichen Satelliten, Sputnik I, am 4. Oktober 1957 und das Inkrafttreten des Weltraumvertrags am 10. Oktober 1967, der die friedliche Nutzung des Weltraums sowie das Verbot von Waffen im All regelt. Weltweit finden in dieser Zeit zahlreiche Veranstaltungen statt – von Schulprojekten bis hin zu wissenschaftlichen Ausstellungen –, um das Interesse an der Raumfahrt zu fördern und junge Menschen für die Erforschung des Universums zu begeistern.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "8b0f40693cba842b1618c6643518fb4d",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BrandenburgGate_DE-DE4138430516_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BrandenburgGate_DE-DE4138430516_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BrandenburgGate_DE-DE4138430516_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BrandenburgGate_DE-DE4138430516_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251002",
-    "endDate": "20251003",
-    "fullStartDateTime": "202510022200"
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510032200"
   },
-  "createdAt": "202510030000",
-  "originalUrlBase": "/th?id=OHR.BrandenburgGate_DE-DE4138430516"
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_DE-DE7375931305"
 }

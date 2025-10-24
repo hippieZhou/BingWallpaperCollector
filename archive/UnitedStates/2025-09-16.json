@@ -1,43 +1,43 @@
 {
-  "date": "Sep 16, 2025",
+  "date": "Sep 17, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Vibrancy in every brick",
+  "title": "A stratospheric success",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Latino Cultural Center designed by Ricardo Legorreta, Dallas, Texas (© Ken Hurst/Alamy)",
+  "copyright": "Nighttime view of the Gulf Coast states from 225 miles above Earth (© Stocktrek Images/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Hispanic+Heritage+Month&form=hpcapt&filters=HpDate%3a%2220250915_0700%22",
-  "description": "Latino Cultural Center designed by Ricardo Legorreta, Dallas, Texas",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_DallasLegorreta%22&FORM=HPQUIZ",
-  "hash": "7c0d848a580ca0652fbe1a7f6c722854",
+  "copyrightLink": "/search?q=Ozone+Day&form=hpcapt&filters=HpDate%3a%2220250916_0700%22",
+  "description": "Nighttime view of the Gulf Coast states from 225 miles above Earth",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "215a6d1639aa7afc9717b73c37ae5403",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-US9728527733_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-US9728527733_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-US9728527733_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DallasLegorreta_EN-US9050675226_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-US9728527733_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250915",
-    "endDate": "20250916",
-    "fullStartDateTime": "202509150700"
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509160700"
   },
-  "createdAt": "202509160000",
-  "originalUrlBase": "/th?id=OHR.DallasLegorreta_EN-US9050675226"
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_EN-US9728527733"
 }

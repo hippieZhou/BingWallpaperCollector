@@ -1,43 +1,43 @@
 {
-  "date": "Sep 17, 2025",
+  "date": "Sep 18, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Ein ehrfürchtiger Einzelgänger",
+  "title": "Der westlichste Punkt Irlands",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Ein junger Elchbulle im Denali-Nationalpark, Alaska, USA (© Grant Ordelheide/TANDEM Stills + Motion)",
+  "copyright": "Serpentinenartiger Pfad, Dunquin Pier, County Kerry, Irland (© Hugh O'Connor/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Elch&form=hpcapt&filters=HpDate%3a%2220250916_2200%22",
-  "description": "Ein junger Elchbulle im Denali-Nationalpark, Alaska, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
-  "hash": "69609d811f489e0527a0e272b29a5603",
+  "copyrightLink": "/search?q=D%C3%BAn+Chaoin&form=hpcapt&filters=HpDate%3a%2220250917_2200%22",
+  "description": "Serpentinenartiger Pfad, Dunquin Pier, County Kerry, Irland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "ac0fe4c375890801c2aeaf985e4ee17d",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_DE-DE4797885512_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_DE-DE4797885512_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_DE-DE4797885512_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_DE-DE4797885512_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250916",
-    "endDate": "20250917",
-    "fullStartDateTime": "202509162200"
+    "startDate": "20250917",
+    "endDate": "20250918",
+    "fullStartDateTime": "202509172200"
   },
-  "createdAt": "202509170000",
-  "originalUrlBase": "/th?id=OHR.YoungMoose_DE-DE0761999333"
+  "createdAt": "202509180000",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_DE-DE4797885512"
 }

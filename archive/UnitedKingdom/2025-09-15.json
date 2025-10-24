@@ -1,43 +1,43 @@
 {
-  "date": "Sep 15, 2025",
+  "date": "Sep 16, 2025",
   "country": "UnitedKingdom",
   "marketCode": "en-GB",
-  "title": "Rugged and wild",
+  "title": "A stratospheric success",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Chimney Rock, Point Reyes National Seashore, California, United States (© Enrique Aguirre Aves/Getty Images)",
+  "copyright": "A nighttime view of the Gulf Coast states from 225 miles above Earth (© Stocktrek Images/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Point+Reyes+National+Seashore&form=hpcapt&filters=HpDate%3a%2220250914_2300%22",
-  "description": "Chimney Rock, Point Reyes National Seashore, California, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_PointReyesSeashore%22&FORM=HPQUIZ",
-  "hash": "ce79a8967ea1845f3846870ca35ae22d",
+  "copyrightLink": "/search?q=Ozone+Day&form=hpcapt&filters=HpDate%3a%2220250915_2300%22",
+  "description": "A nighttime view of the Gulf Coast states from 225 miles above Earth",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "9141e9083bef80a03e3e95b06c1bb6d0",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-GB2522924402_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-GB2522924402_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-GB2522924402_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-GB2522924402_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_EN-GB2737742012_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250914",
-    "endDate": "20250915",
-    "fullStartDateTime": "202509142300"
+    "startDate": "20250915",
+    "endDate": "20250916",
+    "fullStartDateTime": "202509152300"
   },
-  "createdAt": "202509150000",
-  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_EN-GB2522924402"
+  "createdAt": "202509160000",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_EN-GB2737742012"
 }

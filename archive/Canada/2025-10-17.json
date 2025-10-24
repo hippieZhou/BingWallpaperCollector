@@ -1,5 +1,5 @@
 {
-  "date": "Oct 18, 2025",
+  "date": "Oct. 17, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
   "title": "Power Down. Look Up.",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251017",
-    "endDate": "20251018",
-    "fullStartDateTime": "202510170400"
+    "fullStartDateTime": "202510170400",
+    "endDate": "20251018"
   },
-  "createdAt": "202510170000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.JasperFestival_EN-CA8017450155"
 }

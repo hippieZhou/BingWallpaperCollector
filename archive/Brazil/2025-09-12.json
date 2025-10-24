@@ -1,43 +1,43 @@
 {
-  "date": "Sep 12, 2025",
+  "date": "Sep 13, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Ao infinito e além",
+  "title": "Cada mergulho é um splash!",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Vista do Salto del Gitano, Parque Nacional de Monfragüe, Cáceres, Extremadura, Espanha (© Daniel Viñé Garcia/Getty Images)",
+  "copyright": "Grupo de golfinhos-rotadores no Mar Vermelho, Marsa Alam, Egito (© Franco Banfi/Nature Picture Library)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Parque+Nacional+de+Monfrag%C3%BCe&form=hpcapt&mkt=pt-br",
-  "description": "Vista do Salto del Gitano, Parque Nacional de Monfragüe, Cáceres, Extremadura, Espanha",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_ExtremaduraJamon%22&FORM=HPQUIZ",
-  "hash": "f4102f77032bce08951a46d00cfa7336",
+  "copyrightLink": "/search?q=Dia+Mundial+do+Golfinho&form=hpcapt&mkt=pt-br",
+  "description": "Grupo de golfinhos-rotadores no Mar Vermelho, Marsa Alam, Egito",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_SpinnerDolphins%22&FORM=HPQUIZ",
+  "hash": "f1154ff9829b5c2460d01cdc51ebbf6b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_PT-BR7599252573_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_PT-BR7599252573_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_PT-BR7599252573_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_PT-BR7599252573_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_PT-BR7075724083_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250911",
-    "endDate": "20250912",
-    "fullStartDateTime": "202509110300"
+    "startDate": "20250912",
+    "endDate": "20250913",
+    "fullStartDateTime": "202509120300"
   },
-  "createdAt": "202509120000",
-  "originalUrlBase": "/th?id=OHR.ExtremaduraJamon_PT-BR7599252573"
+  "createdAt": "202509130000",
+  "originalUrlBase": "/th?id=OHR.SpinnerDolphins_PT-BR7075724083"
 }

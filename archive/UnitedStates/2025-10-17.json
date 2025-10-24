@@ -1,5 +1,5 @@
 {
-  "date": "Oct 18, 2025",
+  "date": "Oct 17, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
   "title": "Falling for Michigan",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251017",
-    "endDate": "20251018",
-    "fullStartDateTime": "202510170700"
+    "fullStartDateTime": "202510170700",
+    "endDate": "20251018"
   },
-  "createdAt": "202510170000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.RockRiverFalls_EN-US2428797661"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "2025 年 9月 月 28 日",
+  "date": "2025 年 9月 月 29 日",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "トスカーナの小さな町",
-  "bsTitle": "トスカーナの小さな町",
-  "caption": "トスカーナの小さな町",
-  "copyright": "ピエンツァ, イタリア (© zpagistock/Getty Images)",
-  "copyrightOnly": "© zpagistock/Getty Images",
-  "copyrightLink": "/search?q=%e3%83%94%e3%82%a8%e3%83%b3%e3%83%84%e3%82%a1&form=hpcapt&filters=HpDate%3a%2220250927_1500%22",
-  "description": "イタリア ・トスカーナ州のピエンツァ。人口約 2,000 人 の小さなこの町は、世界遺産であるオルチャ渓谷の上に位置しています。14 世紀、教皇ピウス 2 世は、自身の故郷であるこの町を理想都市として再建しました。その都市計画にはピッコロミニ家の理念が反映されており、後世に高く評価され、市街の歴史地区は世界遺産に登録されました…",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
-  "hash": "66a31815366d3a5383145e06936e32d0",
+  "title": "今日は招き猫の日",
+  "bsTitle": "今日は招き猫の日",
+  "caption": "今日は招き猫の日",
+  "copyright": "豪徳寺の招き猫, 東京都 (© Maria S./Alamy Stock Photo)",
+  "copyrightOnly": "© Maria S./Alamy Stock Photo",
+  "copyrightLink": "/search?q=%e8%b1%aa%e5%be%b3%e5%af%ba%e3%81%ae%e6%8b%9b%e3%81%8d%e7%8c%ab&form=hpcapt&filters=HpDate%3a%2220250928_1500%22",
+  "description": "今日は「招き猫の日」です。招き猫の愛好家団体「日本招猫倶楽部」によって制定された記念日で、「来る福（くるふく）」の語呂合わせに由来し、9 月 29 日となっています。 招き猫は、右手を上げていると金運、左手を上げていると客を招くといわれ、商売繁盛の象徴として親しまれてきました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_ManekiNeko%22&FORM=HPQUIZ",
+  "hash": "0df9459ab2f142132e33b0fa3cec041f",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_JA-JP1964382138_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ManekiNeko_JA-JP6063646197_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_JA-JP1964382138_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ManekiNeko_JA-JP6063646197_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_JA-JP1964382138_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ManekiNeko_JA-JP6063646197_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_JA-JP1964382138_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ManekiNeko_JA-JP6063646197_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250927",
-    "endDate": "20250928",
-    "fullStartDateTime": "202509271500"
+    "startDate": "20250928",
+    "endDate": "20250929",
+    "fullStartDateTime": "202509281500"
   },
-  "createdAt": "202509280000",
-  "originalUrlBase": "/th?id=OHR.PienzaItaly_JA-JP1964382138"
+  "createdAt": "202509290000",
+  "originalUrlBase": "/th?id=OHR.ManekiNeko_JA-JP6063646197"
 }

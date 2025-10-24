@@ -1,43 +1,43 @@
 {
-  "date": "Sep 05, 2025",
+  "date": "Sep 06, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "A resistência é selvagem",
+  "title": "O que os olhos não veem",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Ursos-pardos lutando no Parque Nacional e Reserva de Katmai, Alasca, EUA (© Cavan Images/Adobe Stock)",
+  "copyright": "Névoa sobre a copa da Floresta Amazônica (© Ignacio Palacios/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=urso-pardo&form=hpcapt&mkt=pt-br",
-  "description": "Ursos-pardos lutando no Parque Nacional e Reserva de Katmai, Alasca, EUA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_WrestlingBears%22&FORM=HPQUIZ",
-  "hash": "e7b0bcdbd30517578c7889051f44eb58",
+  "copyrightLink": "/search?q=Dia+da+Amaz%C3%B4nia&form=hpcapt&mkt=pt-br",
+  "description": "Névoa sobre a copa da Floresta Amazônica",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_DiaAmazonia%22&FORM=HPQUIZ",
+  "hash": "18ce916b7cd72159884cfc2d7014e10e",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_PT-BR2169243821_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_PT-BR2169243821_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_PT-BR2169243821_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_PT-BR2169243821_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250904",
-    "endDate": "20250905",
-    "fullStartDateTime": "202509040300"
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509050300"
   },
-  "createdAt": "202509050000",
-  "originalUrlBase": "/th?id=OHR.WrestlingBears_PT-BR2169243821"
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.DiaAmazonia_PT-BR5240863340"
 }

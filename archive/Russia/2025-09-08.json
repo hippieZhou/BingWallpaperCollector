@@ -1,43 +1,43 @@
 {
-  "date": "Sep 08, 2025",
+  "date": "Sep 09, 2025",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Gdańsk on the banks of the Motława river, Poland (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyright": "Library@orchard, Singapore (© Darwin Fan/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Gdansk+poland&form=hpcapt",
-  "description": "Gdańsk on the banks of the Motława river, Poland",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_BlueGdansk%22&FORM=HPQUIZ",
-  "hash": "fe068afc1308ad109f4022dab3b16185",
+  "copyrightLink": "/search?q=Library+orchard+Singapore&form=hpcapt",
+  "description": "Library@orchard, Singapore",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "0c72ab776d9ed8c37a46ae4bbccd47af",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ROW7132062115_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ROW7132062115_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ROW7132062115_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_ROW7132062115_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250907",
-    "endDate": "20250908",
-    "fullStartDateTime": "202509070700"
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509080700"
   },
-  "createdAt": "202509080000",
-  "originalUrlBase": "/th?id=OHR.BlueGdansk_ROW7036139554"
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_ROW7132062115"
 }

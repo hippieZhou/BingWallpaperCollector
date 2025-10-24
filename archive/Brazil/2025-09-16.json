@@ -1,43 +1,43 @@
 {
-  "date": "Sep 16, 2025",
+  "date": "Sep 17, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Termômetros alados",
+  "title": "Um sucesso estratosférico",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Dupla de aves pernilongo na França (© Antonio Sementa/500px/Getty Images)",
+  "copyright": "Vista noturna da Golfo do México, 362 quilômetros acima da Terra (© Stocktrek Images/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=ave+pernilongo&form=hpcapt&mkt=pt-br",
-  "description": "Dupla de aves pernilongo na França",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_Echasse%22&FORM=HPQUIZ",
-  "hash": "da500e4f9a3efcf3adcd627a80529fcf",
+  "copyrightLink": "/search?q=Dia+Internacional+para+a+Preserva%C3%A7%C3%A3o+da+Camada+de+Oz%C3%B4nio&form=hpcapt&mkt=pt-br",
+  "description": "Vista noturna da Golfo do México, 362 quilômetros acima da Terra",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_OzoneEarth%22&FORM=HPQUIZ",
+  "hash": "429913ffb40924f92caca4cf58823f70",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.Echasse_PT-BR5689846497_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_PT-BR3466489488_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250915",
-    "endDate": "20250916",
-    "fullStartDateTime": "202509150300"
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509160300"
   },
-  "createdAt": "202509160000",
-  "originalUrlBase": "/th?id=OHR.Echasse_PT-BR5689846497"
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.OzoneEarth_PT-BR3466489488"
 }

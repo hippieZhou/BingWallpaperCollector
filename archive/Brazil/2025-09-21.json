@@ -1,43 +1,43 @@
 {
-  "date": "Sep 21, 2025",
+  "date": "Sep 22, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "No balanço de Munique",
+  "title": "As jardineiras do gelo",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Carrossel de balanço na Oktoberfest, Munique, Baviera, Alemanha (© LOOK-foto/Alamy)",
+  "copyright": "Lontras-marinhas em Prince William Sound, Alasca, EUA (© Gerald Corsi/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=a+Oktoberfest+na+Alemanha&form=hpcapt&mkt=pt-br",
-  "description": "Carrossel de balanço na Oktoberfest, Munique, Baviera, Alemanha",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250920_OktoberfestSwing%22&FORM=HPQUIZ",
-  "hash": "e70da67bec8aa9c932828958cd57448a",
+  "copyrightLink": "/search?q=lontra+marinha&form=hpcapt&mkt=pt-br",
+  "description": "Lontras-marinhas em Prince William Sound, Alasca, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_IceOtters%22&FORM=HPQUIZ",
+  "hash": "2829d31b77d4e24a71eaf7f86b62117b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_PT-BR6824532260_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_PT-BR7598435461_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_PT-BR6824532260_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_PT-BR7598435461_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_PT-BR6824532260_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_PT-BR7598435461_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_PT-BR6824532260_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_PT-BR7598435461_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250920",
-    "endDate": "20250921",
-    "fullStartDateTime": "202509200300"
+    "startDate": "20250921",
+    "endDate": "20250922",
+    "fullStartDateTime": "202509210300"
   },
-  "createdAt": "202509210000",
-  "originalUrlBase": "/th?id=OHR.OktoberfestSwing_PT-BR6824532260"
+  "createdAt": "202509220000",
+  "originalUrlBase": "/th?id=OHR.IceOtters_PT-BR7598435461"
 }

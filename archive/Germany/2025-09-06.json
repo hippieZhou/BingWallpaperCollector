@@ -1,43 +1,43 @@
 {
-  "date": "Sep 06, 2025",
+  "date": "Sep 07, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Geschichte trifft Moderne",
+  "title": "Eine Perle an der Ostsee",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Frankfurter Skyline im violetten Licht und Alte Brücke, Frankfurt am Main, Hessen (© diegograndi/iStock/Getty Images Plus)",
+  "copyright": "Danzig am Ufer der Mottlau, Polen (© Oscar Dominguez/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Alte+Br%C3%BCcke+Frankfurt&form=hpcapt&filters=HpDate%3a%2220250905_2200%22",
-  "description": "Frankfurter Skyline im violetten Licht und Alte Brücke, Frankfurt am Main, Hessen",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_FrankfurtAlteBruecke%22&FORM=HPQUIZ",
-  "hash": "6c34925738b3ce451a63997c3d231b98",
+  "copyrightLink": "/search?q=Danzig&form=hpcapt&filters=HpDate%3a%2220250906_2200%22",
+  "description": "Danzig am Ufer der Mottlau, Polen",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "d40fd6cd5034863f40453590d01379c0",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_DE-DE2028955580_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250905",
-    "endDate": "20250906",
-    "fullStartDateTime": "202509052200"
+    "startDate": "20250906",
+    "endDate": "20250907",
+    "fullStartDateTime": "202509062200"
   },
-  "createdAt": "202509060000",
-  "originalUrlBase": "/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178"
+  "createdAt": "202509070000",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_DE-DE2028955580"
 }

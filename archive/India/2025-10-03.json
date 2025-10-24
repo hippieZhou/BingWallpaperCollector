@@ -1,43 +1,43 @@
 {
-  "date": "Oct 3, 2025",
+  "date": "Oct 4, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "Mist-bound reveries",
-  "bsTitle": "Mist-bound reveries",
-  "caption": "Glen Brittle, Isle of Skye, Scotland",
-  "copyright": "Heather growing in Glen Brittle, Isle of Skye, Scotland (© Adam Mowery/TANDEM Stills + Motion)",
-  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
-  "copyrightLink": "/search?q=Glen+Brittle+in+Skye&form=hpcapt&filters=HpDate%3a%2220251002_1830%22",
-  "description": "Mists curl, waters glimmer and legends linger—welcome to Glen Brittle. On the Isle of Skye, Scotland's fabled 'Misty Isle', the glen stretches in a sweep of purple heather carpeting its rugged slopes. The landscape hums with echoes of the past: dinosaurs left footprints on these cliffs long before Mesolithic hunters traced its streams over 8,000 years ago. In the 9th century, seafaring Norse Vikings settled here. Centuries later, the powerful MacLeod and MacDonald clans claimed these lands, their castles standing guard over countless battles and alliances.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_SkyeHeather%22&FORM=HPQUIZ",
-  "hash": "753064c4660695c19d8bf3463f11f37b",
+  "title": "Mission: Possible",
+  "bsTitle": "Mission: Possible",
+  "caption": "World Space Week",
+  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=World+Space+Week&form=hpcapt&filters=HpDate%3a%2220251003_1830%22",
+  "description": "From October 4 to 10, World Space Week invites us to transcend our earthly bounds and chase the stars. It was born from the launch of Sputnik 1 by the USSR in 1957 and the signing of the Outer Space Treaty in 1967, a pioneering international commitment to peaceful cosmic exploration. During this week, classrooms buzz with experiments, planetaria echo with wonder and telescopes bridge the gap to distant galaxies. Together, these moments weave a universal story of science, discovery and humanity's relentless drive to push boundaries. The week's mission is clear: to ignite the next generation of explorers, engineers and dreamers ready to rewrite the cosmos.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "4d02231790e773aee3631f801d377dab",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-IN2826518684_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-IN9334573576_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-IN2826518684_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-IN9334573576_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-IN2826518684_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-IN9334573576_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_EN-IN2826518684_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-IN9334573576_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251002",
-    "endDate": "20251003",
-    "fullStartDateTime": "202510021830"
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510031830"
   },
-  "createdAt": "202510030000",
-  "originalUrlBase": "/th?id=OHR.SkyeHeather_EN-IN2826518684"
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_EN-IN9334573576"
 }

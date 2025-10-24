@@ -1,43 +1,43 @@
 {
-  "date": "Oct 02, 2025",
+  "date": "Oct 03, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Sol, mar e história para contar",
+  "title": "Selvagem por lei",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Praia de Porto de Galinhas, Pernambuco (© Ildo Frazao/Getty Images)",
+  "copyright": "Oxbow Bend no Snake River, Parque Nacional de Grand Teton, Wyoming, EUA (© DanitaDelimont.com/AWL Images/SuperStock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Porto+de+Galinhas&form=hpcapt&mkt=pt-br",
+  "copyrightLink": "/search?q=Parque+Nacional+de+Grand+Teton&form=hpcapt&mkt=pt-br",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_PraiaPortoGalinhas%22&FORM=HPQUIZ",
-  "hash": "7c0b0f934c517177aff40421aa857c99",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
+  "hash": "662b06fb7053cbaf719c77d707a35888",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_PT-BR2338383870_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251001",
-    "endDate": "20251002",
-    "fullStartDateTime": "202510010300"
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510020300"
   },
-  "createdAt": "202510020000",
-  "originalUrlBase": "/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838"
+  "createdAt": "202510030000",
+  "originalUrlBase": "/th?id=OHR.OxbowBend_PT-BR2338383870"
 }

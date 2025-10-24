@@ -1,43 +1,43 @@
 {
-  "date": "Sep 22, 2025",
+  "date": "Sep 23, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Zwischen Sommer und Winter",
+  "title": "Ein Dschungelstar",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Espenbäume im Herbst, Fishlake National Forest, Utah, USA (© Danita Delimont/Getty Images)",
+  "copyright": "Fischertukan in Costa Rica (© Juan Carlos Vindas/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%C3%84quinoktium&form=hpcapt&filters=HpDate%3a%2220250921_2200%22",
-  "description": "Espenbäume im Herbst, Fishlake National Forest, Utah, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_AspenEquinox%22&FORM=HPQUIZ",
-  "hash": "5617cf93af3f5930c0d755060ccfacce",
+  "copyrightLink": "/search?q=Fischertukan&form=hpcapt&filters=HpDate%3a%2220250922_2200%22",
+  "description": "Fischertukan in Costa Rica",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250922_ToucanForest%22&FORM=HPQUIZ",
+  "hash": "9c4bf22f8bda705cac9ae70c63ba98b9",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_DE-DE0467627234_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_DE-DE0467627234_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_DE-DE0467627234_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_DE-DE0417309231_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ToucanForest_DE-DE0467627234_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250921",
-    "endDate": "20250922",
-    "fullStartDateTime": "202509212200"
+    "startDate": "20250922",
+    "endDate": "20250923",
+    "fullStartDateTime": "202509222200"
   },
-  "createdAt": "202509220000",
-  "originalUrlBase": "/th?id=OHR.AspenEquinox_DE-DE0417309231"
+  "createdAt": "202509230000",
+  "originalUrlBase": "/th?id=OHR.ToucanForest_DE-DE0467627234"
 }

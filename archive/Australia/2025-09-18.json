@@ -1,43 +1,43 @@
 {
-  "date": "Sep 18, 2025",
+  "date": "Sep 19, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
   "caption": "Info",
-  "copyright": "A young bull moose in Denali National Park, Alaska, United States (© Grant Ordelheide/TANDEM Stills + Motion)",
-  "copyrightOnly": "© Grant Ordelheide/TANDEM Stills + Motion",
-  "copyrightLink": "https://www.bing.com/search?q=Alaska+moose&form=hpcapt&filters=HpDate%3a%2220250917_0700%22",
-  "description": "A young bull moose in Denali National Park, Alaska, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_YoungMoose%22&FORM=HPQUIZ",
-  "hash": "571cafddf2b920529ec6bc73daf7e5af",
+  "copyright": "Serpentine stairs of Dunquin Pier, County Kerry, Ireland (© Hugh O'Connor/Getty Images)",
+  "copyrightOnly": "© Hugh O'Connor/Getty Images",
+  "copyrightLink": "https://www.bing.com/search?q=Dunquin+Pier&form=hpcapt&filters=HpDate%3a%2220250918_0700%22",
+  "description": "Serpentine stairs of Dunquin Pier, County Kerry, Ireland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "e91d3cb0006e7a5d9bf0b3b873499b81",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ROW8248282029_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ROW8248282029_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ROW8248282029_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_ROW8248282029_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250917",
-    "endDate": "20250918",
-    "fullStartDateTime": "202509170700"
+    "startDate": "20250918",
+    "endDate": "20250919",
+    "fullStartDateTime": "202509180700"
   },
-  "createdAt": "202509180207",
-  "originalUrlBase": "/th?id=OHR.YoungMoose_ROW0217187286"
+  "createdAt": "202509190211",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_ROW8248282029"
 }

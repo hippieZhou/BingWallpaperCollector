@@ -1,43 +1,43 @@
 {
-  "date": "Sep 03, 2025",
+  "date": "Sep 04, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Unberührte Wildnis",
+  "title": "Verspielte Giganten",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Boundary Waters Canoe Area Wilderness, Minnesota, USA (© s.tomas/Shutterstock)",
+  "copyright": "Raufende Grizzlybären, Katmai-Nationalpark, Alaska, USA (© Cavan Images/Adobe Stock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Minnesota+Bundesstaat+USA&form=hpcapt&filters=HpDate%3a%2220250902_2200%22",
-  "description": "Boundary Waters Canoe Area Wilderness, Minnesota, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_MinnesotaWaters%22&FORM=HPQUIZ",
-  "hash": "d78be03233b3097814c13876e228b72a",
+  "copyrightLink": "/search?q=Grizzlyb%C3%A4ren&form=hpcapt&filters=HpDate%3a%2220250903_2200%22",
+  "description": "Raufende Grizzlybären, Katmai-Nationalpark, Alaska, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_WrestlingBears%22&FORM=HPQUIZ",
+  "hash": "d5b24779ad7c2fbb31da7a75722419c1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_DE-DE4535845239_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_DE-DE4535845239_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_DE-DE4535845239_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_DE-DE6807349928_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_DE-DE4535845239_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250902",
-    "endDate": "20250903",
-    "fullStartDateTime": "202509022200"
+    "startDate": "20250903",
+    "endDate": "20250904",
+    "fullStartDateTime": "202509032200"
   },
-  "createdAt": "202509030000",
-  "originalUrlBase": "/th?id=OHR.MinnesotaWaters_DE-DE6807349928"
+  "createdAt": "202509040000",
+  "originalUrlBase": "/th?id=OHR.WrestlingBears_DE-DE4535845239"
 }

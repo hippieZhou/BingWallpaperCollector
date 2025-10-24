@@ -1,43 +1,43 @@
 {
-  "date": "Oct 03, 2025",
+  "date": "Oct 04, 2025",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming, United States (© DanitaDelimont.com/AWL Images/SuperStock)",
+  "copyright": "Heather growing in Glen Brittle, Isle of Skye, Scotland (© Adam Mowery/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Grand+Teton+National+Park&form=hpcapt",
+  "copyrightLink": "/search?q=Glen+Brittle+in+Skye&form=hpcapt",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
-  "hash": "6420b998ebc499971ea744a13a1169fe",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "038217b8a5b9ad20e5b5a405d056f19f",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251002",
-    "endDate": "20251003",
-    "fullStartDateTime": "202510020700"
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510030700"
   },
-  "createdAt": "202510030000",
-  "originalUrlBase": "/th?id=OHR.OxbowBend_ROW5989192939"
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_ROW6254655210"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 27, 2025",
+  "date": "Sep 28, 2025",
   "country": "UnitedKingdom",
   "marketCode": "en-GB",
-  "title": "Echoes from the Clark Range",
-  "bsTitle": "",
-  "caption": "",
-  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
-  "copyrightOnly": "",
-  "copyrightLink": "/search?q=National+Park+Yosemite&form=hpcapt&filters=HpDate%3a%2220250926_2300%22",
-  "description": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_YosemiteClark%22&FORM=HPQUIZ",
-  "hash": "7798dcfc8074df8563f462573dab88e3",
+  "title": "A taste of Pienza",
+  "bsTitle": "A taste of Pienza",
+  "caption": "Town of Pienza in Tuscany, Italy",
+  "copyright": "Town of Pienza in Tuscany, Italy (© zpagistock/Getty Images)",
+  "copyrightOnly": "© zpagistock/Getty Images",
+  "copyrightLink": "/search?q=Pienza&form=hpcapt&filters=HpDate%3a%2220250927_2300%22",
+  "description": "Some towns evolve slowly over centuries. Pienza? It received a full rebrand in the 1400s from a pope who wanted to prove a point—and maybe show off a little. This tiny Italian town is perched above the Val d'Orcia, surrounded by rolling hills that look exactly like you think Tuscany should: cypress trees, winding dirt roads, the occasional sheep. It's peaceful. And then you step inside the town walls, and it gets clever.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "ce96ce5723facb34647a1e0569d6734a",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-GB9891059804_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-GB9891059804_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-GB9891059804_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_EN-GB9891059804_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250926",
-    "endDate": "20250927",
-    "fullStartDateTime": "202509262300"
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509272300"
   },
-  "createdAt": "202509270000",
-  "originalUrlBase": "/th?id=OHR.YosemiteClark_EN-GB9745293465"
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_EN-GB9891059804"
 }

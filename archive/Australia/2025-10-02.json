@@ -1,43 +1,43 @@
 {
-  "date": "Oct 1, 2025",
+  "date": "Oct 2, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
-  "caption": "Clark Range, Yosemite National Park, California, United States",
-  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
-  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
-  "copyrightLink": "/search?q=Clark+Range&form=hpcapt&filters=HpDate%3a%2220251001_0700%22",
-  "description": "Nestled in the heart of California's Sierra Nevada, Yosemite National Park, spans more than 310,000 hectares, cradling granite giants, cascading waterfalls and ancient sequoias. Among its lesser-known treasures lies the Clark Range—the rugged, high-elevation spine seen in today's image. It was named after Galen Clark, Yosemite's first guardian and a pioneer of conservation.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_YosemiteClark%22&FORM=HPQUIZ",
-  "hash": "8127971718e27c4d625153cfd5c45288",
+  "caption": "Oxbow Bend on the Snake River, Wyoming, United States",
+  "copyright": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming, United States (© DanitaDelimont.com/AWL Images/SuperStock)",
+  "copyrightOnly": "© DanitaDelimont.com/AWL Images/SuperStock",
+  "copyrightLink": "/search?q=Grand+Teton+National+Park&form=hpcapt&filters=HpDate%3a%2220251002_0700%22",
+  "description": "Beyond water, rivers carry life, history and stories. They are nature's ever-moving contribution to our landscapes, flowing through lands and across time. One such gem is the Snake River, which winds through Grand Teton National Park in Wyoming, United States. A particularly stunning spot along this river is Oxbow Bend—featured in today's image—where calm waters reflect the towering Teton Range and wildlife such as moose and bald eagles thrive. On calm days, Mount Moran can be seen mirrored on the water's surface, making the scene even more striking. Here, water flows freely, unbound by concrete or commerce, protected by the Wild and Scenic Rivers Act. At dawn, mist dances over the bend and the mountains blush with the first light. Visitors pause, hushed by nature's poetry.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
+  "hash": "6420b998ebc499971ea744a13a1169fe",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251001",
-    "endDate": "20251002",
-    "fullStartDateTime": "202510010700"
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510020700"
   },
-  "createdAt": "202510020207",
-  "originalUrlBase": "/th?id=OHR.YosemiteClark_ROW5897373346"
+  "createdAt": "202510030207",
+  "originalUrlBase": "/th?id=OHR.OxbowBend_ROW5989192939"
 }

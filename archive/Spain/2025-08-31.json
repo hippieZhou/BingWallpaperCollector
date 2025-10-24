@@ -1,43 +1,43 @@
 {
-  "date": "Aug 31, 2025",
+  "date": "Sep 01, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "¡Qué aguas tan cristalinas!",
+  "title": "Nubes pintadas y praderas áridas",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Vista aérea de Port Bo de Calella en la costa de Palafrugell, Gerona, Cataluña, España (© AlexKazachok2/iStock/Getty Images Plus)",
+  "copyright": "Monumento Nacional Scotts Bluff en Gering, Nebraska, EE. UU. (© Hawk Buckman/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=portb%C3%B2&form=hpcapt&filters=HpDate%3a%2220250830_2200%22",
-  "description": "Vista aérea de Port Bo de Calella en la costa de Palafrugell, Gerona, Cataluña, España",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_Palafrugell%22&FORM=HPQUIZ",
-  "hash": "2b1c797fc60836112675ad990ad42b73",
+  "copyrightLink": "/search?q=Monumento+nacional+de+Scotts+Bluff&form=hpcapt&filters=HpDate%3a%2220250831_2200%22",
+  "description": "Monumento Nacional Scotts Bluff en Gering, Nebraska, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
+  "hash": "f234d487f0e7401be2a3e2d92e4c239a",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.Palafrugell_ES-ES9170936933_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ES-ES9472248274_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.Palafrugell_ES-ES9170936933_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ES-ES9472248274_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.Palafrugell_ES-ES9170936933_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ES-ES9472248274_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.Palafrugell_ES-ES9170936933_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_ES-ES9472248274_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250830",
-    "endDate": "20250831",
-    "fullStartDateTime": "202508302200"
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508312200"
   },
-  "createdAt": "202508310000",
-  "originalUrlBase": "/th?id=OHR.Palafrugell_ES-ES9170936933"
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.ScottsBluff_ES-ES9472248274"
 }

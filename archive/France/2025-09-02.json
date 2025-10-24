@@ -1,43 +1,43 @@
 {
-  "date": "Sep 02, 2025",
+  "date": "Sep 03, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Les arbres du passé",
+  "title": "Là où le ciel touche la mer",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Acacias à girafe, Deadvlei, parc Namib-Naukluft, Namibie (© Inge Johnsson/Alamy)",
+  "copyright": "Abbaye du Mont Saint-Michel au crépuscule, Manche, Normandie (© Ilhan Eroglu/500px/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Parc+Namib-Naukluft%2c+Namibie&form=hpcapt&filters=HpDate%3a%2220250901_2200%22",
-  "description": "Acacias à girafe, Deadvlei, parc Namib-Naukluft, Namibie",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_DeadvleiTrees%22&FORM=HPQUIZ",
-  "hash": "3107f78e1d9f04855e0d020a006ca59b",
+  "copyrightLink": "/search?q=Le+Mont-Saint-Michel+commune&form=hpcapt&filters=HpDate%3a%2220250902_2200%22",
+  "description": "Abbaye du Mont Saint-Michel au crépuscule, Manche, Normandie",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_MontSaintMichel%22&FORM=HPQUIZ",
+  "hash": "b6e69e8c5eb110d8021e1f9197786101",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_FR-FR9220930229_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MontSaintMichel_FR-FR8463268794_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_FR-FR9220930229_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MontSaintMichel_FR-FR8463268794_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_FR-FR9220930229_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MontSaintMichel_FR-FR8463268794_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_FR-FR9220930229_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MontSaintMichel_FR-FR8463268794_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250901",
-    "endDate": "20250902",
-    "fullStartDateTime": "202509012200"
+    "startDate": "20250902",
+    "endDate": "20250903",
+    "fullStartDateTime": "202509022200"
   },
-  "createdAt": "202509020000",
-  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_FR-FR9220930229"
+  "createdAt": "202509030000",
+  "originalUrlBase": "/th?id=OHR.MontSaintMichel_FR-FR8463268794"
 }

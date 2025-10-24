@@ -1,16 +1,16 @@
 {
-  "date": "21 Oct 2025",
+  "date": "21 oct. 2025",
   "country": "France",
   "marketCode": "fr-FR",
   "title": "Une lumière dans l’obscurité",
   "bsTitle": "Une lumière dans l’obscurité",
   "caption": "Fête indienne de Diwali",
-  "copyright": "Une diya au Temple d'Or pendant Diwali, Amritsar, Inde (© EyeEm Mobile GmbH/Getty Images)",
+  "copyright": "Une diya au Temple d'Or, Amritsar, Inde (© EyeEm Mobile GmbH/Getty Images)",
   "copyrightOnly": "© EyeEm Mobile GmbH/Getty Images",
-  "copyrightLink": "/search?q=Diwali+Inde&form=hpcapt&filters=HpDate%3a%2220251020_2200%22",
-  "description": "Sous le ciel d'Amritsar, en Inde, une lueur dorée s'élève au-dessus des eaux sacrées : le Temple d'Or. À l'occasion de Diwali, également célébrée comme Bandi Chhor Divas chez les sikhs, le sanctuaire se transforme en un miroir de lumière. Chaque petite lampe d’argile, appelée diya, vibre comme une étoile fragile posée sur terre. Le parfum des fleurs, l’écho des prières et le murmure de la foule composent une atmosphère où le sacré et le quotidien se confondent.",
+  "copyrightLink": "/search?q=temple+d%27Or%2c+Amritsar%2c+Inde&form=hpcapt&filters=HpDate%3a%2220251020_2200%22",
+  "description": "Sous le ciel d'Amritsar, en Inde, une lueur dorée s'élève au-dessus des eaux sacrées : le Temple d'Or. L’un des lieux les plus remarquables pour admirer les lumières de la saison est le Harmandir Sahib, également connu sous le nom de Temple d’Or. Ce gurdwara, site sacré du sikhisme, accueille des personnes de toutes confessions. À l’époque de Diwali, les sikhs célèbrent Bandi Chhor Divas, qui marque la libération du sixième gourou sikh, Guru Hargobind Sahib Ji, de son emprisonnement. Bien que les traditions soient différentes, les deux célébrations partagent des thèmes d’espoir, de justice et de liberté spirituelle.",
   "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251020_DiyaDiwali%22&FORM=HPQUIZ",
-  "hash": "eb0a784a6103bb27fd56d9d76063f22d",
+  "hash": "7b8bfb0eb11eb508d0e4231350577e2a",
   "imageResolutions": [
     {
       "resolution": "Standard",
@@ -38,6 +38,6 @@
     "fullStartDateTime": "202510202200",
     "endDate": "20251021"
   },
-  "createdAt": "202510200000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.DiyaDiwali_FR-FR5342496143"
 }

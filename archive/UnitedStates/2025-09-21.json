@@ -1,43 +1,43 @@
 {
-  "date": "Sep 21, 2025",
+  "date": "Sep 22, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "A tale of brews and views",
+  "title": "Otterly cool",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Swing carousel at Oktoberfest, Munich, Germany (© LOOK-foto/Alamy)",
+  "copyright": "Sea otters, Prince William Sound, Alaska (© Gerald Corsi/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Oktoberfest&form=hpcapt&filters=HpDate%3a%2220250920_0700%22",
-  "description": "Swing carousel at Oktoberfest, Munich, Germany",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250920_OktoberfestSwing%22&FORM=HPQUIZ",
-  "hash": "7c31d5ffa1f13c29220b6c207caf3039",
+  "copyrightLink": "/search?q=Sea+Otter+Awareness+Week&form=hpcapt&filters=HpDate%3a%2220250921_0700%22",
+  "description": "Sea otters, Prince William Sound, Alaska",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_IceOtters%22&FORM=HPQUIZ",
+  "hash": "bc95e5c64c5a9d09af34d395d0707a09",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-US7916182497_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-US7982442590_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-US7916182497_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-US7982442590_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-US7916182497_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-US7982442590_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_EN-US7916182497_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-US7982442590_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250920",
-    "endDate": "20250921",
-    "fullStartDateTime": "202509200700"
+    "startDate": "20250921",
+    "endDate": "20250922",
+    "fullStartDateTime": "202509210700"
   },
-  "createdAt": "202509210000",
-  "originalUrlBase": "/th?id=OHR.OktoberfestSwing_EN-US7916182497"
+  "createdAt": "202509220000",
+  "originalUrlBase": "/th?id=OHR.IceOtters_EN-US7982442590"
 }

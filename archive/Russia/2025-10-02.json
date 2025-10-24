@@ -1,43 +1,43 @@
 {
-  "date": "Oct 02, 2025",
+  "date": "Oct 03, 2025",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyright": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming, United States (© DanitaDelimont.com/AWL Images/SuperStock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Clark+Range&form=hpcapt",
+  "copyrightLink": "/search?q=Grand+Teton+National+Park&form=hpcapt",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_YosemiteClark%22&FORM=HPQUIZ",
-  "hash": "8127971718e27c4d625153cfd5c45288",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
+  "hash": "6420b998ebc499971ea744a13a1169fe",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_ROW5989192939_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251001",
-    "endDate": "20251002",
-    "fullStartDateTime": "202510010700"
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510020700"
   },
-  "createdAt": "202510020000",
-  "originalUrlBase": "/th?id=OHR.YosemiteClark_ROW5897373346"
+  "createdAt": "202510030000",
+  "originalUrlBase": "/th?id=OHR.OxbowBend_ROW5989192939"
 }

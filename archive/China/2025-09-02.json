@@ -1,43 +1,43 @@
 {
-  "date": "Sep 02, 2025",
+  "date": "Sep 03, 2025",
   "country": "China",
   "marketCode": "zh-CN",
-  "title": "死谷的幽灵",
+  "title": "享受宁静",
   "bsTitle": "",
   "caption": "",
-  "copyright": "骆驼刺树, 死亡谷, 纳米布-诺克卢福国家公园, 纳米比亚 (© Inge Johnsson/Alamy Stock Photo)",
+  "copyright": "边界水域独木舟区荒野区, 明尼苏达州, 美国 (© s.tomas/Shutterstock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A%E7%BA%B3%E7%B1%B3%E5%B8%83%E8%AF%BA%E5%85%8B%E8%B7%AF%E7%A6%8F%E5%85%AC%E5%9B%AD&form=hpcapt&mkt=zh-cn",
-  "description": "骆驼刺树, 死亡谷, 纳米布-诺克卢福国家公园, 纳米比亚",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_DeadvleiTrees%22&FORM=HPQUIZ",
-  "hash": "5a90953aa8f36462fa4b1901ee601393",
+  "copyrightLink": "/search?q=+%E6%98%8E%E5%B0%BC%E8%8B%8F%E8%BE%BE%E5%B7%9E%E8%BE%B9%E7%95%8C%E6%B0%B4%E5%9F%9F&form=hpcapt&mkt=zh-cn",
+  "description": "边界水域独木舟区荒野区, 明尼苏达州, 美国",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_MinnesotaWaters%22&FORM=HPQUIZ",
+  "hash": "2d5b016f37f3a8c77a63d2dd137b8cf2",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ZH-CN6078521418_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ZH-CN6078521418_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ZH-CN6078521418_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ZH-CN0967414858_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ZH-CN6078521418_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250901",
-    "endDate": "20250902",
-    "fullStartDateTime": "202509011600"
+    "startDate": "20250902",
+    "endDate": "20250903",
+    "fullStartDateTime": "202509021600"
   },
-  "createdAt": "202509020000",
-  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_ZH-CN0967414858"
+  "createdAt": "202509030000",
+  "originalUrlBase": "/th?id=OHR.MinnesotaWaters_ZH-CN6078521418"
 }

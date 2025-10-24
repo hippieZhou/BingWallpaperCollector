@@ -1,43 +1,43 @@
 {
-  "date": "Oct 05, 2025",
+  "date": "Oct 06, 2025",
   "country": "SouthKorea",
   "marketCode": "ko-KR",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
+  "copyright": "Boreal owl in a forest in Central Europe (© Ondrej Prosicky/Alamy)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=International+Space+Station&form=hpcapt",
+  "copyrightLink": "/search?q=Boreal+owl&form=hpcapt",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_DragonEndeavour%22&FORM=HPQUIZ",
-  "hash": "85a56fa0120b3e0f3febcd5767f2aa1c",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "fcd34ef9b57b6bd8dfc070b9b4ec5664",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ROW9041107583_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ROW9041107583_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ROW9041107583_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_ROW9041107583_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251004",
-    "endDate": "20251005",
-    "fullStartDateTime": "202510040700"
+    "startDate": "20251005",
+    "endDate": "20251006",
+    "fullStartDateTime": "202510050700"
   },
-  "createdAt": "202510050000",
-  "originalUrlBase": "/th?id=OHR.DragonEndeavour_ROW8867251205"
+  "createdAt": "202510060000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_ROW9041107583"
 }

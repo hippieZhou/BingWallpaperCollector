@@ -1,43 +1,43 @@
 {
-  "date": "Aug 27, 2025",
+  "date": "Aug 28, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Vers l’infini… et l’eau de là",
+  "title": "Ça vit d’air pur et d’eau fraîche, une aigrette",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Lac Sørvágsvatn, île de Vágar, Îles Féroé (© Anton Petrus/Getty Images)",
+  "copyright": "Grande Aigrette, Hongrie (© Markus Varesvuo/Nature Picture Library)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Lac+S%C3%B8rv%C3%A1gsvatn&form=hpcapt&filters=HpDate%3a%2220250826_2200%22",
-  "description": "Lac Sørvágsvatn, île de Vágar, Îles Féroé",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
-  "hash": "1f44d2ea9980222c54fa7b849bd72e31",
+  "copyrightLink": "/search?q=Grande+Aigrette&form=hpcapt&filters=HpDate%3a%2220250827_2200%22",
+  "description": "Grande Aigrette, Hongrie",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "ee5f26d87267f0d391bc6b37f1f4485f",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_FR-FR1372532221_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_FR-FR1372532221_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_FR-FR1372532221_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_FR-FR9783963301_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_FR-FR1372532221_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250826",
-    "endDate": "20250827",
-    "fullStartDateTime": "202508262200"
+    "startDate": "20250827",
+    "endDate": "20250828",
+    "fullStartDateTime": "202508272200"
   },
   "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.FaroeLake_FR-FR9783963301"
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_FR-FR1372532221"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "2025年10月22日",
+  "date": "2025 年 10月 月 22 日",
   "country": "Japan",
   "marketCode": "ja-JP",
   "title": "今日は平安遷都の日",
@@ -38,6 +38,6 @@
     "fullStartDateTime": "202510211500",
     "endDate": "20251022"
   },
-  "createdAt": "202510210000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.HeianDay2025_JA-JP1910457007"
 }

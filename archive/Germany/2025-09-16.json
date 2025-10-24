@@ -1,43 +1,43 @@
 {
-  "date": "Sep 16, 2025",
+  "date": "Sep 17, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Ein stratosphärischer Erfolg",
+  "title": "Ein ehrfürchtiger Einzelgänger",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Nachtansicht der Golfküstenstaaten aus 362 Kilometern Höhe über der Erde (© Stocktrek Images/Getty Images)",
+  "copyright": "Ein junger Elchbulle im Denali-Nationalpark, Alaska, USA (© Grant Ordelheide/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Internationaler+Tag+zum+Schutz+der+Ozonschicht&form=hpcapt&filters=HpDate%3a%2220250915_2200%22",
-  "description": "Nachtansicht der Golfküstenstaaten aus 362 Kilometern Höhe über der Erde",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
-  "hash": "d810d9d4b92233387548920f6514d305",
+  "copyrightLink": "/search?q=Elch&form=hpcapt&filters=HpDate%3a%2220250916_2200%22",
+  "description": "Ein junger Elchbulle im Denali-Nationalpark, Alaska, USA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "69609d811f489e0527a0e272b29a5603",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_DE-DE2800551844_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_DE-DE2800551844_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_DE-DE2800551844_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_DE-DE2800551844_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_DE-DE0761999333_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250915",
-    "endDate": "20250916",
-    "fullStartDateTime": "202509152200"
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509162200"
   },
-  "createdAt": "202509160000",
-  "originalUrlBase": "/th?id=OHR.OzoneEarth_DE-DE2800551844"
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_DE-DE0761999333"
 }

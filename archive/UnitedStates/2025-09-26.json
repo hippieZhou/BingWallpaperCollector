@@ -1,43 +1,43 @@
 {
-  "date": "Sep 26, 2025",
+  "date": "Sep 27, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Carved stones of courage",
+  "title": "The fast and the furriest",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Chittorgarh Fort, Rajasthan, India (© chetansoni/Shutterstock)",
+  "copyright": "Least chipmunk, Kootenai National Forest, Montana (© Donald M. Jones/Minden Pictures)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Chittorgarh+Fort&form=hpcapt&filters=HpDate%3a%2220250925_0700%22",
-  "description": "Chittorgarh Fort, Rajasthan, India",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250925_FortChittorgarh%22&FORM=HPQUIZ",
-  "hash": "25f298f1ab9b27949d4d0d9c66199cc2",
+  "copyrightLink": "/search?q=Least+chipmunk&form=hpcapt&filters=HpDate%3a%2220250926_0700%22",
+  "description": "Least chipmunk, Kootenai National Forest, Montana",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_AutumnChipmunk%22&FORM=HPQUIZ",
+  "hash": "d366751c7597c43eef9fa69d4e6639ac",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-US9248365602_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-US9248365602_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-US9248365602_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-US9248365602_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250925",
-    "endDate": "20250926",
-    "fullStartDateTime": "202509250700"
+    "startDate": "20250926",
+    "endDate": "20250927",
+    "fullStartDateTime": "202509260700"
   },
-  "createdAt": "202509260000",
-  "originalUrlBase": "/th?id=OHR.FortChittorgarh_EN-US9184486139"
+  "createdAt": "202509270000",
+  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_EN-US9248365602"
 }

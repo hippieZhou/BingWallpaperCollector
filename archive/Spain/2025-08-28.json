@@ -1,43 +1,43 @@
 {
-  "date": "Aug 28, 2025",
+  "date": "Aug 29, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "Un plumaje impoluto",
+  "title": "El corazón de la red",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Garza blanca, Hungría (© Markus Varesvuo/Nature Picture Library)",
+  "copyright": "Vista aérea de la Plaza Mayor, Madrid, España (© AirPano LLC/Amazing Aerial Agency)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Garza+blanca&form=hpcapt&filters=HpDate%3a%2220250827_2200%22",
-  "description": "Garza blanca, Hungría",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
-  "hash": "5d09262bba11a7c343e4a5f6ae521122",
+  "copyrightLink": "/search?q=Plaza+Mayor+Madrid&form=hpcapt&filters=HpDate%3a%2220250828_2200%22",
+  "description": "Vista aérea de la Plaza Mayor, Madrid, España",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "a6207dd5a826a7ec313f327df102d513",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_ES-ES8897104707_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250827",
-    "endDate": "20250828",
-    "fullStartDateTime": "202508272200"
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508282200"
   },
-  "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.WhiteEgret_ES-ES8814073965"
+  "createdAt": "202508290000",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_ES-ES8897104707"
 }

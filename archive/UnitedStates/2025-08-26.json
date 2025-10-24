@@ -1,0 +1,43 @@
+{
+  "date": "Aug 27, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "A 'trulli' remarkable town",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Trullo buildings in Alberobello, Apulia, Italy (© Feng Wei Photography/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Alberobello&form=hpcapt&filters=HpDate%3a%2220250826_0700%22",
+  "description": "Trullo buildings in Alberobello, Apulia, Italy",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_TrulliHouses%22&FORM=HPQUIZ",
+  "hash": "e7231458ee5cef7bedba833f4130963d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20250826",
+    "endDate": "20250827",
+    "fullStartDateTime": "202508260700"
+  },
+  "createdAt": "202508280000",
+  "originalUrlBase": "/th?id=OHR.TrulliHouses_EN-US3489439665"
+}

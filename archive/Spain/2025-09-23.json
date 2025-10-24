@@ -1,43 +1,43 @@
 {
-  "date": "Sep 23, 2025",
+  "date": "Sep 24, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "¡Deporte al aire libre!",
+  "title": "El gigante solitario",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Parapente sobre el Parque Nacional del Teide, Tenerife, Islas Canarias, España (© Rafal Michal Gadomski/ShutterStock)",
+  "copyright": "Monumento Nacional Devils Tower, Wyoming, EE. UU. (© Laura Hedien/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=parque+nacional+del+teide&form=hpcapt&filters=HpDate%3a%2220250922_2200%22",
-  "description": "Parapente sobre el Parque Nacional del Teide, Tenerife, Islas Canarias, España",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250922_SportWeekTeide%22&FORM=HPQUIZ",
-  "hash": "373a35e7c3474119ddb9303a46462d7a",
+  "copyrightLink": "/search?q=Monumento+Nacional+Devils+Tower&form=hpcapt&filters=HpDate%3a%2220250923_2200%22",
+  "description": "Monumento Nacional Devils Tower, Wyoming, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250923_BearLodge%22&FORM=HPQUIZ",
+  "hash": "77bfc50837bc2ce8371ea840567a94d6",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_ES-ES0617575565_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250922",
-    "endDate": "20250923",
-    "fullStartDateTime": "202509222200"
+    "startDate": "20250923",
+    "endDate": "20250924",
+    "fullStartDateTime": "202509232200"
   },
-  "createdAt": "202509230000",
-  "originalUrlBase": "/th?id=OHR.SportWeekTeide_ES-ES0590010437"
+  "createdAt": "202509240000",
+  "originalUrlBase": "/th?id=OHR.BearLodge_ES-ES0617575565"
 }

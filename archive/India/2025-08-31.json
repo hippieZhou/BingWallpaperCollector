@@ -1,43 +1,43 @@
 {
-  "date": "Aug 31, 2025",
+  "date": "Sep 01, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "Painted clouds, still cliffs",
+  "title": "Timeless glow",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Scotts Bluff National Monument in Gering, Nebraska, United States (© Hawk Buckman/Getty Images)",
+  "copyright": "An ancient bristlecone pine, Great Basin National Park, Nevada, United States (© Wirestock Creators/Shutterstock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Scotts+Bluff+National+Monument&form=hpcapt&filters=HpDate%3a%2220250830_1830%22",
-  "description": "Scotts Bluff National Monument in Gering, Nebraska, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_ScottsBluff%22&FORM=HPQUIZ",
-  "hash": "9ef6b0b01aee673940fea3da853ff7ee",
+  "copyrightLink": "/search?q=Great+Basin+National+Park+USA&form=hpcapt&filters=HpDate%3a%2220250831_1830%22",
+  "description": "An ancient bristlecone pine, Great Basin National Park, Nevada, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_PerseidsPine%22&FORM=HPQUIZ",
+  "hash": "c420713b95d8399db305373ba96082e1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-IN3788273216_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PerseidsPine_EN-IN9650707879_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-IN3788273216_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PerseidsPine_EN-IN9650707879_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-IN3788273216_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PerseidsPine_EN-IN9650707879_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-IN3788273216_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PerseidsPine_EN-IN9650707879_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250830",
-    "endDate": "20250831",
-    "fullStartDateTime": "202508301830"
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508311830"
   },
-  "createdAt": "202508310000",
-  "originalUrlBase": "/th?id=OHR.ScottsBluff_EN-IN3788273216"
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.PerseidsPine_EN-IN9650707879"
 }

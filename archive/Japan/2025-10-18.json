@@ -1,5 +1,5 @@
 {
-  "date": "2025年10月19日",
+  "date": "2025 年 10月 月 19 日",
   "country": "Japan",
   "marketCode": "ja-JP",
   "title": "たわわに実るリンゴ",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251018",
-    "endDate": "20251019",
-    "fullStartDateTime": "202510181500"
+    "fullStartDateTime": "202510181500",
+    "endDate": "20251019"
   },
-  "createdAt": "202510180000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.AppleHarvest_JA-JP0862857490"
 }

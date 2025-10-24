@@ -1,43 +1,43 @@
 {
-  "date": "Oct 04, 2025",
+  "date": "Oct 05, 2025",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Heather growing in Glen Brittle, Isle of Skye, Scotland (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Glen+Brittle+in+Skye&form=hpcapt",
+  "copyrightLink": "/search?q=International+Space+Station&form=hpcapt",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_SkyeHeather%22&FORM=HPQUIZ",
-  "hash": "038217b8a5b9ad20e5b5a405d056f19f",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "85a56fa0120b3e0f3febcd5767f2aa1c",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251003",
-    "endDate": "20251004",
-    "fullStartDateTime": "202510030700"
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510040700"
   },
-  "createdAt": "202510040000",
-  "originalUrlBase": "/th?id=OHR.SkyeHeather_ROW6254655210"
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_ROW8867251205"
 }

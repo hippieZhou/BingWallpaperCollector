@@ -1,43 +1,43 @@
 {
-  "date": "Aug 31, 2025",
+  "date": "Sep 01, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Monumento em movimento",
+  "title": "Faróis de pedra",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Tubarão-baleia na costa do Atol Alifu Dhaalu, Maldivas (© Bachir  Moukarzel/Amazing Aerial Agency)",
+  "copyright": "Monumento Nacional Scotts Bluff em Gering, Nebraska, EUA (© Hawk Buckman/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Dia+Internacional+do+Tubar%C3%A3o-Baleia&form=hpcapt&mkt=pt-br",
-  "description": "Tubarão-baleia na costa do Atol Alifu Dhaalu, Maldivas",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_MaldivesWhaleShark%22&FORM=HPQUIZ",
-  "hash": "a0db490b9102804986f651511491e031",
+  "copyrightLink": "/search?q=Monumento+Nacional+Scotts+Bluff+em+Gering%2c+Nebraska%2c+EUA&form=hpcapt&mkt=pt-br",
+  "description": "Monumento Nacional Scotts Bluff em Gering, Nebraska, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
+  "hash": "fc74dd7d7f293c24774b7c5d19e65267",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250830",
-    "endDate": "20250831",
-    "fullStartDateTime": "202508300300"
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508310300"
   },
-  "createdAt": "202508310000",
-  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_PT-BR7655648447"
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.ScottsBluff_PT-BR7461504826"
 }

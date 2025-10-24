@@ -1,43 +1,43 @@
 {
-  "date": "Sep 27, 2025",
+  "date": "Sep 28, 2025",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Least chipmunk, Kootenai National Forest, Montana, United States (© Donald M. Jones/Minden Pictures)",
+  "copyright": "Tank Lakes, Alpine Lakes Wilderness, Washington, United States (© Austin Trigg/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Least+chipmunk&form=hpcapt",
-  "description": "Least chipmunk, Kootenai National Forest, Montana, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_AutumnChipmunk%22&FORM=HPQUIZ",
-  "hash": "fea85e306b99e7984da011518ce29214",
+  "copyrightLink": "/search?q=Alpine+Lakes+Wilderness&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_TankLakes%22&FORM=HPQUIZ",
+  "hash": "e41543cd21c8d1fb4edd8647c00fbd59",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_ROW5456053450_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250926",
-    "endDate": "20250927",
-    "fullStartDateTime": "202509260700"
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509270700"
   },
-  "createdAt": "202509270000",
-  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_ROW5358598702"
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.TankLakes_ROW5456053450"
 }

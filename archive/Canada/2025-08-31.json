@@ -1,43 +1,43 @@
 {
-  "date": "Aug. 31, 2025",
+  "date": "Sep. 1, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "Finned and fabulous",
+  "title": "Painted clouds, still cliffs",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)",
+  "copyright": "Scotts Bluff National Monument in Gering, Nebraska, United States (© Hawk Buckman/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=International+Whale+Shark+Day&form=hpcapt&filters=HpDate%3a%2220250830_0400%22",
-  "description": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_MaldivesWhaleShark%22&FORM=HPQUIZ",
-  "hash": "c719f1425415179834d5b6ebf62ed687",
+  "copyrightLink": "/search?q=Scotts+Bluff+National+Monument&form=hpcapt&filters=HpDate%3a%2220250831_0400%22",
+  "description": "Scotts Bluff National Monument in Gering, Nebraska, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
+  "hash": "559745ec245f916b91af6ad6d07d9934",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250830",
-    "endDate": "20250831",
-    "fullStartDateTime": "202508300400"
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508310400"
   },
-  "createdAt": "202508310000",
-  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101"
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.ScottsBluff_EN-CA3033262054"
 }

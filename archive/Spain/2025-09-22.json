@@ -1,43 +1,43 @@
 {
-  "date": "Sep 22, 2025",
+  "date": "Sep 23, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "El color del otoño",
+  "title": "¡Deporte al aire libre!",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Álamos durante el otoño, Bosque Nacional Fishlake, Utah, EE. UU. (© Danita Delimont/Getty Images)",
+  "copyright": "Parapente sobre el Parque Nacional del Teide, Tenerife, Islas Canarias, España (© Rafal Michal Gadomski/ShutterStock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=equinoccio+de+oto%C3%B1o&form=hpcapt&filters=HpDate%3a%2220250921_2200%22",
-  "description": "Álamos durante el otoño, Bosque Nacional Fishlake, Utah, EE. UU.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_AspenEquinox%22&FORM=HPQUIZ",
-  "hash": "26ef92f741694c8a65426aaa91b19945",
+  "copyrightLink": "/search?q=parque+nacional+del+teide&form=hpcapt&filters=HpDate%3a%2220250922_2200%22",
+  "description": "Parapente sobre el Parque Nacional del Teide, Tenerife, Islas Canarias, España",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250922_SportWeekTeide%22&FORM=HPQUIZ",
+  "hash": "373a35e7c3474119ddb9303a46462d7a",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_ES-ES0554126679_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_ES-ES0554126679_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_ES-ES0554126679_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_ES-ES0554126679_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SportWeekTeide_ES-ES0590010437_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250921",
-    "endDate": "20250922",
-    "fullStartDateTime": "202509212200"
+    "startDate": "20250922",
+    "endDate": "20250923",
+    "fullStartDateTime": "202509222200"
   },
-  "createdAt": "202509220000",
-  "originalUrlBase": "/th?id=OHR.AspenEquinox_ES-ES0554126679"
+  "createdAt": "202509230000",
+  "originalUrlBase": "/th?id=OHR.SportWeekTeide_ES-ES0590010437"
 }

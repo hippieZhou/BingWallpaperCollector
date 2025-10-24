@@ -1,43 +1,43 @@
 {
-  "date": "Sep 07, 2025",
+  "date": "Sep 08, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Une cité faite d’ambre et d’écume",
+  "title": "L’alphabétisation : un droit, un avenir",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Ville de Gdańsk, rives de la rivière Motława, Pologne (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyright": "Bibliothèque library@orchard, Singapour (© Darwin Fan/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Gdansk+Pologne&form=hpcapt&filters=HpDate%3a%2220250906_2200%22",
-  "description": "Ville de Gdańsk, rives de la rivière Motława, Pologne",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_BlueGdansk%22&FORM=HPQUIZ",
-  "hash": "5c03d37d268563980612aa60f2cefce1",
+  "copyrightLink": "/search?q=Journ%C3%A9e+internationale+de+l%27alphab%C3%A9tisation&form=hpcapt&filters=HpDate%3a%2220250907_2200%22",
+  "description": "Bibliothèque library@orchard, Singapour",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "a65b3f04828b5b53c00a4eab4595012b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250906",
-    "endDate": "20250907",
-    "fullStartDateTime": "202509062200"
+    "startDate": "20250907",
+    "endDate": "20250908",
+    "fullStartDateTime": "202509072200"
   },
-  "createdAt": "202509070000",
-  "originalUrlBase": "/th?id=OHR.BlueGdansk_FR-FR3495478989"
+  "createdAt": "202509080000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_FR-FR3660186396"
 }

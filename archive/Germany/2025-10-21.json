@@ -1,5 +1,5 @@
 {
-  "date": "22. Oct. 2025",
+  "date": "22. Okt.. 2025",
   "country": "Germany",
   "marketCode": "de-DE",
   "title": "Felsen, die Geschichten erzählen",
@@ -10,7 +10,7 @@
   "copyrightLink": "/search?q=Belogradchik-Felsen&form=hpcapt&filters=HpDate%3a%2220251021_2200%22",
   "description": "Was erzählen uns Felsen, wenn wir genau hinsehen? An den westlichen Hängen des Balkangebirges nahe der bulgarischen Stadt Belogradtschik formen Wind und Zeit seit Jahrmillionen eine fantasievolle und geschichtsträchtige Landschaft. Die Belogradtschik-Felsen sehen aus wie Tiere, Menschen oder ganze Szenen. Kein Wunder also, dass sie Namen wie „Der Reiter“ oder „Die Schülerin“ tragen. Die Felsen erstrecken sich über 30 Kilometer und leuchten je nach Tageszeit in warmen Rottönen. Wer durch die Region wandert, entdeckt nicht nur bizarre Formen, sondern auch Geschichte: Die alte Festung von Belogradtschik wurde einst von Römern und Osmanen genutzt – die Felsen dienten dabei als natürliche Mauer.",
   "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251021_BulgariaRocks%22&FORM=HPQUIZ",
-  "hash": "b32be6a5acf9a1ba55147498f522cc3e",
+  "hash": "972048a8fd61eb3bf480850a08e6bdd5",
   "imageResolutions": [
     {
       "resolution": "Standard",
@@ -38,6 +38,6 @@
     "fullStartDateTime": "202510212200",
     "endDate": "20251022"
   },
-  "createdAt": "202510210000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.BulgariaRocks_DE-DE9798723831"
 }

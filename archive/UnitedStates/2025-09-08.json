@@ -1,43 +1,43 @@
 {
-  "date": "Sep 08, 2025",
+  "date": "Sep 09, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Pastel dreams and still waters",
+  "title": "Booked for the day",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Gdańsk on the banks of the Motława, Poland (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyright": "Library@orchard, Singapore (© Darwin Fan/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=gdansk+poland&form=hpcapt&filters=HpDate%3a%2220250907_0700%22",
-  "description": "Gdańsk on the banks of the Motława, Poland",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_BlueGdansk%22&FORM=HPQUIZ",
-  "hash": "0b59d1e041eca72160bc361cd2ae641f",
+  "copyrightLink": "/search?q=International+Literacy+Day&form=hpcapt&filters=HpDate%3a%2220250908_0700%22",
+  "description": "Library@orchard, Singapore",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "5e2cfc78b6d28ab8e31cd7fccd0464a1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-US8032283831_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-US8032283831_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-US8032283831_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_EN-US8032283831_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250907",
-    "endDate": "20250908",
-    "fullStartDateTime": "202509070700"
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509080700"
   },
-  "createdAt": "202509080000",
-  "originalUrlBase": "/th?id=OHR.BlueGdansk_EN-US8032283831"
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_EN-US8095609746"
 }

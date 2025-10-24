@@ -1,43 +1,43 @@
 {
-  "date": "Sep 04, 2025",
+  "date": "Sep 05, 2025",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "エメラルド湖",
+  "title": "夕陽に染まる遊園地のシルエット",
   "bsTitle": "",
   "caption": "",
-  "copyright": "ヨーホー国立公園, カナダ (© Feng Wei Photography/Getty Images)",
+  "copyright": "パシフィック・パーク, 米国 カリフォルニア州 (© EXTREME-PHOTOGRAPHER/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E3%83%A8%E3%83%BC%E3%83%9B%E3%83%BC%E5%9B%BD%E7%AB%8B%E5%85%AC%E5%9C%92&form=hpcapt&filters=HpDate%3a%2220250903_1500%22",
-  "description": "ヨーホー国立公園, カナダ",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_YohoNP%22&FORM=HPQUIZ",
-  "hash": "400d135ee7f0d9cd78c3fbe6231e46e0",
+  "copyrightLink": "/search?q=%E3%83%91%E3%82%B7%E3%83%95%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AF&form=hpcapt&filters=HpDate%3a%2220250904_1500%22",
+  "description": "パシフィック・パーク, 米国 カリフォルニア州",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_SunsetPier%22&FORM=HPQUIZ",
+  "hash": "bfe4a38faef30009f90c4ed28dc51e99",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YohoNP_JA-JP5965096200_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YohoNP_JA-JP5965096200_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YohoNP_JA-JP5965096200_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YohoNP_JA-JP5965096200_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_JA-JP6277978338_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250903",
-    "endDate": "20250904",
-    "fullStartDateTime": "202509031500"
+    "startDate": "20250904",
+    "endDate": "20250905",
+    "fullStartDateTime": "202509041500"
   },
-  "createdAt": "202509040000",
-  "originalUrlBase": "/th?id=OHR.YohoNP_JA-JP5965096200"
+  "createdAt": "202509050000",
+  "originalUrlBase": "/th?id=OHR.SunsetPier_JA-JP6277978338"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 21, 2025",
+  "date": "Sep 22, 2025",
   "country": "UnitedKingdom",
   "marketCode": "en-GB",
-  "title": "Otterly cool",
+  "title": "Midway to winter",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Sea otters, Prince William Sound, Alaska, United States (© Gerald Corsi/Getty Images)",
+  "copyright": "Aspen trees during autumn, Fishlake National Forest, Utah, United States (© Danita Delimont/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Sea+Otter+Awareness+Week&form=hpcapt&filters=HpDate%3a%2220250920_2300%22",
-  "description": "Sea otters, Prince William Sound, Alaska, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250920_IceOtters%22&FORM=HPQUIZ",
-  "hash": "3be96b0bac79c6d28875efeacbd700a5",
+  "copyrightLink": "/search?q=Autumn+equinox&form=hpcapt&filters=HpDate%3a%2220250921_2300%22",
+  "description": "Aspen trees during autumn, Fishlake National Forest, Utah, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250921_AspenEquinox%22&FORM=HPQUIZ",
+  "hash": "2723081f7a277e24aed1d1a250e06951",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-GB2135978576_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-GB2838380564_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-GB2135978576_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-GB2838380564_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-GB2135978576_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-GB2838380564_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.IceOtters_EN-GB2135978576_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AspenEquinox_EN-GB2838380564_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250920",
-    "endDate": "20250921",
-    "fullStartDateTime": "202509202300"
+    "startDate": "20250921",
+    "endDate": "20250922",
+    "fullStartDateTime": "202509212300"
   },
-  "createdAt": "202509210000",
-  "originalUrlBase": "/th?id=OHR.IceOtters_EN-GB2135978576"
+  "createdAt": "202509220000",
+  "originalUrlBase": "/th?id=OHR.AspenEquinox_EN-GB2838380564"
 }

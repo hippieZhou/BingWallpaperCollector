@@ -1,43 +1,43 @@
 {
-  "date": "Sep 06, 2025",
+  "date": "Sep 07, 2025",
   "country": "China",
   "marketCode": "zh-CN",
-  "title": "忙碌的一天",
+  "title": "淡彩的梦境和静水",
   "bsTitle": "",
   "caption": "",
-  "copyright": "棕煌蜂鸟，旧金山金门公园，加利福尼亚州，美国 (© jeremyborkat/Getty Images)",
+  "copyright": "位于莫特拉瓦河河畔的格但斯克市，波兰 (© Oscar Dominguez/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E6%A3%95%E7%85%8C%E8%9C%82%E9%B8%9F&form=hpcapt&mkt=zh-cn",
-  "description": "棕煌蜂鸟，旧金山金门公园，加利福尼亚州，美国",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_RufousHummer%22&FORM=HPQUIZ",
-  "hash": "0296a632d12a641ec19ae90db95860c4",
+  "copyrightLink": "/search?q=%E6%B3%A2%E5%85%B0%E6%A0%BC%E4%BD%86%E6%96%AF%E5%85%8B%E5%B8%82&form=hpcapt&mkt=zh-cn",
+  "description": "位于莫特拉瓦河河畔的格但斯克市，波兰",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "20d86be3bca5feba96ab07da105301c7",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ZH-CN1777072350_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ZH-CN1777072350_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ZH-CN1777072350_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ZH-CN1777072350_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ZH-CN3328928509_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250905",
-    "endDate": "20250906",
-    "fullStartDateTime": "202509051600"
+    "startDate": "20250906",
+    "endDate": "20250907",
+    "fullStartDateTime": "202509061600"
   },
-  "createdAt": "202509060000",
-  "originalUrlBase": "/th?id=OHR.RufousHummer_ZH-CN1777072350"
+  "createdAt": "202509070000",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_ZH-CN3328928509"
 }

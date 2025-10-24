@@ -1,43 +1,43 @@
 {
-  "date": "Sep 13, 2025",
+  "date": "Sep 14, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Ungezähmte Landschaft",
+  "title": "Zeugen der Vergangenheit",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Chimney Rock, Point Reyes National Seashore, Kalifornien, USA (© Enrique Aguirre Aves/Getty Images)",
+  "copyright": "Orangerie Gera, Thüringen (© luchschenF/Shutterstock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Point+Reyes+National+Seashore+Kalifornien&form=hpcapt&filters=HpDate%3a%2220250912_2200%22",
-  "description": "Chimney Rock, Point Reyes National Seashore, Kalifornien, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
-  "hash": "f0779b2f08d5903537766bf81fdf44aa",
+  "copyrightLink": "/search?q=Tag+des+offenen+Denkmals&form=hpcapt&filters=HpDate%3a%2220250913_2200%22",
+  "description": "Orangerie Gera, Thüringen",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_GeraOrangerie%22&FORM=HPQUIZ",
+  "hash": "20e4aa6a7ea3562db326658341e77b7c",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_DE-DE5164774211_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_DE-DE5164774211_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_DE-DE5164774211_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_DE-DE5164774211_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250912",
-    "endDate": "20250913",
-    "fullStartDateTime": "202509122200"
+    "startDate": "20250913",
+    "endDate": "20250914",
+    "fullStartDateTime": "202509132200"
   },
-  "createdAt": "202509130000",
-  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_DE-DE5164774211"
+  "createdAt": "202509140000",
+  "originalUrlBase": "/th?id=OHR.GeraOrangerie_DE-DE0955611584"
 }

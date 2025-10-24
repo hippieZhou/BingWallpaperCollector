@@ -1,43 +1,43 @@
 {
-  "date": "Sep. 11, 2025",
+  "date": "Sep. 12, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "'Hay' there!",
+  "title": "Get ready to look up at the sky!",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Hay bales, North Yorkshire, England (© Nick Brundle Photography/Getty Images)",
+  "copyright": "View from Salto del Gitano, Monfragüe National Park, Cáceres, Extremadura, Spain (© Daniel Viñé Garcia/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Yorkshire+England&form=hpcapt&filters=HpDate%3a%2220250910_0400%22",
-  "description": "Hay bales, North Yorkshire, England",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250910_YorkshireHay%22&FORM=HPQUIZ",
-  "hash": "bc016054701363aad9e84876810af525",
+  "copyrightLink": "/search?q=Monfrag%C3%BCe+National+Park&form=hpcapt&filters=HpDate%3a%2220250911_0400%22",
+  "description": "View from Salto del Gitano, Monfragüe National Park, Cáceres, Extremadura, Spain",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_ExtremaduraJamon%22&FORM=HPQUIZ",
+  "hash": "642aebcebc57f1418892b7c07cf2efe0",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-CA6308294683_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_EN-CA6493942250_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-CA6308294683_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_EN-CA6493942250_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-CA6308294683_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_EN-CA6493942250_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YorkshireHay_EN-CA6308294683_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_EN-CA6493942250_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250910",
-    "endDate": "20250911",
-    "fullStartDateTime": "202509100400"
+    "startDate": "20250911",
+    "endDate": "20250912",
+    "fullStartDateTime": "202509110400"
   },
-  "createdAt": "202509110000",
-  "originalUrlBase": "/th?id=OHR.YorkshireHay_EN-CA6308294683"
+  "createdAt": "202509120000",
+  "originalUrlBase": "/th?id=OHR.ExtremaduraJamon_EN-CA6493942250"
 }

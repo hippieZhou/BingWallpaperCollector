@@ -1,5 +1,5 @@
 {
-  "date": "19 Oct 2025 г.",
+  "date": "",
   "country": "Russia",
   "marketCode": "ru-RU",
   "title": "Info",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251018",
-    "endDate": "20251019",
-    "fullStartDateTime": "202510180700"
+    "fullStartDateTime": "202510180700",
+    "endDate": "20251019"
   },
-  "createdAt": "202510180000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.SilburyHill_ROW9508999634"
 }

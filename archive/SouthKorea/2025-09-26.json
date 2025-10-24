@@ -1,43 +1,43 @@
 {
-  "date": "Sep 26, 2025",
+  "date": "Sep 27, 2025",
   "country": "SouthKorea",
   "marketCode": "ko-KR",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Chittorgarh Fort, Rajasthan, India (© chetansoni/Shutterstock)",
+  "copyright": "Least chipmunk, Kootenai National Forest, Montana, United States (© Donald M. Jones/Minden Pictures)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Chittorgarh+Fort+India&form=hpcapt",
-  "description": "Chittorgarh Fort, Rajasthan, India",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250925_FortChittorgarh%22&FORM=HPQUIZ",
-  "hash": "1f083482831ece647d2e81ab7e196bff",
+  "copyrightLink": "/search?q=Least+chipmunk&form=hpcapt",
+  "description": "Least chipmunk, Kootenai National Forest, Montana, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_AutumnChipmunk%22&FORM=HPQUIZ",
+  "hash": "fea85e306b99e7984da011518ce29214",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ROW5235971139_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ROW5235971139_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ROW5235971139_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_ROW5235971139_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_ROW5358598702_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250925",
-    "endDate": "20250926",
-    "fullStartDateTime": "202509250700"
+    "startDate": "20250926",
+    "endDate": "20250927",
+    "fullStartDateTime": "202509260700"
   },
-  "createdAt": "202509260000",
-  "originalUrlBase": "/th?id=OHR.FortChittorgarh_ROW5235971139"
+  "createdAt": "202509270000",
+  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_ROW5358598702"
 }

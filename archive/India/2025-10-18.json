@@ -1,5 +1,5 @@
 {
-  "date": "19 Oct 2025",
+  "date": "Oct 19, 2025",
   "country": "India",
   "marketCode": "en-IN",
   "title": "Sweet on science",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251018",
-    "endDate": "20251019",
-    "fullStartDateTime": "202510181830"
+    "fullStartDateTime": "202510181830",
+    "endDate": "20251019"
   },
-  "createdAt": "202510180000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.AppleHarvest_EN-IN5534604736"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Aug 28, 2025",
+  "date": "Aug 29, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "This egret has no regrets",
+  "title": "The heart of the grid",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Great white egret, Hungary (© Markus Varesvuo/Nature Picture Library)",
+  "copyright": "Aerial view of Plaza Mayor, Madrid, Spain (© AirPano LLC/Amazing Aerial Agency)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Great+white+egret&form=hpcapt&filters=HpDate%3a%2220250827_1830%22",
-  "description": "Great white egret, Hungary",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
-  "hash": "2c0c0a84b1666e61c3934a13fb455b41",
+  "copyrightLink": "/search?q=Plaza+Mayor+Madrid&form=hpcapt&filters=HpDate%3a%2220250828_1830%22",
+  "description": "Aerial view of Plaza Mayor, Madrid, Spain",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "47d06da4100854ecb7ee5a1a29a5a29b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-IN3331960000_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-IN3331960000_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-IN3331960000_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_EN-IN3331960000_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250827",
-    "endDate": "20250828",
-    "fullStartDateTime": "202508271830"
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508281830"
   },
-  "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.WhiteEgret_EN-IN3331960000"
+  "createdAt": "202508290000",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_EN-IN3487561181"
 }

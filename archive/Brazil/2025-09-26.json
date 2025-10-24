@@ -1,43 +1,43 @@
 {
-  "date": "Sep 26, 2025",
+  "date": "Sep 27, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "No zigue-zague da história",
+  "title": "Pequenos e velozes",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Forte de Chittorgarh, Rajastão, Índia (© chetansoni/Shutterstock)",
+  "copyright": "Tâmia-pequena na Floresta Nacional de Kootenai, Montana, EUA (© Donald M. Jones/Minden Pictures)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Rajast%C3%A3o+%C3%8Dndia&form=hpcapt&mkt=pt-br",
-  "description": "Forte de Chittorgarh, Rajastão, Índia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250925_FortChittorgarh%22&FORM=HPQUIZ",
-  "hash": "8c8d6fa212ec252dc44d4ea65a3f5973",
+  "copyrightLink": "/search?q=t%C3%A2mia+pequena&form=hpcapt&mkt=pt-br",
+  "description": "Tâmia-pequena na Floresta Nacional de Kootenai, Montana, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_AutumnChipmunk%22&FORM=HPQUIZ",
+  "hash": "9e8071322763d725ca71e11e2fa1db0f",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_PT-BR4240075767_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_PT-BR4240075767_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_PT-BR4240075767_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_PT-BR4240075767_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250925",
-    "endDate": "20250926",
-    "fullStartDateTime": "202509250300"
+    "startDate": "20250926",
+    "endDate": "20250927",
+    "fullStartDateTime": "202509260300"
   },
-  "createdAt": "202509260000",
-  "originalUrlBase": "/th?id=OHR.FortChittorgarh_PT-BR4240075767"
+  "createdAt": "202509270000",
+  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_PT-BR7323455735"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 05, 2025",
+  "date": "Sep 06, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Là où la mer se donne en spectacle",
+  "title": "Lille en fête !",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Pacific Park, plage d'État de Santa Monica, Californie, États-Unis (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyright": "Le beffroi de la Chambre de Commerce, Lille, Hauts-de-France (© Wirestock/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=plage+d%27%C3%89tat+de+Santa+Monica&form=hpcapt&filters=HpDate%3a%2220250904_2200%22",
-  "description": "Pacific Park, plage d'État de Santa Monica, Californie, États-Unis",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_SunsetPier%22&FORM=HPQUIZ",
-  "hash": "a81837d9fd706d07625a558bb6733a18",
+  "copyrightLink": "/search?q=Braderie+de+Lille&form=hpcapt&filters=HpDate%3a%2220250905_2200%22",
+  "description": "Le beffroi de la Chambre de Commerce, Lille, Hauts-de-France",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_LilleMarket%22&FORM=HPQUIZ",
+  "hash": "48626e37b3761d009e40d0df68d152fc",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_FR-FR5498949983_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_FR-FR5498949983_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_FR-FR5498949983_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_FR-FR5498949983_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250904",
-    "endDate": "20250905",
-    "fullStartDateTime": "202509042200"
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509052200"
   },
-  "createdAt": "202509050000",
-  "originalUrlBase": "/th?id=OHR.SunsetPier_FR-FR5498949983"
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.LilleMarket_FR-FR3271144048"
 }

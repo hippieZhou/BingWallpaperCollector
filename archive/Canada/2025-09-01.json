@@ -1,43 +1,43 @@
 {
-  "date": "Sep. 1, 2025",
+  "date": "Sep. 2, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "Painted clouds, still cliffs",
+  "title": "From volcanic roots to river routes",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Scotts Bluff National Monument in Gering, Nebraska, United States (© Hawk Buckman/Getty Images)",
+  "copyright": "Calcite Springs Overlook and Yellowstone River, Yellowstone National Park, Wyoming (© Rebecca L. Latson/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Scotts+Bluff+National+Monument&form=hpcapt&filters=HpDate%3a%2220250831_0400%22",
-  "description": "Scotts Bluff National Monument in Gering, Nebraska, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
-  "hash": "559745ec245f916b91af6ad6d07d9934",
+  "copyrightLink": "/search?q=Yellowstone+National+Park&form=hpcapt&filters=HpDate%3a%2220250901_0400%22",
+  "description": "Calcite Springs Overlook and Yellowstone River, Yellowstone National Park, Wyoming",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_YellowstoneRiver%22&FORM=HPQUIZ",
+  "hash": "eb53e72451014e23cdf331afd6f008bd",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_EN-CA9627036432_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_EN-CA9627036432_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_EN-CA9627036432_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_EN-CA3033262054_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YellowstoneRiver_EN-CA9627036432_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250831",
-    "endDate": "20250901",
-    "fullStartDateTime": "202508310400"
+    "startDate": "20250901",
+    "endDate": "20250902",
+    "fullStartDateTime": "202509010400"
   },
-  "createdAt": "202509010000",
-  "originalUrlBase": "/th?id=OHR.ScottsBluff_EN-CA3033262054"
+  "createdAt": "202509020000",
+  "originalUrlBase": "/th?id=OHR.YellowstoneRiver_EN-CA9627036432"
 }

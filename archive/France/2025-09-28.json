@@ -1,43 +1,43 @@
 {
-  "date": "28 sept. 2025",
+  "date": "29 sept. 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Pienza et son pecorino, c’est fort de fromage !",
-  "bsTitle": "Pienza et son pecorino, c’est fort de fromage !",
-  "caption": "Pienza, Toscane, Italie",
-  "copyright": "Ville de Pienza, Toscane, Italie (© zpagistock/Getty Images)",
-  "copyrightOnly": "© zpagistock/Getty Images",
-  "copyrightLink": "/search?q=Pienza&form=hpcapt&filters=HpDate%3a%2220250927_2200%22",
-  "description": "Accrochée au-dessus du Val d’Orcia, en Toscane, en Italie, Pienza déploie ses murs clairs face à un paysage digne d’un maître : cyprès élancés, collines ondulantes, routes de terre serpentant vers l’horizon. Jadis simple village médiéval nommé Corsignano, elle fut métamorphosée au XVe siècle par l’un de ses fils, devenu le pape Pie II. Avec l’architecte Bernardo Rossellino, il voulut offrir au monde un modèle de ville idéale, où ordre et harmonie guideraient les rues.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
-  "hash": "74f93f95e7e3bffafce5044f435da11a",
+  "title": "Au pied des maisons arc-en-ciel, un trésor",
+  "bsTitle": "Au pied des maisons arc-en-ciel, un trésor",
+  "caption": "Maisons arc-en-ciel, Houten, Pays-Bas",
+  "copyright": "Maisons arc-en-ciel dans la ville de Houten, Pays-Bas (© George Pachantouris/Getty Images)",
+  "copyrightOnly": "© George Pachantouris/Getty Images",
+  "copyrightLink": "/search?q=Houten%2c+Pays-Bas&form=hpcapt&filters=HpDate%3a%2220250928_2200%22",
+  "description": "Au bord du lac Rietplas, dans la ville néerlandaise de Houten, une rangée de maisons surgit, telle une palette de peintre posée sur l’eau. Conçues par l’architecte Hans Been et achevées en 2005, ces façades arc-en-ciel mêlent audace caribéenne et sobriété nordique. Reflets saturés, lignes nettes : un quartier résidentiel devenu, presque malgré lui, un paysage de carte postale.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_HoutenHouses%22&FORM=HPQUIZ",
+  "hash": "0699812a1e8d8cec87329380a69f47e8",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_FR-FR2130005193_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250927",
-    "endDate": "20250928",
-    "fullStartDateTime": "202509272200"
+    "startDate": "20250928",
+    "endDate": "20250929",
+    "fullStartDateTime": "202509282200"
   },
-  "createdAt": "202509280000",
-  "originalUrlBase": "/th?id=OHR.PienzaItaly_FR-FR1953145437"
+  "createdAt": "202509290000",
+  "originalUrlBase": "/th?id=OHR.HoutenHouses_FR-FR2130005193"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 14, 2025",
+  "date": "Sep 15, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Zeugen der Vergangenheit",
+  "title": "Anmutig und stimmfreudig",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Orangerie Gera, Thüringen (© luchschenF/Shutterstock)",
+  "copyright": "Stelzenläufer, Frankreich (© Antonio Sementa/500px/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Tag+des+offenen+Denkmals&form=hpcapt&filters=HpDate%3a%2220250913_2200%22",
-  "description": "Orangerie Gera, Thüringen",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_GeraOrangerie%22&FORM=HPQUIZ",
-  "hash": "20e4aa6a7ea3562db326658341e77b7c",
+  "copyrightLink": "/search?q=Stelzenl%C3%A4ufer&form=hpcapt&filters=HpDate%3a%2220250914_2200%22",
+  "description": "Stelzenläufer, Frankreich",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_Echasse%22&FORM=HPQUIZ",
+  "hash": "1ef63b21b184e7dd7257d01117da41c0",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_DE-DE5356832083_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_DE-DE5356832083_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_DE-DE5356832083_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.GeraOrangerie_DE-DE0955611584_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_DE-DE5356832083_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250913",
-    "endDate": "20250914",
-    "fullStartDateTime": "202509132200"
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509142200"
   },
-  "createdAt": "202509140000",
-  "originalUrlBase": "/th?id=OHR.GeraOrangerie_DE-DE0955611584"
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.Echasse_DE-DE5356832083"
 }

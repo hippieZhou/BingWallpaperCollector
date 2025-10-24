@@ -1,43 +1,43 @@
 {
-  "date": "4. Okt.. 2025",
+  "date": "5. Okt.. 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Der Kosmos kennt keine Grenzen",
-  "bsTitle": "Der Kosmos kennt keine Grenzen",
-  "caption": "Internationale Weltraumwoche",
-  "copyright": "Die Hauptsolaranlagen der ISS, gesehen von der SpaceX Crew Dragon Endeavour (© NASA)  (© NASA)",
-  "copyrightOnly": "© NASA",
-  "copyrightLink": "/search?q=Internationale+Weltraumwoche&form=hpcapt&filters=HpDate%3a%2220251003_2200%22",
-  "description": "Jedes Jahr vom 4. bis 10. Oktober wird die Internationale Weltraumwoche gefeiert – eine Initiative der Vereinten Nationen, die die Bedeutung von Raumfahrttechnologie und -wissenschaft für das Leben auf der Erde hervorhebt. Diese Woche erinnert an zwei historische Meilensteine: den Start des ersten künstlichen Satelliten, Sputnik I, am 4. Oktober 1957 und das Inkrafttreten des Weltraumvertrags am 10. Oktober 1967, der die friedliche Nutzung des Weltraums sowie das Verbot von Waffen im All regelt. Weltweit finden in dieser Zeit zahlreiche Veranstaltungen statt – von Schulprojekten bis hin zu wissenschaftlichen Ausstellungen –, um das Interesse an der Raumfahrt zu fördern und junge Menschen für die Erforschung des Universums zu begeistern.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
-  "hash": "8b0f40693cba842b1618c6643518fb4d",
+  "title": "Weisheit feiern",
+  "bsTitle": "Weisheit feiern",
+  "caption": "Tag des Lehrers",
+  "copyright": "Raufußkauz in einem Wald in Mitteleuropa (© Ondrej Prosicky/Alamy)",
+  "copyrightOnly": "© Ondrej Prosicky/Alamy",
+  "copyrightLink": "/search?q=Tag+des+Lehrers&form=hpcapt&filters=HpDate%3a%2220251004_2200%22",
+  "description": "Der Weltlehrertag wird jedes Jahr am 5. Oktober gefeiert und wurde 1994 von der UNESCO ins Leben gerufen, um die zentrale Rolle von Lehrkräften weltweit zu würdigen. Dieses Datum erinnert an die Unterzeichnung der gemeinsamen Empfehlung von UNESCO und IAO zur Lage des Lehrpersonals (1966), die Standards für deren Rechte und Pflichten festlegt. Lehrkräfte sind entscheidend für den Aufbau gerechter, inklusiver und nachhaltiger Gesellschaften. Persönlichkeiten wie Maria Montessori, Paulo Freire oder Gabriela Mistral gelten als Vorbilder für innovative Bildungsansätze und lebenslanges Engagement für das Lernen.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "2a1e25e2fb52e15158cb5015bebe1ac3",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_DE-DE7375931305_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251003",
-    "endDate": "20251004",
-    "fullStartDateTime": "202510032200"
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510042200"
   },
-  "createdAt": "202510040000",
-  "originalUrlBase": "/th?id=OHR.DragonEndeavour_DE-DE7375931305"
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_DE-DE2816959094"
 }

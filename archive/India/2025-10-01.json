@@ -1,43 +1,43 @@
 {
-  "date": "Oct 1, 2025",
+  "date": "Oct 2, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "Gracefully divine",
-  "bsTitle": "Gracefully divine",
-  "caption": "Maha Navami",
-  "copyright": "Goddess Durga idol at a puja pandal in Kolkata, West Bengal (© Arnav Pratap Singh/Getty Images)",
-  "copyrightOnly": "© Arnav Pratap Singh/Getty Images",
-  "copyrightLink": "/search?q=Maha+Navami&form=hpcapt&filters=HpDate%3a%2220250930_1830%22",
-  "description": "Maha Navami, the ninth day of Sharad Navratri, is an observance grounded in devotion, myth and tradition. It recalls the final day of Goddess Durga's battle with Mahishasura, the buffalo demon, before her ultimate victory on Vijaya Dashami. The day is seen as the culmination of Navratri devotion, symbolising the victory of righteousness over evil and preparing devotees to begin anew.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_GoddessDurga2025%22&FORM=HPQUIZ",
-  "hash": "4757b76ff3167ef0896525533f8a8ca9",
+  "title": "A figure of peace",
+  "bsTitle": "A figure of peace",
+  "caption": "Gandhi Jayanti",
+  "copyright": "Mahatma Gandhi statue at Malpe Beach, Udupi, Karnataka (© Rainer Krack/Alamy)",
+  "copyrightOnly": "© Rainer Krack/Alamy",
+  "copyrightLink": "/search?q=Gandhi+Jayanti&form=hpcapt&filters=HpDate%3a%2220251001_1830%22",
+  "description": "A day that reminds us how simplicity can move mountains—Gandhi Jayanti celebrates the power of truth and non-violence. Recognised as one of the three national holidays in India, it also carries global significance as the United Nations has observed it since 2007 as the International Day of Non-Violence.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_StatueGandhi%22&FORM=HPQUIZ",
+  "hash": "a1dc3e07892aa10ea286f4fe34150ea1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.GoddessDurga2025_EN-IN4254679403_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.GoddessDurga2025_EN-IN4254679403_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.GoddessDurga2025_EN-IN4254679403_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.GoddessDurga2025_EN-IN4254679403_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.StatueGandhi_EN-IN4485364887_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250930",
-    "endDate": "20251001",
-    "fullStartDateTime": "202509301830"
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510011830"
   },
-  "createdAt": "202510010000",
-  "originalUrlBase": "/th?id=OHR.GoddessDurga2025_EN-IN4254679403"
+  "createdAt": "202510020000",
+  "originalUrlBase": "/th?id=OHR.StatueGandhi_EN-IN4485364887"
 }

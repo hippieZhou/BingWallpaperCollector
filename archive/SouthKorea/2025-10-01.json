@@ -1,43 +1,43 @@
 {
-  "date": "Oct 01, 2025",
+  "date": "Oct 02, 2025",
   "country": "SouthKorea",
   "marketCode": "ko-KR",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Koala in a eucalyptus tree, Great Otway National Park, Australia (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=koala&form=hpcapt",
+  "copyrightLink": "/search?q=Clark+Range&form=hpcapt",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_EucalyptusKoala%22&FORM=HPQUIZ",
-  "hash": "2d8d16de8a9a295ab3163ceb27296f8c",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "8127971718e27c4d625153cfd5c45288",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ROW5777411549_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ROW5777411549_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ROW5777411549_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ROW5777411549_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ROW5897373346_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250930",
-    "endDate": "20251001",
-    "fullStartDateTime": "202509300700"
+    "startDate": "20251001",
+    "endDate": "20251002",
+    "fullStartDateTime": "202510010700"
   },
-  "createdAt": "202510010000",
-  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_ROW5777411549"
+  "createdAt": "202510020000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_ROW5897373346"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 27, 2025",
+  "date": "Sep 28, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Pequenos e velozes",
+  "title": "Olhares brilhantes",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Tâmia-pequena na Floresta Nacional de Kootenai, Montana, EUA (© Donald M. Jones/Minden Pictures)",
+  "copyright": "Lagos Tank, Região Selvagem dos Lagos Alpinos, Washington, EUA (© Austin Trigg/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=t%C3%A2mia+pequena&form=hpcapt&mkt=pt-br",
-  "description": "Tâmia-pequena na Floresta Nacional de Kootenai, Montana, EUA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_AutumnChipmunk%22&FORM=HPQUIZ",
-  "hash": "9e8071322763d725ca71e11e2fa1db0f",
+  "copyrightLink": "/search?q=Lagos+Alpinos%2c+Washington%2c+EUA&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_TankLakes%22&FORM=HPQUIZ",
+  "hash": "94da1b7109cf2d3a4e79172558a545ab",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_PT-BR7323455735_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250926",
-    "endDate": "20250927",
-    "fullStartDateTime": "202509260300"
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509270300"
   },
-  "createdAt": "202509270000",
-  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_PT-BR7323455735"
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.TankLakes_PT-BR9433679717"
 }

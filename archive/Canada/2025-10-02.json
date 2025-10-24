@@ -1,43 +1,43 @@
 {
-  "date": "Oct. 1, 2025",
+  "date": "Oct. 2, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "Echoes from the Clark Range",
-  "bsTitle": "Echoes from the Clark Range",
-  "caption": "Clark Range, Yosemite National Park, California, United States",
-  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
-  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
-  "copyrightLink": "/search?q=National+Park+Yosemite&form=hpcapt&filters=HpDate%3a%2220251001_0400%22",
-  "description": "This year marks another milestone in the legacy of Yosemite National Park in California, United States, a sanctuary protected since 1864 and celebrated for its awe-inspiring grandeur and ecological significance. Nestled in the heart of the Sierra Nevada, Yosemite's nearly 3,100 square kilometres cradle granite giants, cascading waterfalls and ancient sequoias. Among its lesser-known treasures lies the Clark Range—the rugged, high-elevation spine seen in today's image. It was named after Galen Clark, Yosemite's first guardian and a pioneer of conservation.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_YosemiteClark%22&FORM=HPQUIZ",
-  "hash": "0eb1a470b02fa27924498255c8b8136b",
+  "title": "Wild by law",
+  "bsTitle": "Wild by law",
+  "caption": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming, United States",
+  "copyright": "Oxbow Bend on the Snake River, Grand Teton National Park, Wyoming, United States (© DanitaDelimont.com/AWL Images/SuperStock)",
+  "copyrightOnly": "© DanitaDelimont.com/AWL Images/SuperStock",
+  "copyrightLink": "/search?q=Snake+River&form=hpcapt&filters=HpDate%3a%2220251002_0400%22",
+  "description": "Beyond water, rivers carry life, history and stories. They are nature's ever-moving contribution to our landscapes, flowing through lands and across time. One such gem is the Snake River, which winds through Grand Teton National Park in Wyoming, United States. A particularly stunning spot along this river is Oxbow Bend—featured in today's image—where calm waters reflect the towering Teton Range, and wildlife such as moose and bald eagles thrive. On calm days, Mount Moran can be seen reflected on the surface of the water. Here, water flows freely, unbound by concrete or commerce, protected by the Wild and Scenic Rivers Act. The Snake River Headwaters, including Oxbow Bend, joined this Act in 2009, ensuring its reflections remain undisturbed and its rhythms unbroken. At dawn, mist dances over the bend and the mountains blush with the first light. Visitors pause, hushed by nature's poetry. Thanks to this Act, the river's story flows on—untamed, unspoiled, unforgettable.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_OxbowBend%22&FORM=HPQUIZ",
+  "hash": "5bdebd2f8f8e3c004ebe094045efe557",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-CA0110307953_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-CA0110307953_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-CA0110307953_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-CA9187443856_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OxbowBend_EN-CA0110307953_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251001",
-    "endDate": "20251002",
-    "fullStartDateTime": "202510010400"
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510020400"
   },
-  "createdAt": "202510020000",
-  "originalUrlBase": "/th?id=OHR.YosemiteClark_EN-CA9187443856"
+  "createdAt": "202510030000",
+  "originalUrlBase": "/th?id=OHR.OxbowBend_EN-CA0110307953"
 }

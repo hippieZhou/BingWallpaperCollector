@@ -1,43 +1,43 @@
 {
-  "date": "Sep 06, 2025",
+  "date": "Sep 07, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Lille en fête !",
+  "title": "Une cité faite d’ambre et d’écume",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Le beffroi de la Chambre de Commerce, Lille, Hauts-de-France (© Wirestock/Getty Images)",
+  "copyright": "Ville de Gdańsk, rives de la rivière Motława, Pologne (© Oscar Dominguez/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Braderie+de+Lille&form=hpcapt&filters=HpDate%3a%2220250905_2200%22",
-  "description": "Le beffroi de la Chambre de Commerce, Lille, Hauts-de-France",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_LilleMarket%22&FORM=HPQUIZ",
-  "hash": "48626e37b3761d009e40d0df68d152fc",
+  "copyrightLink": "/search?q=Gdansk+Pologne&form=hpcapt&filters=HpDate%3a%2220250906_2200%22",
+  "description": "Ville de Gdańsk, rives de la rivière Motława, Pologne",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "5c03d37d268563980612aa60f2cefce1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.LilleMarket_FR-FR3271144048_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_FR-FR3495478989_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250905",
-    "endDate": "20250906",
-    "fullStartDateTime": "202509052200"
+    "startDate": "20250906",
+    "endDate": "20250907",
+    "fullStartDateTime": "202509062200"
   },
-  "createdAt": "202509060000",
-  "originalUrlBase": "/th?id=OHR.LilleMarket_FR-FR3271144048"
+  "createdAt": "202509070000",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_FR-FR3495478989"
 }

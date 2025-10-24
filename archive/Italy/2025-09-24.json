@@ -1,43 +1,43 @@
 {
-  "date": "Sep 24, 2025",
+  "date": "Sep 25, 2025",
   "country": "Italy",
   "marketCode": "it-IT",
-  "title": "Monumento, Mito, Memoria",
+  "title": "Occhiello sul passato?",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Torre del Diavolo, Wyoming, USA (© Laura Hedien/Getty Images)",
+  "copyright": "Forte di Chittor, Rajasthan, India (© chetansoni/Shutterstock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Torre+del+Diavolo+Stati+Uniti&form=hpcapt",
-  "description": "Torre del Diavolo, Wyoming, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250923_BearLodge%22&FORM=HPQUIZ",
-  "hash": "109c8ecf7f929cdab89b126e56cf1200",
+  "copyrightLink": "/search?q=Forte+di+Chittor+Rajasthan+India&form=hpcapt",
+  "description": "Forte di Chittor, Rajasthan, India",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_FortChittorgarh%22&FORM=HPQUIZ",
+  "hash": "5d6e497f47c8befc42830fa44077eecd",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_IT-IT3838142385_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_IT-IT3838142385_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_IT-IT3838142385_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_IT-IT3838142385_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_IT-IT3892899630_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250923",
-    "endDate": "20250924",
-    "fullStartDateTime": "202509232200"
+    "startDate": "20250924",
+    "endDate": "20250925",
+    "fullStartDateTime": "202509242200"
   },
-  "createdAt": "202509240000",
-  "originalUrlBase": "/th?id=OHR.BearLodge_IT-IT3838142385"
+  "createdAt": "202509250000",
+  "originalUrlBase": "/th?id=OHR.FortChittorgarh_IT-IT3892899630"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Aug 27, 2025",
+  "date": "Aug 28, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Ein See über dem Ozean",
+  "title": "Majestät in Weiß",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Sørvágsvatn-See, Insel Vágar, Färöer-Inseln (© Anton Petrus/Getty Images)",
+  "copyright": "Silberreiher, Ungarn (© Markus Varesvuo/Nature Picture Library)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=S%C3%B8rv%C3%A1gsvatn-See&form=hpcapt&filters=HpDate%3a%2220250826_2200%22",
-  "description": "Sørvágsvatn-See, Insel Vágar, Färöer-Inseln",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
-  "hash": "97624fe0b4b545d27fa88bbcbdf9bfa0",
+  "copyrightLink": "/search?q=Silberreiher&form=hpcapt&filters=HpDate%3a%2220250827_2200%22",
+  "description": "Silberreiher, Ungarn",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "c4fa4bcba5db43558a99a26b299d378d",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_DE-DE3217982226_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_DE-DE3217982226_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_DE-DE3217982226_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_DE-DE3217982226_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_DE-DE4529883456_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250826",
-    "endDate": "20250827",
-    "fullStartDateTime": "202508262200"
+    "startDate": "20250827",
+    "endDate": "20250828",
+    "fullStartDateTime": "202508272200"
   },
   "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.FaroeLake_DE-DE3217982226"
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_DE-DE4529883456"
 }

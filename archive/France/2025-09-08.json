@@ -1,43 +1,43 @@
 {
-  "date": "Sep 08, 2025",
+  "date": "Sep 09, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "L’alphabétisation : un droit, un avenir",
+  "title": "La forêt à hauteur d’écureuil",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Bibliothèque library@orchard, Singapour (© Darwin Fan/Getty Images)",
+  "copyright": "Femelle écureuil roux avec de la mousse, Suisse (© Jean-Luc and Francoise Ziegler/Minden Pictures)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Journ%C3%A9e+internationale+de+l%27alphab%C3%A9tisation&form=hpcapt&filters=HpDate%3a%2220250907_2200%22",
-  "description": "Bibliothèque library@orchard, Singapour",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_OrchardLibrary%22&FORM=HPQUIZ",
-  "hash": "a65b3f04828b5b53c00a4eab4595012b",
+  "copyrightLink": "/search?q=%C3%A9cureuil+roux&form=hpcapt&filters=HpDate%3a%2220250908_2200%22",
+  "description": "Femelle écureuil roux avec de la mousse, Suisse",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_SwissSquirrel%22&FORM=HPQUIZ",
+  "hash": "b2a07af9c758a71075b04b49c00efdbf",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_FR-FR3805105470_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_FR-FR3805105470_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_FR-FR3805105470_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_FR-FR3660186396_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_FR-FR3805105470_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250907",
-    "endDate": "20250908",
-    "fullStartDateTime": "202509072200"
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509082200"
   },
-  "createdAt": "202509080000",
-  "originalUrlBase": "/th?id=OHR.OrchardLibrary_FR-FR3660186396"
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.SwissSquirrel_FR-FR3805105470"
 }

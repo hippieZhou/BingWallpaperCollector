@@ -1,43 +1,43 @@
 {
-  "date": "Sep 24, 2025",
+  "date": "Sep 25, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "O arco-íris que decidiu voar",
+  "title": "O gigante solitário",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Tucano-de-peito-amarelo na Costa Rica (© Juan Carlos Vindas/Getty Images)",
+  "copyright": "Monumento Nacional da Torre do Diabo, Wyoming, EUA (© Laura Hedien/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Tucano+de+peito+amarelo&form=hpcapt&mkt=pt-br",
-  "description": "Tucano-de-peito-amarelo na Costa Rica",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250923_ToucanForest%22&FORM=HPQUIZ",
-  "hash": "06e7697e629880a60100b6d689fd09ea",
+  "copyrightLink": "/search?q=Monumento+Nacional+Torre+do+Diabo&form=hpcapt&mkt=pt-br",
+  "description": "Monumento Nacional da Torre do Diabo, Wyoming, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_BearLodge%22&FORM=HPQUIZ",
+  "hash": "fa6095d1a2f5777e3dfeca4c33a2c1ed",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ToucanForest_PT-BR8747698753_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_PT-BR9369560385_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ToucanForest_PT-BR8747698753_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_PT-BR9369560385_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ToucanForest_PT-BR8747698753_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_PT-BR9369560385_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ToucanForest_PT-BR8747698753_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BearLodge_PT-BR9369560385_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250923",
-    "endDate": "20250924",
-    "fullStartDateTime": "202509230300"
+    "startDate": "20250924",
+    "endDate": "20250925",
+    "fullStartDateTime": "202509240300"
   },
-  "createdAt": "202509240000",
-  "originalUrlBase": "/th?id=OHR.ToucanForest_PT-BR8747698753"
+  "createdAt": "202509250000",
+  "originalUrlBase": "/th?id=OHR.BearLodge_PT-BR9369560385"
 }

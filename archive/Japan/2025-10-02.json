@@ -1,43 +1,43 @@
 {
-  "date": "2025 年 10月 月 2 日",
+  "date": "2025 年 10月 月 3 日",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "スネーク川と山々の絶景スポット",
-  "bsTitle": "スネーク川と山々の絶景スポット",
-  "caption": "スネーク川と山々の絶景スポット",
-  "copyright": "オックスボウ・ベンド, 米国 ワイオミング州 (© DanitaDelimont.com/AWL Images/SuperStock)",
-  "copyrightOnly": "© DanitaDelimont.com/AWL Images/SuperStock",
-  "copyrightLink": "/search?q=%e3%82%aa%e3%83%83%e3%82%af%e3%82%b9%e3%83%9c%e3%82%a6%e3%83%bb%e3%83%99%e3%83%b3%e3%83%89&form=hpcapt&filters=HpDate%3a%2220251001_1500%22",
-  "description": "ここは米国ワイオミング州にあるオックスボウ・ベンド。グランド・ティトン国立公園内を流れるスネーク川の穏やかな水面が、ティトン山脈を鏡のように映し出します。また、夜明けになると川霧が漂い、山々が朝日に染まる幻想的な光景が広がります。周辺にはヘラジカやハクトウワシなどの野生動物も生息しており、大自然を肌で感じられる場所です…",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251001_OxbowBend%22&FORM=HPQUIZ",
-  "hash": "f5d462281c6eae13080f9850d6b4aaa5",
+  "title": "紫の花咲く大地",
+  "bsTitle": "紫の花咲く大地",
+  "caption": "紫の花咲く大地",
+  "copyright": "グレン・ブリトル, スコットランド (© Adam Mowery/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=%e3%82%b0%e3%83%ac%e3%83%b3%e3%83%bb%e3%83%96%e3%83%aa%e3%83%88%e3%83%ab&form=hpcapt&filters=HpDate%3a%2220251002_1500%22",
+  "description": "「霧の島」とも称されるスコットランドのスカイ島。その南西部に広がる谷、グレン・ブリトルでは、ヒースと呼ばれる美しい紫の小さな花が絨毯のように咲き誇ります。太古の昔から存在する歴史ある土地で、断崖には恐竜の足跡が刻まれており、9 世紀にはヴァイキングが定住しました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_SkyeHeather%22&FORM=HPQUIZ",
+  "hash": "5546ca888fcb54e6405a7e23e5f272b0",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_JA-JP6534968552_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_JA-JP6534968552_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_JA-JP6534968552_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OxbowBend_JA-JP6534968552_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251001",
-    "endDate": "20251002",
-    "fullStartDateTime": "202510011500"
+    "startDate": "20251002",
+    "endDate": "20251003",
+    "fullStartDateTime": "202510021500"
   },
-  "createdAt": "202510020000",
-  "originalUrlBase": "/th?id=OHR.OxbowBend_JA-JP6534968552"
+  "createdAt": "202510030000",
+  "originalUrlBase": "/th?id=OHR.SkyeHeather_JA-JP7561347402"
 }

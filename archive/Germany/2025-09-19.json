@@ -1,43 +1,43 @@
 {
-  "date": "Sep 19, 2025",
+  "date": "Sep 20, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Tausend Gründe, diesen Ort zu besuchen",
+  "title": "O’zapft is!",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Thousand Islands, Sankt-Lorenz-Strom, Grenze zwischen den USA und Kanada (© benedek/Getty Images)",
+  "copyright": "Hacker-Festzelt auf dem Oktoberfest, München, Bayern (© Westend61/Getty Images Plus)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Thousand+Islands&form=hpcapt&filters=HpDate%3a%2220250918_2200%22",
-  "description": "Thousand Islands, Sankt-Lorenz-Strom, Grenze zwischen den USA und Kanada",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_ThousandIslands%22&FORM=HPQUIZ",
-  "hash": "76cf75462cfe4604c17109574aa08db2",
+  "copyrightLink": "/search?q=Oktoberfest+M%C3%BCnchen&form=hpcapt&filters=HpDate%3a%2220250919_2200%22",
+  "description": "Hacker-Festzelt auf dem Oktoberfest, München, Bayern",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250919_OktoberfestHackerFestzelt%22&FORM=HPQUIZ",
+  "hash": "8e60ba714b1b5df1d5330ad8c8ce9ebf",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_DE-DE2717714260_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestHackerFestzelt_DE-DE2583035265_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_DE-DE2717714260_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestHackerFestzelt_DE-DE2583035265_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_DE-DE2717714260_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestHackerFestzelt_DE-DE2583035265_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_DE-DE2717714260_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestHackerFestzelt_DE-DE2583035265_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250918",
-    "endDate": "20250919",
-    "fullStartDateTime": "202509182200"
+    "startDate": "20250919",
+    "endDate": "20250920",
+    "fullStartDateTime": "202509192200"
   },
-  "createdAt": "202509190000",
-  "originalUrlBase": "/th?id=OHR.ThousandIslands_DE-DE2717714260"
+  "createdAt": "202509200000",
+  "originalUrlBase": "/th?id=OHR.OktoberfestHackerFestzelt_DE-DE2583035265"
 }

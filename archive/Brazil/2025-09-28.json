@@ -1,43 +1,43 @@
 {
-  "date": "Sep 28, 2025",
+  "date": "Sep 29, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Olhares brilhantes",
+  "title": "O gostinho de Pienza",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Lagos Tank, Região Selvagem dos Lagos Alpinos, Washington, EUA (© Austin Trigg/TANDEM Stills + Motion)",
+  "copyright": "Cidade de Pienza, na Toscana, Itália (© zpagistock/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Lagos+Alpinos%2c+Washington%2c+EUA&form=hpcapt&mkt=pt-br",
+  "copyrightLink": "/search?q=Pienza+na+Toscana&form=hpcapt&mkt=pt-br",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_TankLakes%22&FORM=HPQUIZ",
-  "hash": "94da1b7109cf2d3a4e79172558a545ab",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250928_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "8ef73d57b895672f4875f926ed12a75e",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_PT-BR9433679717_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_PT-BR0767999929_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250927",
-    "endDate": "20250928",
-    "fullStartDateTime": "202509270300"
+    "startDate": "20250928",
+    "endDate": "20250929",
+    "fullStartDateTime": "202509280300"
   },
-  "createdAt": "202509280000",
-  "originalUrlBase": "/th?id=OHR.TankLakes_PT-BR9433679717"
+  "createdAt": "202509290000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_PT-BR0767999929"
 }

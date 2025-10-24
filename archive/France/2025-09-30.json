@@ -1,43 +1,43 @@
 {
-  "date": "30 sept. 2025",
+  "date": "1 oct. 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "L’art du Koa-laisser-aller",
-  "bsTitle": "L’art du Koa-laisser-aller",
-  "caption": "Koala, parc national de Great Otway, Australie",
-  "copyright": "Koala dans un eucalyptus, parc national de Great Otway, Australie (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
-  "copyrightOnly": "© Jamie Lamb - elusive-images.co.uk/Getty Images",
-  "copyrightLink": "/search?q=koala&form=hpcapt&filters=HpDate%3a%2220250929_2200%22",
-  "description": "Dans la canopée parfumée des eucalyptus du parc national de Great Otway, en Australie, un koala veille. Ses oreilles rondes et son museau velouté émergent des feuillages argentés, tandis que son corps trapu épouse la branche comme s’il faisait corps avec l’arbre.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_EucalyptusKoala%22&FORM=HPQUIZ",
-  "hash": "610eef378e95099985343f0d1bbfc94a",
+  "title": "Un parc Yosé-mythique !",
+  "bsTitle": "Un parc Yosé-mythique !",
+  "caption": "Clark Range, parc national de Yosemite, États-Unis",
+  "copyright": "Clark Range, Sierra Nevada, parc national de Yosemite, Californie, États-Unis (© Robb Hirsch/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Robb Hirsch/TANDEM Stills + Motion",
+  "copyrightLink": "/search?q=Parc+national+de+Yosemite+%c3%89tats-Unis&form=hpcapt&filters=HpDate%3a%2220250930_2200%22",
+  "description": "Sous le ciel changeant de Californie, la Clark Range s’élève telle l’épine dorsale de la Sierra Nevada, gardienne silencieuse du parc national de Yosemite. Ce sanctuaire de plus de 3 000 km² abrite des géants de granit, des cascades tumultueuses et des séquoias millénaires. Ses crêtes, polies par les glaciers, portent encore l’empreinte des siècles, tandis que les pins à écorce blanche laissent siffler le vent entre leurs branches tortueuses. Ici, tout respire l’immensité et l’endurance.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "eb965077ae62ac9f5140e13f04e05252",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_FR-FR2430625241_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_FR-FR2430625241_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_FR-FR2430625241_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_FR-FR2271596623_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_FR-FR2430625241_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250929",
-    "endDate": "20250930",
-    "fullStartDateTime": "202509292200"
+    "startDate": "20250930",
+    "endDate": "20251001",
+    "fullStartDateTime": "202509302200"
   },
-  "createdAt": "202509300000",
-  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_FR-FR2271596623"
+  "createdAt": "202510010000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_FR-FR2430625241"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 02, 2025",
+  "date": "Sep 03, 2025",
   "country": "Italy",
   "marketCode": "it-IT",
-  "title": "Alberi fantasma?",
+  "title": "Luce sulle rovine",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Acacie delle giraffe, Deadvlei, Parco Namib-Naukluft, Namibia (© Inge Johnsson/Alamy Stock Photo)",
+  "copyright": "Tempio della Concordia, Agrigento, Sicilia (© Wirestock/iStock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Repubblica+della+Namibia&form=hpcapt",
-  "description": "Acacie delle giraffe, Deadvlei, Parco Namib-Naukluft, Namibia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_DeadvleiTrees%22&FORM=HPQUIZ",
-  "hash": "d2432d62bae137a7c2b1b499035b417f",
+  "copyrightLink": "/search?q=Tempio+della+Concordia&form=hpcapt",
+  "description": "Tempio della Concordia, Agrigento, Sicilia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_AgrigentoSicilia%22&FORM=HPQUIZ",
+  "hash": "29de630cba0f7135c551d31e626145ba",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_IT-IT9675346789_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AgrigentoSicilia_IT-IT0162455126_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_IT-IT9675346789_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AgrigentoSicilia_IT-IT0162455126_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_IT-IT9675346789_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AgrigentoSicilia_IT-IT0162455126_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_IT-IT9675346789_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AgrigentoSicilia_IT-IT0162455126_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250901",
-    "endDate": "20250902",
-    "fullStartDateTime": "202509012200"
+    "startDate": "20250902",
+    "endDate": "20250903",
+    "fullStartDateTime": "202509022200"
   },
-  "createdAt": "202509020000",
-  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_IT-IT9675346789"
+  "createdAt": "202509030000",
+  "originalUrlBase": "/th?id=OHR.AgrigentoSicilia_IT-IT0162455126"
 }

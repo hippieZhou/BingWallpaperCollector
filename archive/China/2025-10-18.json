@@ -1,5 +1,5 @@
 {
-  "date": "2025年10月19日",
+  "date": "",
   "country": "China",
   "marketCode": "zh-CN",
   "title": "痴迷科学",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251018",
-    "endDate": "20251019",
-    "fullStartDateTime": "202510181600"
+    "fullStartDateTime": "202510181600",
+    "endDate": "20251019"
   },
-  "createdAt": "202510180000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.AppleHarvest_ZH-CN7317228007"
 }

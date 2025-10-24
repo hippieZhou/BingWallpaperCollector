@@ -1,43 +1,43 @@
 {
-  "date": "Sep. 3, 2025",
+  "date": "Sep. 4, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "Ghosts of Deadvlei",
+  "title": "Bear with us",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia (© Inge Johnsson/Alamy Stock Photo)",
+  "copyright": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States (© Cavan Images/Adobe Stock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Namib+Naukluft+Park+in+Namibia&form=hpcapt&filters=HpDate%3a%2220250902_0400%22",
-  "description": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_DeadvleiTrees%22&FORM=HPQUIZ",
-  "hash": "4b8bc48bf7d2f6abe6166d90935dc265",
+  "copyrightLink": "/search?q=Grizzly+bears&form=hpcapt&filters=HpDate%3a%2220250903_0400%22",
+  "description": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_WrestlingBears%22&FORM=HPQUIZ",
+  "hash": "9c6a3ce0feb055ed072e833964e1f663",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-CA3439734849_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-CA6711958224_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-CA3439734849_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-CA6711958224_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-CA3439734849_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-CA6711958224_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-CA3439734849_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_EN-CA6711958224_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250902",
-    "endDate": "20250903",
-    "fullStartDateTime": "202509020400"
+    "startDate": "20250903",
+    "endDate": "20250904",
+    "fullStartDateTime": "202509030400"
   },
-  "createdAt": "202509030000",
-  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_EN-CA3439734849"
+  "createdAt": "202509040000",
+  "originalUrlBase": "/th?id=OHR.WrestlingBears_EN-CA6711958224"
 }

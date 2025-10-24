@@ -1,43 +1,43 @@
 {
-  "date": "Sep 05, 2025",
+  "date": "Sep 06, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Kalifornischer Abendzauber",
+  "title": "Geschichte trifft Moderne",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Pacific Park, Santa Monica State Beach, Kalifornien, USA (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyright": "Frankfurter Skyline im violetten Licht und Alte Brücke, Frankfurt am Main, Hessen (© diegograndi/iStock/Getty Images Plus)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Santa+Monica+Kalifornien&form=hpcapt&filters=HpDate%3a%2220250904_2200%22",
-  "description": "Pacific Park, Santa Monica State Beach, Kalifornien, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_SunsetPier%22&FORM=HPQUIZ",
-  "hash": "3a437b0db34918077f138903d5207bbf",
+  "copyrightLink": "/search?q=Alte+Br%C3%BCcke+Frankfurt&form=hpcapt&filters=HpDate%3a%2220250905_2200%22",
+  "description": "Frankfurter Skyline im violetten Licht und Alte Brücke, Frankfurt am Main, Hessen",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_FrankfurtAlteBruecke%22&FORM=HPQUIZ",
+  "hash": "6c34925738b3ce451a63997c3d231b98",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_DE-DE1211328081_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_DE-DE1211328081_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_DE-DE1211328081_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_DE-DE1211328081_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250904",
-    "endDate": "20250905",
-    "fullStartDateTime": "202509042200"
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509052200"
   },
-  "createdAt": "202509050000",
-  "originalUrlBase": "/th?id=OHR.SunsetPier_DE-DE1211328081"
+  "createdAt": "202509060000",
+  "originalUrlBase": "/th?id=OHR.FrankfurtAlteBruecke_DE-DE0460546178"
 }

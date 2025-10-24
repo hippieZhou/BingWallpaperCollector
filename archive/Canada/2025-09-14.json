@@ -1,43 +1,43 @@
 {
-  "date": "Sep. 14, 2025",
+  "date": "Sep. 15, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
-  "title": "Rugged and wild",
+  "title": "Moss and mist",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Chimney Rock, Point Reyes National Seashore, California, United States (© Enrique Aguirre Aves/Getty Images)",
+  "copyright": "A waterfall in Olympic National Park, Washington, United States (© Chris Moore/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Point+Reyes+National+Seashore&form=hpcapt&filters=HpDate%3a%2220250913_0400%22",
-  "description": "Chimney Rock, Point Reyes National Seashore, California, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_PointReyesSeashore%22&FORM=HPQUIZ",
-  "hash": "4677c115b6ec8c4d4bb6dad1bd01fe21",
+  "copyrightLink": "/search?q=Olympic+National+Park+Washington&form=hpcapt&filters=HpDate%3a%2220250914_0400%22",
+  "description": "A waterfall in Olympic National Park, Washington, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "ec24f5085f8cc61f095a95152f6e8bd1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-CA6892620661_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-CA7082475802_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-CA6892620661_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-CA7082475802_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-CA6892620661_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-CA7082475802_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-CA6892620661_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_EN-CA7082475802_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250913",
-    "endDate": "20250914",
-    "fullStartDateTime": "202509130400"
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509140400"
   },
-  "createdAt": "202509140000",
-  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_EN-CA6892620661"
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_EN-CA7082475802"
 }

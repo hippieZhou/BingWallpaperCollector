@@ -1,43 +1,43 @@
 {
-  "date": "Sep 2, 2025",
+  "date": "Sep 3, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
   "caption": "Info",
-  "copyright": "Kaiserstuhl, Baden-Württemberg, Germany (© EyeEM Mobile GmbH/Getty Images)",
-  "copyrightOnly": "© EyeEM Mobile GmbH/Getty Images",
-  "copyrightLink": "https://www.bing.com/search?q=Kaiserstuhl&form=hpcapt&filters=HpDate%3a%2220250901_0700%22",
-  "description": "Kaiserstuhl, Baden-Württemberg, Germany",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_FieldKaiserstuhl%22&FORM=HPQUIZ",
-  "hash": "f3e90a2e8b8ec2a2515bb3f8f509f3d0",
+  "copyright": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia (© Inge Johnsson/Alamy Stock Photo)",
+  "copyrightOnly": "© Inge Johnsson/Alamy Stock Photo",
+  "copyrightLink": "https://www.bing.com/search?q=Namib+Naukluft+Park+in+Namibia&form=hpcapt&filters=HpDate%3a%2220250902_0700%22",
+  "description": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_DeadvleiTrees%22&FORM=HPQUIZ",
+  "hash": "06ee5e13ccd20203e7456a35ed314bf3",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ROW7595543784_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ROW7595543784_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ROW7595543784_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FieldKaiserstuhl_ROW2652237582_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_ROW7595543784_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250901",
-    "endDate": "20250902",
-    "fullStartDateTime": "202509010700"
+    "startDate": "20250902",
+    "endDate": "20250903",
+    "fullStartDateTime": "202509020700"
   },
-  "createdAt": "202509020214",
-  "originalUrlBase": "/th?id=OHR.FieldKaiserstuhl_ROW2652237582"
+  "createdAt": "202509030206",
+  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_ROW7595543784"
 }

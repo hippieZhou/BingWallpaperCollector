@@ -1,43 +1,43 @@
 {
-  "date": "Oct 3, 2025",
+  "date": "Oct 4, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
-  "caption": "Glen Brittle, Isle of Skye, Scotland",
-  "copyright": "Heather growing in Glen Brittle, Isle of Skye, Scotland (© Adam Mowery/TANDEM Stills + Motion)",
-  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
-  "copyrightLink": "/search?q=Glen+Brittle+in+Skye&form=hpcapt&filters=HpDate%3a%2220251003_0700%22",
-  "description": "Mists curl, waters glimmer and legends linger—welcome to Glen Brittle. On the Isle of Skye, Scotland's fabled 'Misty Isle,' the glen stretches in a sweep of purple heather carpeting its rugged slopes. The landscape hums with echoes of the past: dinosaurs left footprints on these cliffs long before Mesolithic hunters traced its streams over 8,000 years ago. In the 9th century, seafaring Norse Vikings settled here. Centuries later, the powerful MacLeod and MacDonald clans claimed these lands, their castles standing guard over countless battles and alliances.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_SkyeHeather%22&FORM=HPQUIZ",
-  "hash": "038217b8a5b9ad20e5b5a405d056f19f",
+  "caption": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour",
+  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=International+Space+Station&form=hpcapt&filters=HpDate%3a%2220251004_0700%22",
+  "description": "Today's image captures the International Space Station (ISS), a vast laboratory built by 15 nations, orbiting about 400 kilometres above Earth. Travelling at nearly 28,900 km/h, the ISS circles Earth every 90 minutes, giving its international crew of seven the remarkable experience of witnessing 16 sunrises and sunsets each day. Its solar arrays soak up sunlight to power groundbreaking research on microgravity, technology and human survival beyond our planet. Shot from the SpaceX Crew Dragon Endeavour—a reusable spacecraft that has completed six missions since 2020, ferrying astronauts and cargo—this scene embodies what humanity can achieve when it chooses cooperation over competition. Each gleaming panel makes it clear: the final frontier is within reach and the audacity to explore it defines us.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "85a56fa0120b3e0f3febcd5767f2aa1c",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_ROW6254655210_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_ROW8867251205_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251003",
-    "endDate": "20251004",
-    "fullStartDateTime": "202510030700"
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510040700"
   },
-  "createdAt": "202510040157",
-  "originalUrlBase": "/th?id=OHR.SkyeHeather_ROW6254655210"
+  "createdAt": "202510050218",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_ROW8867251205"
 }

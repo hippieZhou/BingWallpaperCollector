@@ -1,5 +1,5 @@
 {
-  "date": "Oct 23, 2025",
+  "date": "Oct. 22, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
   "title": "Set in stone",
@@ -10,7 +10,7 @@
   "copyrightLink": "/search?q=Belogradchik+Rocks&form=hpcapt&filters=HpDate%3a%2220251022_0400%22",
   "description": "In Bulgaria, on the western slopes of the Balkan Mountains, the Belogradchik Rocks stand like a natural gallery where every formation tells a tale. Shaped over millions of years by erosion, these sandstone and limestone pillars twist and tower into outlines that locals swear resemble people, animals and even entire scenes. That's why names like 'The Horseman,' 'The Schoolgirl' and 'The Monks' have stuck—it's a landscape where spotting shapes feels a bit like playing nature's version of charades.",
   "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251022_BulgariaRocks%22&FORM=HPQUIZ",
-  "hash": "17c9850e3a4dffab6c79304e170f3307",
+  "hash": "0d529fc77194b4ad5975975780b2dfc1",
   "imageResolutions": [
     {
       "resolution": "Standard",
@@ -38,6 +38,6 @@
     "fullStartDateTime": "202510220400",
     "endDate": "20251023"
   },
-  "createdAt": "202510220000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.BulgariaRocks_EN-CA8455831888"
 }

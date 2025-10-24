@@ -1,43 +1,43 @@
 {
-  "date": "Sep 02, 2025",
+  "date": "Sep 03, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "O trigo que nasceu do gelo",
+  "title": "Os fantasmas de Deadvlei",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Colinas onduladas de Palouse, Washington, EUA (© svetlana57/Getty Images)",
+  "copyright": "Árvores espinho-de-camelo, Deadvlei, Parque Namib-Naukluft, Namíbia (© Inge Johnsson/Alamy Stock Photo)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Palouse&form=hpcapt&mkt=pt-br",
-  "description": "Colinas onduladas de Palouse, Washington, EUA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_PalouseWA%22&FORM=HPQUIZ",
-  "hash": "e834ac6a51bce762ea7607028dd50126",
+  "copyrightLink": "/search?q=o+Parque+Namib-Naukluft&form=hpcapt&mkt=pt-br",
+  "description": "Árvores espinho-de-camelo, Deadvlei, Parque Namib-Naukluft, Namíbia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_DeadvleiTrees%22&FORM=HPQUIZ",
+  "hash": "08eb95f59cd0dffe16d08f939541c2ff",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_PT-BR2241595565_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250901",
-    "endDate": "20250902",
-    "fullStartDateTime": "202509010300"
+    "startDate": "20250902",
+    "endDate": "20250903",
+    "fullStartDateTime": "202509020300"
   },
-  "createdAt": "202509020000",
-  "originalUrlBase": "/th?id=OHR.PalouseWA_PT-BR8269290462"
+  "createdAt": "202509030000",
+  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_PT-BR2241595565"
 }

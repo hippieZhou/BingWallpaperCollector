@@ -1,43 +1,43 @@
 {
-  "date": "Sep 14, 2025",
+  "date": "Sep 15, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "La cathédrale des mousses",
+  "title": "Bec à bec dans les salants",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Cascade dans le parc national Olympic, État de Washington, États-Unis (© Chris Moore/TANDEM Stills + Motion)",
+  "copyright": "Échasses blanches, France (© Antonio Sementa/500px/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Parc+national+Olympic%2c+%C3%89tat+de+Washington%2c+%C3%89tats-Unis&form=hpcapt&filters=HpDate%3a%2220250913_2200%22",
-  "description": "Cascade dans le parc national Olympic, État de Washington, États-Unis",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
-  "hash": "11efd99b8099474b7c331869f40cb126",
+  "copyrightLink": "/search?q=%C3%89chasse+blanche&form=hpcapt&filters=HpDate%3a%2220250914_2200%22",
+  "description": "Échasses blanches, France",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_Echasse%22&FORM=HPQUIZ",
+  "hash": "4731b7a8f8886ca2846375f39cbe4b54",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_FR-FR5951351854_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_FR-FR6104514472_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_FR-FR5951351854_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_FR-FR6104514472_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_FR-FR5951351854_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_FR-FR6104514472_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_FR-FR5951351854_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_FR-FR6104514472_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250913",
-    "endDate": "20250914",
-    "fullStartDateTime": "202509132200"
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509142200"
   },
-  "createdAt": "202509140000",
-  "originalUrlBase": "/th?id=OHR.HohWaterfall_FR-FR5951351854"
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.Echasse_FR-FR6104514472"
 }

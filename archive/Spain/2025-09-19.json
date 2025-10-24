@@ -1,43 +1,43 @@
 {
-  "date": "Sep 19, 2025",
+  "date": "Sep 20, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "Mil razones para visitar",
+  "title": "¡No es pa’ ella, es pa’ mí!",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Región de las Mil Islas, río San Lorenzo, frontera entre EE. UU. y Canadá (© benedek/Getty Images)",
+  "copyright": "Campo de arroz en el parque natural de la Albufera, Valencia, España (© Pablo Escuder Cano/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Islas+Thousand&form=hpcapt&filters=HpDate%3a%2220250918_2200%22",
-  "description": "Región de las Mil Islas, río San Lorenzo, frontera entre EE. UU. y Canadá",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250918_ThousandIslands%22&FORM=HPQUIZ",
-  "hash": "341210e29fadf0eb5f081a18b10d3035",
+  "copyrightLink": "/search?q=Albufera+Valencia&form=hpcapt&filters=HpDate%3a%2220250919_2200%22",
+  "description": "Campo de arroz en el parque natural de la Albufera, Valencia, España",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250919_PaellaDay%22&FORM=HPQUIZ",
+  "hash": "239c6e40582dd171037ebde68c17b5ee",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ES-ES0457398976_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PaellaDay_ES-ES0490054669_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ES-ES0457398976_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PaellaDay_ES-ES0490054669_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ES-ES0457398976_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PaellaDay_ES-ES0490054669_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ES-ES0457398976_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PaellaDay_ES-ES0490054669_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250918",
-    "endDate": "20250919",
-    "fullStartDateTime": "202509182200"
+    "startDate": "20250919",
+    "endDate": "20250920",
+    "fullStartDateTime": "202509192200"
   },
-  "createdAt": "202509190000",
-  "originalUrlBase": "/th?id=OHR.ThousandIslands_ES-ES0457398976"
+  "createdAt": "202509200000",
+  "originalUrlBase": "/th?id=OHR.PaellaDay_ES-ES0490054669"
 }

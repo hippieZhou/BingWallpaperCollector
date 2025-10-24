@@ -1,43 +1,43 @@
 {
-  "date": "Sep 27, 2025",
+  "date": "28 de sept. de 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "Despejado y tranquilo",
-  "bsTitle": "",
-  "caption": "",
-  "copyright": "Tank Lakes, Área silvestre de los lagos alpinos, Washington, EE. UU. (© Austin Trigg/TANDEM Stills + Motion)",
-  "copyrightOnly": "",
-  "copyrightLink": "/search?q=Alpine+Lakes+Wilderness&form=hpcapt&filters=HpDate%3a%2220250926_2200%22",
-  "description": "Tank Lakes, Área silvestre de los lagos alpinos, Washington, EE. UU.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_TankLakes%22&FORM=HPQUIZ",
-  "hash": "fc6bd99c6d08e1ff7e29a597eda73f24",
+  "title": "Pienza en el arte",
+  "bsTitle": "Pienza en el arte",
+  "caption": "Pienza, Siena, Toscana, Italia",
+  "copyright": "Pienza en Siena, Toscana, Italia (© zpagistock/Getty Images)",
+  "copyrightOnly": "© zpagistock/Getty Images",
+  "copyrightLink": "/search?q=Pienza+en+Siena&form=hpcapt&filters=HpDate%3a%2220250927_2200%22",
+  "description": "Algunas ciudades evolucionan lentamente a lo largo de los siglos. ¿Y Pienza? Esta pequeña ciudad italiana recibió un cambio completo en el siglo XV gracias a un papa que quería demostrar su visión y, quizá, presumir un poco. Pienza se alza sobre el Val d’Orcia, rodeada de colinas onduladas que parecen la Toscana que todos imaginamos: cipreses, caminos de tierra serpenteantes y ovejas dispersas. Es un lugar pacífico.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "47013fc432c9ac9f6da668795633b41d",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_ES-ES1860818071_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_ES-ES1860818071_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_ES-ES1860818071_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_ES-ES1860818071_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_ES-ES1965715400_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250926",
-    "endDate": "20250927",
-    "fullStartDateTime": "202509262200"
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509272200"
   },
-  "createdAt": "202509270000",
-  "originalUrlBase": "/th?id=OHR.TankLakes_ES-ES1860818071"
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_ES-ES1965715400"
 }

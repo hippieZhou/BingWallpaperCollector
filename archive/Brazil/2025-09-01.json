@@ -1,43 +1,43 @@
 {
-  "date": "Sep 01, 2025",
+  "date": "Sep 02, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "Faróis de pedra",
+  "title": "O trigo que nasceu do gelo",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Monumento Nacional Scotts Bluff em Gering, Nebraska, EUA (© Hawk Buckman/Getty Images)",
+  "copyright": "Colinas onduladas de Palouse, Washington, EUA (© svetlana57/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Monumento+Nacional+Scotts+Bluff+em+Gering%2c+Nebraska%2c+EUA&form=hpcapt&mkt=pt-br",
-  "description": "Monumento Nacional Scotts Bluff em Gering, Nebraska, EUA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_ScottsBluff%22&FORM=HPQUIZ",
-  "hash": "fc74dd7d7f293c24774b7c5d19e65267",
+  "copyrightLink": "/search?q=Palouse&form=hpcapt&mkt=pt-br",
+  "description": "Colinas onduladas de Palouse, Washington, EUA",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_PalouseWA%22&FORM=HPQUIZ",
+  "hash": "e834ac6a51bce762ea7607028dd50126",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_PT-BR7461504826_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PalouseWA_PT-BR8269290462_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250831",
-    "endDate": "20250901",
-    "fullStartDateTime": "202508310300"
+    "startDate": "20250901",
+    "endDate": "20250902",
+    "fullStartDateTime": "202509010300"
   },
-  "createdAt": "202509010000",
-  "originalUrlBase": "/th?id=OHR.ScottsBluff_PT-BR7461504826"
+  "createdAt": "202509020000",
+  "originalUrlBase": "/th?id=OHR.PalouseWA_PT-BR8269290462"
 }

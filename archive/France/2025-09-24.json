@@ -1,43 +1,43 @@
 {
-  "date": "Sep 24, 2025",
+  "date": "Sep 25, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Le diable est dans les détails… géologiques !",
+  "title": "La raison du plus fort est Chittorgarh !",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Monument national de la tour du Diable, Wyoming, États-Unis (© Laura Hedien/Getty Images)",
+  "copyright": "Fort de Chittorgarh, Rajasthan, Inde (© chetansoni/Shutterstock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Monument+national+de+la+tour+du+Diable&form=hpcapt&filters=HpDate%3a%2220250923_2200%22",
-  "description": "Monument national de la tour du Diable, Wyoming, États-Unis",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250923_BearLodge%22&FORM=HPQUIZ",
-  "hash": "82a8459a18c578dcae90c776ff713aa0",
+  "copyrightLink": "/search?q=Fort+de+Chittorgarh+Inde&form=hpcapt&filters=HpDate%3a%2220250924_2200%22",
+  "description": "Fort de Chittorgarh, Rajasthan, Inde",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_FortChittorgarh%22&FORM=HPQUIZ",
+  "hash": "f255e51d54367aeab7e392470dddc7dd",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_FR-FR5273744579_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_FR-FR5443907474_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_FR-FR5273744579_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_FR-FR5443907474_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_FR-FR5273744579_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_FR-FR5443907474_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_FR-FR5273744579_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_FR-FR5443907474_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250923",
-    "endDate": "20250924",
-    "fullStartDateTime": "202509232200"
+    "startDate": "20250924",
+    "endDate": "20250925",
+    "fullStartDateTime": "202509242200"
   },
-  "createdAt": "202509240000",
-  "originalUrlBase": "/th?id=OHR.BearLodge_FR-FR5273744579"
+  "createdAt": "202509250000",
+  "originalUrlBase": "/th?id=OHR.FortChittorgarh_FR-FR5443907474"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "19 Oct 2025",
+  "date": "",
   "country": "Brazil",
   "marketCode": "pt-BR",
   "title": "A colina que guarda memórias",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251018",
-    "endDate": "20251019",
-    "fullStartDateTime": "202510180300"
+    "fullStartDateTime": "202510180300",
+    "endDate": "20251019"
   },
-  "createdAt": "202510180000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.SilburyHill_PT-BR5871845476"
 }

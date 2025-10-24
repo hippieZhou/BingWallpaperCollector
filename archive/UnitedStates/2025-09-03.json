@@ -1,43 +1,43 @@
 {
-  "date": "Sep 03, 2025",
+  "date": "Sep 04, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Ghosts of Deadvlei",
+  "title": "Protected stillness",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia (© Inge Johnsson/Alamy)",
+  "copyright": "Boundary Waters Canoe Area Wilderness, Minnesota (© s.tomas/Shutterstock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Namib+Naukluft+Park+in+Namibia&form=hpcapt&filters=HpDate%3a%2220250902_0700%22",
-  "description": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_DeadvleiTrees%22&FORM=HPQUIZ",
-  "hash": "4a45e677f51ef59530cfcb415f83528c",
+  "copyrightLink": "/search?q=Wilderness+Act&form=hpcapt&filters=HpDate%3a%2220250903_0700%22",
+  "description": "Boundary Waters Canoe Area Wilderness, Minnesota",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_MinnesotaWaters%22&FORM=HPQUIZ",
+  "hash": "6b2b6f22cb96742b8d53d72e281f08e4",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_EN-US4282198656_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_EN-US4282198656_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_EN-US4282198656_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_EN-US4282198656_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250902",
-    "endDate": "20250903",
-    "fullStartDateTime": "202509020700"
+    "startDate": "20250903",
+    "endDate": "20250904",
+    "fullStartDateTime": "202509030700"
   },
-  "createdAt": "202509030000",
-  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_EN-US4233800313"
+  "createdAt": "202509040000",
+  "originalUrlBase": "/th?id=OHR.MinnesotaWaters_EN-US4282198656"
 }

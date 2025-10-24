@@ -1,43 +1,43 @@
 {
-  "date": "Sep 12, 2025",
+  "date": "Sep 13, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "Swim wild, swim free",
+  "title": "Rugged and wild",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Spinner dolphin pod in the Red Sea, Marsa Alam, Egypt (© Franco Banfi/Nature Picture Library)",
+  "copyright": "Chimney Rock, Point Reyes National Seashore, California, United States (© Enrique Aguirre Aves/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=World+Dolphin+Day&form=hpcapt&filters=HpDate%3a%2220250911_1830%22",
-  "description": "Spinner dolphin pod in the Red Sea, Marsa Alam, Egypt",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_SpinnerDolphins%22&FORM=HPQUIZ",
-  "hash": "5b019489377d1289fcd56f28d0639003",
+  "copyrightLink": "/search?q=Point+Reyes+National+Seashore&form=hpcapt&filters=HpDate%3a%2220250912_1830%22",
+  "description": "Chimney Rock, Point Reyes National Seashore, California, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
+  "hash": "559148d3fd497ca263b2d8eaa8b34d6e",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-IN0873508505_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-IN0873508505_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-IN0873508505_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_EN-IN0873508505_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_EN-IN1229615007_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250911",
-    "endDate": "20250912",
-    "fullStartDateTime": "202509111830"
+    "startDate": "20250912",
+    "endDate": "20250913",
+    "fullStartDateTime": "202509121830"
   },
-  "createdAt": "202509120000",
-  "originalUrlBase": "/th?id=OHR.SpinnerDolphins_EN-IN0873508505"
+  "createdAt": "202509130000",
+  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_EN-IN1229615007"
 }

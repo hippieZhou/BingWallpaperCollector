@@ -1,43 +1,43 @@
 {
-  "date": "Sep 6, 2025",
+  "date": "Sep 7, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
   "caption": "Info",
-  "copyright": "Pacific Park, Santa Monica State Beach, California, United States (© EXTREME-PHOTOGRAPHER/Getty Images)",
-  "copyrightOnly": "© EXTREME-PHOTOGRAPHER/Getty Images",
-  "copyrightLink": "https://www.bing.com/search?q=Santa+Monica+State+Beach&form=hpcapt&filters=HpDate%3a%2220250905_0700%22",
-  "description": "Pacific Park, Santa Monica State Beach, California, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_SunsetPier%22&FORM=HPQUIZ",
-  "hash": "f510f149cd46855cfc9cdcb41d0a9d64",
+  "copyright": "Rufous hummingbird, Golden Gate Park, San Francisco, California, United States (© jeremyborkat/Getty Images)",
+  "copyrightOnly": "© jeremyborkat/Getty Images",
+  "copyrightLink": "https://www.bing.com/search?q=Rufous+hummingbird&form=hpcapt&filters=HpDate%3a%2220250906_0700%22",
+  "description": "Rufous hummingbird, Golden Gate Park, San Francisco, California, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_RufousHummer%22&FORM=HPQUIZ",
+  "hash": "6d0695b2f142504a13f8aa1ad77abfd5",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250905",
-    "endDate": "20250906",
-    "fullStartDateTime": "202509050700"
+    "startDate": "20250906",
+    "endDate": "20250907",
+    "fullStartDateTime": "202509060700"
   },
-  "createdAt": "202509060206",
-  "originalUrlBase": "/th?id=OHR.SunsetPier_ROW6836711117"
+  "createdAt": "202509070215",
+  "originalUrlBase": "/th?id=OHR.RufousHummer_ROW6939671460"
 }

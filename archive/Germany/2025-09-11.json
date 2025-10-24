@@ -1,43 +1,43 @@
 {
-  "date": "Sep 11, 2025",
+  "date": "Sep 12, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Ein Blick in den Himmel lohnt sich!",
+  "title": "Frei und wild durchs Meer",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Geierfelsen (Peña Falcon) am Fluss Tajo im Nationalpark Monfragüe, Spanien (© Daniel Viñé Garcia/Getty Images)",
+  "copyright": "Gruppe von Spinnerdelfinen im Roten Meer bei Marsa Alam, Ägypten (© Franco Banfi/Nature Picture Library)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Nationalpark+Monfrag%C3%BCe&form=hpcapt&filters=HpDate%3a%2220250910_2200%22",
-  "description": "Geierfelsen",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250910_ExtremaduraJamon%22&FORM=HPQUIZ",
-  "hash": "229b0366a40a9bfebbcfd9adb5d299f7",
+  "copyrightLink": "/search?q=World+Dolphin+Day&form=hpcapt&filters=HpDate%3a%2220250911_2200%22",
+  "description": "Gruppe von Spinnerdelfinen im Roten Meer bei Marsa Alam, Ägypten",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250911_SpinnerDolphins%22&FORM=HPQUIZ",
+  "hash": "ba12f7fb9499e4a878fcd7fd03969e1b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_DE-DE4891196756_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_DE-DE4891196756_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_DE-DE4891196756_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ExtremaduraJamon_DE-DE4354679644_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SpinnerDolphins_DE-DE4891196756_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250910",
-    "endDate": "20250911",
-    "fullStartDateTime": "202509102200"
+    "startDate": "20250911",
+    "endDate": "20250912",
+    "fullStartDateTime": "202509112200"
   },
-  "createdAt": "202509110000",
-  "originalUrlBase": "/th?id=OHR.ExtremaduraJamon_DE-DE4354679644"
+  "createdAt": "202509120000",
+  "originalUrlBase": "/th?id=OHR.SpinnerDolphins_DE-DE4891196756"
 }

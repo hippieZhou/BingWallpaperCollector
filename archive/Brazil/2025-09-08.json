@@ -1,43 +1,43 @@
 {
-  "date": "Sep 08, 2025",
+  "date": "Sep 09, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "A cidade preservada em âmbar",
+  "title": "Ler para crer",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Gdansk às margens do rio Motława, Polônia (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyright": "Library@orchard, Singapura (© Darwin Fan/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Gdansk&form=hpcapt&mkt=pt-br",
-  "description": "Gdansk às margens do rio Motława, Polônia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_BlueGdansk%22&FORM=HPQUIZ",
-  "hash": "3252b4d8bf505504a99de68f85b187e1",
+  "copyrightLink": "/search?q=Dia+Internacional+da+Alfabetiza%C3%A7%C3%A3o&form=hpcapt&mkt=pt-br",
+  "description": "Library@orchard, Singapura",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_OrchardLibrary%22&FORM=HPQUIZ",
+  "hash": "0ed43ad0fa978c307c71944f27448aa6",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_PT-BR6180639699_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_PT-BR6559924297_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250907",
-    "endDate": "20250908",
-    "fullStartDateTime": "202509070300"
+    "startDate": "20250908",
+    "endDate": "20250909",
+    "fullStartDateTime": "202509080300"
   },
-  "createdAt": "202509080000",
-  "originalUrlBase": "/th?id=OHR.BlueGdansk_PT-BR6180639699"
+  "createdAt": "202509090000",
+  "originalUrlBase": "/th?id=OHR.OrchardLibrary_PT-BR6559924297"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "19 Oct 2025",
+  "date": "",
   "country": "Italy",
   "marketCode": "it-IT",
   "title": "La Via della Mela",
@@ -10,7 +10,7 @@
   "copyrightLink": "/search?q=Malus+domestica&form=hpcapt",
   "description": "",
   "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251018_AppleHarvest%22&FORM=HPQUIZ",
-  "hash": "fe97a0d41e0295faaad96e1800ff8073",
+  "hash": "f2dd250027f920a636ca7f5a5cdd8036",
   "imageResolutions": [
     {
       "resolution": "Standard",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251018",
-    "endDate": "20251019",
-    "fullStartDateTime": "202510182200"
+    "fullStartDateTime": "202510182200",
+    "endDate": "20251019"
   },
-  "createdAt": "202510180000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.AppleHarvest_IT-IT5097872134"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 14, 2025",
+  "date": "Sep 15, 2025",
   "country": "China",
   "marketCode": "zh-CN",
-  "title": "苔藓与薄雾",
+  "title": "涉水寻迹",
   "bsTitle": "",
   "caption": "",
-  "copyright": "奥林匹克国家公园的瀑布, 华盛顿, 美国 (© Chris Moore/TANDEM Stills + Motion)",
+  "copyright": "黑翅长脚鹬, 法国 (© Antonio Sementa/500px/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E5%9B%BD%E5%AE%B6%E5%85%AC%E5%9B%AD+%E5%8D%8E%E7%9B%9B%E9%A1%BF&form=hpcapt&mkt=zh-cn",
-  "description": "奥林匹克国家公园的瀑布, 华盛顿, 美国",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
-  "hash": "a0e3cd4727cf246294c0c95eee8f89a3",
+  "copyrightLink": "/search?q=%E9%BB%91%E7%BF%85%E9%95%BF%E8%84%9A%E9%B9%AC&form=hpcapt&mkt=zh-cn",
+  "description": "黑翅长脚鹬, 法国",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_Echasse%22&FORM=HPQUIZ",
+  "hash": "e490132fc65c11ae52de1471548a0dea",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ZH-CN0297269806_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ZH-CN0670369582_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ZH-CN0297269806_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ZH-CN0670369582_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ZH-CN0297269806_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ZH-CN0670369582_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ZH-CN0297269806_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_ZH-CN0670369582_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250913",
-    "endDate": "20250914",
-    "fullStartDateTime": "202509131600"
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509141600"
   },
-  "createdAt": "202509140000",
-  "originalUrlBase": "/th?id=OHR.HohWaterfall_ZH-CN0297269806"
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.Echasse_ZH-CN0670369582"
 }

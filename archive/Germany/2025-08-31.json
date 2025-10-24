@@ -1,43 +1,43 @@
 {
-  "date": "Aug 31, 2025",
+  "date": "Sep 01, 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Markante Landschaftsformen mit langer Geschichte",
+  "title": "Einzigartiger Charme",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Scotts Bluff National Monument in Gering, Nebraska, USA (© Hawk Buckman/Getty Images)",
+  "copyright": "Trulli in Alberobello, Apulien, Italien (© Feng Wei Photography/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Nebraska&form=hpcapt&filters=HpDate%3a%2220250830_2200%22",
-  "description": "Scotts Bluff National Monument in Gering, Nebraska, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250830_ScottsBluff%22&FORM=HPQUIZ",
-  "hash": "647c8cd7aefb2c717de896e0a3ddfa43",
+  "copyrightLink": "/search?q=Alberobello&form=hpcapt&filters=HpDate%3a%2220250831_2200%22",
+  "description": "Trulli in Alberobello, Apulien, Italien",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250831_TrulliHouses%22&FORM=HPQUIZ",
+  "hash": "1bc1ffc5ed236c07a2b6008e708879ff",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_DE-DE5756991570_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_DE-DE2753356790_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_DE-DE5756991570_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_DE-DE2753356790_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_DE-DE5756991570_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_DE-DE2753356790_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ScottsBluff_DE-DE5756991570_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_DE-DE2753356790_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250830",
-    "endDate": "20250831",
-    "fullStartDateTime": "202508302200"
+    "startDate": "20250831",
+    "endDate": "20250901",
+    "fullStartDateTime": "202508312200"
   },
-  "createdAt": "202508310000",
-  "originalUrlBase": "/th?id=OHR.ScottsBluff_DE-DE5756991570"
+  "createdAt": "202509010000",
+  "originalUrlBase": "/th?id=OHR.TrulliHouses_DE-DE2753356790"
 }

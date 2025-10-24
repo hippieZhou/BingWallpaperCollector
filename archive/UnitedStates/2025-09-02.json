@@ -1,43 +1,43 @@
 {
-  "date": "Sep 02, 2025",
+  "date": "Sep 03, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Stitched into history",
+  "title": "Ghosts of Deadvlei",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Amalgamated Clothing Workers of America in a Labor Day parade, May 1915, Chicago (© Chicago Sun-Times/Chicago Daily News collection/Chicago History Museum/Getty Images)",
+  "copyright": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia (© Inge Johnsson/Alamy)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Labor+Day&form=hpcapt&filters=HpDate%3a%2220250901_0700%22",
-  "description": "Amalgamated Clothing Workers of America in a Labor Day parade, May 1915, Chicago",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_LaborDayChicago%22&FORM=HPQUIZ",
-  "hash": "3d6cd13ea271115f03b766259886edd8",
+  "copyrightLink": "/search?q=Namib+Naukluft+Park+in+Namibia&form=hpcapt&filters=HpDate%3a%2220250902_0700%22",
+  "description": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_DeadvleiTrees%22&FORM=HPQUIZ",
+  "hash": "4a45e677f51ef59530cfcb415f83528c",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.LaborDayChicago_EN-US3947410593_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.LaborDayChicago_EN-US3947410593_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.LaborDayChicago_EN-US3947410593_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.LaborDayChicago_EN-US3947410593_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-US4233800313_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250901",
-    "endDate": "20250902",
-    "fullStartDateTime": "202509010700"
+    "startDate": "20250902",
+    "endDate": "20250903",
+    "fullStartDateTime": "202509020700"
   },
-  "createdAt": "202509020000",
-  "originalUrlBase": "/th?id=OHR.LaborDayChicago_EN-US3947410593"
+  "createdAt": "202509030000",
+  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_EN-US4233800313"
 }

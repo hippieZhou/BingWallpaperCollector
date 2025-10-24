@@ -1,43 +1,43 @@
 {
-  "date": "Oct 4, 2025",
+  "date": "Oct 5, 2025",
   "country": "UnitedKingdom",
   "marketCode": "en-GB",
-  "title": "Mission: Possible",
-  "bsTitle": "Mission: Possible",
-  "caption": "World Space Week",
-  "copyright": "ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)",
-  "copyrightOnly": "© NASA",
-  "copyrightLink": "/search?q=World+Space+Week&form=hpcapt&filters=HpDate%3a%2220251003_2300%22",
-  "description": "From October 4 to 10, World Space Week invites us to transcend our earthly bounds and chase the stars. It was born from the launch of Sputnik 1 by the USSR in 1957 and the signing of the Outer Space Treaty in 1967, a pioneering international commitment to peaceful cosmic exploration. During this week, classrooms buzz with experiments, planetariums echo with wonder and telescopes bridge the gap to distant galaxies. Together, these moments weave a universal story of science, discovery and humanity's relentless drive to push boundaries. The week's mission is clear: to ignite the next generation of explorers, engineers and dreamers ready to rewrite the cosmos.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
-  "hash": "a2f02d6e3c85ed3964b526aabfcf9c70",
+  "title": "Celebrating wisdom",
+  "bsTitle": "Celebrating wisdom",
+  "caption": "World Teachers' Day",
+  "copyright": "Boreal owl in a forest in Central Europe (© Ondrej Prosicky/Alamy)",
+  "copyrightOnly": "© Ondrej Prosicky/Alamy",
+  "copyrightLink": "/search?q=World+Teachers+Day&form=hpcapt&filters=HpDate%3a%2220251004_2300%22",
+  "description": "The tradition of teaching is deeply rooted in human history. Today, we honour those who dedicate their lives to sharing knowledge and shaping minds. Happy World Teachers' Day to all the educators who have helped us become who we are.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
+  "hash": "e12749fb141c705b963de4576149e3d1",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-GB4585864931_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-GB4585864931_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-GB4585864931_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_EN-GB3820575849_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_EN-GB4585864931_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251003",
-    "endDate": "20251004",
-    "fullStartDateTime": "202510032300"
+    "startDate": "20251004",
+    "endDate": "20251005",
+    "fullStartDateTime": "202510042300"
   },
-  "createdAt": "202510040000",
-  "originalUrlBase": "/th?id=OHR.DragonEndeavour_EN-GB3820575849"
+  "createdAt": "202510050000",
+  "originalUrlBase": "/th?id=OHR.TeacherOwl_EN-GB4585864931"
 }

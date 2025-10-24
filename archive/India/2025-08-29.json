@@ -1,43 +1,43 @@
 {
-  "date": "Aug 29, 2025",
+  "date": "Aug 30, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "The heart of the grid",
+  "title": "Finned and fabulous",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Aerial view of Plaza Mayor, Madrid, Spain (© AirPano LLC/Amazing Aerial Agency)",
+  "copyright": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Plaza+Mayor+Madrid&form=hpcapt&filters=HpDate%3a%2220250828_1830%22",
-  "description": "Aerial view of Plaza Mayor, Madrid, Spain",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
-  "hash": "47d06da4100854ecb7ee5a1a29a5a29b",
+  "copyrightLink": "/search?q=International+Whale+Shark+Day&form=hpcapt&filters=HpDate%3a%2220250829_1830%22",
+  "description": "Whale shark off the coast of Alifu Dhaalu Atoll, Maldives",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250829_MaldivesWhaleShark%22&FORM=HPQUIZ",
+  "hash": "ec79c61121b4b782ac1ffc1a7f0ac36f",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-IN3643535243_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-IN3643535243_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-IN3643535243_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_EN-IN3487561181_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.MaldivesWhaleShark_EN-IN3643535243_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250828",
-    "endDate": "20250829",
-    "fullStartDateTime": "202508281830"
+    "startDate": "20250829",
+    "endDate": "20250830",
+    "fullStartDateTime": "202508291830"
   },
-  "createdAt": "202508290000",
-  "originalUrlBase": "/th?id=OHR.PlazaMayor_EN-IN3487561181"
+  "createdAt": "202508300000",
+  "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_EN-IN3643535243"
 }

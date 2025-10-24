@@ -1,43 +1,43 @@
 {
-  "date": "Sep 02, 2025",
+  "date": "Sep 03, 2025",
   "country": "India",
   "marketCode": "en-IN",
-  "title": "Ghosts of Deadvlei",
+  "title": "A 'trulli' remarkable town",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia (© Inge Johnsson/Alamy Stock Photo)",
+  "copyright": "Trullo buildings in Alberobello, Apulia, Italy (© Feng Wei Photography/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Namib+Naukluft+Park+in+Namibia&form=hpcapt&filters=HpDate%3a%2220250901_1830%22",
-  "description": "Camel thorn trees, Deadvlei, Namib-Naukluft Park, Namibia",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250901_DeadvleiTrees%22&FORM=HPQUIZ",
-  "hash": "c67190b19710fd5b364c77db4c4cb119",
+  "copyrightLink": "/search?q=Alberobello&form=hpcapt&filters=HpDate%3a%2220250902_1830%22",
+  "description": "Trullo buildings in Alberobello, Apulia, Italy",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250902_TrulliHouses%22&FORM=HPQUIZ",
+  "hash": "527f6c3f426e511b52cd4d2c16aff67b",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-IN4217239314_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-IN4494179096_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-IN4217239314_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-IN4494179096_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-IN4217239314_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-IN4494179096_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DeadvleiTrees_EN-IN4217239314_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-IN4494179096_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250901",
-    "endDate": "20250902",
-    "fullStartDateTime": "202509011830"
+    "startDate": "20250902",
+    "endDate": "20250903",
+    "fullStartDateTime": "202509021830"
   },
-  "createdAt": "202509020000",
-  "originalUrlBase": "/th?id=OHR.DeadvleiTrees_EN-IN4217239314"
+  "createdAt": "202509030000",
+  "originalUrlBase": "/th?id=OHR.TrulliHouses_EN-IN4494179096"
 }

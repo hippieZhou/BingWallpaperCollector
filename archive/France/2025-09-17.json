@@ -1,43 +1,43 @@
 {
-  "date": "Sep 17, 2025",
+  "date": "Sep 18, 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Le souffle calme de la force",
+  "title": "Un ruban de pierre vers la mer",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Jeune élan mâle, parc national de Denali, Alaska, États-Unis (© Grant Ordelheide/TANDEM Stills + Motion)",
+  "copyright": "Escalier sinueux de Dunquin Pier, comté de Kerry, Irlande (© Hugh O'Connor/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%C3%A9lan+d%27Alaska&form=hpcapt&filters=HpDate%3a%2220250916_2200%22",
-  "description": "Jeune élan mâle, parc national de Denali, Alaska, États-Unis",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
-  "hash": "df6c9f949e559444810353e7183313d4",
+  "copyrightLink": "/search?q=Dunquin+Pier+Irlande&form=hpcapt&filters=HpDate%3a%2220250917_2200%22",
+  "description": "Escalier sinueux de Dunquin Pier, comté de Kerry, Irlande",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_DunquinIreland%22&FORM=HPQUIZ",
+  "hash": "853e6835653f9cfb66e977ea76824801",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.YoungMoose_FR-FR2257077158_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DunquinIreland_FR-FR6571793587_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250916",
-    "endDate": "20250917",
-    "fullStartDateTime": "202509162200"
+    "startDate": "20250917",
+    "endDate": "20250918",
+    "fullStartDateTime": "202509172200"
   },
-  "createdAt": "202509170000",
-  "originalUrlBase": "/th?id=OHR.YoungMoose_FR-FR2257077158"
+  "createdAt": "202509180000",
+  "originalUrlBase": "/th?id=OHR.DunquinIreland_FR-FR6571793587"
 }

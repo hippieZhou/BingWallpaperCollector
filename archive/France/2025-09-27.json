@@ -1,43 +1,43 @@
 {
-  "date": "Sep 27, 2025",
+  "date": "28 sept. 2025",
   "country": "France",
   "marketCode": "fr-FR",
-  "title": "Faites un vœu !",
-  "bsTitle": "",
-  "caption": "",
-  "copyright": "Lacs Tank, Alpine Lakes Wilderness, chaîne des Cascades, Washington, États-Unis (© Austin Trigg/TANDEM Stills + Motion)",
-  "copyrightOnly": "",
-  "copyrightLink": "/search?q=Cha%C3%AEne+des+Cascades&form=hpcapt&filters=HpDate%3a%2220250926_2200%22",
-  "description": "Lacs Tank, Alpine Lakes Wilderness, chaîne des Cascades, Washington, États-Unis",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_TankLakes%22&FORM=HPQUIZ",
-  "hash": "7f806b4494523ce4b4e2318d1bcaf953",
+  "title": "Pienza et son pecorino, c’est fort de fromage !",
+  "bsTitle": "Pienza et son pecorino, c’est fort de fromage !",
+  "caption": "Pienza, Toscane, Italie",
+  "copyright": "Ville de Pienza, Toscane, Italie (© zpagistock/Getty Images)",
+  "copyrightOnly": "© zpagistock/Getty Images",
+  "copyrightLink": "/search?q=Pienza&form=hpcapt&filters=HpDate%3a%2220250927_2200%22",
+  "description": "Accrochée au-dessus du Val d’Orcia, en Toscane, en Italie, Pienza déploie ses murs clairs face à un paysage digne d’un maître : cyprès élancés, collines ondulantes, routes de terre serpentant vers l’horizon. Jadis simple village médiéval nommé Corsignano, elle fut métamorphosée au XVe siècle par l’un de ses fils, devenu le pape Pie II. Avec l’architecte Bernardo Rossellino, il voulut offrir au monde un modèle de ville idéale, où ordre et harmonie guideraient les rues.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250927_PienzaItaly%22&FORM=HPQUIZ",
+  "hash": "74f93f95e7e3bffafce5044f435da11a",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_FR-FR1812673020_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_FR-FR1812673020_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_FR-FR1812673020_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.TankLakes_FR-FR1812673020_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PienzaItaly_FR-FR1953145437_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250926",
-    "endDate": "20250927",
-    "fullStartDateTime": "202509262200"
+    "startDate": "20250927",
+    "endDate": "20250928",
+    "fullStartDateTime": "202509272200"
   },
-  "createdAt": "202509270000",
-  "originalUrlBase": "/th?id=OHR.TankLakes_FR-FR1812673020"
+  "createdAt": "202509280000",
+  "originalUrlBase": "/th?id=OHR.PienzaItaly_FR-FR1953145437"
 }

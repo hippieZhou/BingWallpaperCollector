@@ -1,43 +1,43 @@
 {
-  "date": "Sep 5, 2025",
+  "date": "Sep 6, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
   "caption": "Info",
-  "copyright": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States (© Cavan Images/Adobe Stock)",
-  "copyrightOnly": "© Cavan Images/Adobe Stock",
-  "copyrightLink": "https://www.bing.com/search?q=Grizzly+bears&form=hpcapt&filters=HpDate%3a%2220250904_0700%22",
-  "description": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_WrestlingBears%22&FORM=HPQUIZ",
-  "hash": "e6f38037a40ac0518bb8c5e028a262ac",
+  "copyright": "Pacific Park, Santa Monica State Beach, California, United States (© EXTREME-PHOTOGRAPHER/Getty Images)",
+  "copyrightOnly": "© EXTREME-PHOTOGRAPHER/Getty Images",
+  "copyrightLink": "https://www.bing.com/search?q=Santa+Monica+State+Beach&form=hpcapt&filters=HpDate%3a%2220250905_0700%22",
+  "description": "Pacific Park, Santa Monica State Beach, California, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_SunsetPier%22&FORM=HPQUIZ",
+  "hash": "f510f149cd46855cfc9cdcb41d0a9d64",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SunsetPier_ROW6836711117_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250904",
-    "endDate": "20250905",
-    "fullStartDateTime": "202509040700"
+    "startDate": "20250905",
+    "endDate": "20250906",
+    "fullStartDateTime": "202509050700"
   },
-  "createdAt": "202509050209",
-  "originalUrlBase": "/th?id=OHR.WrestlingBears_ROW7780803769"
+  "createdAt": "202509060206",
+  "originalUrlBase": "/th?id=OHR.SunsetPier_ROW6836711117"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Aug 28, 2025",
+  "date": "Aug 29, 2025",
   "country": "Italy",
   "marketCode": "it-IT",
-  "title": "L’arte dell’attesa",
+  "title": "Geometria del potere",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Airone bianco, Ungheria (© Markus Varesvuo/Nature Picture Library)",
+  "copyright": "Vista aerea di Plaza Mayor, Madrid, Spagna (© AirPano LLC/Amazing Aerial Agency)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Ardea+alba&form=hpcapt",
-  "description": "Airone bianco, Ungheria",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
-  "hash": "28678ecb791514268a7e1ea523865ed4",
+  "copyrightLink": "/search?q=Madrid+capitale+spagnola&form=hpcapt",
+  "description": "Vista aerea di Plaza Mayor, Madrid, Spagna",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250828_PlazaMayor%22&FORM=HPQUIZ",
+  "hash": "9a1214f83abb21953c9a653c85219d45",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_IT-IT9836668114_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_IT-IT9836668114_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_IT-IT9836668114_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_IT-IT9836668114_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.PlazaMayor_IT-IT9894137686_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250827",
-    "endDate": "20250828",
-    "fullStartDateTime": "202508272200"
+    "startDate": "20250828",
+    "endDate": "20250829",
+    "fullStartDateTime": "202508282200"
   },
-  "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.WhiteEgret_IT-IT9836668114"
+  "createdAt": "202508290000",
+  "originalUrlBase": "/th?id=OHR.PlazaMayor_IT-IT9894137686"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 14, 2025",
+  "date": "Sep 15, 2025",
   "country": "Italy",
   "marketCode": "it-IT",
-  "title": "Muschio e Misteri?",
+  "title": "L’amore cammina leggero",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Parco Nazionale Olimpico, Washington, USA (© Chris Moore/TANDEM Stills + Motion)",
+  "copyright": "Cavalieri d’Italia, Francia (© Antonio Sementa/500px/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Parco+nazionale+Olimpico+area+protetta&form=hpcapt",
-  "description": "Parco Nazionale Olimpico, Washington, USA",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
-  "hash": "6bfea92967fd255aced5db53251ab89a",
+  "copyrightLink": "/search?q=Cavalieri+d%E2%80%99+Italia+uccello&form=hpcapt",
+  "description": "Cavalieri d’Italia, Francia",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250914_Echasse%22&FORM=HPQUIZ",
+  "hash": "876613b234c7e0f053c2f42273e8a424",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_IT-IT5534141652_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_IT-IT5616266756_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_IT-IT5534141652_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_IT-IT5616266756_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_IT-IT5534141652_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_IT-IT5616266756_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_IT-IT5534141652_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.Echasse_IT-IT5616266756_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250913",
-    "endDate": "20250914",
-    "fullStartDateTime": "202509132200"
+    "startDate": "20250914",
+    "endDate": "20250915",
+    "fullStartDateTime": "202509142200"
   },
-  "createdAt": "202509140000",
-  "originalUrlBase": "/th?id=OHR.HohWaterfall_IT-IT5534141652"
+  "createdAt": "202509150000",
+  "originalUrlBase": "/th?id=OHR.Echasse_IT-IT5616266756"
 }

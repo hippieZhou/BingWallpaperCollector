@@ -1,5 +1,5 @@
 {
-  "date": "2025年10月18日",
+  "date": "2025 年 10月 月 18 日",
   "country": "Japan",
   "marketCode": "ja-JP",
   "title": "今日は国際考古学の日",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251017",
-    "endDate": "20251018",
-    "fullStartDateTime": "202510171500"
+    "fullStartDateTime": "202510171500",
+    "endDate": "20251018"
   },
-  "createdAt": "202510170000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.SilburyHill_JA-JP0577938785"
 }

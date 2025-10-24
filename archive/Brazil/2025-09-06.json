@@ -1,43 +1,43 @@
 {
-  "date": "Sep 06, 2025",
+  "date": "Sep 07, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "O que os olhos não veem",
+  "title": "Pequeno grande viajante",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Névoa sobre a copa da Floresta Amazônica (© Ignacio Palacios/Getty Images)",
+  "copyright": "Beija-flor-ruivo no Golden Gate Park, São Francisco, Califórnia, Estados Unidos (© jeremyborkat/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Dia+da+Amaz%C3%B4nia&form=hpcapt&mkt=pt-br",
-  "description": "Névoa sobre a copa da Floresta Amazônica",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250905_DiaAmazonia%22&FORM=HPQUIZ",
-  "hash": "18ce916b7cd72159884cfc2d7014e10e",
+  "copyrightLink": "/search?q=beija-flor&form=hpcapt&mkt=pt-br",
+  "description": "Beija-flor-ruivo no Golden Gate Park, São Francisco, Califórnia, Estados Unidos",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_RufousHummer%22&FORM=HPQUIZ",
+  "hash": "68781d16154f9fbd2dee21f3c6d21d34",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DiaAmazonia_PT-BR5240863340_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.RufousHummer_PT-BR5721753783_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250905",
-    "endDate": "20250906",
-    "fullStartDateTime": "202509050300"
+    "startDate": "20250906",
+    "endDate": "20250907",
+    "fullStartDateTime": "202509060300"
   },
-  "createdAt": "202509060000",
-  "originalUrlBase": "/th?id=OHR.DiaAmazonia_PT-BR5240863340"
+  "createdAt": "202509070000",
+  "originalUrlBase": "/th?id=OHR.RufousHummer_PT-BR5721753783"
 }

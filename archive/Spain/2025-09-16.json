@@ -1,43 +1,43 @@
 {
-  "date": "Sep 16, 2025",
+  "date": "Sep 17, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "La verdadera cúpula protectora",
+  "title": "Que el alce se alce con esplendor",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Vista nocturna del sur de Estados Unidos a unos 360 kilómetros sobre la Tierra (© Stocktrek Images/Getty Images)",
+  "copyright": "Un joven alce macho en el Parque Nacional Denali, Alaska, EE. UU. (© Grant Ordelheide/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Capa+de+Ozono&form=hpcapt&filters=HpDate%3a%2220250915_2200%22",
-  "description": "Vista nocturna del sur de Estados Unidos a unos 360 kilómetros sobre la Tierra",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
-  "hash": "8dc137ccd34dacf4f64f45292164a2a0",
+  "copyrightLink": "/search?q=alce&form=hpcapt&filters=HpDate%3a%2220250916_2200%22",
+  "description": "Un joven alce macho en el Parque Nacional Denali, Alaska, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "0a7d07ec7c93b8c7b47b8c1dfc0b6aae",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ES-ES6683972972_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ES-ES6683972972_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ES-ES6683972972_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ES-ES8514798418_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ES-ES6683972972_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250915",
-    "endDate": "20250916",
-    "fullStartDateTime": "202509152200"
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509162200"
   },
-  "createdAt": "202509160000",
-  "originalUrlBase": "/th?id=OHR.OzoneEarth_ES-ES8514798418"
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_ES-ES6683972972"
 }

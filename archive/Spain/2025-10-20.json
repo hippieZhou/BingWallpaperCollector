@@ -1,35 +1,35 @@
 {
-  "date": "21 Oct 2025",
+  "date": "21 de oct. de 2025",
   "country": "Spain",
   "marketCode": "es-ES",
   "title": "Tradiciones brillantes",
   "bsTitle": "Tradiciones brillantes",
-  "caption": "¡Feliz Diwali!",
-  "copyright": "Una diya en el Templo Dorado durante el Diwali, Amritsar, India (© EyeEm Mobile GmbH/Getty Images)",
+  "caption": "Templo Dorado, Amritsar, India",
+  "copyright": "Una diya en el Templo Dorado, Amritsar, India (© EyeEm Mobile GmbH/Getty Images)",
   "copyrightOnly": "© EyeEm Mobile GmbH/Getty Images",
-  "copyrightLink": "/search?q=Diwali&form=hpcapt&filters=HpDate%3a%2220251020_2200%22",
-  "description": "Diwali es un festival hindú que celebra la esperanza, la prosperidad y el triunfo del bien sobre el mal. Conmemora el regreso victorioso del príncipe Rama al reino de Ayodhya tras derrotar al rey demonio Ravana y también honra a la diosa Lakshmi, que trae riqueza y bienestar, mientras que algunas comunidades rinden culto a Kali.",
+  "copyrightLink": "/search?q=Amritsar&form=hpcapt&filters=HpDate%3a%2220251020_2200%22",
+  "description": "Diwali es un festival hindú que celebra la esperanza, la prosperidad y el triunfo del bien sobre el mal. Conmemora el regreso victorioso del príncipe Rama al reino de Ayodhya tras derrotar al rey demonio Rávana y también honra a la diosa Lakshmi, símbolo de riqueza y bienestar. En algunas regiones, se rinde culto a Kali, asociada con la fuerza y la renovación.",
   "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251020_DiyaDiwali%22&FORM=HPQUIZ",
-  "hash": "80bc987888eab41b09350007127e6d94",
+  "hash": "96ae15601fbedb862d643eb61bb886ed",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES9858455543_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES7333743749_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES9858455543_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES7333743749_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES9858455543_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES7333743749_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES9858455543_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DiyaDiwali_ES-ES7333743749_UHD.jpg",
       "size": "3840x2160"
     }
   ],
@@ -38,6 +38,6 @@
     "fullStartDateTime": "202510202200",
     "endDate": "20251021"
   },
-  "createdAt": "202510200000",
-  "originalUrlBase": "/th?id=OHR.DiyaDiwali_ES-ES9858455543"
+  "createdAt": "202510241332",
+  "originalUrlBase": "/th?id=OHR.DiyaDiwali_ES-ES7333743749"
 }

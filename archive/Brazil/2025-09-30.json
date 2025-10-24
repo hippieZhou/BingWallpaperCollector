@@ -1,43 +1,43 @@
 {
-  "date": "Sep 30, 2025",
+  "date": "Oct 01, 2025",
   "country": "Brazil",
   "marketCode": "pt-BR",
-  "title": "A paleta secreta da Holanda",
+  "title": "Agarrando-se ao que importa",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Casas Arco-Íris na cidade de Houten, Países Baixos (© George Pachantouris/Getty Images)",
+  "copyright": "Coala em uma árvore de eucalipto, Parque Nacional Great Otway, Austrália (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=houten+pa%c3%adses+baixos&form=hpcapt&mkt=pt-br",
+  "copyrightLink": "/search?q=Coala&form=hpcapt&mkt=pt-br",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_HoutenHouses%22&FORM=HPQUIZ",
-  "hash": "d008bfcbb03c9ca2f03beca58503e1df",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_EucalyptusKoala%22&FORM=HPQUIZ",
+  "hash": "2bbcf5077b78432eff7eb2282e5d90d7",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.HoutenHouses_PT-BR1748801440_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_PT-BR2049021569_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250929",
-    "endDate": "20250930",
-    "fullStartDateTime": "202509290300"
+    "startDate": "20250930",
+    "endDate": "20251001",
+    "fullStartDateTime": "202509300300"
   },
-  "createdAt": "202509300000",
-  "originalUrlBase": "/th?id=OHR.HoutenHouses_PT-BR1748801440"
+  "createdAt": "202510010000",
+  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_PT-BR2049021569"
 }

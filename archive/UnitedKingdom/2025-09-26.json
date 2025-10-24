@@ -1,43 +1,43 @@
 {
-  "date": "Sep 26, 2025",
+  "date": "Sep 27, 2025",
   "country": "UnitedKingdom",
   "marketCode": "en-GB",
-  "title": "The fast and the furriest",
+  "title": "Echoes from the Clark Range",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Least chipmunk, Kootenai National Forest, Montana, United States (© Donald M. Jones/Minden Pictures)",
+  "copyright": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States (© Robb Hirsch/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Least+chipmunk&form=hpcapt&filters=HpDate%3a%2220250925_2300%22",
-  "description": "Least chipmunk, Kootenai National Forest, Montana, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250925_AutumnChipmunk%22&FORM=HPQUIZ",
-  "hash": "b77b204d9c31568775695ca6d378c4bb",
+  "copyrightLink": "/search?q=National+Park+Yosemite&form=hpcapt&filters=HpDate%3a%2220250926_2300%22",
+  "description": "Clark Range, Sierra Nevada, Yosemite National Park, California, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250926_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "7798dcfc8074df8563f462573dab88e3",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-GB9058636428_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-GB9058636428_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-GB9058636428_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.AutumnChipmunk_EN-GB9058636428_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_EN-GB9745293465_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250925",
-    "endDate": "20250926",
-    "fullStartDateTime": "202509252300"
+    "startDate": "20250926",
+    "endDate": "20250927",
+    "fullStartDateTime": "202509262300"
   },
-  "createdAt": "202509260000",
-  "originalUrlBase": "/th?id=OHR.AutumnChipmunk_EN-GB9058636428"
+  "createdAt": "202509270000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_EN-GB9745293465"
 }

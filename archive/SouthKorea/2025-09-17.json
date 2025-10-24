@@ -1,43 +1,43 @@
 {
-  "date": "Sep 17, 2025",
+  "date": "Sep 18, 2025",
   "country": "SouthKorea",
   "marketCode": "ko-KR",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth (© Stocktrek Images/Getty Images)",
+  "copyright": "A young bull moose in Denali National Park, Alaska, United States (© Grant Ordelheide/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Ozone+layer&form=hpcapt",
-  "description": "A nighttime view of the Gulf Coast states from 362 kilometres above Earth",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_OzoneEarth%22&FORM=HPQUIZ",
-  "hash": "64bd6a72d0d34c9c2bf3fe1e567f5472",
+  "copyrightLink": "/search?q=Alaska+moose&form=hpcapt",
+  "description": "A young bull moose in Denali National Park, Alaska, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250917_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "571cafddf2b920529ec6bc73daf7e5af",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ROW8045660515_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ROW0217187286_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250916",
-    "endDate": "20250917",
-    "fullStartDateTime": "202509160700"
+    "startDate": "20250917",
+    "endDate": "20250918",
+    "fullStartDateTime": "202509170700"
   },
-  "createdAt": "202509170000",
-  "originalUrlBase": "/th?id=OHR.OzoneEarth_ROW8045660515"
+  "createdAt": "202509180000",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_ROW0217187286"
 }

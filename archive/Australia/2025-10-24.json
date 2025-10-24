@@ -1,43 +1,43 @@
 {
-  "date": "Oct 23, 2025",
+  "date": "Oct 24, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
-  "caption": "Snow leopards, India",
-  "copyright": "Snow leopard with her cubs, Spiti Valley, Cold Desert Biosphere Reserve, India (© Oriol Alamany/naturepl.com)",
-  "copyrightOnly": "© Oriol Alamany/naturepl.com",
-  "copyrightLink": "/search?q=Snow+Leopard&form=hpcapt&filters=HpDate%3a%2220251023_0700%22",
-  "description": "Ever tried spotting a snow leopard in the wild? It's called the 'ghost of the mountains' for a reason—you're more likely to see its pawprints than the big cat itself. It is sturdy and short-legged compared to other big cats, standing over 55 centimetres at the shoulder and measuring 75 to 150 centimetres from head to body.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251023_SnowLeopard%22&FORM=HPQUIZ",
-  "hash": "7f4ebfa0724a67602de8a64b7f915624",
+  "caption": "RMS Queen Mary, California",
+  "copyright": "Night view of the RMS Queen Mary, Long Beach, California, United States (© Kit Leong/Shutterstock)",
+  "copyrightOnly": "© Kit Leong/Shutterstock",
+  "copyrightLink": "/search?q=RMS+Queen+Mary&form=hpcapt&filters=HpDate%3a%2220251024_0700%22",
+  "description": "She was never meant to fade away. When the RMS Queen Mary sailed in 1936, she stole the spotlight across the Atlantic—an Art Deco liner that broke speed records and carried celebrities, royalty and dignitaries. War transformed her from a floating palace into the 'Grey Ghost,' stripped of luxury and loaded with Allied troops. In 1967, after 30 years at sea, she retired to Long Beach, in California, United States, where her decks now serve as hotel corridors, guided exhibits and a living monument to maritime history.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251024_QueenMary%22&FORM=HPQUIZ",
+  "hash": "ef4713639e334cce4e8df837b90b9733",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ROW0153710664_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ROW0248943301_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ROW0153710664_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ROW0248943301_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ROW0153710664_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ROW0248943301_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SnowLeopard_ROW0153710664_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ROW0248943301_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251023",
-    "fullStartDateTime": "202510230700",
-    "endDate": "20251024"
+    "startDate": "20251024",
+    "fullStartDateTime": "202510240700",
+    "endDate": "20251025"
   },
-  "createdAt": "202510240000",
-  "originalUrlBase": "/th?id=OHR.SnowLeopard_ROW0153710664"
+  "createdAt": "202510241332",
+  "originalUrlBase": "/th?id=OHR.QueenMary_ROW0248943301"
 }

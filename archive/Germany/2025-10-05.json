@@ -1,43 +1,43 @@
 {
-  "date": "5. Okt.. 2025",
+  "date": "6. Okt.. 2025",
   "country": "Germany",
   "marketCode": "de-DE",
-  "title": "Weisheit feiern",
-  "bsTitle": "Weisheit feiern",
-  "caption": "Tag des Lehrers",
-  "copyright": "Raufußkauz in einem Wald in Mitteleuropa (© Ondrej Prosicky/Alamy)",
-  "copyrightOnly": "© Ondrej Prosicky/Alamy",
-  "copyrightLink": "/search?q=Tag+des+Lehrers&form=hpcapt&filters=HpDate%3a%2220251004_2200%22",
-  "description": "Der Weltlehrertag wird jedes Jahr am 5. Oktober gefeiert und wurde 1994 von der UNESCO ins Leben gerufen, um die zentrale Rolle von Lehrkräften weltweit zu würdigen. Dieses Datum erinnert an die Unterzeichnung der gemeinsamen Empfehlung von UNESCO und IAO zur Lage des Lehrpersonals (1966), die Standards für deren Rechte und Pflichten festlegt. Lehrkräfte sind entscheidend für den Aufbau gerechter, inklusiver und nachhaltiger Gesellschaften. Persönlichkeiten wie Maria Montessori, Paulo Freire oder Gabriela Mistral gelten als Vorbilder für innovative Bildungsansätze und lebenslanges Engagement für das Lernen.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251004_TeacherOwl%22&FORM=HPQUIZ",
-  "hash": "2a1e25e2fb52e15158cb5015bebe1ac3",
+  "title": "Bis zum Mond und zurück",
+  "bsTitle": "Bis zum Mond und zurück",
+  "caption": "Anshun-Brücke, Chengdu, China",
+  "copyright": "Anshun-Brücke, beleuchtet zum Mondfest, Chengdu, China (© Philippe LEJEANVRE/Getty Images)",
+  "copyrightOnly": "© Philippe LEJEANVRE/Getty Images",
+  "copyrightLink": "/search?q=Mondfest&form=hpcapt&filters=HpDate%3a%2220251005_2200%22",
+  "description": "Auf dem heutigen Bild ist die Anshun-Brücke zu sehen, die zum Mondfest in Chengdu, China, beleuchtet ist. Diese historische Brücke erstrahlt in traditionellen Laternenlichtern und feiert das Mondfest – eines der bedeutendsten Feste in der chinesischen Kultur. Es findet am 15. Tag des achten Mondmonats statt, wenn der Vollmond am hellsten ist. Familien kommen zusammen, essen Mondkuchen und betrachten den Mond als Symbol für Einheit und Wohlstand. Städte sind festlich geschmückt mit roten Laternen, Lichtinstallationen und kulturellen Darbietungen, die eine nostalgische und feierliche Atmosphäre schaffen.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251005_AnshunBridge%22&FORM=HPQUIZ",
+  "hash": "940be477cd2c0047f3f2fdb69bb37331",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_DE-DE2900249010_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_DE-DE2900249010_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_DE-DE2900249010_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.TeacherOwl_DE-DE2816959094_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.AnshunBridge_DE-DE2900249010_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251004",
-    "endDate": "20251005",
-    "fullStartDateTime": "202510042200"
+    "startDate": "20251005",
+    "endDate": "20251006",
+    "fullStartDateTime": "202510052200"
   },
-  "createdAt": "202510050000",
-  "originalUrlBase": "/th?id=OHR.TeacherOwl_DE-DE2816959094"
+  "createdAt": "202510060000",
+  "originalUrlBase": "/th?id=OHR.AnshunBridge_DE-DE2900249010"
 }

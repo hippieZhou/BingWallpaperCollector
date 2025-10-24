@@ -1,43 +1,43 @@
 {
-  "date": "Aug 27, 2025",
+  "date": "Aug 28, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "Un lago sobre el océano",
+  "title": "Un plumaje impoluto",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Lago Sørvágsvatn, Isla de Vágar, Islas Feroe, Reino de Dinamarca (© Anton Petrus/Getty Images)",
+  "copyright": "Garza blanca, Hungría (© Markus Varesvuo/Nature Picture Library)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=S%C3%B8rv%C3%A1gsvatn&form=hpcapt&filters=HpDate%3a%2220250826_2200%22",
-  "description": "Lago Sørvágsvatn, Isla de Vágar, Islas Feroe, Reino de Dinamarca",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_FaroeLake%22&FORM=HPQUIZ",
-  "hash": "64c45cd3f93e6a67ec02cd6769222b60",
+  "copyrightLink": "/search?q=Garza+blanca&form=hpcapt&filters=HpDate%3a%2220250827_2200%22",
+  "description": "Garza blanca, Hungría",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_WhiteEgret%22&FORM=HPQUIZ",
+  "hash": "5d09262bba11a7c343e4a5f6ae521122",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES8719950614_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES8719950614_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES8719950614_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.FaroeLake_ES-ES8719950614_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WhiteEgret_ES-ES8814073965_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250826",
-    "endDate": "20250827",
-    "fullStartDateTime": "202508262200"
+    "startDate": "20250827",
+    "endDate": "20250828",
+    "fullStartDateTime": "202508272200"
   },
   "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.FaroeLake_ES-ES8719950614"
+  "originalUrlBase": "/th?id=OHR.WhiteEgret_ES-ES8814073965"
 }

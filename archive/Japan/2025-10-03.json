@@ -1,43 +1,43 @@
 {
-  "date": "2025 年 10月 月 3 日",
+  "date": "2025 年 10月 月 4 日",
   "country": "Japan",
   "marketCode": "ja-JP",
-  "title": "紫の花咲く大地",
-  "bsTitle": "紫の花咲く大地",
-  "caption": "紫の花咲く大地",
-  "copyright": "グレン・ブリトル, スコットランド (© Adam Mowery/TANDEM Stills + Motion)",
-  "copyrightOnly": "© Adam Mowery/TANDEM Stills + Motion",
-  "copyrightLink": "/search?q=%e3%82%b0%e3%83%ac%e3%83%b3%e3%83%bb%e3%83%96%e3%83%aa%e3%83%88%e3%83%ab&form=hpcapt&filters=HpDate%3a%2220251002_1500%22",
-  "description": "「霧の島」とも称されるスコットランドのスカイ島。その南西部に広がる谷、グレン・ブリトルでは、ヒースと呼ばれる美しい紫の小さな花が絨毯のように咲き誇ります。太古の昔から存在する歴史ある土地で、断崖には恐竜の足跡が刻まれており、9 世紀にはヴァイキングが定住しました…",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251002_SkyeHeather%22&FORM=HPQUIZ",
-  "hash": "5546ca888fcb54e6405a7e23e5f272b0",
+  "title": "今日から世界宇宙週間",
+  "bsTitle": "今日から世界宇宙週間",
+  "caption": "今日から世界宇宙週間",
+  "copyright": "エンデバーから見た ISS のソーラーパネル (© NASA)",
+  "copyrightOnly": "© NASA",
+  "copyrightLink": "/search?q=+ISS%e3%81%ae%e3%82%bd%e3%83%bc%e3%83%a9%e3%83%bc%e3%83%91%e3%83%8d%e3%83%ab&form=hpcapt&filters=HpDate%3a%2220251003_1500%22",
+  "description": "今日 10 月 4 日から 10 月 10 日までは世界宇宙週間です。1957 年の 10 月 4 日、世界初の人工衛星スプートニク 1 号が打ちあげられ、その 10 年後の 1967 年 10 月 10 日に、宇宙空間の平和的利用を定めた「宇宙条約」が発効したことを記念して、国連が制定しました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251003_DragonEndeavour%22&FORM=HPQUIZ",
+  "hash": "f52362e83515a37779723183e6b2ed35",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.SkyeHeather_JA-JP7561347402_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.DragonEndeavour_JA-JP7626531843_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20251002",
-    "endDate": "20251003",
-    "fullStartDateTime": "202510021500"
+    "startDate": "20251003",
+    "endDate": "20251004",
+    "fullStartDateTime": "202510031500"
   },
-  "createdAt": "202510030000",
-  "originalUrlBase": "/th?id=OHR.SkyeHeather_JA-JP7561347402"
+  "createdAt": "202510040000",
+  "originalUrlBase": "/th?id=OHR.DragonEndeavour_JA-JP7626531843"
 }

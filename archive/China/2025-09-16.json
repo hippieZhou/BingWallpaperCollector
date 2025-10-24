@@ -1,43 +1,43 @@
 {
-  "date": "Sep 16, 2025",
+  "date": "Sep 17, 2025",
   "country": "China",
   "marketCode": "zh-CN",
-  "title": "巨大的成功",
+  "title": "成长中的冠冕",
   "bsTitle": "",
   "caption": "",
-  "copyright": "从地球上空225英里处俯瞰墨西哥湾沿岸各州的夜间景象 (© Stocktrek Images/Getty Images)",
+  "copyright": "迪纳利国家公园中的一头年轻雄性驼鹿, 阿拉斯加, 美国 (© Grant Ordelheide/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%E8%87%AD%E6%B0%A7%E6%97%A5&form=hpcapt&mkt=zh-cn",
-  "description": "从地球上空225英里处俯瞰墨西哥湾沿岸各州的夜间景象",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250915_OzoneEarth%22&FORM=HPQUIZ",
-  "hash": "bd920b029dbc3c4c8df4214ba50b652a",
+  "copyrightLink": "/search?q=%E9%98%BF%E6%8B%89%E6%96%AF%E5%8A%A0%E9%A9%BC%E9%B9%BF&form=hpcapt&mkt=zh-cn",
+  "description": "迪纳利国家公园中的一头年轻雄性驼鹿, 阿拉斯加, 美国",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250916_YoungMoose%22&FORM=HPQUIZ",
+  "hash": "bb5f66783b6a8a84e0ecf7d41b8af8ee",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ZH-CN4639410217_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ZH-CN4639410217_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ZH-CN4639410217_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OzoneEarth_ZH-CN0993915980_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YoungMoose_ZH-CN4639410217_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250915",
-    "endDate": "20250916",
-    "fullStartDateTime": "202509151600"
+    "startDate": "20250916",
+    "endDate": "20250917",
+    "fullStartDateTime": "202509161600"
   },
-  "createdAt": "202509160000",
-  "originalUrlBase": "/th?id=OHR.OzoneEarth_ZH-CN0993915980"
+  "createdAt": "202509170000",
+  "originalUrlBase": "/th?id=OHR.YoungMoose_ZH-CN4639410217"
 }

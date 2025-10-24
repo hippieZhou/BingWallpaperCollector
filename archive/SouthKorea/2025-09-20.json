@@ -1,43 +1,43 @@
 {
-  "date": "Sep 20, 2025",
+  "date": "Sep 21, 2025",
   "country": "SouthKorea",
   "marketCode": "ko-KR",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Thousand Islands region, St. Lawrence River, USA-Canada border (© benedek/Getty Images)",
+  "copyright": "Swing carousel at Oktoberfest, Munich, Bavaria, Germany (© LOOK-foto/Alamy)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Thousand+Islands+region&form=hpcapt",
-  "description": "Thousand Islands region, St. Lawrence River, USA-Canada border",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250919_ThousandIslands%22&FORM=HPQUIZ",
-  "hash": "4850d26011ec0fc927c62e040a1365ed",
+  "copyrightLink": "/search?q=Oktoberfest&form=hpcapt",
+  "description": "Swing carousel at Oktoberfest, Munich, Bavaria, Germany",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250920_OktoberfestSwing%22&FORM=HPQUIZ",
+  "hash": "cb02b31dd6a9d8554bc573a6a43397c5",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ROW3854293844_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ROW4294317377_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ROW3854293844_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ROW4294317377_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ROW3854293844_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ROW4294317377_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.ThousandIslands_ROW3854293844_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.OktoberfestSwing_ROW4294317377_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250919",
-    "endDate": "20250920",
-    "fullStartDateTime": "202509190700"
+    "startDate": "20250920",
+    "endDate": "20250921",
+    "fullStartDateTime": "202509200700"
   },
-  "createdAt": "202509200000",
-  "originalUrlBase": "/th?id=OHR.ThousandIslands_ROW3854293844"
+  "createdAt": "202509210000",
+  "originalUrlBase": "/th?id=OHR.OktoberfestSwing_ROW4294317377"
 }

@@ -1,5 +1,5 @@
 {
-  "date": "Oct 21, 2025",
+  "date": "Oct. 20, 2025",
   "country": "Canada",
   "marketCode": "en-CA",
   "title": "Life in the slow lane",
@@ -10,7 +10,7 @@
   "copyrightLink": "/search?q=International+Sloth+Day&form=hpcapt&filters=HpDate%3a%2220251020_0400%22",
   "description": "How good would it feel if you could just hang out and do absolutely nothing all day? That's exactly what sloths do, and today, we celebrate them. International Sloth Day honours these unhurried creatures and reminds us that life doesn't always need to be rushed. Sloths are tree-dwelling mammals native to Central and South America. Their deliberate movements conserve energy, avoid predators and even allow algae to grow on their fur, creating green camouflage among the canopy. Hoffmann's two-toed sloth, pictured here, is a prime example of the slow-paced lifestyle typical of all sloths. It spends most of its time in the trees, occasionally descending to the ground to move to a new one.",
   "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251020_HoffmansSloth%22&FORM=HPQUIZ",
-  "hash": "cc0defe304ac8cc8d83b6dc7bd163c94",
+  "hash": "1295f20a1cac50dc54685ef641866dd9",
   "imageResolutions": [
     {
       "resolution": "Standard",
@@ -38,6 +38,6 @@
     "fullStartDateTime": "202510200400",
     "endDate": "20251021"
   },
-  "createdAt": "202510200000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.HoffmansSloth_EN-CA8355906230"
 }

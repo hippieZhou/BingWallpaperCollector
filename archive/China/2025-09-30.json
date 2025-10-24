@@ -1,43 +1,43 @@
 {
-  "date": "Sep 30, 2025",
+  "date": "Oct 01, 2025",
   "country": "China",
   "marketCode": "zh-CN",
-  "title": "坚持重要的事情",
+  "title": "克拉克山脉的回声",
   "bsTitle": "",
   "caption": "",
-  "copyright": "桉树上的考拉, 大奥特维国家公园, 澳大利亚 (© Jamie Lamb - elusive-images.co.uk/Getty Images)",
+  "copyright": "克拉克山脉, 内华达山脉, 约塞米蒂国家公园, 加利福尼亚州, 美国 (© Robb Hirsch/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=%e8%80%83%e6%8b%89&form=hpcapt&mkt=zh-cn",
+  "copyrightLink": "/search?q=%e7%ba%a6%e5%a1%9e%e7%b1%b3%e8%92%82%e5%9b%bd%e5%ae%b6%e5%85%ac%e5%9b%ad&form=hpcapt&mkt=zh-cn",
   "description": "",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250929_EucalyptusKoala%22&FORM=HPQUIZ",
-  "hash": "5dd434ee7e3ad6bbc55c800e42901c6a",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250930_YosemiteClark%22&FORM=HPQUIZ",
+  "hash": "543a72538afa5faa0465a32c42c92a13",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ZH-CN6942451940_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ZH-CN7179533292_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ZH-CN6942451940_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ZH-CN7179533292_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ZH-CN6942451940_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ZH-CN7179533292_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.EucalyptusKoala_ZH-CN6942451940_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.YosemiteClark_ZH-CN7179533292_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250929",
-    "endDate": "20250930",
-    "fullStartDateTime": "202509291600"
+    "startDate": "20250930",
+    "endDate": "20251001",
+    "fullStartDateTime": "202509301600"
   },
-  "createdAt": "202509300000",
-  "originalUrlBase": "/th?id=OHR.EucalyptusKoala_ZH-CN6942451940"
+  "createdAt": "202510010000",
+  "originalUrlBase": "/th?id=OHR.YosemiteClark_ZH-CN7179533292"
 }

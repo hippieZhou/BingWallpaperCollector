@@ -1,43 +1,43 @@
 {
-  "date": "Sep 13, 2025",
+  "date": "Sep 14, 2025",
   "country": "Spain",
   "marketCode": "es-ES",
-  "title": "Escarpado y salvaje",
+  "title": "Musgo y niebla",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Chimney Rock, Costa Nacional de Point Reyes, California, EE. UU. (© Enrique Aguirre Aves/Getty Images)",
+  "copyright": "Una cascada en el Parque Nacional Olympic, Washington, EE. UU. (© Chris Moore/TANDEM Stills + Motion)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Costa+Nacional+de+Point+Reyes&form=hpcapt&filters=HpDate%3a%2220250912_2200%22",
-  "description": "Chimney Rock, Costa Nacional de Point Reyes, California, EE. UU.",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250912_PointReyesSeashore%22&FORM=HPQUIZ",
-  "hash": "3478e9ea25a3aee97abeb3d296d7d44a",
+  "copyrightLink": "/search?q=Parque+Nacional+Olympic&form=hpcapt&filters=HpDate%3a%2220250913_2200%22",
+  "description": "Una cascada en el Parque Nacional Olympic, Washington, EE. UU.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250913_HohWaterfall%22&FORM=HPQUIZ",
+  "hash": "ea2d167d191c0f781cbd90bede6d9dca",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_ES-ES8209669177_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_ES-ES8209669177_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_ES-ES8209669177_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.PointReyesSeashore_ES-ES8209669177_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.HohWaterfall_ES-ES8372999914_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250912",
-    "endDate": "20250913",
-    "fullStartDateTime": "202509122200"
+    "startDate": "20250913",
+    "endDate": "20250914",
+    "fullStartDateTime": "202509132200"
   },
-  "createdAt": "202509130000",
-  "originalUrlBase": "/th?id=OHR.PointReyesSeashore_ES-ES8209669177"
+  "createdAt": "202509140000",
+  "originalUrlBase": "/th?id=OHR.HohWaterfall_ES-ES8372999914"
 }

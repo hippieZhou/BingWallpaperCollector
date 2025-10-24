@@ -1,43 +1,43 @@
 {
-  "date": "Sep 7, 2025",
+  "date": "Sep 8, 2025",
   "country": "Australia",
   "marketCode": "en-AU",
   "title": "Info",
   "bsTitle": "Info",
   "caption": "Info",
-  "copyright": "Rufous hummingbird, Golden Gate Park, San Francisco, California, United States (© jeremyborkat/Getty Images)",
-  "copyrightOnly": "© jeremyborkat/Getty Images",
-  "copyrightLink": "https://www.bing.com/search?q=Rufous+hummingbird&form=hpcapt&filters=HpDate%3a%2220250906_0700%22",
-  "description": "Rufous hummingbird, Golden Gate Park, San Francisco, California, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250906_RufousHummer%22&FORM=HPQUIZ",
-  "hash": "6d0695b2f142504a13f8aa1ad77abfd5",
+  "copyright": "Gdańsk on the banks of the Motława river, Poland (© Oscar Dominguez/TANDEM Stills + Motion)",
+  "copyrightOnly": "© Oscar Dominguez/TANDEM Stills + Motion",
+  "copyrightLink": "https://www.bing.com/search?q=Gdansk+poland&form=hpcapt&filters=HpDate%3a%2220250907_0700%22",
+  "description": "Gdańsk on the banks of the Motława river, Poland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250907_BlueGdansk%22&FORM=HPQUIZ",
+  "hash": "fe068afc1308ad109f4022dab3b16185",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.RufousHummer_ROW6939671460_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.BlueGdansk_ROW7036139554_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250906",
-    "endDate": "20250907",
-    "fullStartDateTime": "202509060700"
+    "startDate": "20250907",
+    "endDate": "20250908",
+    "fullStartDateTime": "202509070700"
   },
-  "createdAt": "202509070215",
-  "originalUrlBase": "/th?id=OHR.RufousHummer_ROW6939671460"
+  "createdAt": "202509080215",
+  "originalUrlBase": "/th?id=OHR.BlueGdansk_ROW7036139554"
 }

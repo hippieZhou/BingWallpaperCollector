@@ -1,5 +1,5 @@
 {
-  "date": "17. Oct. 2025",
+  "date": "17. Okt.. 2025",
   "country": "Germany",
   "marketCode": "de-DE",
   "title": "Ein einzigartiger Panoramablick",
@@ -35,9 +35,9 @@
   ],
   "timeInfo": {
     "startDate": "20251016",
-    "endDate": "20251017",
-    "fullStartDateTime": "202510162200"
+    "fullStartDateTime": "202510162200",
+    "endDate": "20251017"
   },
-  "createdAt": "202510160000",
+  "createdAt": "202510241332",
   "originalUrlBase": "/th?id=OHR.MettlachAutumn_DE-DE9026182741"
 }

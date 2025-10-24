@@ -1,43 +1,43 @@
 {
-  "date": "Sep 04, 2025",
+  "date": "Sep 05, 2025",
   "country": "SouthKorea",
   "marketCode": "ko-KR",
   "title": "Info",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Boundary Waters Canoe Area Wilderness, Minnesota, United States (© s.tomas/Shutterstock)",
+  "copyright": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States (© Cavan Images/Adobe Stock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Boundary+Waters+Canoe+Area+Wilderness&form=hpcapt",
-  "description": "Boundary Waters Canoe Area Wilderness, Minnesota, United States",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250903_MinnesotaWaters%22&FORM=HPQUIZ",
-  "hash": "efbd9497e7de0bf3387ccfc186a9c64a",
+  "copyrightLink": "/search?q=Grizzly+bears&form=hpcapt",
+  "description": "Grizzly bears wrestling, Katmai National Park and Preserve, Alaska, United States",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250904_WrestlingBears%22&FORM=HPQUIZ",
+  "hash": "e6f38037a40ac0518bb8c5e028a262ac",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ROW7698043966_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ROW7698043966_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ROW7698043966_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.MinnesotaWaters_ROW7698043966_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.WrestlingBears_ROW7780803769_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250903",
-    "endDate": "20250904",
-    "fullStartDateTime": "202509030700"
+    "startDate": "20250904",
+    "endDate": "20250905",
+    "fullStartDateTime": "202509040700"
   },
-  "createdAt": "202509040000",
-  "originalUrlBase": "/th?id=OHR.MinnesotaWaters_ROW7698043966"
+  "createdAt": "202509050000",
+  "originalUrlBase": "/th?id=OHR.WrestlingBears_ROW7780803769"
 }

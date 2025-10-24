@@ -62,8 +62,8 @@ public sealed class BingWallpaperApp(
         var wallpapers = collectedWallpapers.Select(x => WallpaperMapper.MapToStorage(x.WallpaperInfo, x.MarketCode, DateTimeProvider.GetUtcNow().DateTime));
         await Parallel.ForEachAsync(wallpapers, cancellationToken, async (wallpaper, token) =>
         {
-            // 计算实际日期 - 使用 EndDate 确保与 JSON date 字段一致
-            var dateStr = wallpaper.TimeInfo.EndDate.ToString("yyyy-MM-dd");
+            // 计算实际日期 - 使用 StartDate 确保与 JSON startDate 字段一致
+            var dateStr = wallpaper.TimeInfo.StartDate.ToString("yyyy-MM-dd");
             var marketCode = wallpaper.Country;
             // 创建目录结构：Country/
             var countryDir = Path.Combine(dataDirectory, marketCode);

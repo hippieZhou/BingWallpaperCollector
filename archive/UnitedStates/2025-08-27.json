@@ -1,43 +1,43 @@
 {
-  "date": "Aug 27, 2025",
+  "date": "Aug 28, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "A 'trulli' remarkable town",
+  "title": "A lake above the ocean",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Trullo buildings in Alberobello, Apulia, Italy (© Feng Wei Photography/Getty Images)",
+  "copyright": "Sørvágsvatn lake, island of Vágar, Faroe Islands, Denmark (© Anton Petrus/Getty Images)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Alberobello&form=hpcapt&filters=HpDate%3a%2220250826_0700%22",
-  "description": "Trullo buildings in Alberobello, Apulia, Italy",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250826_TrulliHouses%22&FORM=HPQUIZ",
-  "hash": "e7231458ee5cef7bedba833f4130963d",
+  "copyrightLink": "/search?q=S%C3%B8rv%C3%A1gsvatn&form=hpcapt&filters=HpDate%3a%2220250827_0700%22",
+  "description": "Sørvágsvatn lake, island of Vágar, Faroe Islands, Denmark",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250827_FaroeLake%22&FORM=HPQUIZ",
+  "hash": "2e650e4212afced2c700f167db2966a8",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.TrulliHouses_EN-US3489439665_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FaroeLake_EN-US3557234950_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250826",
-    "endDate": "20250827",
-    "fullStartDateTime": "202508260700"
+    "startDate": "20250827",
+    "endDate": "20250828",
+    "fullStartDateTime": "202508270700"
   },
   "createdAt": "202508280000",
-  "originalUrlBase": "/th?id=OHR.TrulliHouses_EN-US3489439665"
+  "originalUrlBase": "/th?id=OHR.FaroeLake_EN-US3557234950"
 }

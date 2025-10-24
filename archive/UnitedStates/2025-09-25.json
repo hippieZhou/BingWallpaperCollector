@@ -1,43 +1,43 @@
 {
-  "date": "Sep 25, 2025",
+  "date": "Sep 26, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "The lonely giant",
+  "title": "Carved stones of courage",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Devils Tower National Monument, Wyoming (© Laura Hedien/Getty Images)",
+  "copyright": "Chittorgarh Fort, Rajasthan, India (© chetansoni/Shutterstock)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=Devils+Tower+National+Monument&form=hpcapt&filters=HpDate%3a%2220250924_0700%22",
-  "description": "Devils Tower National Monument, Wyoming",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250924_BearLodge%22&FORM=HPQUIZ",
-  "hash": "543d315ebce4fd35f68974fa4ecdf015",
+  "copyrightLink": "/search?q=Chittorgarh+Fort&form=hpcapt&filters=HpDate%3a%2220250925_0700%22",
+  "description": "Chittorgarh Fort, Rajasthan, India",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250925_FortChittorgarh%22&FORM=HPQUIZ",
+  "hash": "25f298f1ab9b27949d4d0d9c66199cc2",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.BearLodge_EN-US9061134971_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.FortChittorgarh_EN-US9184486139_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250924",
-    "endDate": "20250925",
-    "fullStartDateTime": "202509240700"
+    "startDate": "20250925",
+    "endDate": "20250926",
+    "fullStartDateTime": "202509250700"
   },
-  "createdAt": "202509250000",
-  "originalUrlBase": "/th?id=OHR.BearLodge_EN-US9061134971"
+  "createdAt": "202509260000",
+  "originalUrlBase": "/th?id=OHR.FortChittorgarh_EN-US9184486139"
 }

@@ -1,43 +1,43 @@
 {
-  "date": "Sep 09, 2025",
+  "date": "Sep 10, 2025",
   "country": "UnitedStates",
   "marketCode": "en-US",
-  "title": "Booked for the day",
+  "title": "Twig by twig, she prepares",
   "bsTitle": "",
   "caption": "",
-  "copyright": "Library@orchard, Singapore (© Darwin Fan/Getty Images)",
+  "copyright": "A female Eurasian red squirrel carrying moss, Switzerland (© Jean-Luc and Francoise Ziegler/Minden Pictures)",
   "copyrightOnly": "",
-  "copyrightLink": "/search?q=International+Literacy+Day&form=hpcapt&filters=HpDate%3a%2220250908_0700%22",
-  "description": "Library@orchard, Singapore",
-  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250908_OrchardLibrary%22&FORM=HPQUIZ",
-  "hash": "5e2cfc78b6d28ab8e31cd7fccd0464a1",
+  "copyrightLink": "/search?q=Eurasian+red+squirrel&form=hpcapt&filters=HpDate%3a%2220250909_0700%22",
+  "description": "A female Eurasian red squirrel carrying moss, Switzerland",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20250909_SwissSquirrel%22&FORM=HPQUIZ",
+  "hash": "989786968814aa5568a14f673510b7d6",
   "imageResolutions": [
     {
       "resolution": "Standard",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_1366x768.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-US8185093853_1366x768.jpg",
       "size": "1366x768"
     },
     {
       "resolution": "FullHD",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_1920x1080.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-US8185093853_1920x1080.jpg",
       "size": "1920x1080"
     },
     {
       "resolution": "HD",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_1920x1200.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-US8185093853_1920x1200.jpg",
       "size": "1920x1200"
     },
     {
       "resolution": "UHD4K",
-      "url": "https://www.bing.com/th?id=OHR.OrchardLibrary_EN-US8095609746_UHD.jpg",
+      "url": "https://www.bing.com/th?id=OHR.SwissSquirrel_EN-US8185093853_UHD.jpg",
       "size": "3840x2160"
     }
   ],
   "timeInfo": {
-    "startDate": "20250908",
-    "endDate": "20250909",
-    "fullStartDateTime": "202509080700"
+    "startDate": "20250909",
+    "endDate": "20250910",
+    "fullStartDateTime": "202509090700"
   },
-  "createdAt": "202509090000",
-  "originalUrlBase": "/th?id=OHR.OrchardLibrary_EN-US8095609746"
+  "createdAt": "202509100000",
+  "originalUrlBase": "/th?id=OHR.SwissSquirrel_EN-US8185093853"
 }
