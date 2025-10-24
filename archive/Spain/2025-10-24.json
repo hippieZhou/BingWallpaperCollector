@@ -1,0 +1,43 @@
+{
+  "date": "24 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Historias del mar",
+  "bsTitle": "Historias del mar",
+  "caption": "El transatlántico británico “RMS Queen Mary” en Long Beach, California, EE. UU.",
+  "copyright": "El transatlántico británico “RMS Queen Mary” en Long Beach, California, EE. UU. (© Kit Leong/Shutterstock)",
+  "copyrightOnly": "© Kit Leong/Shutterstock",
+  "copyrightLink": "/search?q=Transatl%c3%a1ntico+brit%c3%a1nico+RMS+Queen+Mary&form=hpcapt&filters=HpDate%3a%2220251023_2200%22",
+  "description": "Cuando el RMS\u202FQueen\u202FMary zarpó en 1936, se convirtió en un ícono del lujo y la velocidad transatlántica, al igual que otros barcos destacados en España como el Príncipe de Asturias o la Infanta Isabel de Borbón, que unieron Europa con América transportando pasajeros y correo. El Queen\u202FMary, un transatlántico Art Decó, batió récords de velocidad y recibió a celebridades, dignatarios y miembros de la realeza durante sus travesías.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251023_QueenMary%22&FORM=HPQUIZ",
+  "hash": "3c50cebd797ed7e4ce8ce4e9b3a03e0d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ES-ES3516526290_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ES-ES3516526290_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ES-ES3516526290_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.QueenMary_ES-ES3516526290_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251023",
+    "fullStartDateTime": "202510232200",
+    "endDate": "20251024"
+  },
+  "createdAt": "202510240000",
+  "originalUrlBase": "/th?id=OHR.QueenMary_ES-ES3516526290"
+}

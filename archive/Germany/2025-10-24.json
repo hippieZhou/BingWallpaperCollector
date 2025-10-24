@@ -1,0 +1,43 @@
+{
+  "date": "24. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Orte der Begegnung und Inspiration",
+  "bsTitle": "Orte der Begegnung und Inspiration",
+  "caption": "Tag der Bibliotheken",
+  "copyright": "Alte Bibliothek, Kloster Sankt Mang, Füssen, Bayern (© marcobriviophoto/Shutterstock)",
+  "copyrightOnly": "© marcobriviophoto/Shutterstock",
+  "copyrightLink": "/search?q=Abtei+Sankt+Mang&form=hpcapt&filters=HpDate%3a%2220251023_2200%22",
+  "description": "Heute ist der Tag der Bibliotheken. Seit 1995 wird er am 24. Oktober deutschlandweit begangen, um auf die kulturelle und gesellschaftliche Bedeutung der mehr als 9.000 Bibliotheken aufmerksam zu machen. Initiator war der damalige Bundespräsident Richard von Weizsäcker. Bibliotheken sind Orte des freien Zugangs zu Bildung, Information und Kultur. Lesungen, Ausstellungen und Führungen geben an diesem Tag besondere Einblicke und laden dazu ein, die Vielfalt der Bücherwelt neu zu entdecken. Sie fördern lebenslanges Lernen, soziale Teilhabe und kulturellen Austausch. Offen für alle – unabhängig von Alter, Herkunft oder Bildungshintergrund – sind sie gerade für Schülerinnen, Schüler, Studierende und Familien wichtige Anlaufpunkte im Alltag.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251023_StMangLibrary%22&FORM=HPQUIZ",
+  "hash": "75d2198c2672ae36ebdbf38883345058",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.StMangLibrary_DE-DE0881251342_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.StMangLibrary_DE-DE0881251342_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.StMangLibrary_DE-DE0881251342_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.StMangLibrary_DE-DE0881251342_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251023",
+    "fullStartDateTime": "202510232200",
+    "endDate": "20251024"
+  },
+  "createdAt": "202510240000",
+  "originalUrlBase": "/th?id=OHR.StMangLibrary_DE-DE0881251342"
+}

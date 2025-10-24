@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Intagli e ricette",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Zucche in azienda agricola, Carolina del Nord, USA (© Matthew H Irvin/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Zucca&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251023_PumpkinFarm%22&FORM=HPQUIZ",
+  "hash": "81f3fd540b47b9a8b2de409b99950621",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_IT-IT9478392413_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_IT-IT9478392413_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_IT-IT9478392413_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_IT-IT9478392413_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251023",
+    "fullStartDateTime": "202510232200",
+    "endDate": "20251024"
+  },
+  "createdAt": "202510240000",
+  "originalUrlBase": "/th?id=OHR.PumpkinFarm_IT-IT9478392413"
+}
