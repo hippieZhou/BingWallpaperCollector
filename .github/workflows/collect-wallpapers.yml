@@ -136,19 +136,13 @@ jobs:
           echo "  - 分辨率: $RESOLUTION_CODE"
           echo "  - 收集所有国家: $COLLECT_ALL"
 
-          # 使用 jq 修改 appsettings.json
-          jq --arg country "$TARGET_COUNTRY" \
-             --arg days "$COLLECT_DAYS" \
-             --arg resolution "$RESOLUTION_CODE" \
-             --argjson collectAll "$COLLECT_ALL" \
-             '.CollectionOptions.MarketCode = $country |
-              .CollectionOptions.CollectDays = ($days | tonumber) |
-              .CollectionOptions.ResolutionCode = $resolution |
-              .CollectionOptions.CollectAllCountries = $collectAll |
-              .CollectionOptions.MaxConcurrentRequests = 3 |
-              .CollectionOptions.PrettyJsonFormat = true' \
-             src/BingWallpaperGallery.Collector/appsettings.json > temp.json && \
-             mv temp.json src/BingWallpaperGallery.Collector/appsettings.json
+          # 设置环境变量（替代jq修改配置文件）
+          echo "COLLECTIONOPTIONS__MARKETCODE=$TARGET_COUNTRY" >> $GITHUB_ENV
+          echo "COLLECTIONOPTIONS__COLLECTDAYS=$COLLECT_DAYS" >> $GITHUB_ENV
+          echo "COLLECTIONOPTIONS__RESOLUTIONCODE=$RESOLUTION_CODE" >> $GITHUB_ENV
+          echo "COLLECTIONOPTIONS__COLLECTALLCOUNTRIES=$COLLECT_ALL" >> $GITHUB_ENV
+          echo "COLLECTIONOPTIONS__MAXCONCURRENTREQUESTS=3" >> $GITHUB_ENV
+          echo "COLLECTIONOPTIONS__PRETTYJSONFORMAT=true" >> $GITHUB_ENV
 
           # 设置输出变量
           echo "target_country=$TARGET_COUNTRY" >> $GITHUB_OUTPUT
@@ -157,8 +151,13 @@ jobs:
           echo "trigger_type=$TRIGGER_TYPE" >> $GITHUB_OUTPUT
 
           echo ""
-          echo "当前配置文件内容:"
-          cat src/BingWallpaperGallery.Collector/appsettings.json
+          echo "环境变量配置:"
+          echo "  - COLLECTIONOPTIONS__MARKETCODE=$TARGET_COUNTRY"
+          echo "  - COLLECTIONOPTIONS__COLLECTDAYS=$COLLECT_DAYS"
+          echo "  - COLLECTIONOPTIONS__RESOLUTIONCODE=$RESOLUTION_CODE"
+          echo "  - COLLECTIONOPTIONS__COLLECTALLCOUNTRIES=$COLLECT_ALL"
+          echo "  - COLLECTIONOPTIONS__MAXCONCURRENTREQUESTS=3"
+          echo "  - COLLECTIONOPTIONS__PRETTYJSONFORMAT=true"
 
       - name: 收集壁纸信息
         run: |
