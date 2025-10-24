@@ -2,14 +2,38 @@ name: Collect Bing Wallpapers
 
 on:
   schedule:
-    # 针对亚洲地区 - UTC 22:00 (北京时间次日06:00)
+    # 亚洲地区 - 北京时间 06:00 (UTC 22:00) - 中国、日本、韩国、印度
     - cron: "0 22 * * *"
-    # 针对欧洲地区 - UTC 06:00 (中欧时间07:00/08:00)
+    # 欧洲地区 - 中欧时间 07:00 (UTC 06:00) - 德国、法国、西班牙、意大利、英国
     - cron: "0 6 * * *"
-    # 针对美洲地区 - UTC 14:00 (美东时间09:00/10:00)
+    # 美洲地区 - 美东时间 09:00 (UTC 14:00) - 美国、加拿大、巴西
     - cron: "0 14 * * *"
+    # 大洋洲地区 - 澳洲东部时间 08:00 (UTC 22:00) - 澳大利亚
+    - cron: "0 22 * * *"
+    # 俄罗斯地区 - 莫斯科时间 08:00 (UTC 05:00) - 俄罗斯
+    - cron: "0 5 * * *"
   workflow_dispatch: # 支持手动触发
     inputs:
+      target_country:
+        description: "目标国家"
+        required: false
+        default: "China"
+        type: choice
+        options:
+          - China
+          - UnitedStates
+          - UnitedKingdom
+          - Japan
+          - Germany
+          - France
+          - Spain
+          - Italy
+          - Russia
+          - SouthKorea
+          - Brazil
+          - Australia
+          - Canada
+          - India
       collect_days:
         description: "收集天数 (1-8)"
         required: false
@@ -24,11 +48,6 @@ on:
           - FullHD
           - HD
           - UHD4K
-      collect_all_countries:
-        description: "是否收集所有国家"
-        required: false
-        default: true
-        type: boolean
 
 permissions:
   contents: write
@@ -56,23 +75,74 @@ jobs:
       - name: 构建项目
         run: dotnet build src/BingWallpaperGallery.Collector/BingWallpaperGallery.Collector.csproj --configuration Release --no-restore
 
-      - name: 配置收集参数
+      - name: 智能配置收集参数
+        id: config
         run: |
-          # 设置参数（手动触发时使用输入参数，定时任务使用默认值）
-          COLLECT_DAYS="${{ github.event.inputs.collect_days || '1' }}"
-          RESOLUTION_CODE="${{ github.event.inputs.resolution_code || 'FullHD' }}"
-          COLLECT_ALL="${{ github.event.inputs.collect_all_countries || 'true' }}"
+          # 获取当前UTC时间
+          CURRENT_UTC_HOUR=$(date -u +%H)
+          CURRENT_UTC_MINUTE=$(date -u +%M)
+          CURRENT_TIME="$CURRENT_UTC_HOUR:$CURRENT_UTC_MINUTE"
+
+          echo "当前UTC时间: $CURRENT_TIME"
+
+          # 根据当前时间和触发方式确定目标国家
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # 手动触发时使用用户选择的参数
+            TARGET_COUNTRY="${{ github.event.inputs.target_country || 'China' }}"
+            COLLECT_DAYS="${{ github.event.inputs.collect_days || '1' }}"
+            RESOLUTION_CODE="${{ github.event.inputs.resolution_code || 'FullHD' }}"
+            COLLECT_ALL="false"
+            TRIGGER_TYPE="手动触发"
+          else
+            # 定时触发时根据时间智能选择国家
+            COLLECT_DAYS="1"
+            RESOLUTION_CODE="FullHD"
+            COLLECT_ALL="false"
+            TRIGGER_TYPE="定时触发"
+
+            case "$CURRENT_UTC_HOUR" in
+              "22")
+                # UTC 22:00 - 亚洲地区 (北京时间 06:00)
+                TARGET_COUNTRY="China"
+                echo "🌅 亚洲地区时间 - 采集中国壁纸"
+                ;;
+              "6")
+                # UTC 06:00 - 欧洲地区 (中欧时间 07:00)
+                TARGET_COUNTRY="Germany"
+                echo "🌅 欧洲地区时间 - 采集德国壁纸"
+                ;;
+              "14")
+                # UTC 14:00 - 美洲地区 (美东时间 09:00)
+                TARGET_COUNTRY="UnitedStates"
+                echo "🌅 美洲地区时间 - 采集美国壁纸"
+                ;;
+              "5")
+                # UTC 05:00 - 俄罗斯地区 (莫斯科时间 08:00)
+                TARGET_COUNTRY="Russia"
+                echo "🌅 俄罗斯地区时间 - 采集俄罗斯壁纸"
+                ;;
+              *)
+                # 默认情况
+                TARGET_COUNTRY="China"
+                echo "🌅 默认时间 - 采集中国壁纸"
+                ;;
+            esac
+          fi
 
           echo "收集配置:"
+          echo "  - 触发方式: $TRIGGER_TYPE"
+          echo "  - 目标国家: $TARGET_COUNTRY"
           echo "  - 收集天数: $COLLECT_DAYS"
           echo "  - 分辨率: $RESOLUTION_CODE"
           echo "  - 收集所有国家: $COLLECT_ALL"
 
           # 使用 jq 修改 appsettings.json
-          jq --arg days "$COLLECT_DAYS" \
+          jq --arg country "$TARGET_COUNTRY" \
+             --arg days "$COLLECT_DAYS" \
              --arg resolution "$RESOLUTION_CODE" \
              --argjson collectAll "$COLLECT_ALL" \
-             '.CollectionOptions.CollectDays = ($days | tonumber) |
+             '.CollectionOptions.MarketCode = $country |
+              .CollectionOptions.CollectDays = ($days | tonumber) |
               .CollectionOptions.ResolutionCode = $resolution |
               .CollectionOptions.CollectAllCountries = $collectAll |
               .CollectionOptions.MaxConcurrentRequests = 3 |
@@ -80,12 +150,20 @@ jobs:
              src/BingWallpaperGallery.Collector/appsettings.json > temp.json && \
              mv temp.json src/BingWallpaperGallery.Collector/appsettings.json
 
+          # 设置输出变量
+          echo "target_country=$TARGET_COUNTRY" >> $GITHUB_OUTPUT
+          echo "collect_days=$COLLECT_DAYS" >> $GITHUB_OUTPUT
+          echo "resolution_code=$RESOLUTION_CODE" >> $GITHUB_OUTPUT
+          echo "trigger_type=$TRIGGER_TYPE" >> $GITHUB_OUTPUT
+
           echo ""
           echo "当前配置文件内容:"
           cat src/BingWallpaperGallery.Collector/appsettings.json
 
-      - name: 收集全球壁纸信息
-        run: dotnet run --project src/BingWallpaperGallery.Collector/BingWallpaperGallery.Collector.csproj --configuration Release
+      - name: 收集壁纸信息
+        run: |
+          echo "🚀 开始收集 ${{ steps.config.outputs.target_country }} 的壁纸信息..."
+          dotnet run --project src/BingWallpaperGallery.Collector/BingWallpaperGallery.Collector.csproj --configuration Release
 
       - name: 配置 Git 用户信息
         run: |
@@ -117,9 +195,10 @@ jobs:
           NEW_FILES=$(git diff --cached --name-only | wc -l)
 
           # 创建详细的提交信息
-          git commit -m "🌅 自动收集 ${DATE} 的 Bing 壁纸信息" \
+          git commit -m "🌅 自动收集 ${{ steps.config.outputs.target_country }} ${DATE} 的 Bing 壁纸信息" \
                     -m "📊 更新了 ${NEW_FILES} 个文件" \
                     -m "⏰ 收集时间: ${TIME}" \
+                    -m "🌍 目标国家: ${{ steps.config.outputs.target_country }}" \
                     -m "🤖 由 GitHub Actions 自动执行"
 
           # 推送到仓库
@@ -131,27 +210,28 @@ jobs:
           echo "## 📊 Bing壁纸收集摘要" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**执行时间:** $(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
-          echo "**收集天数:** ${{ github.event.inputs.collect_days || '1' }} 天" >> $GITHUB_STEP_SUMMARY
-          echo "**分辨率:** ${{ github.event.inputs.resolution_code || 'FullHD' }}" >> $GITHUB_STEP_SUMMARY
+          echo "**触发方式:** ${{ steps.config.outputs.trigger_type }}" >> $GITHUB_STEP_SUMMARY
+          echo "**目标国家:** ${{ steps.config.outputs.target_country }}" >> $GITHUB_STEP_SUMMARY
+          echo "**收集天数:** ${{ steps.config.outputs.collect_days }} 天" >> $GITHUB_STEP_SUMMARY
+          echo "**分辨率:** ${{ steps.config.outputs.resolution_code }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
             echo "✅ **状态:** 成功收集到新的壁纸信息" >> $GITHUB_STEP_SUMMARY
 
-            # 统计各国家的数据文件
+            # 统计目标国家的数据文件
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "## 📈 数据统计" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "| 国家/地区 | JSON文件数 |" >> $GITHUB_STEP_SUMMARY
             echo "|----------|-----------|" >> $GITHUB_STEP_SUMMARY
 
-            for country_dir in archive/*/; do
-              if [ -d "$country_dir" ]; then
-                country=$(basename "$country_dir")
-                file_count=$(find "$country_dir" -name "*.json" | wc -l)
-                echo "| $country | $file_count |" >> $GITHUB_STEP_SUMMARY
-              fi
-            done
+            # 显示目标国家的文件统计
+            TARGET_COUNTRY="${{ steps.config.outputs.target_country }}"
+            if [ -d "archive/$TARGET_COUNTRY" ]; then
+              file_count=$(find "archive/$TARGET_COUNTRY" -name "*.json" | wc -l)
+              echo "| **$TARGET_COUNTRY** | **$file_count** |" >> $GITHUB_STEP_SUMMARY
+            fi
 
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "**总文件数:** $(find archive -name "*.json" | wc -l)" >> $GITHUB_STEP_SUMMARY
@@ -161,9 +241,18 @@ jobs:
             echo "可能原因：" >> $GITHUB_STEP_SUMMARY
             echo "- 今日壁纸已经收集过" >> $GITHUB_STEP_SUMMARY
             echo "- 必应 API 暂无更新" >> $GITHUB_STEP_SUMMARY
+            echo "- 目标国家 ${{ steps.config.outputs.target_country }} 暂无新数据" >> $GITHUB_STEP_SUMMARY
           fi
 
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "*⏰ 定时执行时间: 每天 UTC 22:00 (亚洲) / 06:00 (欧洲) / 14:00 (美洲)*" >> $GITHUB_STEP_SUMMARY
-          echo "*💡 支持手动触发，可自定义收集参数*" >> $GITHUB_STEP_SUMMARY
+          echo "## 🌍 时区采集策略" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| 时区 | UTC时间 | 目标国家 | 本地时间 |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|---------|----------|----------|" >> $GITHUB_STEP_SUMMARY
+          echo "| 🇨🇳 亚洲 | 22:00 | China | 北京时间 06:00 |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🇩🇪 欧洲 | 06:00 | Germany | 中欧时间 07:00 |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🇺🇸 美洲 | 14:00 | UnitedStates | 美东时间 09:00 |" >> $GITHUB_STEP_SUMMARY
+          echo "| 🇷🇺 俄罗斯 | 05:00 | Russia | 莫斯科时间 08:00 |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*💡 支持手动触发，可自定义目标国家和收集参数*" >> $GITHUB_STEP_SUMMARY
