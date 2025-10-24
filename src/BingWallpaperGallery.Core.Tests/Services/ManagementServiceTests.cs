@@ -794,12 +794,7 @@ public class ManagementServiceTests
                 ""timeInfo"": {{
                     ""startDate"": ""{startDate:yyyyMMdd}"",
                     ""endDate"": ""{endDate:yyyyMMdd}"",
-                    ""fullStartDateTime"": ""{now:yyyyMMddHHmm}"",
-                    ""originalTimeFields"": {{
-                        ""startDate"": ""{startDate:yyyyMMdd}"",
-                        ""fullStartDate"": ""{now:yyyyMMddHHmm}"",
-                        ""endDate"": ""{endDate:yyyyMMdd}""
-                    }}
+                    ""fullStartDateTime"": ""{now:yyyyMMddHHmm}""
                 }},
                 ""createdAt"": ""{now:yyyyMMddHHmm}"",
                 ""originalUrlBase"": ""/test/urlbase""
