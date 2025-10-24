@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250910",
     "endDate": "20250911",
-    "fullStartDateTime": "202509102200",
-    "originalTimeFields": {
-      "startDate": "20250910",
-      "fullStartDate": "202509102200",
-      "endDate": "20250911"
-    }
+    "fullStartDateTime": "202509102200"
   },
   "createdAt": "202509110000",
   "originalUrlBase": "/th?id=OHR.ExtremaduraJamon_FR-FR4206695043"

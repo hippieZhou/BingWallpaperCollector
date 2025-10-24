@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250930",
     "endDate": "20251001",
-    "fullStartDateTime": "202509302300",
-    "originalTimeFields": {
-      "startDate": "20250930",
-      "fullStartDate": "202509302300",
-      "endDate": "20251001"
-    }
+    "fullStartDateTime": "202509302300"
   },
   "createdAt": "202510010000",
   "originalUrlBase": "/th?id=OHR.BlackMonthUK2025_EN-GB0715842244"

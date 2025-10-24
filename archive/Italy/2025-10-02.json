@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251001",
     "endDate": "20251002",
-    "fullStartDateTime": "202510012200",
-    "originalTimeFields": {
-      "startDate": "20251001",
-      "fullStartDate": "202510012200",
-      "endDate": "20251002"
-    }
+    "fullStartDateTime": "202510012200"
   },
   "createdAt": "202510020000",
   "originalUrlBase": "/th?id=OHR.ToscanaAutunno_IT-IT9368718519"

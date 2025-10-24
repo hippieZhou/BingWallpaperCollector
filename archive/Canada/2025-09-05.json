@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250904",
     "endDate": "20250905",
-    "fullStartDateTime": "202509040400",
-    "originalTimeFields": {
-      "startDate": "20250904",
-      "fullStartDate": "202509040400",
-      "endDate": "20250905"
-    }
+    "fullStartDateTime": "202509040400"
   },
   "createdAt": "202509050000",
   "originalUrlBase": "/th?id=OHR.TiFF25_EN-CA4935162806"

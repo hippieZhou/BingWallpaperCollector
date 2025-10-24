@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250919",
     "endDate": "20250920",
-    "fullStartDateTime": "202509192200",
-    "originalTimeFields": {
-      "startDate": "20250919",
-      "fullStartDate": "202509192200",
-      "endDate": "20250920"
-    }
+    "fullStartDateTime": "202509192200"
   },
   "createdAt": "202509200000",
   "originalUrlBase": "/th?id=OHR.PaellaDay_ES-ES0490054669"

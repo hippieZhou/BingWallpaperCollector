@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250930",
     "endDate": "20251001",
-    "fullStartDateTime": "202509302200",
-    "originalTimeFields": {
-      "startDate": "20250930",
-      "fullStartDate": "202509302200",
-      "endDate": "20251001"
-    }
+    "fullStartDateTime": "202509302200"
   },
   "createdAt": "202510010000",
   "originalUrlBase": "/th?id=OHR.YosemiteClark_ES-ES0823562766"

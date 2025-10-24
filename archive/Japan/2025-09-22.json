@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250921",
     "endDate": "20250922",
-    "fullStartDateTime": "202509211500",
-    "originalTimeFields": {
-      "startDate": "20250921",
-      "fullStartDate": "202509211500",
-      "endDate": "20250922"
-    }
+    "fullStartDateTime": "202509211500"
   },
   "createdAt": "202509220000",
   "originalUrlBase": "/th?id=OHR.ToucanForest_JA-JP8804759807"

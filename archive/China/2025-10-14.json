@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251014",
     "endDate": "20251015",
-    "fullStartDateTime": "202510141600",
-    "originalTimeFields": {
-      "startDate": "20251014",
-      "fullStartDate": "202510141600",
-      "endDate": "20251015"
-    }
+    "fullStartDateTime": "202510141600"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.AmethystLaccaria_ZH-CN0643667280"

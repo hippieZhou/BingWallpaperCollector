@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250908",
     "endDate": "20250909",
-    "fullStartDateTime": "202509080400",
-    "originalTimeFields": {
-      "startDate": "20250908",
-      "fullStartDate": "202509080400",
-      "endDate": "20250909"
-    }
+    "fullStartDateTime": "202509080400"
   },
   "createdAt": "202509090000",
   "originalUrlBase": "/th?id=OHR.OrchardLibrary_EN-CA5905828145"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251011",
     "endDate": "20251012",
-    "fullStartDateTime": "202510110400",
-    "originalTimeFields": {
-      "startDate": "20251011",
-      "fullStartDate": "202510110400",
-      "endDate": "20251012"
-    }
+    "fullStartDateTime": "202510110400"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.WoodDuckHen_EN-CA8442966636"

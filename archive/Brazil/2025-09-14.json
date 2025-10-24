@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250913",
     "endDate": "20250914",
-    "fullStartDateTime": "202509130300",
-    "originalTimeFields": {
-      "startDate": "20250913",
-      "fullStartDate": "202509130300",
-      "endDate": "20250914"
-    }
+    "fullStartDateTime": "202509130300"
   },
   "createdAt": "202509140000",
   "originalUrlBase": "/th?id=OHR.PointReyesSeashore_PT-BR6646395434"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250907",
     "endDate": "20250908",
-    "fullStartDateTime": "202509070400",
-    "originalTimeFields": {
-      "startDate": "20250907",
-      "fullStartDate": "202509070400",
-      "endDate": "20250908"
-    }
+    "fullStartDateTime": "202509070400"
   },
   "createdAt": "202509080000",
   "originalUrlBase": "/th?id=OHR.BlueGdansk_EN-CA5626237578"

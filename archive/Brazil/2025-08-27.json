@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250827",
     "endDate": "20250828",
-    "fullStartDateTime": "202508270300",
-    "originalTimeFields": {
-      "startDate": "20250827",
-      "fullStartDate": "202508270300",
-      "endDate": "20250828"
-    }
+    "fullStartDateTime": "202508270300"
   },
   "createdAt": "202508280000",
   "originalUrlBase": "/th?id=OHR.FaroeLake_PT-BR9196671345"

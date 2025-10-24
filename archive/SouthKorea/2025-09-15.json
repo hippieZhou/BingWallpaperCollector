@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250914",
     "endDate": "20250915",
-    "fullStartDateTime": "202509140700",
-    "originalTimeFields": {
-      "startDate": "20250914",
-      "fullStartDate": "202509140700",
-      "endDate": "20250915"
-    }
+    "fullStartDateTime": "202509140700"
   },
   "createdAt": "202509150000",
   "originalUrlBase": "/th?id=OHR.HohWaterfall_ROW7820858130"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251014",
     "endDate": "20251015",
-    "fullStartDateTime": "202510141500",
-    "originalTimeFields": {
-      "startDate": "20251014",
-      "fullStartDate": "202510141500",
-      "endDate": "20251015"
-    }
+    "fullStartDateTime": "202510141500"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.HoutenHouses_JA-JP0762629111"

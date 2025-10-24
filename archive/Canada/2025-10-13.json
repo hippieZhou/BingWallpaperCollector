@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251013",
     "endDate": "20251014",
-    "fullStartDateTime": "202510130400",
-    "originalTimeFields": {
-      "startDate": "20251013",
-      "fullStartDate": "202510130400",
-      "endDate": "20251014"
-    }
+    "fullStartDateTime": "202510130400"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.AlgonParkOnt_EN-CA8810326454"

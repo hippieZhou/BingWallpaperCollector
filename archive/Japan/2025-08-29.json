@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250828",
     "endDate": "20250829",
-    "fullStartDateTime": "202508281500",
-    "originalTimeFields": {
-      "startDate": "20250828",
-      "fullStartDate": "202508281500",
-      "endDate": "20250829"
-    }
+    "fullStartDateTime": "202508281500"
   },
   "createdAt": "202508290000",
   "originalUrlBase": "/th?id=OHR.PlazaMayor_JA-JP5661212297"

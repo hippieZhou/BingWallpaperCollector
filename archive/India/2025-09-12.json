@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250911",
     "endDate": "20250912",
-    "fullStartDateTime": "202509111830",
-    "originalTimeFields": {
-      "startDate": "20250911",
-      "fullStartDate": "202509111830",
-      "endDate": "20250912"
-    }
+    "fullStartDateTime": "202509111830"
   },
   "createdAt": "202509120000",
   "originalUrlBase": "/th?id=OHR.SpinnerDolphins_EN-IN0873508505"

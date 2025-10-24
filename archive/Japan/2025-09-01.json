@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250831",
     "endDate": "20250901",
-    "fullStartDateTime": "202508311500",
-    "originalTimeFields": {
-      "startDate": "20250831",
-      "fullStartDate": "202508311500",
-      "endDate": "20250901"
-    }
+    "fullStartDateTime": "202508311500"
   },
   "createdAt": "202509010000",
   "originalUrlBase": "/th?id=OHR.SaintBarbaras_JA-JP5804029970"

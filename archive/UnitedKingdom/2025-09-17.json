@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250916",
     "endDate": "20250917",
-    "fullStartDateTime": "202509162300",
-    "originalTimeFields": {
-      "startDate": "20250916",
-      "fullStartDate": "202509162300",
-      "endDate": "20250917"
-    }
+    "fullStartDateTime": "202509162300"
   },
   "createdAt": "202509170000",
   "originalUrlBase": "/th?id=OHR.YoungMoose_EN-GB3146356133"

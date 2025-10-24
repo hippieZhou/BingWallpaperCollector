@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250912",
     "endDate": "20250913",
-    "fullStartDateTime": "202509122300",
-    "originalTimeFields": {
-      "startDate": "20250912",
-      "fullStartDate": "202509122300",
-      "endDate": "20250913"
-    }
+    "fullStartDateTime": "202509122300"
   },
   "createdAt": "202509130000",
   "originalUrlBase": "/th?id=OHR.PromsNight2025_EN-GB2154998430"

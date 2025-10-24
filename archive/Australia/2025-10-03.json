@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251002",
     "endDate": "20251003",
-    "fullStartDateTime": "202510020700",
-    "originalTimeFields": {
-      "startDate": "20251002",
-      "fullStartDate": "202510020700",
-      "endDate": "20251003"
-    }
+    "fullStartDateTime": "202510020700"
   },
   "createdAt": "202510030207",
   "originalUrlBase": "/th?id=OHR.OxbowBend_ROW5989192939"

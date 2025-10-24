@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250922",
     "endDate": "20250923",
-    "fullStartDateTime": "202509222200",
-    "originalTimeFields": {
-      "startDate": "20250922",
-      "fullStartDate": "202509222200",
-      "endDate": "20250923"
-    }
+    "fullStartDateTime": "202509222200"
   },
   "createdAt": "202509230000",
   "originalUrlBase": "/th?id=OHR.SportWeekTeide_ES-ES0590010437"

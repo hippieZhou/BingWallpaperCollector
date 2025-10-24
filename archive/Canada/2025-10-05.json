@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251004",
     "endDate": "20251005",
-    "fullStartDateTime": "202510040400",
-    "originalTimeFields": {
-      "startDate": "20251004",
-      "fullStartDate": "202510040400",
-      "endDate": "20251005"
-    }
+    "fullStartDateTime": "202510040400"
   },
   "createdAt": "202510050000",
   "originalUrlBase": "/th?id=OHR.InsideOutNB_EN-CA6818912564"

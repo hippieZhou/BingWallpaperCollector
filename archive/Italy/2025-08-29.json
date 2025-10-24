@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250828",
     "endDate": "20250829",
-    "fullStartDateTime": "202508282200",
-    "originalTimeFields": {
-      "startDate": "20250828",
-      "fullStartDate": "202508282200",
-      "endDate": "20250829"
-    }
+    "fullStartDateTime": "202508282200"
   },
   "createdAt": "202508290000",
   "originalUrlBase": "/th?id=OHR.PlazaMayor_IT-IT9894137686"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250916",
     "endDate": "20250917",
-    "fullStartDateTime": "202509160700",
-    "originalTimeFields": {
-      "startDate": "20250916",
-      "fullStartDate": "202509160700",
-      "endDate": "20250917"
-    }
+    "fullStartDateTime": "202509160700"
   },
   "createdAt": "202509170000",
   "originalUrlBase": "/th?id=OHR.OzoneEarth_EN-US9728527733"

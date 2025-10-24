@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250903",
     "endDate": "20250904",
-    "fullStartDateTime": "202509032200",
-    "originalTimeFields": {
-      "startDate": "20250903",
-      "fullStartDate": "202509032200",
-      "endDate": "20250904"
-    }
+    "fullStartDateTime": "202509032200"
   },
   "createdAt": "202509040000",
   "originalUrlBase": "/th?id=OHR.WrestlingBears_FR-FR0316323134"

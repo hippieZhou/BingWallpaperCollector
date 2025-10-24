@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250927",
     "endDate": "20250928",
-    "fullStartDateTime": "202509270700",
-    "originalTimeFields": {
-      "startDate": "20250927",
-      "fullStartDate": "202509270700",
-      "endDate": "20250928"
-    }
+    "fullStartDateTime": "202509270700"
   },
   "createdAt": "202509280219",
   "originalUrlBase": "/th?id=OHR.TankLakes_ROW5456053450"

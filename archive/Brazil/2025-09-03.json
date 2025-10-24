@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250902",
     "endDate": "20250903",
-    "fullStartDateTime": "202509020300",
-    "originalTimeFields": {
-      "startDate": "20250902",
-      "fullStartDate": "202509020300",
-      "endDate": "20250903"
-    }
+    "fullStartDateTime": "202509020300"
   },
   "createdAt": "202509030000",
   "originalUrlBase": "/th?id=OHR.DeadvleiTrees_PT-BR2241595565"

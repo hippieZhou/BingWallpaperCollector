@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251013",
     "endDate": "20251014",
-    "fullStartDateTime": "202510132200",
-    "originalTimeFields": {
-      "startDate": "20251013",
-      "fullStartDate": "202510132200",
-      "endDate": "20251014"
-    }
+    "fullStartDateTime": "202510132200"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.OiaSantorini_DE-DE3882296731"

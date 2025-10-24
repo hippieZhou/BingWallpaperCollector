@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251012",
     "endDate": "20251013",
-    "fullStartDateTime": "202510122200",
-    "originalTimeFields": {
-      "startDate": "20251012",
-      "fullStartDate": "202510122200",
-      "endDate": "20251013"
-    }
+    "fullStartDateTime": "202510122200"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.HinterseeWaterfall_ES-ES0526830866"

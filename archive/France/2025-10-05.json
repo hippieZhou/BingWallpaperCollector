@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251004",
     "endDate": "20251005",
-    "fullStartDateTime": "202510042200",
-    "originalTimeFields": {
-      "startDate": "20251004",
-      "fullStartDate": "202510042200",
-      "endDate": "20251005"
-    }
+    "fullStartDateTime": "202510042200"
   },
   "createdAt": "202510050000",
   "originalUrlBase": "/th?id=OHR.TeacherOwl_FR-FR0719163215"

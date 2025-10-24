@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251002",
     "endDate": "20251003",
-    "fullStartDateTime": "202510021600",
-    "originalTimeFields": {
-      "startDate": "20251002",
-      "fullStartDate": "202510021600",
-      "endDate": "20251003"
-    }
+    "fullStartDateTime": "202510021600"
   },
   "createdAt": "202510030000",
   "originalUrlBase": "/th?id=OHR.SkyeHeather_ZH-CN2820283990"

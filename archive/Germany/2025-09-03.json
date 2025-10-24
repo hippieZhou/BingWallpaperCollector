@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250902",
     "endDate": "20250903",
-    "fullStartDateTime": "202509022200",
-    "originalTimeFields": {
-      "startDate": "20250902",
-      "fullStartDate": "202509022200",
-      "endDate": "20250903"
-    }
+    "fullStartDateTime": "202509022200"
   },
   "createdAt": "202509030000",
   "originalUrlBase": "/th?id=OHR.MinnesotaWaters_DE-DE6807349928"

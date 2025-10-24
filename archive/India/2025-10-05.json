@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251004",
     "endDate": "20251005",
-    "fullStartDateTime": "202510041830",
-    "originalTimeFields": {
-      "startDate": "20251004",
-      "fullStartDate": "202510041830",
-      "endDate": "20251005"
-    }
+    "fullStartDateTime": "202510041830"
   },
   "createdAt": "202510050000",
   "originalUrlBase": "/th?id=OHR.JahangirMahal_EN-IN7628563681"

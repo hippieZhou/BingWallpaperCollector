@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250926",
     "endDate": "20250927",
-    "fullStartDateTime": "202509261600",
-    "originalTimeFields": {
-      "startDate": "20250926",
-      "fullStartDate": "202509261600",
-      "endDate": "20250927"
-    }
+    "fullStartDateTime": "202509261600"
   },
   "createdAt": "202509270000",
   "originalUrlBase": "/th?id=OHR.TankLakes_ZH-CN6402368934"

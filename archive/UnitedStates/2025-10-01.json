@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250930",
     "endDate": "20251001",
-    "fullStartDateTime": "202509300700",
-    "originalTimeFields": {
-      "startDate": "20250930",
-      "fullStartDate": "202509300700",
-      "endDate": "20251001"
-    }
+    "fullStartDateTime": "202509300700"
   },
   "createdAt": "202510010000",
   "originalUrlBase": "/th?id=OHR.EucalyptusKoala_EN-US8743417111"

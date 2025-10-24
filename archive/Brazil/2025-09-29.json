@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250928",
     "endDate": "20250929",
-    "fullStartDateTime": "202509280300",
-    "originalTimeFields": {
-      "startDate": "20250928",
-      "fullStartDate": "202509280300",
-      "endDate": "20250929"
-    }
+    "fullStartDateTime": "202509280300"
   },
   "createdAt": "202509290000",
   "originalUrlBase": "/th?id=OHR.PienzaItaly_PT-BR0767999929"

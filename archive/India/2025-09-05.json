@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250904",
     "endDate": "20250905",
-    "fullStartDateTime": "202509041830",
-    "originalTimeFields": {
-      "startDate": "20250904",
-      "fullStartDate": "202509041830",
-      "endDate": "20250905"
-    }
+    "fullStartDateTime": "202509041830"
   },
   "createdAt": "202509050000",
   "originalUrlBase": "/th?id=OHR.BoatraceOnam_EN-IN9170886628"

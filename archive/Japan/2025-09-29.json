@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250928",
     "endDate": "20250929",
-    "fullStartDateTime": "202509281500",
-    "originalTimeFields": {
-      "startDate": "20250928",
-      "fullStartDate": "202509281500",
-      "endDate": "20250929"
-    }
+    "fullStartDateTime": "202509281500"
   },
   "createdAt": "202509290000",
   "originalUrlBase": "/th?id=OHR.ManekiNeko_JA-JP6063646197"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250909",
     "endDate": "20250910",
-    "fullStartDateTime": "202509091600",
-    "originalTimeFields": {
-      "startDate": "20250909",
-      "fullStartDate": "202509091600",
-      "endDate": "20250910"
-    }
+    "fullStartDateTime": "202509091600"
   },
   "createdAt": "202509100000",
   "originalUrlBase": "/th?id=OHR.YorkshireHay_ZH-CN9097986997"

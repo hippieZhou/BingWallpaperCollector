@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250905",
     "endDate": "20250906",
-    "fullStartDateTime": "202509050300",
-    "originalTimeFields": {
-      "startDate": "20250905",
-      "fullStartDate": "202509050300",
-      "endDate": "20250906"
-    }
+    "fullStartDateTime": "202509050300"
   },
   "createdAt": "202509060000",
   "originalUrlBase": "/th?id=OHR.DiaAmazonia_PT-BR5240863340"

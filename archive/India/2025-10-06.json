@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251005",
     "endDate": "20251006",
-    "fullStartDateTime": "202510051830",
-    "originalTimeFields": {
-      "startDate": "20251005",
-      "fullStartDate": "202510051830",
-      "endDate": "20251006"
-    }
+    "fullStartDateTime": "202510051830"
   },
   "createdAt": "202510060000",
   "originalUrlBase": "/th?id=OHR.AnshunBridge_EN-IN9593478408"

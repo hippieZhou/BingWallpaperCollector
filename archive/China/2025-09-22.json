@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250921",
     "endDate": "20250922",
-    "fullStartDateTime": "202509211600",
-    "originalTimeFields": {
-      "startDate": "20250921",
-      "fullStartDate": "202509211600",
-      "endDate": "20250922"
-    }
+    "fullStartDateTime": "202509211600"
   },
   "createdAt": "202509220000",
   "originalUrlBase": "/th?id=OHR.AspenEquinox_ZH-CN5474695693"

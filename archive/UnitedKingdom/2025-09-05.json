@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250904",
     "endDate": "20250905",
-    "fullStartDateTime": "202509042300",
-    "originalTimeFields": {
-      "startDate": "20250904",
-      "fullStartDate": "202509042300",
-      "endDate": "20250905"
-    }
+    "fullStartDateTime": "202509042300"
   },
   "createdAt": "202509050000",
   "originalUrlBase": "/th?id=OHR.SunsetPier_EN-GB2472786230"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251008",
     "endDate": "20251009",
-    "fullStartDateTime": "202510080400",
-    "originalTimeFields": {
-      "startDate": "20251008",
-      "fullStartDate": "202510080400",
-      "endDate": "20251009"
-    }
+    "fullStartDateTime": "202510080400"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.OctopusCyanea_EN-CA7864486363"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251016",
     "endDate": "20251017",
-    "fullStartDateTime": "202510162300",
-    "originalTimeFields": {
-      "startDate": "20251016",
-      "fullStartDate": "202510162300",
-      "endDate": "20251017"
-    }
+    "fullStartDateTime": "202510162300"
   },
   "createdAt": "202510170000",
   "originalUrlBase": "/th?id=OHR.RockRiverFalls_EN-GB1931975271"

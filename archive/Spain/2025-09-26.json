@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250925",
     "endDate": "20250926",
-    "fullStartDateTime": "202509252200",
-    "originalTimeFields": {
-      "startDate": "20250925",
-      "fullStartDate": "202509252200",
-      "endDate": "20250926"
-    }
+    "fullStartDateTime": "202509252200"
   },
   "createdAt": "202509260000",
   "originalUrlBase": "/th?id=OHR.AutumnChipmunk_ES-ES0673938292"

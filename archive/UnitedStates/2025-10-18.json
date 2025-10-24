@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251018",
     "endDate": "20251019",
-    "fullStartDateTime": "202510180700",
-    "originalTimeFields": {
-      "startDate": "20251018",
-      "fullStartDate": "202510180700",
-      "endDate": "20251019"
-    }
+    "fullStartDateTime": "202510180700"
   },
   "createdAt": "202510180000",
   "originalUrlBase": "/th?id=OHR.SilburyHill_EN-US2485144120"

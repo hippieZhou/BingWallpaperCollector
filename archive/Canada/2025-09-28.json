@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250927",
     "endDate": "20250928",
-    "fullStartDateTime": "202509270400",
-    "originalTimeFields": {
-      "startDate": "20250927",
-      "fullStartDate": "202509270400",
-      "endDate": "20250928"
-    }
+    "fullStartDateTime": "202509270400"
   },
   "createdAt": "202509280000",
   "originalUrlBase": "/th?id=OHR.RedMapleleaf_EN-CA8222399050"

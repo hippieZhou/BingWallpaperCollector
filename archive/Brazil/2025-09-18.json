@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250917",
     "endDate": "20250918",
-    "fullStartDateTime": "202509170300",
-    "originalTimeFields": {
-      "startDate": "20250917",
-      "fullStartDate": "202509170300",
-      "endDate": "20250918"
-    }
+    "fullStartDateTime": "202509170300"
   },
   "createdAt": "202509180000",
   "originalUrlBase": "/th?id=OHR.ArpoadorRJ_PT-BR5341950627"

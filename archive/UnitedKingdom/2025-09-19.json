@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250918",
     "endDate": "20250919",
-    "fullStartDateTime": "202509182300",
-    "originalTimeFields": {
-      "startDate": "20250918",
-      "fullStartDate": "202509182300",
-      "endDate": "20250919"
-    }
+    "fullStartDateTime": "202509182300"
   },
   "createdAt": "202509190000",
   "originalUrlBase": "/th?id=OHR.ThousandIslands_EN-GB1501665871"

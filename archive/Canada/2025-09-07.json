@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250906",
     "endDate": "20250907",
-    "fullStartDateTime": "202509060400",
-    "originalTimeFields": {
-      "startDate": "20250906",
-      "fullStartDate": "202509060400",
-      "endDate": "20250907"
-    }
+    "fullStartDateTime": "202509060400"
   },
   "createdAt": "202509070000",
   "originalUrlBase": "/th?id=OHR.RufousHummer_EN-CA4791906325"

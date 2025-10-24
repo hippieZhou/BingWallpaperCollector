@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251001",
     "endDate": "20251002",
-    "fullStartDateTime": "202510011830",
-    "originalTimeFields": {
-      "startDate": "20251001",
-      "fullStartDate": "202510011830",
-      "endDate": "20251002"
-    }
+    "fullStartDateTime": "202510011830"
   },
   "createdAt": "202510020000",
   "originalUrlBase": "/th?id=OHR.StatueGandhi_EN-IN4485364887"

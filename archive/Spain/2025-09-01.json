@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250831",
     "endDate": "20250901",
-    "fullStartDateTime": "202508312200",
-    "originalTimeFields": {
-      "startDate": "20250831",
-      "fullStartDate": "202508312200",
-      "endDate": "20250901"
-    }
+    "fullStartDateTime": "202508312200"
   },
   "createdAt": "202509010000",
   "originalUrlBase": "/th?id=OHR.ScottsBluff_ES-ES9472248274"

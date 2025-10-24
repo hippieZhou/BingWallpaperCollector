@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251010",
     "endDate": "20251011",
-    "fullStartDateTime": "202510100400",
-    "originalTimeFields": {
-      "startDate": "20251010",
-      "fullStartDate": "202510100400",
-      "endDate": "20251011"
-    }
+    "fullStartDateTime": "202510100400"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.MonurikiFiji_EN-CA8167749404"

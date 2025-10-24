@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250921",
     "endDate": "20250922",
-    "fullStartDateTime": "202509210300",
-    "originalTimeFields": {
-      "startDate": "20250921",
-      "fullStartDate": "202509210300",
-      "endDate": "20250922"
-    }
+    "fullStartDateTime": "202509210300"
   },
   "createdAt": "202509220000",
   "originalUrlBase": "/th?id=OHR.IceOtters_PT-BR7598435461"

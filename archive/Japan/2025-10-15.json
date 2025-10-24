@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251015",
     "endDate": "20251016",
-    "fullStartDateTime": "202510151500",
-    "originalTimeFields": {
-      "startDate": "20251015",
-      "fullStartDate": "202510151500",
-      "endDate": "20251016"
-    }
+    "fullStartDateTime": "202510151500"
   },
   "createdAt": "202510150000",
   "originalUrlBase": "/th?id=OHR.SiberianLynx_JA-JP8122329970"

@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250928",
     "endDate": "20250929",
-    "fullStartDateTime": "202509282200",
-    "originalTimeFields": {
-      "startDate": "20250928",
-      "fullStartDate": "202509282200",
-      "endDate": "20250929"
-    }
+    "fullStartDateTime": "202509282200"
   },
   "createdAt": "202509290000",
   "originalUrlBase": "/th?id=OHR.HoutenHouses_DE-DE0958725859"

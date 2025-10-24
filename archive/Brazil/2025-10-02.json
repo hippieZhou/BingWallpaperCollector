@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251001",
     "endDate": "20251002",
-    "fullStartDateTime": "202510010300",
-    "originalTimeFields": {
-      "startDate": "20251001",
-      "fullStartDate": "202510010300",
-      "endDate": "20251002"
-    }
+    "fullStartDateTime": "202510010300"
   },
   "createdAt": "202510020000",
   "originalUrlBase": "/th?id=OHR.PraiaPortoGalinhas_PT-BR2218477838"

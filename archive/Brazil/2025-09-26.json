@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250925",
     "endDate": "20250926",
-    "fullStartDateTime": "202509250300",
-    "originalTimeFields": {
-      "startDate": "20250925",
-      "fullStartDate": "202509250300",
-      "endDate": "20250926"
-    }
+    "fullStartDateTime": "202509250300"
   },
   "createdAt": "202509260000",
   "originalUrlBase": "/th?id=OHR.FortChittorgarh_PT-BR4240075767"

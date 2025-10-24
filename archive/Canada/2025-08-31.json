@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250830",
     "endDate": "20250831",
-    "fullStartDateTime": "202508300400",
-    "originalTimeFields": {
-      "startDate": "20250830",
-      "fullStartDate": "202508300400",
-      "endDate": "20250831"
-    }
+    "fullStartDateTime": "202508300400"
   },
   "createdAt": "202508310000",
   "originalUrlBase": "/th?id=OHR.MaldivesWhaleShark_EN-CA2849322101"

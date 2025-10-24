@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251003",
     "endDate": "20251004",
-    "fullStartDateTime": "202510031500",
-    "originalTimeFields": {
-      "startDate": "20251003",
-      "fullStartDate": "202510031500",
-      "endDate": "20251004"
-    }
+    "fullStartDateTime": "202510031500"
   },
   "createdAt": "202510040000",
   "originalUrlBase": "/th?id=OHR.DragonEndeavour_JA-JP7626531843"

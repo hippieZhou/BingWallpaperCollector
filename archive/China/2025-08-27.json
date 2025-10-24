@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250826",
     "endDate": "20250827",
-    "fullStartDateTime": "202508261600",
-    "originalTimeFields": {
-      "startDate": "20250826",
-      "fullStartDate": "202508261600",
-      "endDate": "20250827"
-    }
+    "fullStartDateTime": "202508261600"
   },
   "createdAt": "202508280000",
   "originalUrlBase": "/th?id=OHR.FaroeLake_ZH-CN3977660997"

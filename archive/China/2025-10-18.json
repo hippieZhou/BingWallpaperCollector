@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20251018",
     "endDate": "20251019",
-    "fullStartDateTime": "202510181600",
-    "originalTimeFields": {
-      "startDate": "20251018",
-      "fullStartDate": "202510181600",
-      "endDate": "20251019"
-    }
+    "fullStartDateTime": "202510181600"
   },
   "createdAt": "202510180000",
   "originalUrlBase": "/th?id=OHR.AppleHarvest_ZH-CN7317228007"

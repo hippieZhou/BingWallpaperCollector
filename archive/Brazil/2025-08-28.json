@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250828",
     "endDate": "20250829",
-    "fullStartDateTime": "202508280300",
-    "originalTimeFields": {
-      "startDate": "20250828",
-      "fullStartDate": "202508280300",
-      "endDate": "20250829"
-    }
+    "fullStartDateTime": "202508280300"
   },
   "createdAt": "202508280000",
   "originalUrlBase": "/th?id=OHR.WhiteEgret_PT-BR8998981600"

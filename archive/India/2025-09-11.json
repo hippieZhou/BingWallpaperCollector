@@ -36,12 +36,7 @@
   "timeInfo": {
     "startDate": "20250910",
     "endDate": "20250911",
-    "fullStartDateTime": "202509101830",
-    "originalTimeFields": {
-      "startDate": "20250910",
-      "fullStartDate": "202509101830",
-      "endDate": "20250911"
-    }
+    "fullStartDateTime": "202509101830"
   },
   "createdAt": "202509110000",
   "originalUrlBase": "/th?id=OHR.ButterflyBeach_EN-IN0695823552"
