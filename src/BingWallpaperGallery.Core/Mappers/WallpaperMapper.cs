@@ -50,7 +50,7 @@ public static class WallpaperMapper
             Hash = wallpaperInfo.Hash,
             ActualDate = actualDate,
             MarketCode = marketCode,
-            Info = MapToStorage(wallpaperInfo, marketCode)
+            Info = MapToStorage(wallpaperInfo, marketCode, DateTimeProvider.GetUtcNow().DateTime)
         };
 
         return entity;
@@ -70,7 +70,7 @@ public static class WallpaperMapper
         return entity;
     }
 
-    public static WallpaperInfoStorage MapToStorage(BingWallpaperInfo wallpaperInfo, MarketCode marketCode)
+    public static WallpaperInfoStorage MapToStorage(BingWallpaperInfo wallpaperInfo, MarketCode marketCode, DateTime createdAt)
     {
         return new WallpaperInfoStorage
         {
@@ -92,7 +92,7 @@ public static class WallpaperMapper
                 wallpaperInfo.StartDate,
                 wallpaperInfo.FullStartDate,
                 wallpaperInfo.EndDate),
-            CreatedAt = DateTimeProvider.GetNow().Date,
+            CreatedAt = createdAt,
         };
     }
 

@@ -20,10 +20,9 @@ public sealed class BingWallpaperService(
     IOptions<CollectionOptions> options,
     ILogger<BingWallpaperService> logger) : IBingWallpaperService
 {
-    public async Task<CollectionResult> CollectAsync(CancellationToken cancellationToken = default)
+    public async Task<IEnumerable<CollectedWallpaperInfo>> CollectAsync(CancellationToken cancellationToken = default)
     {
         var stopwatch = Stopwatch.StartNew();
-        var collectionTime = DateTimeProvider.GetNow().DateTime;
 
         try
         {
@@ -46,10 +45,7 @@ public sealed class BingWallpaperService(
                 : await CollectForCountryAsync(config.MarketCode, config.CollectDays, config, cancellationToken);
             stopwatch.Stop();
 
-            // 更新结果中的耗时信息
-            result = result with { Duration = stopwatch.Elapsed, CollectionTime = collectionTime };
-
-            logger.LogInformation("所有壁纸信息收集完成！总计: {Total},  耗时: {Duration}ms", result.TotalCollected, stopwatch.ElapsedMilliseconds);
+            logger.LogInformation("所有壁纸信息收集完成！总计: {Total},  耗时: {Duration}ms", result, stopwatch.ElapsedMilliseconds);
 
             return result;
         }
@@ -59,16 +55,11 @@ public sealed class BingWallpaperService(
             logger.LogError(ex, "运行过程中发生错误: {Message}", ex.Message);
 
             // 返回失败结果
-            return new CollectionResult(
-                TotalCollected: 0,
-                Duration: stopwatch.Elapsed,
-                CollectionTime: collectionTime,
-                CollectedWallpapers: []
-            );
+            return [];
         }
     }
 
-    private async Task<CollectionResult> CollectForCountryAsync(
+    private async Task<IEnumerable<CollectedWallpaperInfo>> CollectForCountryAsync(
         MarketCode marketCode,
         int daysToCollect,
         CollectionOptions config,
@@ -87,24 +78,17 @@ public sealed class BingWallpaperService(
             config.ResolutionCode,
             cancellationToken);
 
-        var totalCollected = allWallpapers.Count();
-
-        return new CollectionResult(
-            TotalCollected: totalCollected,
-            Duration: TimeSpan.Zero,
-            CollectionTime: DateTime.Now,
-            CollectedWallpapers: allWallpapers
-        );
+        return allWallpapers;
     }
 
     /// <summary>
     /// 为所有国家收集壁纸信息
     /// </summary>
-    private async Task<CollectionResult> CollectForAllCountriesAsync(CollectionOptions config, CancellationToken cancellationToken)
+    private async Task<IEnumerable<CollectedWallpaperInfo>> CollectForAllCountriesAsync(CollectionOptions config, CancellationToken cancellationToken)
     {
         var countries = Enum.GetValues<MarketCode>();
         var semaphore = new SemaphoreSlim(config.MaxConcurrentRequests, config.MaxConcurrentRequests);
-        var tasks = new List<Task<CollectionResult>>();
+        var tasks = new List<Task<IEnumerable<CollectedWallpaperInfo>>>();
 
         try
         {
@@ -116,19 +100,13 @@ public sealed class BingWallpaperService(
             var results = await Task.WhenAll(tasks);
 
             // 合并所有结果
-            var totalCollected = results.Sum(r => r.TotalCollected);
+            var totalCollected = results.Length;
 
-            // 合并所有壁纸信息
-            var allWallpapers = results.SelectMany(r => r.CollectedWallpapers).ToList();
+            var allWallpapers = results.SelectMany(r => r).ToList();
 
             logger.LogInformation("✅ 所有国家的壁纸信息收集完成 - 总计: {Total}", totalCollected);
 
-            return new CollectionResult(
-                TotalCollected: totalCollected,
-                Duration: TimeSpan.Zero,
-                CollectionTime: DateTime.Now,
-                CollectedWallpapers: allWallpapers
-            );
+            return allWallpapers;
         }
         finally
         {
@@ -139,7 +117,7 @@ public sealed class BingWallpaperService(
     /// <summary>
     /// 使用信号量控制并发的国家信息收集
     /// </summary>
-    private async Task<CollectionResult> CollectForCountryWithSemaphore(
+    private async Task<IEnumerable<CollectedWallpaperInfo>> CollectForCountryWithSemaphore(
         MarketCode marketCode,
         CollectionOptions config,
         SemaphoreSlim semaphore,
@@ -173,7 +151,7 @@ public sealed class BingWallpaperService(
             {
                 logger.LogDebug("获取到壁纸信息: {MarketCode} - {ResolutionCode} - {Count}", marketCode, resolutionCode, wallpapers.Count());
 
-                var actualDate = DateTimeProvider.GetNow();
+                var actualDate = DateTimeProvider.GetUtcNow();
 
                 return [.. wallpapers.Select(x => new CollectedWallpaperInfo(
                     MarketCode: marketCode,

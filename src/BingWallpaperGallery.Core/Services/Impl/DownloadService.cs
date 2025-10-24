@@ -116,7 +116,7 @@ public class DownloadService(
         {
             var cancelOldStatus = download.Status;
             download.Status = DownloadStatus.Cancelled;
-            download.CompletedTime = DateTimeProvider.GetNow().DateTime;
+            download.CompletedTime = DateTimeProvider.GetUtcNow().DateTime;
             OnDownloadStatusChanged(downloadId, cancelOldStatus, download.Status, download);
         }
 
@@ -226,7 +226,7 @@ public class DownloadService(
                 downloadInfo.Status = DownloadStatus.Completed;
                 downloadInfo.FilePath = filePath;
                 downloadInfo.ProgressPercentage = 100;
-                downloadInfo.CompletedTime = DateTimeProvider.GetNow().DateTime;
+                downloadInfo.CompletedTime = DateTimeProvider.GetUtcNow().DateTime;
                 OnDownloadStatusChanged(downloadInfo.DownloadId, completedOldStatus, downloadInfo.Status, downloadInfo);
                 logger.LogInformation("壁纸下载成功: {Title} -> {FilePath}",
                     downloadInfo.Wallpaper.Title, filePath);
@@ -240,7 +240,7 @@ public class DownloadService(
         {
             var cancelledOldStatus = downloadInfo.Status;
             downloadInfo.Status = DownloadStatus.Cancelled;
-            downloadInfo.CompletedTime = DateTimeProvider.GetNow().DateTime;
+            downloadInfo.CompletedTime = DateTimeProvider.GetUtcNow().DateTime;
             OnDownloadStatusChanged(downloadInfo.DownloadId, cancelledOldStatus, downloadInfo.Status, downloadInfo);
             logger.LogInformation("下载被取消: {Title}", downloadInfo.Wallpaper.Title);
         }
@@ -249,7 +249,7 @@ public class DownloadService(
             var failedOldStatus = downloadInfo.Status;
             downloadInfo.Status = DownloadStatus.Failed;
             downloadInfo.ErrorMessage = ex.Message;
-            downloadInfo.CompletedTime = DateTimeProvider.GetNow().DateTime;
+            downloadInfo.CompletedTime = DateTimeProvider.GetUtcNow().DateTime;
             OnDownloadStatusChanged(downloadInfo.DownloadId, failedOldStatus, downloadInfo.Status, downloadInfo);
 
             logger.LogError(ex, "下载壁纸失败: {Title}", downloadInfo.Wallpaper.Title);

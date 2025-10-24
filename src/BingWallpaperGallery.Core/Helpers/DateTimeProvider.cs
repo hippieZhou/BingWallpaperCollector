@@ -8,9 +8,4 @@ public static class DateTimeProvider
     {
         return DateTime.UtcNow;
     }
-
-    public static DateTimeOffset GetNow()
-    {
-        return DateTime.Now;
-    }
 }

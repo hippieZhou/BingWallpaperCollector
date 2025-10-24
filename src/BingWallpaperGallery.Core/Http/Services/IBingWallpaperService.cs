@@ -14,5 +14,5 @@ public interface IBingWallpaperService
     /// </summary>
     /// <param name="cancellationToken">取消令牌</param>
     /// <returns>收集结果</returns>
-    Task<CollectionResult> CollectAsync(CancellationToken cancellationToken = default);
+    Task<IEnumerable<CollectedWallpaperInfo>> CollectAsync(CancellationToken cancellationToken = default);
 }

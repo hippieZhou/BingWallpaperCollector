@@ -32,17 +32,17 @@ public class ManagementService(
             _logger.LogInformation("开始执行壁纸收集命令...");
 
             // 运行壁纸收集服务
-            var result = await _wallpaperService.CollectAsync(cancellationToken);
+            var collectedWallpapers = await _wallpaperService.CollectAsync(cancellationToken);
 
             // 处理收集到的壁纸信息，存储到数据库
-            if (result.CollectedWallpapers.Any())
+            if (collectedWallpapers.Any())
             {
-                await ProcessCollectedWallpapersAsync(result.CollectedWallpapers, cancellationToken);
+                await ProcessCollectedWallpapersAsync(collectedWallpapers, cancellationToken);
             }
 
             stopwatch.Stop();
 
-            _logger.LogInformation("壁纸收集命令执行完成: 总计 {Total}, 耗时 {Duration}ms", result.TotalCollected, stopwatch.ElapsedMilliseconds);
+            _logger.LogInformation("壁纸收集命令执行完成: 总计 {Total}, 耗时 {Duration}ms", collectedWallpapers.Count(), stopwatch.ElapsedMilliseconds);
 
         }
         catch (Exception ex)

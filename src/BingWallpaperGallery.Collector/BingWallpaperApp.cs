@@ -26,18 +26,18 @@ public sealed class BingWallpaperApp(
         var stopwatch = Stopwatch.StartNew();
         try
         {
-            var result = await wallpaperService.CollectAsync(cancellationToken);
-            if (result.CollectedWallpapers.Any())
+            var collectedWallpapers = await wallpaperService.CollectAsync(cancellationToken);
+            if (collectedWallpapers.Any())
             {
-                logger.LogInformation("成功收集到 {Total} 张壁纸，耗时 {Duration}ms", result.TotalCollected, result.Duration.TotalMilliseconds);
-                if (result.CollectedWallpapers.Any())
+                logger.LogInformation("成功收集到 {Total} 张壁纸", collectedWallpapers.Count());
+                if (collectedWallpapers.Any())
                 {
-                    await ProcessCollectedWallpapersAsync(result.CollectedWallpapers, cancellationToken);
+                    await ProcessCollectedWallpapersAsync(collectedWallpapers, cancellationToken);
                 }
             }
             else
             {
-                logger.LogInformation("未收集到新的壁纸，耗时 {Duration}ms", result.Duration.TotalMilliseconds);
+                logger.LogInformation("未收集到新的壁纸");
             }
         }
         catch (Exception ex)
@@ -59,7 +59,7 @@ public sealed class BingWallpaperApp(
         var dataDirectory = Path.Combine(Environment.CurrentDirectory, HTTPConstants.DataDirectoryName);
 
         // 创建存储信息对象
-        var wallpapers = collectedWallpapers.Select(x => WallpaperMapper.MapToStorage(x.WallpaperInfo, x.MarketCode));
+        var wallpapers = collectedWallpapers.Select(x => WallpaperMapper.MapToStorage(x.WallpaperInfo, x.MarketCode, DateTimeProvider.GetUtcNow().DateTime));
         await Parallel.ForEachAsync(wallpapers, cancellationToken, async (wallpaper, token) =>
         {
             // 计算实际日期 - 使用 EndDate 确保与 JSON date 字段一致
