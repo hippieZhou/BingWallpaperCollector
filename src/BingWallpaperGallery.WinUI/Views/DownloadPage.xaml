@@ -71,7 +71,7 @@
                                         Grid.Column="0"
                                         MaxWidth="286"
                                         VerticalAlignment="Center"
-                                        Text="{x:Bind Details.ActualDate, Converter={StaticResource StringFormatConverter}, ConverterParameter={}{0:yyyy-MM-dd}}"
+                                        Text="{x:Bind Details.Fullstartdate, Converter={StaticResource StringFormatConverter}, ConverterParameter={}{0:yyyy-MM-dd}}"
                                         TextTrimming="CharacterEllipsis"
                                         TextWrapping="Wrap" />
                                     <Grid

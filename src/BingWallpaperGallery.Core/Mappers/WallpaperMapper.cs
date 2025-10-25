@@ -25,7 +25,6 @@ public static class WallpaperMapper
         return new WallpaperInfoDto(
             Id: wallpaper.Id,
             Hash: wallpaperInfo.Hash,
-            ActualDate: wallpaper.ActualDate,
             Startdate: timeInfo.StartDate,
             Enddate: timeInfo.EndDate,
             Fullstartdate: timeInfo?.FullStartDateTime,

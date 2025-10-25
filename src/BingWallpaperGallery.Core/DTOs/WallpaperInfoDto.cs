@@ -7,7 +7,6 @@ namespace BingWallpaperGallery.Core.DTOs;
 /// </summary>
 /// <param name="Id">壁纸唯一标识符</param>
 /// <param name="Hash">壁纸唯一 Hash 值</param>
-/// <param name="ActualDate">壁纸实际发布日期</param>
 /// <param name="Startdate">壁纸开始日期</param>
 /// <param name="Enddate">壁纸结束日期</param>
 /// <param name="Fullstartdate">壁纸完整开始日期时间</param>
@@ -22,7 +21,6 @@ namespace BingWallpaperGallery.Core.DTOs;
 public record WallpaperInfoDto(
     Guid Id,
     string Hash,
-    DateTime ActualDate,
     DateOnly? Startdate,
     DateOnly? Enddate,
     DateTime? Fullstartdate,

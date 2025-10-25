@@ -201,7 +201,7 @@ public class DownloadService(
 
             // 准备下载参数
             var country = downloadInfo.Wallpaper.Market?.Code.ToString() ?? "Unknown";
-            var date = downloadInfo.Wallpaper.ActualDate.ToString("yyyy-MM-dd");
+            var date = downloadInfo.Wallpaper.Fullstartdate?.ToString("yyyy-MM-dd");
 
             // 创建进度报告器
             var fileProgress = new Progress<FileDownloadProgress>(progress =>

@@ -117,7 +117,7 @@
             <TextBlock
                 VerticalAlignment="Center"
                 Style="{StaticResource CaptionTextBlockStyle}"
-                Text="{x:Bind Model.ActualDate, Converter={StaticResource StringFormatConverter}, ConverterParameter={}{0:yyyy-MM-dd}}"
+                Text="{x:Bind Model.Fullstartdate, Converter={StaticResource StringFormatConverter}, ConverterParameter={}{0:yyyy-MM-dd}}"
                 TextTrimming="CharacterEllipsis" />
         </Grid>
 
