@@ -2,16 +2,8 @@ name: Collect Bing Wallpapers
 
 on:
   schedule:
-    # 亚洲地区 - 北京时间 06:00 (UTC 22:00) - 中国、日本、韩国、印度
-    - cron: "0 22 * * *"
-    # 欧洲地区 - 中欧时间 07:00 (UTC 06:00) - 德国、法国、西班牙、意大利、英国
-    - cron: "0 6 * * *"
-    # 美洲地区 - 美东时间 09:00 (UTC 14:00) - 美国、加拿大、巴西
-    - cron: "0 14 * * *"
-    # 大洋洲地区 - 澳洲东部时间 08:00 (UTC 22:00) - 澳大利亚
-    - cron: "0 22 * * *"
-    # 俄罗斯地区 - 莫斯科时间 08:00 (UTC 05:00) - 俄罗斯
-    - cron: "0 5 * * *"
+    # 全球统一采集 - UTC 01:00 (确保所有时区壁纸已更新)
+    - cron: "0 1 * * *"
   workflow_dispatch: # 支持手动触发
     inputs:
       target_country:
@@ -85,7 +77,7 @@ jobs:
 
           echo "当前UTC时间: $CURRENT_TIME"
 
-          # 根据当前时间和触发方式确定目标国家
+          # 根据触发方式确定采集策略
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             # 手动触发时使用用户选择的参数
             TARGET_COUNTRY="${{ github.event.inputs.target_country || 'China' }}"
@@ -93,40 +85,15 @@ jobs:
             RESOLUTION_CODE="${{ github.event.inputs.resolution_code || 'FullHD' }}"
             COLLECT_ALL="false"
             TRIGGER_TYPE="手动触发"
+            echo "🎯 手动触发模式 - 采集指定国家: $TARGET_COUNTRY"
           else
-            # 定时触发时根据时间智能选择国家
+            # 定时触发时使用全球统一采集策略
+            TARGET_COUNTRY="All"
             COLLECT_DAYS="1"
             RESOLUTION_CODE="FullHD"
-            COLLECT_ALL="false"
+            COLLECT_ALL="true"
             TRIGGER_TYPE="定时触发"
-
-            case "$CURRENT_UTC_HOUR" in
-              "22")
-                # UTC 22:00 - 亚洲地区 (北京时间 06:00)
-                TARGET_COUNTRY="China"
-                echo "🌅 亚洲地区时间 - 采集中国壁纸"
-                ;;
-              "6")
-                # UTC 06:00 - 欧洲地区 (中欧时间 07:00)
-                TARGET_COUNTRY="Germany"
-                echo "🌅 欧洲地区时间 - 采集德国壁纸"
-                ;;
-              "14")
-                # UTC 14:00 - 美洲地区 (美东时间 09:00)
-                TARGET_COUNTRY="UnitedStates"
-                echo "🌅 美洲地区时间 - 采集美国壁纸"
-                ;;
-              "5")
-                # UTC 05:00 - 俄罗斯地区 (莫斯科时间 08:00)
-                TARGET_COUNTRY="Russia"
-                echo "🌅 俄罗斯地区时间 - 采集俄罗斯壁纸"
-                ;;
-              *)
-                # 默认情况
-                TARGET_COUNTRY="China"
-                echo "🌅 默认时间 - 采集中国壁纸"
-                ;;
-            esac
+            echo "🌍 定时触发模式 - 全球统一采集所有国家"
           fi
 
           echo "收集配置:"
@@ -137,11 +104,11 @@ jobs:
           echo "  - 收集所有国家: $COLLECT_ALL"
 
           # 设置环境变量（替代jq修改配置文件）
-          echo "COLLECTIONOPTIONS__MARKETCODE=$TARGET_COUNTRY" >> $GITHUB_ENV
+          echo "COLLECTIONOPTIONS__MARKETCODE=China" >> $GITHUB_ENV  # 在CollectAllCountries=true时会被忽略
           echo "COLLECTIONOPTIONS__COLLECTDAYS=$COLLECT_DAYS" >> $GITHUB_ENV
           echo "COLLECTIONOPTIONS__RESOLUTIONCODE=$RESOLUTION_CODE" >> $GITHUB_ENV
           echo "COLLECTIONOPTIONS__COLLECTALLCOUNTRIES=$COLLECT_ALL" >> $GITHUB_ENV
-          echo "COLLECTIONOPTIONS__MAXCONCURRENTREQUESTS=3" >> $GITHUB_ENV
+          echo "COLLECTIONOPTIONS__MAXCONCURRENTREQUESTS=5" >> $GITHUB_ENV  # 增加并发数以处理所有国家
           echo "COLLECTIONOPTIONS__PRETTYJSONFORMAT=true" >> $GITHUB_ENV
 
           # 设置输出变量
@@ -152,11 +119,11 @@ jobs:
 
           echo ""
           echo "环境变量配置:"
-          echo "  - COLLECTIONOPTIONS__MARKETCODE=$TARGET_COUNTRY"
+          echo "  - COLLECTIONOPTIONS__MARKETCODE=China (在CollectAllCountries=true时忽略)"
           echo "  - COLLECTIONOPTIONS__COLLECTDAYS=$COLLECT_DAYS"
           echo "  - COLLECTIONOPTIONS__RESOLUTIONCODE=$RESOLUTION_CODE"
           echo "  - COLLECTIONOPTIONS__COLLECTALLCOUNTRIES=$COLLECT_ALL"
-          echo "  - COLLECTIONOPTIONS__MAXCONCURRENTREQUESTS=3"
+          echo "  - COLLECTIONOPTIONS__MAXCONCURRENTREQUESTS=5"
           echo "  - COLLECTIONOPTIONS__PRETTYJSONFORMAT=true"
 
       - name: 收集壁纸信息
@@ -245,13 +212,19 @@ jobs:
 
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
-          echo "## 🌍 时区采集策略" >> $GITHUB_STEP_SUMMARY
+          echo "## 🌍 全球统一采集策略" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| 时区 | UTC时间 | 目标国家 | 本地时间 |" >> $GITHUB_STEP_SUMMARY
-          echo "|------|---------|----------|----------|" >> $GITHUB_STEP_SUMMARY
-          echo "| 🇨🇳 亚洲 | 22:00 | China | 北京时间 06:00 |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🇩🇪 欧洲 | 06:00 | Germany | 中欧时间 07:00 |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🇺🇸 美洲 | 14:00 | UnitedStates | 美东时间 09:00 |" >> $GITHUB_STEP_SUMMARY
-          echo "| 🇷🇺 俄罗斯 | 05:00 | Russia | 莫斯科时间 08:00 |" >> $GITHUB_STEP_SUMMARY
+          echo "| 执行时间 | 采集范围 | 策略说明 |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|----------|----------|" >> $GITHUB_STEP_SUMMARY
+          echo "| UTC 01:00 | 所有14个国家 | 全球统一采集，确保数据完整性 |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 支持的国家/地区:" >> $GITHUB_STEP_SUMMARY
+          echo "- 🇨🇳 China (中国) - 🇺🇸 UnitedStates (美国)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🇬🇧 UnitedKingdom (英国) - 🇯🇵 Japan (日本)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🇩🇪 Germany (德国) - 🇫🇷 France (法国)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🇪🇸 Spain (西班牙) - 🇮🇹 Italy (意大利)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🇷🇺 Russia (俄罗斯) - 🇰🇷 SouthKorea (韩国)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🇧🇷 Brazil (巴西) - 🇦🇺 Australia (澳大利亚)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🇨🇦 Canada (加拿大) - 🇮🇳 India (印度)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "*💡 支持手动触发，可自定义目标国家和收集参数*" >> $GITHUB_STEP_SUMMARY
