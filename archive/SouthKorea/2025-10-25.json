@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Aerial view of peatland in Martimoaapa Mire Reserve, Finland (© romikatarina/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Martimoaapa+Finland&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251025_MartimoaapaFinland%22&FORM=HPQUIZ",
+  "hash": "5be9a7d5a6dc342ba0984a3f4e756b2d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ROW0416444680_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ROW0416444680_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ROW0416444680_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ROW0416444680_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251025",
+    "fullStartDateTime": "202510250700",
+    "endDate": "20251026"
+  },
+  "createdAt": "202510251302",
+  "originalUrlBase": "/th?id=OHR.MartimoaapaFinland_ROW0416444680"
+}

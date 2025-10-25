@@ -1,0 +1,43 @@
+{
+  "date": "25 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Kaixo! ¡Qué día tan bonito!",
+  "bsTitle": "Kaixo! ¡Qué día tan bonito!",
+  "caption": "Día del País Vasco",
+  "copyright": "Río Oca, Mundaka, Vizcaya, País Vasco, España (© Tuul and Bruno Morandi/Alamy)",
+  "copyrightOnly": "© Tuul and Bruno Morandi/Alamy",
+  "copyrightLink": "/search?q=D%c3%ada+del+Pa%c3%ads+Vasco&form=hpcapt&filters=HpDate%3a%2220251024_2200%22",
+  "description": "Hoy celebramos el Día del País Vasco, una jornada simbólica que recuerda aquel 25 de octubre de 1979, cuando el Estatuto de Autonomía vasco fue aprobado en referéndum, otorgando nuevas competencias y reconocimiento a Euskadi.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251024_PaisVascoDay%22&FORM=HPQUIZ",
+  "hash": "8f8c3c9422992e902a8ce66412cada97",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PaisVascoDay_ES-ES6776223688_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PaisVascoDay_ES-ES6776223688_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PaisVascoDay_ES-ES6776223688_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PaisVascoDay_ES-ES6776223688_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251024",
+    "fullStartDateTime": "202510242200",
+    "endDate": "20251025"
+  },
+  "createdAt": "202510251302",
+  "originalUrlBase": "/th?id=OHR.PaisVascoDay_ES-ES6776223688"
+}
