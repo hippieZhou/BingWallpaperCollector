@@ -1,0 +1,43 @@
+{
+  "date": "25. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Finnlands lebendiges Moor",
+  "bsTitle": "Finnlands lebendiges Moor",
+  "caption": "Martimoaapa-Moorreservat, Finnland",
+  "copyright": "Luftaufnahme des Moorgebiets im Martimoaapa-Moorreservat, Finnland (© romikatarina/Shutterstock)",
+  "copyrightOnly": "© romikatarina/Shutterstock",
+  "copyrightLink": "/search?q=Martimoaapa+Finnland&form=hpcapt&filters=HpDate%3a%2220251024_2200%22",
+  "description": "Haben Sie Lust auf ein Abenteuer im hohen Norden? Das Martimoaapa-Moorreservat in Finnland bietet Ihnen endlose Weiten, spannende Geschichten und echte Naturerlebnisse. Stellen Sie sich vor, wie Schmuggler einst mit schweren Säcken voller Alkohol durch das Moor stapften – während der finnischen Prohibition von 1919 bis 1932, als der illegale Handel florierte. Heute können Sie auf ihren Spuren wandern und dabei die stille Schönheit der Landschaft genießen. Besonders faszinierend ist der rätselhafte Steinkreis mit einem Durchmesser von etwa zehn Metern im Herzen des Reservats. Sein Ursprung und Zweck sind bis heute ein Geheimnis – wie ein nordisches Märchen mitten in der Wildnis.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251024_MartimoaapaFinland%22&FORM=HPQUIZ",
+  "hash": "0e6086131ce47e053ad9306935f3f9ec",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_DE-DE0136132064_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_DE-DE0136132064_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_DE-DE0136132064_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_DE-DE0136132064_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251024",
+    "fullStartDateTime": "202510242200",
+    "endDate": "20251025"
+  },
+  "createdAt": "202510251240",
+  "originalUrlBase": "/th?id=OHR.MartimoaapaFinland_DE-DE0136132064"
+}
