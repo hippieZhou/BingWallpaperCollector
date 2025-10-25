@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Mosaico di paludi",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Vista aerea della torbiera nella riserva naturale di Martimoaapa Mire, Finlandia (© romikatarina/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=La+Finlandia&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251024_MartimoaapaFinland%22&FORM=HPQUIZ",
+  "hash": "a32c78aac9c2f384f9ee6b20fb892011",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_IT-IT0794218844_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_IT-IT0794218844_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_IT-IT0794218844_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_IT-IT0794218844_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251024",
+    "fullStartDateTime": "202510242200",
+    "endDate": "20251025"
+  },
+  "createdAt": "202510251243",
+  "originalUrlBase": "/th?id=OHR.MartimoaapaFinland_IT-IT0794218844"
+}
