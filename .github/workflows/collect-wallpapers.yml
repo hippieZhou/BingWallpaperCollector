@@ -26,6 +26,7 @@ on:
           - Australia
           - Canada
           - India
+          - All
       collect_days:
         description: "收集天数 (1-8)"
         required: false
@@ -83,9 +84,16 @@ jobs:
             TARGET_COUNTRY="${{ github.event.inputs.target_country || 'China' }}"
             COLLECT_DAYS="${{ github.event.inputs.collect_days || '1' }}"
             RESOLUTION_CODE="${{ github.event.inputs.resolution_code || 'FullHD' }}"
-            COLLECT_ALL="false"
             TRIGGER_TYPE="手动触发"
-            echo "🎯 手动触发模式 - 采集指定国家: $TARGET_COUNTRY"
+
+            # 检查是否选择"All"选项
+            if [ "$TARGET_COUNTRY" = "All" ]; then
+              COLLECT_ALL="true"
+              echo "🌍 手动触发模式 - 全球统一采集所有国家"
+            else
+              COLLECT_ALL="false"
+              echo "🎯 手动触发模式 - 采集指定国家: $TARGET_COUNTRY"
+            fi
           else
             # 定时触发时使用全球统一采集策略
             TARGET_COUNTRY="All"
@@ -194,9 +202,23 @@ jobs:
 
             # 显示目标国家的文件统计
             TARGET_COUNTRY="${{ steps.config.outputs.target_country }}"
-            if [ -d "archive/$TARGET_COUNTRY" ]; then
-              file_count=$(find "archive/$TARGET_COUNTRY" -name "*.json" | wc -l)
-              echo "| **$TARGET_COUNTRY** | **$file_count** |" >> $GITHUB_STEP_SUMMARY
+            if [ "$TARGET_COUNTRY" = "All" ]; then
+              # 显示所有国家的文件统计
+              echo "| 国家/地区 | JSON文件数 |" >> $GITHUB_STEP_SUMMARY
+              echo "|----------|-----------|" >> $GITHUB_STEP_SUMMARY
+              for country_dir in archive/*/; do
+                if [ -d "$country_dir" ]; then
+                  country_name=$(basename "$country_dir")
+                  file_count=$(find "$country_dir" -name "*.json" | wc -l)
+                  echo "| $country_name | $file_count |" >> $GITHUB_STEP_SUMMARY
+                fi
+              done
+            else
+              # 显示单个国家的文件统计
+              if [ -d "archive/$TARGET_COUNTRY" ]; then
+                file_count=$(find "archive/$TARGET_COUNTRY" -name "*.json" | wc -l)
+                echo "| **$TARGET_COUNTRY** | **$file_count** |" >> $GITHUB_STEP_SUMMARY
+              fi
             fi
 
             echo "" >> $GITHUB_STEP_SUMMARY
