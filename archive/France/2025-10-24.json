@@ -1,0 +1,43 @@
+{
+  "date": "25 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Une tourbière à consommer sans modération !",
+  "bsTitle": "Une tourbière à consommer sans modération !",
+  "caption": "Réserve de Martimoaapa, Finlande",
+  "copyright": "Vue aérienne de la tourbière, réserve de Martimoaapa, Finlande (© romikatarina/Shutterstock)",
+  "copyrightOnly": "© romikatarina/Shutterstock",
+  "copyrightLink": "/search?q=Martimoaapa+Finlande&form=hpcapt&filters=HpDate%3a%2220251024_2200%22",
+  "description": "Vue du ciel, la tourbière de Martimoaapa, en Laponie finlandaise, ressemble à une mosaïque d’or et d’azur. Ces terres humides, façonnées par des millénaires de glace et d'eau, recèlent bien plus qu'un simple paysage ; elles racontent des histoires. Au début du XXe siècle, durant la période de la prohibition en Finlande, des contrebandiers ont bravé la boue et le froid pour transporter de l'alcool suédois à travers ces marécages interdits. Plus loin, un cercle de pierres énigmatique semble veiller, vestige d'un rituel dont le sens échappe encore aux archéologues.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251024_MartimoaapaFinland%22&FORM=HPQUIZ",
+  "hash": "3fa6258611224dfe7d5d93726b31383f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_FR-FR9588990995_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_FR-FR9588990995_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_FR-FR9588990995_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_FR-FR9588990995_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251024",
+    "fullStartDateTime": "202510242200",
+    "endDate": "20251025"
+  },
+  "createdAt": "202510251010",
+  "originalUrlBase": "/th?id=OHR.MartimoaapaFinland_FR-FR9588990995"
+}
