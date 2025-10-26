@@ -47,7 +47,10 @@
                 x:Key="InverseBoolToBooleanConverter"
                 FalseValue="True"
                 TrueValue="False" />
-            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+            <converters:BoolToVisibilityConverter
+                x:Key="BoolToVisibilityConverter"
+                FalseValue="Collapsed"
+                TrueValue="Visible" />
             <helpers:StringToBooleanConverter x:Key="StringToBooleanConverter" />
             <helpers:FormattedDownloadProgressConverter x:Key="FormattedDownloadProgressConverter" />
             <helpers:FormattedDownloadSpeedConverter x:Key="FormattedDownloadSpeedConverter" />

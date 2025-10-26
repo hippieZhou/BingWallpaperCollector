@@ -18,7 +18,6 @@ public partial class AppSettings
     public readonly string DefaulttLocalLogFolder = Path.Combine(ApplicationData.Current.LocalCacheFolder.Path, "Log");
 
     public readonly string DefaultPicturesPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyPictures), "BingWallpaper");
-    public readonly string TemporaryPath = ApplicationData.Current.TemporaryFolder.Path;
 
     public static string AppTitle => "AppDisplayName".GetLocalized();
 

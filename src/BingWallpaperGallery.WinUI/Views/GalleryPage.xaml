@@ -28,6 +28,7 @@
     <!--  主要内容区域  -->
     <Grid>
         <GridView
+            x:Name="GalleryView"
             Margin="-12,0,-24,0"
             Padding="12"
             animations:Implicit.HideAnimations="{StaticResource HideTransitions}"
@@ -36,17 +37,22 @@
             ui:ListViewExtensions.Command="{x:Bind ViewModel.WallpaperSelectedCommand}"
             ui:ListViewExtensions.ItemContainerStretchDirection="Both"
             IncrementalLoadingThreshold="6"
+            IncrementalLoadingTrigger="Edge"
             IsItemClickEnabled="True"
             ItemContainerStyle="{StaticResource CustomGridViewItemStyle}"
             ItemsSource="{x:Bind ViewModel.Wallpapers, Mode=OneWay}"
             ScrollViewer.HorizontalScrollBarVisibility="Disabled"
             ScrollViewer.HorizontalScrollMode="Disabled"
+            ScrollViewer.IsDeferredScrollingEnabled="False"
             ScrollViewer.VerticalScrollBarVisibility="Auto"
-            ScrollViewer.VerticalScrollMode="Auto"
+            ScrollViewer.VerticalScrollMode="Enabled"
+            ScrollViewer.ZoomMode="Disabled"
             SelectedItem="{x:Bind ViewModel.SelectedWallpaper, Mode=OneWay}"
             SelectionMode="None">
             <GridView.ItemContainerTransitions>
-                <TransitionCollection />
+                <TransitionCollection>
+                    <EntranceThemeTransition FromVerticalOffset="20" IsStaggeringEnabled="True" />
+                </TransitionCollection>
             </GridView.ItemContainerTransitions>
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="dto:WallpaperInfoDto">
@@ -75,5 +81,11 @@
                     IsLoading="{x:Bind ViewModel.IsLoading, Mode=OneWay}" />
             </GridView.Footer>
         </GridView>
+        <uc:BackToTop
+            Margin="0,0,32,32"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            AutoHiding="True"
+            Target="{Binding ElementName=GalleryView}" />
     </Grid>
 </Page>
