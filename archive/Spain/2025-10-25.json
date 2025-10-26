@@ -1,0 +1,43 @@
+{
+  "date": "26 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "La turbera viva de Finlandia",
+  "bsTitle": "La turbera viva de Finlandia",
+  "caption": "Reserva de Martimoaapa Mire, Finlandia",
+  "copyright": "Vista aérea de las turberas en la Reserva Martimoaapa Mire, Finlandia (© romikatarina/Shutterstock)",
+  "copyrightOnly": "© romikatarina/Shutterstock",
+  "copyrightLink": "/search?q=Ramsar+de+Finlandia&form=hpcapt&filters=HpDate%3a%2220251025_2200%22",
+  "description": "Hoy visitamos la reserva de Martimoaapa Mire en Finlandia, un lugar donde extensos humedales y turberas de clima frío se extienden sobre un paisaje modelado durante miles de años. Durante la era de la Prohibición en Finlandia (1919-1932), los contrabandistas transportaban sacos de licor desde Suecia atravesando estos pantanos por la llamada ruta de los “licores”, y aún hoy se pueden seguir algunos tramos de ese camino.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251025_MartimoaapaFinland%22&FORM=HPQUIZ",
+  "hash": "d67cb925d1cc5fe531cd357afcd1fda9",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ES-ES0251068328_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ES-ES0251068328_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ES-ES0251068328_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.MartimoaapaFinland_ES-ES0251068328_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251025",
+    "fullStartDateTime": "202510252200",
+    "endDate": "20251026"
+  },
+  "createdAt": "202510260228",
+  "originalUrlBase": "/th?id=OHR.MartimoaapaFinland_ES-ES0251068328"
+}

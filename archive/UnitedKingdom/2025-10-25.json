@@ -1,0 +1,43 @@
+{
+  "date": "Oct 26, 2025",
+  "country": "UnitedKingdom",
+  "marketCode": "en-GB",
+  "title": "Clocking off",
+  "bsTitle": "Clocking off",
+  "caption": "British Summer Time ends",
+  "copyright": "Clock tower of Emmanuel College, University of Cambridge, England (© Geography Photos/Universal Images Group/Getty Images)",
+  "copyrightOnly": "© Geography Photos/Universal Images Group/Getty Images",
+  "copyrightLink": "/search?q=Daylight+Saving+Time+UK&form=hpcapt&filters=HpDate%3a%2220251025_2300%22",
+  "description": "In the quadrangle of Emmanuel College, Cambridge, the clock tower stands as a silent witness to the passing hours. But on the last Sunday in October, it is given a peculiar job: striking time twice. At 2 a.m., British Summer Time (BST) officially ends, and the United Kingdom reverts to Greenwich Mean Time. One moment it's 2 a.m., the next it's 1 a.m. again.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251025_DSTEnds2025%22&FORM=HPQUIZ",
+  "hash": "b1c262a2d3d7352262eeef8101f402be",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.DSTEnds2025_EN-GB3762675856_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.DSTEnds2025_EN-GB3762675856_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.DSTEnds2025_EN-GB3762675856_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.DSTEnds2025_EN-GB3762675856_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251025",
+    "fullStartDateTime": "202510252300",
+    "endDate": "20251027"
+  },
+  "createdAt": "202510260228",
+  "originalUrlBase": "/th?id=OHR.DSTEnds2025_EN-GB3762675856"
+}

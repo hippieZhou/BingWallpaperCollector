@@ -1,0 +1,43 @@
+{
+  "date": "26 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "N’ayez pas la ci-trouille !",
+  "bsTitle": "N’ayez pas la ci-trouille !",
+  "caption": "La saison des citrouilles est ouverte !",
+  "copyright": "Ferme de citrouilles en Caroline du Nord, États-Unis (© Matthew H Irvin/Getty Images)",
+  "copyrightOnly": "© Matthew H Irvin/Getty Images",
+  "copyrightLink": "/search?q=citrouille&form=hpcapt&filters=HpDate%3a%2220251025_2200%22",
+  "description": "Alors que les journées raccourcissent et que la nuit tombe dès 18 heures, un parfum de cannelle flotte dans l’air humide des campagnes de Caroline du Nord. L’automne s’installe doucement et avec lui revient la saison des citrouilles. Comme dans les champs de la Drôme ou du Perche, leurs formes rebondies illuminent le sol de touches orangées, telles des soleils oubliés.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251025_PumpkinFarm%22&FORM=HPQUIZ",
+  "hash": "a7693a315749f5b3e6c7db628db5352e",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_FR-FR7536561457_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_FR-FR7536561457_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_FR-FR7536561457_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_FR-FR7536561457_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251025",
+    "fullStartDateTime": "202510252200",
+    "endDate": "20251026"
+  },
+  "createdAt": "202510260228",
+  "originalUrlBase": "/th?id=OHR.PumpkinFarm_FR-FR7536561457"
+}

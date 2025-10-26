@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Dormiamo un’ora in più",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Torre dell'Orologio di San Marco, Venezia, Veneto (© scaliger/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Ora&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251025_ItalyClock%22&FORM=HPQUIZ",
+  "hash": "eadabb0f69a0e40cef16668c07cd6251",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ItalyClock_IT-IT0847273649_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ItalyClock_IT-IT0847273649_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ItalyClock_IT-IT0847273649_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ItalyClock_IT-IT0847273649_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251025",
+    "fullStartDateTime": "202510252200",
+    "endDate": "20251026"
+  },
+  "createdAt": "202510260228",
+  "originalUrlBase": "/th?id=OHR.ItalyClock_IT-IT0847273649"
+}
