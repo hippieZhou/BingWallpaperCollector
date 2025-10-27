@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "千年秘境",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "被胡杨树围绕着的湖, 金塔县, 酒泉, 甘肃, 中国 (© Feng Wei Photography/Getty images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e8%83%a1%e6%9d%a8%e6%a0%91&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251026_AutumnColorY25%22&FORM=HPQUIZ",
+  "hash": "c504ebfcfbd938c8ca46ac4b11c70145",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AutumnColorY25_ZH-CN1551135398_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnColorY25_ZH-CN1551135398_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AutumnColorY25_ZH-CN1551135398_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AutumnColorY25_ZH-CN1551135398_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251026",
+    "fullStartDateTime": "202510261600",
+    "endDate": "20251027"
+  },
+  "createdAt": "202510270245",
+  "originalUrlBase": "/th?id=OHR.AutumnColorY25_ZH-CN1551135398"
+}

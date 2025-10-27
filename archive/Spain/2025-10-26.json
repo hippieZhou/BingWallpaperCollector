@@ -1,0 +1,43 @@
+{
+  "date": "27 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Cría cuervos…",
+  "bsTitle": "Cría cuervos…",
+  "caption": "El cuervo picogordo, Montañas Simien, Etiopía",
+  "copyright": "El cuervo picogordo, Montañas Simien, Etiopía (© Ignacio Yufera/FLPA/Minden Pictures)",
+  "copyrightOnly": "© Ignacio Yufera/FLPA/Minden Pictures",
+  "copyrightLink": "/search?q=El+cuervo+picogordo&form=hpcapt&filters=HpDate%3a%2220251026_2300%22",
+  "description": "En lo alto de las montañas de Etiopía, Eritrea y Somalia, el cuervo picogordo ostenta el título de cuervo más grande del mundo. Mide casi setenta centímetros y pesa más de 1,5 kilogramos, alrededor de una cuarta parte más que un cuervo común. Su enorme pico arqueado, pálido en la base y de unos nueve centímetros de largo, es el más grande entre las aves que se posan. Habita principalmente entre 1.500 y 3.400 metros sobre el nivel del mar, en tierras de cultivo, acantilados rocosos e incluso tejados de pueblos de montaña.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251026_AfricanRaven%22&FORM=HPQUIZ",
+  "hash": "ff2d7400ace902bfb9a0bf2f93b68970",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AfricanRaven_ES-ES0390865860_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AfricanRaven_ES-ES0390865860_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AfricanRaven_ES-ES0390865860_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AfricanRaven_ES-ES0390865860_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251026",
+    "fullStartDateTime": "202510262300",
+    "endDate": "20251027"
+  },
+  "createdAt": "202510270245",
+  "originalUrlBase": "/th?id=OHR.AfricanRaven_ES-ES0390865860"
+}

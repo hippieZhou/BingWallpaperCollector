@@ -1,0 +1,43 @@
+{
+  "date": "27 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Champagne !",
+  "bsTitle": "Champagne !",
+  "caption": "Journée du Champagne",
+  "copyright": "Grappe de raisins noirs, vignoble de Champagne (© Daniele SCHNEIDER/Photononstop/Alamy Stock Photo)",
+  "copyrightOnly": "© Daniele SCHNEIDER/Photononstop/Alamy Stock Photo",
+  "copyrightLink": "/search?q=Journ%c3%a9e+du+champagne&form=hpcapt&filters=HpDate%3a%2220251026_2300%22",
+  "description": "Sous le ciel d'automne, les coteaux de Champagne se parent de mille couleurs. Les feuilles de vigne rougissent et s'embrasent, encadrant les grappes de pinot noir charnues et bleutées, prêtes à livrer leur secret. On entend encore le pas des vendangeurs qui, depuis des siècles, récoltent ce fruit fragile avec patience et respect. Chaque baie porte ici la mémoire des sols crayeux, de la lumière filtrée par les brumes matinales et du souffle constant des vents venus de la Marne.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251026_ChampagneDay%22&FORM=HPQUIZ",
+  "hash": "06c46079f7897db634df0616363fdd4d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.ChampagneDay_FR-FR1389141387_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.ChampagneDay_FR-FR1389141387_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.ChampagneDay_FR-FR1389141387_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.ChampagneDay_FR-FR1389141387_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251026",
+    "fullStartDateTime": "202510262300",
+    "endDate": "20251027"
+  },
+  "createdAt": "202510270245",
+  "originalUrlBase": "/th?id=OHR.ChampagneDay_FR-FR1389141387"
+}

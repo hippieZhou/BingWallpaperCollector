@@ -1,0 +1,43 @@
+{
+  "date": "Oct 26, 2025",
+  "country": "UnitedStates",
+  "marketCode": "en-US",
+  "title": "Oh my gourd, it's today!",
+  "bsTitle": "Oh my gourd, it's today!",
+  "caption": "National Pumpkin Day",
+  "copyright": "Pumpkin farm in North Carolina (© Matthew H Irvin/Getty Images)",
+  "copyrightOnly": "© Matthew H Irvin/Getty Images",
+  "copyrightLink": "/search?q=National+Pumpkin+Day&form=hpcapt&filters=HpDate%3a%2220251026_0700%22",
+  "description": "Nothing says fall like spotting a field full of pumpkins waiting to be picked. These gourds have rolled their way into pies, porches, lattes, and parades, but today they get the spotlight: It's National Pumpkin Day. Some places go all out to show their affection—Morton, Illinois, calls itself the 'Pumpkin Capital of the World,' thanks to its high production and ties to canned pumpkin. New Hampshire follows closely, with pumpkin as its official state fruit.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251026_PumpkinFarm%22&FORM=HPQUIZ",
+  "hash": "fca4bbdf22ca80ae6b9086bea5e9b02d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_EN-US3773448576_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_EN-US3773448576_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_EN-US3773448576_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PumpkinFarm_EN-US3773448576_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251026",
+    "fullStartDateTime": "202510260700",
+    "endDate": "20251027"
+  },
+  "createdAt": "202510270245",
+  "originalUrlBase": "/th?id=OHR.PumpkinFarm_EN-US3773448576"
+}
