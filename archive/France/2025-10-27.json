@@ -1,0 +1,43 @@
+{
+  "date": "28 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Un monde au-delà de l’arche",
+  "bsTitle": "Un monde au-delà de l’arche",
+  "caption": "Porte gothique, rochers d'Adršpach-Teplice, Tchéquie",
+  "copyright": "Porte gothique, rochers d'Adršpach-Teplice, Tchéquie (© Kseniya_Milner/Getty Images)",
+  "copyrightOnly": "© Kseniya_Milner/Getty Images",
+  "copyrightLink": "/search?q=rochers+d%27Adr%c5%a1pach-Teplice%2c+Tch%c3%a9quie&form=hpcapt&filters=HpDate%3a%2220251027_2300%22",
+  "description": "Sous une voûte de pierre, une porte gothique s’élève comme une promesse d’évasion. Dans la région de Hradec Králové, au nord-est de la République tchèque, les rochers d'Adršpach-Teplice forment le plus vaste labyrinthe de grès d'Europe centrale. Pendant des siècles, falaises et passages sont restés enfouis sous la forêt jusqu’à ce qu’un grand incendie dénude le paysage. Des arches, des tours et des couloirs sinueux émergent alors des cendres, révélant une cité minérale façonnée par le feu.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251027_TepliceRocks%22&FORM=HPQUIZ",
+  "hash": "e7699f89859e9972b90c926089f1d987",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_FR-FR0275962088_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_FR-FR0275962088_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_FR-FR0275962088_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_FR-FR0275962088_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251027",
+    "fullStartDateTime": "202510272300",
+    "endDate": "20251028"
+  },
+  "createdAt": "202510280224",
+  "originalUrlBase": "/th?id=OHR.TepliceRocks_FR-FR0275962088"
+}

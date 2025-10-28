@@ -1,0 +1,43 @@
+{
+  "date": "28. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Ein Tor zur Magie der Natur",
+  "bsTitle": "Ein Tor zur Magie der Natur",
+  "caption": "Das Gotische Tor in den Adršpach-Teplice-Felsen, Tschechien",
+  "copyright": "Das Gotische Tor in den Adršpach-Teplice-Felsen, Tschechien (© Kseniya_Milner/Getty Images)",
+  "copyrightOnly": "© Kseniya_Milner/Getty Images",
+  "copyrightLink": "/search?q=Adrspach-Teplice-Felsen+Tschechien&form=hpcapt&filters=HpDate%3a%2220251027_2300%22",
+  "description": "Lust auf ein Felsenabenteuer? Nur einen Katzensprung von der deutschen Grenze entfernt erwartet Sie ein echtes Naturwunder: die Adršpach-Teplice-Felsen im Nordosten Böhmens, Tschechien. Nach einem großen Waldbrand im 18. Jahrhundert wurde hier eine verborgene Felsenstadt mit Bögen, Türmen und geheimnisvollen Pfaden freigelegt – das größte Sandsteinlabyrinth Mitteleuropas.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251027_TepliceRocks%22&FORM=HPQUIZ",
+  "hash": "5f1cbfc13ecd1a6509531ebf0851b72c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_DE-DE1966832338_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_DE-DE1966832338_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_DE-DE1966832338_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_DE-DE1966832338_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251027",
+    "fullStartDateTime": "202510272300",
+    "endDate": "20251028"
+  },
+  "createdAt": "202510280224",
+  "originalUrlBase": "/th?id=OHR.TepliceRocks_DE-DE1966832338"
+}

@@ -1,0 +1,43 @@
+{
+  "date": "28 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Entrada al paraíso rocoso",
+  "bsTitle": "Entrada al paraíso rocoso",
+  "caption": "Puerta gótica en las rocas de Adršpach-Teplice, Bohemia, República Checa",
+  "copyright": "Puerta gótica en las rocas de Adršpach-Teplice, Bohemia, República Checa (© Kseniya_Milner/Getty Images)",
+  "copyrightOnly": "© Kseniya_Milner/Getty Images",
+  "copyrightLink": "/search?q=Rocas+Adr%c5%a1pach+Teplice&form=hpcapt&filters=HpDate%3a%2220251027_2300%22",
+  "description": "Desde visitantes del siglo XVIII hasta senderos tallados en roca, esta ciudad rocosa narra una historia de supervivencia. En la región checa de Hradec Králové, las rocas de Adršpach-Teplice forman el laberinto de arenisca más grande de Europa Central. Durante siglos, los acantilados y pasadizos permanecieron cubiertos por bosque, hasta que un gran incendio despejó la zona. Arcos, torres y pasillos sinuosos surgieron de las cenizas, y las primeras rutas de senderismo fueron talladas en la roca. Exploradores y poetas dejaron sus huellas con inscripciones que capturaron la belleza salvaje y encantadora del lugar.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251027_TepliceRocks%22&FORM=HPQUIZ",
+  "hash": "086b648255368d67a2a4672bb0be7c9a",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ES-ES0482796188_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ES-ES0482796188_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ES-ES0482796188_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ES-ES0482796188_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251027",
+    "fullStartDateTime": "202510272300",
+    "endDate": "20251028"
+  },
+  "createdAt": "202510280224",
+  "originalUrlBase": "/th?id=OHR.TepliceRocks_ES-ES0482796188"
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2025 年 10月 月 28 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "岩の迷宮",
+  "bsTitle": "岩の迷宮",
+  "caption": "岩の迷宮",
+  "copyright": "アドルシュパフ=テプリツェ奇岩群, チェコ共和国 (© Kseniya_Milner/Getty Images)",
+  "copyrightOnly": "© Kseniya_Milner/Getty Images",
+  "copyrightLink": "/search?q=%e3%82%a2%e3%83%89%e3%83%ab%e3%82%b7%e3%83%a5%e3%83%91%e3%83%95%3d%e3%83%86%e3%83%97%e3%83%aa%e3%83%84%e3%82%a7%e5%a5%87%e5%b2%a9%e7%be%a4&form=hpcapt&filters=HpDate%3a%2220251027_1500%22",
+  "description": "「岩の迷宮」とも称されるアドルシュパフ=テプリツェ奇岩群。チェコ共和国にある壮大な自然の奇観で、巨大な岩柱や細い回廊、不思議な形をした岩が数えきれないほど立ち並んでいます。もともとは森に覆われていましたが、1824 年の山火事によって木々が焼失し、岩々が姿を現しました…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251027_TepliceRocks%22&FORM=HPQUIZ",
+  "hash": "e9b0aad0402b4dec141af32e04ebd4ed",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_JA-JP4817805390_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_JA-JP4817805390_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_JA-JP4817805390_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_JA-JP4817805390_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251027",
+    "fullStartDateTime": "202510271500",
+    "endDate": "20251028"
+  },
+  "createdAt": "202510280224",
+  "originalUrlBase": "/th?id=OHR.TepliceRocks_JA-JP4817805390"
+}
