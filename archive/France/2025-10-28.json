@@ -1,0 +1,43 @@
+{
+  "date": "29 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Forêt en clair-obscur",
+  "bsTitle": "Forêt en clair-obscur",
+  "caption": "Lauriers centenaires de la forêt de Fanal, île de Madère, Portugal",
+  "copyright": "Lauriers centenaires de la forêt de Fanal, île de Madère, Portugal (© Lukas Jonaitis/Shutterstock)",
+  "copyrightOnly": "© Lukas Jonaitis/Shutterstock",
+  "copyrightLink": "/search?q=for%c3%aat+de+Fanal+Portugal&form=hpcapt&filters=HpDate%3a%2220251028_2300%22",
+  "description": "Au nord de l'île portugaise de Madère, la forêt de Fanal s'ouvre comme un théâtre de brume. Les lauriers centenaires, recouverts de mousse, y dessinent des formes étranges dans une lumière diffuse. Elle appartient à la Laurissilva, la plus vaste forêt de lauriers subtropicaux encore intacte au monde, dont plus de 90 % de la couverture végétale est restée primaire. C'est un véritable musée vivant qui abrite des espèces uniques, comme le pigeon trocaz, endémique de l'île.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251028_FanalForest%22&FORM=HPQUIZ",
+  "hash": "3fb876b8f20b617426b84afcf2a98315",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_FR-FR0588492140_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_FR-FR0588492140_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_FR-FR0588492140_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_FR-FR0588492140_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251028",
+    "fullStartDateTime": "202510282300",
+    "endDate": "20251029"
+  },
+  "createdAt": "202510290241",
+  "originalUrlBase": "/th?id=OHR.FanalForest_FR-FR0588492140"
+}

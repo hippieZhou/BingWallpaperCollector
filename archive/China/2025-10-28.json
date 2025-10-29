@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "时光扎根",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "法纳尔森林里的古老月桂树，马德拉群岛，葡萄牙 (© Lukas Jonaitis/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e8%91%a1%e8%90%84%e7%89%99%e9%a9%ac%e5%be%b7%e6%8b%89%e7%be%a4%e5%b2%9b&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251028_FanalForest%22&FORM=HPQUIZ",
+  "hash": "1dea4a6283f26038d069dede5aeb5695",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ZH-CN2203572101_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ZH-CN2203572101_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ZH-CN2203572101_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ZH-CN2203572101_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251028",
+    "fullStartDateTime": "202510281600",
+    "endDate": "20251029"
+  },
+  "createdAt": "202510290241",
+  "originalUrlBase": "/th?id=OHR.FanalForest_ZH-CN2203572101"
+}

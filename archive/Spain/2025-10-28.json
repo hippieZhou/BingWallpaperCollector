@@ -1,0 +1,43 @@
+{
+  "date": "29 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "El escondite de las hadas",
+  "bsTitle": "El escondite de las hadas",
+  "caption": "Bosque de Fanal, Porto Moniz, isla de Madeira, Portugal",
+  "copyright": "Árboles antiguos en el Bosque de Fanal (Laurisilva de Madeira), Porto Moniz, isla de Madeira, Portugal (© Lukas Jonaitis/Shutterstock)",
+  "copyrightOnly": "© Lukas Jonaitis/Shutterstock",
+  "copyrightLink": "/search?q=Laurisilva+de+Madeira&form=hpcapt&filters=HpDate%3a%2220251028_2300%22",
+  "description": "La isla portuguesa de Madeira, a unos 1.000 kilómetros al suroeste de Portugal continental, alberga un bosque como ningún otro. En sus laderas septentrionales se encuentra el bosque de Fanal, donde velos de niebla se deslizan entre árboles centenarios. Forma parte de la laurisilva de Madeira, una reliquia excepcional de un tipo de bosque que alguna vez estuvo muy extendido en el planeta. La laurisilva de Madeira es la mayor área sobreviviente de su tipo, con aproximadamente el 90\u202F% considerado bosque primario. Hogar de plantas y animales únicos, incluidas especies endémicas como la paloma de dedos largos de Madeira, constituye un museo vivo de historia natural.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251028_FanalForest%22&FORM=HPQUIZ",
+  "hash": "4686dd58c1e4e8018ed618d9f29ec77f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ES-ES0574680440_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ES-ES0574680440_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ES-ES0574680440_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ES-ES0574680440_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251028",
+    "fullStartDateTime": "202510282300",
+    "endDate": "20251029"
+  },
+  "createdAt": "202510290241",
+  "originalUrlBase": "/th?id=OHR.FanalForest_ES-ES0574680440"
+}

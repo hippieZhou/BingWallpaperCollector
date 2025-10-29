@@ -1,0 +1,43 @@
+{
+  "date": "2025 年 10月 月 29 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "霧に包まれた幻想の森",
+  "bsTitle": "霧に包まれた幻想の森",
+  "caption": "霧に包まれた幻想の森",
+  "copyright": "マデイラ島のファナルの森, ポルトガル (© Lukas Jonaitis/Shutterstock)",
+  "copyrightOnly": "© Lukas Jonaitis/Shutterstock",
+  "copyrightLink": "/search?q=%e3%83%9e%e3%83%87%e3%82%a4%e3%83%a9%e5%b3%b6+%e3%83%95%e3%82%a1%e3%83%8a%e3%83%ab%e3%81%ae%e6%a3%ae&form=hpcapt&filters=HpDate%3a%2220251028_1500%22",
+  "description": "神秘的な雰囲気が漂う「ファナルの森 (Fanal Forest) 」。ポルトガル領マデイラ島に位置するこの森には、樹齢数百年の月桂樹が立ち並び、ねじれた枝や苔むした幹が独特の景観を生み出しています。特に、霧が立ち込める早朝には、まるで別世界に迷い込んだかのような幻想的な光景が広がります…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251028_FanalForest%22&FORM=HPQUIZ",
+  "hash": "efb970829b052b1f94c4fc6b8e8afd7b",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_JA-JP5058622515_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_JA-JP5058622515_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_JA-JP5058622515_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_JA-JP5058622515_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251028",
+    "fullStartDateTime": "202510281500",
+    "endDate": "20251029"
+  },
+  "createdAt": "202510290241",
+  "originalUrlBase": "/th?id=OHR.FanalForest_JA-JP5058622515"
+}

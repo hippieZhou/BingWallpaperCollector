@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Russia",
+  "marketCode": "ru-RU",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "The Gothic Gate in the Adršpach-Teplice Rocks, Czechia (© Kseniya_Milner/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Adrspach+Teplice+Rocks+Czechia&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251028_TepliceRocks%22&FORM=HPQUIZ",
+  "hash": "e80cf7691ab5479b6006eaa469d4e2c9",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ROW0717999002_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ROW0717999002_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ROW0717999002_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.TepliceRocks_ROW0717999002_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251028",
+    "fullStartDateTime": "202510280700",
+    "endDate": "20251029"
+  },
+  "createdAt": "202510290241",
+  "originalUrlBase": "/th?id=OHR.TepliceRocks_ROW0717999002"
+}

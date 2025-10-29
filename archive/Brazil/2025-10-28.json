@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "O Brasil dos bastidores",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Congresso Nacional ao pôr do sol, Brasília, Distrito Federal (© Diego Grandi/Shutterstock)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=dia+do+servidor+p%c3%bablico&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251028_PublicServ%22&FORM=HPQUIZ",
+  "hash": "9e54aab6928229524cda13141532e35f",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PublicServ_PT-BR4483210857_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PublicServ_PT-BR4483210857_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PublicServ_PT-BR4483210857_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PublicServ_PT-BR4483210857_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251028",
+    "fullStartDateTime": "202510280300",
+    "endDate": "20251029"
+  },
+  "createdAt": "202510290241",
+  "originalUrlBase": "/th?id=OHR.PublicServ_PT-BR4483210857"
+}
