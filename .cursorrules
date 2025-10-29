@@ -1,0 +1,366 @@
+# BingWallpaperGallery - Cursor AI 规则配置
+
+## 项目概述
+
+BingWallpaperGallery 是一个基于 WinUI 3 的必应壁纸应用，使用 C# 和 .NET 9 开发，采用 MVVM 架构模式，支持浏览、下载和编辑来自全球 14 个地区的必应每日壁纸。
+
+## 技术栈
+
+### 核心技术
+- **语言**: C# (preview 语言特性)
+- **框架**: .NET 9.0
+- **UI 框架**: WinUI 3 (Windows App SDK 1.8)
+- **架构模式**: MVVM (Model-View-ViewModel)
+
+### 主要依赖
+- **MVVM 工具**: CommunityToolkit.Mvvm 8.4.0
+- **数据库**: Entity Framework Core 9.0 + SQLite
+- **图形渲染**: Microsoft.Graphics.Win2D (用于图像特效)
+- **日志框架**: Serilog (结构化日志)
+- **HTTP 客户端**: Microsoft.Extensions.Http.Resilience (支持重试和弹性)
+- **UI 组件**: CommunityToolkit.WinUI, ImageEx.WinUI, WinUIEx
+- **测试框架**: xUnit, FluentAssertions, Moq
+
+### 项目结构
+```
+src/
+├── BingWallpaperGallery.Core/          # 核心业务逻辑
+│   ├── DataAccess/                     # 数据访问层 (EF Core)
+│   ├── Services/                       # 业务服务层
+│   ├── Http/                           # HTTP 客户端和服务
+│   ├── DTOs/                           # 数据传输对象
+│   └── Mappers/                        # 对象映射器
+├── BingWallpaperGallery.WinUI/         # WinUI 应用层
+│   ├── ViewModels/                     # 视图模型
+│   ├── Views/                          # 视图 (XAML)
+│   ├── UserControls/                   # 自定义控件
+│   └── Services/                       # UI 层服务
+├── BingWallpaperGallery.Collector/     # 数据收集器控制台应用
+└── BingWallpaperGallery.Core.Tests/    # 单元测试
+```
+
+## C# 编码规范
+
+### 命名约定
+- **类、接口、方法、属性**: PascalCase
+- **接口**: 以 `I` 开头 (如 `IWallpaperService`)
+- **私有/内部字段**: 以 `_` 开头的 camelCase (如 `_logger`, `_httpClient`)
+- **常量**: PascalCase
+- **局部变量**: camelCase
+- **方法参数**: camelCase
+
+### 代码风格
+- **命名空间**: 使用 file-scoped namespace (`namespace BingWallpaperGallery.Core;`)
+- **using 指令**: 放在命名空间外部，System.* 在前
+- **缩进**: 4 个空格，不使用 Tab
+- **大括号**: Allman 风格 (独占一行)
+- **var 关键字**: 类型明显时使用，内置类型优先使用显式类型
+- **表达式体**: 属性和访问器使用表达式体，方法和构造函数不使用
+- **访问修饰符**: 显式声明所有非接口成员的访问修饰符
+
+### 代码质量要求
+- **空值安全**: 当前项目禁用了 nullable 引用类型，但应避免空引用异常
+- **XML 文档注释**: 所有公共 API 必须有 XML 文档注释
+- **代码分析**: 启用了严格的代码分析，警告视为错误 (TreatWarningsAsErrors)
+- **异步编程**: 不使用 ConfigureAwait(false) (CA2007 已禁用)
+
+### 示例代码
+
+```csharp
+using System;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+
+namespace BingWallpaperGallery.Core.Services.Impl;
+
+/// <summary>
+/// 提供壁纸下载服务的实现
+/// </summary>
+public class DownloadService : IDownloadService
+{
+    private readonly ILogger<DownloadService> _logger;
+    private readonly IImageDownloadClient _downloadClient;
+
+    /// <summary>
+    /// 初始化 <see cref="DownloadService"/> 的新实例
+    /// </summary>
+    /// <param name="logger">日志记录器</param>
+    /// <param name="downloadClient">下载客户端</param>
+    public DownloadService(ILogger<DownloadService> logger, IImageDownloadClient downloadClient)
+    {
+        _logger = logger;
+        _downloadClient = downloadClient;
+    }
+
+    /// <inheritdoc/>
+    public async Task<bool> DownloadWallpaperAsync(string url, string savePath)
+    {
+        if (string.IsNullOrEmpty(url))
+        {
+            _logger.LogWarning("下载 URL 为空");
+            return false;
+        }
+
+        try
+        {
+            var result = await _downloadClient.DownloadAsync(url, savePath);
+            _logger.LogInformation("壁纸下载成功: {Path}", savePath);
+            return result;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "下载壁纸失败: {Url}", url);
+            return false;
+        }
+    }
+}
+```
+
+## MVVM 架构规范
+
+### ViewModel 规范
+- 继承 `ObservableObject` (CommunityToolkit.Mvvm)
+- 使用 `[ObservableProperty]` 特性生成属性
+- 使用 `[RelayCommand]` 特性生成命令
+- ViewModels 放在 `ViewModels` 命名空间
+- 命名以 `ViewModel` 结尾 (如 `GalleryViewModel`)
+
+### 依赖注入
+- 所有服务通过构造函数注入
+- 使用 `Microsoft.Extensions.DependencyInjection`
+- 在 `ServiceCollectionExtensions.cs` 中注册服务
+
+### 数据绑定
+- ViewModel 属性使用 `ObservableProperty` 自动通知变更
+- 集合使用 `ObservableCollection<T>` 或 `IncrementalLoadingCollection<T>`
+- 命令使用 `RelayCommand` 或 `AsyncRelayCommand`
+
+## WinUI 3 / XAML 规范
+
+### XAML 编码风格
+- 使用 x:Bind 而非 Binding (编译时绑定，性能更好)
+- 资源字典使用 MergedDictionaries
+- 使用 CommunityToolkit 的行为和转换器
+- 控件命名使用 PascalCase
+
+### 自定义控件
+- 使用 TemplatedControl 或 UserControl
+- 依赖属性使用 `[DependencyProperty]` 源生成器 (CommunityToolkit.Labs)
+- 控件放在 `UserControls` 文件夹
+
+## 数据库规范
+
+### Entity Framework Core
+- 使用 Code First 迁移
+- 实体类继承 `BaseEntity` 或 `BaseAuditableEntity`
+- 实体配置使用独立的 `EntityConfiguration` 类 (实现 `IEntityTypeConfiguration<T>`)
+- 使用仓储模式 (`IRepository<T>`)
+
+### 数据库文件
+- SQLite 数据库文件路径: `ApplicationData/Local/BingWallpaperGallery/wallpapers.db`
+- 使用 `ApplicationDbContext` 管理数据库上下文
+- 启用 WAL 日志模式 (Write-Ahead Logging)
+
+## 日志规范
+
+### Serilog 配置
+- 使用结构化日志 (Compact JSON 格式)
+- 日志级别: Debug (调试版), Information (发布版)
+- 日志文件路径: `ApplicationData/Local/BingWallpaperGallery/logs/`
+- 使用 Map sink 实现按市场分组的日志
+
+### 日志示例
+```csharp
+_logger.LogInformation("开始下载壁纸: {Url}, 地区: {Market}", url, market);
+_logger.LogError(ex, "下载失败: {ErrorMessage}", ex.Message);
+_logger.LogDebug("数据库查询耗时: {ElapsedMs}ms", elapsed.TotalMilliseconds);
+```
+
+## 测试规范
+
+### 单元测试
+- 使用 xUnit 测试框架
+- 使用 FluentAssertions 进行断言
+- 使用 Moq 进行模拟 (Mock)
+- 测试类命名: `{ClassName}Tests` (如 `WallpaperServiceTests`)
+- 测试方法命名: `MethodName_Scenario_ExpectedBehavior`
+
+### 测试覆盖率
+- 目标覆盖率: 80% 以上
+- 使用 Codecov 进行覆盖率跟踪
+- CI/CD 中自动运行测试
+
+## Git 提交规范
+
+### Conventional Commits
+遵循 Conventional Commits 规范，提交格式:
+```
+<emoji> <type>: <subject>
+
+<body>
+
+<footer>
+```
+
+### 常用类型
+- ✨ `feat`: 新功能
+- 🐛 `fix`: Bug 修复
+- 📝 `docs`: 文档变更
+- 💄 `style`: 代码格式调整
+- ♻️ `refactor`: 代码重构
+- ⚡ `perf`: 性能优化
+- ✅ `test`: 测试相关
+- 📦 `build`: 构建系统或依赖变更
+- 👷 `ci`: CI 配置变更
+- 🔧 `chore`: 其他杂项
+
+### 提交示例
+```
+✨ feat: 添加按地区筛选功能
+
+- 在 GalleryViewModel 中添加 FilterByRegion 方法
+- 新增 RegionFilterControl 用户控件
+- 更新数据库查询逻辑
+
+Closes #45
+```
+
+## 特定领域知识
+
+### 必应壁纸 API
+- API 端点: `https://www.bing.com/HPImageArchive.aspx`
+- 参数: `format=js`, `idx={days}`, `n={count}`, `mkt={market}`
+- 支持 14 个市场: CN, US, UK, JP, DE, FR, ES, IT, RU, KR, BR, AU, CA, IN
+- 图片 URL 需要添加分辨率参数 (如 `UHD.jpg`, `1920x1080.jpg`)
+
+### 支持的分辨率
+- `1366x768`: 标清
+- `1920x1080`: 全高清
+- `1920x1200`: 宽屏全高清
+- `3840x2160` (UHD): 4K 超高清
+
+### Win2D 图像特效
+项目支持以下图像特效:
+- 曝光 (Exposure)
+- 色温 (Temperature)
+- 色调 (Tint)
+- 模糊 (Blur)
+- 对比度 (Contrast)
+- 饱和度 (Saturation)
+- 像素化 (Pixelate)
+
+## 常见任务指南
+
+### 添加新的 Service
+1. 在 `Core/Services/` 创建接口 `IYourService.cs`
+2. 在 `Core/Services/Impl/` 创建实现 `YourService.cs`
+3. 在 `ServiceCollectionExtensions.cs` 中注册服务
+4. 添加 XML 文档注释
+5. 在 `Core.Tests/` 中添加单元测试
+
+### 添加新的 ViewModel
+1. 在 `WinUI/ViewModels/` 创建 `YourViewModel.cs`
+2. 继承 `ObservableObject`
+3. 使用 `[ObservableProperty]` 和 `[RelayCommand]`
+4. 在 `App.xaml.cs` 中注册到 DI 容器
+5. 创建对应的 View (XAML)
+
+### 添加数据库实体
+1. 在 `Core/DataAccess/Domains/` 创建实体类
+2. 继承 `BaseEntity` 或 `BaseAuditableEntity`
+3. 在 `Core/DataAccess/Configurations/` 创建配置类
+4. 在 `ApplicationDbContext` 中添加 DbSet
+5. 生成迁移: `dotnet ef migrations add YourMigrationName`
+
+### 运行和调试
+- 运行应用: 设置 `BingWallpaperGallery.WinUI` 为启动项目
+- 运行收集器: 设置 `BingWallpaperGallery.Collector` 为启动项目
+- 运行测试: `dotnet test --collect:"XPlat Code Coverage"`
+- 格式化代码: `dotnet format`
+
+## 项目特定注意事项
+
+### 性能优化
+- 使用 `IncrementalLoadingCollection` 实现虚拟化滚动
+- 图片加载使用 `ImageEx` 控件 (支持缓存和占位符)
+- 数据库查询避免 N+1 问题，使用 Include 预加载
+- Win2D 渲染使用 CanvasControl，避免频繁重建
+
+### 错误处理
+- 所有 HTTP 请求使用 Resilience 策略 (重试 + 熔断)
+- UI 层使用 StackedNotificationsBehavior 显示错误提示
+- 关键操作记录详细日志 (包括异常堆栈)
+
+### 本地化
+- 支持中文和英文
+- API 请求根据市场自动设置 Accept-Language 头
+- UI 文本使用资源文件 (Resources.resw)
+
+### 文件路径
+- 配置文件: `ApplicationData/Local/BingWallpaperGallery/appsettings.json`
+- 数据库: `ApplicationData/Local/BingWallpaperGallery/wallpapers.db`
+- 日志: `ApplicationData/Local/BingWallpaperGallery/logs/`
+- 下载目录: `Pictures/BingWallpapers/`
+
+## AI 编码助手指令
+
+### 代码生成要求
+1. **严格遵循 EditorConfig**: 使用 file-scoped namespace, 4 空格缩进, 私有字段 `_` 前缀
+2. **完整的 XML 注释**: 所有公共 API 必须包含 `<summary>`, `<param>`, `<returns>` 等注释
+3. **依赖注入优先**: 避免直接 new 对象，使用构造函数注入
+4. **异步优先**: I/O 操作使用 async/await，方法名以 Async 结尾
+5. **日志记录**: 在关键操作处添加日志 (Information, Warning, Error)
+6. **错误处理**: 使用 try-catch 捕获异常并记录，避免吞掉异常
+
+### 代码审查要点
+- 检查是否遵循 MVVM 模式
+- 验证依赖注入是否正确
+- 确认 XML 文档注释完整
+- 检查异步方法是否正确使用
+- 验证日志级别是否合适
+- 确认命名是否符合约定
+
+### 禁止事项
+- ❌ 不使用 block-scoped namespace (必须使用 file-scoped)
+- ❌ 不在私有字段前省略 `_` 前缀
+- ❌ 不在方法中使用 `this.` 访问成员 (除非必要消歧义)
+- ❌ 不使用匈牙利命名法 (Hungarian notation)
+- ❌ 不添加无用的注释 (代码自解释优先)
+- ❌ 不捕获异常后不处理 (catch 空块)
+- ❌ 不在 UI 线程执行耗时操作
+
+## 文档参考
+
+- [快速开始指南](docs/QuickStart.md) - 开发环境搭建
+- [Conventional Commits](docs/ConventionalCommits.md) - 提交规范详解
+- [EditorConfig 指南](docs/EditorConfig.md) - 代码格式配置
+- [日志配置](docs/LoggingConfig.md) - 日志记录配置
+
+## 常用命令
+
+```bash
+# 构建项目
+dotnet build
+
+# 运行测试
+dotnet test --collect:"XPlat Code Coverage"
+
+# 格式化代码
+dotnet format
+
+# 生成迁移
+dotnet ef migrations add MigrationName --project src/BingWallpaperGallery.Core
+
+# 更新数据库
+dotnet ef database update --project src/BingWallpaperGallery.Core
+
+# 发布应用 (MSIX)
+dotnet publish -c Release -r win-x64 --self-contained
+```
+
+---
+
+**项目链接**: https://github.com/hippiezhou/BingWallpaperGallery
+**许可证**: MIT
+**作者**: hippieZhou
+
