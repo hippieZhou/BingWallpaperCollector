@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "I Mille e un Cammello",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Cammelli a Jaisalmer, Rajasthan, India (© f9photos/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Jaisalmer+suddivisione+dell%e2%80%99+India&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251029_PushkarFair%22&FORM=HPQUIZ",
+  "hash": "93d3cbce8fcd46689ebf189f0b8624b0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_IT-IT9959541344_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_IT-IT9959541344_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_IT-IT9959541344_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_IT-IT9959541344_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251029",
+    "fullStartDateTime": "202510292300",
+    "endDate": "20251030"
+  },
+  "createdAt": "202510300228",
+  "originalUrlBase": "/th?id=OHR.PushkarFair_IT-IT9959541344"
+}

@@ -1,0 +1,43 @@
+{
+  "date": "Oct 29, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "bsTitle": "Info",
+  "caption": "Ancient til trees in Fanal Forest, Madeira, Portugal",
+  "copyright": "Ancient til trees in Fanal Forest, island of Madeira, Portugal (© Lukas Jonaitis/Shutterstock)",
+  "copyrightOnly": "© Lukas Jonaitis/Shutterstock",
+  "copyrightLink": "/search?q=Laurissilva+of+Madeira&form=hpcapt&filters=HpDate%3a%2220251029_0700%22",
+  "description": "The Portuguese island of Madeira—about 965 kilometres southwest of mainland Portugal—hides a forest unlike any other. On its northern slopes lies Fanal Forest, where veils of mist drift through centuries-old til trees. These are part of the Laurissilva of Madeira—an outstanding relict of a once widespread laurel forest type. Laurissilva is the largest surviving area of its kind, with about 90% considered primary forest. Home to a unique array of plants and animals, including endemic species such as the Madeiran long-toed pigeon, it remains a living museum of natural history.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251029_FanalForest%22&FORM=HPQUIZ",
+  "hash": "74e77bf529e7a2dce1897704da4608a2",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ROW0809161285_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ROW0809161285_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ROW0809161285_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.FanalForest_ROW0809161285_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251029",
+    "fullStartDateTime": "202510290700",
+    "endDate": "20251030"
+  },
+  "createdAt": "202510300228",
+  "originalUrlBase": "/th?id=OHR.FanalForest_ROW0809161285"
+}

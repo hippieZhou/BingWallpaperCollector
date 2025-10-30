@@ -1,0 +1,43 @@
+{
+  "date": "30 oct. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "Le « bosse » du sable",
+  "bsTitle": "Le « bosse » du sable",
+  "caption": "Foire aux chameaux de Pushkar, Inde",
+  "copyright": "Chameaux d’Arabie à Jaisalmer, Rajasthan, Inde (© f9photos/Getty Images)",
+  "copyrightOnly": "© f9photos/Getty Images",
+  "copyrightLink": "/search?q=Foire+aux+chameaux+de+Pushkar&form=hpcapt&filters=HpDate%3a%2220251029_2300%22",
+  "description": "Sous le ciel pourpre du Rajasthan, les dunes de Jaisalmer se parent de reflets dorés tandis que les silhouettes des chameaux avancent lentement dans la lumière du soir. Plus à l'est, la petite ville de Pushkar s'anime chaque automne à l'occasion de l'une des fêtes les plus vibrantes du pays : la foire aux chameaux.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251029_PushkarFair%22&FORM=HPQUIZ",
+  "hash": "5709ecd6e6cefb21f36ff20fcd548d33",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_FR-FR0781642371_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_FR-FR0781642371_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_FR-FR0781642371_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_FR-FR0781642371_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251029",
+    "fullStartDateTime": "202510292300",
+    "endDate": "20251030"
+  },
+  "createdAt": "202510300228",
+  "originalUrlBase": "/th?id=OHR.PushkarFair_FR-FR0781642371"
+}

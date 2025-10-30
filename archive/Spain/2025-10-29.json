@@ -1,0 +1,43 @@
+{
+  "date": "30 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Bello cual camello",
+  "bsTitle": "Bello cual camello",
+  "caption": "Feria de Púshkar, Rajasthan, India",
+  "copyright": "Dromedarios en Jaisalmer, Rajasthan, India (© f9photos/Getty Images)",
+  "copyrightOnly": "© f9photos/Getty Images",
+  "copyrightLink": "/search?q=Feria+de+Pushkar&form=hpcapt&filters=HpDate%3a%2220251029_2300%22",
+  "description": "Cada otoño, la ciudad desértica de Pushkar, en Rajasthan (India), cobra vida con una de las celebraciones más singulares del mundo: la Feria del Camello de Pushkar. Coincide con el mes lunar hindú de Kartik y suele celebrarse entre finales de octubre y principios de noviembre. Este año, las festividades se prolongan hasta el 5 de noviembre, marcando la temporada más esperada de la región.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251029_PushkarFair%22&FORM=HPQUIZ",
+  "hash": "df2c08b4565a40eb25c3534a56e6ce74",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ES-ES0743477785_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ES-ES0743477785_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ES-ES0743477785_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ES-ES0743477785_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251029",
+    "fullStartDateTime": "202510292300",
+    "endDate": "20251030"
+  },
+  "createdAt": "202510300228",
+  "originalUrlBase": "/th?id=OHR.PushkarFair_ES-ES0743477785"
+}
