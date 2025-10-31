@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "在万圣节的魔咒之下",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "布兰城堡入口, 布拉索夫, 罗马尼亚 (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e5%b8%83%e5%85%b0%e5%9f%8e%e5%a0%a1&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_BranCastle%22&FORM=HPQUIZ",
+  "hash": "df0c3b8e252a6307a80c12327ce8a3d2",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ZH-CN3879660917_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ZH-CN3879660917_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ZH-CN3879660917_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ZH-CN3879660917_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510301600",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.BranCastle_ZH-CN3879660917"
+}

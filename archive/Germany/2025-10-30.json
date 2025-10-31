@@ -1,0 +1,43 @@
+{
+  "date": "31. Okt.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Unter dem Zauber von Halloween",
+  "bsTitle": "Unter dem Zauber von Halloween",
+  "caption": "Frohes Halloween!",
+  "copyright": "Eingang zum Schloss Bran, Brașov, Rumänien (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "© blue sky in my pocket/Getty Images",
+  "copyrightLink": "/search?q=Schloss+Bran+Bra%c8%99ov&form=hpcapt&filters=HpDate%3a%2220251030_2300%22",
+  "description": "Das ist der Eingang zum Schloss Bran in Brașov in Rumänien – und dies ist keineswegs ein gewöhnlicher Eingang: Es ist das Tor zum Geheimnis, zum Mythos … und zum Schrecken! Dieses Schloss, berühmt für seine Verbindung zur Legende des Grafen Dracula, erhebt sich majestätisch in den Karpaten und scheint die dunklen Geheimnisse Transsilvaniens zu bewachen. Zu Halloween verwandelt sich das Schloss: gedämpftes Licht, unheimliche Geräusche und nächtliche Führungen, die selbst die Mutigsten erschaudern lassen. Wussten Sie, dass es unter dem Schloss geheime Tunnel gibt? Ideal für eine Flucht … oder um für immer zu verschwinden.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_BranCastle%22&FORM=HPQUIZ",
+  "hash": "5cde5c5a899062d8459ca53755ad0b9d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_DE-DE1129139069_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_DE-DE1129139069_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_DE-DE1129139069_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_DE-DE1129139069_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510302300",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.BranCastle_DE-DE1129139069"
+}

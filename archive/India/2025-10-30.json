@@ -1,0 +1,43 @@
+{
+  "date": "Oct 31, 2025",
+  "country": "India",
+  "marketCode": "en-IN",
+  "title": "Legends in the mist",
+  "bsTitle": "Legends in the mist",
+  "caption": "Bran Castle in Bran, Brașov, Romania",
+  "copyright": "Entrance of Bran Castle in Bran, Brașov, Romania (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "© blue sky in my pocket/Getty Images",
+  "copyrightLink": "/search?q=bran+castle&form=hpcapt&filters=HpDate%3a%2220251030_1830%22",
+  "description": "Centuries ago, in parts of ancient Europe, the night marking the end of the harvest and beginning of winter was feared as a time when the worlds of the living and the dead overlapped. Communities lit fires to keep wandering spirits at bay, believing that on this night the boundary between the two faded. These rituals gave rise to Halloween, echoing in legends around Bran Castle.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_BranCastle%22&FORM=HPQUIZ",
+  "hash": "66a1a1c32197e39a7d86b973de47ac11",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_EN-IN0933024345_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_EN-IN0933024345_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_EN-IN0933024345_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_EN-IN0933024345_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510301830",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.BranCastle_EN-IN0933024345"
+}

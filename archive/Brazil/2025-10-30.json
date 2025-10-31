@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Entre cascos, cores e cultura",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Camelos em Jaisalmer, Rajastão, Índia (© f9photos/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=feira+Pushkar+na+%c3%8dndia&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_PushkarFair%22&FORM=HPQUIZ",
+  "hash": "528c57ca2292f56b296d73ed2dd1a4da",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_PT-BR6477108877_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_PT-BR6477108877_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_PT-BR6477108877_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_PT-BR6477108877_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510300300",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.PushkarFair_PT-BR6477108877"
+}

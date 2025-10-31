@@ -1,0 +1,43 @@
+{
+  "date": "2025 年 10月 月 31 日",
+  "country": "Japan",
+  "marketCode": "ja-JP",
+  "title": "今日はハロウィン",
+  "bsTitle": "今日はハロウィン",
+  "caption": "今日はハロウィン",
+  "copyright": "ブラン城, ルーマニア (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "© blue sky in my pocket/Getty Images",
+  "copyrightLink": "/search?q=%e3%83%96%e3%83%a9%e3%83%b3%e5%9f%8e&form=hpcapt&filters=HpDate%3a%2220251030_1500%22",
+  "description": "今日はハロウィン。名前の由来は、カトリック教会の祝日の一つである「万聖節」の前夜祭（ All Hallow’s Evening ）とされています。日本では仮装・コスプレをするイベントとして定着していますが、海外では、カボチャをくり抜いて作った「ジャック・オー・ランタン」を飾ったり、子供たちが魔女やお化けに仮装して近所を回り、お菓子をもらったりするなどの風習があります…",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_BranCastle%22&FORM=HPQUIZ",
+  "hash": "efd175b1c5bf80a087dba090de0e8ac8",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_JA-JP1493249630_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_JA-JP1493249630_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_JA-JP1493249630_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_JA-JP1493249630_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510301500",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.BranCastle_JA-JP1493249630"
+}

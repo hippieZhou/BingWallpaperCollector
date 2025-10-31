@@ -1,0 +1,43 @@
+{
+  "date": "Oct 30, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "bsTitle": "Info",
+  "caption": "Camels, Rajasthan, India",
+  "copyright": "Camels at Jaisalmer, Rajasthan, India (© f9photos/Getty Images)",
+  "copyrightOnly": "© f9photos/Getty Images",
+  "copyrightLink": "/search?q=Camel&form=hpcapt&filters=HpDate%3a%2220251030_0700%22",
+  "description": "Ever wondered how life survives in the harshest deserts? Meet the camel—the ultimate desert survivor, often called the 'Ship of the Desert.' With unique adaptations, camels are perfectly built to thrive in harsh, arid environments.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_PushkarFair%22&FORM=HPQUIZ",
+  "hash": "53050b95c1773705516fa4abb2dbf89d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ROW0922720525_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ROW0922720525_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ROW0922720525_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.PushkarFair_ROW0922720525_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510300700",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.PushkarFair_ROW0922720525"
+}

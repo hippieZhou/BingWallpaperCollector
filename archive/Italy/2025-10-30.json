@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Italy",
+  "marketCode": "it-IT",
+  "title": "Sotto il segno di Halloween",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Ingresso del Castello di Bran a Bran, Brașov, Romania (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Il+castello+di+Bran&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_BranCastle%22&FORM=HPQUIZ",
+  "hash": "52bdbb2ff805b8dc201bd348959a2a4c",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_IT-IT5114720491_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_IT-IT5114720491_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_IT-IT5114720491_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_IT-IT5114720491_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510302300",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.BranCastle_IT-IT5114720491"
+}

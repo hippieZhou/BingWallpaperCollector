@@ -1,0 +1,43 @@
+{
+  "date": "31 de oct. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Bajo el hechizo de Halloween",
+  "bsTitle": "Bajo el hechizo de Halloween",
+  "caption": "¡Feliz Halloween!",
+  "copyright": "Entrada al castillo de Bran en Bran, Brașov, Rumania (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "© blue sky in my pocket/Getty Images",
+  "copyrightLink": "/search?q=castillo+de+Bran&form=hpcapt&filters=HpDate%3a%2220251030_2300%22",
+  "description": "Esta noche de Halloween, el misterio despierta en uno de los lugares más enigmáticos de Europa: el Castillo de Bran, en Rumanía. Construido en el siglo XIV, este imponente bastión ha resistido guerras, reyes y siglos de historia. Situado entre Transilvania y Valaquia —región que una vez gobernó Vlad III, conocido como “el Empalador”—, su fama está unida al mito de Drácula, la novela que Bram Stoker publicó en 1897. Aunque la historia no transcurre exactamente aquí, su silueta y las leyendas que lo rodean lo convirtieron en el escenario perfecto del terror gótico.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251030_BranCastle%22&FORM=HPQUIZ",
+  "hash": "78a17573df8e6243f04b57a816a8c016",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ES-ES0559707677_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ES-ES0559707677_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ES-ES0559707677_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ES-ES0559707677_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251030",
+    "fullStartDateTime": "202510302300",
+    "endDate": "20251031"
+  },
+  "createdAt": "202510310227",
+  "originalUrlBase": "/th?id=OHR.BranCastle_ES-ES0559707677"
+}
