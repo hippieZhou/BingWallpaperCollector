@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "SouthKorea",
+  "marketCode": "ko-KR",
+  "title": "Info",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Entrance of Bran Castle in Bran, Brașov, Romania (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=bran+castle&form=hpcapt",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251031_BranCastle%22&FORM=HPQUIZ",
+  "hash": "e2054a5d8b878c5c4bdd65b44610c107",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251031",
+    "fullStartDateTime": "202510310700",
+    "endDate": "20251101"
+  },
+  "createdAt": "202511010228",
+  "originalUrlBase": "/th?id=OHR.BranCastle_ROW9947564327"
+}

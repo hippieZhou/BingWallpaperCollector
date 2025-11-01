@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "Brazil",
+  "marketCode": "pt-BR",
+  "title": "Sob o feitiço do Halloween",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "Entrada do Castelo de Bran em Brașov, Romênia (© blue sky in my  pocket/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=Dia+das+Bruxas&form=hpcapt&mkt=pt-br",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251031_BranCastle%22&FORM=HPQUIZ",
+  "hash": "85a666d18c5e51593d8a43a567aab7d0",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_PT-BR1477730083_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_PT-BR1477730083_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_PT-BR1477730083_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_PT-BR1477730083_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251031",
+    "fullStartDateTime": "202510310300",
+    "endDate": "20251101"
+  },
+  "createdAt": "202511010228",
+  "originalUrlBase": "/th?id=OHR.BranCastle_PT-BR1477730083"
+}

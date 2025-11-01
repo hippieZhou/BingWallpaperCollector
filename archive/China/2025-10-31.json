@@ -1,0 +1,43 @@
+{
+  "date": "",
+  "country": "China",
+  "marketCode": "zh-CN",
+  "title": "古老血脉的兽群",
+  "bsTitle": "",
+  "caption": "",
+  "copyright": "野牛在温泉边吃草,  黄石国家公园, 怀俄明州, 美国 (© Cheryl Ramalho/Getty Images)",
+  "copyrightOnly": "",
+  "copyrightLink": "/search?q=%e9%bb%84%e7%9f%b3%e5%85%ac%e5%9b%ad%e7%9a%84%e9%87%8e%e7%89%9b%e7%be%a4&form=hpcapt&mkt=zh-cn",
+  "description": "",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251031_BisonSprings%22&FORM=HPQUIZ",
+  "hash": "55306a88232ab303670b16374dd0569b",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_ZH-CN4419733534_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_ZH-CN4419733534_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_ZH-CN4419733534_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_ZH-CN4419733534_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251031",
+    "fullStartDateTime": "202510311600",
+    "endDate": "20251101"
+  },
+  "createdAt": "202511010228",
+  "originalUrlBase": "/th?id=OHR.BisonSprings_ZH-CN4419733534"
+}

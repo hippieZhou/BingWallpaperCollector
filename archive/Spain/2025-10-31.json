@@ -1,0 +1,43 @@
+{
+  "date": "1 de nov. de 2025",
+  "country": "Spain",
+  "marketCode": "es-ES",
+  "title": "Vivir es ser recordado",
+  "bsTitle": "Vivir es ser recordado",
+  "caption": "Día de Todos los Santos",
+  "copyright": "Foz de Arbaiun, Navarra, España (© Martín Zalba/500px/Getty Images)",
+  "copyrightOnly": "© Martín Zalba/500px/Getty Images",
+  "copyrightLink": "/search?q=D%c3%ada+de+Todos+los+Santos&form=hpcapt&filters=HpDate%3a%2220251031_2300%22",
+  "description": "El 1 de noviembre, España celebra el Día de Todos los Santos, una jornada para honrar a quienes ya no están y recordar con cariño sus vidas. En muchas ciudades y pueblos, las familias acuden a los cementerios con flores, comparten dulces típicos como los buñuelos de viento o los huesos de santo, y disfrutan de un ambiente sereno que invita a la reflexión.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251031_AutumSaints%22&FORM=HPQUIZ",
+  "hash": "8cfdf77d21f486497161676d3d28f1d6",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.AutumSaints_ES-ES0641147491_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.AutumSaints_ES-ES0641147491_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.AutumSaints_ES-ES0641147491_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.AutumSaints_ES-ES0641147491_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251031",
+    "fullStartDateTime": "202510312300",
+    "endDate": "20251101"
+  },
+  "createdAt": "202511010228",
+  "originalUrlBase": "/th?id=OHR.AutumSaints_ES-ES0641147491"
+}

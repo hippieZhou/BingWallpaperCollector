@@ -1,0 +1,43 @@
+{
+  "date": "Oct 31, 2025",
+  "country": "Australia",
+  "marketCode": "en-AU",
+  "title": "Info",
+  "bsTitle": "Info",
+  "caption": "Bran Castle in Bran, Brașov, Romania",
+  "copyright": "Entrance of Bran Castle in Bran, Brașov, Romania (© blue sky in my pocket/Getty Images)",
+  "copyrightOnly": "© blue sky in my pocket/Getty Images",
+  "copyrightLink": "/search?q=bran+castle&form=hpcapt&filters=HpDate%3a%2220251031_0700%22",
+  "description": "Featured in today's image is Bran Castle, one of Romania's most iconic landmarks, where centuries of history blend seamlessly with myth and mystery. The fortress was built in the 14th century and has withstood wars, monarchs and shifting empires. During World War II, Bran Castle was turned into a hospital for wounded soldiers by Princess Ileana, who was trained as a nurse. But here, legends speak louder than history. Perched between the regions of Transylvania—renowned for its chilling tales—and Wallachia, once ruled by Vlad III Dracula, the castle evokes a haunting legacy. Vlad's ruthless reputation inspired Bram Stoker's 1897 novel 'Dracula.' Though the story is not set at Bran Castle, its looming form and persistent rumours of Vlad's presence blur fact and legend, forever linking it to one of humanity's most enduring tales.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251031_BranCastle%22&FORM=HPQUIZ",
+  "hash": "e2054a5d8b878c5c4bdd65b44610c107",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BranCastle_ROW9947564327_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251031",
+    "fullStartDateTime": "202510310700",
+    "endDate": "20251101"
+  },
+  "createdAt": "202511010228",
+  "originalUrlBase": "/th?id=OHR.BranCastle_ROW9947564327"
+}

@@ -1,0 +1,43 @@
+{
+  "date": "1 nov. 2025",
+  "country": "France",
+  "marketCode": "fr-FR",
+  "title": "La résilience des bisons à Yellowstone",
+  "bsTitle": "La résilience des bisons à Yellowstone",
+  "caption": "Le bison d’Amérique",
+  "copyright": "Bisons près des sources chaudes de Yellowstone, Wyoming, États-Unis (© Cheryl Ramalho/Getty Images)",
+  "copyrightOnly": "© Cheryl Ramalho/Getty Images",
+  "copyrightLink": "/search?q=bison+d%27Am%c3%a9rique&form=hpcapt&filters=HpDate%3a%2220251031_2300%22",
+  "description": "Sous les vapeurs brûlantes des sources de Yellowstone en Amérique, des bisons avancent. Leur masse impressionne : plus de 900 kilos de puissance, guidée par un pas mesuré, presque méditatif. Jadis, ces géants couvraient les plaines par millions, avant de frôler la disparition au XIXe siècle. Leur retour, fragile mais bien réel, incarne une renaissance.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251031_BisonSprings%22&FORM=HPQUIZ",
+  "hash": "5ce5083d9202d3733763688478a2aa1d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_FR-FR3050146396_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_FR-FR3050146396_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_FR-FR3050146396_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_FR-FR3050146396_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251031",
+    "fullStartDateTime": "202510312300",
+    "endDate": "20251101"
+  },
+  "createdAt": "202511010228",
+  "originalUrlBase": "/th?id=OHR.BisonSprings_FR-FR3050146396"
+}

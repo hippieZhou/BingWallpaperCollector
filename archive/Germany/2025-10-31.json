@@ -1,0 +1,43 @@
+{
+  "date": "1. Nov.. 2025",
+  "country": "Germany",
+  "marketCode": "de-DE",
+  "title": "Zeugen der Wildnis",
+  "bsTitle": "Zeugen der Wildnis",
+  "caption": "Heiße Quellen im Yellowstone-Nationalpark, Wyoming, USA",
+  "copyright": "Bisons grasen an heißen Quellen im Yellowstone-Nationalpark, Wyoming, USA (© Cheryl Ramalho/Getty Images)",
+  "copyrightOnly": "© Cheryl Ramalho/Getty Images",
+  "copyrightLink": "/search?q=Yellowstone-Nationalpark&form=hpcapt&filters=HpDate%3a%2220251031_2300%22",
+  "description": "Dampf steigt aus der Erde, die Luft riecht nach Schwefel – und mitten in dieser mystischen Landschaft grasen Bisons. Der Yellowstone-Nationalpark im Nordwesten der USA liegt größtenteils im Bundesstaat Wyoming und ist berühmt für seine heißen Quellen, Geysire und dampfenden Schlammbecken. Diese geothermischen Wunder entstehen durch vulkanische Aktivität unter der Erdoberfläche – ähnlich wie in der Vulkaneifel in Rheinland-Pfalz, wo über 350 ehemalige Vulkane und Maarkrater bis heute von der bewegten Erdgeschichte zeugen.",
+  "quiz": "/search?q=Bing+homepage+quiz&filters=WQOskey:%22HPQuiz_20251031_BisonSprings%22&FORM=HPQUIZ",
+  "hash": "aade466f9f7f16d802067061e3656e1d",
+  "imageResolutions": [
+    {
+      "resolution": "Standard",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_DE-DE1694080486_1366x768.jpg",
+      "size": "1366x768"
+    },
+    {
+      "resolution": "FullHD",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_DE-DE1694080486_1920x1080.jpg",
+      "size": "1920x1080"
+    },
+    {
+      "resolution": "HD",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_DE-DE1694080486_1920x1200.jpg",
+      "size": "1920x1200"
+    },
+    {
+      "resolution": "UHD4K",
+      "url": "https://www.bing.com/th?id=OHR.BisonSprings_DE-DE1694080486_UHD.jpg",
+      "size": "3840x2160"
+    }
+  ],
+  "timeInfo": {
+    "startDate": "20251031",
+    "fullStartDateTime": "202510312300",
+    "endDate": "20251101"
+  },
+  "createdAt": "202511010228",
+  "originalUrlBase": "/th?id=OHR.BisonSprings_DE-DE1694080486"
+}
